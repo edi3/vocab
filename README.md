@@ -1,1 +1,1 @@
-# vocab
+# JSON-LD vocabulary
