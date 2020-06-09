@@ -1,0 +1,8 @@
+{
+  "@context": {
+    "@vocab":   "https://edi3.org/vocab/mmt#",
+    "mmt":      "https://edi3.org/vocab/mmt#",
+
+    "AcademicQualification":    { "@type": "@id" }
+  }
+}
