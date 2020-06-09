@@ -1,18 +1,18 @@
 {
     "@context": {
         "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
-        "mmt": "https://edi3.org/mmt/vocab#",
+        "mmt": "https://edi3.org/vocab/mmt#",
         "xsd": "http://www.w3.org/2001/XMLSchema#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
         "dc": "http://purl.org/dc/elements/1.1/"
     },
     "@graph": [
         {
-            "@id": "https://edi3.org/mmt/vocab#",
+            "@id": "https://edi3.org/vocab/mmt#",
             "dc:creator": "EDI3",
             "dc:date": "2020-06-09",
             "dc:description": "MMT Vocabulary",
-            "dc:identifier": "https://edi3.org/mmt/vocab#",
+            "dc:identifier": "https://edi3.org/vocab/mmt#",
             "dc:publisher": "EDI3",
             "dc:title": "MMT Vocabulary",
             "rdfs:comment": "MMT Vocabulary"
