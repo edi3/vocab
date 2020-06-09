@@ -1,0 +1,3101 @@
+{
+    "@context": {
+        "schema": "http://schema.org/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "mmt": "https://edi3.org/mmt/vocab#",
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "isoc": "https://edi3.org/isoc/vocab#",
+        "dc": "http://purl.org/dc/elements/1.1/"
+    },
+    "@graph": [
+        {
+            "@id": "isoc:ISO3166Code",
+            "@type": "rdfs:Class",
+            "rdfs:label": "ISO3166Code",
+            "rdfs:subClassOf": "schema:Enumeration"
+        },
+        {
+            "@id": "isoc:ISO3166CodeAD",
+            "@type": "isoc:ISO3166Code",
+            "rdfs:label": "Andorra"
+        },
+        {
+            "@id": "isoc:ISO3166CodeAE",
+            "@type": "isoc:ISO3166Code",
+            "rdfs:label": "UnitedArabEmirates"
+        },
+        {
+            "@id": "isoc:ISO3166CodeAF",
+            "@type": "isoc:ISO3166Code",
+            "rdfs:label": "Afghanistan"
+        },
+        {
+            "@id": "isoc:ISO3166CodeAG",
+            "@type": "isoc:ISO3166Code",
+            "rdfs:label": "AntiguaandBarbuda"
+        },
+        {
+            "@id": "isoc:ISO3166CodeAI",
+            "@type": "isoc:ISO3166Code",
+            "rdfs:label": "Anguilla"
+        },
+        {
+            "@id": "isoc:ISO3166CodeAL",
+            "@type": "isoc:ISO3166Code",
+            "rdfs:label": "Albania"
+        },
+        {
+            "@id": "isoc:ISO3166CodeAM",
+            "@type": "isoc:ISO3166Code",
+            "rdfs:label": "Armenia"
+        },
+        {
+            "@id": "isoc:ISO3166CodeAO",
+            "@type": "isoc:ISO3166Code",
+            "rdfs:label": "Angola"
+        },
+        {
+            "@id": "isoc:ISO3166CodeAQ",
+            "@type": "isoc:ISO3166Code",
+            "rdfs:label": "Antarctica"
+        },
+        {
+            "@id": "isoc:ISO3166CodeAR",
+            "@type": "isoc:ISO3166Code",
+            "rdfs:label": "Argentina"
+        },
+        {
+            "@id": "isoc:ISO3166CodeAS",
+            "@type": "isoc:ISO3166Code",
+            "rdfs:label": "AmericanSamoa"
+        },
+        {
+            "@id": "isoc:ISO3166CodeAT",
+            "@type": "isoc:ISO3166Code",
+            "rdfs:label": "Austria"
+        },
+        {
+            "@id": "isoc:ISO3166CodeAU",
+            "@type": "isoc:ISO3166Code",
+            "rdfs:label": "Australia"
+        },
+        {
+            "@id": "isoc:ISO3166CodeAW",
+            "@type": "isoc:ISO3166Code",
+            "rdfs:label": "Aruba"
+        },
+        {
+            "@id": "isoc:ISO3166CodeAX",
+            "@type": "isoc:ISO3166Code",
+            "rdfs:label": "Ă…landIslands"
+        },
+        {
+            "@id": "isoc:ISO3166CodeAZ",
+            "@type": "isoc:ISO3166Code",
+            "rdfs:label": "Azerbaijan"
+        },
+        {
+            "@id": "isoc:ISO3166CodeBA",
+            "@type": "isoc:ISO3166Code",
+            "rdfs:label": "BosniaandHerzegovina"
+        },
+        {
+            "@id": "isoc:ISO3166CodeBB",
+            "@type": "isoc:ISO3166Code",
+            "rdfs:label": "Barbados"
+        },
+        {
+            "@id": "isoc:ISO3166CodeBD",
+            "@type": "isoc:ISO3166Code",
+            "rdfs:label": "Bangladesh"
+        },
+        {
+            "@id": "isoc:ISO3166CodeBE",
+            "@type": "isoc:ISO3166Code",
+            "rdfs:label": "Belgium"
+        },
+        {
+            "@id": "isoc:ISO3166CodeBF",
+            "@type": "isoc:ISO3166Code",
+            "rdfs:label": "BurkinaFaso"
+        },
+        {
+            "@id": "isoc:ISO3166CodeBG",
+            "@type": "isoc:ISO3166Code",
+            "rdfs:label": "Bulgaria"
+        },
+        {
+            "@id": "isoc:ISO3166CodeBH",
+            "@type": "isoc:ISO3166Code",
+            "rdfs:label": "Bahrain"
+        },
+        {
+            "@id": "isoc:ISO3166CodeBI",
+            "@type": "isoc:ISO3166Code",
+            "rdfs:label": "Burundi"
+        },
+        {
+            "@id": "isoc:ISO3166CodeBJ",
+            "@type": "isoc:ISO3166Code",
+            "rdfs:label": "Benin"
+        },
+        {
+            "@id": "isoc:ISO3166CodeBL",
+            "@type": "isoc:ISO3166Code",
+            "rdfs:label": "SaintBarthĂ©lemy"
+        },
+        {
+            "@id": "isoc:ISO3166CodeBM",
+            "@type": "isoc:ISO3166Code",
+            "rdfs:label": "Bermuda"
+        },
+        {
+            "@id": "isoc:ISO3166CodeBN",
+            "@type": "isoc:ISO3166Code",
+            "rdfs:label": "BruneiDarussalam"
+        },
+        {
+            "@id": "isoc:ISO3166CodeBO",
+            "@type": "isoc:ISO3166Code",
+            "rdfs:label": "Bolivia,PlurinationalStateof"
+        },
+        {
+            "@id": "isoc:ISO3166CodeBQ",
+            "@type": "isoc:ISO3166Code",
+            "rdfs:label": "Bonaire,SintEustatiusandSaba"
+        },
+        {
+            "@id": "isoc:ISO3166CodeBR",
+            "@type": "isoc:ISO3166Code",
+            "rdfs:label": "Brazil"
+        },
+        {
+            "@id": "isoc:ISO3166CodeBS",
+            "@type": "isoc:ISO3166Code",
+            "rdfs:label": "Bahamas"
+        },
+        {
+            "@id": "isoc:ISO3166CodeBT",
+            "@type": "isoc:ISO3166Code",
+            "rdfs:label": "Bhutan"
+        },
+        {
+            "@id": "isoc:ISO3166CodeBV",
+            "@type": "isoc:ISO3166Code",
+            "rdfs:label": "BouvetIsland"
+        },
+        {
+            "@id": "isoc:ISO3166CodeBW",
+            "@type": "isoc:ISO3166Code",
+            "rdfs:label": "Botswana"
+        },
+        {
+            "@id": "isoc:ISO3166CodeBY",
+            "@type": "isoc:ISO3166Code",
+            "rdfs:label": "Belarus"
+        },
+        {
+            "@id": "isoc:ISO3166CodeBZ",
+            "@type": "isoc:ISO3166Code",
+            "rdfs:label": "Belize"
+        },
+        {
+            "@id": "isoc:ISO3166CodeCA",
+            "@type": "isoc:ISO3166Code",
+            "rdfs:label": "Canada"
+        },
+        {
+            "@id": "isoc:ISO3166CodeCC",
+            "@type": "isoc:ISO3166Code",
+            "rdfs:label": "Cocos(Keeling)Islands"
+        },
+        {
+            "@id": "isoc:ISO3166CodeCD",
+            "@type": "isoc:ISO3166Code",
+            "rdfs:label": "Congo,theDemocraticRepublicofthe"
+        },
+        {
+            "@id": "isoc:ISO3166CodeCF",
+            "@type": "isoc:ISO3166Code",
+            "rdfs:label": "CentralAfricanRepublic"
+        },
+        {
+            "@id": "isoc:ISO3166CodeCG",
+            "@type": "isoc:ISO3166Code",
+            "rdfs:label": "Congo"
+        },
+        {
+            "@id": "isoc:ISO3166CodeCH",
+            "@type": "isoc:ISO3166Code",
+            "rdfs:label": "Switzerland"
+        },
+        {
+            "@id": "isoc:ISO3166CodeCI",
+            "@type": "isoc:ISO3166Code",
+            "rdfs:label": "CĂ´ted'Ivoire"
+        },
+        {
+            "@id": "isoc:ISO3166CodeCK",
+            "@type": "isoc:ISO3166Code",
+            "rdfs:label": "CookIslands"
+        },
+        {
+            "@id": "isoc:ISO3166CodeCL",
+            "@type": "isoc:ISO3166Code",
+            "rdfs:label": "Chile"
+        },
+        {
+            "@id": "isoc:ISO3166CodeCM",
+            "@type": "isoc:ISO3166Code",
+            "rdfs:label": "Cameroon"
+        },
+        {
+            "@id": "isoc:ISO3166CodeCN",
+            "@type": "isoc:ISO3166Code",
+            "rdfs:label": "China"
+        },
+        {
+            "@id": "isoc:ISO3166CodeCO",
+            "@type": "isoc:ISO3166Code",
+            "rdfs:label": "Colombia"
+        },
+        {
+            "@id": "isoc:ISO3166CodeCR",
+            "@type": "isoc:ISO3166Code",
+            "rdfs:label": "CostaRica"
+        },
+        {
+            "@id": "isoc:ISO3166CodeCU",
+            "@type": "isoc:ISO3166Code",
+            "rdfs:label": "Cuba"
+        },
+        {
+            "@id": "isoc:ISO3166CodeCV",
+            "@type": "isoc:ISO3166Code",
+            "rdfs:label": "CapeVerde"
+        },
+        {
+            "@id": "isoc:ISO3166CodeCW",
+            "@type": "isoc:ISO3166Code",
+            "rdfs:label": "CuraĂ§ao"
+        },
+        {
+            "@id": "isoc:ISO3166CodeCX",
+            "@type": "isoc:ISO3166Code",
+            "rdfs:label": "ChristmasIsland"
+        },
+        {
+            "@id": "isoc:ISO3166CodeCY",
+            "@type": "isoc:ISO3166Code",
+            "rdfs:label": "Cyprus"
+        },
+        {
+            "@id": "isoc:ISO3166CodeCZ",
+            "@type": "isoc:ISO3166Code",
+            "rdfs:label": "CzechRepublic"
+        },
+        {
+            "@id": "isoc:ISO3166CodeDE",
+            "@type": "isoc:ISO3166Code",
+            "rdfs:label": "Germany"
+        },
+        {
+            "@id": "isoc:ISO3166CodeDJ",
+            "@type": "isoc:ISO3166Code",
+            "rdfs:label": "Djibouti"
+        },
+        {
+            "@id": "isoc:ISO3166CodeDK",
+            "@type": "isoc:ISO3166Code",
+            "rdfs:label": "Denmark"
+        },
+        {
+            "@id": "isoc:ISO3166CodeDM",
+            "@type": "isoc:ISO3166Code",
+            "rdfs:label": "Dominica"
+        },
+        {
+            "@id": "isoc:ISO3166CodeDO",
+            "@type": "isoc:ISO3166Code",
+            "rdfs:label": "DominicanRepublic"
+        },
+        {
+            "@id": "isoc:ISO3166CodeDZ",
+            "@type": "isoc:ISO3166Code",
+            "rdfs:label": "Algeria"
+        },
+        {
+            "@id": "isoc:ISO3166CodeEC",
+            "@type": "isoc:ISO3166Code",
+            "rdfs:label": "Ecuador"
+        },
+        {
+            "@id": "isoc:ISO3166CodeEE",
+            "@type": "isoc:ISO3166Code",
+            "rdfs:label": "Estonia"
+        },
+        {
+            "@id": "isoc:ISO3166CodeEG",
+            "@type": "isoc:ISO3166Code",
+            "rdfs:label": "Egypt"
+        },
+        {
+            "@id": "isoc:ISO3166CodeEH",
+            "@type": "isoc:ISO3166Code",
+            "rdfs:label": "WesternSahara"
+        },
+        {
+            "@id": "isoc:ISO3166CodeER",
+            "@type": "isoc:ISO3166Code",
+            "rdfs:label": "Eritrea"
+        },
+        {
+            "@id": "isoc:ISO3166CodeES",
+            "@type": "isoc:ISO3166Code",
+            "rdfs:label": "Spain"
+        },
+        {
+            "@id": "isoc:ISO3166CodeET",
+            "@type": "isoc:ISO3166Code",
+            "rdfs:label": "Ethiopia"
+        },
+        {
+            "@id": "isoc:ISO3166CodeFI",
+            "@type": "isoc:ISO3166Code",
+            "rdfs:label": "Finland"
+        },
+        {
+            "@id": "isoc:ISO3166CodeFJ",
+            "@type": "isoc:ISO3166Code",
+            "rdfs:label": "Fiji"
+        },
+        {
+            "@id": "isoc:ISO3166CodeFK",
+            "@type": "isoc:ISO3166Code",
+            "rdfs:label": "FalklandIslands(Malvinas)"
+        },
+        {
+            "@id": "isoc:ISO3166CodeFM",
+            "@type": "isoc:ISO3166Code",
+            "rdfs:label": "Micronesia,FederatedStatesof"
+        },
+        {
+            "@id": "isoc:ISO3166CodeFO",
+            "@type": "isoc:ISO3166Code",
+            "rdfs:label": "FaroeIslands"
+        },
+        {
+            "@id": "isoc:ISO3166CodeFR",
+            "@type": "isoc:ISO3166Code",
+            "rdfs:label": "France"
+        },
+        {
+            "@id": "isoc:ISO3166CodeGA",
+            "@type": "isoc:ISO3166Code",
+            "rdfs:label": "Gabon"
+        },
+        {
+            "@id": "isoc:ISO3166CodeGB",
+            "@type": "isoc:ISO3166Code",
+            "rdfs:label": "UnitedKingdom"
+        },
+        {
+            "@id": "isoc:ISO3166CodeGD",
+            "@type": "isoc:ISO3166Code",
+            "rdfs:label": "Grenada"
+        },
+        {
+            "@id": "isoc:ISO3166CodeGE",
+            "@type": "isoc:ISO3166Code",
+            "rdfs:label": "Georgia"
+        },
+        {
+            "@id": "isoc:ISO3166CodeGF",
+            "@type": "isoc:ISO3166Code",
+            "rdfs:label": "FrenchGuiana"
+        },
+        {
+            "@id": "isoc:ISO3166CodeGG",
+            "@type": "isoc:ISO3166Code",
+            "rdfs:label": "Guernsey"
+        },
+        {
+            "@id": "isoc:ISO3166CodeGH",
+            "@type": "isoc:ISO3166Code",
+            "rdfs:label": "Ghana"
+        },
+        {
+            "@id": "isoc:ISO3166CodeGI",
+            "@type": "isoc:ISO3166Code",
+            "rdfs:label": "Gibraltar"
+        },
+        {
+            "@id": "isoc:ISO3166CodeGL",
+            "@type": "isoc:ISO3166Code",
+            "rdfs:label": "Greenland"
+        },
+        {
+            "@id": "isoc:ISO3166CodeGM",
+            "@type": "isoc:ISO3166Code",
+            "rdfs:label": "Gambia"
+        },
+        {
+            "@id": "isoc:ISO3166CodeGN",
+            "@type": "isoc:ISO3166Code",
+            "rdfs:label": "Guinea"
+        },
+        {
+            "@id": "isoc:ISO3166CodeGP",
+            "@type": "isoc:ISO3166Code",
+            "rdfs:label": "Guadeloupe"
+        },
+        {
+            "@id": "isoc:ISO3166CodeGQ",
+            "@type": "isoc:ISO3166Code",
+            "rdfs:label": "EquatorialGuinea"
+        },
+        {
+            "@id": "isoc:ISO3166CodeGR",
+            "@type": "isoc:ISO3166Code",
+            "rdfs:label": "Greece"
+        },
+        {
+            "@id": "isoc:ISO3166CodeGS",
+            "@type": "isoc:ISO3166Code",
+            "rdfs:label": "SouthGeorgiaandtheSouthSandwichIslands"
+        },
+        {
+            "@id": "isoc:ISO3166CodeGT",
+            "@type": "isoc:ISO3166Code",
+            "rdfs:label": "Guatemala"
+        },
+        {
+            "@id": "isoc:ISO3166CodeGU",
+            "@type": "isoc:ISO3166Code",
+            "rdfs:label": "Guam"
+        },
+        {
+            "@id": "isoc:ISO3166CodeGW",
+            "@type": "isoc:ISO3166Code",
+            "rdfs:label": "GuineaBissau"
+        },
+        {
+            "@id": "isoc:ISO3166CodeGY",
+            "@type": "isoc:ISO3166Code",
+            "rdfs:label": "Guyana"
+        },
+        {
+            "@id": "isoc:ISO3166CodeHK",
+            "@type": "isoc:ISO3166Code",
+            "rdfs:label": "HongKong"
+        },
+        {
+            "@id": "isoc:ISO3166CodeHM",
+            "@type": "isoc:ISO3166Code",
+            "rdfs:label": "HeardIslandandMcDonaldIslands"
+        },
+        {
+            "@id": "isoc:ISO3166CodeHN",
+            "@type": "isoc:ISO3166Code",
+            "rdfs:label": "Honduras"
+        },
+        {
+            "@id": "isoc:ISO3166CodeHR",
+            "@type": "isoc:ISO3166Code",
+            "rdfs:label": "Croatia"
+        },
+        {
+            "@id": "isoc:ISO3166CodeHT",
+            "@type": "isoc:ISO3166Code",
+            "rdfs:label": "Haiti"
+        },
+        {
+            "@id": "isoc:ISO3166CodeHU",
+            "@type": "isoc:ISO3166Code",
+            "rdfs:label": "Hungary"
+        },
+        {
+            "@id": "isoc:ISO3166CodeID",
+            "@type": "isoc:ISO3166Code",
+            "rdfs:label": "Indonesia"
+        },
+        {
+            "@id": "isoc:ISO3166CodeIE",
+            "@type": "isoc:ISO3166Code",
+            "rdfs:label": "Ireland"
+        },
+        {
+            "@id": "isoc:ISO3166CodeIL",
+            "@type": "isoc:ISO3166Code",
+            "rdfs:label": "Israel"
+        },
+        {
+            "@id": "isoc:ISO3166CodeIM",
+            "@type": "isoc:ISO3166Code",
+            "rdfs:label": "IsleofMan"
+        },
+        {
+            "@id": "isoc:ISO3166CodeIN",
+            "@type": "isoc:ISO3166Code",
+            "rdfs:label": "India"
+        },
+        {
+            "@id": "isoc:ISO3166CodeIO",
+            "@type": "isoc:ISO3166Code",
+            "rdfs:label": "BritishIndianOceanTerritory"
+        },
+        {
+            "@id": "isoc:ISO3166CodeIQ",
+            "@type": "isoc:ISO3166Code",
+            "rdfs:label": "Iraq"
+        },
+        {
+            "@id": "isoc:ISO3166CodeIR",
+            "@type": "isoc:ISO3166Code",
+            "rdfs:label": "Iran,IslamicRepublicof"
+        },
+        {
+            "@id": "isoc:ISO3166CodeIS",
+            "@type": "isoc:ISO3166Code",
+            "rdfs:label": "Iceland"
+        },
+        {
+            "@id": "isoc:ISO3166CodeIT",
+            "@type": "isoc:ISO3166Code",
+            "rdfs:label": "Italy"
+        },
+        {
+            "@id": "isoc:ISO3166CodeJE",
+            "@type": "isoc:ISO3166Code",
+            "rdfs:label": "Jersey"
+        },
+        {
+            "@id": "isoc:ISO3166CodeJM",
+            "@type": "isoc:ISO3166Code",
+            "rdfs:label": "Jamaica"
+        },
+        {
+            "@id": "isoc:ISO3166CodeJO",
+            "@type": "isoc:ISO3166Code",
+            "rdfs:label": "Jordan"
+        },
+        {
+            "@id": "isoc:ISO3166CodeJP",
+            "@type": "isoc:ISO3166Code",
+            "rdfs:label": "Japan"
+        },
+        {
+            "@id": "isoc:ISO3166CodeKE",
+            "@type": "isoc:ISO3166Code",
+            "rdfs:label": "Kenya"
+        },
+        {
+            "@id": "isoc:ISO3166CodeKG",
+            "@type": "isoc:ISO3166Code",
+            "rdfs:label": "Kyrgyzstan"
+        },
+        {
+            "@id": "isoc:ISO3166CodeKH",
+            "@type": "isoc:ISO3166Code",
+            "rdfs:label": "Cambodia"
+        },
+        {
+            "@id": "isoc:ISO3166CodeKI",
+            "@type": "isoc:ISO3166Code",
+            "rdfs:label": "Kiribati"
+        },
+        {
+            "@id": "isoc:ISO3166CodeKM",
+            "@type": "isoc:ISO3166Code",
+            "rdfs:label": "Comoros"
+        },
+        {
+            "@id": "isoc:ISO3166CodeKN",
+            "@type": "isoc:ISO3166Code",
+            "rdfs:label": "SaintKittsandNevis"
+        },
+        {
+            "@id": "isoc:ISO3166CodeKP",
+            "@type": "isoc:ISO3166Code",
+            "rdfs:label": "Korea,DemocraticPeople'sRepublicof"
+        },
+        {
+            "@id": "isoc:ISO3166CodeKR",
+            "@type": "isoc:ISO3166Code",
+            "rdfs:label": "Korea,Republicof"
+        },
+        {
+            "@id": "isoc:ISO3166CodeKW",
+            "@type": "isoc:ISO3166Code",
+            "rdfs:label": "Kuwait"
+        },
+        {
+            "@id": "isoc:ISO3166CodeKY",
+            "@type": "isoc:ISO3166Code",
+            "rdfs:label": "CaymanIslands"
+        },
+        {
+            "@id": "isoc:ISO3166CodeKZ",
+            "@type": "isoc:ISO3166Code",
+            "rdfs:label": "Kazakhstan"
+        },
+        {
+            "@id": "isoc:ISO3166CodeLA",
+            "@type": "isoc:ISO3166Code",
+            "rdfs:label": "LaoPeople'sDemocraticRepublic"
+        },
+        {
+            "@id": "isoc:ISO3166CodeLB",
+            "@type": "isoc:ISO3166Code",
+            "rdfs:label": "Lebanon"
+        },
+        {
+            "@id": "isoc:ISO3166CodeLC",
+            "@type": "isoc:ISO3166Code",
+            "rdfs:label": "SaintLucia"
+        },
+        {
+            "@id": "isoc:ISO3166CodeLI",
+            "@type": "isoc:ISO3166Code",
+            "rdfs:label": "Liechtenstein"
+        },
+        {
+            "@id": "isoc:ISO3166CodeLK",
+            "@type": "isoc:ISO3166Code",
+            "rdfs:label": "SriLanka"
+        },
+        {
+            "@id": "isoc:ISO3166CodeLR",
+            "@type": "isoc:ISO3166Code",
+            "rdfs:label": "Liberia"
+        },
+        {
+            "@id": "isoc:ISO3166CodeLS",
+            "@type": "isoc:ISO3166Code",
+            "rdfs:label": "Lesotho"
+        },
+        {
+            "@id": "isoc:ISO3166CodeLT",
+            "@type": "isoc:ISO3166Code",
+            "rdfs:label": "Lithuania"
+        },
+        {
+            "@id": "isoc:ISO3166CodeLU",
+            "@type": "isoc:ISO3166Code",
+            "rdfs:label": "Luxembourg"
+        },
+        {
+            "@id": "isoc:ISO3166CodeLV",
+            "@type": "isoc:ISO3166Code",
+            "rdfs:label": "Latvia"
+        },
+        {
+            "@id": "isoc:ISO3166CodeLY",
+            "@type": "isoc:ISO3166Code",
+            "rdfs:label": "Libya"
+        },
+        {
+            "@id": "isoc:ISO3166CodeMA",
+            "@type": "isoc:ISO3166Code",
+            "rdfs:label": "Morocco"
+        },
+        {
+            "@id": "isoc:ISO3166CodeMC",
+            "@type": "isoc:ISO3166Code",
+            "rdfs:label": "Monaco"
+        },
+        {
+            "@id": "isoc:ISO3166CodeMD",
+            "@type": "isoc:ISO3166Code",
+            "rdfs:label": "Moldova,Republicof"
+        },
+        {
+            "@id": "isoc:ISO3166CodeME",
+            "@type": "isoc:ISO3166Code",
+            "rdfs:label": "Montenegro"
+        },
+        {
+            "@id": "isoc:ISO3166CodeMF",
+            "@type": "isoc:ISO3166Code",
+            "rdfs:label": "SaintMartin(Frenchpart)"
+        },
+        {
+            "@id": "isoc:ISO3166CodeMG",
+            "@type": "isoc:ISO3166Code",
+            "rdfs:label": "Madagascar"
+        },
+        {
+            "@id": "isoc:ISO3166CodeMH",
+            "@type": "isoc:ISO3166Code",
+            "rdfs:label": "MarshallIslands"
+        },
+        {
+            "@id": "isoc:ISO3166CodeMK",
+            "@type": "isoc:ISO3166Code",
+            "rdfs:label": "Macedonia,theFormerYugoslavRepublicof"
+        },
+        {
+            "@id": "isoc:ISO3166CodeML",
+            "@type": "isoc:ISO3166Code",
+            "rdfs:label": "Mali"
+        },
+        {
+            "@id": "isoc:ISO3166CodeMM",
+            "@type": "isoc:ISO3166Code",
+            "rdfs:label": "Myanmar"
+        },
+        {
+            "@id": "isoc:ISO3166CodeMN",
+            "@type": "isoc:ISO3166Code",
+            "rdfs:label": "Mongolia"
+        },
+        {
+            "@id": "isoc:ISO3166CodeMO",
+            "@type": "isoc:ISO3166Code",
+            "rdfs:label": "Macao"
+        },
+        {
+            "@id": "isoc:ISO3166CodeMP",
+            "@type": "isoc:ISO3166Code",
+            "rdfs:label": "NorthernMarianaIslands"
+        },
+        {
+            "@id": "isoc:ISO3166CodeMQ",
+            "@type": "isoc:ISO3166Code",
+            "rdfs:label": "Martinique"
+        },
+        {
+            "@id": "isoc:ISO3166CodeMR",
+            "@type": "isoc:ISO3166Code",
+            "rdfs:label": "Mauritania"
+        },
+        {
+            "@id": "isoc:ISO3166CodeMS",
+            "@type": "isoc:ISO3166Code",
+            "rdfs:label": "Montserrat"
+        },
+        {
+            "@id": "isoc:ISO3166CodeMT",
+            "@type": "isoc:ISO3166Code",
+            "rdfs:label": "Malta"
+        },
+        {
+            "@id": "isoc:ISO3166CodeMU",
+            "@type": "isoc:ISO3166Code",
+            "rdfs:label": "Mauritius"
+        },
+        {
+            "@id": "isoc:ISO3166CodeMV",
+            "@type": "isoc:ISO3166Code",
+            "rdfs:label": "Maldives"
+        },
+        {
+            "@id": "isoc:ISO3166CodeMW",
+            "@type": "isoc:ISO3166Code",
+            "rdfs:label": "Malawi"
+        },
+        {
+            "@id": "isoc:ISO3166CodeMX",
+            "@type": "isoc:ISO3166Code",
+            "rdfs:label": "Mexico"
+        },
+        {
+            "@id": "isoc:ISO3166CodeMY",
+            "@type": "isoc:ISO3166Code",
+            "rdfs:label": "Malaysia"
+        },
+        {
+            "@id": "isoc:ISO3166CodeMZ",
+            "@type": "isoc:ISO3166Code",
+            "rdfs:label": "Mozambique"
+        },
+        {
+            "@id": "isoc:ISO3166CodeNA",
+            "@type": "isoc:ISO3166Code",
+            "rdfs:label": "Namibia"
+        },
+        {
+            "@id": "isoc:ISO3166CodeNC",
+            "@type": "isoc:ISO3166Code",
+            "rdfs:label": "NewCaledonia"
+        },
+        {
+            "@id": "isoc:ISO3166CodeNE",
+            "@type": "isoc:ISO3166Code",
+            "rdfs:label": "Niger"
+        },
+        {
+            "@id": "isoc:ISO3166CodeNF",
+            "@type": "isoc:ISO3166Code",
+            "rdfs:label": "NorfolkIsland"
+        },
+        {
+            "@id": "isoc:ISO3166CodeNG",
+            "@type": "isoc:ISO3166Code",
+            "rdfs:label": "Nigeria"
+        },
+        {
+            "@id": "isoc:ISO3166CodeNI",
+            "@type": "isoc:ISO3166Code",
+            "rdfs:label": "Nicaragua"
+        },
+        {
+            "@id": "isoc:ISO3166CodeNL",
+            "@type": "isoc:ISO3166Code",
+            "rdfs:label": "Netherlands"
+        },
+        {
+            "@id": "isoc:ISO3166CodeNO",
+            "@type": "isoc:ISO3166Code",
+            "rdfs:label": "Norway"
+        },
+        {
+            "@id": "isoc:ISO3166CodeNP",
+            "@type": "isoc:ISO3166Code",
+            "rdfs:label": "Nepal"
+        },
+        {
+            "@id": "isoc:ISO3166CodeNR",
+            "@type": "isoc:ISO3166Code",
+            "rdfs:label": "Nauru"
+        },
+        {
+            "@id": "isoc:ISO3166CodeNU",
+            "@type": "isoc:ISO3166Code",
+            "rdfs:label": "Niue"
+        },
+        {
+            "@id": "isoc:ISO3166CodeNZ",
+            "@type": "isoc:ISO3166Code",
+            "rdfs:label": "NewZealand"
+        },
+        {
+            "@id": "isoc:ISO3166CodeOM",
+            "@type": "isoc:ISO3166Code",
+            "rdfs:label": "Oman"
+        },
+        {
+            "@id": "isoc:ISO3166CodePA",
+            "@type": "isoc:ISO3166Code",
+            "rdfs:label": "Panama"
+        },
+        {
+            "@id": "isoc:ISO3166CodePE",
+            "@type": "isoc:ISO3166Code",
+            "rdfs:label": "Peru"
+        },
+        {
+            "@id": "isoc:ISO3166CodePF",
+            "@type": "isoc:ISO3166Code",
+            "rdfs:label": "FrenchPolynesia"
+        },
+        {
+            "@id": "isoc:ISO3166CodePG",
+            "@type": "isoc:ISO3166Code",
+            "rdfs:label": "PapuaNewGuinea"
+        },
+        {
+            "@id": "isoc:ISO3166CodePH",
+            "@type": "isoc:ISO3166Code",
+            "rdfs:label": "Philippines"
+        },
+        {
+            "@id": "isoc:ISO3166CodePK",
+            "@type": "isoc:ISO3166Code",
+            "rdfs:label": "Pakistan"
+        },
+        {
+            "@id": "isoc:ISO3166CodePL",
+            "@type": "isoc:ISO3166Code",
+            "rdfs:label": "Poland"
+        },
+        {
+            "@id": "isoc:ISO3166CodePM",
+            "@type": "isoc:ISO3166Code",
+            "rdfs:label": "SaintPierreandMiquelon"
+        },
+        {
+            "@id": "isoc:ISO3166CodePN",
+            "@type": "isoc:ISO3166Code",
+            "rdfs:label": "Pitcairn"
+        },
+        {
+            "@id": "isoc:ISO3166CodePR",
+            "@type": "isoc:ISO3166Code",
+            "rdfs:label": "PuertoRico"
+        },
+        {
+            "@id": "isoc:ISO3166CodePS",
+            "@type": "isoc:ISO3166Code",
+            "rdfs:label": "Palestine,Stateof"
+        },
+        {
+            "@id": "isoc:ISO3166CodePT",
+            "@type": "isoc:ISO3166Code",
+            "rdfs:label": "Portugal"
+        },
+        {
+            "@id": "isoc:ISO3166CodePW",
+            "@type": "isoc:ISO3166Code",
+            "rdfs:label": "Palau"
+        },
+        {
+            "@id": "isoc:ISO3166CodePY",
+            "@type": "isoc:ISO3166Code",
+            "rdfs:label": "Paraguay"
+        },
+        {
+            "@id": "isoc:ISO3166CodeQA",
+            "@type": "isoc:ISO3166Code",
+            "rdfs:label": "Qatar"
+        },
+        {
+            "@id": "isoc:ISO3166CodeRE",
+            "@type": "isoc:ISO3166Code",
+            "rdfs:label": "RĂ©union"
+        },
+        {
+            "@id": "isoc:ISO3166CodeRO",
+            "@type": "isoc:ISO3166Code",
+            "rdfs:label": "Romania"
+        },
+        {
+            "@id": "isoc:ISO3166CodeRS",
+            "@type": "isoc:ISO3166Code",
+            "rdfs:label": "Serbia"
+        },
+        {
+            "@id": "isoc:ISO3166CodeRU",
+            "@type": "isoc:ISO3166Code",
+            "rdfs:label": "RussianFederation"
+        },
+        {
+            "@id": "isoc:ISO3166CodeRW",
+            "@type": "isoc:ISO3166Code",
+            "rdfs:label": "Rwanda"
+        },
+        {
+            "@id": "isoc:ISO3166CodeSA",
+            "@type": "isoc:ISO3166Code",
+            "rdfs:label": "SaudiArabia"
+        },
+        {
+            "@id": "isoc:ISO3166CodeSB",
+            "@type": "isoc:ISO3166Code",
+            "rdfs:label": "SolomonIslands"
+        },
+        {
+            "@id": "isoc:ISO3166CodeSC",
+            "@type": "isoc:ISO3166Code",
+            "rdfs:label": "Seychelles"
+        },
+        {
+            "@id": "isoc:ISO3166CodeSD",
+            "@type": "isoc:ISO3166Code",
+            "rdfs:label": "Sudan"
+        },
+        {
+            "@id": "isoc:ISO3166CodeSE",
+            "@type": "isoc:ISO3166Code",
+            "rdfs:label": "Sweden"
+        },
+        {
+            "@id": "isoc:ISO3166CodeSG",
+            "@type": "isoc:ISO3166Code",
+            "rdfs:label": "Singapore"
+        },
+        {
+            "@id": "isoc:ISO3166CodeSH",
+            "@type": "isoc:ISO3166Code",
+            "rdfs:label": "SaintHelena,AscensionandTristandaCunha"
+        },
+        {
+            "@id": "isoc:ISO3166CodeSI",
+            "@type": "isoc:ISO3166Code",
+            "rdfs:label": "Slovenia"
+        },
+        {
+            "@id": "isoc:ISO3166CodeSJ",
+            "@type": "isoc:ISO3166Code",
+            "rdfs:label": "SvalbardandJanMayen"
+        },
+        {
+            "@id": "isoc:ISO3166CodeSK",
+            "@type": "isoc:ISO3166Code",
+            "rdfs:label": "Slovakia"
+        },
+        {
+            "@id": "isoc:ISO3166CodeSL",
+            "@type": "isoc:ISO3166Code",
+            "rdfs:label": "SierraLeone"
+        },
+        {
+            "@id": "isoc:ISO3166CodeSM",
+            "@type": "isoc:ISO3166Code",
+            "rdfs:label": "SanMarino"
+        },
+        {
+            "@id": "isoc:ISO3166CodeSN",
+            "@type": "isoc:ISO3166Code",
+            "rdfs:label": "Senegal"
+        },
+        {
+            "@id": "isoc:ISO3166CodeSO",
+            "@type": "isoc:ISO3166Code",
+            "rdfs:label": "Somalia"
+        },
+        {
+            "@id": "isoc:ISO3166CodeSR",
+            "@type": "isoc:ISO3166Code",
+            "rdfs:label": "Suriname"
+        },
+        {
+            "@id": "isoc:ISO3166CodeSS",
+            "@type": "isoc:ISO3166Code",
+            "rdfs:label": "SouthSudan"
+        },
+        {
+            "@id": "isoc:ISO3166CodeST",
+            "@type": "isoc:ISO3166Code",
+            "rdfs:label": "SaoTomeandPrincipe"
+        },
+        {
+            "@id": "isoc:ISO3166CodeSV",
+            "@type": "isoc:ISO3166Code",
+            "rdfs:label": "ElSalvador"
+        },
+        {
+            "@id": "isoc:ISO3166CodeSX",
+            "@type": "isoc:ISO3166Code",
+            "rdfs:label": "SintMaarten(Dutchpart)"
+        },
+        {
+            "@id": "isoc:ISO3166CodeSY",
+            "@type": "isoc:ISO3166Code",
+            "rdfs:label": "SyrianArabRepublic"
+        },
+        {
+            "@id": "isoc:ISO3166CodeSZ",
+            "@type": "isoc:ISO3166Code",
+            "rdfs:label": "Swaziland"
+        },
+        {
+            "@id": "isoc:ISO3166CodeTC",
+            "@type": "isoc:ISO3166Code",
+            "rdfs:label": "TurksandCaicosIslands"
+        },
+        {
+            "@id": "isoc:ISO3166CodeTD",
+            "@type": "isoc:ISO3166Code",
+            "rdfs:label": "Chad"
+        },
+        {
+            "@id": "isoc:ISO3166CodeTF",
+            "@type": "isoc:ISO3166Code",
+            "rdfs:label": "FrenchSouthernTerritories"
+        },
+        {
+            "@id": "isoc:ISO3166CodeTG",
+            "@type": "isoc:ISO3166Code",
+            "rdfs:label": "Togo"
+        },
+        {
+            "@id": "isoc:ISO3166CodeTH",
+            "@type": "isoc:ISO3166Code",
+            "rdfs:label": "Thailand"
+        },
+        {
+            "@id": "isoc:ISO3166CodeTJ",
+            "@type": "isoc:ISO3166Code",
+            "rdfs:label": "Tajikistan"
+        },
+        {
+            "@id": "isoc:ISO3166CodeTK",
+            "@type": "isoc:ISO3166Code",
+            "rdfs:label": "Tokelau"
+        },
+        {
+            "@id": "isoc:ISO3166CodeTL",
+            "@type": "isoc:ISO3166Code",
+            "rdfs:label": "TimorLeste"
+        },
+        {
+            "@id": "isoc:ISO3166CodeTM",
+            "@type": "isoc:ISO3166Code",
+            "rdfs:label": "Turkmenistan"
+        },
+        {
+            "@id": "isoc:ISO3166CodeTN",
+            "@type": "isoc:ISO3166Code",
+            "rdfs:label": "Tunisia"
+        },
+        {
+            "@id": "isoc:ISO3166CodeTO",
+            "@type": "isoc:ISO3166Code",
+            "rdfs:label": "Tonga"
+        },
+        {
+            "@id": "isoc:ISO3166CodeTR",
+            "@type": "isoc:ISO3166Code",
+            "rdfs:label": "Turkey"
+        },
+        {
+            "@id": "isoc:ISO3166CodeTT",
+            "@type": "isoc:ISO3166Code",
+            "rdfs:label": "TrinidadandTobago"
+        },
+        {
+            "@id": "isoc:ISO3166CodeTV",
+            "@type": "isoc:ISO3166Code",
+            "rdfs:label": "Tuvalu"
+        },
+        {
+            "@id": "isoc:ISO3166CodeTW",
+            "@type": "isoc:ISO3166Code",
+            "rdfs:label": "Taiwan,ProvinceofChina"
+        },
+        {
+            "@id": "isoc:ISO3166CodeTZ",
+            "@type": "isoc:ISO3166Code",
+            "rdfs:label": "Tanzania,UnitedRepublicof"
+        },
+        {
+            "@id": "isoc:ISO3166CodeUA",
+            "@type": "isoc:ISO3166Code",
+            "rdfs:label": "Ukraine"
+        },
+        {
+            "@id": "isoc:ISO3166CodeUG",
+            "@type": "isoc:ISO3166Code",
+            "rdfs:label": "Uganda"
+        },
+        {
+            "@id": "isoc:ISO3166CodeUM",
+            "@type": "isoc:ISO3166Code",
+            "rdfs:label": "UnitedStatesMinorOutlyingIslands"
+        },
+        {
+            "@id": "isoc:ISO3166CodeUS",
+            "@type": "isoc:ISO3166Code",
+            "rdfs:label": "UnitedStates"
+        },
+        {
+            "@id": "isoc:ISO3166CodeUY",
+            "@type": "isoc:ISO3166Code",
+            "rdfs:label": "Uruguay"
+        },
+        {
+            "@id": "isoc:ISO3166CodeUZ",
+            "@type": "isoc:ISO3166Code",
+            "rdfs:label": "Uzbekistan"
+        },
+        {
+            "@id": "isoc:ISO3166CodeVA",
+            "@type": "isoc:ISO3166Code",
+            "rdfs:label": "HolySee(VaticanCityState)"
+        },
+        {
+            "@id": "isoc:ISO3166CodeVC",
+            "@type": "isoc:ISO3166Code",
+            "rdfs:label": "SaintVincentandtheGrenadines"
+        },
+        {
+            "@id": "isoc:ISO3166CodeVE",
+            "@type": "isoc:ISO3166Code",
+            "rdfs:label": "Venezuela,BolivarianRepublicof"
+        },
+        {
+            "@id": "isoc:ISO3166CodeVG",
+            "@type": "isoc:ISO3166Code",
+            "rdfs:label": "VirginIslands,British"
+        },
+        {
+            "@id": "isoc:ISO3166CodeVI",
+            "@type": "isoc:ISO3166Code",
+            "rdfs:label": "VirginIslands,U.S."
+        },
+        {
+            "@id": "isoc:ISO3166CodeVN",
+            "@type": "isoc:ISO3166Code",
+            "rdfs:label": "VietNam"
+        },
+        {
+            "@id": "isoc:ISO3166CodeVU",
+            "@type": "isoc:ISO3166Code",
+            "rdfs:label": "Vanuatu"
+        },
+        {
+            "@id": "isoc:ISO3166CodeWF",
+            "@type": "isoc:ISO3166Code",
+            "rdfs:label": "WallisandFutuna"
+        },
+        {
+            "@id": "isoc:ISO3166CodeWS",
+            "@type": "isoc:ISO3166Code",
+            "rdfs:label": "Samoa"
+        },
+        {
+            "@id": "isoc:ISO3166CodeYE",
+            "@type": "isoc:ISO3166Code",
+            "rdfs:label": "Yemen"
+        },
+        {
+            "@id": "isoc:ISO3166CodeYT",
+            "@type": "isoc:ISO3166Code",
+            "rdfs:label": "Mayotte"
+        },
+        {
+            "@id": "isoc:ISO3166CodeZA",
+            "@type": "isoc:ISO3166Code",
+            "rdfs:label": "SouthAfrica"
+        },
+        {
+            "@id": "isoc:ISO3166CodeZM",
+            "@type": "isoc:ISO3166Code",
+            "rdfs:label": "Zambia"
+        },
+        {
+            "@id": "isoc:ISO3166CodeZW",
+            "@type": "isoc:ISO3166Code",
+            "rdfs:label": "Zimbabwe"
+        },
+        {
+            "@id": "isoc:ISO4217Code",
+            "@type": "rdfs:Class",
+            "rdfs:label": "ISO4217Code",
+            "rdfs:subClassOf": "schema:Enumeration"
+        },
+        {
+            "@id": "isoc:ISO4217CodeAED",
+            "@type": "isoc:ISO4217Code",
+            "rdfs:label": "UAEDirham"
+        },
+        {
+            "@id": "isoc:ISO4217CodeAFN",
+            "@type": "isoc:ISO4217Code",
+            "rdfs:label": "Afghani"
+        },
+        {
+            "@id": "isoc:ISO4217CodeALL",
+            "@type": "isoc:ISO4217Code",
+            "rdfs:label": "Lek"
+        },
+        {
+            "@id": "isoc:ISO4217CodeAMD",
+            "@type": "isoc:ISO4217Code",
+            "rdfs:label": "ArmenianDram"
+        },
+        {
+            "@id": "isoc:ISO4217CodeANG",
+            "@type": "isoc:ISO4217Code",
+            "rdfs:label": "NetherlandsAntilleanGuilder"
+        },
+        {
+            "@id": "isoc:ISO4217CodeAOA",
+            "@type": "isoc:ISO4217Code",
+            "rdfs:label": "Kwanza"
+        },
+        {
+            "@id": "isoc:ISO4217CodeARS",
+            "@type": "isoc:ISO4217Code",
+            "rdfs:label": "ArgentinePeso"
+        },
+        {
+            "@id": "isoc:ISO4217CodeAUD",
+            "@type": "isoc:ISO4217Code",
+            "rdfs:label": "AustralianDollar"
+        },
+        {
+            "@id": "isoc:ISO4217CodeAWG",
+            "@type": "isoc:ISO4217Code",
+            "rdfs:label": "ArubanFlorin"
+        },
+        {
+            "@id": "isoc:ISO4217CodeAZN",
+            "@type": "isoc:ISO4217Code",
+            "rdfs:label": "AzerbaijanManat"
+        },
+        {
+            "@id": "isoc:ISO4217CodeBAM",
+            "@type": "isoc:ISO4217Code",
+            "rdfs:label": "ConvertibleMark"
+        },
+        {
+            "@id": "isoc:ISO4217CodeBBD",
+            "@type": "isoc:ISO4217Code",
+            "rdfs:label": "BarbadosDollar"
+        },
+        {
+            "@id": "isoc:ISO4217CodeBDT",
+            "@type": "isoc:ISO4217Code",
+            "rdfs:label": "Taka"
+        },
+        {
+            "@id": "isoc:ISO4217CodeBGN",
+            "@type": "isoc:ISO4217Code",
+            "rdfs:label": "BulgarianLev"
+        },
+        {
+            "@id": "isoc:ISO4217CodeBHD",
+            "@type": "isoc:ISO4217Code",
+            "rdfs:label": "BahrainiDinar"
+        },
+        {
+            "@id": "isoc:ISO4217CodeBIF",
+            "@type": "isoc:ISO4217Code",
+            "rdfs:label": "BurundiFranc"
+        },
+        {
+            "@id": "isoc:ISO4217CodeBMD",
+            "@type": "isoc:ISO4217Code",
+            "rdfs:label": "BermudianDollar"
+        },
+        {
+            "@id": "isoc:ISO4217CodeBND",
+            "@type": "isoc:ISO4217Code",
+            "rdfs:label": "BruneiDollar"
+        },
+        {
+            "@id": "isoc:ISO4217CodeBOB",
+            "@type": "isoc:ISO4217Code",
+            "rdfs:label": "Boliviano"
+        },
+        {
+            "@id": "isoc:ISO4217CodeBOV",
+            "@type": "isoc:ISO4217Code",
+            "rdfs:label": "Mvdol"
+        },
+        {
+            "@id": "isoc:ISO4217CodeBRL",
+            "@type": "isoc:ISO4217Code",
+            "rdfs:label": "BrazilianReal"
+        },
+        {
+            "@id": "isoc:ISO4217CodeBSD",
+            "@type": "isoc:ISO4217Code",
+            "rdfs:label": "BahamianDollar"
+        },
+        {
+            "@id": "isoc:ISO4217CodeBTN",
+            "@type": "isoc:ISO4217Code",
+            "rdfs:label": "Ngultrum"
+        },
+        {
+            "@id": "isoc:ISO4217CodeBWP",
+            "@type": "isoc:ISO4217Code",
+            "rdfs:label": "Pula"
+        },
+        {
+            "@id": "isoc:ISO4217CodeBYN",
+            "@type": "isoc:ISO4217Code",
+            "rdfs:label": "BelarusianRuble"
+        },
+        {
+            "@id": "isoc:ISO4217CodeBZD",
+            "@type": "isoc:ISO4217Code",
+            "rdfs:label": "BelizeDollar"
+        },
+        {
+            "@id": "isoc:ISO4217CodeCAD",
+            "@type": "isoc:ISO4217Code",
+            "rdfs:label": "CanadianDollar"
+        },
+        {
+            "@id": "isoc:ISO4217CodeCDF",
+            "@type": "isoc:ISO4217Code",
+            "rdfs:label": "CongoleseFranc"
+        },
+        {
+            "@id": "isoc:ISO4217CodeCHE",
+            "@type": "isoc:ISO4217Code",
+            "rdfs:label": "WIREuro"
+        },
+        {
+            "@id": "isoc:ISO4217CodeCHF",
+            "@type": "isoc:ISO4217Code",
+            "rdfs:label": "SwissFranc"
+        },
+        {
+            "@id": "isoc:ISO4217CodeCHW",
+            "@type": "isoc:ISO4217Code",
+            "rdfs:label": "WIRFranc"
+        },
+        {
+            "@id": "isoc:ISO4217CodeCLF",
+            "@type": "isoc:ISO4217Code",
+            "rdfs:label": "UnidaddeFomento"
+        },
+        {
+            "@id": "isoc:ISO4217CodeCLP",
+            "@type": "isoc:ISO4217Code",
+            "rdfs:label": "ChileanPeso"
+        },
+        {
+            "@id": "isoc:ISO4217CodeCNY",
+            "@type": "isoc:ISO4217Code",
+            "rdfs:label": "YuanRenminbi"
+        },
+        {
+            "@id": "isoc:ISO4217CodeCOP",
+            "@type": "isoc:ISO4217Code",
+            "rdfs:label": "ColombianPeso"
+        },
+        {
+            "@id": "isoc:ISO4217CodeCOU",
+            "@type": "isoc:ISO4217Code",
+            "rdfs:label": "UnidaddeValorReal"
+        },
+        {
+            "@id": "isoc:ISO4217CodeCRC",
+            "@type": "isoc:ISO4217Code",
+            "rdfs:label": "CostaRicanColon"
+        },
+        {
+            "@id": "isoc:ISO4217CodeCUC",
+            "@type": "isoc:ISO4217Code",
+            "rdfs:label": "PesoConvertible"
+        },
+        {
+            "@id": "isoc:ISO4217CodeCUP",
+            "@type": "isoc:ISO4217Code",
+            "rdfs:label": "CubanPeso"
+        },
+        {
+            "@id": "isoc:ISO4217CodeCVE",
+            "@type": "isoc:ISO4217Code",
+            "rdfs:label": "CaboVerdeEscudo"
+        },
+        {
+            "@id": "isoc:ISO4217CodeCZK",
+            "@type": "isoc:ISO4217Code",
+            "rdfs:label": "CzechKoruna"
+        },
+        {
+            "@id": "isoc:ISO4217CodeDJF",
+            "@type": "isoc:ISO4217Code",
+            "rdfs:label": "DjiboutiFranc"
+        },
+        {
+            "@id": "isoc:ISO4217CodeDKK",
+            "@type": "isoc:ISO4217Code",
+            "rdfs:label": "DanishKrone"
+        },
+        {
+            "@id": "isoc:ISO4217CodeDOP",
+            "@type": "isoc:ISO4217Code",
+            "rdfs:label": "DominicanPeso"
+        },
+        {
+            "@id": "isoc:ISO4217CodeDZD",
+            "@type": "isoc:ISO4217Code",
+            "rdfs:label": "AlgerianDinar"
+        },
+        {
+            "@id": "isoc:ISO4217CodeEGP",
+            "@type": "isoc:ISO4217Code",
+            "rdfs:label": "EgyptianPound"
+        },
+        {
+            "@id": "isoc:ISO4217CodeERN",
+            "@type": "isoc:ISO4217Code",
+            "rdfs:label": "Nakfa"
+        },
+        {
+            "@id": "isoc:ISO4217CodeETB",
+            "@type": "isoc:ISO4217Code",
+            "rdfs:label": "EthiopianBirr"
+        },
+        {
+            "@id": "isoc:ISO4217CodeEUR",
+            "@type": "isoc:ISO4217Code",
+            "rdfs:label": "Euro"
+        },
+        {
+            "@id": "isoc:ISO4217CodeFJD",
+            "@type": "isoc:ISO4217Code",
+            "rdfs:label": "FijiDollar"
+        },
+        {
+            "@id": "isoc:ISO4217CodeFKP",
+            "@type": "isoc:ISO4217Code",
+            "rdfs:label": "FalklandIslandsPound"
+        },
+        {
+            "@id": "isoc:ISO4217CodeGBP",
+            "@type": "isoc:ISO4217Code",
+            "rdfs:label": "PoundSterling"
+        },
+        {
+            "@id": "isoc:ISO4217CodeGEL",
+            "@type": "isoc:ISO4217Code",
+            "rdfs:label": "Lari"
+        },
+        {
+            "@id": "isoc:ISO4217CodeGHS",
+            "@type": "isoc:ISO4217Code",
+            "rdfs:label": "GhanaCedi"
+        },
+        {
+            "@id": "isoc:ISO4217CodeGIP",
+            "@type": "isoc:ISO4217Code",
+            "rdfs:label": "GibraltarPound"
+        },
+        {
+            "@id": "isoc:ISO4217CodeGMD",
+            "@type": "isoc:ISO4217Code",
+            "rdfs:label": "Dalasi"
+        },
+        {
+            "@id": "isoc:ISO4217CodeGNF",
+            "@type": "isoc:ISO4217Code",
+            "rdfs:label": "GuineanFranc"
+        },
+        {
+            "@id": "isoc:ISO4217CodeGTQ",
+            "@type": "isoc:ISO4217Code",
+            "rdfs:label": "Quetzal"
+        },
+        {
+            "@id": "isoc:ISO4217CodeGYD",
+            "@type": "isoc:ISO4217Code",
+            "rdfs:label": "GuyanaDollar"
+        },
+        {
+            "@id": "isoc:ISO4217CodeHKD",
+            "@type": "isoc:ISO4217Code",
+            "rdfs:label": "HongKongDollar"
+        },
+        {
+            "@id": "isoc:ISO4217CodeHNL",
+            "@type": "isoc:ISO4217Code",
+            "rdfs:label": "Lempira"
+        },
+        {
+            "@id": "isoc:ISO4217CodeHRK",
+            "@type": "isoc:ISO4217Code",
+            "rdfs:label": "Kuna"
+        },
+        {
+            "@id": "isoc:ISO4217CodeHTG",
+            "@type": "isoc:ISO4217Code",
+            "rdfs:label": "Gourde"
+        },
+        {
+            "@id": "isoc:ISO4217CodeHUF",
+            "@type": "isoc:ISO4217Code",
+            "rdfs:label": "Forint"
+        },
+        {
+            "@id": "isoc:ISO4217CodeIDR",
+            "@type": "isoc:ISO4217Code",
+            "rdfs:label": "Rupiah"
+        },
+        {
+            "@id": "isoc:ISO4217CodeILS",
+            "@type": "isoc:ISO4217Code",
+            "rdfs:label": "NewIsraeliSheqel"
+        },
+        {
+            "@id": "isoc:ISO4217CodeINR",
+            "@type": "isoc:ISO4217Code",
+            "rdfs:label": "IndianRupee"
+        },
+        {
+            "@id": "isoc:ISO4217CodeIQD",
+            "@type": "isoc:ISO4217Code",
+            "rdfs:label": "IraqiDinar"
+        },
+        {
+            "@id": "isoc:ISO4217CodeIRR",
+            "@type": "isoc:ISO4217Code",
+            "rdfs:label": "IranianRial"
+        },
+        {
+            "@id": "isoc:ISO4217CodeISK",
+            "@type": "isoc:ISO4217Code",
+            "rdfs:label": "IcelandKrona"
+        },
+        {
+            "@id": "isoc:ISO4217CodeJMD",
+            "@type": "isoc:ISO4217Code",
+            "rdfs:label": "JamaicanDollar"
+        },
+        {
+            "@id": "isoc:ISO4217CodeJOD",
+            "@type": "isoc:ISO4217Code",
+            "rdfs:label": "JordanianDinar"
+        },
+        {
+            "@id": "isoc:ISO4217CodeJPY",
+            "@type": "isoc:ISO4217Code",
+            "rdfs:label": "Yen"
+        },
+        {
+            "@id": "isoc:ISO4217CodeKES",
+            "@type": "isoc:ISO4217Code",
+            "rdfs:label": "KenyanShilling"
+        },
+        {
+            "@id": "isoc:ISO4217CodeKGS",
+            "@type": "isoc:ISO4217Code",
+            "rdfs:label": "Som"
+        },
+        {
+            "@id": "isoc:ISO4217CodeKHR",
+            "@type": "isoc:ISO4217Code",
+            "rdfs:label": "Riel"
+        },
+        {
+            "@id": "isoc:ISO4217CodeKMF",
+            "@type": "isoc:ISO4217Code",
+            "rdfs:label": "ComorianFranc"
+        },
+        {
+            "@id": "isoc:ISO4217CodeKPW",
+            "@type": "isoc:ISO4217Code",
+            "rdfs:label": "NorthKoreanWon"
+        },
+        {
+            "@id": "isoc:ISO4217CodeKRW",
+            "@type": "isoc:ISO4217Code",
+            "rdfs:label": "Won"
+        },
+        {
+            "@id": "isoc:ISO4217CodeKWD",
+            "@type": "isoc:ISO4217Code",
+            "rdfs:label": "KuwaitiDinar"
+        },
+        {
+            "@id": "isoc:ISO4217CodeKYD",
+            "@type": "isoc:ISO4217Code",
+            "rdfs:label": "CaymanIslandsDollar"
+        },
+        {
+            "@id": "isoc:ISO4217CodeKZT",
+            "@type": "isoc:ISO4217Code",
+            "rdfs:label": "Tenge"
+        },
+        {
+            "@id": "isoc:ISO4217CodeLAK",
+            "@type": "isoc:ISO4217Code",
+            "rdfs:label": "LaoKip"
+        },
+        {
+            "@id": "isoc:ISO4217CodeLBP",
+            "@type": "isoc:ISO4217Code",
+            "rdfs:label": "LebanesePound"
+        },
+        {
+            "@id": "isoc:ISO4217CodeLKR",
+            "@type": "isoc:ISO4217Code",
+            "rdfs:label": "SriLankaRupee"
+        },
+        {
+            "@id": "isoc:ISO4217CodeLRD",
+            "@type": "isoc:ISO4217Code",
+            "rdfs:label": "LiberianDollar"
+        },
+        {
+            "@id": "isoc:ISO4217CodeLSL",
+            "@type": "isoc:ISO4217Code",
+            "rdfs:label": "Loti"
+        },
+        {
+            "@id": "isoc:ISO4217CodeLYD",
+            "@type": "isoc:ISO4217Code",
+            "rdfs:label": "LibyanDinar"
+        },
+        {
+            "@id": "isoc:ISO4217CodeMAD",
+            "@type": "isoc:ISO4217Code",
+            "rdfs:label": "MoroccanDirham"
+        },
+        {
+            "@id": "isoc:ISO4217CodeMDL",
+            "@type": "isoc:ISO4217Code",
+            "rdfs:label": "MoldovanLeu"
+        },
+        {
+            "@id": "isoc:ISO4217CodeMGA",
+            "@type": "isoc:ISO4217Code",
+            "rdfs:label": "MalagasyAriary"
+        },
+        {
+            "@id": "isoc:ISO4217CodeMKD",
+            "@type": "isoc:ISO4217Code",
+            "rdfs:label": "Denar"
+        },
+        {
+            "@id": "isoc:ISO4217CodeMMK",
+            "@type": "isoc:ISO4217Code",
+            "rdfs:label": "Kyat"
+        },
+        {
+            "@id": "isoc:ISO4217CodeMNT",
+            "@type": "isoc:ISO4217Code",
+            "rdfs:label": "Tugrik"
+        },
+        {
+            "@id": "isoc:ISO4217CodeMOP",
+            "@type": "isoc:ISO4217Code",
+            "rdfs:label": "Pataca"
+        },
+        {
+            "@id": "isoc:ISO4217CodeMRU",
+            "@type": "isoc:ISO4217Code",
+            "rdfs:label": "Ouguiya"
+        },
+        {
+            "@id": "isoc:ISO4217CodeMUR",
+            "@type": "isoc:ISO4217Code",
+            "rdfs:label": "MauritiusRupee"
+        },
+        {
+            "@id": "isoc:ISO4217CodeMVR",
+            "@type": "isoc:ISO4217Code",
+            "rdfs:label": "Rufiyaa"
+        },
+        {
+            "@id": "isoc:ISO4217CodeMWK",
+            "@type": "isoc:ISO4217Code",
+            "rdfs:label": "MalawiKwacha"
+        },
+        {
+            "@id": "isoc:ISO4217CodeMXN",
+            "@type": "isoc:ISO4217Code",
+            "rdfs:label": "MexicanPeso"
+        },
+        {
+            "@id": "isoc:ISO4217CodeMXV",
+            "@type": "isoc:ISO4217Code",
+            "rdfs:label": "MexicanUnidaddeInversion(UDI)"
+        },
+        {
+            "@id": "isoc:ISO4217CodeMYR",
+            "@type": "isoc:ISO4217Code",
+            "rdfs:label": "MalaysianRinggit"
+        },
+        {
+            "@id": "isoc:ISO4217CodeMZN",
+            "@type": "isoc:ISO4217Code",
+            "rdfs:label": "MozambiqueMetical"
+        },
+        {
+            "@id": "isoc:ISO4217CodeNAD",
+            "@type": "isoc:ISO4217Code",
+            "rdfs:label": "NamibiaDollar"
+        },
+        {
+            "@id": "isoc:ISO4217CodeNGN",
+            "@type": "isoc:ISO4217Code",
+            "rdfs:label": "Naira"
+        },
+        {
+            "@id": "isoc:ISO4217CodeNIO",
+            "@type": "isoc:ISO4217Code",
+            "rdfs:label": "CordobaOro"
+        },
+        {
+            "@id": "isoc:ISO4217CodeNOK",
+            "@type": "isoc:ISO4217Code",
+            "rdfs:label": "NorwegianKrone"
+        },
+        {
+            "@id": "isoc:ISO4217CodeNPR",
+            "@type": "isoc:ISO4217Code",
+            "rdfs:label": "NepaleseRupee"
+        },
+        {
+            "@id": "isoc:ISO4217CodeNZD",
+            "@type": "isoc:ISO4217Code",
+            "rdfs:label": "NewZealandDollar"
+        },
+        {
+            "@id": "isoc:ISO4217CodeOMR",
+            "@type": "isoc:ISO4217Code",
+            "rdfs:label": "RialOmani"
+        },
+        {
+            "@id": "isoc:ISO4217CodePAB",
+            "@type": "isoc:ISO4217Code",
+            "rdfs:label": "Balboa"
+        },
+        {
+            "@id": "isoc:ISO4217CodePEN",
+            "@type": "isoc:ISO4217Code",
+            "rdfs:label": "Sol"
+        },
+        {
+            "@id": "isoc:ISO4217CodePGK",
+            "@type": "isoc:ISO4217Code",
+            "rdfs:label": "Kina"
+        },
+        {
+            "@id": "isoc:ISO4217CodePHP",
+            "@type": "isoc:ISO4217Code",
+            "rdfs:label": "PhilippinePeso"
+        },
+        {
+            "@id": "isoc:ISO4217CodePKR",
+            "@type": "isoc:ISO4217Code",
+            "rdfs:label": "PakistanRupee"
+        },
+        {
+            "@id": "isoc:ISO4217CodePLN",
+            "@type": "isoc:ISO4217Code",
+            "rdfs:label": "Zloty"
+        },
+        {
+            "@id": "isoc:ISO4217CodePYG",
+            "@type": "isoc:ISO4217Code",
+            "rdfs:label": "Guarani"
+        },
+        {
+            "@id": "isoc:ISO4217CodeQAR",
+            "@type": "isoc:ISO4217Code",
+            "rdfs:label": "QatariRial"
+        },
+        {
+            "@id": "isoc:ISO4217CodeRON",
+            "@type": "isoc:ISO4217Code",
+            "rdfs:label": "RomanianLeu"
+        },
+        {
+            "@id": "isoc:ISO4217CodeRSD",
+            "@type": "isoc:ISO4217Code",
+            "rdfs:label": "SerbianDinar"
+        },
+        {
+            "@id": "isoc:ISO4217CodeRUB",
+            "@type": "isoc:ISO4217Code",
+            "rdfs:label": "RussianRuble"
+        },
+        {
+            "@id": "isoc:ISO4217CodeRWF",
+            "@type": "isoc:ISO4217Code",
+            "rdfs:label": "RwandaFranc"
+        },
+        {
+            "@id": "isoc:ISO4217CodeSAR",
+            "@type": "isoc:ISO4217Code",
+            "rdfs:label": "SaudiRiyal"
+        },
+        {
+            "@id": "isoc:ISO4217CodeSBD",
+            "@type": "isoc:ISO4217Code",
+            "rdfs:label": "SolomonIslandsDollar"
+        },
+        {
+            "@id": "isoc:ISO4217CodeSCR",
+            "@type": "isoc:ISO4217Code",
+            "rdfs:label": "SeychellesRupee"
+        },
+        {
+            "@id": "isoc:ISO4217CodeSDG",
+            "@type": "isoc:ISO4217Code",
+            "rdfs:label": "SudanesePound"
+        },
+        {
+            "@id": "isoc:ISO4217CodeSEK",
+            "@type": "isoc:ISO4217Code",
+            "rdfs:label": "SwedishKrona"
+        },
+        {
+            "@id": "isoc:ISO4217CodeSGD",
+            "@type": "isoc:ISO4217Code",
+            "rdfs:label": "SingaporeDollar"
+        },
+        {
+            "@id": "isoc:ISO4217CodeSHP",
+            "@type": "isoc:ISO4217Code",
+            "rdfs:label": "SaintHelenaPound"
+        },
+        {
+            "@id": "isoc:ISO4217CodeSLL",
+            "@type": "isoc:ISO4217Code",
+            "rdfs:label": "Leone"
+        },
+        {
+            "@id": "isoc:ISO4217CodeSOS",
+            "@type": "isoc:ISO4217Code",
+            "rdfs:label": "SomaliShilling"
+        },
+        {
+            "@id": "isoc:ISO4217CodeSRD",
+            "@type": "isoc:ISO4217Code",
+            "rdfs:label": "SurinamDollar"
+        },
+        {
+            "@id": "isoc:ISO4217CodeSSP",
+            "@type": "isoc:ISO4217Code",
+            "rdfs:label": "SouthSudanesePound"
+        },
+        {
+            "@id": "isoc:ISO4217CodeSTN",
+            "@type": "isoc:ISO4217Code",
+            "rdfs:label": "Dobra"
+        },
+        {
+            "@id": "isoc:ISO4217CodeSVC",
+            "@type": "isoc:ISO4217Code",
+            "rdfs:label": "ElSalvadorColon"
+        },
+        {
+            "@id": "isoc:ISO4217CodeSYP",
+            "@type": "isoc:ISO4217Code",
+            "rdfs:label": "SyrianPound"
+        },
+        {
+            "@id": "isoc:ISO4217CodeSZL",
+            "@type": "isoc:ISO4217Code",
+            "rdfs:label": "Lilangeni"
+        },
+        {
+            "@id": "isoc:ISO4217CodeTHB",
+            "@type": "isoc:ISO4217Code",
+            "rdfs:label": "Baht"
+        },
+        {
+            "@id": "isoc:ISO4217CodeTJS",
+            "@type": "isoc:ISO4217Code",
+            "rdfs:label": "Somoni"
+        },
+        {
+            "@id": "isoc:ISO4217CodeTMT",
+            "@type": "isoc:ISO4217Code",
+            "rdfs:label": "TurkmenistanNewManat"
+        },
+        {
+            "@id": "isoc:ISO4217CodeTND",
+            "@type": "isoc:ISO4217Code",
+            "rdfs:label": "TunisianDinar"
+        },
+        {
+            "@id": "isoc:ISO4217CodeTOP",
+            "@type": "isoc:ISO4217Code",
+            "rdfs:label": "Pa’anga"
+        },
+        {
+            "@id": "isoc:ISO4217CodeTRY",
+            "@type": "isoc:ISO4217Code",
+            "rdfs:label": "TurkishLira"
+        },
+        {
+            "@id": "isoc:ISO4217CodeTTD",
+            "@type": "isoc:ISO4217Code",
+            "rdfs:label": "TrinidadandTobagoDollar"
+        },
+        {
+            "@id": "isoc:ISO4217CodeTWD",
+            "@type": "isoc:ISO4217Code",
+            "rdfs:label": "NewTaiwanDollar"
+        },
+        {
+            "@id": "isoc:ISO4217CodeTZS",
+            "@type": "isoc:ISO4217Code",
+            "rdfs:label": "TanzanianShilling"
+        },
+        {
+            "@id": "isoc:ISO4217CodeUAH",
+            "@type": "isoc:ISO4217Code",
+            "rdfs:label": "Hryvnia"
+        },
+        {
+            "@id": "isoc:ISO4217CodeUGX",
+            "@type": "isoc:ISO4217Code",
+            "rdfs:label": "UgandaShilling"
+        },
+        {
+            "@id": "isoc:ISO4217CodeUSD",
+            "@type": "isoc:ISO4217Code",
+            "rdfs:label": "USDollar"
+        },
+        {
+            "@id": "isoc:ISO4217CodeUSN",
+            "@type": "isoc:ISO4217Code",
+            "rdfs:label": "USDollar(Nextday)"
+        },
+        {
+            "@id": "isoc:ISO4217CodeUYI",
+            "@type": "isoc:ISO4217Code",
+            "rdfs:label": "UruguayPesoenUnidadesIndexadas(UI)"
+        },
+        {
+            "@id": "isoc:ISO4217CodeUYU",
+            "@type": "isoc:ISO4217Code",
+            "rdfs:label": "PesoUruguayo"
+        },
+        {
+            "@id": "isoc:ISO4217CodeUYW",
+            "@type": "isoc:ISO4217Code",
+            "rdfs:label": "UnidadPrevisional"
+        },
+        {
+            "@id": "isoc:ISO4217CodeUZS",
+            "@type": "isoc:ISO4217Code",
+            "rdfs:label": "UzbekistanSum"
+        },
+        {
+            "@id": "isoc:ISO4217CodeVES",
+            "@type": "isoc:ISO4217Code",
+            "rdfs:label": "BolívarSoberano"
+        },
+        {
+            "@id": "isoc:ISO4217CodeVND",
+            "@type": "isoc:ISO4217Code",
+            "rdfs:label": "Dong"
+        },
+        {
+            "@id": "isoc:ISO4217CodeVUV",
+            "@type": "isoc:ISO4217Code",
+            "rdfs:label": "Vatu"
+        },
+        {
+            "@id": "isoc:ISO4217CodeWST",
+            "@type": "isoc:ISO4217Code",
+            "rdfs:label": "Tala"
+        },
+        {
+            "@id": "isoc:ISO4217CodeXAF",
+            "@type": "isoc:ISO4217Code",
+            "rdfs:label": "CFAFrancBEAC"
+        },
+        {
+            "@id": "isoc:ISO4217CodeXAG",
+            "@type": "isoc:ISO4217Code",
+            "rdfs:label": "Silver"
+        },
+        {
+            "@id": "isoc:ISO4217CodeXAU",
+            "@type": "isoc:ISO4217Code",
+            "rdfs:label": "Gold"
+        },
+        {
+            "@id": "isoc:ISO4217CodeXBA",
+            "@type": "isoc:ISO4217Code",
+            "rdfs:label": "BondMarketsUnitEuropeanCompositeUnit(EURCO)"
+        },
+        {
+            "@id": "isoc:ISO4217CodeXBB",
+            "@type": "isoc:ISO4217Code",
+            "rdfs:label": "BondMarketsUnitEuropeanMonetaryUnit(E.M.U.6)"
+        },
+        {
+            "@id": "isoc:ISO4217CodeXBC",
+            "@type": "isoc:ISO4217Code",
+            "rdfs:label": "BondMarketsUnitEuropeanUnitofAccount9(E.U.A.9)"
+        },
+        {
+            "@id": "isoc:ISO4217CodeXBD",
+            "@type": "isoc:ISO4217Code",
+            "rdfs:label": "BondMarketsUnitEuropeanUnitofAccount17(E.U.A.17)"
+        },
+        {
+            "@id": "isoc:ISO4217CodeXCD",
+            "@type": "isoc:ISO4217Code",
+            "rdfs:label": "EastCaribbeanDollar"
+        },
+        {
+            "@id": "isoc:ISO4217CodeXDR",
+            "@type": "isoc:ISO4217Code",
+            "rdfs:label": "SDR(SpecialDrawingRight)"
+        },
+        {
+            "@id": "isoc:ISO4217CodeXOF",
+            "@type": "isoc:ISO4217Code",
+            "rdfs:label": "CFAFrancBCEAO"
+        },
+        {
+            "@id": "isoc:ISO4217CodeXPD",
+            "@type": "isoc:ISO4217Code",
+            "rdfs:label": "Palladium"
+        },
+        {
+            "@id": "isoc:ISO4217CodeXPF",
+            "@type": "isoc:ISO4217Code",
+            "rdfs:label": "CFPFranc"
+        },
+        {
+            "@id": "isoc:ISO4217CodeXPT",
+            "@type": "isoc:ISO4217Code",
+            "rdfs:label": "Platinum"
+        },
+        {
+            "@id": "isoc:ISO4217CodeXSU",
+            "@type": "isoc:ISO4217Code",
+            "rdfs:label": "Sucre"
+        },
+        {
+            "@id": "isoc:ISO4217CodeXTS",
+            "@type": "isoc:ISO4217Code",
+            "rdfs:label": "Codesspecificallyreservedfortestingpurposes"
+        },
+        {
+            "@id": "isoc:ISO4217CodeXUA",
+            "@type": "isoc:ISO4217Code",
+            "rdfs:label": "ADBUnitofAccount"
+        },
+        {
+            "@id": "isoc:ISO4217CodeXXX",
+            "@type": "isoc:ISO4217Code",
+            "rdfs:label": "Thecodesassignedfortransactionswherenocurrencyisinvolved"
+        },
+        {
+            "@id": "isoc:ISO4217CodeYER",
+            "@type": "isoc:ISO4217Code",
+            "rdfs:label": "YemeniRial"
+        },
+        {
+            "@id": "isoc:ISO4217CodeZAR",
+            "@type": "isoc:ISO4217Code",
+            "rdfs:label": "Rand"
+        },
+        {
+            "@id": "isoc:ISO4217CodeZMW",
+            "@type": "isoc:ISO4217Code",
+            "rdfs:label": "ZambianKwacha"
+        },
+        {
+            "@id": "isoc:ISO4217CodeZWL",
+            "@type": "isoc:ISO4217Code",
+            "rdfs:label": "ZimbabweDollar"
+        },
+        {
+            "@id": "isoc:ISO639Code",
+            "@type": "rdfs:Class",
+            "rdfs:label": "ISO639Code",
+            "rdfs:subClassOf": "schema:Enumeration"
+        },
+        {
+            "@id": "isoc:ISO639CodeAA",
+            "@type": "isoc:ISO639Code",
+            "rdfs:label": "Afar"
+        },
+        {
+            "@id": "isoc:ISO639CodeAB",
+            "@type": "isoc:ISO639Code",
+            "rdfs:label": "Abkhazian"
+        },
+        {
+            "@id": "isoc:ISO639CodeAE",
+            "@type": "isoc:ISO639Code",
+            "rdfs:label": "Avestan"
+        },
+        {
+            "@id": "isoc:ISO639CodeAF",
+            "@type": "isoc:ISO639Code",
+            "rdfs:label": "Afrikaans"
+        },
+        {
+            "@id": "isoc:ISO639CodeAK",
+            "@type": "isoc:ISO639Code",
+            "rdfs:label": "Akan"
+        },
+        {
+            "@id": "isoc:ISO639CodeAM",
+            "@type": "isoc:ISO639Code",
+            "rdfs:label": "Amharic"
+        },
+        {
+            "@id": "isoc:ISO639CodeAN",
+            "@type": "isoc:ISO639Code",
+            "rdfs:label": "Aragonese"
+        },
+        {
+            "@id": "isoc:ISO639CodeAR",
+            "@type": "isoc:ISO639Code",
+            "rdfs:label": "Arabic"
+        },
+        {
+            "@id": "isoc:ISO639CodeAS",
+            "@type": "isoc:ISO639Code",
+            "rdfs:label": "Assamese"
+        },
+        {
+            "@id": "isoc:ISO639CodeAV",
+            "@type": "isoc:ISO639Code",
+            "rdfs:label": "Avaric"
+        },
+        {
+            "@id": "isoc:ISO639CodeAY",
+            "@type": "isoc:ISO639Code",
+            "rdfs:label": "Aymara"
+        },
+        {
+            "@id": "isoc:ISO639CodeAZ",
+            "@type": "isoc:ISO639Code",
+            "rdfs:label": "Azerbaijani"
+        },
+        {
+            "@id": "isoc:ISO639CodeBA",
+            "@type": "isoc:ISO639Code",
+            "rdfs:label": "Bashkir"
+        },
+        {
+            "@id": "isoc:ISO639CodeBE",
+            "@type": "isoc:ISO639Code",
+            "rdfs:label": "Belarusian"
+        },
+        {
+            "@id": "isoc:ISO639CodeBG",
+            "@type": "isoc:ISO639Code",
+            "rdfs:label": "Bulgarian"
+        },
+        {
+            "@id": "isoc:ISO639CodeBH",
+            "@type": "isoc:ISO639Code",
+            "rdfs:label": "Biharilanguages"
+        },
+        {
+            "@id": "isoc:ISO639CodeBI",
+            "@type": "isoc:ISO639Code",
+            "rdfs:label": "Bislama"
+        },
+        {
+            "@id": "isoc:ISO639CodeBM",
+            "@type": "isoc:ISO639Code",
+            "rdfs:label": "Bambara"
+        },
+        {
+            "@id": "isoc:ISO639CodeBN",
+            "@type": "isoc:ISO639Code",
+            "rdfs:label": "Bengali"
+        },
+        {
+            "@id": "isoc:ISO639CodeBO",
+            "@type": "isoc:ISO639Code",
+            "rdfs:label": "Tibetan"
+        },
+        {
+            "@id": "isoc:ISO639CodeBR",
+            "@type": "isoc:ISO639Code",
+            "rdfs:label": "Breton"
+        },
+        {
+            "@id": "isoc:ISO639CodeBS",
+            "@type": "isoc:ISO639Code",
+            "rdfs:label": "Bosnian"
+        },
+        {
+            "@id": "isoc:ISO639CodeCA",
+            "@type": "isoc:ISO639Code",
+            "rdfs:label": "Catalan,Valencian"
+        },
+        {
+            "@id": "isoc:ISO639CodeCE",
+            "@type": "isoc:ISO639Code",
+            "rdfs:label": "Chechen"
+        },
+        {
+            "@id": "isoc:ISO639CodeCH",
+            "@type": "isoc:ISO639Code",
+            "rdfs:label": "Chamorro"
+        },
+        {
+            "@id": "isoc:ISO639CodeCO",
+            "@type": "isoc:ISO639Code",
+            "rdfs:label": "Corsican"
+        },
+        {
+            "@id": "isoc:ISO639CodeCR",
+            "@type": "isoc:ISO639Code",
+            "rdfs:label": "Cree"
+        },
+        {
+            "@id": "isoc:ISO639CodeCS",
+            "@type": "isoc:ISO639Code",
+            "rdfs:label": "Czech"
+        },
+        {
+            "@id": "isoc:ISO639CodeCU",
+            "@type": "isoc:ISO639Code",
+            "rdfs:label": "ChurchSlavic,OldSlavonic,ChurchSlavonic,OldBulgarian,OldChurchSlavonic"
+        },
+        {
+            "@id": "isoc:ISO639CodeCV",
+            "@type": "isoc:ISO639Code",
+            "rdfs:label": "Chuvash"
+        },
+        {
+            "@id": "isoc:ISO639CodeCY",
+            "@type": "isoc:ISO639Code",
+            "rdfs:label": "Welsh"
+        },
+        {
+            "@id": "isoc:ISO639CodeDA",
+            "@type": "isoc:ISO639Code",
+            "rdfs:label": "Danish"
+        },
+        {
+            "@id": "isoc:ISO639CodeDE",
+            "@type": "isoc:ISO639Code",
+            "rdfs:label": "German"
+        },
+        {
+            "@id": "isoc:ISO639CodeDV",
+            "@type": "isoc:ISO639Code",
+            "rdfs:label": "Divehi,Dhivehi,Maldivian"
+        },
+        {
+            "@id": "isoc:ISO639CodeDZ",
+            "@type": "isoc:ISO639Code",
+            "rdfs:label": "Dzongkha"
+        },
+        {
+            "@id": "isoc:ISO639CodeEE",
+            "@type": "isoc:ISO639Code",
+            "rdfs:label": "Ewe"
+        },
+        {
+            "@id": "isoc:ISO639CodeEL",
+            "@type": "isoc:ISO639Code",
+            "rdfs:label": "Greek,Modern(1453)"
+        },
+        {
+            "@id": "isoc:ISO639CodeEN",
+            "@type": "isoc:ISO639Code",
+            "rdfs:label": "English"
+        },
+        {
+            "@id": "isoc:ISO639CodeEO",
+            "@type": "isoc:ISO639Code",
+            "rdfs:label": "Esperanto"
+        },
+        {
+            "@id": "isoc:ISO639CodeES",
+            "@type": "isoc:ISO639Code",
+            "rdfs:label": "Spanish,Castilian"
+        },
+        {
+            "@id": "isoc:ISO639CodeET",
+            "@type": "isoc:ISO639Code",
+            "rdfs:label": "Estonian"
+        },
+        {
+            "@id": "isoc:ISO639CodeEU",
+            "@type": "isoc:ISO639Code",
+            "rdfs:label": "Basque"
+        },
+        {
+            "@id": "isoc:ISO639CodeFA",
+            "@type": "isoc:ISO639Code",
+            "rdfs:label": "Persian"
+        },
+        {
+            "@id": "isoc:ISO639CodeFF",
+            "@type": "isoc:ISO639Code",
+            "rdfs:label": "Fulah"
+        },
+        {
+            "@id": "isoc:ISO639CodeFI",
+            "@type": "isoc:ISO639Code",
+            "rdfs:label": "Finnish"
+        },
+        {
+            "@id": "isoc:ISO639CodeFJ",
+            "@type": "isoc:ISO639Code",
+            "rdfs:label": "Fijian"
+        },
+        {
+            "@id": "isoc:ISO639CodeFO",
+            "@type": "isoc:ISO639Code",
+            "rdfs:label": "Faroese"
+        },
+        {
+            "@id": "isoc:ISO639CodeFR",
+            "@type": "isoc:ISO639Code",
+            "rdfs:label": "French"
+        },
+        {
+            "@id": "isoc:ISO639CodeFY",
+            "@type": "isoc:ISO639Code",
+            "rdfs:label": "WesternFrisian"
+        },
+        {
+            "@id": "isoc:ISO639CodeGA",
+            "@type": "isoc:ISO639Code",
+            "rdfs:label": "Irish"
+        },
+        {
+            "@id": "isoc:ISO639CodeGD",
+            "@type": "isoc:ISO639Code",
+            "rdfs:label": "Gaelic,ScottishGaelic"
+        },
+        {
+            "@id": "isoc:ISO639CodeGL",
+            "@type": "isoc:ISO639Code",
+            "rdfs:label": "Galician"
+        },
+        {
+            "@id": "isoc:ISO639CodeGN",
+            "@type": "isoc:ISO639Code",
+            "rdfs:label": "Guarani"
+        },
+        {
+            "@id": "isoc:ISO639CodeGU",
+            "@type": "isoc:ISO639Code",
+            "rdfs:label": "Gujarati"
+        },
+        {
+            "@id": "isoc:ISO639CodeGV",
+            "@type": "isoc:ISO639Code",
+            "rdfs:label": "Manx"
+        },
+        {
+            "@id": "isoc:ISO639CodeHA",
+            "@type": "isoc:ISO639Code",
+            "rdfs:label": "Hausa"
+        },
+        {
+            "@id": "isoc:ISO639CodeHE",
+            "@type": "isoc:ISO639Code",
+            "rdfs:label": "Hebrew"
+        },
+        {
+            "@id": "isoc:ISO639CodeHI",
+            "@type": "isoc:ISO639Code",
+            "rdfs:label": "Hindi"
+        },
+        {
+            "@id": "isoc:ISO639CodeHO",
+            "@type": "isoc:ISO639Code",
+            "rdfs:label": "HiriMotu"
+        },
+        {
+            "@id": "isoc:ISO639CodeHR",
+            "@type": "isoc:ISO639Code",
+            "rdfs:label": "Croatian"
+        },
+        {
+            "@id": "isoc:ISO639CodeHT",
+            "@type": "isoc:ISO639Code",
+            "rdfs:label": "Haitian,HaitianCreole"
+        },
+        {
+            "@id": "isoc:ISO639CodeHU",
+            "@type": "isoc:ISO639Code",
+            "rdfs:label": "Hungarian"
+        },
+        {
+            "@id": "isoc:ISO639CodeHY",
+            "@type": "isoc:ISO639Code",
+            "rdfs:label": "Armenian"
+        },
+        {
+            "@id": "isoc:ISO639CodeHZ",
+            "@type": "isoc:ISO639Code",
+            "rdfs:label": "Herero"
+        },
+        {
+            "@id": "isoc:ISO639CodeIA",
+            "@type": "isoc:ISO639Code",
+            "rdfs:label": "Interlingua(InternationalAuxiliaryLanguageAssociation)"
+        },
+        {
+            "@id": "isoc:ISO639CodeID",
+            "@type": "isoc:ISO639Code",
+            "rdfs:label": "Indonesian"
+        },
+        {
+            "@id": "isoc:ISO639CodeIE",
+            "@type": "isoc:ISO639Code",
+            "rdfs:label": "Interlingue,Occidental"
+        },
+        {
+            "@id": "isoc:ISO639CodeIG",
+            "@type": "isoc:ISO639Code",
+            "rdfs:label": "Igbo"
+        },
+        {
+            "@id": "isoc:ISO639CodeII",
+            "@type": "isoc:ISO639Code",
+            "rdfs:label": "SichuanYi,Nuosu"
+        },
+        {
+            "@id": "isoc:ISO639CodeIK",
+            "@type": "isoc:ISO639Code",
+            "rdfs:label": "Inupiaq"
+        },
+        {
+            "@id": "isoc:ISO639CodeIO",
+            "@type": "isoc:ISO639Code",
+            "rdfs:label": "Ido"
+        },
+        {
+            "@id": "isoc:ISO639CodeIS",
+            "@type": "isoc:ISO639Code",
+            "rdfs:label": "Icelandic"
+        },
+        {
+            "@id": "isoc:ISO639CodeIT",
+            "@type": "isoc:ISO639Code",
+            "rdfs:label": "Italian"
+        },
+        {
+            "@id": "isoc:ISO639CodeIU",
+            "@type": "isoc:ISO639Code",
+            "rdfs:label": "Inuktitut"
+        },
+        {
+            "@id": "isoc:ISO639CodeJA",
+            "@type": "isoc:ISO639Code",
+            "rdfs:label": "Japanese"
+        },
+        {
+            "@id": "isoc:ISO639CodeJV",
+            "@type": "isoc:ISO639Code",
+            "rdfs:label": "Javanese"
+        },
+        {
+            "@id": "isoc:ISO639CodeKA",
+            "@type": "isoc:ISO639Code",
+            "rdfs:label": "Georgian"
+        },
+        {
+            "@id": "isoc:ISO639CodeKG",
+            "@type": "isoc:ISO639Code",
+            "rdfs:label": "Kongo"
+        },
+        {
+            "@id": "isoc:ISO639CodeKI",
+            "@type": "isoc:ISO639Code",
+            "rdfs:label": "Kikuyu,Gikuyu"
+        },
+        {
+            "@id": "isoc:ISO639CodeKJ",
+            "@type": "isoc:ISO639Code",
+            "rdfs:label": "Kuanyama,Kwanyama"
+        },
+        {
+            "@id": "isoc:ISO639CodeKK",
+            "@type": "isoc:ISO639Code",
+            "rdfs:label": "Kazakh"
+        },
+        {
+            "@id": "isoc:ISO639CodeKL",
+            "@type": "isoc:ISO639Code",
+            "rdfs:label": "Kalaallisut,Greenlandic"
+        },
+        {
+            "@id": "isoc:ISO639CodeKM",
+            "@type": "isoc:ISO639Code",
+            "rdfs:label": "CentralKhmer"
+        },
+        {
+            "@id": "isoc:ISO639CodeKN",
+            "@type": "isoc:ISO639Code",
+            "rdfs:label": "Kannada"
+        },
+        {
+            "@id": "isoc:ISO639CodeKO",
+            "@type": "isoc:ISO639Code",
+            "rdfs:label": "Korean"
+        },
+        {
+            "@id": "isoc:ISO639CodeKR",
+            "@type": "isoc:ISO639Code",
+            "rdfs:label": "Kanuri"
+        },
+        {
+            "@id": "isoc:ISO639CodeKS",
+            "@type": "isoc:ISO639Code",
+            "rdfs:label": "Kashmiri"
+        },
+        {
+            "@id": "isoc:ISO639CodeKU",
+            "@type": "isoc:ISO639Code",
+            "rdfs:label": "Kurdish"
+        },
+        {
+            "@id": "isoc:ISO639CodeKV",
+            "@type": "isoc:ISO639Code",
+            "rdfs:label": "Komi"
+        },
+        {
+            "@id": "isoc:ISO639CodeKW",
+            "@type": "isoc:ISO639Code",
+            "rdfs:label": "Cornish"
+        },
+        {
+            "@id": "isoc:ISO639CodeKY",
+            "@type": "isoc:ISO639Code",
+            "rdfs:label": "Kirghiz,Kyrgyz"
+        },
+        {
+            "@id": "isoc:ISO639CodeLA",
+            "@type": "isoc:ISO639Code",
+            "rdfs:label": "Latin"
+        },
+        {
+            "@id": "isoc:ISO639CodeLB",
+            "@type": "isoc:ISO639Code",
+            "rdfs:label": "Luxembourgish,Letzeburgesch"
+        },
+        {
+            "@id": "isoc:ISO639CodeLG",
+            "@type": "isoc:ISO639Code",
+            "rdfs:label": "Ganda"
+        },
+        {
+            "@id": "isoc:ISO639CodeLI",
+            "@type": "isoc:ISO639Code",
+            "rdfs:label": "Limburgan,Limburger,Limburgish"
+        },
+        {
+            "@id": "isoc:ISO639CodeLN",
+            "@type": "isoc:ISO639Code",
+            "rdfs:label": "Lingala"
+        },
+        {
+            "@id": "isoc:ISO639CodeLO",
+            "@type": "isoc:ISO639Code",
+            "rdfs:label": "Lao"
+        },
+        {
+            "@id": "isoc:ISO639CodeLT",
+            "@type": "isoc:ISO639Code",
+            "rdfs:label": "Lithuanian"
+        },
+        {
+            "@id": "isoc:ISO639CodeLU",
+            "@type": "isoc:ISO639Code",
+            "rdfs:label": "LubaKatanga"
+        },
+        {
+            "@id": "isoc:ISO639CodeLV",
+            "@type": "isoc:ISO639Code",
+            "rdfs:label": "Latvian"
+        },
+        {
+            "@id": "isoc:ISO639CodeMG",
+            "@type": "isoc:ISO639Code",
+            "rdfs:label": "Malagasy"
+        },
+        {
+            "@id": "isoc:ISO639CodeMH",
+            "@type": "isoc:ISO639Code",
+            "rdfs:label": "Marshallese"
+        },
+        {
+            "@id": "isoc:ISO639CodeMI",
+            "@type": "isoc:ISO639Code",
+            "rdfs:label": "Maori"
+        },
+        {
+            "@id": "isoc:ISO639CodeMK",
+            "@type": "isoc:ISO639Code",
+            "rdfs:label": "Macedonian"
+        },
+        {
+            "@id": "isoc:ISO639CodeML",
+            "@type": "isoc:ISO639Code",
+            "rdfs:label": "Malayalam"
+        },
+        {
+            "@id": "isoc:ISO639CodeMN",
+            "@type": "isoc:ISO639Code",
+            "rdfs:label": "Mongolian"
+        },
+        {
+            "@id": "isoc:ISO639CodeMO",
+            "@type": "isoc:ISO639Code",
+            "rdfs:label": "MO"
+        },
+        {
+            "@id": "isoc:ISO639CodeMR",
+            "@type": "isoc:ISO639Code",
+            "rdfs:label": "Marathi"
+        },
+        {
+            "@id": "isoc:ISO639CodeMS",
+            "@type": "isoc:ISO639Code",
+            "rdfs:label": "Malay"
+        },
+        {
+            "@id": "isoc:ISO639CodeMT",
+            "@type": "isoc:ISO639Code",
+            "rdfs:label": "Maltese"
+        },
+        {
+            "@id": "isoc:ISO639CodeMY",
+            "@type": "isoc:ISO639Code",
+            "rdfs:label": "Burmese"
+        },
+        {
+            "@id": "isoc:ISO639CodeNA",
+            "@type": "isoc:ISO639Code",
+            "rdfs:label": "Nauru"
+        },
+        {
+            "@id": "isoc:ISO639CodeNB",
+            "@type": "isoc:ISO639Code",
+            "rdfs:label": "Bokmål,Norwegian;NorwegianBokmål"
+        },
+        {
+            "@id": "isoc:ISO639CodeND",
+            "@type": "isoc:ISO639Code",
+            "rdfs:label": "Ndebele,North;NorthNdebele"
+        },
+        {
+            "@id": "isoc:ISO639CodeNE",
+            "@type": "isoc:ISO639Code",
+            "rdfs:label": "Nepali"
+        },
+        {
+            "@id": "isoc:ISO639CodeNG",
+            "@type": "isoc:ISO639Code",
+            "rdfs:label": "Ndonga"
+        },
+        {
+            "@id": "isoc:ISO639CodeNL",
+            "@type": "isoc:ISO639Code",
+            "rdfs:label": "Dutch,Flemish"
+        },
+        {
+            "@id": "isoc:ISO639CodeNN",
+            "@type": "isoc:ISO639Code",
+            "rdfs:label": "NorwegianNynorsk;Nynorsk,Norwegian"
+        },
+        {
+            "@id": "isoc:ISO639CodeNO",
+            "@type": "isoc:ISO639Code",
+            "rdfs:label": "Norwegian"
+        },
+        {
+            "@id": "isoc:ISO639CodeNR",
+            "@type": "isoc:ISO639Code",
+            "rdfs:label": "Ndebele,South;SouthNdebele"
+        },
+        {
+            "@id": "isoc:ISO639CodeNV",
+            "@type": "isoc:ISO639Code",
+            "rdfs:label": "Navajo,Navaho"
+        },
+        {
+            "@id": "isoc:ISO639CodeNY",
+            "@type": "isoc:ISO639Code",
+            "rdfs:label": "Chichewa,Chewa,Nyanja"
+        },
+        {
+            "@id": "isoc:ISO639CodeOC",
+            "@type": "isoc:ISO639Code",
+            "rdfs:label": "Occitan(post1500),Provençal"
+        },
+        {
+            "@id": "isoc:ISO639CodeOJ",
+            "@type": "isoc:ISO639Code",
+            "rdfs:label": "Ojibwa"
+        },
+        {
+            "@id": "isoc:ISO639CodeOM",
+            "@type": "isoc:ISO639Code",
+            "rdfs:label": "Oromo"
+        },
+        {
+            "@id": "isoc:ISO639CodeOR",
+            "@type": "isoc:ISO639Code",
+            "rdfs:label": "Oriya"
+        },
+        {
+            "@id": "isoc:ISO639CodeOS",
+            "@type": "isoc:ISO639Code",
+            "rdfs:label": "Ossetian,Ossetic"
+        },
+        {
+            "@id": "isoc:ISO639CodePA",
+            "@type": "isoc:ISO639Code",
+            "rdfs:label": "Panjabi,Punjabi"
+        },
+        {
+            "@id": "isoc:ISO639CodePI",
+            "@type": "isoc:ISO639Code",
+            "rdfs:label": "Pali"
+        },
+        {
+            "@id": "isoc:ISO639CodePL",
+            "@type": "isoc:ISO639Code",
+            "rdfs:label": "Polish"
+        },
+        {
+            "@id": "isoc:ISO639CodePS",
+            "@type": "isoc:ISO639Code",
+            "rdfs:label": "Pushto,Pashto"
+        },
+        {
+            "@id": "isoc:ISO639CodePT",
+            "@type": "isoc:ISO639Code",
+            "rdfs:label": "Portuguese"
+        },
+        {
+            "@id": "isoc:ISO639CodeQU",
+            "@type": "isoc:ISO639Code",
+            "rdfs:label": "Quechua"
+        },
+        {
+            "@id": "isoc:ISO639CodeRM",
+            "@type": "isoc:ISO639Code",
+            "rdfs:label": "Romansh"
+        },
+        {
+            "@id": "isoc:ISO639CodeRN",
+            "@type": "isoc:ISO639Code",
+            "rdfs:label": "Rundi"
+        },
+        {
+            "@id": "isoc:ISO639CodeRO",
+            "@type": "isoc:ISO639Code",
+            "rdfs:label": "Romanian,Moldavian,Moldovan"
+        },
+        {
+            "@id": "isoc:ISO639CodeRU",
+            "@type": "isoc:ISO639Code",
+            "rdfs:label": "Russian"
+        },
+        {
+            "@id": "isoc:ISO639CodeRW",
+            "@type": "isoc:ISO639Code",
+            "rdfs:label": "Kinyarwanda"
+        },
+        {
+            "@id": "isoc:ISO639CodeSA",
+            "@type": "isoc:ISO639Code",
+            "rdfs:label": "Sanskrit"
+        },
+        {
+            "@id": "isoc:ISO639CodeSC",
+            "@type": "isoc:ISO639Code",
+            "rdfs:label": "Sardinian"
+        },
+        {
+            "@id": "isoc:ISO639CodeSD",
+            "@type": "isoc:ISO639Code",
+            "rdfs:label": "Sindhi"
+        },
+        {
+            "@id": "isoc:ISO639CodeSE",
+            "@type": "isoc:ISO639Code",
+            "rdfs:label": "NorthernSami"
+        },
+        {
+            "@id": "isoc:ISO639CodeSG",
+            "@type": "isoc:ISO639Code",
+            "rdfs:label": "Sango"
+        },
+        {
+            "@id": "isoc:ISO639CodeSI",
+            "@type": "isoc:ISO639Code",
+            "rdfs:label": "Sinhala,Sinhalese"
+        },
+        {
+            "@id": "isoc:ISO639CodeSK",
+            "@type": "isoc:ISO639Code",
+            "rdfs:label": "Slovak"
+        },
+        {
+            "@id": "isoc:ISO639CodeSL",
+            "@type": "isoc:ISO639Code",
+            "rdfs:label": "Slovenian"
+        },
+        {
+            "@id": "isoc:ISO639CodeSM",
+            "@type": "isoc:ISO639Code",
+            "rdfs:label": "Samoan"
+        },
+        {
+            "@id": "isoc:ISO639CodeSN",
+            "@type": "isoc:ISO639Code",
+            "rdfs:label": "Shona"
+        },
+        {
+            "@id": "isoc:ISO639CodeSO",
+            "@type": "isoc:ISO639Code",
+            "rdfs:label": "Somali"
+        },
+        {
+            "@id": "isoc:ISO639CodeSQ",
+            "@type": "isoc:ISO639Code",
+            "rdfs:label": "Albanian"
+        },
+        {
+            "@id": "isoc:ISO639CodeSR",
+            "@type": "isoc:ISO639Code",
+            "rdfs:label": "Serbian"
+        },
+        {
+            "@id": "isoc:ISO639CodeSS",
+            "@type": "isoc:ISO639Code",
+            "rdfs:label": "Swati"
+        },
+        {
+            "@id": "isoc:ISO639CodeST",
+            "@type": "isoc:ISO639Code",
+            "rdfs:label": "Sotho,Southern"
+        },
+        {
+            "@id": "isoc:ISO639CodeSU",
+            "@type": "isoc:ISO639Code",
+            "rdfs:label": "Sundanese"
+        },
+        {
+            "@id": "isoc:ISO639CodeSV",
+            "@type": "isoc:ISO639Code",
+            "rdfs:label": "Swedish"
+        },
+        {
+            "@id": "isoc:ISO639CodeSW",
+            "@type": "isoc:ISO639Code",
+            "rdfs:label": "Swahili"
+        },
+        {
+            "@id": "isoc:ISO639CodeTA",
+            "@type": "isoc:ISO639Code",
+            "rdfs:label": "Tamil"
+        },
+        {
+            "@id": "isoc:ISO639CodeTE",
+            "@type": "isoc:ISO639Code",
+            "rdfs:label": "Telugu"
+        },
+        {
+            "@id": "isoc:ISO639CodeTG",
+            "@type": "isoc:ISO639Code",
+            "rdfs:label": "Tajik"
+        },
+        {
+            "@id": "isoc:ISO639CodeTH",
+            "@type": "isoc:ISO639Code",
+            "rdfs:label": "Thai"
+        },
+        {
+            "@id": "isoc:ISO639CodeTI",
+            "@type": "isoc:ISO639Code",
+            "rdfs:label": "Tigrinya"
+        },
+        {
+            "@id": "isoc:ISO639CodeTK",
+            "@type": "isoc:ISO639Code",
+            "rdfs:label": "Turkmen"
+        },
+        {
+            "@id": "isoc:ISO639CodeTL",
+            "@type": "isoc:ISO639Code",
+            "rdfs:label": "Tagalog"
+        },
+        {
+            "@id": "isoc:ISO639CodeTN",
+            "@type": "isoc:ISO639Code",
+            "rdfs:label": "Tswana"
+        },
+        {
+            "@id": "isoc:ISO639CodeTO",
+            "@type": "isoc:ISO639Code",
+            "rdfs:label": "Tonga(TongaIslands)"
+        },
+        {
+            "@id": "isoc:ISO639CodeTR",
+            "@type": "isoc:ISO639Code",
+            "rdfs:label": "Turkish"
+        },
+        {
+            "@id": "isoc:ISO639CodeTS",
+            "@type": "isoc:ISO639Code",
+            "rdfs:label": "Tsonga"
+        },
+        {
+            "@id": "isoc:ISO639CodeTT",
+            "@type": "isoc:ISO639Code",
+            "rdfs:label": "Tatar"
+        },
+        {
+            "@id": "isoc:ISO639CodeTW",
+            "@type": "isoc:ISO639Code",
+            "rdfs:label": "Twi"
+        },
+        {
+            "@id": "isoc:ISO639CodeTY",
+            "@type": "isoc:ISO639Code",
+            "rdfs:label": "Tahitian"
+        },
+        {
+            "@id": "isoc:ISO639CodeUG",
+            "@type": "isoc:ISO639Code",
+            "rdfs:label": "Uighur,Uyghur"
+        },
+        {
+            "@id": "isoc:ISO639CodeUK",
+            "@type": "isoc:ISO639Code",
+            "rdfs:label": "Ukrainian"
+        },
+        {
+            "@id": "isoc:ISO639CodeUR",
+            "@type": "isoc:ISO639Code",
+            "rdfs:label": "Urdu"
+        },
+        {
+            "@id": "isoc:ISO639CodeUZ",
+            "@type": "isoc:ISO639Code",
+            "rdfs:label": "Uzbek"
+        },
+        {
+            "@id": "isoc:ISO639CodeVE",
+            "@type": "isoc:ISO639Code",
+            "rdfs:label": "Venda"
+        },
+        {
+            "@id": "isoc:ISO639CodeVI",
+            "@type": "isoc:ISO639Code",
+            "rdfs:label": "Vietnamese"
+        },
+        {
+            "@id": "isoc:ISO639CodeVO",
+            "@type": "isoc:ISO639Code",
+            "rdfs:label": "Volapük"
+        },
+        {
+            "@id": "isoc:ISO639CodeWA",
+            "@type": "isoc:ISO639Code",
+            "rdfs:label": "Walloon"
+        },
+        {
+            "@id": "isoc:ISO639CodeWO",
+            "@type": "isoc:ISO639Code",
+            "rdfs:label": "Wolof"
+        },
+        {
+            "@id": "isoc:ISO639CodeXH",
+            "@type": "isoc:ISO639Code",
+            "rdfs:label": "Xhosa"
+        },
+        {
+            "@id": "isoc:ISO639CodeYI",
+            "@type": "isoc:ISO639Code",
+            "rdfs:label": "Yiddish"
+        },
+        {
+            "@id": "isoc:ISO639CodeYO",
+            "@type": "isoc:ISO639Code",
+            "rdfs:label": "Yoruba"
+        },
+        {
+            "@id": "isoc:ISO639CodeZA",
+            "@type": "isoc:ISO639Code",
+            "rdfs:label": "Zhuang,Chuang"
+        },
+        {
+            "@id": "isoc:ISO639CodeZH",
+            "@type": "isoc:ISO639Code",
+            "rdfs:label": "Chinese"
+        },
+        {
+            "@id": "isoc:ISO639CodeZU",
+            "@type": "isoc:ISO639Code",
+            "rdfs:label": "Zulu"
+        },
+        {
+            "@id": "isoc:ISO639CodeMo",
+            "@type": "isoc:ISO639Code",
+            "rdfs:label": "mo"
+        }
+    ]
+}
