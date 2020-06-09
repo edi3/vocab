@@ -1,0 +1,597 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://edi3.org/mmtc/vocab#ActionTypeCode>
+  a rdfs:Class ;
+  rdfs:label "ActionTypeCode"^^xsd:string ;
+  rdfs:subClassOf "schema:Enumeration"^^xsd:string .
+
+<https://edi3.org/mmtc/vocab#ActionTypeCodeAdded>
+  a <https://edi3.org/mmtc/vocab#ActionTypeCode> ;
+  rdfs:comment "The information is to be or has been added."^^xsd:string ;
+  rdfs:label "1"^^xsd:string .
+
+<https://edi3.org/mmtc/vocab#ActionTypeCodeDeleted>
+  a <https://edi3.org/mmtc/vocab#ActionTypeCode> ;
+  rdfs:comment "The information is to be or has been deleted."^^xsd:string ;
+  rdfs:label "2"^^xsd:string .
+
+<https://edi3.org/mmtc/vocab#ActionTypeCodeChanged>
+  a <https://edi3.org/mmtc/vocab#ActionTypeCode> ;
+  rdfs:comment "The information is to be or has been changed."^^xsd:string ;
+  rdfs:label "3"^^xsd:string .
+
+<https://edi3.org/mmtc/vocab#ActionTypeCodeNoAction>
+  a <https://edi3.org/mmtc/vocab#ActionTypeCode> ;
+  rdfs:comment "This line item is not affected by the actual message."^^xsd:string ;
+  rdfs:label "4"^^xsd:string .
+
+<https://edi3.org/mmtc/vocab#ActionTypeCodeAcceptedWithoutAmendment>
+  a <https://edi3.org/mmtc/vocab#ActionTypeCode> ;
+  rdfs:comment "This line item is entirely accepted by the seller."^^xsd:string ;
+  rdfs:label "5"^^xsd:string .
+
+<https://edi3.org/mmtc/vocab#ActionTypeCodeAcceptedWithAmendment>
+  a <https://edi3.org/mmtc/vocab#ActionTypeCode> ;
+  rdfs:comment "This line item is accepted but amended by the seller."^^xsd:string ;
+  rdfs:label "6"^^xsd:string .
+
+<https://edi3.org/mmtc/vocab#ActionTypeCodeNotAccepted>
+  a <https://edi3.org/mmtc/vocab#ActionTypeCode> ;
+  rdfs:comment "This line item is not accepted by the seller."^^xsd:string ;
+  rdfs:label "7"^^xsd:string .
+
+<https://edi3.org/mmtc/vocab#ActionTypeCodeScheduleOnly>
+  a <https://edi3.org/mmtc/vocab#ActionTypeCode> ;
+  rdfs:comment "Code specifying that the message is a schedule only."^^xsd:string ;
+  rdfs:label "8"^^xsd:string .
+
+<https://edi3.org/mmtc/vocab#ActionTypeCodeAmendments>
+  a <https://edi3.org/mmtc/vocab#ActionTypeCode> ;
+  rdfs:comment "Code specifying that amendments are requested/notified."^^xsd:string ;
+  rdfs:label "9"^^xsd:string .
+
+<https://edi3.org/mmtc/vocab#ActionTypeCodeNotFound>
+  a <https://edi3.org/mmtc/vocab#ActionTypeCode> ;
+  rdfs:comment "This line item is not found in the referenced message."^^xsd:string ;
+  rdfs:label "10"^^xsd:string .
+
+<https://edi3.org/mmtc/vocab#ActionTypeCodeNotAmended>
+  a <https://edi3.org/mmtc/vocab#ActionTypeCode> ;
+  rdfs:comment "This line is not amended by the buyer."^^xsd:string ;
+  rdfs:label "11"^^xsd:string .
+
+<https://edi3.org/mmtc/vocab#ActionTypeCodeLineItemNumbersChanged>
+  a <https://edi3.org/mmtc/vocab#ActionTypeCode> ;
+  rdfs:comment "Code specifying that the line item numbers have changed."^^xsd:string ;
+  rdfs:label "12"^^xsd:string .
+
+<https://edi3.org/mmtc/vocab#ActionTypeCodeBuyerHasDeductedAmount>
+  a <https://edi3.org/mmtc/vocab#ActionTypeCode> ;
+  rdfs:comment "Buyer has deducted amount from payment."^^xsd:string ;
+  rdfs:label "13"^^xsd:string .
+
+<https://edi3.org/mmtc/vocab#ActionTypeCodeBuyerClaimsAgainstInvoice>
+  a <https://edi3.org/mmtc/vocab#ActionTypeCode> ;
+  rdfs:comment "Buyer has a claim against an outstanding invoice."^^xsd:string ;
+  rdfs:label "14"^^xsd:string .
+
+<https://edi3.org/mmtc/vocab#ActionTypeCodeChargeBackBySeller>
+  a <https://edi3.org/mmtc/vocab#ActionTypeCode> ;
+  rdfs:comment "Factor has been requested to charge back the outstanding item."^^xsd:string ;
+  rdfs:label "15"^^xsd:string .
+
+<https://edi3.org/mmtc/vocab#ActionTypeCodeSellerWillIssueCreditNote>
+  a <https://edi3.org/mmtc/vocab#ActionTypeCode> ;
+  rdfs:comment "Seller agrees to issue a credit note."^^xsd:string ;
+  rdfs:label "16"^^xsd:string .
+
+<https://edi3.org/mmtc/vocab#ActionTypeCodeTermsChangedForNewTerms>
+  a <https://edi3.org/mmtc/vocab#ActionTypeCode> ;
+  rdfs:comment "New settlement terms have been agreed."^^xsd:string ;
+  rdfs:label "17"^^xsd:string .
+
+<https://edi3.org/mmtc/vocab#ActionTypeCodeAbideOutcomeOfNegotiations>
+  a <https://edi3.org/mmtc/vocab#ActionTypeCode> ;
+  rdfs:comment "Factor agrees to abide by the outcome of negotiations between seller and buyer."^^xsd:string ;
+  rdfs:label "18"^^xsd:string .
+
+<https://edi3.org/mmtc/vocab#ActionTypeCodeSellerRejectsDispute>
+  a <https://edi3.org/mmtc/vocab#ActionTypeCode> ;
+  rdfs:comment "Seller does not accept validity of dispute."^^xsd:string ;
+  rdfs:label "19"^^xsd:string .
+
+<https://edi3.org/mmtc/vocab#ActionTypeCodeSettlement>
+  a <https://edi3.org/mmtc/vocab#ActionTypeCode> ;
+  rdfs:comment "The reported situation is settled."^^xsd:string ;
+  rdfs:label "20"^^xsd:string .
+
+<https://edi3.org/mmtc/vocab#ActionTypeCodeNoDelivery>
+  a <https://edi3.org/mmtc/vocab#ActionTypeCode> ;
+  rdfs:comment "Code indicating that no delivery will be required."^^xsd:string ;
+  rdfs:label "21"^^xsd:string .
+
+<https://edi3.org/mmtc/vocab#ActionTypeCodeCalloffDelivery>
+  a <https://edi3.org/mmtc/vocab#ActionTypeCode> ;
+  rdfs:comment "A request for delivery of a particular quantity of goods to be delivered on a particular date (or within a particular period)."^^xsd:string ;
+  rdfs:label "22"^^xsd:string .
+
+<https://edi3.org/mmtc/vocab#ActionTypeCodeProposedAmendment>
+  a <https://edi3.org/mmtc/vocab#ActionTypeCode> ;
+  rdfs:comment "A code used to indicate an amendment suggested by the sender."^^xsd:string ;
+  rdfs:label "23"^^xsd:string .
+
+<https://edi3.org/mmtc/vocab#ActionTypeCodeAcceptedWithAmendmentNoConfirmationRequired>
+  a <https://edi3.org/mmtc/vocab#ActionTypeCode> ;
+  rdfs:comment "Accepted with changes which require no confirmation."^^xsd:string ;
+  rdfs:label "24"^^xsd:string .
+
+<https://edi3.org/mmtc/vocab#ActionTypeCodeEquipmentProvisionallyRepaired>
+  a <https://edi3.org/mmtc/vocab#ActionTypeCode> ;
+  rdfs:comment "The equipment or component has been provisionally repaired."^^xsd:string ;
+  rdfs:label "25"^^xsd:string .
+
+<https://edi3.org/mmtc/vocab#ActionTypeCodeIncluded>
+  a <https://edi3.org/mmtc/vocab#ActionTypeCode> ;
+  rdfs:comment "Code indicating that the entity is included."^^xsd:string ;
+  rdfs:label "26"^^xsd:string .
+
+<https://edi3.org/mmtc/vocab#ActionTypeCodeUponReceiptAndVerificationOfDocumentsWeShallCoverYouWhenDueAsPerYourInstructions>
+  a <https://edi3.org/mmtc/vocab#ActionTypeCode> ;
+  rdfs:comment "Upon receipt and verification of documents we shall cover you when due as per your instructions."^^xsd:string ;
+  rdfs:label "27"^^xsd:string .
+
+<https://edi3.org/mmtc/vocab#ActionTypeCodeUponReceiptAndVerificationOfDocumentsWeShallAuthorizeYouToDebitOurAccountWithYouWhenDue>
+  a <https://edi3.org/mmtc/vocab#ActionTypeCode> ;
+  rdfs:comment "Upon receipt and verification of documents we shall authorize you to debit our account with you when due."^^xsd:string ;
+  rdfs:label "28"^^xsd:string .
+
+<https://edi3.org/mmtc/vocab#ActionTypeCodeOnReceiptOfYourAuthenticatedAdviceWeShallCoverYouWhenDueAsPerYourInstructions>
+  a <https://edi3.org/mmtc/vocab#ActionTypeCode> ;
+  rdfs:comment "On receipt of your authenticated advice we shall cover you when due as per your instructions."^^xsd:string ;
+  rdfs:label "29"^^xsd:string .
+
+<https://edi3.org/mmtc/vocab#ActionTypeCodeOnReceiptOfYourAuthenticatedAdviceWeShallAuthorizeYouToDebitOurAccountWithYouWhenDue>
+  a <https://edi3.org/mmtc/vocab#ActionTypeCode> ;
+  rdfs:comment "On receipt of your authenticated advice we shall authorize you to debit our account with you when due."^^xsd:string ;
+  rdfs:label "30"^^xsd:string .
+
+<https://edi3.org/mmtc/vocab#ActionTypeCodeOnReceiptOfYourAuthenticatedAdviceWeShallCreditYourAccountWithUsWhenDue>
+  a <https://edi3.org/mmtc/vocab#ActionTypeCode> ;
+  rdfs:comment "On receipt of your authenticated advice we shall credit your account with us when due."^^xsd:string ;
+  rdfs:label "31"^^xsd:string .
+
+<https://edi3.org/mmtc/vocab#ActionTypeCodeCreditAdviceRequestedForDirectDebit>
+  a <https://edi3.org/mmtc/vocab#ActionTypeCode> ;
+  rdfs:comment "A credit advice is requested for the direct debit."^^xsd:string ;
+  rdfs:label "32"^^xsd:string .
+
+<https://edi3.org/mmtc/vocab#ActionTypeCodeCreditAdviceAndAcknowledgementForDirectDebit>
+  a <https://edi3.org/mmtc/vocab#ActionTypeCode> ;
+  rdfs:comment "A credit advice and acknowledgement are requested for the direct debit."^^xsd:string ;
+  rdfs:label "33"^^xsd:string .
+
+<https://edi3.org/mmtc/vocab#ActionTypeCodeInquiry>
+  a <https://edi3.org/mmtc/vocab#ActionTypeCode> ;
+  rdfs:comment "Request for information."^^xsd:string ;
+  rdfs:label "34"^^xsd:string .
+
+<https://edi3.org/mmtc/vocab#ActionTypeCodeChecked>
+  a <https://edi3.org/mmtc/vocab#ActionTypeCode> ;
+  rdfs:comment "Checked."^^xsd:string ;
+  rdfs:label "35"^^xsd:string .
+
+<https://edi3.org/mmtc/vocab#ActionTypeCodeNotChecked>
+  a <https://edi3.org/mmtc/vocab#ActionTypeCode> ;
+  rdfs:comment "Not checked."^^xsd:string ;
+  rdfs:label "36"^^xsd:string .
+
+<https://edi3.org/mmtc/vocab#ActionTypeCodeCancelled>
+  a <https://edi3.org/mmtc/vocab#ActionTypeCode> ;
+  rdfs:comment "Discontinued."^^xsd:string ;
+  rdfs:label "37"^^xsd:string .
+
+<https://edi3.org/mmtc/vocab#ActionTypeCodeReplaced>
+  a <https://edi3.org/mmtc/vocab#ActionTypeCode> ;
+  rdfs:comment "Provide a replacement."^^xsd:string ;
+  rdfs:label "38"^^xsd:string .
+
+<https://edi3.org/mmtc/vocab#ActionTypeCodeNew>
+  a <https://edi3.org/mmtc/vocab#ActionTypeCode> ;
+  rdfs:comment "Not existing before."^^xsd:string ;
+  rdfs:label "39"^^xsd:string .
+
+<https://edi3.org/mmtc/vocab#ActionTypeCodeAgreed>
+  a <https://edi3.org/mmtc/vocab#ActionTypeCode> ;
+  rdfs:comment "Consent."^^xsd:string ;
+  rdfs:label "40"^^xsd:string .
+
+<https://edi3.org/mmtc/vocab#ActionTypeCodeProposed>
+  a <https://edi3.org/mmtc/vocab#ActionTypeCode> ;
+  rdfs:comment "Put forward for consideration."^^xsd:string ;
+  rdfs:label "41"^^xsd:string .
+
+<https://edi3.org/mmtc/vocab#ActionTypeCodeAlreadyDelivered>
+  a <https://edi3.org/mmtc/vocab#ActionTypeCode> ;
+  rdfs:comment "Delivery has taken place."^^xsd:string ;
+  rdfs:label "42"^^xsd:string .
+
+<https://edi3.org/mmtc/vocab#ActionTypeCodeAdditionalSubordinateStructuresWillFollow>
+  a <https://edi3.org/mmtc/vocab#ActionTypeCode> ;
+  rdfs:comment "Additional subordinate structures will follow the current hierarchy level."^^xsd:string ;
+  rdfs:label "43"^^xsd:string .
+
+<https://edi3.org/mmtc/vocab#ActionTypeCodeAdditionalSubordinateStructuresWillNotFollow>
+  a <https://edi3.org/mmtc/vocab#ActionTypeCode> ;
+  rdfs:comment "No additional subordinate structures will follow the current hierarchy level."^^xsd:string ;
+  rdfs:label "44"^^xsd:string .
+
+<https://edi3.org/mmtc/vocab#ActionTypeCodeResultOpposed>
+  a <https://edi3.org/mmtc/vocab#ActionTypeCode> ;
+  rdfs:comment "A notification that the result is opposed."^^xsd:string ;
+  rdfs:label "45"^^xsd:string .
+
+<https://edi3.org/mmtc/vocab#ActionTypeCodeAuctionHeld>
+  a <https://edi3.org/mmtc/vocab#ActionTypeCode> ;
+  rdfs:comment "A notification that an auction was held."^^xsd:string ;
+  rdfs:label "46"^^xsd:string .
+
+<https://edi3.org/mmtc/vocab#ActionTypeCodeLegalActionPursued>
+  a <https://edi3.org/mmtc/vocab#ActionTypeCode> ;
+  rdfs:comment "A notification that legal action has been pursued."^^xsd:string ;
+  rdfs:label "47"^^xsd:string .
+
+<https://edi3.org/mmtc/vocab#ActionTypeCodeMeetingHeld>
+  a <https://edi3.org/mmtc/vocab#ActionTypeCode> ;
+  rdfs:comment "A notification that a meeting was held."^^xsd:string ;
+  rdfs:label "48"^^xsd:string .
+
+<https://edi3.org/mmtc/vocab#ActionTypeCodeResultSetAside>
+  a <https://edi3.org/mmtc/vocab#ActionTypeCode> ;
+  rdfs:comment "A notification that the result has been set aside."^^xsd:string ;
+  rdfs:label "49"^^xsd:string .
+
+<https://edi3.org/mmtc/vocab#ActionTypeCodeResultDisputed>
+  a <https://edi3.org/mmtc/vocab#ActionTypeCode> ;
+  rdfs:comment "A notification that the result has been disputed."^^xsd:string ;
+  rdfs:label "50"^^xsd:string .
+
+<https://edi3.org/mmtc/vocab#ActionTypeCodeCountersued>
+  a <https://edi3.org/mmtc/vocab#ActionTypeCode> ;
+  rdfs:comment "A notification that a countersuit has been filed."^^xsd:string ;
+  rdfs:label "51"^^xsd:string .
+
+<https://edi3.org/mmtc/vocab#ActionTypeCodePending>
+  a <https://edi3.org/mmtc/vocab#ActionTypeCode> ;
+  rdfs:comment "A notification that an action is awaiting settlement."^^xsd:string ;
+  rdfs:label "52"^^xsd:string .
+
+<https://edi3.org/mmtc/vocab#ActionTypeCodeCourtActionDismissed>
+  a <https://edi3.org/mmtc/vocab#ActionTypeCode> ;
+  rdfs:comment "A notification that a court action will no longer be heard."^^xsd:string ;
+  rdfs:label "53"^^xsd:string .
+
+<https://edi3.org/mmtc/vocab#ActionTypeCodeReferredItemAccepted>
+  a <https://edi3.org/mmtc/vocab#ActionTypeCode> ;
+  rdfs:comment "The item being referred to has been accepted."^^xsd:string ;
+  rdfs:label "54"^^xsd:string .
+
+<https://edi3.org/mmtc/vocab#ActionTypeCodeReferredItemRejected>
+  a <https://edi3.org/mmtc/vocab#ActionTypeCode> ;
+  rdfs:comment "The item being referred to has been rejected."^^xsd:string ;
+  rdfs:label "55"^^xsd:string .
+
+<https://edi3.org/mmtc/vocab#ActionTypeCodeDebitAdviceStatementLine>
+  a <https://edi3.org/mmtc/vocab#ActionTypeCode> ;
+  rdfs:comment "Notification that the statement line is a debit advice."^^xsd:string ;
+  rdfs:label "56"^^xsd:string .
+
+<https://edi3.org/mmtc/vocab#ActionTypeCodeCreditAdviceStatementLine>
+  a <https://edi3.org/mmtc/vocab#ActionTypeCode> ;
+  rdfs:comment "Notification that the statement line is a credit advice."^^xsd:string ;
+  rdfs:label "57"^^xsd:string .
+
+<https://edi3.org/mmtc/vocab#ActionTypeCodeGroupedCreditAdvices>
+  a <https://edi3.org/mmtc/vocab#ActionTypeCode> ;
+  rdfs:comment "Notification that the credit advices are grouped."^^xsd:string ;
+  rdfs:label "58"^^xsd:string .
+
+<https://edi3.org/mmtc/vocab#ActionTypeCodeGroupedDebitAdvices>
+  a <https://edi3.org/mmtc/vocab#ActionTypeCode> ;
+  rdfs:comment "Notification that the debit advices are grouped."^^xsd:string ;
+  rdfs:label "59"^^xsd:string .
+
+<https://edi3.org/mmtc/vocab#ActionTypeCodeRegistered>
+  a <https://edi3.org/mmtc/vocab#ActionTypeCode> ;
+  rdfs:comment "The name is registered."^^xsd:string ;
+  rdfs:label "60"^^xsd:string .
+
+<https://edi3.org/mmtc/vocab#ActionTypeCodePaymentDenied>
+  a <https://edi3.org/mmtc/vocab#ActionTypeCode> ;
+  rdfs:comment "The payment has been denied."^^xsd:string ;
+  rdfs:label "61"^^xsd:string .
+
+<https://edi3.org/mmtc/vocab#ActionTypeCodeApprovedAsAmended>
+  a <https://edi3.org/mmtc/vocab#ActionTypeCode> ;
+  rdfs:comment "Approved with modifications."^^xsd:string ;
+  rdfs:label "62"^^xsd:string .
+
+<https://edi3.org/mmtc/vocab#ActionTypeCodeApprovedAsSubmitted>
+  a <https://edi3.org/mmtc/vocab#ActionTypeCode> ;
+  rdfs:comment "The request has been approved as submitted."^^xsd:string ;
+  rdfs:label "63"^^xsd:string .
+
+<https://edi3.org/mmtc/vocab#ActionTypeCodeCancelledNoActivity>
+  a <https://edi3.org/mmtc/vocab#ActionTypeCode> ;
+  rdfs:comment "Cancelled due to the lack of activity."^^xsd:string ;
+  rdfs:label "64"^^xsd:string .
+
+<https://edi3.org/mmtc/vocab#ActionTypeCodeUnderInvestigation>
+  a <https://edi3.org/mmtc/vocab#ActionTypeCode> ;
+  rdfs:comment "Investigation is being done."^^xsd:string ;
+  rdfs:label "65"^^xsd:string .
+
+<https://edi3.org/mmtc/vocab#ActionTypeCodeInitialClaimReceived>
+  a <https://edi3.org/mmtc/vocab#ActionTypeCode> ;
+  rdfs:comment "Notification that the initial claim was received."^^xsd:string ;
+  rdfs:label "66"^^xsd:string .
+
+<https://edi3.org/mmtc/vocab#ActionTypeCodeNotInProcess>
+  a <https://edi3.org/mmtc/vocab#ActionTypeCode> ;
+  rdfs:comment "Not in process."^^xsd:string ;
+  rdfs:label "67"^^xsd:string .
+
+<https://edi3.org/mmtc/vocab#ActionTypeCodeRejectedDuplicate>
+  a <https://edi3.org/mmtc/vocab#ActionTypeCode> ;
+  rdfs:comment "Rejected because it is a duplicate."^^xsd:string ;
+  rdfs:label "68"^^xsd:string .
+
+<https://edi3.org/mmtc/vocab#ActionTypeCodeRejectedResubmitWithCorrections>
+  a <https://edi3.org/mmtc/vocab#ActionTypeCode> ;
+  rdfs:comment "Rejected but may be resubmitted when corrected."^^xsd:string ;
+  rdfs:label "69"^^xsd:string .
+
+<https://edi3.org/mmtc/vocab#ActionTypeCodePendingIncomplete>
+  a <https://edi3.org/mmtc/vocab#ActionTypeCode> ;
+  rdfs:comment "Pending because of incomplete information."^^xsd:string ;
+  rdfs:label "70"^^xsd:string .
+
+<https://edi3.org/mmtc/vocab#ActionTypeCodeUnderFieldOfficeInvestigation>
+  a <https://edi3.org/mmtc/vocab#ActionTypeCode> ;
+  rdfs:comment "Investigation by the field is being done."^^xsd:string ;
+  rdfs:label "71"^^xsd:string .
+
+<https://edi3.org/mmtc/vocab#ActionTypeCodePendingAwaitingAdditionalMaterial>
+  a <https://edi3.org/mmtc/vocab#ActionTypeCode> ;
+  rdfs:comment "Pending awaiting receipt of additional material."^^xsd:string ;
+  rdfs:label "72"^^xsd:string .
+
+<https://edi3.org/mmtc/vocab#ActionTypeCodePendingAwaitingReview>
+  a <https://edi3.org/mmtc/vocab#ActionTypeCode> ;
+  rdfs:comment "Pending while awaiting review."^^xsd:string ;
+  rdfs:label "73"^^xsd:string .
+
+<https://edi3.org/mmtc/vocab#ActionTypeCodeReopened>
+  a <https://edi3.org/mmtc/vocab#ActionTypeCode> ;
+  rdfs:comment "Opened again."^^xsd:string ;
+  rdfs:label "74"^^xsd:string .
+
+<https://edi3.org/mmtc/vocab#ActionTypeCodeProcessedByPrimaryForwardedToAdditionalPayers>
+  a <https://edi3.org/mmtc/vocab#ActionTypeCode> ;
+  rdfs:comment "This request has been processed by the primary payer and sent to additional payer(s)."^^xsd:string ;
+  rdfs:label "75"^^xsd:string .
+
+<https://edi3.org/mmtc/vocab#ActionTypeCodeProcessedBySecondaryForwardedToAdditionalPayers>
+  a <https://edi3.org/mmtc/vocab#ActionTypeCode> ;
+  rdfs:comment "This request has been processed by the secondary payer and sent to additional payer(s)."^^xsd:string ;
+  rdfs:label "76"^^xsd:string .
+
+<https://edi3.org/mmtc/vocab#ActionTypeCodeProcessedByTertiaryForwardedToAdditionalPayers>
+  a <https://edi3.org/mmtc/vocab#ActionTypeCode> ;
+  rdfs:comment "This request has been processed by the tertiary payer and sent to additional payer(s)."^^xsd:string ;
+  rdfs:label "77"^^xsd:string .
+
+<https://edi3.org/mmtc/vocab#ActionTypeCodePreviousPaymentDecisionReversed>
+  a <https://edi3.org/mmtc/vocab#ActionTypeCode> ;
+  rdfs:comment "A previous payment decision has been reversed."^^xsd:string ;
+  rdfs:label "78"^^xsd:string .
+
+<https://edi3.org/mmtc/vocab#ActionTypeCodeNotOurClaimForwardedToAnotherPayers>
+  a <https://edi3.org/mmtc/vocab#ActionTypeCode> ;
+  rdfs:comment "A request does not belong to this payer but has been forwarded to another payer(s)."^^xsd:string ;
+  rdfs:label "79"^^xsd:string .
+
+<https://edi3.org/mmtc/vocab#ActionTypeCodeTransferredToCorrectInsuranceCarrier>
+  a <https://edi3.org/mmtc/vocab#ActionTypeCode> ;
+  rdfs:comment "The request has been transferred to the correct insurance carrier for processing."^^xsd:string ;
+  rdfs:label "80"^^xsd:string .
+
+<https://edi3.org/mmtc/vocab#ActionTypeCodeNotPaidPredeterminationPricingOnly>
+  a <https://edi3.org/mmtc/vocab#ActionTypeCode> ;
+  rdfs:comment "Payment has not been made and the enclosed response is predetermination pricing only."^^xsd:string ;
+  rdfs:label "81"^^xsd:string .
+
+<https://edi3.org/mmtc/vocab#ActionTypeCodeDocumentationClaim>
+  a <https://edi3.org/mmtc/vocab#ActionTypeCode> ;
+  rdfs:comment "The claim is for documentation purposes only, no payment required."^^xsd:string ;
+  rdfs:label "82"^^xsd:string .
+
+<https://edi3.org/mmtc/vocab#ActionTypeCodeReviewed>
+  a <https://edi3.org/mmtc/vocab#ActionTypeCode> ;
+  rdfs:comment "Assessed."^^xsd:string ;
+  rdfs:label "83"^^xsd:string .
+
+<https://edi3.org/mmtc/vocab#ActionTypeCodeRepriced>
+  a <https://edi3.org/mmtc/vocab#ActionTypeCode> ;
+  rdfs:comment "This price was changed."^^xsd:string ;
+  rdfs:label "84"^^xsd:string .
+
+<https://edi3.org/mmtc/vocab#ActionTypeCodeAudited>
+  a <https://edi3.org/mmtc/vocab#ActionTypeCode> ;
+  rdfs:comment "An official examination has occurred."^^xsd:string ;
+  rdfs:label "85"^^xsd:string .
+
+<https://edi3.org/mmtc/vocab#ActionTypeCodeConditionallyPaid>
+  a <https://edi3.org/mmtc/vocab#ActionTypeCode> ;
+  rdfs:comment "Payment has been conditionally made."^^xsd:string ;
+  rdfs:label "86"^^xsd:string .
+
+<https://edi3.org/mmtc/vocab#ActionTypeCodeOnAppeal>
+  a <https://edi3.org/mmtc/vocab#ActionTypeCode> ;
+  rdfs:comment "Reconsideration of the decision has been applied for."^^xsd:string ;
+  rdfs:label "87"^^xsd:string .
+
+<https://edi3.org/mmtc/vocab#ActionTypeCodeClosed>
+  a <https://edi3.org/mmtc/vocab#ActionTypeCode> ;
+  rdfs:comment "Shut."^^xsd:string ;
+  rdfs:label "88"^^xsd:string .
+
+<https://edi3.org/mmtc/vocab#ActionTypeCodeReaudited>
+  a <https://edi3.org/mmtc/vocab#ActionTypeCode> ;
+  rdfs:comment "A subsequent official examination has occurred."^^xsd:string ;
+  rdfs:label "89"^^xsd:string .
+
+<https://edi3.org/mmtc/vocab#ActionTypeCodeReissued>
+  a <https://edi3.org/mmtc/vocab#ActionTypeCode> ;
+  rdfs:comment "Issued again."^^xsd:string ;
+  rdfs:label "90"^^xsd:string .
+
+<https://edi3.org/mmtc/vocab#ActionTypeCodeClosedAfterReopening>
+  a <https://edi3.org/mmtc/vocab#ActionTypeCode> ;
+  rdfs:comment "Reopened and then closed."^^xsd:string ;
+  rdfs:label "91"^^xsd:string .
+
+<https://edi3.org/mmtc/vocab#ActionTypeCodeRedetermined>
+  a <https://edi3.org/mmtc/vocab#ActionTypeCode> ;
+  rdfs:comment "Determined again or differently."^^xsd:string ;
+  rdfs:label "92"^^xsd:string .
+
+<https://edi3.org/mmtc/vocab#ActionTypeCodeProcessedAsPrimary>
+  a <https://edi3.org/mmtc/vocab#ActionTypeCode> ;
+  rdfs:comment "Processed as the first."^^xsd:string ;
+  rdfs:label "93"^^xsd:string .
+
+<https://edi3.org/mmtc/vocab#ActionTypeCodeProcessedAsSecondary>
+  a <https://edi3.org/mmtc/vocab#ActionTypeCode> ;
+  rdfs:comment "Processed as the second."^^xsd:string ;
+  rdfs:label "94"^^xsd:string .
+
+<https://edi3.org/mmtc/vocab#ActionTypeCodeProcessedAsTertiary>
+  a <https://edi3.org/mmtc/vocab#ActionTypeCode> ;
+  rdfs:comment "Processed as the third."^^xsd:string ;
+  rdfs:label "95"^^xsd:string .
+
+<https://edi3.org/mmtc/vocab#ActionTypeCodeCorrectionOfError>
+  a <https://edi3.org/mmtc/vocab#ActionTypeCode> ;
+  rdfs:comment "A correction to information previously communicated which contained an error."^^xsd:string ;
+  rdfs:label "96"^^xsd:string .
+
+<https://edi3.org/mmtc/vocab#ActionTypeCodeSingleCreditItemOfAGroup>
+  a <https://edi3.org/mmtc/vocab#ActionTypeCode> ;
+  rdfs:comment "Notification that the credit item is a single credit item of a group of credit items."^^xsd:string ;
+  rdfs:label "97"^^xsd:string .
+
+<https://edi3.org/mmtc/vocab#ActionTypeCodeSingleDebitItemOfAGroup>
+  a <https://edi3.org/mmtc/vocab#ActionTypeCode> ;
+  rdfs:comment "Notification that the debit item is a single debit item of a group of debit items."^^xsd:string ;
+  rdfs:label "98"^^xsd:string .
+
+<https://edi3.org/mmtc/vocab#ActionTypeCodeInterimResponse>
+  a <https://edi3.org/mmtc/vocab#ActionTypeCode> ;
+  rdfs:comment "The response is an interim one."^^xsd:string ;
+  rdfs:label "99"^^xsd:string .
+
+<https://edi3.org/mmtc/vocab#ActionTypeCodeFinalResponse>
+  a <https://edi3.org/mmtc/vocab#ActionTypeCode> ;
+  rdfs:comment "The response is an final one."^^xsd:string ;
+  rdfs:label "100"^^xsd:string .
+
+<https://edi3.org/mmtc/vocab#ActionTypeCodeDebitAdviceRequested>
+  a <https://edi3.org/mmtc/vocab#ActionTypeCode> ;
+  rdfs:comment "A debit advice is requested for the transaction."^^xsd:string ;
+  rdfs:label "101"^^xsd:string .
+
+<https://edi3.org/mmtc/vocab#ActionTypeCodeTransactionNotImpacted>
+  a <https://edi3.org/mmtc/vocab#ActionTypeCode> ;
+  rdfs:comment "Advice that the transaction is not impacted."^^xsd:string ;
+  rdfs:label "102"^^xsd:string .
+
+<https://edi3.org/mmtc/vocab#ActionTypeCodePatientToBeNotified>
+  a <https://edi3.org/mmtc/vocab#ActionTypeCode> ;
+  rdfs:comment "The action to take is to notify the patient."^^xsd:string ;
+  rdfs:label "103"^^xsd:string .
+
+<https://edi3.org/mmtc/vocab#ActionTypeCodeHealthcareProviderToBeNotified>
+  a <https://edi3.org/mmtc/vocab#ActionTypeCode> ;
+  rdfs:comment "The action to take is to notify the healthcare provider."^^xsd:string ;
+  rdfs:label "104"^^xsd:string .
+
+<https://edi3.org/mmtc/vocab#ActionTypeCodeUsualGeneralPractitionerToBeNotified>
+  a <https://edi3.org/mmtc/vocab#ActionTypeCode> ;
+  rdfs:comment "The action to take is to notify the usual general practitioner."^^xsd:string ;
+  rdfs:label "105"^^xsd:string .
+
+<https://edi3.org/mmtc/vocab#ActionTypeCodeAdviceWithoutDetails>
+  a <https://edi3.org/mmtc/vocab#ActionTypeCode> ;
+  rdfs:comment "An advice without details is requested or notified."^^xsd:string ;
+  rdfs:label "106"^^xsd:string .
+
+<https://edi3.org/mmtc/vocab#ActionTypeCodeAdviceWithDetails>
+  a <https://edi3.org/mmtc/vocab#ActionTypeCode> ;
+  rdfs:comment "An advice with details is requested or notified."^^xsd:string ;
+  rdfs:label "107"^^xsd:string .
+
+<https://edi3.org/mmtc/vocab#ActionTypeCodeAmendmentRequested>
+  a <https://edi3.org/mmtc/vocab#ActionTypeCode> ;
+  rdfs:comment "An amendment is requested."^^xsd:string ;
+  rdfs:label "108"^^xsd:string .
+
+<https://edi3.org/mmtc/vocab#ActionTypeCodeForInformation>
+  a <https://edi3.org/mmtc/vocab#ActionTypeCode> ;
+  rdfs:comment "Included for information only."^^xsd:string ;
+  rdfs:label "109"^^xsd:string .
+
+<https://edi3.org/mmtc/vocab#ActionTypeCodeWithdraw>
+  a <https://edi3.org/mmtc/vocab#ActionTypeCode> ;
+  rdfs:comment "A code indicating discontinuance or retraction."^^xsd:string ;
+  rdfs:label "110"^^xsd:string .
+
+<https://edi3.org/mmtc/vocab#ActionTypeCodeDeliveryDateChange>
+  a <https://edi3.org/mmtc/vocab#ActionTypeCode> ;
+  rdfs:comment "The action / notiification is a change of the delivery date."^^xsd:string ;
+  rdfs:label "111"^^xsd:string .
+
+<https://edi3.org/mmtc/vocab#ActionTypeCodeQuantityChange>
+  a <https://edi3.org/mmtc/vocab#ActionTypeCode> ;
+  rdfs:comment "The action / notification is a change of quantity."^^xsd:string ;
+  rdfs:label "112"^^xsd:string .
+
+<https://edi3.org/mmtc/vocab#ActionTypeCodeResaleAndClaim>
+  a <https://edi3.org/mmtc/vocab#ActionTypeCode> ;
+  rdfs:comment "The identified items have been sold by the distributor to the end customer, and compensation for the loss of inventory value is claimed."^^xsd:string ;
+  rdfs:label "113"^^xsd:string .
+
+<https://edi3.org/mmtc/vocab#ActionTypeCodeResale>
+  a <https://edi3.org/mmtc/vocab#ActionTypeCode> ;
+  rdfs:comment "The identified items have been sold by the distributor to the end customer."^^xsd:string ;
+  rdfs:label "114"^^xsd:string .
+
+<https://edi3.org/mmtc/vocab#ActionTypeCodePriorAddition>
+  a <https://edi3.org/mmtc/vocab#ActionTypeCode> ;
+  rdfs:comment "This existing line item becomes available at an earlier date."^^xsd:string ;
+  rdfs:label "115"^^xsd:string .
+
+<https://edi3.org/mmtc/vocab#ActionTypeCodeExpired>
+  a <https://edi3.org/mmtc/vocab#ActionTypeCode> ;
+  rdfs:comment "This line has expired."^^xsd:string ;
+  rdfs:label "116"^^xsd:string .
+
+<https://edi3.org/mmtc/vocab#ActionTypeCodeHold>
+  a <https://edi3.org/mmtc/vocab#ActionTypeCode> ;
+  rdfs:comment "This line is on Hold."^^xsd:string ;
+  rdfs:label "117"^^xsd:string .
+
+<https://edi3.org/mmtc/vocab#ActionTypeCodeOpen>
+  a <https://edi3.org/mmtc/vocab#ActionTypeCode> ;
+  rdfs:comment "This line is open."^^xsd:string ;
+  rdfs:label "118"^^xsd:string .
