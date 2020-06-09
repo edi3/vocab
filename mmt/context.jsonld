@@ -2,7 +2,9 @@
   "@context": {
     "@vocab":   "https://edi3.org/vocab/mmt#",
     "mmt":      "https://edi3.org/vocab/mmt#",
-
-    "AcademicQualification":    { "@type": "@id" }
+    "xsd":      "http://www.w3.org/2001/XMLSchema#",
+    
+    "AcademicQualification":    { "@type": "@id" },
+    "useNativeTypes":       { "@type": "xsd:boolean" }
   }
 }
