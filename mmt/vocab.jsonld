@@ -8,6 +8,16 @@
     },
     "@graph": [
         {
+            "@id": "https://edi3.org/mmt/vocab#",
+            "dc:creator": "EDI3",
+            "dc:date": "2020-06-09",
+            "dc:description": "MMT Vocabulary",
+            "dc:identifier": "https://edi3.org/mmt/vocab#",
+            "dc:publisher": "EDI3",
+            "dc:title": "MMT Vocabulary",
+            "rdfs:comment": "MMT Vocabulary"
+        },
+        {
             "@id": "mmt:AcademicQualification",
             "@type": "rdfs:Class",
             "rdfs:comment": "An academic achievement that is officially recognized.",
