@@ -1,0 +1,2473 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://edi3.org/isoc/vocab#ISO3166Code>
+  a rdfs:Class ;
+  rdfs:label "ISO3166Code"^^xsd:string ;
+  rdfs:subClassOf "schema:Enumeration"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO3166CodeAD>
+  a <https://edi3.org/isoc/vocab#ISO3166Code> ;
+  rdfs:label "Andorra"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO3166CodeAE>
+  a <https://edi3.org/isoc/vocab#ISO3166Code> ;
+  rdfs:label "UnitedArabEmirates"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO3166CodeAF>
+  a <https://edi3.org/isoc/vocab#ISO3166Code> ;
+  rdfs:label "Afghanistan"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO3166CodeAG>
+  a <https://edi3.org/isoc/vocab#ISO3166Code> ;
+  rdfs:label "AntiguaandBarbuda"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO3166CodeAI>
+  a <https://edi3.org/isoc/vocab#ISO3166Code> ;
+  rdfs:label "Anguilla"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO3166CodeAL>
+  a <https://edi3.org/isoc/vocab#ISO3166Code> ;
+  rdfs:label "Albania"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO3166CodeAM>
+  a <https://edi3.org/isoc/vocab#ISO3166Code> ;
+  rdfs:label "Armenia"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO3166CodeAO>
+  a <https://edi3.org/isoc/vocab#ISO3166Code> ;
+  rdfs:label "Angola"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO3166CodeAQ>
+  a <https://edi3.org/isoc/vocab#ISO3166Code> ;
+  rdfs:label "Antarctica"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO3166CodeAR>
+  a <https://edi3.org/isoc/vocab#ISO3166Code> ;
+  rdfs:label "Argentina"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO3166CodeAS>
+  a <https://edi3.org/isoc/vocab#ISO3166Code> ;
+  rdfs:label "AmericanSamoa"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO3166CodeAT>
+  a <https://edi3.org/isoc/vocab#ISO3166Code> ;
+  rdfs:label "Austria"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO3166CodeAU>
+  a <https://edi3.org/isoc/vocab#ISO3166Code> ;
+  rdfs:label "Australia"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO3166CodeAW>
+  a <https://edi3.org/isoc/vocab#ISO3166Code> ;
+  rdfs:label "Aruba"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO3166CodeAX>
+  a <https://edi3.org/isoc/vocab#ISO3166Code> ;
+  rdfs:label "Ă…landIslands"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO3166CodeAZ>
+  a <https://edi3.org/isoc/vocab#ISO3166Code> ;
+  rdfs:label "Azerbaijan"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO3166CodeBA>
+  a <https://edi3.org/isoc/vocab#ISO3166Code> ;
+  rdfs:label "BosniaandHerzegovina"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO3166CodeBB>
+  a <https://edi3.org/isoc/vocab#ISO3166Code> ;
+  rdfs:label "Barbados"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO3166CodeBD>
+  a <https://edi3.org/isoc/vocab#ISO3166Code> ;
+  rdfs:label "Bangladesh"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO3166CodeBE>
+  a <https://edi3.org/isoc/vocab#ISO3166Code> ;
+  rdfs:label "Belgium"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO3166CodeBF>
+  a <https://edi3.org/isoc/vocab#ISO3166Code> ;
+  rdfs:label "BurkinaFaso"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO3166CodeBG>
+  a <https://edi3.org/isoc/vocab#ISO3166Code> ;
+  rdfs:label "Bulgaria"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO3166CodeBH>
+  a <https://edi3.org/isoc/vocab#ISO3166Code> ;
+  rdfs:label "Bahrain"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO3166CodeBI>
+  a <https://edi3.org/isoc/vocab#ISO3166Code> ;
+  rdfs:label "Burundi"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO3166CodeBJ>
+  a <https://edi3.org/isoc/vocab#ISO3166Code> ;
+  rdfs:label "Benin"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO3166CodeBL>
+  a <https://edi3.org/isoc/vocab#ISO3166Code> ;
+  rdfs:label "SaintBarthĂ©lemy"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO3166CodeBM>
+  a <https://edi3.org/isoc/vocab#ISO3166Code> ;
+  rdfs:label "Bermuda"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO3166CodeBN>
+  a <https://edi3.org/isoc/vocab#ISO3166Code> ;
+  rdfs:label "BruneiDarussalam"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO3166CodeBO>
+  a <https://edi3.org/isoc/vocab#ISO3166Code> ;
+  rdfs:label "Bolivia,PlurinationalStateof"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO3166CodeBQ>
+  a <https://edi3.org/isoc/vocab#ISO3166Code> ;
+  rdfs:label "Bonaire,SintEustatiusandSaba"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO3166CodeBR>
+  a <https://edi3.org/isoc/vocab#ISO3166Code> ;
+  rdfs:label "Brazil"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO3166CodeBS>
+  a <https://edi3.org/isoc/vocab#ISO3166Code> ;
+  rdfs:label "Bahamas"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO3166CodeBT>
+  a <https://edi3.org/isoc/vocab#ISO3166Code> ;
+  rdfs:label "Bhutan"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO3166CodeBV>
+  a <https://edi3.org/isoc/vocab#ISO3166Code> ;
+  rdfs:label "BouvetIsland"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO3166CodeBW>
+  a <https://edi3.org/isoc/vocab#ISO3166Code> ;
+  rdfs:label "Botswana"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO3166CodeBY>
+  a <https://edi3.org/isoc/vocab#ISO3166Code> ;
+  rdfs:label "Belarus"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO3166CodeBZ>
+  a <https://edi3.org/isoc/vocab#ISO3166Code> ;
+  rdfs:label "Belize"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO3166CodeCA>
+  a <https://edi3.org/isoc/vocab#ISO3166Code> ;
+  rdfs:label "Canada"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO3166CodeCC>
+  a <https://edi3.org/isoc/vocab#ISO3166Code> ;
+  rdfs:label "Cocos(Keeling)Islands"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO3166CodeCD>
+  a <https://edi3.org/isoc/vocab#ISO3166Code> ;
+  rdfs:label "Congo,theDemocraticRepublicofthe"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO3166CodeCF>
+  a <https://edi3.org/isoc/vocab#ISO3166Code> ;
+  rdfs:label "CentralAfricanRepublic"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO3166CodeCG>
+  a <https://edi3.org/isoc/vocab#ISO3166Code> ;
+  rdfs:label "Congo"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO3166CodeCH>
+  a <https://edi3.org/isoc/vocab#ISO3166Code> ;
+  rdfs:label "Switzerland"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO3166CodeCI>
+  a <https://edi3.org/isoc/vocab#ISO3166Code> ;
+  rdfs:label "CĂ´ted'Ivoire"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO3166CodeCK>
+  a <https://edi3.org/isoc/vocab#ISO3166Code> ;
+  rdfs:label "CookIslands"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO3166CodeCL>
+  a <https://edi3.org/isoc/vocab#ISO3166Code> ;
+  rdfs:label "Chile"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO3166CodeCM>
+  a <https://edi3.org/isoc/vocab#ISO3166Code> ;
+  rdfs:label "Cameroon"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO3166CodeCN>
+  a <https://edi3.org/isoc/vocab#ISO3166Code> ;
+  rdfs:label "China"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO3166CodeCO>
+  a <https://edi3.org/isoc/vocab#ISO3166Code> ;
+  rdfs:label "Colombia"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO3166CodeCR>
+  a <https://edi3.org/isoc/vocab#ISO3166Code> ;
+  rdfs:label "CostaRica"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO3166CodeCU>
+  a <https://edi3.org/isoc/vocab#ISO3166Code> ;
+  rdfs:label "Cuba"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO3166CodeCV>
+  a <https://edi3.org/isoc/vocab#ISO3166Code> ;
+  rdfs:label "CapeVerde"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO3166CodeCW>
+  a <https://edi3.org/isoc/vocab#ISO3166Code> ;
+  rdfs:label "CuraĂ§ao"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO3166CodeCX>
+  a <https://edi3.org/isoc/vocab#ISO3166Code> ;
+  rdfs:label "ChristmasIsland"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO3166CodeCY>
+  a <https://edi3.org/isoc/vocab#ISO3166Code> ;
+  rdfs:label "Cyprus"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO3166CodeCZ>
+  a <https://edi3.org/isoc/vocab#ISO3166Code> ;
+  rdfs:label "CzechRepublic"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO3166CodeDE>
+  a <https://edi3.org/isoc/vocab#ISO3166Code> ;
+  rdfs:label "Germany"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO3166CodeDJ>
+  a <https://edi3.org/isoc/vocab#ISO3166Code> ;
+  rdfs:label "Djibouti"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO3166CodeDK>
+  a <https://edi3.org/isoc/vocab#ISO3166Code> ;
+  rdfs:label "Denmark"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO3166CodeDM>
+  a <https://edi3.org/isoc/vocab#ISO3166Code> ;
+  rdfs:label "Dominica"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO3166CodeDO>
+  a <https://edi3.org/isoc/vocab#ISO3166Code> ;
+  rdfs:label "DominicanRepublic"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO3166CodeDZ>
+  a <https://edi3.org/isoc/vocab#ISO3166Code> ;
+  rdfs:label "Algeria"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO3166CodeEC>
+  a <https://edi3.org/isoc/vocab#ISO3166Code> ;
+  rdfs:label "Ecuador"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO3166CodeEE>
+  a <https://edi3.org/isoc/vocab#ISO3166Code> ;
+  rdfs:label "Estonia"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO3166CodeEG>
+  a <https://edi3.org/isoc/vocab#ISO3166Code> ;
+  rdfs:label "Egypt"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO3166CodeEH>
+  a <https://edi3.org/isoc/vocab#ISO3166Code> ;
+  rdfs:label "WesternSahara"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO3166CodeER>
+  a <https://edi3.org/isoc/vocab#ISO3166Code> ;
+  rdfs:label "Eritrea"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO3166CodeES>
+  a <https://edi3.org/isoc/vocab#ISO3166Code> ;
+  rdfs:label "Spain"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO3166CodeET>
+  a <https://edi3.org/isoc/vocab#ISO3166Code> ;
+  rdfs:label "Ethiopia"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO3166CodeFI>
+  a <https://edi3.org/isoc/vocab#ISO3166Code> ;
+  rdfs:label "Finland"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO3166CodeFJ>
+  a <https://edi3.org/isoc/vocab#ISO3166Code> ;
+  rdfs:label "Fiji"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO3166CodeFK>
+  a <https://edi3.org/isoc/vocab#ISO3166Code> ;
+  rdfs:label "FalklandIslands(Malvinas)"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO3166CodeFM>
+  a <https://edi3.org/isoc/vocab#ISO3166Code> ;
+  rdfs:label "Micronesia,FederatedStatesof"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO3166CodeFO>
+  a <https://edi3.org/isoc/vocab#ISO3166Code> ;
+  rdfs:label "FaroeIslands"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO3166CodeFR>
+  a <https://edi3.org/isoc/vocab#ISO3166Code> ;
+  rdfs:label "France"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO3166CodeGA>
+  a <https://edi3.org/isoc/vocab#ISO3166Code> ;
+  rdfs:label "Gabon"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO3166CodeGB>
+  a <https://edi3.org/isoc/vocab#ISO3166Code> ;
+  rdfs:label "UnitedKingdom"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO3166CodeGD>
+  a <https://edi3.org/isoc/vocab#ISO3166Code> ;
+  rdfs:label "Grenada"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO3166CodeGE>
+  a <https://edi3.org/isoc/vocab#ISO3166Code> ;
+  rdfs:label "Georgia"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO3166CodeGF>
+  a <https://edi3.org/isoc/vocab#ISO3166Code> ;
+  rdfs:label "FrenchGuiana"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO3166CodeGG>
+  a <https://edi3.org/isoc/vocab#ISO3166Code> ;
+  rdfs:label "Guernsey"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO3166CodeGH>
+  a <https://edi3.org/isoc/vocab#ISO3166Code> ;
+  rdfs:label "Ghana"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO3166CodeGI>
+  a <https://edi3.org/isoc/vocab#ISO3166Code> ;
+  rdfs:label "Gibraltar"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO3166CodeGL>
+  a <https://edi3.org/isoc/vocab#ISO3166Code> ;
+  rdfs:label "Greenland"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO3166CodeGM>
+  a <https://edi3.org/isoc/vocab#ISO3166Code> ;
+  rdfs:label "Gambia"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO3166CodeGN>
+  a <https://edi3.org/isoc/vocab#ISO3166Code> ;
+  rdfs:label "Guinea"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO3166CodeGP>
+  a <https://edi3.org/isoc/vocab#ISO3166Code> ;
+  rdfs:label "Guadeloupe"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO3166CodeGQ>
+  a <https://edi3.org/isoc/vocab#ISO3166Code> ;
+  rdfs:label "EquatorialGuinea"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO3166CodeGR>
+  a <https://edi3.org/isoc/vocab#ISO3166Code> ;
+  rdfs:label "Greece"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO3166CodeGS>
+  a <https://edi3.org/isoc/vocab#ISO3166Code> ;
+  rdfs:label "SouthGeorgiaandtheSouthSandwichIslands"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO3166CodeGT>
+  a <https://edi3.org/isoc/vocab#ISO3166Code> ;
+  rdfs:label "Guatemala"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO3166CodeGU>
+  a <https://edi3.org/isoc/vocab#ISO3166Code> ;
+  rdfs:label "Guam"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO3166CodeGW>
+  a <https://edi3.org/isoc/vocab#ISO3166Code> ;
+  rdfs:label "GuineaBissau"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO3166CodeGY>
+  a <https://edi3.org/isoc/vocab#ISO3166Code> ;
+  rdfs:label "Guyana"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO3166CodeHK>
+  a <https://edi3.org/isoc/vocab#ISO3166Code> ;
+  rdfs:label "HongKong"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO3166CodeHM>
+  a <https://edi3.org/isoc/vocab#ISO3166Code> ;
+  rdfs:label "HeardIslandandMcDonaldIslands"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO3166CodeHN>
+  a <https://edi3.org/isoc/vocab#ISO3166Code> ;
+  rdfs:label "Honduras"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO3166CodeHR>
+  a <https://edi3.org/isoc/vocab#ISO3166Code> ;
+  rdfs:label "Croatia"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO3166CodeHT>
+  a <https://edi3.org/isoc/vocab#ISO3166Code> ;
+  rdfs:label "Haiti"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO3166CodeHU>
+  a <https://edi3.org/isoc/vocab#ISO3166Code> ;
+  rdfs:label "Hungary"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO3166CodeID>
+  a <https://edi3.org/isoc/vocab#ISO3166Code> ;
+  rdfs:label "Indonesia"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO3166CodeIE>
+  a <https://edi3.org/isoc/vocab#ISO3166Code> ;
+  rdfs:label "Ireland"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO3166CodeIL>
+  a <https://edi3.org/isoc/vocab#ISO3166Code> ;
+  rdfs:label "Israel"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO3166CodeIM>
+  a <https://edi3.org/isoc/vocab#ISO3166Code> ;
+  rdfs:label "IsleofMan"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO3166CodeIN>
+  a <https://edi3.org/isoc/vocab#ISO3166Code> ;
+  rdfs:label "India"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO3166CodeIO>
+  a <https://edi3.org/isoc/vocab#ISO3166Code> ;
+  rdfs:label "BritishIndianOceanTerritory"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO3166CodeIQ>
+  a <https://edi3.org/isoc/vocab#ISO3166Code> ;
+  rdfs:label "Iraq"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO3166CodeIR>
+  a <https://edi3.org/isoc/vocab#ISO3166Code> ;
+  rdfs:label "Iran,IslamicRepublicof"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO3166CodeIS>
+  a <https://edi3.org/isoc/vocab#ISO3166Code> ;
+  rdfs:label "Iceland"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO3166CodeIT>
+  a <https://edi3.org/isoc/vocab#ISO3166Code> ;
+  rdfs:label "Italy"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO3166CodeJE>
+  a <https://edi3.org/isoc/vocab#ISO3166Code> ;
+  rdfs:label "Jersey"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO3166CodeJM>
+  a <https://edi3.org/isoc/vocab#ISO3166Code> ;
+  rdfs:label "Jamaica"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO3166CodeJO>
+  a <https://edi3.org/isoc/vocab#ISO3166Code> ;
+  rdfs:label "Jordan"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO3166CodeJP>
+  a <https://edi3.org/isoc/vocab#ISO3166Code> ;
+  rdfs:label "Japan"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO3166CodeKE>
+  a <https://edi3.org/isoc/vocab#ISO3166Code> ;
+  rdfs:label "Kenya"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO3166CodeKG>
+  a <https://edi3.org/isoc/vocab#ISO3166Code> ;
+  rdfs:label "Kyrgyzstan"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO3166CodeKH>
+  a <https://edi3.org/isoc/vocab#ISO3166Code> ;
+  rdfs:label "Cambodia"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO3166CodeKI>
+  a <https://edi3.org/isoc/vocab#ISO3166Code> ;
+  rdfs:label "Kiribati"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO3166CodeKM>
+  a <https://edi3.org/isoc/vocab#ISO3166Code> ;
+  rdfs:label "Comoros"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO3166CodeKN>
+  a <https://edi3.org/isoc/vocab#ISO3166Code> ;
+  rdfs:label "SaintKittsandNevis"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO3166CodeKP>
+  a <https://edi3.org/isoc/vocab#ISO3166Code> ;
+  rdfs:label "Korea,DemocraticPeople'sRepublicof"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO3166CodeKR>
+  a <https://edi3.org/isoc/vocab#ISO3166Code> ;
+  rdfs:label "Korea,Republicof"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO3166CodeKW>
+  a <https://edi3.org/isoc/vocab#ISO3166Code> ;
+  rdfs:label "Kuwait"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO3166CodeKY>
+  a <https://edi3.org/isoc/vocab#ISO3166Code> ;
+  rdfs:label "CaymanIslands"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO3166CodeKZ>
+  a <https://edi3.org/isoc/vocab#ISO3166Code> ;
+  rdfs:label "Kazakhstan"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO3166CodeLA>
+  a <https://edi3.org/isoc/vocab#ISO3166Code> ;
+  rdfs:label "LaoPeople'sDemocraticRepublic"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO3166CodeLB>
+  a <https://edi3.org/isoc/vocab#ISO3166Code> ;
+  rdfs:label "Lebanon"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO3166CodeLC>
+  a <https://edi3.org/isoc/vocab#ISO3166Code> ;
+  rdfs:label "SaintLucia"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO3166CodeLI>
+  a <https://edi3.org/isoc/vocab#ISO3166Code> ;
+  rdfs:label "Liechtenstein"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO3166CodeLK>
+  a <https://edi3.org/isoc/vocab#ISO3166Code> ;
+  rdfs:label "SriLanka"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO3166CodeLR>
+  a <https://edi3.org/isoc/vocab#ISO3166Code> ;
+  rdfs:label "Liberia"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO3166CodeLS>
+  a <https://edi3.org/isoc/vocab#ISO3166Code> ;
+  rdfs:label "Lesotho"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO3166CodeLT>
+  a <https://edi3.org/isoc/vocab#ISO3166Code> ;
+  rdfs:label "Lithuania"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO3166CodeLU>
+  a <https://edi3.org/isoc/vocab#ISO3166Code> ;
+  rdfs:label "Luxembourg"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO3166CodeLV>
+  a <https://edi3.org/isoc/vocab#ISO3166Code> ;
+  rdfs:label "Latvia"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO3166CodeLY>
+  a <https://edi3.org/isoc/vocab#ISO3166Code> ;
+  rdfs:label "Libya"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO3166CodeMA>
+  a <https://edi3.org/isoc/vocab#ISO3166Code> ;
+  rdfs:label "Morocco"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO3166CodeMC>
+  a <https://edi3.org/isoc/vocab#ISO3166Code> ;
+  rdfs:label "Monaco"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO3166CodeMD>
+  a <https://edi3.org/isoc/vocab#ISO3166Code> ;
+  rdfs:label "Moldova,Republicof"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO3166CodeME>
+  a <https://edi3.org/isoc/vocab#ISO3166Code> ;
+  rdfs:label "Montenegro"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO3166CodeMF>
+  a <https://edi3.org/isoc/vocab#ISO3166Code> ;
+  rdfs:label "SaintMartin(Frenchpart)"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO3166CodeMG>
+  a <https://edi3.org/isoc/vocab#ISO3166Code> ;
+  rdfs:label "Madagascar"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO3166CodeMH>
+  a <https://edi3.org/isoc/vocab#ISO3166Code> ;
+  rdfs:label "MarshallIslands"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO3166CodeMK>
+  a <https://edi3.org/isoc/vocab#ISO3166Code> ;
+  rdfs:label "Macedonia,theFormerYugoslavRepublicof"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO3166CodeML>
+  a <https://edi3.org/isoc/vocab#ISO3166Code> ;
+  rdfs:label "Mali"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO3166CodeMM>
+  a <https://edi3.org/isoc/vocab#ISO3166Code> ;
+  rdfs:label "Myanmar"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO3166CodeMN>
+  a <https://edi3.org/isoc/vocab#ISO3166Code> ;
+  rdfs:label "Mongolia"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO3166CodeMO>
+  a <https://edi3.org/isoc/vocab#ISO3166Code> ;
+  rdfs:label "Macao"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO3166CodeMP>
+  a <https://edi3.org/isoc/vocab#ISO3166Code> ;
+  rdfs:label "NorthernMarianaIslands"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO3166CodeMQ>
+  a <https://edi3.org/isoc/vocab#ISO3166Code> ;
+  rdfs:label "Martinique"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO3166CodeMR>
+  a <https://edi3.org/isoc/vocab#ISO3166Code> ;
+  rdfs:label "Mauritania"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO3166CodeMS>
+  a <https://edi3.org/isoc/vocab#ISO3166Code> ;
+  rdfs:label "Montserrat"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO3166CodeMT>
+  a <https://edi3.org/isoc/vocab#ISO3166Code> ;
+  rdfs:label "Malta"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO3166CodeMU>
+  a <https://edi3.org/isoc/vocab#ISO3166Code> ;
+  rdfs:label "Mauritius"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO3166CodeMV>
+  a <https://edi3.org/isoc/vocab#ISO3166Code> ;
+  rdfs:label "Maldives"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO3166CodeMW>
+  a <https://edi3.org/isoc/vocab#ISO3166Code> ;
+  rdfs:label "Malawi"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO3166CodeMX>
+  a <https://edi3.org/isoc/vocab#ISO3166Code> ;
+  rdfs:label "Mexico"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO3166CodeMY>
+  a <https://edi3.org/isoc/vocab#ISO3166Code> ;
+  rdfs:label "Malaysia"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO3166CodeMZ>
+  a <https://edi3.org/isoc/vocab#ISO3166Code> ;
+  rdfs:label "Mozambique"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO3166CodeNA>
+  a <https://edi3.org/isoc/vocab#ISO3166Code> ;
+  rdfs:label "Namibia"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO3166CodeNC>
+  a <https://edi3.org/isoc/vocab#ISO3166Code> ;
+  rdfs:label "NewCaledonia"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO3166CodeNE>
+  a <https://edi3.org/isoc/vocab#ISO3166Code> ;
+  rdfs:label "Niger"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO3166CodeNF>
+  a <https://edi3.org/isoc/vocab#ISO3166Code> ;
+  rdfs:label "NorfolkIsland"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO3166CodeNG>
+  a <https://edi3.org/isoc/vocab#ISO3166Code> ;
+  rdfs:label "Nigeria"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO3166CodeNI>
+  a <https://edi3.org/isoc/vocab#ISO3166Code> ;
+  rdfs:label "Nicaragua"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO3166CodeNL>
+  a <https://edi3.org/isoc/vocab#ISO3166Code> ;
+  rdfs:label "Netherlands"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO3166CodeNO>
+  a <https://edi3.org/isoc/vocab#ISO3166Code> ;
+  rdfs:label "Norway"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO3166CodeNP>
+  a <https://edi3.org/isoc/vocab#ISO3166Code> ;
+  rdfs:label "Nepal"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO3166CodeNR>
+  a <https://edi3.org/isoc/vocab#ISO3166Code> ;
+  rdfs:label "Nauru"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO3166CodeNU>
+  a <https://edi3.org/isoc/vocab#ISO3166Code> ;
+  rdfs:label "Niue"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO3166CodeNZ>
+  a <https://edi3.org/isoc/vocab#ISO3166Code> ;
+  rdfs:label "NewZealand"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO3166CodeOM>
+  a <https://edi3.org/isoc/vocab#ISO3166Code> ;
+  rdfs:label "Oman"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO3166CodePA>
+  a <https://edi3.org/isoc/vocab#ISO3166Code> ;
+  rdfs:label "Panama"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO3166CodePE>
+  a <https://edi3.org/isoc/vocab#ISO3166Code> ;
+  rdfs:label "Peru"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO3166CodePF>
+  a <https://edi3.org/isoc/vocab#ISO3166Code> ;
+  rdfs:label "FrenchPolynesia"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO3166CodePG>
+  a <https://edi3.org/isoc/vocab#ISO3166Code> ;
+  rdfs:label "PapuaNewGuinea"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO3166CodePH>
+  a <https://edi3.org/isoc/vocab#ISO3166Code> ;
+  rdfs:label "Philippines"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO3166CodePK>
+  a <https://edi3.org/isoc/vocab#ISO3166Code> ;
+  rdfs:label "Pakistan"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO3166CodePL>
+  a <https://edi3.org/isoc/vocab#ISO3166Code> ;
+  rdfs:label "Poland"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO3166CodePM>
+  a <https://edi3.org/isoc/vocab#ISO3166Code> ;
+  rdfs:label "SaintPierreandMiquelon"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO3166CodePN>
+  a <https://edi3.org/isoc/vocab#ISO3166Code> ;
+  rdfs:label "Pitcairn"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO3166CodePR>
+  a <https://edi3.org/isoc/vocab#ISO3166Code> ;
+  rdfs:label "PuertoRico"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO3166CodePS>
+  a <https://edi3.org/isoc/vocab#ISO3166Code> ;
+  rdfs:label "Palestine,Stateof"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO3166CodePT>
+  a <https://edi3.org/isoc/vocab#ISO3166Code> ;
+  rdfs:label "Portugal"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO3166CodePW>
+  a <https://edi3.org/isoc/vocab#ISO3166Code> ;
+  rdfs:label "Palau"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO3166CodePY>
+  a <https://edi3.org/isoc/vocab#ISO3166Code> ;
+  rdfs:label "Paraguay"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO3166CodeQA>
+  a <https://edi3.org/isoc/vocab#ISO3166Code> ;
+  rdfs:label "Qatar"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO3166CodeRE>
+  a <https://edi3.org/isoc/vocab#ISO3166Code> ;
+  rdfs:label "RĂ©union"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO3166CodeRO>
+  a <https://edi3.org/isoc/vocab#ISO3166Code> ;
+  rdfs:label "Romania"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO3166CodeRS>
+  a <https://edi3.org/isoc/vocab#ISO3166Code> ;
+  rdfs:label "Serbia"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO3166CodeRU>
+  a <https://edi3.org/isoc/vocab#ISO3166Code> ;
+  rdfs:label "RussianFederation"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO3166CodeRW>
+  a <https://edi3.org/isoc/vocab#ISO3166Code> ;
+  rdfs:label "Rwanda"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO3166CodeSA>
+  a <https://edi3.org/isoc/vocab#ISO3166Code> ;
+  rdfs:label "SaudiArabia"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO3166CodeSB>
+  a <https://edi3.org/isoc/vocab#ISO3166Code> ;
+  rdfs:label "SolomonIslands"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO3166CodeSC>
+  a <https://edi3.org/isoc/vocab#ISO3166Code> ;
+  rdfs:label "Seychelles"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO3166CodeSD>
+  a <https://edi3.org/isoc/vocab#ISO3166Code> ;
+  rdfs:label "Sudan"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO3166CodeSE>
+  a <https://edi3.org/isoc/vocab#ISO3166Code> ;
+  rdfs:label "Sweden"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO3166CodeSG>
+  a <https://edi3.org/isoc/vocab#ISO3166Code> ;
+  rdfs:label "Singapore"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO3166CodeSH>
+  a <https://edi3.org/isoc/vocab#ISO3166Code> ;
+  rdfs:label "SaintHelena,AscensionandTristandaCunha"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO3166CodeSI>
+  a <https://edi3.org/isoc/vocab#ISO3166Code> ;
+  rdfs:label "Slovenia"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO3166CodeSJ>
+  a <https://edi3.org/isoc/vocab#ISO3166Code> ;
+  rdfs:label "SvalbardandJanMayen"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO3166CodeSK>
+  a <https://edi3.org/isoc/vocab#ISO3166Code> ;
+  rdfs:label "Slovakia"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO3166CodeSL>
+  a <https://edi3.org/isoc/vocab#ISO3166Code> ;
+  rdfs:label "SierraLeone"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO3166CodeSM>
+  a <https://edi3.org/isoc/vocab#ISO3166Code> ;
+  rdfs:label "SanMarino"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO3166CodeSN>
+  a <https://edi3.org/isoc/vocab#ISO3166Code> ;
+  rdfs:label "Senegal"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO3166CodeSO>
+  a <https://edi3.org/isoc/vocab#ISO3166Code> ;
+  rdfs:label "Somalia"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO3166CodeSR>
+  a <https://edi3.org/isoc/vocab#ISO3166Code> ;
+  rdfs:label "Suriname"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO3166CodeSS>
+  a <https://edi3.org/isoc/vocab#ISO3166Code> ;
+  rdfs:label "SouthSudan"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO3166CodeST>
+  a <https://edi3.org/isoc/vocab#ISO3166Code> ;
+  rdfs:label "SaoTomeandPrincipe"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO3166CodeSV>
+  a <https://edi3.org/isoc/vocab#ISO3166Code> ;
+  rdfs:label "ElSalvador"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO3166CodeSX>
+  a <https://edi3.org/isoc/vocab#ISO3166Code> ;
+  rdfs:label "SintMaarten(Dutchpart)"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO3166CodeSY>
+  a <https://edi3.org/isoc/vocab#ISO3166Code> ;
+  rdfs:label "SyrianArabRepublic"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO3166CodeSZ>
+  a <https://edi3.org/isoc/vocab#ISO3166Code> ;
+  rdfs:label "Swaziland"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO3166CodeTC>
+  a <https://edi3.org/isoc/vocab#ISO3166Code> ;
+  rdfs:label "TurksandCaicosIslands"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO3166CodeTD>
+  a <https://edi3.org/isoc/vocab#ISO3166Code> ;
+  rdfs:label "Chad"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO3166CodeTF>
+  a <https://edi3.org/isoc/vocab#ISO3166Code> ;
+  rdfs:label "FrenchSouthernTerritories"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO3166CodeTG>
+  a <https://edi3.org/isoc/vocab#ISO3166Code> ;
+  rdfs:label "Togo"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO3166CodeTH>
+  a <https://edi3.org/isoc/vocab#ISO3166Code> ;
+  rdfs:label "Thailand"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO3166CodeTJ>
+  a <https://edi3.org/isoc/vocab#ISO3166Code> ;
+  rdfs:label "Tajikistan"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO3166CodeTK>
+  a <https://edi3.org/isoc/vocab#ISO3166Code> ;
+  rdfs:label "Tokelau"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO3166CodeTL>
+  a <https://edi3.org/isoc/vocab#ISO3166Code> ;
+  rdfs:label "TimorLeste"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO3166CodeTM>
+  a <https://edi3.org/isoc/vocab#ISO3166Code> ;
+  rdfs:label "Turkmenistan"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO3166CodeTN>
+  a <https://edi3.org/isoc/vocab#ISO3166Code> ;
+  rdfs:label "Tunisia"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO3166CodeTO>
+  a <https://edi3.org/isoc/vocab#ISO3166Code> ;
+  rdfs:label "Tonga"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO3166CodeTR>
+  a <https://edi3.org/isoc/vocab#ISO3166Code> ;
+  rdfs:label "Turkey"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO3166CodeTT>
+  a <https://edi3.org/isoc/vocab#ISO3166Code> ;
+  rdfs:label "TrinidadandTobago"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO3166CodeTV>
+  a <https://edi3.org/isoc/vocab#ISO3166Code> ;
+  rdfs:label "Tuvalu"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO3166CodeTW>
+  a <https://edi3.org/isoc/vocab#ISO3166Code> ;
+  rdfs:label "Taiwan,ProvinceofChina"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO3166CodeTZ>
+  a <https://edi3.org/isoc/vocab#ISO3166Code> ;
+  rdfs:label "Tanzania,UnitedRepublicof"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO3166CodeUA>
+  a <https://edi3.org/isoc/vocab#ISO3166Code> ;
+  rdfs:label "Ukraine"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO3166CodeUG>
+  a <https://edi3.org/isoc/vocab#ISO3166Code> ;
+  rdfs:label "Uganda"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO3166CodeUM>
+  a <https://edi3.org/isoc/vocab#ISO3166Code> ;
+  rdfs:label "UnitedStatesMinorOutlyingIslands"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO3166CodeUS>
+  a <https://edi3.org/isoc/vocab#ISO3166Code> ;
+  rdfs:label "UnitedStates"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO3166CodeUY>
+  a <https://edi3.org/isoc/vocab#ISO3166Code> ;
+  rdfs:label "Uruguay"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO3166CodeUZ>
+  a <https://edi3.org/isoc/vocab#ISO3166Code> ;
+  rdfs:label "Uzbekistan"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO3166CodeVA>
+  a <https://edi3.org/isoc/vocab#ISO3166Code> ;
+  rdfs:label "HolySee(VaticanCityState)"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO3166CodeVC>
+  a <https://edi3.org/isoc/vocab#ISO3166Code> ;
+  rdfs:label "SaintVincentandtheGrenadines"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO3166CodeVE>
+  a <https://edi3.org/isoc/vocab#ISO3166Code> ;
+  rdfs:label "Venezuela,BolivarianRepublicof"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO3166CodeVG>
+  a <https://edi3.org/isoc/vocab#ISO3166Code> ;
+  rdfs:label "VirginIslands,British"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO3166CodeVI>
+  a <https://edi3.org/isoc/vocab#ISO3166Code> ;
+  rdfs:label "VirginIslands,U.S."^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO3166CodeVN>
+  a <https://edi3.org/isoc/vocab#ISO3166Code> ;
+  rdfs:label "VietNam"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO3166CodeVU>
+  a <https://edi3.org/isoc/vocab#ISO3166Code> ;
+  rdfs:label "Vanuatu"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO3166CodeWF>
+  a <https://edi3.org/isoc/vocab#ISO3166Code> ;
+  rdfs:label "WallisandFutuna"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO3166CodeWS>
+  a <https://edi3.org/isoc/vocab#ISO3166Code> ;
+  rdfs:label "Samoa"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO3166CodeYE>
+  a <https://edi3.org/isoc/vocab#ISO3166Code> ;
+  rdfs:label "Yemen"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO3166CodeYT>
+  a <https://edi3.org/isoc/vocab#ISO3166Code> ;
+  rdfs:label "Mayotte"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO3166CodeZA>
+  a <https://edi3.org/isoc/vocab#ISO3166Code> ;
+  rdfs:label "SouthAfrica"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO3166CodeZM>
+  a <https://edi3.org/isoc/vocab#ISO3166Code> ;
+  rdfs:label "Zambia"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO3166CodeZW>
+  a <https://edi3.org/isoc/vocab#ISO3166Code> ;
+  rdfs:label "Zimbabwe"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO4217Code>
+  a rdfs:Class ;
+  rdfs:label "ISO4217Code"^^xsd:string ;
+  rdfs:subClassOf "schema:Enumeration"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO4217CodeAED>
+  a <https://edi3.org/isoc/vocab#ISO4217Code> ;
+  rdfs:label "UAEDirham"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO4217CodeAFN>
+  a <https://edi3.org/isoc/vocab#ISO4217Code> ;
+  rdfs:label "Afghani"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO4217CodeALL>
+  a <https://edi3.org/isoc/vocab#ISO4217Code> ;
+  rdfs:label "Lek"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO4217CodeAMD>
+  a <https://edi3.org/isoc/vocab#ISO4217Code> ;
+  rdfs:label "ArmenianDram"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO4217CodeANG>
+  a <https://edi3.org/isoc/vocab#ISO4217Code> ;
+  rdfs:label "NetherlandsAntilleanGuilder"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO4217CodeAOA>
+  a <https://edi3.org/isoc/vocab#ISO4217Code> ;
+  rdfs:label "Kwanza"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO4217CodeARS>
+  a <https://edi3.org/isoc/vocab#ISO4217Code> ;
+  rdfs:label "ArgentinePeso"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO4217CodeAUD>
+  a <https://edi3.org/isoc/vocab#ISO4217Code> ;
+  rdfs:label "AustralianDollar"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO4217CodeAWG>
+  a <https://edi3.org/isoc/vocab#ISO4217Code> ;
+  rdfs:label "ArubanFlorin"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO4217CodeAZN>
+  a <https://edi3.org/isoc/vocab#ISO4217Code> ;
+  rdfs:label "AzerbaijanManat"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO4217CodeBAM>
+  a <https://edi3.org/isoc/vocab#ISO4217Code> ;
+  rdfs:label "ConvertibleMark"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO4217CodeBBD>
+  a <https://edi3.org/isoc/vocab#ISO4217Code> ;
+  rdfs:label "BarbadosDollar"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO4217CodeBDT>
+  a <https://edi3.org/isoc/vocab#ISO4217Code> ;
+  rdfs:label "Taka"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO4217CodeBGN>
+  a <https://edi3.org/isoc/vocab#ISO4217Code> ;
+  rdfs:label "BulgarianLev"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO4217CodeBHD>
+  a <https://edi3.org/isoc/vocab#ISO4217Code> ;
+  rdfs:label "BahrainiDinar"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO4217CodeBIF>
+  a <https://edi3.org/isoc/vocab#ISO4217Code> ;
+  rdfs:label "BurundiFranc"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO4217CodeBMD>
+  a <https://edi3.org/isoc/vocab#ISO4217Code> ;
+  rdfs:label "BermudianDollar"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO4217CodeBND>
+  a <https://edi3.org/isoc/vocab#ISO4217Code> ;
+  rdfs:label "BruneiDollar"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO4217CodeBOB>
+  a <https://edi3.org/isoc/vocab#ISO4217Code> ;
+  rdfs:label "Boliviano"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO4217CodeBOV>
+  a <https://edi3.org/isoc/vocab#ISO4217Code> ;
+  rdfs:label "Mvdol"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO4217CodeBRL>
+  a <https://edi3.org/isoc/vocab#ISO4217Code> ;
+  rdfs:label "BrazilianReal"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO4217CodeBSD>
+  a <https://edi3.org/isoc/vocab#ISO4217Code> ;
+  rdfs:label "BahamianDollar"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO4217CodeBTN>
+  a <https://edi3.org/isoc/vocab#ISO4217Code> ;
+  rdfs:label "Ngultrum"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO4217CodeBWP>
+  a <https://edi3.org/isoc/vocab#ISO4217Code> ;
+  rdfs:label "Pula"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO4217CodeBYN>
+  a <https://edi3.org/isoc/vocab#ISO4217Code> ;
+  rdfs:label "BelarusianRuble"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO4217CodeBZD>
+  a <https://edi3.org/isoc/vocab#ISO4217Code> ;
+  rdfs:label "BelizeDollar"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO4217CodeCAD>
+  a <https://edi3.org/isoc/vocab#ISO4217Code> ;
+  rdfs:label "CanadianDollar"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO4217CodeCDF>
+  a <https://edi3.org/isoc/vocab#ISO4217Code> ;
+  rdfs:label "CongoleseFranc"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO4217CodeCHE>
+  a <https://edi3.org/isoc/vocab#ISO4217Code> ;
+  rdfs:label "WIREuro"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO4217CodeCHF>
+  a <https://edi3.org/isoc/vocab#ISO4217Code> ;
+  rdfs:label "SwissFranc"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO4217CodeCHW>
+  a <https://edi3.org/isoc/vocab#ISO4217Code> ;
+  rdfs:label "WIRFranc"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO4217CodeCLF>
+  a <https://edi3.org/isoc/vocab#ISO4217Code> ;
+  rdfs:label "UnidaddeFomento"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO4217CodeCLP>
+  a <https://edi3.org/isoc/vocab#ISO4217Code> ;
+  rdfs:label "ChileanPeso"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO4217CodeCNY>
+  a <https://edi3.org/isoc/vocab#ISO4217Code> ;
+  rdfs:label "YuanRenminbi"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO4217CodeCOP>
+  a <https://edi3.org/isoc/vocab#ISO4217Code> ;
+  rdfs:label "ColombianPeso"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO4217CodeCOU>
+  a <https://edi3.org/isoc/vocab#ISO4217Code> ;
+  rdfs:label "UnidaddeValorReal"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO4217CodeCRC>
+  a <https://edi3.org/isoc/vocab#ISO4217Code> ;
+  rdfs:label "CostaRicanColon"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO4217CodeCUC>
+  a <https://edi3.org/isoc/vocab#ISO4217Code> ;
+  rdfs:label "PesoConvertible"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO4217CodeCUP>
+  a <https://edi3.org/isoc/vocab#ISO4217Code> ;
+  rdfs:label "CubanPeso"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO4217CodeCVE>
+  a <https://edi3.org/isoc/vocab#ISO4217Code> ;
+  rdfs:label "CaboVerdeEscudo"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO4217CodeCZK>
+  a <https://edi3.org/isoc/vocab#ISO4217Code> ;
+  rdfs:label "CzechKoruna"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO4217CodeDJF>
+  a <https://edi3.org/isoc/vocab#ISO4217Code> ;
+  rdfs:label "DjiboutiFranc"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO4217CodeDKK>
+  a <https://edi3.org/isoc/vocab#ISO4217Code> ;
+  rdfs:label "DanishKrone"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO4217CodeDOP>
+  a <https://edi3.org/isoc/vocab#ISO4217Code> ;
+  rdfs:label "DominicanPeso"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO4217CodeDZD>
+  a <https://edi3.org/isoc/vocab#ISO4217Code> ;
+  rdfs:label "AlgerianDinar"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO4217CodeEGP>
+  a <https://edi3.org/isoc/vocab#ISO4217Code> ;
+  rdfs:label "EgyptianPound"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO4217CodeERN>
+  a <https://edi3.org/isoc/vocab#ISO4217Code> ;
+  rdfs:label "Nakfa"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO4217CodeETB>
+  a <https://edi3.org/isoc/vocab#ISO4217Code> ;
+  rdfs:label "EthiopianBirr"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO4217CodeEUR>
+  a <https://edi3.org/isoc/vocab#ISO4217Code> ;
+  rdfs:label "Euro"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO4217CodeFJD>
+  a <https://edi3.org/isoc/vocab#ISO4217Code> ;
+  rdfs:label "FijiDollar"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO4217CodeFKP>
+  a <https://edi3.org/isoc/vocab#ISO4217Code> ;
+  rdfs:label "FalklandIslandsPound"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO4217CodeGBP>
+  a <https://edi3.org/isoc/vocab#ISO4217Code> ;
+  rdfs:label "PoundSterling"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO4217CodeGEL>
+  a <https://edi3.org/isoc/vocab#ISO4217Code> ;
+  rdfs:label "Lari"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO4217CodeGHS>
+  a <https://edi3.org/isoc/vocab#ISO4217Code> ;
+  rdfs:label "GhanaCedi"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO4217CodeGIP>
+  a <https://edi3.org/isoc/vocab#ISO4217Code> ;
+  rdfs:label "GibraltarPound"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO4217CodeGMD>
+  a <https://edi3.org/isoc/vocab#ISO4217Code> ;
+  rdfs:label "Dalasi"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO4217CodeGNF>
+  a <https://edi3.org/isoc/vocab#ISO4217Code> ;
+  rdfs:label "GuineanFranc"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO4217CodeGTQ>
+  a <https://edi3.org/isoc/vocab#ISO4217Code> ;
+  rdfs:label "Quetzal"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO4217CodeGYD>
+  a <https://edi3.org/isoc/vocab#ISO4217Code> ;
+  rdfs:label "GuyanaDollar"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO4217CodeHKD>
+  a <https://edi3.org/isoc/vocab#ISO4217Code> ;
+  rdfs:label "HongKongDollar"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO4217CodeHNL>
+  a <https://edi3.org/isoc/vocab#ISO4217Code> ;
+  rdfs:label "Lempira"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO4217CodeHRK>
+  a <https://edi3.org/isoc/vocab#ISO4217Code> ;
+  rdfs:label "Kuna"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO4217CodeHTG>
+  a <https://edi3.org/isoc/vocab#ISO4217Code> ;
+  rdfs:label "Gourde"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO4217CodeHUF>
+  a <https://edi3.org/isoc/vocab#ISO4217Code> ;
+  rdfs:label "Forint"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO4217CodeIDR>
+  a <https://edi3.org/isoc/vocab#ISO4217Code> ;
+  rdfs:label "Rupiah"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO4217CodeILS>
+  a <https://edi3.org/isoc/vocab#ISO4217Code> ;
+  rdfs:label "NewIsraeliSheqel"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO4217CodeINR>
+  a <https://edi3.org/isoc/vocab#ISO4217Code> ;
+  rdfs:label "IndianRupee"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO4217CodeIQD>
+  a <https://edi3.org/isoc/vocab#ISO4217Code> ;
+  rdfs:label "IraqiDinar"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO4217CodeIRR>
+  a <https://edi3.org/isoc/vocab#ISO4217Code> ;
+  rdfs:label "IranianRial"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO4217CodeISK>
+  a <https://edi3.org/isoc/vocab#ISO4217Code> ;
+  rdfs:label "IcelandKrona"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO4217CodeJMD>
+  a <https://edi3.org/isoc/vocab#ISO4217Code> ;
+  rdfs:label "JamaicanDollar"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO4217CodeJOD>
+  a <https://edi3.org/isoc/vocab#ISO4217Code> ;
+  rdfs:label "JordanianDinar"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO4217CodeJPY>
+  a <https://edi3.org/isoc/vocab#ISO4217Code> ;
+  rdfs:label "Yen"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO4217CodeKES>
+  a <https://edi3.org/isoc/vocab#ISO4217Code> ;
+  rdfs:label "KenyanShilling"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO4217CodeKGS>
+  a <https://edi3.org/isoc/vocab#ISO4217Code> ;
+  rdfs:label "Som"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO4217CodeKHR>
+  a <https://edi3.org/isoc/vocab#ISO4217Code> ;
+  rdfs:label "Riel"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO4217CodeKMF>
+  a <https://edi3.org/isoc/vocab#ISO4217Code> ;
+  rdfs:label "ComorianFranc"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO4217CodeKPW>
+  a <https://edi3.org/isoc/vocab#ISO4217Code> ;
+  rdfs:label "NorthKoreanWon"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO4217CodeKRW>
+  a <https://edi3.org/isoc/vocab#ISO4217Code> ;
+  rdfs:label "Won"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO4217CodeKWD>
+  a <https://edi3.org/isoc/vocab#ISO4217Code> ;
+  rdfs:label "KuwaitiDinar"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO4217CodeKYD>
+  a <https://edi3.org/isoc/vocab#ISO4217Code> ;
+  rdfs:label "CaymanIslandsDollar"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO4217CodeKZT>
+  a <https://edi3.org/isoc/vocab#ISO4217Code> ;
+  rdfs:label "Tenge"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO4217CodeLAK>
+  a <https://edi3.org/isoc/vocab#ISO4217Code> ;
+  rdfs:label "LaoKip"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO4217CodeLBP>
+  a <https://edi3.org/isoc/vocab#ISO4217Code> ;
+  rdfs:label "LebanesePound"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO4217CodeLKR>
+  a <https://edi3.org/isoc/vocab#ISO4217Code> ;
+  rdfs:label "SriLankaRupee"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO4217CodeLRD>
+  a <https://edi3.org/isoc/vocab#ISO4217Code> ;
+  rdfs:label "LiberianDollar"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO4217CodeLSL>
+  a <https://edi3.org/isoc/vocab#ISO4217Code> ;
+  rdfs:label "Loti"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO4217CodeLYD>
+  a <https://edi3.org/isoc/vocab#ISO4217Code> ;
+  rdfs:label "LibyanDinar"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO4217CodeMAD>
+  a <https://edi3.org/isoc/vocab#ISO4217Code> ;
+  rdfs:label "MoroccanDirham"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO4217CodeMDL>
+  a <https://edi3.org/isoc/vocab#ISO4217Code> ;
+  rdfs:label "MoldovanLeu"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO4217CodeMGA>
+  a <https://edi3.org/isoc/vocab#ISO4217Code> ;
+  rdfs:label "MalagasyAriary"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO4217CodeMKD>
+  a <https://edi3.org/isoc/vocab#ISO4217Code> ;
+  rdfs:label "Denar"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO4217CodeMMK>
+  a <https://edi3.org/isoc/vocab#ISO4217Code> ;
+  rdfs:label "Kyat"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO4217CodeMNT>
+  a <https://edi3.org/isoc/vocab#ISO4217Code> ;
+  rdfs:label "Tugrik"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO4217CodeMOP>
+  a <https://edi3.org/isoc/vocab#ISO4217Code> ;
+  rdfs:label "Pataca"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO4217CodeMRU>
+  a <https://edi3.org/isoc/vocab#ISO4217Code> ;
+  rdfs:label "Ouguiya"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO4217CodeMUR>
+  a <https://edi3.org/isoc/vocab#ISO4217Code> ;
+  rdfs:label "MauritiusRupee"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO4217CodeMVR>
+  a <https://edi3.org/isoc/vocab#ISO4217Code> ;
+  rdfs:label "Rufiyaa"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO4217CodeMWK>
+  a <https://edi3.org/isoc/vocab#ISO4217Code> ;
+  rdfs:label "MalawiKwacha"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO4217CodeMXN>
+  a <https://edi3.org/isoc/vocab#ISO4217Code> ;
+  rdfs:label "MexicanPeso"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO4217CodeMXV>
+  a <https://edi3.org/isoc/vocab#ISO4217Code> ;
+  rdfs:label "MexicanUnidaddeInversion(UDI)"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO4217CodeMYR>
+  a <https://edi3.org/isoc/vocab#ISO4217Code> ;
+  rdfs:label "MalaysianRinggit"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO4217CodeMZN>
+  a <https://edi3.org/isoc/vocab#ISO4217Code> ;
+  rdfs:label "MozambiqueMetical"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO4217CodeNAD>
+  a <https://edi3.org/isoc/vocab#ISO4217Code> ;
+  rdfs:label "NamibiaDollar"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO4217CodeNGN>
+  a <https://edi3.org/isoc/vocab#ISO4217Code> ;
+  rdfs:label "Naira"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO4217CodeNIO>
+  a <https://edi3.org/isoc/vocab#ISO4217Code> ;
+  rdfs:label "CordobaOro"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO4217CodeNOK>
+  a <https://edi3.org/isoc/vocab#ISO4217Code> ;
+  rdfs:label "NorwegianKrone"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO4217CodeNPR>
+  a <https://edi3.org/isoc/vocab#ISO4217Code> ;
+  rdfs:label "NepaleseRupee"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO4217CodeNZD>
+  a <https://edi3.org/isoc/vocab#ISO4217Code> ;
+  rdfs:label "NewZealandDollar"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO4217CodeOMR>
+  a <https://edi3.org/isoc/vocab#ISO4217Code> ;
+  rdfs:label "RialOmani"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO4217CodePAB>
+  a <https://edi3.org/isoc/vocab#ISO4217Code> ;
+  rdfs:label "Balboa"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO4217CodePEN>
+  a <https://edi3.org/isoc/vocab#ISO4217Code> ;
+  rdfs:label "Sol"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO4217CodePGK>
+  a <https://edi3.org/isoc/vocab#ISO4217Code> ;
+  rdfs:label "Kina"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO4217CodePHP>
+  a <https://edi3.org/isoc/vocab#ISO4217Code> ;
+  rdfs:label "PhilippinePeso"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO4217CodePKR>
+  a <https://edi3.org/isoc/vocab#ISO4217Code> ;
+  rdfs:label "PakistanRupee"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO4217CodePLN>
+  a <https://edi3.org/isoc/vocab#ISO4217Code> ;
+  rdfs:label "Zloty"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO4217CodePYG>
+  a <https://edi3.org/isoc/vocab#ISO4217Code> ;
+  rdfs:label "Guarani"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO4217CodeQAR>
+  a <https://edi3.org/isoc/vocab#ISO4217Code> ;
+  rdfs:label "QatariRial"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO4217CodeRON>
+  a <https://edi3.org/isoc/vocab#ISO4217Code> ;
+  rdfs:label "RomanianLeu"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO4217CodeRSD>
+  a <https://edi3.org/isoc/vocab#ISO4217Code> ;
+  rdfs:label "SerbianDinar"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO4217CodeRUB>
+  a <https://edi3.org/isoc/vocab#ISO4217Code> ;
+  rdfs:label "RussianRuble"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO4217CodeRWF>
+  a <https://edi3.org/isoc/vocab#ISO4217Code> ;
+  rdfs:label "RwandaFranc"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO4217CodeSAR>
+  a <https://edi3.org/isoc/vocab#ISO4217Code> ;
+  rdfs:label "SaudiRiyal"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO4217CodeSBD>
+  a <https://edi3.org/isoc/vocab#ISO4217Code> ;
+  rdfs:label "SolomonIslandsDollar"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO4217CodeSCR>
+  a <https://edi3.org/isoc/vocab#ISO4217Code> ;
+  rdfs:label "SeychellesRupee"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO4217CodeSDG>
+  a <https://edi3.org/isoc/vocab#ISO4217Code> ;
+  rdfs:label "SudanesePound"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO4217CodeSEK>
+  a <https://edi3.org/isoc/vocab#ISO4217Code> ;
+  rdfs:label "SwedishKrona"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO4217CodeSGD>
+  a <https://edi3.org/isoc/vocab#ISO4217Code> ;
+  rdfs:label "SingaporeDollar"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO4217CodeSHP>
+  a <https://edi3.org/isoc/vocab#ISO4217Code> ;
+  rdfs:label "SaintHelenaPound"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO4217CodeSLL>
+  a <https://edi3.org/isoc/vocab#ISO4217Code> ;
+  rdfs:label "Leone"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO4217CodeSOS>
+  a <https://edi3.org/isoc/vocab#ISO4217Code> ;
+  rdfs:label "SomaliShilling"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO4217CodeSRD>
+  a <https://edi3.org/isoc/vocab#ISO4217Code> ;
+  rdfs:label "SurinamDollar"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO4217CodeSSP>
+  a <https://edi3.org/isoc/vocab#ISO4217Code> ;
+  rdfs:label "SouthSudanesePound"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO4217CodeSTN>
+  a <https://edi3.org/isoc/vocab#ISO4217Code> ;
+  rdfs:label "Dobra"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO4217CodeSVC>
+  a <https://edi3.org/isoc/vocab#ISO4217Code> ;
+  rdfs:label "ElSalvadorColon"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO4217CodeSYP>
+  a <https://edi3.org/isoc/vocab#ISO4217Code> ;
+  rdfs:label "SyrianPound"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO4217CodeSZL>
+  a <https://edi3.org/isoc/vocab#ISO4217Code> ;
+  rdfs:label "Lilangeni"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO4217CodeTHB>
+  a <https://edi3.org/isoc/vocab#ISO4217Code> ;
+  rdfs:label "Baht"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO4217CodeTJS>
+  a <https://edi3.org/isoc/vocab#ISO4217Code> ;
+  rdfs:label "Somoni"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO4217CodeTMT>
+  a <https://edi3.org/isoc/vocab#ISO4217Code> ;
+  rdfs:label "TurkmenistanNewManat"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO4217CodeTND>
+  a <https://edi3.org/isoc/vocab#ISO4217Code> ;
+  rdfs:label "TunisianDinar"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO4217CodeTOP>
+  a <https://edi3.org/isoc/vocab#ISO4217Code> ;
+  rdfs:label "Pa’anga"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO4217CodeTRY>
+  a <https://edi3.org/isoc/vocab#ISO4217Code> ;
+  rdfs:label "TurkishLira"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO4217CodeTTD>
+  a <https://edi3.org/isoc/vocab#ISO4217Code> ;
+  rdfs:label "TrinidadandTobagoDollar"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO4217CodeTWD>
+  a <https://edi3.org/isoc/vocab#ISO4217Code> ;
+  rdfs:label "NewTaiwanDollar"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO4217CodeTZS>
+  a <https://edi3.org/isoc/vocab#ISO4217Code> ;
+  rdfs:label "TanzanianShilling"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO4217CodeUAH>
+  a <https://edi3.org/isoc/vocab#ISO4217Code> ;
+  rdfs:label "Hryvnia"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO4217CodeUGX>
+  a <https://edi3.org/isoc/vocab#ISO4217Code> ;
+  rdfs:label "UgandaShilling"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO4217CodeUSD>
+  a <https://edi3.org/isoc/vocab#ISO4217Code> ;
+  rdfs:label "USDollar"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO4217CodeUSN>
+  a <https://edi3.org/isoc/vocab#ISO4217Code> ;
+  rdfs:label "USDollar(Nextday)"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO4217CodeUYI>
+  a <https://edi3.org/isoc/vocab#ISO4217Code> ;
+  rdfs:label "UruguayPesoenUnidadesIndexadas(UI)"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO4217CodeUYU>
+  a <https://edi3.org/isoc/vocab#ISO4217Code> ;
+  rdfs:label "PesoUruguayo"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO4217CodeUYW>
+  a <https://edi3.org/isoc/vocab#ISO4217Code> ;
+  rdfs:label "UnidadPrevisional"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO4217CodeUZS>
+  a <https://edi3.org/isoc/vocab#ISO4217Code> ;
+  rdfs:label "UzbekistanSum"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO4217CodeVES>
+  a <https://edi3.org/isoc/vocab#ISO4217Code> ;
+  rdfs:label "BolívarSoberano"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO4217CodeVND>
+  a <https://edi3.org/isoc/vocab#ISO4217Code> ;
+  rdfs:label "Dong"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO4217CodeVUV>
+  a <https://edi3.org/isoc/vocab#ISO4217Code> ;
+  rdfs:label "Vatu"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO4217CodeWST>
+  a <https://edi3.org/isoc/vocab#ISO4217Code> ;
+  rdfs:label "Tala"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO4217CodeXAF>
+  a <https://edi3.org/isoc/vocab#ISO4217Code> ;
+  rdfs:label "CFAFrancBEAC"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO4217CodeXAG>
+  a <https://edi3.org/isoc/vocab#ISO4217Code> ;
+  rdfs:label "Silver"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO4217CodeXAU>
+  a <https://edi3.org/isoc/vocab#ISO4217Code> ;
+  rdfs:label "Gold"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO4217CodeXBA>
+  a <https://edi3.org/isoc/vocab#ISO4217Code> ;
+  rdfs:label "BondMarketsUnitEuropeanCompositeUnit(EURCO)"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO4217CodeXBB>
+  a <https://edi3.org/isoc/vocab#ISO4217Code> ;
+  rdfs:label "BondMarketsUnitEuropeanMonetaryUnit(E.M.U.6)"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO4217CodeXBC>
+  a <https://edi3.org/isoc/vocab#ISO4217Code> ;
+  rdfs:label "BondMarketsUnitEuropeanUnitofAccount9(E.U.A.9)"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO4217CodeXBD>
+  a <https://edi3.org/isoc/vocab#ISO4217Code> ;
+  rdfs:label "BondMarketsUnitEuropeanUnitofAccount17(E.U.A.17)"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO4217CodeXCD>
+  a <https://edi3.org/isoc/vocab#ISO4217Code> ;
+  rdfs:label "EastCaribbeanDollar"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO4217CodeXDR>
+  a <https://edi3.org/isoc/vocab#ISO4217Code> ;
+  rdfs:label "SDR(SpecialDrawingRight)"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO4217CodeXOF>
+  a <https://edi3.org/isoc/vocab#ISO4217Code> ;
+  rdfs:label "CFAFrancBCEAO"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO4217CodeXPD>
+  a <https://edi3.org/isoc/vocab#ISO4217Code> ;
+  rdfs:label "Palladium"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO4217CodeXPF>
+  a <https://edi3.org/isoc/vocab#ISO4217Code> ;
+  rdfs:label "CFPFranc"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO4217CodeXPT>
+  a <https://edi3.org/isoc/vocab#ISO4217Code> ;
+  rdfs:label "Platinum"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO4217CodeXSU>
+  a <https://edi3.org/isoc/vocab#ISO4217Code> ;
+  rdfs:label "Sucre"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO4217CodeXTS>
+  a <https://edi3.org/isoc/vocab#ISO4217Code> ;
+  rdfs:label "Codesspecificallyreservedfortestingpurposes"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO4217CodeXUA>
+  a <https://edi3.org/isoc/vocab#ISO4217Code> ;
+  rdfs:label "ADBUnitofAccount"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO4217CodeXXX>
+  a <https://edi3.org/isoc/vocab#ISO4217Code> ;
+  rdfs:label "Thecodesassignedfortransactionswherenocurrencyisinvolved"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO4217CodeYER>
+  a <https://edi3.org/isoc/vocab#ISO4217Code> ;
+  rdfs:label "YemeniRial"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO4217CodeZAR>
+  a <https://edi3.org/isoc/vocab#ISO4217Code> ;
+  rdfs:label "Rand"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO4217CodeZMW>
+  a <https://edi3.org/isoc/vocab#ISO4217Code> ;
+  rdfs:label "ZambianKwacha"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO4217CodeZWL>
+  a <https://edi3.org/isoc/vocab#ISO4217Code> ;
+  rdfs:label "ZimbabweDollar"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO639Code>
+  a rdfs:Class ;
+  rdfs:label "ISO639Code"^^xsd:string ;
+  rdfs:subClassOf "schema:Enumeration"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO639CodeAA>
+  a <https://edi3.org/isoc/vocab#ISO639Code> ;
+  rdfs:label "Afar"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO639CodeAB>
+  a <https://edi3.org/isoc/vocab#ISO639Code> ;
+  rdfs:label "Abkhazian"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO639CodeAE>
+  a <https://edi3.org/isoc/vocab#ISO639Code> ;
+  rdfs:label "Avestan"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO639CodeAF>
+  a <https://edi3.org/isoc/vocab#ISO639Code> ;
+  rdfs:label "Afrikaans"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO639CodeAK>
+  a <https://edi3.org/isoc/vocab#ISO639Code> ;
+  rdfs:label "Akan"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO639CodeAM>
+  a <https://edi3.org/isoc/vocab#ISO639Code> ;
+  rdfs:label "Amharic"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO639CodeAN>
+  a <https://edi3.org/isoc/vocab#ISO639Code> ;
+  rdfs:label "Aragonese"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO639CodeAR>
+  a <https://edi3.org/isoc/vocab#ISO639Code> ;
+  rdfs:label "Arabic"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO639CodeAS>
+  a <https://edi3.org/isoc/vocab#ISO639Code> ;
+  rdfs:label "Assamese"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO639CodeAV>
+  a <https://edi3.org/isoc/vocab#ISO639Code> ;
+  rdfs:label "Avaric"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO639CodeAY>
+  a <https://edi3.org/isoc/vocab#ISO639Code> ;
+  rdfs:label "Aymara"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO639CodeAZ>
+  a <https://edi3.org/isoc/vocab#ISO639Code> ;
+  rdfs:label "Azerbaijani"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO639CodeBA>
+  a <https://edi3.org/isoc/vocab#ISO639Code> ;
+  rdfs:label "Bashkir"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO639CodeBE>
+  a <https://edi3.org/isoc/vocab#ISO639Code> ;
+  rdfs:label "Belarusian"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO639CodeBG>
+  a <https://edi3.org/isoc/vocab#ISO639Code> ;
+  rdfs:label "Bulgarian"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO639CodeBH>
+  a <https://edi3.org/isoc/vocab#ISO639Code> ;
+  rdfs:label "Biharilanguages"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO639CodeBI>
+  a <https://edi3.org/isoc/vocab#ISO639Code> ;
+  rdfs:label "Bislama"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO639CodeBM>
+  a <https://edi3.org/isoc/vocab#ISO639Code> ;
+  rdfs:label "Bambara"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO639CodeBN>
+  a <https://edi3.org/isoc/vocab#ISO639Code> ;
+  rdfs:label "Bengali"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO639CodeBO>
+  a <https://edi3.org/isoc/vocab#ISO639Code> ;
+  rdfs:label "Tibetan"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO639CodeBR>
+  a <https://edi3.org/isoc/vocab#ISO639Code> ;
+  rdfs:label "Breton"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO639CodeBS>
+  a <https://edi3.org/isoc/vocab#ISO639Code> ;
+  rdfs:label "Bosnian"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO639CodeCA>
+  a <https://edi3.org/isoc/vocab#ISO639Code> ;
+  rdfs:label "Catalan,Valencian"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO639CodeCE>
+  a <https://edi3.org/isoc/vocab#ISO639Code> ;
+  rdfs:label "Chechen"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO639CodeCH>
+  a <https://edi3.org/isoc/vocab#ISO639Code> ;
+  rdfs:label "Chamorro"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO639CodeCO>
+  a <https://edi3.org/isoc/vocab#ISO639Code> ;
+  rdfs:label "Corsican"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO639CodeCR>
+  a <https://edi3.org/isoc/vocab#ISO639Code> ;
+  rdfs:label "Cree"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO639CodeCS>
+  a <https://edi3.org/isoc/vocab#ISO639Code> ;
+  rdfs:label "Czech"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO639CodeCU>
+  a <https://edi3.org/isoc/vocab#ISO639Code> ;
+  rdfs:label "ChurchSlavic,OldSlavonic,ChurchSlavonic,OldBulgarian,OldChurchSlavonic"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO639CodeCV>
+  a <https://edi3.org/isoc/vocab#ISO639Code> ;
+  rdfs:label "Chuvash"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO639CodeCY>
+  a <https://edi3.org/isoc/vocab#ISO639Code> ;
+  rdfs:label "Welsh"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO639CodeDA>
+  a <https://edi3.org/isoc/vocab#ISO639Code> ;
+  rdfs:label "Danish"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO639CodeDE>
+  a <https://edi3.org/isoc/vocab#ISO639Code> ;
+  rdfs:label "German"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO639CodeDV>
+  a <https://edi3.org/isoc/vocab#ISO639Code> ;
+  rdfs:label "Divehi,Dhivehi,Maldivian"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO639CodeDZ>
+  a <https://edi3.org/isoc/vocab#ISO639Code> ;
+  rdfs:label "Dzongkha"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO639CodeEE>
+  a <https://edi3.org/isoc/vocab#ISO639Code> ;
+  rdfs:label "Ewe"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO639CodeEL>
+  a <https://edi3.org/isoc/vocab#ISO639Code> ;
+  rdfs:label "Greek,Modern(1453)"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO639CodeEN>
+  a <https://edi3.org/isoc/vocab#ISO639Code> ;
+  rdfs:label "English"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO639CodeEO>
+  a <https://edi3.org/isoc/vocab#ISO639Code> ;
+  rdfs:label "Esperanto"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO639CodeES>
+  a <https://edi3.org/isoc/vocab#ISO639Code> ;
+  rdfs:label "Spanish,Castilian"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO639CodeET>
+  a <https://edi3.org/isoc/vocab#ISO639Code> ;
+  rdfs:label "Estonian"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO639CodeEU>
+  a <https://edi3.org/isoc/vocab#ISO639Code> ;
+  rdfs:label "Basque"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO639CodeFA>
+  a <https://edi3.org/isoc/vocab#ISO639Code> ;
+  rdfs:label "Persian"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO639CodeFF>
+  a <https://edi3.org/isoc/vocab#ISO639Code> ;
+  rdfs:label "Fulah"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO639CodeFI>
+  a <https://edi3.org/isoc/vocab#ISO639Code> ;
+  rdfs:label "Finnish"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO639CodeFJ>
+  a <https://edi3.org/isoc/vocab#ISO639Code> ;
+  rdfs:label "Fijian"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO639CodeFO>
+  a <https://edi3.org/isoc/vocab#ISO639Code> ;
+  rdfs:label "Faroese"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO639CodeFR>
+  a <https://edi3.org/isoc/vocab#ISO639Code> ;
+  rdfs:label "French"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO639CodeFY>
+  a <https://edi3.org/isoc/vocab#ISO639Code> ;
+  rdfs:label "WesternFrisian"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO639CodeGA>
+  a <https://edi3.org/isoc/vocab#ISO639Code> ;
+  rdfs:label "Irish"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO639CodeGD>
+  a <https://edi3.org/isoc/vocab#ISO639Code> ;
+  rdfs:label "Gaelic,ScottishGaelic"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO639CodeGL>
+  a <https://edi3.org/isoc/vocab#ISO639Code> ;
+  rdfs:label "Galician"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO639CodeGN>
+  a <https://edi3.org/isoc/vocab#ISO639Code> ;
+  rdfs:label "Guarani"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO639CodeGU>
+  a <https://edi3.org/isoc/vocab#ISO639Code> ;
+  rdfs:label "Gujarati"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO639CodeGV>
+  a <https://edi3.org/isoc/vocab#ISO639Code> ;
+  rdfs:label "Manx"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO639CodeHA>
+  a <https://edi3.org/isoc/vocab#ISO639Code> ;
+  rdfs:label "Hausa"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO639CodeHE>
+  a <https://edi3.org/isoc/vocab#ISO639Code> ;
+  rdfs:label "Hebrew"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO639CodeHI>
+  a <https://edi3.org/isoc/vocab#ISO639Code> ;
+  rdfs:label "Hindi"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO639CodeHO>
+  a <https://edi3.org/isoc/vocab#ISO639Code> ;
+  rdfs:label "HiriMotu"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO639CodeHR>
+  a <https://edi3.org/isoc/vocab#ISO639Code> ;
+  rdfs:label "Croatian"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO639CodeHT>
+  a <https://edi3.org/isoc/vocab#ISO639Code> ;
+  rdfs:label "Haitian,HaitianCreole"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO639CodeHU>
+  a <https://edi3.org/isoc/vocab#ISO639Code> ;
+  rdfs:label "Hungarian"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO639CodeHY>
+  a <https://edi3.org/isoc/vocab#ISO639Code> ;
+  rdfs:label "Armenian"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO639CodeHZ>
+  a <https://edi3.org/isoc/vocab#ISO639Code> ;
+  rdfs:label "Herero"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO639CodeIA>
+  a <https://edi3.org/isoc/vocab#ISO639Code> ;
+  rdfs:label "Interlingua(InternationalAuxiliaryLanguageAssociation)"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO639CodeID>
+  a <https://edi3.org/isoc/vocab#ISO639Code> ;
+  rdfs:label "Indonesian"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO639CodeIE>
+  a <https://edi3.org/isoc/vocab#ISO639Code> ;
+  rdfs:label "Interlingue,Occidental"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO639CodeIG>
+  a <https://edi3.org/isoc/vocab#ISO639Code> ;
+  rdfs:label "Igbo"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO639CodeII>
+  a <https://edi3.org/isoc/vocab#ISO639Code> ;
+  rdfs:label "SichuanYi,Nuosu"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO639CodeIK>
+  a <https://edi3.org/isoc/vocab#ISO639Code> ;
+  rdfs:label "Inupiaq"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO639CodeIO>
+  a <https://edi3.org/isoc/vocab#ISO639Code> ;
+  rdfs:label "Ido"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO639CodeIS>
+  a <https://edi3.org/isoc/vocab#ISO639Code> ;
+  rdfs:label "Icelandic"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO639CodeIT>
+  a <https://edi3.org/isoc/vocab#ISO639Code> ;
+  rdfs:label "Italian"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO639CodeIU>
+  a <https://edi3.org/isoc/vocab#ISO639Code> ;
+  rdfs:label "Inuktitut"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO639CodeJA>
+  a <https://edi3.org/isoc/vocab#ISO639Code> ;
+  rdfs:label "Japanese"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO639CodeJV>
+  a <https://edi3.org/isoc/vocab#ISO639Code> ;
+  rdfs:label "Javanese"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO639CodeKA>
+  a <https://edi3.org/isoc/vocab#ISO639Code> ;
+  rdfs:label "Georgian"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO639CodeKG>
+  a <https://edi3.org/isoc/vocab#ISO639Code> ;
+  rdfs:label "Kongo"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO639CodeKI>
+  a <https://edi3.org/isoc/vocab#ISO639Code> ;
+  rdfs:label "Kikuyu,Gikuyu"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO639CodeKJ>
+  a <https://edi3.org/isoc/vocab#ISO639Code> ;
+  rdfs:label "Kuanyama,Kwanyama"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO639CodeKK>
+  a <https://edi3.org/isoc/vocab#ISO639Code> ;
+  rdfs:label "Kazakh"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO639CodeKL>
+  a <https://edi3.org/isoc/vocab#ISO639Code> ;
+  rdfs:label "Kalaallisut,Greenlandic"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO639CodeKM>
+  a <https://edi3.org/isoc/vocab#ISO639Code> ;
+  rdfs:label "CentralKhmer"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO639CodeKN>
+  a <https://edi3.org/isoc/vocab#ISO639Code> ;
+  rdfs:label "Kannada"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO639CodeKO>
+  a <https://edi3.org/isoc/vocab#ISO639Code> ;
+  rdfs:label "Korean"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO639CodeKR>
+  a <https://edi3.org/isoc/vocab#ISO639Code> ;
+  rdfs:label "Kanuri"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO639CodeKS>
+  a <https://edi3.org/isoc/vocab#ISO639Code> ;
+  rdfs:label "Kashmiri"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO639CodeKU>
+  a <https://edi3.org/isoc/vocab#ISO639Code> ;
+  rdfs:label "Kurdish"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO639CodeKV>
+  a <https://edi3.org/isoc/vocab#ISO639Code> ;
+  rdfs:label "Komi"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO639CodeKW>
+  a <https://edi3.org/isoc/vocab#ISO639Code> ;
+  rdfs:label "Cornish"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO639CodeKY>
+  a <https://edi3.org/isoc/vocab#ISO639Code> ;
+  rdfs:label "Kirghiz,Kyrgyz"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO639CodeLA>
+  a <https://edi3.org/isoc/vocab#ISO639Code> ;
+  rdfs:label "Latin"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO639CodeLB>
+  a <https://edi3.org/isoc/vocab#ISO639Code> ;
+  rdfs:label "Luxembourgish,Letzeburgesch"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO639CodeLG>
+  a <https://edi3.org/isoc/vocab#ISO639Code> ;
+  rdfs:label "Ganda"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO639CodeLI>
+  a <https://edi3.org/isoc/vocab#ISO639Code> ;
+  rdfs:label "Limburgan,Limburger,Limburgish"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO639CodeLN>
+  a <https://edi3.org/isoc/vocab#ISO639Code> ;
+  rdfs:label "Lingala"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO639CodeLO>
+  a <https://edi3.org/isoc/vocab#ISO639Code> ;
+  rdfs:label "Lao"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO639CodeLT>
+  a <https://edi3.org/isoc/vocab#ISO639Code> ;
+  rdfs:label "Lithuanian"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO639CodeLU>
+  a <https://edi3.org/isoc/vocab#ISO639Code> ;
+  rdfs:label "LubaKatanga"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO639CodeLV>
+  a <https://edi3.org/isoc/vocab#ISO639Code> ;
+  rdfs:label "Latvian"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO639CodeMG>
+  a <https://edi3.org/isoc/vocab#ISO639Code> ;
+  rdfs:label "Malagasy"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO639CodeMH>
+  a <https://edi3.org/isoc/vocab#ISO639Code> ;
+  rdfs:label "Marshallese"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO639CodeMI>
+  a <https://edi3.org/isoc/vocab#ISO639Code> ;
+  rdfs:label "Maori"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO639CodeMK>
+  a <https://edi3.org/isoc/vocab#ISO639Code> ;
+  rdfs:label "Macedonian"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO639CodeML>
+  a <https://edi3.org/isoc/vocab#ISO639Code> ;
+  rdfs:label "Malayalam"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO639CodeMN>
+  a <https://edi3.org/isoc/vocab#ISO639Code> ;
+  rdfs:label "Mongolian"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO639CodeMO>
+  a <https://edi3.org/isoc/vocab#ISO639Code> ;
+  rdfs:label "MO"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO639CodeMR>
+  a <https://edi3.org/isoc/vocab#ISO639Code> ;
+  rdfs:label "Marathi"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO639CodeMS>
+  a <https://edi3.org/isoc/vocab#ISO639Code> ;
+  rdfs:label "Malay"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO639CodeMT>
+  a <https://edi3.org/isoc/vocab#ISO639Code> ;
+  rdfs:label "Maltese"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO639CodeMY>
+  a <https://edi3.org/isoc/vocab#ISO639Code> ;
+  rdfs:label "Burmese"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO639CodeNA>
+  a <https://edi3.org/isoc/vocab#ISO639Code> ;
+  rdfs:label "Nauru"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO639CodeNB>
+  a <https://edi3.org/isoc/vocab#ISO639Code> ;
+  rdfs:label "Bokmål,Norwegian;NorwegianBokmål"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO639CodeND>
+  a <https://edi3.org/isoc/vocab#ISO639Code> ;
+  rdfs:label "Ndebele,North;NorthNdebele"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO639CodeNE>
+  a <https://edi3.org/isoc/vocab#ISO639Code> ;
+  rdfs:label "Nepali"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO639CodeNG>
+  a <https://edi3.org/isoc/vocab#ISO639Code> ;
+  rdfs:label "Ndonga"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO639CodeNL>
+  a <https://edi3.org/isoc/vocab#ISO639Code> ;
+  rdfs:label "Dutch,Flemish"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO639CodeNN>
+  a <https://edi3.org/isoc/vocab#ISO639Code> ;
+  rdfs:label "NorwegianNynorsk;Nynorsk,Norwegian"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO639CodeNO>
+  a <https://edi3.org/isoc/vocab#ISO639Code> ;
+  rdfs:label "Norwegian"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO639CodeNR>
+  a <https://edi3.org/isoc/vocab#ISO639Code> ;
+  rdfs:label "Ndebele,South;SouthNdebele"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO639CodeNV>
+  a <https://edi3.org/isoc/vocab#ISO639Code> ;
+  rdfs:label "Navajo,Navaho"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO639CodeNY>
+  a <https://edi3.org/isoc/vocab#ISO639Code> ;
+  rdfs:label "Chichewa,Chewa,Nyanja"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO639CodeOC>
+  a <https://edi3.org/isoc/vocab#ISO639Code> ;
+  rdfs:label "Occitan(post1500),Provençal"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO639CodeOJ>
+  a <https://edi3.org/isoc/vocab#ISO639Code> ;
+  rdfs:label "Ojibwa"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO639CodeOM>
+  a <https://edi3.org/isoc/vocab#ISO639Code> ;
+  rdfs:label "Oromo"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO639CodeOR>
+  a <https://edi3.org/isoc/vocab#ISO639Code> ;
+  rdfs:label "Oriya"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO639CodeOS>
+  a <https://edi3.org/isoc/vocab#ISO639Code> ;
+  rdfs:label "Ossetian,Ossetic"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO639CodePA>
+  a <https://edi3.org/isoc/vocab#ISO639Code> ;
+  rdfs:label "Panjabi,Punjabi"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO639CodePI>
+  a <https://edi3.org/isoc/vocab#ISO639Code> ;
+  rdfs:label "Pali"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO639CodePL>
+  a <https://edi3.org/isoc/vocab#ISO639Code> ;
+  rdfs:label "Polish"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO639CodePS>
+  a <https://edi3.org/isoc/vocab#ISO639Code> ;
+  rdfs:label "Pushto,Pashto"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO639CodePT>
+  a <https://edi3.org/isoc/vocab#ISO639Code> ;
+  rdfs:label "Portuguese"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO639CodeQU>
+  a <https://edi3.org/isoc/vocab#ISO639Code> ;
+  rdfs:label "Quechua"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO639CodeRM>
+  a <https://edi3.org/isoc/vocab#ISO639Code> ;
+  rdfs:label "Romansh"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO639CodeRN>
+  a <https://edi3.org/isoc/vocab#ISO639Code> ;
+  rdfs:label "Rundi"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO639CodeRO>
+  a <https://edi3.org/isoc/vocab#ISO639Code> ;
+  rdfs:label "Romanian,Moldavian,Moldovan"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO639CodeRU>
+  a <https://edi3.org/isoc/vocab#ISO639Code> ;
+  rdfs:label "Russian"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO639CodeRW>
+  a <https://edi3.org/isoc/vocab#ISO639Code> ;
+  rdfs:label "Kinyarwanda"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO639CodeSA>
+  a <https://edi3.org/isoc/vocab#ISO639Code> ;
+  rdfs:label "Sanskrit"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO639CodeSC>
+  a <https://edi3.org/isoc/vocab#ISO639Code> ;
+  rdfs:label "Sardinian"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO639CodeSD>
+  a <https://edi3.org/isoc/vocab#ISO639Code> ;
+  rdfs:label "Sindhi"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO639CodeSE>
+  a <https://edi3.org/isoc/vocab#ISO639Code> ;
+  rdfs:label "NorthernSami"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO639CodeSG>
+  a <https://edi3.org/isoc/vocab#ISO639Code> ;
+  rdfs:label "Sango"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO639CodeSI>
+  a <https://edi3.org/isoc/vocab#ISO639Code> ;
+  rdfs:label "Sinhala,Sinhalese"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO639CodeSK>
+  a <https://edi3.org/isoc/vocab#ISO639Code> ;
+  rdfs:label "Slovak"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO639CodeSL>
+  a <https://edi3.org/isoc/vocab#ISO639Code> ;
+  rdfs:label "Slovenian"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO639CodeSM>
+  a <https://edi3.org/isoc/vocab#ISO639Code> ;
+  rdfs:label "Samoan"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO639CodeSN>
+  a <https://edi3.org/isoc/vocab#ISO639Code> ;
+  rdfs:label "Shona"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO639CodeSO>
+  a <https://edi3.org/isoc/vocab#ISO639Code> ;
+  rdfs:label "Somali"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO639CodeSQ>
+  a <https://edi3.org/isoc/vocab#ISO639Code> ;
+  rdfs:label "Albanian"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO639CodeSR>
+  a <https://edi3.org/isoc/vocab#ISO639Code> ;
+  rdfs:label "Serbian"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO639CodeSS>
+  a <https://edi3.org/isoc/vocab#ISO639Code> ;
+  rdfs:label "Swati"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO639CodeST>
+  a <https://edi3.org/isoc/vocab#ISO639Code> ;
+  rdfs:label "Sotho,Southern"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO639CodeSU>
+  a <https://edi3.org/isoc/vocab#ISO639Code> ;
+  rdfs:label "Sundanese"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO639CodeSV>
+  a <https://edi3.org/isoc/vocab#ISO639Code> ;
+  rdfs:label "Swedish"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO639CodeSW>
+  a <https://edi3.org/isoc/vocab#ISO639Code> ;
+  rdfs:label "Swahili"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO639CodeTA>
+  a <https://edi3.org/isoc/vocab#ISO639Code> ;
+  rdfs:label "Tamil"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO639CodeTE>
+  a <https://edi3.org/isoc/vocab#ISO639Code> ;
+  rdfs:label "Telugu"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO639CodeTG>
+  a <https://edi3.org/isoc/vocab#ISO639Code> ;
+  rdfs:label "Tajik"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO639CodeTH>
+  a <https://edi3.org/isoc/vocab#ISO639Code> ;
+  rdfs:label "Thai"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO639CodeTI>
+  a <https://edi3.org/isoc/vocab#ISO639Code> ;
+  rdfs:label "Tigrinya"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO639CodeTK>
+  a <https://edi3.org/isoc/vocab#ISO639Code> ;
+  rdfs:label "Turkmen"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO639CodeTL>
+  a <https://edi3.org/isoc/vocab#ISO639Code> ;
+  rdfs:label "Tagalog"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO639CodeTN>
+  a <https://edi3.org/isoc/vocab#ISO639Code> ;
+  rdfs:label "Tswana"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO639CodeTO>
+  a <https://edi3.org/isoc/vocab#ISO639Code> ;
+  rdfs:label "Tonga(TongaIslands)"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO639CodeTR>
+  a <https://edi3.org/isoc/vocab#ISO639Code> ;
+  rdfs:label "Turkish"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO639CodeTS>
+  a <https://edi3.org/isoc/vocab#ISO639Code> ;
+  rdfs:label "Tsonga"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO639CodeTT>
+  a <https://edi3.org/isoc/vocab#ISO639Code> ;
+  rdfs:label "Tatar"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO639CodeTW>
+  a <https://edi3.org/isoc/vocab#ISO639Code> ;
+  rdfs:label "Twi"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO639CodeTY>
+  a <https://edi3.org/isoc/vocab#ISO639Code> ;
+  rdfs:label "Tahitian"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO639CodeUG>
+  a <https://edi3.org/isoc/vocab#ISO639Code> ;
+  rdfs:label "Uighur,Uyghur"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO639CodeUK>
+  a <https://edi3.org/isoc/vocab#ISO639Code> ;
+  rdfs:label "Ukrainian"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO639CodeUR>
+  a <https://edi3.org/isoc/vocab#ISO639Code> ;
+  rdfs:label "Urdu"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO639CodeUZ>
+  a <https://edi3.org/isoc/vocab#ISO639Code> ;
+  rdfs:label "Uzbek"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO639CodeVE>
+  a <https://edi3.org/isoc/vocab#ISO639Code> ;
+  rdfs:label "Venda"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO639CodeVI>
+  a <https://edi3.org/isoc/vocab#ISO639Code> ;
+  rdfs:label "Vietnamese"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO639CodeVO>
+  a <https://edi3.org/isoc/vocab#ISO639Code> ;
+  rdfs:label "Volapük"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO639CodeWA>
+  a <https://edi3.org/isoc/vocab#ISO639Code> ;
+  rdfs:label "Walloon"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO639CodeWO>
+  a <https://edi3.org/isoc/vocab#ISO639Code> ;
+  rdfs:label "Wolof"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO639CodeXH>
+  a <https://edi3.org/isoc/vocab#ISO639Code> ;
+  rdfs:label "Xhosa"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO639CodeYI>
+  a <https://edi3.org/isoc/vocab#ISO639Code> ;
+  rdfs:label "Yiddish"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO639CodeYO>
+  a <https://edi3.org/isoc/vocab#ISO639Code> ;
+  rdfs:label "Yoruba"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO639CodeZA>
+  a <https://edi3.org/isoc/vocab#ISO639Code> ;
+  rdfs:label "Zhuang,Chuang"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO639CodeZH>
+  a <https://edi3.org/isoc/vocab#ISO639Code> ;
+  rdfs:label "Chinese"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO639CodeZU>
+  a <https://edi3.org/isoc/vocab#ISO639Code> ;
+  rdfs:label "Zulu"^^xsd:string .
+
+<https://edi3.org/isoc/vocab#ISO639CodeMo>
+  a <https://edi3.org/isoc/vocab#ISO639Code> ;
+  rdfs:label "mo"^^xsd:string .
