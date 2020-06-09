@@ -4,7 +4,7 @@
     "mmt":      "https://edi3.org/vocab/mmt#",
     "xsd":      "http://www.w3.org/2001/XMLSchema#",
     
-    "AcademicQualification":    { "@type": "@id" },
+    "qualification":    { "@type": "mmt:AcademicQualification" },
     "useNativeTypes":       { "@type": "xsd:boolean" }
   }
 }
