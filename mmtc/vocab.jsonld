@@ -1,0 +1,727 @@
+{
+    "@context": {
+        "schema": "http://schema.org/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "mmt": "https://edi3.org/mmt/vocab#",
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "mmtc": "https://edi3.org/mmtc/vocab#",
+        "dc": "http://purl.org/dc/elements/1.1/"
+    },
+    "@graph": [
+        {
+            "@id": "mmtc:ActionTypeCode",
+            "@type": "rdfs:Class",
+            "rdfs:label": "ActionTypeCode",
+            "rdfs:subClassOf": "schema:Enumeration"
+        },
+        {
+            "@id": "mmtc:ActionTypeCodeAdded",
+            "@type": "mmtc:ActionTypeCode",
+            "rdfs:label": "1",
+            "rdfs:comment": "The information is to be or has been added."
+        },
+        {
+            "@id": "mmtc:ActionTypeCodeDeleted",
+            "@type": "mmtc:ActionTypeCode",
+            "rdfs:label": "2",
+            "rdfs:comment": "The information is to be or has been deleted."
+        },
+        {
+            "@id": "mmtc:ActionTypeCodeChanged",
+            "@type": "mmtc:ActionTypeCode",
+            "rdfs:label": "3",
+            "rdfs:comment": "The information is to be or has been changed."
+        },
+        {
+            "@id": "mmtc:ActionTypeCodeNoAction",
+            "@type": "mmtc:ActionTypeCode",
+            "rdfs:label": "4",
+            "rdfs:comment": "This line item is not affected by the actual message."
+        },
+        {
+            "@id": "mmtc:ActionTypeCodeAcceptedWithoutAmendment",
+            "@type": "mmtc:ActionTypeCode",
+            "rdfs:label": "5",
+            "rdfs:comment": "This line item is entirely accepted by the seller."
+        },
+        {
+            "@id": "mmtc:ActionTypeCodeAcceptedWithAmendment",
+            "@type": "mmtc:ActionTypeCode",
+            "rdfs:label": "6",
+            "rdfs:comment": "This line item is accepted but amended by the seller."
+        },
+        {
+            "@id": "mmtc:ActionTypeCodeNotAccepted",
+            "@type": "mmtc:ActionTypeCode",
+            "rdfs:label": "7",
+            "rdfs:comment": "This line item is not accepted by the seller."
+        },
+        {
+            "@id": "mmtc:ActionTypeCodeScheduleOnly",
+            "@type": "mmtc:ActionTypeCode",
+            "rdfs:label": "8",
+            "rdfs:comment": "Code specifying that the message is a schedule only."
+        },
+        {
+            "@id": "mmtc:ActionTypeCodeAmendments",
+            "@type": "mmtc:ActionTypeCode",
+            "rdfs:label": "9",
+            "rdfs:comment": "Code specifying that amendments are requested/notified."
+        },
+        {
+            "@id": "mmtc:ActionTypeCodeNotFound",
+            "@type": "mmtc:ActionTypeCode",
+            "rdfs:label": "10",
+            "rdfs:comment": "This line item is not found in the referenced message."
+        },
+        {
+            "@id": "mmtc:ActionTypeCodeNotAmended",
+            "@type": "mmtc:ActionTypeCode",
+            "rdfs:label": "11",
+            "rdfs:comment": "This line is not amended by the buyer."
+        },
+        {
+            "@id": "mmtc:ActionTypeCodeLineItemNumbersChanged",
+            "@type": "mmtc:ActionTypeCode",
+            "rdfs:label": "12",
+            "rdfs:comment": "Code specifying that the line item numbers have changed."
+        },
+        {
+            "@id": "mmtc:ActionTypeCodeBuyerHasDeductedAmount",
+            "@type": "mmtc:ActionTypeCode",
+            "rdfs:label": "13",
+            "rdfs:comment": "Buyer has deducted amount from payment."
+        },
+        {
+            "@id": "mmtc:ActionTypeCodeBuyerClaimsAgainstInvoice",
+            "@type": "mmtc:ActionTypeCode",
+            "rdfs:label": "14",
+            "rdfs:comment": "Buyer has a claim against an outstanding invoice."
+        },
+        {
+            "@id": "mmtc:ActionTypeCodeChargeBackBySeller",
+            "@type": "mmtc:ActionTypeCode",
+            "rdfs:label": "15",
+            "rdfs:comment": "Factor has been requested to charge back the outstanding item."
+        },
+        {
+            "@id": "mmtc:ActionTypeCodeSellerWillIssueCreditNote",
+            "@type": "mmtc:ActionTypeCode",
+            "rdfs:label": "16",
+            "rdfs:comment": "Seller agrees to issue a credit note."
+        },
+        {
+            "@id": "mmtc:ActionTypeCodeTermsChangedForNewTerms",
+            "@type": "mmtc:ActionTypeCode",
+            "rdfs:label": "17",
+            "rdfs:comment": "New settlement terms have been agreed."
+        },
+        {
+            "@id": "mmtc:ActionTypeCodeAbideOutcomeOfNegotiations",
+            "@type": "mmtc:ActionTypeCode",
+            "rdfs:label": "18",
+            "rdfs:comment": "Factor agrees to abide by the outcome of negotiations between seller and buyer."
+        },
+        {
+            "@id": "mmtc:ActionTypeCodeSellerRejectsDispute",
+            "@type": "mmtc:ActionTypeCode",
+            "rdfs:label": "19",
+            "rdfs:comment": "Seller does not accept validity of dispute."
+        },
+        {
+            "@id": "mmtc:ActionTypeCodeSettlement",
+            "@type": "mmtc:ActionTypeCode",
+            "rdfs:label": "20",
+            "rdfs:comment": "The reported situation is settled."
+        },
+        {
+            "@id": "mmtc:ActionTypeCodeNoDelivery",
+            "@type": "mmtc:ActionTypeCode",
+            "rdfs:label": "21",
+            "rdfs:comment": "Code indicating that no delivery will be required."
+        },
+        {
+            "@id": "mmtc:ActionTypeCodeCalloffDelivery",
+            "@type": "mmtc:ActionTypeCode",
+            "rdfs:label": "22",
+            "rdfs:comment": "A request for delivery of a particular quantity of goods to be delivered on a particular date (or within a particular period)."
+        },
+        {
+            "@id": "mmtc:ActionTypeCodeProposedAmendment",
+            "@type": "mmtc:ActionTypeCode",
+            "rdfs:label": "23",
+            "rdfs:comment": "A code used to indicate an amendment suggested by the sender."
+        },
+        {
+            "@id": "mmtc:ActionTypeCodeAcceptedWithAmendmentNoConfirmationRequired",
+            "@type": "mmtc:ActionTypeCode",
+            "rdfs:label": "24",
+            "rdfs:comment": "Accepted with changes which require no confirmation."
+        },
+        {
+            "@id": "mmtc:ActionTypeCodeEquipmentProvisionallyRepaired",
+            "@type": "mmtc:ActionTypeCode",
+            "rdfs:label": "25",
+            "rdfs:comment": "The equipment or component has been provisionally repaired."
+        },
+        {
+            "@id": "mmtc:ActionTypeCodeIncluded",
+            "@type": "mmtc:ActionTypeCode",
+            "rdfs:label": "26",
+            "rdfs:comment": "Code indicating that the entity is included."
+        },
+        {
+            "@id": "mmtc:ActionTypeCodeUponReceiptAndVerificationOfDocumentsWeShallCoverYouWhenDueAsPerYourInstructions",
+            "@type": "mmtc:ActionTypeCode",
+            "rdfs:label": "27",
+            "rdfs:comment": "Upon receipt and verification of documents we shall cover you when due as per your instructions."
+        },
+        {
+            "@id": "mmtc:ActionTypeCodeUponReceiptAndVerificationOfDocumentsWeShallAuthorizeYouToDebitOurAccountWithYouWhenDue",
+            "@type": "mmtc:ActionTypeCode",
+            "rdfs:label": "28",
+            "rdfs:comment": "Upon receipt and verification of documents we shall authorize you to debit our account with you when due."
+        },
+        {
+            "@id": "mmtc:ActionTypeCodeOnReceiptOfYourAuthenticatedAdviceWeShallCoverYouWhenDueAsPerYourInstructions",
+            "@type": "mmtc:ActionTypeCode",
+            "rdfs:label": "29",
+            "rdfs:comment": "On receipt of your authenticated advice we shall cover you when due as per your instructions."
+        },
+        {
+            "@id": "mmtc:ActionTypeCodeOnReceiptOfYourAuthenticatedAdviceWeShallAuthorizeYouToDebitOurAccountWithYouWhenDue",
+            "@type": "mmtc:ActionTypeCode",
+            "rdfs:label": "30",
+            "rdfs:comment": "On receipt of your authenticated advice we shall authorize you to debit our account with you when due."
+        },
+        {
+            "@id": "mmtc:ActionTypeCodeOnReceiptOfYourAuthenticatedAdviceWeShallCreditYourAccountWithUsWhenDue",
+            "@type": "mmtc:ActionTypeCode",
+            "rdfs:label": "31",
+            "rdfs:comment": "On receipt of your authenticated advice we shall credit your account with us when due."
+        },
+        {
+            "@id": "mmtc:ActionTypeCodeCreditAdviceRequestedForDirectDebit",
+            "@type": "mmtc:ActionTypeCode",
+            "rdfs:label": "32",
+            "rdfs:comment": "A credit advice is requested for the direct debit."
+        },
+        {
+            "@id": "mmtc:ActionTypeCodeCreditAdviceAndAcknowledgementForDirectDebit",
+            "@type": "mmtc:ActionTypeCode",
+            "rdfs:label": "33",
+            "rdfs:comment": "A credit advice and acknowledgement are requested for the direct debit."
+        },
+        {
+            "@id": "mmtc:ActionTypeCodeInquiry",
+            "@type": "mmtc:ActionTypeCode",
+            "rdfs:label": "34",
+            "rdfs:comment": "Request for information."
+        },
+        {
+            "@id": "mmtc:ActionTypeCodeChecked",
+            "@type": "mmtc:ActionTypeCode",
+            "rdfs:label": "35",
+            "rdfs:comment": "Checked."
+        },
+        {
+            "@id": "mmtc:ActionTypeCodeNotChecked",
+            "@type": "mmtc:ActionTypeCode",
+            "rdfs:label": "36",
+            "rdfs:comment": "Not checked."
+        },
+        {
+            "@id": "mmtc:ActionTypeCodeCancelled",
+            "@type": "mmtc:ActionTypeCode",
+            "rdfs:label": "37",
+            "rdfs:comment": "Discontinued."
+        },
+        {
+            "@id": "mmtc:ActionTypeCodeReplaced",
+            "@type": "mmtc:ActionTypeCode",
+            "rdfs:label": "38",
+            "rdfs:comment": "Provide a replacement."
+        },
+        {
+            "@id": "mmtc:ActionTypeCodeNew",
+            "@type": "mmtc:ActionTypeCode",
+            "rdfs:label": "39",
+            "rdfs:comment": "Not existing before."
+        },
+        {
+            "@id": "mmtc:ActionTypeCodeAgreed",
+            "@type": "mmtc:ActionTypeCode",
+            "rdfs:label": "40",
+            "rdfs:comment": "Consent."
+        },
+        {
+            "@id": "mmtc:ActionTypeCodeProposed",
+            "@type": "mmtc:ActionTypeCode",
+            "rdfs:label": "41",
+            "rdfs:comment": "Put forward for consideration."
+        },
+        {
+            "@id": "mmtc:ActionTypeCodeAlreadyDelivered",
+            "@type": "mmtc:ActionTypeCode",
+            "rdfs:label": "42",
+            "rdfs:comment": "Delivery has taken place."
+        },
+        {
+            "@id": "mmtc:ActionTypeCodeAdditionalSubordinateStructuresWillFollow",
+            "@type": "mmtc:ActionTypeCode",
+            "rdfs:label": "43",
+            "rdfs:comment": "Additional subordinate structures will follow the current hierarchy level."
+        },
+        {
+            "@id": "mmtc:ActionTypeCodeAdditionalSubordinateStructuresWillNotFollow",
+            "@type": "mmtc:ActionTypeCode",
+            "rdfs:label": "44",
+            "rdfs:comment": "No additional subordinate structures will follow the current hierarchy level."
+        },
+        {
+            "@id": "mmtc:ActionTypeCodeResultOpposed",
+            "@type": "mmtc:ActionTypeCode",
+            "rdfs:label": "45",
+            "rdfs:comment": "A notification that the result is opposed."
+        },
+        {
+            "@id": "mmtc:ActionTypeCodeAuctionHeld",
+            "@type": "mmtc:ActionTypeCode",
+            "rdfs:label": "46",
+            "rdfs:comment": "A notification that an auction was held."
+        },
+        {
+            "@id": "mmtc:ActionTypeCodeLegalActionPursued",
+            "@type": "mmtc:ActionTypeCode",
+            "rdfs:label": "47",
+            "rdfs:comment": "A notification that legal action has been pursued."
+        },
+        {
+            "@id": "mmtc:ActionTypeCodeMeetingHeld",
+            "@type": "mmtc:ActionTypeCode",
+            "rdfs:label": "48",
+            "rdfs:comment": "A notification that a meeting was held."
+        },
+        {
+            "@id": "mmtc:ActionTypeCodeResultSetAside",
+            "@type": "mmtc:ActionTypeCode",
+            "rdfs:label": "49",
+            "rdfs:comment": "A notification that the result has been set aside."
+        },
+        {
+            "@id": "mmtc:ActionTypeCodeResultDisputed",
+            "@type": "mmtc:ActionTypeCode",
+            "rdfs:label": "50",
+            "rdfs:comment": "A notification that the result has been disputed."
+        },
+        {
+            "@id": "mmtc:ActionTypeCodeCountersued",
+            "@type": "mmtc:ActionTypeCode",
+            "rdfs:label": "51",
+            "rdfs:comment": "A notification that a countersuit has been filed."
+        },
+        {
+            "@id": "mmtc:ActionTypeCodePending",
+            "@type": "mmtc:ActionTypeCode",
+            "rdfs:label": "52",
+            "rdfs:comment": "A notification that an action is awaiting settlement."
+        },
+        {
+            "@id": "mmtc:ActionTypeCodeCourtActionDismissed",
+            "@type": "mmtc:ActionTypeCode",
+            "rdfs:label": "53",
+            "rdfs:comment": "A notification that a court action will no longer be heard."
+        },
+        {
+            "@id": "mmtc:ActionTypeCodeReferredItemAccepted",
+            "@type": "mmtc:ActionTypeCode",
+            "rdfs:label": "54",
+            "rdfs:comment": "The item being referred to has been accepted."
+        },
+        {
+            "@id": "mmtc:ActionTypeCodeReferredItemRejected",
+            "@type": "mmtc:ActionTypeCode",
+            "rdfs:label": "55",
+            "rdfs:comment": "The item being referred to has been rejected."
+        },
+        {
+            "@id": "mmtc:ActionTypeCodeDebitAdviceStatementLine",
+            "@type": "mmtc:ActionTypeCode",
+            "rdfs:label": "56",
+            "rdfs:comment": "Notification that the statement line is a debit advice."
+        },
+        {
+            "@id": "mmtc:ActionTypeCodeCreditAdviceStatementLine",
+            "@type": "mmtc:ActionTypeCode",
+            "rdfs:label": "57",
+            "rdfs:comment": "Notification that the statement line is a credit advice."
+        },
+        {
+            "@id": "mmtc:ActionTypeCodeGroupedCreditAdvices",
+            "@type": "mmtc:ActionTypeCode",
+            "rdfs:label": "58",
+            "rdfs:comment": "Notification that the credit advices are grouped."
+        },
+        {
+            "@id": "mmtc:ActionTypeCodeGroupedDebitAdvices",
+            "@type": "mmtc:ActionTypeCode",
+            "rdfs:label": "59",
+            "rdfs:comment": "Notification that the debit advices are grouped."
+        },
+        {
+            "@id": "mmtc:ActionTypeCodeRegistered",
+            "@type": "mmtc:ActionTypeCode",
+            "rdfs:label": "60",
+            "rdfs:comment": "The name is registered."
+        },
+        {
+            "@id": "mmtc:ActionTypeCodePaymentDenied",
+            "@type": "mmtc:ActionTypeCode",
+            "rdfs:label": "61",
+            "rdfs:comment": "The payment has been denied."
+        },
+        {
+            "@id": "mmtc:ActionTypeCodeApprovedAsAmended",
+            "@type": "mmtc:ActionTypeCode",
+            "rdfs:label": "62",
+            "rdfs:comment": "Approved with modifications."
+        },
+        {
+            "@id": "mmtc:ActionTypeCodeApprovedAsSubmitted",
+            "@type": "mmtc:ActionTypeCode",
+            "rdfs:label": "63",
+            "rdfs:comment": "The request has been approved as submitted."
+        },
+        {
+            "@id": "mmtc:ActionTypeCodeCancelledNoActivity",
+            "@type": "mmtc:ActionTypeCode",
+            "rdfs:label": "64",
+            "rdfs:comment": "Cancelled due to the lack of activity."
+        },
+        {
+            "@id": "mmtc:ActionTypeCodeUnderInvestigation",
+            "@type": "mmtc:ActionTypeCode",
+            "rdfs:label": "65",
+            "rdfs:comment": "Investigation is being done."
+        },
+        {
+            "@id": "mmtc:ActionTypeCodeInitialClaimReceived",
+            "@type": "mmtc:ActionTypeCode",
+            "rdfs:label": "66",
+            "rdfs:comment": "Notification that the initial claim was received."
+        },
+        {
+            "@id": "mmtc:ActionTypeCodeNotInProcess",
+            "@type": "mmtc:ActionTypeCode",
+            "rdfs:label": "67",
+            "rdfs:comment": "Not in process."
+        },
+        {
+            "@id": "mmtc:ActionTypeCodeRejectedDuplicate",
+            "@type": "mmtc:ActionTypeCode",
+            "rdfs:label": "68",
+            "rdfs:comment": "Rejected because it is a duplicate."
+        },
+        {
+            "@id": "mmtc:ActionTypeCodeRejectedResubmitWithCorrections",
+            "@type": "mmtc:ActionTypeCode",
+            "rdfs:label": "69",
+            "rdfs:comment": "Rejected but may be resubmitted when corrected."
+        },
+        {
+            "@id": "mmtc:ActionTypeCodePendingIncomplete",
+            "@type": "mmtc:ActionTypeCode",
+            "rdfs:label": "70",
+            "rdfs:comment": "Pending because of incomplete information."
+        },
+        {
+            "@id": "mmtc:ActionTypeCodeUnderFieldOfficeInvestigation",
+            "@type": "mmtc:ActionTypeCode",
+            "rdfs:label": "71",
+            "rdfs:comment": "Investigation by the field is being done."
+        },
+        {
+            "@id": "mmtc:ActionTypeCodePendingAwaitingAdditionalMaterial",
+            "@type": "mmtc:ActionTypeCode",
+            "rdfs:label": "72",
+            "rdfs:comment": "Pending awaiting receipt of additional material."
+        },
+        {
+            "@id": "mmtc:ActionTypeCodePendingAwaitingReview",
+            "@type": "mmtc:ActionTypeCode",
+            "rdfs:label": "73",
+            "rdfs:comment": "Pending while awaiting review."
+        },
+        {
+            "@id": "mmtc:ActionTypeCodeReopened",
+            "@type": "mmtc:ActionTypeCode",
+            "rdfs:label": "74",
+            "rdfs:comment": "Opened again."
+        },
+        {
+            "@id": "mmtc:ActionTypeCodeProcessedByPrimaryForwardedToAdditionalPayers",
+            "@type": "mmtc:ActionTypeCode",
+            "rdfs:label": "75",
+            "rdfs:comment": "This request has been processed by the primary payer and sent to additional payer(s)."
+        },
+        {
+            "@id": "mmtc:ActionTypeCodeProcessedBySecondaryForwardedToAdditionalPayers",
+            "@type": "mmtc:ActionTypeCode",
+            "rdfs:label": "76",
+            "rdfs:comment": "This request has been processed by the secondary payer and sent to additional payer(s)."
+        },
+        {
+            "@id": "mmtc:ActionTypeCodeProcessedByTertiaryForwardedToAdditionalPayers",
+            "@type": "mmtc:ActionTypeCode",
+            "rdfs:label": "77",
+            "rdfs:comment": "This request has been processed by the tertiary payer and sent to additional payer(s)."
+        },
+        {
+            "@id": "mmtc:ActionTypeCodePreviousPaymentDecisionReversed",
+            "@type": "mmtc:ActionTypeCode",
+            "rdfs:label": "78",
+            "rdfs:comment": "A previous payment decision has been reversed."
+        },
+        {
+            "@id": "mmtc:ActionTypeCodeNotOurClaimForwardedToAnotherPayers",
+            "@type": "mmtc:ActionTypeCode",
+            "rdfs:label": "79",
+            "rdfs:comment": "A request does not belong to this payer but has been forwarded to another payer(s)."
+        },
+        {
+            "@id": "mmtc:ActionTypeCodeTransferredToCorrectInsuranceCarrier",
+            "@type": "mmtc:ActionTypeCode",
+            "rdfs:label": "80",
+            "rdfs:comment": "The request has been transferred to the correct insurance carrier for processing."
+        },
+        {
+            "@id": "mmtc:ActionTypeCodeNotPaidPredeterminationPricingOnly",
+            "@type": "mmtc:ActionTypeCode",
+            "rdfs:label": "81",
+            "rdfs:comment": "Payment has not been made and the enclosed response is predetermination pricing only."
+        },
+        {
+            "@id": "mmtc:ActionTypeCodeDocumentationClaim",
+            "@type": "mmtc:ActionTypeCode",
+            "rdfs:label": "82",
+            "rdfs:comment": "The claim is for documentation purposes only, no payment required."
+        },
+        {
+            "@id": "mmtc:ActionTypeCodeReviewed",
+            "@type": "mmtc:ActionTypeCode",
+            "rdfs:label": "83",
+            "rdfs:comment": "Assessed."
+        },
+        {
+            "@id": "mmtc:ActionTypeCodeRepriced",
+            "@type": "mmtc:ActionTypeCode",
+            "rdfs:label": "84",
+            "rdfs:comment": "This price was changed."
+        },
+        {
+            "@id": "mmtc:ActionTypeCodeAudited",
+            "@type": "mmtc:ActionTypeCode",
+            "rdfs:label": "85",
+            "rdfs:comment": "An official examination has occurred."
+        },
+        {
+            "@id": "mmtc:ActionTypeCodeConditionallyPaid",
+            "@type": "mmtc:ActionTypeCode",
+            "rdfs:label": "86",
+            "rdfs:comment": "Payment has been conditionally made."
+        },
+        {
+            "@id": "mmtc:ActionTypeCodeOnAppeal",
+            "@type": "mmtc:ActionTypeCode",
+            "rdfs:label": "87",
+            "rdfs:comment": "Reconsideration of the decision has been applied for."
+        },
+        {
+            "@id": "mmtc:ActionTypeCodeClosed",
+            "@type": "mmtc:ActionTypeCode",
+            "rdfs:label": "88",
+            "rdfs:comment": "Shut."
+        },
+        {
+            "@id": "mmtc:ActionTypeCodeReaudited",
+            "@type": "mmtc:ActionTypeCode",
+            "rdfs:label": "89",
+            "rdfs:comment": "A subsequent official examination has occurred."
+        },
+        {
+            "@id": "mmtc:ActionTypeCodeReissued",
+            "@type": "mmtc:ActionTypeCode",
+            "rdfs:label": "90",
+            "rdfs:comment": "Issued again."
+        },
+        {
+            "@id": "mmtc:ActionTypeCodeClosedAfterReopening",
+            "@type": "mmtc:ActionTypeCode",
+            "rdfs:label": "91",
+            "rdfs:comment": "Reopened and then closed."
+        },
+        {
+            "@id": "mmtc:ActionTypeCodeRedetermined",
+            "@type": "mmtc:ActionTypeCode",
+            "rdfs:label": "92",
+            "rdfs:comment": "Determined again or differently."
+        },
+        {
+            "@id": "mmtc:ActionTypeCodeProcessedAsPrimary",
+            "@type": "mmtc:ActionTypeCode",
+            "rdfs:label": "93",
+            "rdfs:comment": "Processed as the first."
+        },
+        {
+            "@id": "mmtc:ActionTypeCodeProcessedAsSecondary",
+            "@type": "mmtc:ActionTypeCode",
+            "rdfs:label": "94",
+            "rdfs:comment": "Processed as the second."
+        },
+        {
+            "@id": "mmtc:ActionTypeCodeProcessedAsTertiary",
+            "@type": "mmtc:ActionTypeCode",
+            "rdfs:label": "95",
+            "rdfs:comment": "Processed as the third."
+        },
+        {
+            "@id": "mmtc:ActionTypeCodeCorrectionOfError",
+            "@type": "mmtc:ActionTypeCode",
+            "rdfs:label": "96",
+            "rdfs:comment": "A correction to information previously communicated which contained an error."
+        },
+        {
+            "@id": "mmtc:ActionTypeCodeSingleCreditItemOfAGroup",
+            "@type": "mmtc:ActionTypeCode",
+            "rdfs:label": "97",
+            "rdfs:comment": "Notification that the credit item is a single credit item of a group of credit items."
+        },
+        {
+            "@id": "mmtc:ActionTypeCodeSingleDebitItemOfAGroup",
+            "@type": "mmtc:ActionTypeCode",
+            "rdfs:label": "98",
+            "rdfs:comment": "Notification that the debit item is a single debit item of a group of debit items."
+        },
+        {
+            "@id": "mmtc:ActionTypeCodeInterimResponse",
+            "@type": "mmtc:ActionTypeCode",
+            "rdfs:label": "99",
+            "rdfs:comment": "The response is an interim one."
+        },
+        {
+            "@id": "mmtc:ActionTypeCodeFinalResponse",
+            "@type": "mmtc:ActionTypeCode",
+            "rdfs:label": "100",
+            "rdfs:comment": "The response is an final one."
+        },
+        {
+            "@id": "mmtc:ActionTypeCodeDebitAdviceRequested",
+            "@type": "mmtc:ActionTypeCode",
+            "rdfs:label": "101",
+            "rdfs:comment": "A debit advice is requested for the transaction."
+        },
+        {
+            "@id": "mmtc:ActionTypeCodeTransactionNotImpacted",
+            "@type": "mmtc:ActionTypeCode",
+            "rdfs:label": "102",
+            "rdfs:comment": "Advice that the transaction is not impacted."
+        },
+        {
+            "@id": "mmtc:ActionTypeCodePatientToBeNotified",
+            "@type": "mmtc:ActionTypeCode",
+            "rdfs:label": "103",
+            "rdfs:comment": "The action to take is to notify the patient."
+        },
+        {
+            "@id": "mmtc:ActionTypeCodeHealthcareProviderToBeNotified",
+            "@type": "mmtc:ActionTypeCode",
+            "rdfs:label": "104",
+            "rdfs:comment": "The action to take is to notify the healthcare provider."
+        },
+        {
+            "@id": "mmtc:ActionTypeCodeUsualGeneralPractitionerToBeNotified",
+            "@type": "mmtc:ActionTypeCode",
+            "rdfs:label": "105",
+            "rdfs:comment": "The action to take is to notify the usual general practitioner."
+        },
+        {
+            "@id": "mmtc:ActionTypeCodeAdviceWithoutDetails",
+            "@type": "mmtc:ActionTypeCode",
+            "rdfs:label": "106",
+            "rdfs:comment": "An advice without details is requested or notified."
+        },
+        {
+            "@id": "mmtc:ActionTypeCodeAdviceWithDetails",
+            "@type": "mmtc:ActionTypeCode",
+            "rdfs:label": "107",
+            "rdfs:comment": "An advice with details is requested or notified."
+        },
+        {
+            "@id": "mmtc:ActionTypeCodeAmendmentRequested",
+            "@type": "mmtc:ActionTypeCode",
+            "rdfs:label": "108",
+            "rdfs:comment": "An amendment is requested."
+        },
+        {
+            "@id": "mmtc:ActionTypeCodeForInformation",
+            "@type": "mmtc:ActionTypeCode",
+            "rdfs:label": "109",
+            "rdfs:comment": "Included for information only."
+        },
+        {
+            "@id": "mmtc:ActionTypeCodeWithdraw",
+            "@type": "mmtc:ActionTypeCode",
+            "rdfs:label": "110",
+            "rdfs:comment": "A code indicating discontinuance or retraction."
+        },
+        {
+            "@id": "mmtc:ActionTypeCodeDeliveryDateChange",
+            "@type": "mmtc:ActionTypeCode",
+            "rdfs:label": "111",
+            "rdfs:comment": "The action / notiification is a change of the delivery date."
+        },
+        {
+            "@id": "mmtc:ActionTypeCodeQuantityChange",
+            "@type": "mmtc:ActionTypeCode",
+            "rdfs:label": "112",
+            "rdfs:comment": "The action / notification is a change of quantity."
+        },
+        {
+            "@id": "mmtc:ActionTypeCodeResaleAndClaim",
+            "@type": "mmtc:ActionTypeCode",
+            "rdfs:label": "113",
+            "rdfs:comment": "The identified items have been sold by the distributor to the end customer, and compensation for the loss of inventory value is claimed."
+        },
+        {
+            "@id": "mmtc:ActionTypeCodeResale",
+            "@type": "mmtc:ActionTypeCode",
+            "rdfs:label": "114",
+            "rdfs:comment": "The identified items have been sold by the distributor to the end customer."
+        },
+        {
+            "@id": "mmtc:ActionTypeCodePriorAddition",
+            "@type": "mmtc:ActionTypeCode",
+            "rdfs:label": "115",
+            "rdfs:comment": "This existing line item becomes available at an earlier date."
+        },
+        {
+            "@id": "mmtc:ActionTypeCodeExpired",
+            "@type": "mmtc:ActionTypeCode",
+            "rdfs:label": "116",
+            "rdfs:comment": "This line has expired."
+        },
+        {
+            "@id": "mmtc:ActionTypeCodeHold",
+            "@type": "mmtc:ActionTypeCode",
+            "rdfs:label": "117",
+            "rdfs:comment": "This line is on Hold."
+        },
+        {
+            "@id": "mmtc:ActionTypeCodeOpen",
+            "@type": "mmtc:ActionTypeCode",
+            "rdfs:label": "118",
+            "rdfs:comment": "This line is open."
+        }
+    ]
+}
