@@ -13,5 +13,6 @@ Sub-Class of:
 Properties from [Location](./Location):
 
 - [locationName](./locationName)
+- [identifier](./identifier)
 
 
