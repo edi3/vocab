@@ -1,10 +1,13 @@
 Type: rdf:Class
 
+Description: A physical location or place.
+
 Properties:
 
 - [locationName](./locationName)
+- [identifier](./identifier)
 
-Sub-classes:
+Parent of:
 
 - [LogisticsLocation](./LogisticsLocation)
 - [TradeLocation](./TradeLocation)
