@@ -4,7 +4,7 @@ Description: A name, expressed as text, of this logistics related location.
 
 Used in:
 
-- [logisticsLocation](./LogisticsLocation)
+- [LogisticsLocation](./LogisticsLocation)
 
 Sub-Property of: 
 
