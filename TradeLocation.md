@@ -6,7 +6,7 @@ Properties:
 
 name | type | description
 -|-|-
-- [tradeLocationName](./tradeLocationName)| [Text](./Text) | The name, expressed as text, of this location used or referenced in trade.
+[tradeLocationName](./tradeLocationName)| [Text](./Text) | The name, expressed as text, of this location used or referenced in trade.
 
 Sub-Class of:
 
