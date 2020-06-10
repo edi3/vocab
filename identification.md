@@ -6,3 +6,6 @@ Used in:
 
 - [Location](./Location)
 
+Type:
+
+- [Identifier](./Identifier)
