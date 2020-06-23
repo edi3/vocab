@@ -1,0 +1,12 @@
+Type: rdf:Property
+
+Description: The unique identifier assigned by the freight forwarder to this supply chain consignment.
+
+Used in:
+
+- [Consignment](./Consignment)
+- [ReferencedConsignment](./ReferencedConsignment)
+
+Type:
+
+- [Identifier](./Identifier)
