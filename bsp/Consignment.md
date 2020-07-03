@@ -24,4 +24,6 @@ Parent of:
 
 Used in :
 
-- 
+- [HeaderTradeDelivery](./HeaderTradeDelivery)
+- [LineTradeDelivery](./LineTradeDelivery)
+- [TransportEquipment](./TransportEquipment)

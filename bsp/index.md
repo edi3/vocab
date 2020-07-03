@@ -28,3 +28,9 @@ Parties:
 - [LocationParty](./LocationParty)
 - [RequestingParty](./RequestingParty)
 - [TradeParty](./TradeParty)
+
+TransportEquipment:
+- [TransportEquipment](./TransportEquipment)
+- [ReferencedTransportEquipment](./ReferencedTransportEquipment)
+- [AssociatedTransportEquipment](./AssociatedTransportEquipment)
+- [AttachedTransportEquipment](./AttachedTransportEquipment)
