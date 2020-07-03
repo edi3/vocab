@@ -9,7 +9,7 @@ Properties:
 
 name | type | description
 -|-|-
-[identification](./identification) | [Identifier](./Identifier) |
+[identification](./identification) | [Identifier](./Identifier) | A unique identifier.
 [globalIdentification](./globalIdentification) | [Identifier](./Identifier) |
 
 Parent of:
