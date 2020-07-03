@@ -1,3 +1,5 @@
+Name: customsIdentification
+
 Type: rdf:Property
 
 Description: A unique identifier, for customs purposes.

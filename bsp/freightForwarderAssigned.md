@@ -1,3 +1,5 @@
+Name: freightForwarderAssigned
+
 Type: rdf:Property
 
 Description: The unique identifier assigned by the freight forwarder to this supply chain consignment.

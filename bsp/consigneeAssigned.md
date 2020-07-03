@@ -1,3 +1,5 @@
+Name: consigneeAssigned
+
 Type: rdf:Property
 
 Description: The unique identifier assigned by the consignee to this supply chain consignment.

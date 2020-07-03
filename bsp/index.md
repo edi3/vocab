@@ -1,20 +1,17 @@
-Name: globalIdentification
+**BSP**
 
-Type: rdf:Property
-
-Description: A global identifier.
-
-Used in:
-
+- [Consignment](./Consignment) 
+- [ReferencedConsignment](./ReferencedConsignment) 
+---
 - [ConsignmentItem](./ConsignmentItem)
+---
 - [ExchangedDocument](./ExchangedDocument)
-- [Package](./Package)
 - [ReferencedDocument](./ReferencedDocument)
+---
+- [Package](./Package)
 - [ReferencedPackage](./ReferencedPackage)
+---
 - [ReferencedProduct](./ReferencedProduct)
-- [TradeParty](./TradeParty)
 - [TradeProduct](./TradeProduct)
-
-Type:
-
-- [Identifier](./Identifier)
+---
+- [TradeParty](./TradeParty)
