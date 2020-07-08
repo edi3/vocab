@@ -1,0 +1,599 @@
+{
+    "@context": {
+        "schema": "http://schema.org/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "coo": "https://edi3.org/coo/vocab#",
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "mmtc": "https://edi3.org/mmtc/vocab#",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "isoc": "https://edi3.org/isoc/vocab#"
+    },
+    "@graph": [
+        {
+            "@id": "https://edi3.org/vocab/coo#",
+            "dc:creator": "EDI3",
+            "dc:date": "2020-06-09",
+            "dc:description": "CoO Vocabulary",
+            "dc:identifier": "https://edi3.org/vocab/coo#",
+            "dc:publisher": "EDI3",
+            "dc:title": "CoO Vocabulary",
+            "rdfs:comment": "CoO Vocabulary"
+        },
+        {
+            "@id": "coo:CertificateOfOrigin",
+            "@type": "rdfs:Class",
+            "rdfs:comment": ".",
+            "rdfs:label": "CertificateOfOrigin",
+            "rdfs:subClassOf": "coo:ExchangedDocument"
+        },
+        {
+            "@id": "coo:status",
+            "@type": "rdf:Property",
+            "rdfs:label": "status",
+            "rdfs:comment": "The status of the certificate of origin - but be one of the allowed state lifecycle values.",
+            "rdfs:domain": "coo:CertificateOfOrigin",
+            "rdfs:range": "coo:Text"
+        },
+        {
+            "@id": "coo:isPreferential",
+            "@type": "rdf:Property",
+            "rdfs:label": "isPreferential",
+            "rdfs:comment": "indicates whether the certificate is a preferential or non-preferential certificate of origin.",
+            "rdfs:domain": "coo:CertificateOfOrigin",
+            "rdfs:range": "coo:Indicator"
+        },
+        {
+            "@id": "coo:freeTradeAgreement",
+            "@type": "rdf:Property",
+            "rdfs:label": "status",
+            "rdfs:comment": "for preferential certificates of origin, the name of the free trade agreement (eg CHAFTA)",
+            "rdfs:domain": "coo:CertificateOfOrigin",
+            "rdfs:range": "coo:Text"
+        },
+        {
+            "@id": "coo:supplyChainConsignment",
+            "@type": "coo:SupplyChainConsignment",
+            "rdfs:label": "supplyChainConsignment",
+            "rdfs:comment": "for preferential certificates of origin, the name of the free trade agreement (eg CHAFTA)",
+            "rdfs:domain": "coo:CertificateOfOrigin"
+        },
+        {
+            "@id": "coo:supplyChainConsignment",
+            "@type": "coo:SupplyChainConsignment",
+            "rdfs:label": "supplyChainConsignment",
+            "rdfs:comment": "for preferential certificates of origin, the name of the free trade agreement (eg CHAFTA)",
+            "rdfs:domain": "coo:CertificateOfOrigin"
+        },
+        {
+            "@id": "coo:id",
+            "@type": "rdf:Property",
+            "rdfs:label": "id",
+            "rdfs:comment": "The unique identifier.",
+            "rdfs:domain": ["coo:ExchangedDocument","coo:ReferencedDocument","coo:LogisticsLocation","coo:LogisticsPackage","coo:LogisticsTransportMeans","coo:LogisticsTransportMovement","coo:SupplyChainConsignment","coo:SupplyChainConsignmentItem", "coo:TradeParty", "coo:TradeProduct"],
+            "rdfs:range": "coo:Identifier"
+        },
+        {
+            "@id": "coo:issueDateTime",
+            "@type": "rdf:Property",
+            "rdfs:label": "issueDateTime",
+            "rdfs:comment": "The date, time, date time or other date time value for the issuance of this exchanged document.",
+            "rdfs:domain": ["coo:ExchangedDocument"],
+            "rdfs:range": "coo:DateTime"
+        },
+        {
+            "@id": "coo:name",
+            "@type": "rdf:Property",
+            "rdfs:label": "name",
+            "rdfs:comment": "The name, expressed as text.",
+            "rdfs:domain": ["coo:ExchangedDocument","coo:LogisticsLocation","coo:LogisticsTransportMeans","coo:TradeCountry", "coo:TradeParty"],
+            "rdfs:range": "coo:Text"
+        },
+        {
+            "@id": "coo:attachedFile",
+            "@type": "coo:SpecifiedBinaryFile",
+            "rdfs:label": "attachedFile",
+            "rdfs:comment": "A binary file attached to this exchanged document",
+            "rdfs:domain": "coo:ExchangedDocument"
+        },
+        {
+            "@id": "coo:firstSignatoryAuthentication",
+            "@type": "coo:DocumentAuthentication",
+            "rdfs:label": "firstSignatoryAuthentication",
+            "rdfs:comment": "The first or primary signature that authenticates this exchanged document.",
+            "rdfs:domain": "coo:ExchangedDocument"
+        },
+        {
+            "@id": "coo:issueLocation",
+            "@type": "coo:LogisticsLocation",
+            "rdfs:label": "issueLocation",
+            "rdfs:comment": "The location where this exchanged document has been issued.",
+            "rdfs:domain": "coo:ExchangedDocument"
+        },
+        {
+            "@id": "coo:issuer",
+            "@type": "coo:TradeParty",
+            "rdfs:label": "issuer",
+            "rdfs:comment": "The party that issues this exchanged document.",
+            "rdfs:domain": "coo:ExchangedDocument"
+        },
+        {
+            "@id": "coo:secondSignatoryAuthentication",
+            "@type": "coo:DocumentAuthentication",
+            "rdfs:label": "firstSignatoryAuthentication",
+            "rdfs:comment": "The second signature, also known as the first counter signature, that has been authenticated on this exchanged document indicating where appropriate the authentication party.",
+            "rdfs:domain": "coo:ExchangedDocument"
+        },
+        {
+            "@id": "coo:CrossBorderRegulatoryProcedure",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "A set of formal steps to satisfy a cross-border regulation, law or convention.",
+            "rdfs:label": "CrossBorderRegulatoryProcedure"
+        },
+        {
+            "@id": "coo:originCriteriaText",
+            "@type": "rdf:Property",
+            "rdfs:label": "originCriteriaText",
+            "rdfs:comment": "The origin criteria, expressed as text, for this cross-border regulatory procedure.",
+            "rdfs:domain": "coo:CrossBorderRegulatoryProcedure",
+            "rdfs:range": "coo:Text"
+        },
+        {
+            "@id": "coo:DocumentAuthentication",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "A proof that a document is genuine.",
+            "rdfs:label": "DocumentAuthentication"
+        },
+        {
+            "@id": "coo:signature",
+            "@type": "rdf:Property",
+            "rdfs:label": "signature",
+            "rdfs:comment": "the multi-hash of the document  that is authenticated",
+            "rdfs:domain": "coo:DocumentAuthentication",
+            "rdfs:range": "coo:Text"
+        },
+        {
+            "@id": "coo:actualDateTime",
+            "@type": "rdf:Property",
+            "rdfs:label": "actualDateTime",
+            "rdfs:comment": "The actual date, time, date time, or other date time value of this document authentication.",
+            "rdfs:domain": ["coo:DocumentAuthentication"],
+            "rdfs:range": "coo:DateTime"
+        },
+        {
+            "@id": "coo:statement",
+            "@type": "rdf:Property",
+            "rdfs:label": "statement",
+            "rdfs:comment": "The statement, expressed as text, for this document authentication.",
+            "rdfs:domain": "coo:DocumentAuthentication",
+            "rdfs:range": "coo:Text"
+        },
+        {
+            "@id": "coo:LogisticsLocation",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "A logistics related physical location or place.",
+            "rdfs:label": "LogisticsLocation"
+        },
+        {
+            "@id": "coo:LogisticsPackage",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "A logistics related physical location or place.",
+            "rdfs:label": "LogisticsPackage"
+        },
+        {
+            "@id": "coo:grossVolume",
+            "@type": "rdf:Property",
+            "rdfs:label": "grossVolume",
+            "rdfs:comment": "The measure of the gross volume of this logistics package.",
+            "rdfs:domain": "coo:LogisticsPackage",
+            "rdfs:range": "coo:Measure"
+        },
+        {
+            "@id": "coo:grossWeight",
+            "@type": "rdf:Property",
+            "rdfs:label": "grossWeight",
+            "rdfs:comment": "The measure of the gross weight (mass) of this logistics package and its contents.",
+            "rdfs:domain": "coo:LogisticsPackage",
+            "rdfs:range": "coo:Measure"
+        },
+        {
+            "@id": "coo:LogisticsTransportMeans",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "The devices used to convey goods or other objects from place to place during logistics cargo movements.",
+            "rdfs:label": "LogisticsTransportMeans"
+        },
+        {
+            "@id": "coo:LogisticsTransportMovement",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "The conveyance (physical carriage) of goods or other objects used for logistics transport purposes.",
+            "rdfs:label": "LogisticsTransportMovement"
+        },
+        {
+            "@id": "coo:information",
+            "@type": "rdf:Property",
+            "rdfs:label": "information",
+            "rdfs:comment": "Information, expressed as text",
+            "rdfs:domain": ["coo:LogisticsTransportMovement","coo:SupplyChainConsignment","coo:SupplyChainConsignmentItem"],
+            "rdfs:range": "coo:Text"
+        },
+        {
+            "@id": "coo:departureEvent",
+            "@type": "coo:TransportEvent",
+            "rdfs:label": "departureEvent",
+            "rdfs:comment": "A departure event during this logistics transport movement.",
+            "rdfs:domain": "coo:LogisticsTransportMovement"
+        },
+        {
+            "@id": "coo:usedTransportMeans",
+            "@type": "coo:LogisticsTransportMeans",
+            "rdfs:label": "usedTransportMeans",
+            "rdfs:comment": "The means of transport used for this logistics transport movement.",
+            "rdfs:domain": "coo:LogisticsTransportMovement"
+        },
+        {
+            "@id": "coo:ProductClassification",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "A systematic arrangement of products in classes or categories according to established criteria.",
+            "rdfs:label": "ProductClassification"
+        },
+        {
+            "@id": "coo:classCode",
+            "@type": "rdf:Property",
+            "rdfs:label": "classCode",
+            "rdfs:comment": "The code specifying the class for this product classification.",
+            "rdfs:domain": "coo:ProductClassification",
+            "rdfs:range": "coo:Text"
+        },
+        {
+            "@id": "coo:className",
+            "@type": "rdf:Property",
+            "rdfs:label": "className",
+            "rdfs:comment": "A class name, expressed as text, for this product classification.",
+            "rdfs:domain": "coo:ProductClassification",
+            "rdfs:range": "coo:Text"
+        },
+        {
+            "@id": "coo:ReferencedDocument",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "Written, printed or electronic matter that is referenced.",
+            "rdfs:label": "ReferencedDocument"
+        },
+        {
+            "@id": "coo:formattedIssueDateTime",
+            "@type": "rdf:Property",
+            "rdfs:label": "formattedIssueDateTime",
+            "rdfs:comment": "The formatted date or date time for the issuance of this referenced document.",
+            "rdfs:domain": ["coo:ReferencedDocument"],
+            "rdfs:range": "coo:DateTime"
+        },
+        {
+            "@id": "coo:attachedBinaryFile",
+            "@type": "coo:SpecifiedBinaryFile",
+            "rdfs:label": "attachedBinaryFile",
+            "rdfs:comment": "A binary file attached to this exchanged document",
+            "rdfs:domain": "coo:ReferencedDocument"
+        },
+        {
+            "@id": "coo:SpecifiedBinaryFile",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "A specified computer file or program stored in a binary format.",
+            "rdfs:label": "SpecifiedBinaryFile"
+        },
+        {
+            "@id": "coo:uRI",
+            "@type": "rdf:Property",
+            "rdfs:label": "URI",
+            "rdfs:comment": "The unique Uniform Resource Identifier (URI) for this specified binary file.",
+            "rdfs:domain": "coo:SpecifiedBinaryFile",
+            "rdfs:range": "coo:Identifier"
+        },
+        {
+            "@id": "coo:encodingCode",
+            "@type": "rdf:Property",
+            "rdfs:label": "encodingCode",
+            "rdfs:comment": "The code specifying the encoding of this specified binary file.",
+            "rdfs:domain": "coo:SpecifiedBinaryFile",
+            "rdfs:range": "coo:Code"
+        },
+        {
+            "@id": "coo:mIMECode",
+            "@type": "rdf:Property",
+            "rdfs:label": "mIMECode",
+            "rdfs:comment": "The code specifying the Multipurpose Internet Mail Extensions (MIME) type for this specified binary file.",
+            "rdfs:domain": "coo:SpecifiedBinaryFile",
+            "rdfs:range": "coo:Code"
+        },
+        {
+            "@id": "coo:size",
+            "@type": "rdf:Property",
+            "rdfs:label": "size",
+            "rdfs:comment": "The measure of the size of this specified binary file.",
+            "rdfs:domain": "coo:SpecifiedBinaryFile",
+            "rdfs:range": "coo:Measure"
+        },
+        {
+            "@id": "coo:SupplyChainConsignment",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "A separately identifiable collection of goods items to be transported or available to be transported from one consignor to one consignee in a supply chain via one or more modes of transport where each consignment is the subject of one single transport contract.",
+            "rdfs:label": "SupplyChainConsignment"
+        },
+        {
+            "@id": "coo:exportCountry",
+            "@type": "coo:TradeCountry",
+            "rdfs:label": "exportCountry",
+            "rdfs:comment": "The export country for this supply chain consignment.",
+            "rdfs:domain": "coo:SupplyChainConsignment"
+        },
+        {
+            "@id": "coo:exporter",
+            "@type": "coo:TradeParty",
+            "rdfs:label": "exporter",
+            "rdfs:comment": "The party who exports this supply chain consignment.",
+            "rdfs:domain": "coo:SupplyChainConsignment"
+        },
+        {
+            "@id": "coo:importCountry",
+            "@type": "coo:TradeCountry",
+            "rdfs:label": "importCountry",
+            "rdfs:comment": "The import country for this supply chain consignment.",
+            "rdfs:domain": "coo:SupplyChainConsignment"
+        },
+        {
+            "@id": "coo:importer",
+            "@type": "coo:TradeParty",
+            "rdfs:label": "importer",
+            "rdfs:comment": "The party who imports this supply chain consignment.",
+            "rdfs:domain": "coo:SupplyChainConsignment"
+        },
+        {
+            "@id": "coo:includedConsignmentItems",
+            "@type": "rdf:List",
+            "rdfs:label": "includedConsignmentItems",
+            "rdfs:comment": "A consignment item included in this supply chain consignment.",
+            "rdfs:domain": "coo:SupplyChainConsignment",
+            "rdfs:range": "coo:SupplyChainConsignmentItem"
+        },
+        {
+            "@id": "coo:loadingBaseportLocation",
+            "@type": "coo:LogisticsLocation",
+            "rdfs:label": "loadingBaseportLocation",
+            "rdfs:comment": "The baseport location at which this supply chain consignment is to be loaded on a means of transport according to the transport contract.",
+            "rdfs:domain": "coo:SupplyChainConsignment"
+        },
+        {
+            "@id": "coo:mainCarriageTransportMovement",
+            "@type": "coo:LogisticsTransportMovement",
+            "rdfs:label": "loadingBaseportLocation",
+            "rdfs:comment": "A main carriage logistics transport movement for this supply chain consignment.",
+            "rdfs:domain": "coo:SupplyChainConsignment"
+        },
+        {
+            "@id": "coo:transportPackages",
+            "@type": "rdf:List",
+            "rdfs:label": "transportPackages",
+            "rdfs:comment": "Transport packages for this supply chain consignment.",
+            "rdfs:domain": "coo:SupplyChainConsignment",
+            "rdfs:range": "coo:LogisticsPackage"
+        },
+        {
+            "@id": "coo:unloadingBaseportLocation",
+            "@type": "coo:LogisticsLocation",
+            "rdfs:label": "unloadingBaseportLocation",
+            "rdfs:comment": "The baseport location at which this supply chain consignment is to be unloaded from a means of transport according to the transport contract.",
+            "rdfs:domain": "coo:SupplyChainConsignment"
+        },
+        {
+            "@id": "coo:SupplyChainConsignmentItem",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "An item within a supply chain consignment of goods separately identified for transport and customs purposes.",
+            "rdfs:label": "SupplyChainConsignmentItem"
+        },
+        {
+            "@id": "coo:crossBorderRegulatoryProcedure",
+            "@type": "coo:CrossBorderRegulatoryProcedure",
+            "rdfs:label": "crossBorderRegulatoryProcedure",
+            "rdfs:comment": "A cross-border regulatory procedure applicable to this supply chain consignment item.",
+            "rdfs:domain": "coo:SupplyChainConsignmentItem"
+        },
+        {
+            "@id": "coo:manufacturer",
+            "@type": "coo:TradeParty",
+            "rdfs:label": "manufacturer",
+            "rdfs:comment": "The party which manufactured this supply chain consignment item.",
+            "rdfs:domain": "coo:SupplyChainConsignmentItem"
+        },
+        {
+            "@id": "coo:tradeLineItems",
+            "@type": "rdf:List",
+            "rdfs:label": "tradeLineItems",
+            "rdfs:comment": "A trade line item included in this supply chain consignment item.",
+            "rdfs:domain": "coo:SupplyChainConsignment",
+            "rdfs:range": "coo:SupplyChainTradeLineItem"
+        },
+        {
+            "@id": "coo:SupplyChainTradeLineItem",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "A collection of information specific to an item being used or reported on for supply chain trade purposes.",
+            "rdfs:label": "SupplyChainTradeLineItem"
+        },
+        {
+            "@id": "coo:sequenceNumber",
+            "@type": "rdf:Property",
+            "rdfs:label": "sequenceNumber",
+            "rdfs:comment": "A sequence number for this supply chain trade line item.",
+            "rdfs:domain": "coo:SupplyChainTradeLineItem",
+            "rdfs:range": "coo:Numeric"
+        },
+        {
+            "@id": "coo:invoiceReference",
+            "@type": "coo:TradeParty",
+            "rdfs:label": "invoiceReference",
+            "rdfs:comment": "A document referenced for this supply chain trade line item.",
+            "rdfs:domain": "coo:SupplyChainTradeLineItem"
+        },
+        {
+            "@id": "coo:tradeProduct",
+            "@type": "coo:TradeProduct",
+            "rdfs:label": "tradeProduct",
+            "rdfs:comment": "The product specified for this supply chain trade line item.",
+            "rdfs:domain": "coo:SupplyChainTradeLineItem"
+        },
+        {
+            "@id": "coo:tradeProduct",
+            "@type": "coo:TradeProduct",
+            "rdfs:label": "tradeProduct",
+            "rdfs:comment": "The product specified for this supply chain trade line item.",
+            "rdfs:domain": "coo:SupplyChainTradeLineItem"
+        },
+        {
+            "@id": "coo:TradeAddress",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "The location at which a particular trade related organization or person may be found or reached.",
+            "rdfs:label": "TradeAddress"
+        },
+        {
+            "@id": "coo:line1",
+            "@type": "rdf:Property",
+            "rdfs:label": "line1",
+            "rdfs:domain": "coo:TradeAddress",
+            "rdfs:range": "coo:Text"
+        },
+        {
+            "@id": "coo:line2",
+            "@type": "rdf:Property",
+            "rdfs:label": "line2",
+            "rdfs:domain": "coo:TradeAddress",
+            "rdfs:range": "coo:Text"
+        },
+        {
+            "@id": "coo:cityName",
+            "@type": "rdf:Property",
+            "rdfs:label": "cityName",
+            "rdfs:comment": "The name, expressed as text, of the city, town or village of this trade address.",
+            "rdfs:domain": "coo:TradeAddress",
+            "rdfs:range": "coo:Text"
+        },
+        {
+            "@id": "coo:postcode",
+            "@type": "rdf:Property",
+            "rdfs:label": "postcode",
+            "rdfs:comment": "A code specifying the postcode of this trade address.",
+            "rdfs:domain": "coo:TradeAddress",
+            "rdfs:range": "coo:Text"
+        },
+        {
+            "@id": "coo:countrySubDivisionName",
+            "@type": "rdf:Property",
+            "rdfs:label": "countrySubDivisionName",
+            "rdfs:comment": "A name, expressed as text, of the sub-division of a country for this trade address.",
+            "rdfs:domain": "coo:TradeAddress",
+            "rdfs:range": "coo:Text"
+        },
+        {
+            "@id": "coo:countryCode",
+            "@type": "rdf:Property",
+            "rdfs:label": "countryCode",
+            "rdfs:comment": "The unique identifier of a country for this trade address.",
+            "rdfs:domain": "coo:TradeAddress",
+            "rdfs:range": "isoc:ISO3166Code"
+        },
+        {
+            "@id": "coo:TradeCountry",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "The area of land that belongs to a nation together with its properties, such as population, political organization, etc., used or referenced for trade purposes.",
+            "rdfs:label": "TradeCountry"
+        },
+        {
+            "@id": "coo:code",
+            "@type": "rdf:Property",
+            "rdfs:label": "code",
+            "rdfs:comment": "A unique identifier for this trade country.",
+            "rdfs:domain": "coo:TradeAddress",
+            "rdfs:range": "isoc:ISO3166Code"
+        },
+        {
+            "@id": "coo:TradeParty",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "An individual, a group, or a body having a role in a trade business function.",
+            "rdfs:label": "TradeParty"
+        },
+        {
+            "@id": "coo:postalAddress",
+            "@type": "coo:TradeAddress",
+            "rdfs:label": "postalAddress",
+            "rdfs:comment": "The postal address for this trade party.",
+            "rdfs:domain": "coo:TradeParty"
+        },
+        {
+            "@id": "coo:TradeProduct",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "Any tangible output or service produced by human or mechanical effort or by a natural process for trade purposes.",
+            "rdfs:label": "TradeProduct"
+        },
+        {
+            "@id": "coo:description",
+            "@type": "rdf:Property",
+            "rdfs:label": "description",
+            "rdfs:comment": "A textual description for this trade product.",
+            "rdfs:domain": "coo:TradeProduct",
+            "rdfs:range": "coo:Text"
+        },
+        {
+            "@id": "coo:originCountry",
+            "@type": "coo:TradeCountry",
+            "rdfs:label": "originCountry",
+            "rdfs:comment": "A country of origin for this trade product.",
+            "rdfs:domain": "coo:TradeProduct"
+        },
+        {
+            "@id": "coo:TransportEvent",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "A significant occurrence or happening during transport.",
+            "rdfs:label": "TransportEvent"
+        },
+        {
+            "@id": "coo:departureDateTime",
+            "@type": "rdf:Property",
+            "rdfs:label": "departureDateTime",
+            "rdfs:comment": "A departure date, time, date time, or other date time value related to this transport event.",
+            "rdfs:domain": "coo:TradeProduct",
+            "rdfs:range": "coo:DateTime"
+        },
+        {
+            "@id": "coo:Text",
+            "@type": "rdf:DataType",
+            "rdfs:label": "Text",
+            "rdfs:comment": "Text"
+        },
+        {
+            "@id": "coo:Identifier",
+            "@type": "rdf:DataType",
+            "rdfs:label": "Identifier",
+            "rdfs:comment": "Identifier"
+        },
+        {
+            "@id": "coo:Indicator",
+            "@type": "rdf:DataType",
+            "rdfs:label": "Indicator",
+            "rdfs:comment": "Indicator"
+        },
+        {
+            "@id": "coo:DateTime",
+            "@type": "rdf:DataType",
+            "rdfs:label": "DateTime",
+            "rdfs:comment": "DateTime"
+        },
+        {
+            "@id": "coo:DateTime",
+            "@type": "rdf:DataType",
+            "rdfs:label": "DateTime",
+            "rdfs:comment": "DateTime"
+        },
+        {
+            "@id": "coo:Code",
+            "@type": "rdf:DataType",
+            "rdfs:label": "Code",
+            "rdfs:comment": "Code"
+        }
+    ]
+}
