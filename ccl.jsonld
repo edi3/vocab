@@ -1,0 +1,1128 @@
+{
+  "@context": {
+    "schema": "http://schema.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "ccl": "https://edi3.org/vocab/ccl#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "dc": "http://purl.org/dc/elements/1.1/"
+  },
+  "@graph": [
+    {
+      "@id": "ccl:AlternateCurrencyAmountTypeCode",
+      "@type": "rdfs:DataType",
+      "rdfs:comment": "A character string used to represent the type of an alternate currency amount.",
+      "rdfs:label": ""
+    },
+    {
+      "@id": "ccl:AccountingPerquisiteCode",
+      "@type": "rdfs:DataType",
+      "rdfs:comment": "A character string used to represent the type of an accounting perquisite.",
+      "rdfs:label": ""
+    },
+    {
+      "@id": "ccl:PriceTypeCode",
+      "@type": "rdfs:DataType",
+      "rdfs:comment": "A character string used to represent or replace a type of price.",
+      "rdfs:label": ""
+    },
+    {
+      "@id": "ccl:ReferenceCode",
+      "@type": "rdfs:DataType",
+      "rdfs:comment": "A character string used to represent a reference.",
+      "rdfs:label": ""
+    },
+    {
+      "@id": "ccl:PaymentTermsEventTimeReferenceCode",
+      "@type": "rdfs:DataType",
+      "rdfs:comment": "A character string used to represent a time reference for a payment terms event.",
+      "rdfs:label": ""
+    },
+    {
+      "@id": "ccl:FinancialAdjustmentReasonCode",
+      "@type": "rdfs:DataType",
+      "rdfs:comment": "A character string used to represent a financial adjustment reason.",
+      "rdfs:label": ""
+    },
+    {
+      "@id": "ccl:VolumeUnitMeasure",
+      "@type": "rdfs:DataType",
+      "rdfs:comment": "The numeric value determined by volume measuring.",
+      "rdfs:label": ""
+    },
+    {
+      "@id": "ccl:TransportMovementStageCode",
+      "@type": "rdfs:DataType",
+      "rdfs:comment": "A character string used to represent the transport movement stage.",
+      "rdfs:label": ""
+    },
+    {
+      "@id": "ccl:ProjectTypeCode",
+      "@type": "rdfs:DataType",
+      "rdfs:comment": "A character string used to replace or represent a type of project.",
+      "rdfs:label": ""
+    },
+    {
+      "@id": "ccl:AccountingEntryProcessingCode",
+      "@type": "rdfs:DataType",
+      "rdfs:comment": "A character string used to represent the processing of an accounting entry.",
+      "rdfs:label": ""
+    },
+    {
+      "@id": "ccl:TransportServiceCategoryCode",
+      "@type": "rdfs:DataType",
+      "rdfs:comment": "A character string used to represent a transport service category.",
+      "rdfs:label": ""
+    },
+    {
+      "@id": "ccl:ReportingThresholdTriggerTypeCode",
+      "@type": "rdfs:DataType",
+      "rdfs:comment": "A character string used to represent or replace a type of trigger for a reporting threshold.",
+      "rdfs:label": ""
+    },
+    {
+      "@id": "ccl:MIMECode",
+      "@type": "rdfs:DataType",
+      "rdfs:comment": "A character string used to represent a type of MIME.",
+      "rdfs:label": ""
+    },
+    {
+      "@id": "ccl:TemperatureUnitMeasure",
+      "@type": "rdfs:DataType",
+      "rdfs:comment": "The numeric value determined by temperature measuring.",
+      "rdfs:label": ""
+    },
+    {
+      "@id": "ccl:AccountingAccountStatusCode",
+      "@type": "rdfs:DataType",
+      "rdfs:comment": "A character string used to represent the type of accounting account status.",
+      "rdfs:label": ""
+    },
+    {
+      "@id": "ccl:PaymentMethodCode",
+      "@type": "rdfs:DataType",
+      "rdfs:comment": "A character string used to represent a payment method.",
+      "rdfs:label": ""
+    },
+    {
+      "@id": "ccl:CancellationDocumentStatusCode",
+      "@type": "rdfs:DataType",
+      "rdfs:comment": "A character string used to represent the cancellation status condition of a document.",
+      "rdfs:label": "Cancellation_ Document Status_ Code. Type"
+    },
+    {
+      "@id": "ccl:Code",
+      "@type": "rdfs:DataType",
+      "rdfs:comment": "A character string (letters, figures or symbols) that for brevity and/or language independence may be used to represent or replace a definitive value or text of an attribute.",
+      "rdfs:label": "Code. Type"
+    },
+    {
+      "@id": "ccl:TransportEquipmentSizeTypeCode",
+      "@type": "rdfs:DataType",
+      "rdfs:comment": "A character string used to represent a size and type of transport equipment.",
+      "rdfs:label": ""
+    },
+    {
+      "@id": "ccl:StatusCode",
+      "@type": "rdfs:DataType",
+      "rdfs:comment": "A character string used to represent a status.",
+      "rdfs:label": ""
+    },
+    {
+      "@id": "ccl:ProcessTypeCode",
+      "@type": "rdfs:DataType",
+      "rdfs:comment": "A character string used to replace or represent a type of process.",
+      "rdfs:label": ""
+    },
+    {
+      "@id": "ccl:AccountingDebitCreditStatusCode",
+      "@type": "rdfs:DataType",
+      "rdfs:comment": "A character string used to represent the accounting debit or credit sign.",
+      "rdfs:label": ""
+    },
+    {
+      "@id": "ccl:Quantity",
+      "@type": "rdfs:DataType",
+      "rdfs:comment": "A counted number of non-monetary units possibly including fractions.",
+      "rdfs:label": "Quantity. Type"
+    },
+    {
+      "@id": "ccl:AccountingAmountQualifierCode",
+      "@type": "rdfs:DataType",
+      "rdfs:comment": "A character string used to qualify an accounting amount.",
+      "rdfs:label": ""
+    },
+    {
+      "@id": "ccl:TimeReferenceCode",
+      "@type": "rdfs:DataType",
+      "rdfs:comment": "A character string used to represent a time reference.",
+      "rdfs:label": ""
+    },
+    {
+      "@id": "ccl:DurationUnitMeasure",
+      "@type": "rdfs:DataType",
+      "rdfs:comment": "A numeric value determined by measuring a duration of time.",
+      "rdfs:label": ""
+    },
+    {
+      "@id": "ccl:AccountingVoucherMediumCode",
+      "@type": "rdfs:DataType",
+      "rdfs:comment": "A character string used to represent a medium containing an accounting voucher.",
+      "rdfs:label": ""
+    },
+    {
+      "@id": "ccl:SealingPartyRoleCode",
+      "@type": "rdfs:DataType",
+      "rdfs:comment": "A character string used to represent the sealing party role.",
+      "rdfs:label": ""
+    },
+    {
+      "@id": "ccl:PaymentMeansChannelCode",
+      "@type": "rdfs:DataType",
+      "rdfs:comment": "A character string used to represent the payment means channel.",
+      "rdfs:label": ""
+    },
+    {
+      "@id": "ccl:GoodsTypeCode",
+      "@type": "rdfs:DataType",
+      "rdfs:comment": "A character string used to represent a type of goods.",
+      "rdfs:label": ""
+    },
+    {
+      "@id": "ccl:LanguageCode",
+      "@type": "rdfs:DataType",
+      "rdfs:comment": "A character string used to represent a language.",
+      "rdfs:label": ""
+    },
+    {
+      "@id": "ccl:AccountingAccountBalanceReopeningTypeCode",
+      "@type": "rdfs:DataType",
+      "rdfs:comment": "A character string used to represent the type of accounting account balance reopening.",
+      "rdfs:label": ""
+    },
+    {
+      "@id": "ccl:ContractTypeCode",
+      "@type": "rdfs:DataType",
+      "rdfs:comment": "A character string used to represent a type of contract.",
+      "rdfs:label": ""
+    },
+    {
+      "@id": "ccl:TransportEquipmentOperationalStatusCode",
+      "@type": "rdfs:DataType",
+      "rdfs:comment": "A character string used to represent the transport equipment operational status.",
+      "rdfs:label": ""
+    },
+    {
+      "@id": "ccl:TaxExemptionReasonCode",
+      "@type": "rdfs:DataType",
+      "rdfs:comment": "A character string used to represent or replace a reason for tax exemption.",
+      "rdfs:label": ""
+    },
+    {
+      "@id": "ccl:SchedulingDocumentCode",
+      "@type": "rdfs:DataType",
+      "rdfs:comment": "A character string used to represent a scheduling document type.",
+      "rdfs:label": ""
+    },
+    {
+      "@id": "ccl:BillingDocumentCode",
+      "@type": "rdfs:DataType",
+      "rdfs:comment": "A character string used to represent a type of billing document.",
+      "rdfs:label": ""
+    },
+    {
+      "@id": "ccl:FormattedDateTime",
+      "@type": "rdfs:DataType",
+      "rdfs:comment": "A formatted point in the progression of time.",
+      "rdfs:label": ""
+    },
+    {
+      "@id": "ccl:QuotationDocumentCode",
+      "@type": "rdfs:DataType",
+      "rdfs:comment": "A character string used to represent a quotation document type.",
+      "rdfs:label": ""
+    },
+    {
+      "@id": "ccl:HierarchicalStructureTypeCode",
+      "@type": "rdfs:DataType",
+      "rdfs:comment": "A character string used to represent or replace a type of hierarchical structure.",
+      "rdfs:label": ""
+    },
+    {
+      "@id": "ccl:Indicator",
+      "@type": "rdfs:DataType",
+      "rdfs:comment": "The value of the indicator.",
+      "rdfs:label": "Indicator. Type"
+    },
+    {
+      "@id": "ccl:InvoiceDocumentCode",
+      "@type": "rdfs:DataType",
+      "rdfs:comment": "A character string used to represent a type of invoice document.",
+      "rdfs:label": ""
+    },
+    {
+      "@id": "ccl:TransportServiceConditionCode",
+      "@type": "rdfs:DataType",
+      "rdfs:comment": "A character string used to represent a transport service condition.",
+      "rdfs:label": ""
+    },
+    {
+      "@id": "ccl:AccountingEntryCategoryCode",
+      "@type": "rdfs:DataType",
+      "rdfs:comment": "A character string used to represent the category of an accounting entry.",
+      "rdfs:label": ""
+    },
+    {
+      "@id": "ccl:ResponsibleGovernmentAgencyCode",
+      "@type": "rdfs:DataType",
+      "rdfs:comment": "A character string used to represent a responsible government agency.",
+      "rdfs:label": ""
+    },
+    {
+      "@id": "ccl:ScenarioTypeCode",
+      "@type": "rdfs:DataType",
+      "rdfs:comment": "A character string used to represent the type of scenario.",
+      "rdfs:label": ""
+    },
+    {
+      "@id": "ccl:ScheduleTaskTypeCode",
+      "@type": "rdfs:DataType",
+      "rdfs:comment": "A character string used to represent or replace a type of schedule task.",
+      "rdfs:label": ""
+    },
+    {
+      "@id": "ccl:LocationFunctionCode",
+      "@type": "rdfs:DataType",
+      "rdfs:comment": "A character string used to replace or represent a location function.",
+      "rdfs:label": ""
+    },
+    {
+      "@id": "ccl:TransportModeCode",
+      "@type": "rdfs:DataType",
+      "rdfs:comment": "A character string used to represent a transport mode.",
+      "rdfs:label": ""
+    },
+    {
+      "@id": "ccl:CertificateTypeCode",
+      "@type": "rdfs:DataType",
+      "rdfs:comment": "A character string used to represent the type of a certificate.",
+      "rdfs:label": ""
+    },
+    {
+      "@id": "ccl:DeliveryTermsFunctionCode",
+      "@type": "rdfs:DataType",
+      "rdfs:comment": "A character string used to represent a function for delivery terms.",
+      "rdfs:label": ""
+    },
+    {
+      "@id": "ccl:FinancialInstitutionRoleCode",
+      "@type": "rdfs:DataType",
+      "rdfs:comment": "A character string used to represent the role of a financial institution.",
+      "rdfs:label": ""
+    },
+    {
+      "@id": "ccl:Time",
+      "@type": "rdfs:DataType",
+      "rdfs:comment": "The particular point in the progression of time.",
+      "rdfs:label": "Time. Type"
+    },
+    {
+      "@id": "ccl:FundingTypeCode",
+      "@type": "rdfs:DataType",
+      "rdfs:comment": "A character string used to represent or replace a type of funding.",
+      "rdfs:label": ""
+    },
+    {
+      "@id": "ccl:DimensionTypeCode",
+      "@type": "rdfs:DataType",
+      "rdfs:comment": "A character string used to represent the dimension type.",
+      "rdfs:label": ""
+    },
+    {
+      "@id": "ccl:TransportServiceRequirementCode",
+      "@type": "rdfs:DataType",
+      "rdfs:comment": "A character string used to represent a transport service requirement.",
+      "rdfs:label": ""
+    },
+    {
+      "@id": "ccl:DeliveryTermsCode",
+      "@type": "rdfs:DataType",
+      "rdfs:comment": "A character string used to represent delivery terms.",
+      "rdfs:label": ""
+    },
+    {
+      "@id": "ccl:RemittanceDocumentCode",
+      "@type": "rdfs:DataType",
+      "rdfs:comment": "A character string used to represent a remittance document type.",
+      "rdfs:label": ""
+    },
+    {
+      "@id": "ccl:AccountingAccountTypeCode",
+      "@type": "rdfs:DataType",
+      "rdfs:comment": "A character string used to represent the type of an accounting account.",
+      "rdfs:label": ""
+    },
+    {
+      "@id": "ccl:DangerousGoodsRegulationCode",
+      "@type": "rdfs:DataType",
+      "rdfs:comment": "A character string used to represent the dangerous goods regulation.",
+      "rdfs:label": ""
+    },
+    {
+      "@id": "ccl:CargoOperationalCategoryCode",
+      "@type": "rdfs:DataType",
+      "rdfs:comment": "A character string used to represent cargo operational categories.",
+      "rdfs:label": ""
+    },
+    {
+      "@id": "ccl:PaymentTermsIdentifier",
+      "@type": "rdfs:DataType",
+      "rdfs:comment": "A character string used to represent a payment terms.",
+      "rdfs:label": ""
+    },
+    {
+      "@id": "ccl:FreightChargeTypeIdentifier",
+      "@type": "rdfs:DataType",
+      "rdfs:comment": "A character string used to represent the freight charge type.",
+      "rdfs:label": ""
+    },
+    {
+      "@id": "ccl:ResourceCostCategoryCode",
+      "@type": "rdfs:DataType",
+      "rdfs:comment": "A character string used to represent or replace a cost category for a resource.",
+      "rdfs:label": ""
+    },
+    {
+      "@id": "ccl:PaymentGuaranteeMeansCode",
+      "@type": "rdfs:DataType",
+      "rdfs:comment": "A character string used to represent a payment guarantee means.",
+      "rdfs:label": ""
+    },
+    {
+      "@id": "ccl:ContactTypeCode",
+      "@type": "rdfs:DataType",
+      "rdfs:comment": "A character string used to represent a contact type.",
+      "rdfs:label": ""
+    },
+    {
+      "@id": "ccl:TemperatureTypeCode",
+      "@type": "rdfs:DataType",
+      "rdfs:comment": "A character string used to replace or represent a type of temperature.",
+      "rdfs:label": ""
+    },
+    {
+      "@id": "ccl:PartyRoleCode",
+      "@type": "rdfs:DataType",
+      "rdfs:comment": "A character string used to replace or represent a role of a party.",
+      "rdfs:label": ""
+    },
+    {
+      "@id": "ccl:Amount",
+      "@type": "rdfs:DataType",
+      "rdfs:comment": "A number of monetary units specified in a currency where the unit of currency is explicit or implied.",
+      "rdfs:label": "Amount. Type"
+    },
+    {
+      "@id": "ccl:DateMandatoryDateTime",
+      "@type": "rdfs:DataType",
+      "rdfs:comment": "A particular point in the progression of time defined by a mandatory date and an optional time component.",
+      "rdfs:label": ""
+    },
+    {
+      "@id": "ccl:AddressFormatTypeCode",
+      "@type": "rdfs:DataType",
+      "rdfs:comment": "A character string used to represent the type of format address.",
+      "rdfs:label": ""
+    },
+    {
+      "@id": "ccl:AccessRightsTypeCode",
+      "@type": "rdfs:DataType",
+      "rdfs:comment": "A character string used to represent the type of access rights.",
+      "rdfs:label": ""
+    },
+    {
+      "@id": "ccl:AllowanceChargeIdentificationCode",
+      "@type": "rdfs:DataType",
+      "rdfs:comment": "A character string used to identify a type of allowance or charge.",
+      "rdfs:label": ""
+    },
+    {
+      "@id": "ccl:AccountingEntryLineSourceCode",
+      "@type": "rdfs:DataType",
+      "rdfs:comment": "A character string used to represent the source of an accounting entry line.",
+      "rdfs:label": ""
+    },
+    {
+      "@id": "ccl:DocumentCode",
+      "@type": "rdfs:DataType",
+      "rdfs:comment": "A character string denoting the type of a document. [Reference United Nations Code List (UNCL) 1001]",
+      "rdfs:label": ""
+    },
+    {
+      "@id": "ccl:CurrencyCode",
+      "@type": "rdfs:DataType",
+      "rdfs:comment": "A character string used to represent a currency.",
+      "rdfs:label": ""
+    },
+    {
+      "@id": "ccl:WeightUnitMeasure",
+      "@type": "rdfs:DataType",
+      "rdfs:comment": "The numeric value determined by weight measuring.",
+      "rdfs:label": ""
+    },
+    {
+      "@id": "ccl:CommitmentLevelCode",
+      "@type": "rdfs:DataType",
+      "rdfs:comment": "A character string used to represent a commitment level.",
+      "rdfs:label": ""
+    },
+    {
+      "@id": "ccl:AmountWeightTypeCode",
+      "@type": "rdfs:DataType",
+      "rdfs:comment": "A character string used to represent the type of amount weight.",
+      "rdfs:label": ""
+    },
+    {
+      "@id": "ccl:PackagingLevelCode",
+      "@type": "rdfs:DataType",
+      "rdfs:comment": "A character string used to represent the packaging level.",
+      "rdfs:label": ""
+    },
+    {
+      "@id": "ccl:RefundMethodCode",
+      "@type": "rdfs:DataType",
+      "rdfs:comment": "A character string used to represent the type of a refund method.",
+      "rdfs:label": ""
+    },
+    {
+      "@id": "ccl:ResponseTypeCode",
+      "@type": "rdfs:DataType",
+      "rdfs:comment": "A character string used to represent a response type.",
+      "rdfs:label": ""
+    },
+    {
+      "@id": "ccl:PlanningLevelCode",
+      "@type": "rdfs:DataType",
+      "rdfs:comment": "A character string used to represent or replace a planning level.",
+      "rdfs:label": ""
+    },
+    {
+      "@id": "ccl:AccountingAccountNatureTypeCode",
+      "@type": "rdfs:DataType",
+      "rdfs:comment": "A character string used to represent the type of accounting account nature.",
+      "rdfs:label": ""
+    },
+    {
+      "@id": "ccl:TransportEquipmentCategoryCode",
+      "@type": "rdfs:DataType",
+      "rdfs:comment": "A character string used to represent the transport equipment category.",
+      "rdfs:label": ""
+    },
+    {
+      "@id": "ccl:BinaryObjectCharacterSetCode",
+      "@type": "rdfs:DataType",
+      "rdfs:comment": "A code specifying the character set of the binary object if the mime type is text.",
+      "rdfs:label": ""
+    },
+    {
+      "@id": "ccl:FinancingStatusCode",
+      "@type": "rdfs:DataType",
+      "rdfs:comment": "A character string used to specify a financing status.",
+      "rdfs:label": "Financing Status_ Code. Type"
+    },
+    {
+      "@id": "ccl:PriorityDescriptionCode",
+      "@type": "rdfs:DataType",
+      "rdfs:comment": "A character string used to represent a priority.",
+      "rdfs:label": ""
+    },
+    {
+      "@id": "ccl:LineStatusCode",
+      "@type": "rdfs:DataType",
+      "rdfs:comment": "A character string used to represent a line status.",
+      "rdfs:label": ""
+    },
+    {
+      "@id": "ccl:PartyTypeCode",
+      "@type": "rdfs:DataType",
+      "rdfs:comment": "A character string used to represent the type of a party.",
+      "rdfs:label": ""
+    },
+    {
+      "@id": "ccl:TransportEquipmentMovementStatusCode",
+      "@type": "rdfs:DataType",
+      "rdfs:comment": "A character string used to represent the transport equipment movement status.",
+      "rdfs:label": ""
+    },
+    {
+      "@id": "ccl:SecurityClassificationTypeCode",
+      "@type": "rdfs:DataType",
+      "rdfs:comment": "A character string used to replace or represent a security classification.",
+      "rdfs:label": ""
+    },
+    {
+      "@id": "ccl:MarkingInstructionCode",
+      "@type": "rdfs:DataType",
+      "rdfs:comment": "A character string used to represent the marking instruction.",
+      "rdfs:label": ""
+    },
+    {
+      "@id": "ccl:ChargePayingPartyRoleCode",
+      "@type": "rdfs:DataType",
+      "rdfs:comment": "A character string used to represent the charge paying party role.",
+      "rdfs:label": ""
+    },
+    {
+      "@id": "ccl:TimeOnlyFormattedDateTime",
+      "@type": "rdfs:DataType",
+      "rdfs:comment": "A time specific formatted point in the progression of time.",
+      "rdfs:label": ""
+    },
+    {
+      "@id": "ccl:Name",
+      "@type": "rdfs:DataType",
+      "rdfs:comment": "A character string (I.e. a finite set of characters) generally in the form of words of a language.",
+      "rdfs:label": "Name. Type"
+    },
+    {
+      "@id": "ccl:TransportMovementTypeCode",
+      "@type": "rdfs:DataType",
+      "rdfs:comment": "A character string used to represent a transport movement type.",
+      "rdfs:label": ""
+    },
+    {
+      "@id": "ccl:DateTimePeriodFunctionCode",
+      "@type": "rdfs:DataType",
+      "rdfs:comment": "A character string used to represent the type of date time period function.",
+      "rdfs:label": ""
+    },
+    {
+      "@id": "ccl:TransportEquipmentLegalStatusCode",
+      "@type": "rdfs:DataType",
+      "rdfs:comment": "A character string used to represent the transport equipment legal status.",
+      "rdfs:label": ""
+    },
+    {
+      "@id": "ccl:LanguageIdentifier",
+      "@type": "rdfs:DataType",
+      "rdfs:comment": "A character string used to represent a language.",
+      "rdfs:label": ""
+    },
+    {
+      "@id": "ccl:TransportServicePriorityCode",
+      "@type": "rdfs:DataType",
+      "rdfs:comment": "A character string used to represent a transport service priority.",
+      "rdfs:label": ""
+    },
+    {
+      "@id": "ccl:ValidationDocumentStatusCode",
+      "@type": "rdfs:DataType",
+      "rdfs:comment": "A character string used to represent the document status condition of a validation document.",
+      "rdfs:label": ""
+    },
+    {
+      "@id": "ccl:ScheduleTaskRelationshipTypeCode",
+      "@type": "rdfs:DataType",
+      "rdfs:comment": "A character string used to represent or replace a type of relationship between schedule tasks.",
+      "rdfs:label": ""
+    },
+    {
+      "@id": "ccl:LinearUnitMeasure",
+      "@type": "rdfs:DataType",
+      "rdfs:comment": "The numeric value determined by linear measuring.",
+      "rdfs:label": ""
+    },
+    {
+      "@id": "ccl:CargoTypeClassificationCode",
+      "@type": "rdfs:DataType",
+      "rdfs:comment": "A character string used to represent a cargo type classification.",
+      "rdfs:label": ""
+    },
+    {
+      "@id": "ccl:DateTime",
+      "@type": "rdfs:DataType",
+      "rdfs:comment": "The particular point in the progression of time.",
+      "rdfs:label": "Date Time. Type"
+    },
+    {
+      "@id": "ccl:GoodsTypeExtensionCode",
+      "@type": "rdfs:DataType",
+      "rdfs:comment": "A character string used to represent an extended type of goods.",
+      "rdfs:label": ""
+    },
+    {
+      "@id": "ccl:FreightChargeTariffClassCode",
+      "@type": "rdfs:DataType",
+      "rdfs:comment": "A character string used to represent the freight charge tariff class.",
+      "rdfs:label": ""
+    },
+    {
+      "@id": "ccl:CostManagementCode",
+      "@type": "rdfs:DataType",
+      "rdfs:comment": "A character string used to represent or replace a cost management value.",
+      "rdfs:label": ""
+    },
+    {
+      "@id": "ccl:Value",
+      "@type": "rdfs:DataType",
+      "rdfs:comment": "Numeric information that is assigned or is determined by calculation, counting or sequencing.",
+      "rdfs:label": "Value. Type"
+    },
+    {
+      "@id": "ccl:Graphic",
+      "@type": "rdfs:DataType",
+      "rdfs:comment": "A set of finite-length sequences of binary octets.",
+      "rdfs:label": "Graphic. Type"
+    },
+    {
+      "@id": "ccl:AccountingAmountTypeCode",
+      "@type": "rdfs:DataType",
+      "rdfs:comment": "A character string used to represent the type of accounting amount.",
+      "rdfs:label": ""
+    },
+    {
+      "@id": "ccl:AccountingJournalCategoryCode",
+      "@type": "rdfs:DataType",
+      "rdfs:comment": "A character string used to represent the type of an accounting journal category.",
+      "rdfs:label": ""
+    },
+    {
+      "@id": "ccl:AccountingAccountClassificationCode",
+      "@type": "rdfs:DataType",
+      "rdfs:comment": "A character string used to represent the type of accounting account classification.",
+      "rdfs:label": ""
+    },
+    {
+      "@id": "ccl:AccountingEntryLineCategoryCode",
+      "@type": "rdfs:DataType",
+      "rdfs:comment": "A character string used to represent the category of a line of an accounting entry.",
+      "rdfs:label": ""
+    },
+    {
+      "@id": "ccl:AmortizationMethodCode",
+      "@type": "rdfs:DataType",
+      "rdfs:comment": "A character string used to represent the type of an amortization method.",
+      "rdfs:label": ""
+    },
+    {
+      "@id": "ccl:UnitMeasure",
+      "@type": "rdfs:DataType",
+      "rdfs:comment": "A numeric value determined by measuring an object along with the specified unit of measure.",
+      "rdfs:label": ""
+    },
+    {
+      "@id": "ccl:CustomsDutyRegimeTypeCode",
+      "@type": "rdfs:DataType",
+      "rdfs:comment": "A character string used to represent the type of customs duty regime.",
+      "rdfs:label": ""
+    },
+    {
+      "@id": "ccl:AccountingJournalCode",
+      "@type": "rdfs:DataType",
+      "rdfs:comment": "A character string used to represent the type of an accounting journal.",
+      "rdfs:label": ""
+    },
+    {
+      "@id": "ccl:TransportEquipmentSupplierPartyRoleCode",
+      "@type": "rdfs:DataType",
+      "rdfs:comment": "A character string used to represent the transport equipment supplier party role.",
+      "rdfs:label": ""
+    },
+    {
+      "@id": "ccl:CommunicationChannelCode",
+      "@type": "rdfs:DataType",
+      "rdfs:comment": "A character string used to represent a communication channel.",
+      "rdfs:label": ""
+    },
+    {
+      "@id": "ccl:ContractorTypeCode",
+      "@type": "rdfs:DataType",
+      "rdfs:comment": "A character string used to represent or replace a type of contractor.",
+      "rdfs:label": ""
+    },
+    {
+      "@id": "ccl:CargoCategoryCode",
+      "@type": "rdfs:DataType",
+      "rdfs:comment": "A character string used to represent the cargo category.",
+      "rdfs:label": ""
+    },
+    {
+      "@id": "ccl:ResourcePlanMeasureTypeCode",
+      "@type": "rdfs:DataType",
+      "rdfs:comment": "A character string used to represent or replace the type of resource plan measure.",
+      "rdfs:label": ""
+    },
+    {
+      "@id": "ccl:DangerousGoodsPackagingLevelCode",
+      "@type": "rdfs:DataType",
+      "rdfs:comment": "A character string used to represent the dangerous goods packaging level.",
+      "rdfs:label": ""
+    },
+    {
+      "@id": "ccl:AirFlowUnitMeasure",
+      "@type": "rdfs:DataType",
+      "rdfs:comment": "The numeric value determined by a measurement of air flow.",
+      "rdfs:label": ""
+    },
+    {
+      "@id": "ccl:ScheduleTypeCode",
+      "@type": "rdfs:DataType",
+      "rdfs:comment": "A character string used to represent or replace a type of schedule.",
+      "rdfs:label": ""
+    },
+    {
+      "@id": "ccl:FileSizeUnitMeasure",
+      "@type": "rdfs:DataType",
+      "rdfs:comment": "A numeric value determined by measuring a file size.",
+      "rdfs:label": ""
+    },
+    {
+      "@id": "ccl:CodeListResponsibleAgencyCode",
+      "@type": "rdfs:DataType",
+      "rdfs:comment": "A code specifying the organization responsible for a code or identifier list.",
+      "rdfs:label": ""
+    },
+    {
+      "@id": "ccl:AccountingDocumentTypeCode",
+      "@type": "rdfs:DataType",
+      "rdfs:comment": "A character string used to represent the type of accounting document.",
+      "rdfs:label": ""
+    },
+    {
+      "@id": "ccl:Date",
+      "@type": "rdfs:DataType",
+      "rdfs:comment": "The particular point in the progression of time.",
+      "rdfs:label": "Date. Type"
+    },
+    {
+      "@id": "ccl:AccountingPeriodFunctionCode",
+      "@type": "rdfs:DataType",
+      "rdfs:comment": "A character string used to represent the function of an accounting period.",
+      "rdfs:label": ""
+    },
+    {
+      "@id": "ccl:Measure",
+      "@type": "rdfs:DataType",
+      "rdfs:comment": "The numeric value determined by measuring an object.",
+      "rdfs:label": "Measure. Type"
+    },
+    {
+      "@id": "ccl:MessageFunctionCode",
+      "@type": "rdfs:DataType",
+      "rdfs:comment": "A character string used to represent a message function.",
+      "rdfs:label": ""
+    },
+    {
+      "@id": "ccl:SealTypeCode",
+      "@type": "rdfs:DataType",
+      "rdfs:comment": "A character string used to represent a type of seal.",
+      "rdfs:label": ""
+    },
+    {
+      "@id": "ccl:LogisticsStatusCode",
+      "@type": "rdfs:DataType",
+      "rdfs:comment": "A character string used to represent the logistics status condition or reason.",
+      "rdfs:label": ""
+    },
+    {
+      "@id": "ccl:Sound",
+      "@type": "rdfs:DataType",
+      "rdfs:comment": "A set of finite-length sequences of binary octets.",
+      "rdfs:label": "Sound. Type"
+    },
+    {
+      "@id": "ccl:SubjectCode",
+      "@type": "rdfs:DataType",
+      "rdfs:comment": "A character string used to represent a subject code.",
+      "rdfs:label": ""
+    },
+    {
+      "@id": "ccl:PackageTypeCode",
+      "@type": "rdfs:DataType",
+      "rdfs:comment": "A character string used to replace or represent a type of package.",
+      "rdfs:label": ""
+    },
+    {
+      "@id": "ccl:FinancingStatusReasonCode",
+      "@type": "rdfs:DataType",
+      "rdfs:comment": "A character string used to specify a financing status reason.",
+      "rdfs:label": "Financing Status Reason_ Code. Type"
+    },
+    {
+      "@id": "ccl:TaxCategoryCode",
+      "@type": "rdfs:DataType",
+      "rdfs:comment": "A character string used to represent a duty or tax category.",
+      "rdfs:label": ""
+    },
+    {
+      "@id": "ccl:TransportEquipmentFullnessCode",
+      "@type": "rdfs:DataType",
+      "rdfs:comment": "A character string used to represent the transport equipment fullness.",
+      "rdfs:label": ""
+    },
+    {
+      "@id": "ccl:Percent",
+      "@type": "rdfs:DataType",
+      "rdfs:comment": "Numeric information that is assigned or is determined by calculation, counting or sequencing.",
+      "rdfs:label": "Percent. Type"
+    },
+    {
+      "@id": "ccl:IBANIdentifier",
+      "@type": "rdfs:DataType",
+      "rdfs:comment": "A character string used to represent the International Bank Account Number Type.",
+      "rdfs:label": ""
+    },
+    {
+      "@id": "ccl:Picture",
+      "@type": "rdfs:DataType",
+      "rdfs:comment": "A set of finite-length sequences of binary octets.",
+      "rdfs:label": "Picture. Type"
+    },
+    {
+      "@id": "ccl:Text",
+      "@type": "rdfs:DataType",
+      "rdfs:comment": "A character string (I.e. a finite set of characters) generally in the form of words of a language.",
+      "rdfs:label": "Text. Type"
+    },
+    {
+      "@id": "ccl:TaxTypeCode",
+      "@type": "rdfs:DataType",
+      "rdfs:comment": "A character string used to represent or replace a tax type.",
+      "rdfs:label": ""
+    },
+    {
+      "@id": "ccl:TransportMeansDirectionCode",
+      "@type": "rdfs:DataType",
+      "rdfs:comment": "A character string used to represent the transport means direction.",
+      "rdfs:label": ""
+    },
+    {
+      "@id": "ccl:MeasuredAttributeCode",
+      "@type": "rdfs:DataType",
+      "rdfs:comment": "A character string used to replace or represent a measured attribute.",
+      "rdfs:label": ""
+    },
+    {
+      "@id": "ccl:PackagingMarkingCode",
+      "@type": "rdfs:DataType",
+      "rdfs:comment": "A character string used to represent a packaging marking.",
+      "rdfs:label": ""
+    },
+    {
+      "@id": "ccl:AddressTypeCode",
+      "@type": "rdfs:DataType",
+      "rdfs:comment": "A character string used to represent or replace an address type.",
+      "rdfs:label": ""
+    },
+    {
+      "@id": "ccl:CustomsProcedureGuaranteeCode",
+      "@type": "rdfs:DataType",
+      "rdfs:comment": "A character string used to represent a customs procedure guarantee.",
+      "rdfs:label": ""
+    },
+    {
+      "@id": "ccl:CostReportingCode",
+      "@type": "rdfs:DataType",
+      "rdfs:comment": "A character string used to represent or replace a cost reporting value.",
+      "rdfs:label": ""
+    },
+    {
+      "@id": "ccl:AccountingDocumentCode",
+      "@type": "rdfs:DataType",
+      "rdfs:comment": "A character string used to represent the type of an accounting document.",
+      "rdfs:label": ""
+    },
+    {
+      "@id": "ccl:Video",
+      "@type": "rdfs:DataType",
+      "rdfs:comment": "A set of finite-length sequences of binary octets.",
+      "rdfs:label": "Video. Type"
+    },
+    {
+      "@id": "ccl:EarnedValueCalculationMethodCode",
+      "@type": "rdfs:DataType",
+      "rdfs:comment": "A character string used to represent or replace the type of earned value calculation method.",
+      "rdfs:label": ""
+    },
+    {
+      "@id": "ccl:FinancialAccountTypeCode",
+      "@type": "rdfs:DataType",
+      "rdfs:comment": "A character string used to represent the type of financial account.",
+      "rdfs:label": ""
+    },
+    {
+      "@id": "ccl:AccountingContactCode",
+      "@type": "rdfs:DataType",
+      "rdfs:comment": "A character string used to represent the type of an accounting contact.",
+      "rdfs:label": ""
+    },
+    {
+      "@id": "ccl:LogisticsChargeCalculationBasisCode",
+      "@type": "rdfs:DataType",
+      "rdfs:comment": "A character string used to represent the type of basis on which logistic charges are to be calculated.",
+      "rdfs:label": ""
+    },
+    {
+      "@id": "ccl:Numeric",
+      "@type": "rdfs:DataType",
+      "rdfs:comment": "Numeric information that is assigned or is determined by calculation, counting or sequencing.",
+      "rdfs:label": "Numeric. Type"
+    },
+    {
+      "@id": "ccl:CargoCommodityCategoryCode",
+      "@type": "rdfs:DataType",
+      "rdfs:comment": "A character string used to represent a cargo commodity category.",
+      "rdfs:label": ""
+    },
+    {
+      "@id": "ccl:AllowanceChargeReasonCode",
+      "@type": "rdfs:DataType",
+      "rdfs:comment": "A character string used to represent an allowance charge reason.",
+      "rdfs:label": ""
+    },
+    {
+      "@id": "ccl:WorkflowStatusCode",
+      "@type": "rdfs:DataType",
+      "rdfs:comment": "A character string used to represent a workflow status.",
+      "rdfs:label": ""
+    },
+    {
+      "@id": "ccl:TransportServicePaymentArrangementCode",
+      "@type": "rdfs:DataType",
+      "rdfs:comment": "A character string used to represent a transport service payment arrangement.",
+      "rdfs:label": ""
+    },
+    {
+      "@id": "ccl:ResponsibleGovernmentAgencyInvolvementCode",
+      "@type": "rdfs:DataType",
+      "rdfs:comment": "A character string used to represent a responsible government agency involvement.",
+      "rdfs:label": ""
+    },
+    {
+      "@id": "ccl:AdjustmentReasonCode",
+      "@type": "rdfs:DataType",
+      "rdfs:comment": "A character string used to represent an adjustment reason.",
+      "rdfs:label": ""
+    },
+    {
+      "@id": "ccl:DocumentStatusCode",
+      "@type": "rdfs:DataType",
+      "rdfs:comment": "A character string used to represent or replace a document status.",
+      "rdfs:label": ""
+    },
+    {
+      "@id": "ccl:AcknowledgementCode",
+      "@type": "rdfs:DataType",
+      "rdfs:comment": "A character string used to represent a type of acknowledgment.",
+      "rdfs:label": ""
+    },
+    {
+      "@id": "ccl:SealConditionCode",
+      "@type": "rdfs:DataType",
+      "rdfs:comment": "A character string used to represent the seal condition.",
+      "rdfs:label": ""
+    },
+    {
+      "@id": "ccl:CashAccountTypeCode",
+      "@type": "rdfs:DataType",
+      "rdfs:comment": "A character string used to specify a cash account type.",
+      "rdfs:label": "Cash Account Type_ Code. Type"
+    },
+    {
+      "@id": "ccl:BinaryObject",
+      "@type": "rdfs:DataType",
+      "rdfs:comment": "A set of finite-length sequences of binary octets.",
+      "rdfs:label": "Binary Object. Type"
+    },
+    {
+      "@id": "ccl:AdditionalPostponementCode",
+      "@type": "rdfs:DataType",
+      "rdfs:comment": "A character string used to represent the type of additional postponement.",
+      "rdfs:label": ""
+    },
+    {
+      "@id": "ccl:Identifier",
+      "@type": "rdfs:DataType",
+      "rdfs:comment": "A character string used to identify and distinguish uniquely, one instance of an object in an identification scheme from all other objects within the same scheme.",
+      "rdfs:label": "Identifier. Type"
+    },
+    {
+      "@id": "ccl:SoftwareUserTypeCode",
+      "@type": "rdfs:DataType",
+      "rdfs:comment": "A character string used to represent the type of software user.",
+      "rdfs:label": ""
+    },
+    {
+      "@id": "ccl:TransportMeansTypeCode",
+      "@type": "rdfs:DataType",
+      "rdfs:comment": "A character string used to represent the transport means type.",
+      "rdfs:label": ""
+    },
+    {
+      "@id": "ccl:LifetimeEndCostCode",
+      "@type": "rdfs:DataType",
+      "rdfs:comment": "A character string used to represent the type of a lifetime end cost.",
+      "rdfs:label": ""
+    },
+    {
+      "@id": "ccl:AutomaticDataCaptureMethodCode",
+      "@type": "rdfs:DataType",
+      "rdfs:comment": "A character string used to represent an automatic data capturing method.",
+      "rdfs:label": ""
+    },
+    {
+      "@id": "ccl:Rate",
+      "@type": "rdfs:DataType",
+      "rdfs:comment": "Numeric information that is assigned or is determined by calculation, counting or sequencing.",
+      "rdfs:label": "Rate. Type"
+    },
+    {
+      "@id": "ccl:CountryIdentifier",
+      "@type": "rdfs:DataType",
+      "rdfs:comment": "A character string to identify and distinguish uniquely, one instance of a country in an identification scheme from all other objects within the same scheme.",
+      "rdfs:label": ""
+    },
+    {
+      "@id": "ccl:PaymentTermsTypeCode",
+      "@type": "rdfs:DataType",
+      "rdfs:comment": "A character string used to represent the payment terms type.",
+      "rdfs:label": ""
+    },
+    {
+      "@id": "ccl:PaymentMeansCode",
+      "@type": "rdfs:DataType",
+      "rdfs:comment": "A character string used to represent a payment means.",
+      "rdfs:label": ""
+    },
+    {
+      "@id": "ccl:GovernmentActionCode",
+      "@type": "rdfs:DataType",
+      "rdfs:comment": "A character string used to replace or represent a government action.",
+      "rdfs:label": ""
+    },
+    {
+      "@id": "ccl:TitleCode",
+      "@type": "rdfs:DataType",
+      "rdfs:comment": "A character string used to specify a title.",
+      "rdfs:label": "Title_ Code. Type"
+    },
+    {
+      "@id": "ccl:OrganizationFunctionTypeCode",
+      "@type": "rdfs:DataType",
+      "rdfs:comment": "A character string used to represent the type of an organization function.",
+      "rdfs:label": ""
+    },
+    {
+      "@id": "ccl:TransportEquipmentHaulageArrangementsCode",
+      "@type": "rdfs:DataType",
+      "rdfs:comment": "A character string used to represent the transport equipment haulage arrangements.",
+      "rdfs:label": ""
+    },
+    {
+      "@id": "ccl:BinaryObjectEncodingCode",
+      "@type": "rdfs:DataType",
+      "rdfs:comment": "A code specifying the encoding algorithm of the binary object.",
+      "rdfs:label": ""
+    }
+  ]
+}
