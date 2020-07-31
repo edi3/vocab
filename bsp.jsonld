@@ -8,7 +8,7 @@
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
         "dc": "http://purl.org/dc/elements/1.1/"
       },
-    "@graph": [
+        "@graph": [
         {
             "@id": "edi3:ProductGroup",
             "@type": "rdfs:Class",
@@ -4461,6 +4461,24 @@
             "edi3:cefactID": "UN01001575"
         },
         {
+            "@id": "edi3:TradeTradeProductGroupID",
+            "@type": "rdfs:Property",
+            "rdfs:range": "xsd:token",
+            "rdfs:comment": "An identifier for this trade product group.",
+            "rdfs:domain": "edi3:ProductGroup",
+            "rdfs:label": "Trade_ Product Group. Identification. Identifier",
+            "edi3:cefactID": "UN01011923"
+        },
+        {
+            "@id": "edi3:TradeTradeProductGroupID",
+            "@type": "rdfs:Property",
+            "rdfs:range": "xsd:token",
+            "rdfs:comment": "A unique identifier for a product group for this trade product.",
+            "rdfs:domain": "edi3:TradeProduct",
+            "rdfs:label": "Trade_ Product. Product Group. Identifier",
+            "edi3:cefactID": "UN01005376"
+        },
+        {
             "@id": "edi3:DocumentRelationshipTypeCode",
             "@type": "rdfs:Property",
             "rdfs:range": "xsd:token",
@@ -6027,24 +6045,6 @@
             "edi3:cefactID": "UN01011863"
         },
         {
-            "@id": "edi3:TransportPackageTypeCode",
-            "@type": "rdfs:Property",
-            "rdfs:range": "xsd:token",
-            "rdfs:comment": "The code specifying the package type for the transported dangerous goods.",
-            "rdfs:domain": "edi3:DangerousGoods",
-            "rdfs:label": "Transport_ Dangerous Goods. Package Type. Code",
-            "edi3:cefactID": "UN01009012"
-        },
-        {
-            "@id": "edi3:LogisticsPackageTypeCode",
-            "@type": "rdfs:Property",
-            "rdfs:range": "xsd:token",
-            "rdfs:comment": "A code specifying the type of logistics package.",
-            "rdfs:domain": "edi3:Package",
-            "rdfs:label": "Logistics_ Package. Type. Code",
-            "edi3:cefactID": "UN01003697"
-        },
-        {
             "@id": "edi3:DeliveryInstructionsDescriptionCode",
             "@type": "rdfs:Property",
             "rdfs:range": "xsd:token",
@@ -6511,24 +6511,6 @@
             "rdfs:domain": "edi3:ReferencedPackage",
             "rdfs:label": "Referenced_ Logistics_ Package. Information. Text",
             "edi3:cefactID": "UN01013105"
-        },
-        {
-            "@id": "edi3:TradePaymentMeansID",
-            "@type": "rdfs:Property",
-            "rdfs:range": "xsd:token",
-            "rdfs:comment": "An identifier of a payment means in these trade payment terms.",
-            "rdfs:domain": "edi3:PaymentTerms",
-            "rdfs:label": "Trade_ Payment Terms. Payment Means_ Identification. Identifier",
-            "edi3:cefactID": "UN01006048"
-        },
-        {
-            "@id": "edi3:TradeSettlementPaymentMeansID",
-            "@type": "rdfs:Property",
-            "rdfs:range": "xsd:token",
-            "rdfs:comment": "An identifier for this trade settlement payment means.",
-            "rdfs:domain": "edi3:PaymentMeans",
-            "rdfs:label": "Trade Settlement_ Payment Means. Identification. Identifier",
-            "edi3:cefactID": "UN01006055"
         },
         {
             "@id": "edi3:StandardID",
@@ -7087,24 +7069,6 @@
             "rdfs:domain": "edi3:HeaderTradeDelivery",
             "rdfs:label": "Header_ Trade Delivery. Identification. Identifier",
             "edi3:cefactID": "UN01011604"
-        },
-        {
-            "@id": "edi3:SupplyChainSupplyChainTradeLineItemReferencedLogisticsPackage",
-            "@type": "rdfs:Property",
-            "rdfs:range": "edi3:ReferencedPackage",
-            "rdfs:comment": "A physical logistics package referenced for this supply chain trade line item.",
-            "rdfs:domain": "edi3:SupplyChainTradeLineItem",
-            "rdfs:label": "Supply Chain_ Trade Line Item. Physical. Referenced_ Logistics_ Package",
-            "edi3:cefactID": "UN01011865"
-        },
-        {
-            "@id": "edi3:SupplyChainSupplyChainTradeLineItemReferencedLogisticsPackage",
-            "@type": "rdfs:Property",
-            "rdfs:range": "edi3:Package",
-            "rdfs:comment": "A logistics package referenced in this supply chain trade line item.",
-            "rdfs:domain": "edi3:SupplyChainTradeLineItem",
-            "rdfs:label": "Supply Chain_ Trade Line Item. Referenced. Logistics_ Package",
-            "edi3:cefactID": "UN01012984"
         },
         {
             "@id": "edi3:RequestedOccurrenceDateTime",
@@ -10518,6 +10482,15 @@
             "edi3:cefactID": "UN01007521"
         },
         {
+            "@id": "edi3:TradeSettlementPaymentMeansID",
+            "@type": "rdfs:Property",
+            "rdfs:range": "xsd:token",
+            "rdfs:comment": "An identifier for this trade settlement payment means.",
+            "rdfs:domain": "edi3:PaymentMeans",
+            "rdfs:label": "Trade Settlement_ Payment Means. Identification. Identifier",
+            "edi3:cefactID": "UN01006055"
+        },
+        {
             "@id": "edi3:FinancingFinancialAccountTypeCode",
             "@type": "rdfs:Property",
             "rdfs:range": "xsd:token",
@@ -11074,24 +11047,6 @@
             "rdfs:domain": "edi3:GeographicalCoordinate",
             "rdfs:label": "Geographical Coordinate. Time Zone. Text",
             "edi3:cefactID": "UN01013610"
-        },
-        {
-            "@id": "edi3:TradeProductGroupID",
-            "@type": "rdfs:Property",
-            "rdfs:range": "xsd:token",
-            "rdfs:comment": "An identifier for this trade product group.",
-            "rdfs:domain": "edi3:ProductGroup",
-            "rdfs:label": "Trade_ Product Group. Identification. Identifier",
-            "edi3:cefactID": "UN01011923"
-        },
-        {
-            "@id": "edi3:TradeProductGroupID",
-            "@type": "rdfs:Property",
-            "rdfs:range": "xsd:token",
-            "rdfs:comment": "A unique identifier for a product group for this trade product.",
-            "rdfs:domain": "edi3:TradeProduct",
-            "rdfs:label": "Trade_ Product. Product Group. Identifier",
-            "edi3:cefactID": "UN01005376"
         },
         {
             "@id": "edi3:HeaderTradeDeliveryDueInAvailableQuantity",
@@ -12786,6 +12741,24 @@
             "edi3:cefactID": "UN01013195"
         },
         {
+            "@id": "edi3:SupplyChainSupplyChainSupplyChainTradeLineItemReferencedLogisticsPackage",
+            "@type": "rdfs:Property",
+            "rdfs:range": "edi3:ReferencedPackage",
+            "rdfs:comment": "A physical logistics package referenced for this supply chain trade line item.",
+            "rdfs:domain": "edi3:SupplyChainTradeLineItem",
+            "rdfs:label": "Supply Chain_ Trade Line Item. Physical. Referenced_ Logistics_ Package",
+            "edi3:cefactID": "UN01011865"
+        },
+        {
+            "@id": "edi3:SupplyChainSupplyChainSupplyChainTradeLineItemReferencedLogisticsPackage",
+            "@type": "rdfs:Property",
+            "rdfs:range": "edi3:Package",
+            "rdfs:comment": "A logistics package referenced in this supply chain trade line item.",
+            "rdfs:domain": "edi3:SupplyChainTradeLineItem",
+            "rdfs:label": "Supply Chain_ Trade Line Item. Referenced. Logistics_ Package",
+            "edi3:cefactID": "UN01012984"
+        },
+        {
             "@id": "edi3:ReferencedConsignmentPreCarriageTransportMovement",
             "@type": "rdfs:Property",
             "rdfs:range": "edi3:TransportMovement",
@@ -14089,6 +14062,15 @@
             "rdfs:domain": "edi3:TransportEquipment",
             "rdfs:label": "Logistics_ Transport Equipment. Release. Identifier",
             "edi3:cefactID": "UN01003784"
+        },
+        {
+            "@id": "edi3:LogisticsPackageTypeCode",
+            "@type": "rdfs:Property",
+            "rdfs:range": "xsd:token",
+            "rdfs:comment": "A code specifying the type of logistics package.",
+            "rdfs:domain": "edi3:Package",
+            "rdfs:label": "Logistics_ Package. Type. Code",
+            "edi3:cefactID": "UN01003697"
         },
         {
             "@id": "edi3:GeographicalMultiPointDirectPositionList",
@@ -18132,6 +18114,15 @@
             "edi3:cefactID": "UN01008305"
         },
         {
+            "@id": "edi3:TransportPackageTypeCode",
+            "@type": "rdfs:Property",
+            "rdfs:range": "xsd:token",
+            "rdfs:comment": "The code specifying the package type for the transported dangerous goods.",
+            "rdfs:domain": "edi3:DangerousGoods",
+            "rdfs:label": "Transport_ Dangerous Goods. Package Type. Code",
+            "edi3:cefactID": "UN01009012"
+        },
+        {
             "@id": "edi3:RangeTypeCode",
             "@type": "rdfs:Property",
             "rdfs:range": "xsd:token",
@@ -18958,6 +18949,15 @@
             "rdfs:domain": "edi3:SupplyChainInventory",
             "rdfs:label": "Supply Chain_ Inventory. Planned Stock_ Calculation. Date Time",
             "edi3:cefactID": "UN01008436"
+        },
+        {
+            "@id": "edi3:TradePaymentMeansID",
+            "@type": "rdfs:Property",
+            "rdfs:range": "xsd:token",
+            "rdfs:comment": "An identifier of a payment means in these trade payment terms.",
+            "rdfs:domain": "edi3:PaymentTerms",
+            "rdfs:label": "Trade_ Payment Terms. Payment Means_ Identification. Identifier",
+            "edi3:cefactID": "UN01006048"
         },
         {
             "@id": "edi3:FinancingStatusReasonText",
