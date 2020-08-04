@@ -1,4 +1,4 @@
-## ProductGroup
+# ProductGroup
 
 Type: rdf:Class
 
@@ -12,7 +12,7 @@ ProductGroupIncludedTradeLineItem | [edi3:SupplyChainTradeLineItem](#SupplyChain
 ProductGroupName | xsd:string | The name, expressed as text, for this trade product group.
 
 
-## FinancialInstitutionAddress
+# FinancialInstitutionAddress
 
 Type: rdf:Class
 
@@ -40,7 +40,7 @@ FinancialInstitutionAddressCountrySubDivisionCode | xsd:token | The unique ident
 FinancialInstitutionAddressCountryCode | xsd:token | The unique identifier of a country for this financial institution address (Reference ISO 3166 and UN/ECE Rec 3).
 
 
-## TradeAddress
+# TradeAddress
 
 Type: rdf:Class
 
@@ -75,7 +75,7 @@ TradeAddressCountrySubDivisionName | xsd:string | A name, expressed as text, of 
 TradeAddressBuildingNumber | xsd:string | The building number, expressed as text, in this trade address.
 
 
-## BirthAddress
+# BirthAddress
 
 Type: rdf:Class
 
@@ -89,7 +89,7 @@ BirthAddressCityName | xsd:string | The name, expressed as text, of the city, to
 BirthAddressCountrySubDivisionName | xsd:string | The name, expressed as text, of the sub-division of a country for this birth address.
 
 
-## Query
+# Query
 
 Type: rdf:Class
 
@@ -103,7 +103,7 @@ QueryTypeCode | xsd:token | The code specifying the type of specification query.
 QueryContentText | xsd:string | The content, expressed as text, of this specification query.
 
 
-## Product
+# Product
 
 Type: rdf:Class
 
@@ -124,7 +124,7 @@ ProductID | xsd:token | A unique identifier for this referenced product.
 ProductDescription | xsd:string | A textual description for this referenced product.
 
 
-## TradeProduct
+# TradeProduct
 
 Type: rdf:Class
 
@@ -240,7 +240,7 @@ AreaDensityMeasure | xsd:decimal | The measure of the area density, such as pape
 EndItemName | xsd:string | An end item name, expressed as text, for this trade product.
 
 
-## Fault
+# Fault
 
 Type: rdf:Class
 
@@ -253,7 +253,7 @@ name | type | description
 IDCode | xsd:token | A code specifying an identified fault.
 
 
-## FinancingRequestDocument
+# FinancingRequestDocument
 
 Type: rdf:Class
 
@@ -280,7 +280,7 @@ AgreementInformation | xsd:string | Agreement information, expressed as text, in
 GroupedTransactionSpecifiedQuantity | xsd:decimal | The number of grouped transactions specified in this financing request document.
 
 
-## FinancingRequestResultDocument
+# FinancingRequestResultDocument
 
 Type: rdf:Class
 
@@ -294,7 +294,7 @@ FinancingRequestResultDocumentFinancedTotalAmount | xsd:decimal | A monetary val
 SpecifiedFinancingStatus | [edi3:FinancingStatus](#FinancingStatus) | The financing status specified in this financing request result document.
 
 
-## FinancingSummaryDocument
+# FinancingSummaryDocument
 
 Type: rdf:Class
 
@@ -312,7 +312,7 @@ FinancingSummaryDocumentSpecifiedCreditorFinancialAccount | [edi3:CreditorFinanc
 FinancedAppliedRate | xsd:decimal | The financed applied rate, expressed as a percentage, in this financing summary document.
 
 
-## ExchangedDocument
+# ExchangedDocument
 
 Type: rdf:Class
 
@@ -382,7 +382,7 @@ ExchangedDocumentDescription | xsd:string | A textual description of this exchan
 AttachedFile | [edi3:BinaryFile](#BinaryFile) | A binary file attached to this exchanged document.
 
 
-## DocumentLineDocument
+# DocumentLineDocument
 
 Type: rdf:Class
 
@@ -408,7 +408,7 @@ DocumentLineDocumentEffectivePeriod | [edi3:SpecifiedPeriod](#SpecifiedPeriod) |
 DocumentLineDocumentNote | [edi3:Note](#Note) | A note included in this document line.
 
 
-## Document
+# Document
 
 Type: rdf:Class
 
@@ -460,7 +460,7 @@ ReceiptDateTime | xsd:dateTime | The date, time, date time, or other date time v
 AuthenticatedOriginalIndicator | xsd:boolean | The indication of whether or not this referenced document is an authenticated original.
 
 
-## AcknowledgementDocument
+# AcknowledgementDocument
 
 Type: rdf:Class
 
@@ -485,7 +485,7 @@ AcknowledgementDocumentName | xsd:string | The name, expressed as text, for this
 AcknowledgementDocumentReferenceDocument | [edi3:Document](#Document) | A document referenced by this acknowledgement document.
 
 
-## GeographicalSurface
+# GeographicalSurface
 
 Type: rdf:Class
 
@@ -498,7 +498,7 @@ name | type | description
 GeographicalSurfacePolygon | [edi3:Polygon](#Polygon) | The polygon included in this geographical surface.
 
 
-## Feature
+# Feature
 
 Type: rdf:Class
 
@@ -515,7 +515,7 @@ FeatureDescription | xsd:string | A textual description of this trade product fe
 FeatureTypeCode | xsd:token | The code specifying the type of trade product feature.
 
 
-## GroupedWorkItem
+# GroupedWorkItem
 
 Type: rdf:Class
 
@@ -542,7 +542,7 @@ GroupedWorkItemTypeCode | xsd:token | A code specifying the type of this work it
 GroupedWorkItemPrimaryClassificationCode | xsd:token | A code specifying the primary classification for this work item group.
 
 
-## BasicWorkItem
+# BasicWorkItem
 
 Type: rdf:Class
 
@@ -576,7 +576,7 @@ DeprecatedIndexValue | xsd:string | The index value for this basic work item.
 BasicWorkItemItemBasicWorkItem | [edi3:BasicWorkItem](#BasicWorkItem) | A basic work item in this basic work item.
 
 
-## LineTradeTransaction
+# LineTradeTransaction
 
 Type: rdf:Class
 
@@ -590,7 +590,7 @@ TradeDelivery | [edi3:LineTradeDelivery](#LineTradeDelivery) | A trade delivery 
 LineTradeTransactionTradeProduct | [edi3:TradeProduct](#TradeProduct) | A trade product included in this line trade transaction.
 
 
-## SupplyChainTradeTransaction
+# SupplyChainTradeTransaction
 
 Type: rdf:Class
 
@@ -619,7 +619,7 @@ SenderRecipientSequenceID | xsd:token | The sender-recipient sequence identifier
 SupplyChainTradeTransactionAssociatedDocumentLine | [edi3:DocumentLineDocument](#DocumentLineDocument) | The document line associated with this supply chain trade transaction.
 
 
-## ChemicalTreatment
+# ChemicalTreatment
 
 Type: rdf:Class
 
@@ -639,7 +639,7 @@ UsedChemical | [edi3:Chemical](#Chemical) | A chemical used during this applied 
 ChemicalConcentrationMeasure | xsd:decimal | A measure of the chemical concentration of this applied chemical treatment.
 
 
-## RiskAnalysisResult
+# RiskAnalysisResult
 
 Type: rdf:Class
 
@@ -657,7 +657,7 @@ RiskAnalysisResultCategoryCode | xsd:token | The code specifying the category fo
 PartyRiskRelatedCode | xsd:token | A code specifying a party related risk for this logistics risk analysis result.
 
 
-## Classification
+# Classification
 
 Type: rdf:Class
 
@@ -675,7 +675,7 @@ ClassName | xsd:string | A class name, expressed as text, for this product class
 SubClassCode | xsd:token | The code specifying the sub class for this product classification.
 
 
-## Accreditation
+# Accreditation
 
 Type: rdf:Class
 
@@ -694,7 +694,7 @@ ObtainedDateTime | xsd:dateTime | The date, time, date time or other date time v
 AccreditationID | xsd:token | An identifier for this certified accreditation.
 
 
-## EmployerIdentity
+# EmployerIdentity
 
 Type: rdf:Class
 
@@ -706,7 +706,7 @@ name | type | description
 -|-|-
 
 
-## PersonIdentity
+# PersonIdentity
 
 Type: rdf:Class
 
@@ -723,7 +723,7 @@ DriversLicenceID | xsd:token | The drivers licence identifier for this person.
 PersonIdentitySpecifiedProprietaryIdentity | [edi3:ProprietaryIdentity](#ProprietaryIdentity) | A proprietary Identity specified for this person.
 
 
-## ProprietaryIdentity
+# ProprietaryIdentity
 
 Type: rdf:Class
 
@@ -736,7 +736,7 @@ name | type | description
 ProprietaryIdentityID | xsd:token | A proprietary identifier.
 
 
-## FinancialIdentity
+# FinancialIdentity
 
 Type: rdf:Class
 
@@ -753,7 +753,7 @@ FinancialIdentityCHIPSUniversalID | xsd:token | The (United States) Clearing Hou
 IBEI | xsd:token | The International Business Entity Identifier (IBEI) for this financial identity.
 
 
-## DocumentStatus
+# DocumentStatus
 
 Type: rdf:Class
 
@@ -771,7 +771,7 @@ DocumentStatusDescription | xsd:string | The textual description of this documen
 DocumentStatusReasonCode | xsd:token | A code specifying a reason for this document status.
 
 
-## CancellationStatus
+# CancellationStatus
 
 Type: rdf:Class
 
@@ -786,7 +786,7 @@ CancellationStatusReasonInformationText | xsd:string | Information, expressed as
 CancellationStatusReasonText | xsd:string | A reason, expressed as text, for this cancellation status.
 
 
-## ValidationStatus
+# ValidationStatus
 
 Type: rdf:Class
 
@@ -801,7 +801,7 @@ ValidationStatusConditionCode | xsd:token | The code specifying the condition of
 ValidationStatusReasonInformationText | xsd:string | Information, expressed as text, related to the reason for this validation status.
 
 
-## LogisticsStatus
+# LogisticsStatus
 
 Type: rdf:Class
 
@@ -824,7 +824,7 @@ LogisticsStatusReferenceDateTime | xsd:dateTime | The reference date, time, date
 ReportedArrivalEvent | [edi3:Event](#Event) | A transport arrival event reported for this logistics status.
 
 
-## RecordedStatus
+# RecordedStatus
 
 Type: rdf:Class
 
@@ -838,7 +838,7 @@ ChangedDateTime | xsd:dateTime | The date, time, date time, or other date time v
 RecordedStatusConditionCode | xsd:token | The code specifying the condition for this recorded status.
 
 
-## FinancingStatus
+# FinancingStatus
 
 Type: rdf:Class
 
@@ -853,7 +853,7 @@ FinancingStatusReasonText | xsd:string | A reason, expressed as text, for this f
 FinancingStatusConditionCode | xsd:token | The code specifying the condition of this financing status.
 
 
-## DeliveryAdjustment
+# DeliveryAdjustment
 
 Type: rdf:Class
 
@@ -869,7 +869,7 @@ DeliveryAdjustmentReasonText | xsd:string | A reason, expressed as text, for thi
 DeliveryAdjustmentActualDateTime | xsd:dateTime | The actual date, time, date time, or other date time value of this delivery adjustment.
 
 
-## FinancialAdjustment
+# FinancialAdjustment
 
 Type: rdf:Class
 
@@ -888,7 +888,7 @@ FinancialAdjustmentReasonCode | xsd:token | A code specifying a reason for this 
 ReferenceInvoiceDocument | [edi3:Document](#Document) | The invoice document referenced for this financial adjustment.
 
 
-## RegulatoryProcedure
+# RegulatoryProcedure
 
 Type: rdf:Class
 
@@ -962,7 +962,7 @@ DebtorFinancialAccount | [edi3:DebtorFinancialAccount](#DebtorFinancialAccount) 
 ControlStartDateConfirmationIndicator | xsd:boolean | The indication of whether or not the start date of a control has been confirmed for this cross-border regulatory procedure.
 
 
-## InstalmentPlan
+# InstalmentPlan
 
 Type: rdf:Class
 
@@ -974,7 +974,7 @@ name | type | description
 -|-|-
 
 
-## QuarantineInstructions
+# QuarantineInstructions
 
 Type: rdf:Class
 
@@ -987,7 +987,7 @@ name | type | description
 QuarantineInstructionsDescription | xsd:string | The textual description of these quarantine instructions.
 
 
-## HaulageInstructions
+# HaulageInstructions
 
 Type: rdf:Class
 
@@ -1000,7 +1000,7 @@ name | type | description
 HaulageInstructionsDescription | xsd:string | The textual description of these haulage instructions.
 
 
-## HandlingInstructions
+# HandlingInstructions
 
 Type: rdf:Class
 
@@ -1024,7 +1024,7 @@ StorageInstructedTemperature | [edi3:InstructedTemperature](#InstructedTemperatu
 HandlingInstructionsDescription | xsd:string | A textual description of these handling instructions.
 
 
-## ReturnableAssetInstructions
+# ReturnableAssetInstructions
 
 Type: rdf:Class
 
@@ -1040,7 +1040,7 @@ ReturnableAssetInstructionsMaterialID | xsd:token | An identifier of the materia
 TermsAndConditionsCode | xsd:token | The code specifying the description of the terms and conditions for these returnable asset instructions.
 
 
-## TemperatureSettingInstructions
+# TemperatureSettingInstructions
 
 Type: rdf:Class
 
@@ -1054,7 +1054,7 @@ TemperatureSettingInstructionsDescription | xsd:string | A textual description o
 TemperatureSettingInstructionsProcedureText | xsd:string | A procedure, expressed as text, for these temperature setting instructions.
 
 
-## TransportInstructions
+# TransportInstructions
 
 Type: rdf:Class
 
@@ -1067,7 +1067,7 @@ name | type | description
 TransportInstructionsDescription | xsd:string | A textual description of these transport instructions.
 
 
-## DeliveryInstructions
+# DeliveryInstructions
 
 Type: rdf:Class
 
@@ -1082,7 +1082,7 @@ HandlingText | xsd:string | Delivery handling instructions expressed as text.
 DeliveryInstructionsHandlingCode | xsd:token | A code specifying delivery handling instructions.
 
 
-## DisposalInstructions
+# DisposalInstructions
 
 Type: rdf:Class
 
@@ -1097,7 +1097,7 @@ DisposalInstructionsMaterialID | xsd:token | The identifier of the material to w
 DisposalInstructionsDescription | xsd:string | A textual description of these disposal instructions.
 
 
-## Booking
+# Booking
 
 Type: rdf:Class
 
@@ -1111,7 +1111,7 @@ BookingActualDateTime | xsd:dateTime | An actual date, time, date time, or other
 DebitDateTime | xsd:dateTime | The debit date, time, date time, or other date time value of this financial booking.
 
 
-## AccountingAccount
+# AccountingAccount
 
 Type: rdf:Class
 
@@ -1128,7 +1128,7 @@ AccountingAccountName | xsd:string | The name, expressed as text, of this trade 
 CostReferenceDimensionPatternText | xsd:string | The cost reference dimension pattern, expressed as text, for this trade accounting account.
 
 
-## GeographicalMultiPoint
+# GeographicalMultiPoint
 
 Type: rdf:Class
 
@@ -1142,7 +1142,7 @@ GeographicalMultiPointDirectPositionList | [edi3:DirectPositionList](#DirectPosi
 GeographicalMultiPointGeographicalObjectCharacteristic | [edi3:GeographicalObjectCharacteristic](#GeographicalObjectCharacteristic) | The geographical object characteristic associated with this geographical multi-point.
 
 
-## PaymentMeans
+# PaymentMeans
 
 Type: rdf:Class
 
@@ -1165,7 +1165,7 @@ PaymentMeansPaymentMethodCode | xsd:token | The code specifying the method by wh
 PaymentMeansFinancialCard | [edi3:FinancialCard](#FinancialCard) | A financial card applicable to this trade settlement payment means.
 
 
-## Project
+# Project
 
 Type: rdf:Class
 
@@ -1185,7 +1185,7 @@ TotalBudgetAmount | xsd:decimal | The monetary value of the total budget which i
 ProjectDescription | xsd:string | The textual description of this procuring project.
 
 
-## Qualification
+# Qualification
 
 Type: rdf:Class
 
@@ -1198,7 +1198,7 @@ name | type | description
 QualificationName | xsd:string | A name, expressed as text, of this academic qualification.
 
 
-## Chemical
+# Chemical
 
 Type: rdf:Class
 
@@ -1216,7 +1216,7 @@ ChemicalFamilyName | xsd:string | The family name expressed as text for this dis
 ChemicalScientificName | xsd:string | The scientific name, expressed as text, for this distinct chemical.
 
 
-## CreditorFinancialAccount
+# CreditorFinancialAccount
 
 Type: rdf:Class
 
@@ -1236,7 +1236,7 @@ CreditorFinancialAccountBBANID | xsd:token | The unique Basic Bank Account Numbe
 CreditorFinancialAccountProprietaryTypeText | xsd:string | The proprietary type, expressed as text, of this creditor financial account, such as the nature or use of the creditor account.
 
 
-## DebtorFinancialAccount
+# DebtorFinancialAccount
 
 Type: rdf:Class
 
@@ -1256,7 +1256,7 @@ DebtorFinancialAccountCurrencyCode | xsd:token | The code specifying the currenc
 DebtorFinancialAccountName | xsd:string | The account name, expressed as text, of this debtor financial account.
 
 
-## FinancingFinancialAccount
+# FinancingFinancialAccount
 
 Type: rdf:Class
 
@@ -1275,7 +1275,7 @@ FinancingFinancialAccountUPICID | xsd:token | The unique Universal Payment Ident
 FinancingFinancialAccountCurrencyCode | xsd:token | The code specifying the currency of this financing financial account.
 
 
-## Note
+# Note
 
 Type: rdf:Class
 
@@ -1291,7 +1291,7 @@ NoteContentCode | xsd:token | A code specifying the content of this note.
 SubjectText | xsd:string | The subject, expressed as text, of this note.
 
 
-## SubordinateLineTradeDelivery
+# SubordinateLineTradeDelivery
 
 Type: rdf:Class
 
@@ -1306,7 +1306,7 @@ SubordinateLineTradeDeliveryPackageQuantity | xsd:decimal | The number of packag
 SubordinateLineTradeDeliveryIncludedPackaging | [edi3:Packaging](#Packaging) | Packaging included in this subordinate line trade delivery.
 
 
-## LineTradeDelivery
+# LineTradeDelivery
 
 Type: rdf:Class
 
@@ -1420,7 +1420,7 @@ LineTradeDeliveryActualLoadingEvent | [edi3:SupplyChainEvent](#SupplyChainEvent)
 LineTradeDeliveryDespatchedQuantity | xsd:decimal | The quantity, at line level, despatched for this trade delivery.
 
 
-## HeaderTradeDelivery
+# HeaderTradeDelivery
 
 Type: rdf:Class
 
@@ -1494,7 +1494,7 @@ HeaderTradeDeliveryDeliveryNoteDocument | [edi3:Document](#Document) | The deliv
 HeaderTradeDeliveryFinalDeliveryIndicator | xsd:boolean | The indication, at header level, of whether or not this trade delivery is the final delivery.
 
 
-## Country
+# Country
 
 Type: rdf:Class
 
@@ -1508,7 +1508,7 @@ SubDivision | [edi3:CountrySubDivision](#CountrySubDivision) | A trade country s
 CountryCode | xsd:token | A unique identifier for this trade country.
 
 
-## Seal
+# Seal
 
 Type: rdf:Class
 
@@ -1525,7 +1525,7 @@ MaximumID | xsd:token | The maximum unique identifier used for these logistics s
 IssuingParty | [edi3:TradeParty](#TradeParty) | The party issuing this logistics seal.
 
 
-## Package
+# Package
 
 Type: rdf:Class
 
@@ -1561,7 +1561,7 @@ PackageGrossVolume | xsd:decimal | The measure of the gross volume of this logis
 PackageColourCode | xsd:token | The code specifying the colour of this logistics package.
 
 
-## ReferencedPackage
+# ReferencedPackage
 
 Type: rdf:Class
 
@@ -1592,7 +1592,7 @@ ReferencedPackageTypeText | xsd:string | A type, expressed as text, of this refe
 ReferencedPackageNetWeight | xsd:decimal | The measure of the net weight (mass) of the contents of this referenced logistics package.
 
 
-## ContactPerson
+# ContactPerson
 
 Type: rdf:Class
 
@@ -1617,7 +1617,7 @@ SpecifiedTaxRegistration | [edi3:TaxRegistration](#TaxRegistration) | A tax regi
 ContactPersonBirthDateTime | xsd:dateTime | The date, time, date time or other date time value which specifies the birth date for this contact person.
 
 
-## TransportPerson
+# TransportPerson
 
 Type: rdf:Class
 
@@ -1652,7 +1652,7 @@ BirthCountryCode | xsd:token | The identifier of the birth country of this trans
 AttainedQualification | [edi3:Qualification](#Qualification) | An academic qualification attained by this transport person.
 
 
-## AuthoritativeSignatoryPerson
+# AuthoritativeSignatoryPerson
 
 Type: rdf:Class
 
@@ -1665,7 +1665,7 @@ name | type | description
 AttainedAcademicQualification | [edi3:Qualification](#Qualification) | An academic qualification attained by this authoritative signatory person.
 
 
-## SupplyChainInventory
+# SupplyChainInventory
 
 Type: rdf:Class
 
@@ -1691,7 +1691,7 @@ SupplyChainInventoryRemark | [edi3:Note](#Note) | A note containing a remark for
 MinimumStockLevelMeasure | xsd:decimal | The measure of the minimum stock level for this supply chain inventory.
 
 
-## StoresItemInventory
+# StoresItemInventory
 
 Type: rdf:Class
 
@@ -1707,7 +1707,7 @@ StoresItemInventoryTypeCode | xsd:token | A code specifying the type of stores i
 StoresItemInventoryDescription | xsd:string | A textual description of this stores inventory item.
 
 
-## Cargo
+# Cargo
 
 Type: rdf:Class
 
@@ -1722,7 +1722,7 @@ IdentificationText | xsd:string | Identification, expressed as text, of this tra
 StatisticalClassificationCode | xsd:token | The code specifying a statistical classification for this transport cargo.
 
 
-## Organization
+# Organization
 
 Type: rdf:Class
 
@@ -1742,7 +1742,7 @@ OrganizationName | xsd:string | A name, expressed as text, of this legally set u
 BusinessTypeCode | xsd:token | A code specifying the type of business of this legally set up organization.
 
 
-## PersonalEffects
+# PersonalEffects
 
 Type: rdf:Class
 
@@ -1757,7 +1757,7 @@ PersonalEffectsDescription | xsd:string | A textual description of these specifi
 PersonalEffectsTypeCode | xsd:token | A code specifying a type of specified personal effects.
 
 
-## TransportEquipment
+# TransportEquipment
 
 Type: rdf:Class
 
@@ -1850,7 +1850,7 @@ PowerSupplyConnectorQuantity | xsd:decimal | The number of power supply connecto
 ShipperReferenceInformation | xsd:string | Shipper reference information, expressed as text, for this piece of logistics transport equipment.
 
 
-## ReferencedTransportEquipment
+# ReferencedTransportEquipment
 
 Type: rdf:Class
 
@@ -1873,7 +1873,7 @@ ReferencedTransportEquipmentAffixedSeal | [edi3:Seal](#Seal) | A seal affixed to
 ReferencedTransportEquipmentSizeTypeCode | xsd:token | The code specifying the characteristics, such as size and type, of this referenced piece of logistics transport equipment.
 
 
-## AttachedTransportEquipment
+# AttachedTransportEquipment
 
 Type: rdf:Class
 
@@ -1889,7 +1889,7 @@ AttachedTransportEquipmentCharacteristicText | xsd:string | The textual descript
 AttachedTransportEquipmentUnitQuantity | xsd:decimal | The number of units of attached transport equipment.
 
 
-## AssociatedTransportEquipment
+# AssociatedTransportEquipment
 
 Type: rdf:Class
 
@@ -1902,7 +1902,7 @@ name | type | description
 AssociatedTransportEquipmentCharacteristicText | xsd:string | The textual description of the characteristics, i.e. size and type, of this piece of associated transport equipment.
 
 
-## Consignment
+# Consignment
 
 Type: rdf:Class
 
@@ -2069,7 +2069,7 @@ ConsignmentApplicableCurrencyExchange | [edi3:CurrencyExchange](#CurrencyExchang
 ConnectingCarrier | [edi3:TradeParty](#TradeParty) | A connecting carrier party for this supply chain consignment.
 
 
-## ReferencedConsignment
+# ReferencedConsignment
 
 Type: rdf:Class
 
@@ -2111,7 +2111,7 @@ ReferencedConsignmentID | xsd:token | A unique identifier for this referenced su
 ReferencedConsignmentConsignor | [edi3:TradeParty](#TradeParty) | The consignor party for this referenced supply chain consignment.
 
 
-## TradeSettlementPaymentMonetarySummation
+# TradeSettlementPaymentMonetarySummation
 
 Type: rdf:Class
 
@@ -2131,7 +2131,7 @@ TradeSettlementPaymentMonetarySummationGrandTotalAmount | xsd:decimal | A moneta
 TradeSettlementPaymentMonetarySummationBalanceOutAmount | xsd:decimal | A monetary value that is an amount balanced out for this trade settlement payment monetary summation.
 
 
-## TradeSettlementHeaderMonetarySummation
+# TradeSettlementHeaderMonetarySummation
 
 Type: rdf:Class
 
@@ -2170,7 +2170,7 @@ TradeSettlementHeaderMonetarySummationNetIncludingTaxesLineTotalAmount | xsd:dec
 TotalDepositFeeInformationAmount | xsd:decimal | A monetary value of the total deposit fee stated for information purposes in this trade settlement header monetary summation.
 
 
-## TradeSettlementLineMonetarySummation
+# TradeSettlementLineMonetarySummation
 
 Type: rdf:Class
 
@@ -2197,7 +2197,7 @@ ProductWeightLossInformationAmount | xsd:decimal | A monetary value of the loss 
 TradeSettlementLineMonetarySummationChargeTotalAmount | xsd:decimal | A monetary value of the total of all charge amounts being reported in this trade settlement line monetary summation.
 
 
-## PaymentDiscountTerms
+# PaymentDiscountTerms
 
 Type: rdf:Class
 
@@ -2213,7 +2213,7 @@ PaymentDiscountTermsCalculationPercent | xsd:decimal | The percent used to calcu
 PaymentDiscountTermsBasisDateTime | xsd:dateTime | The date, time, date time, or other date time value used as the basis to calculate the discount in the trade payment discount terms.
 
 
-## FinancialCard
+# FinancialCard
 
 Type: rdf:Class
 
@@ -2236,7 +2236,7 @@ ValidFromDate | xsd:dateTime | The date from which this trade settlement financi
 InterestRate | xsd:decimal | The interest rate expressed as a percentage for this trade settlement financial card.
 
 
-## LocationParty
+# LocationParty
 
 Type: rdf:Class
 
@@ -2258,7 +2258,7 @@ LocationPartyRoleCode | xsd:token | A code specifying a role of this location pa
 LocationPartyURI | [edi3:UniversalCommunication](#UniversalCommunication) | Uniform Resource Identifier (URI) communication information for this location party, such as a web or email address.
 
 
-## TradeParty
+# TradeParty
 
 Type: rdf:Class
 
@@ -2300,7 +2300,7 @@ QualityAssuranceIndicator | xsd:boolean | The indication of whether or not this 
 TradePartyLogisticsRiskAnalysisResult | [edi3:RiskAnalysisResult](#RiskAnalysisResult) | A result of a logistics risk analysis calculation specified for this trade party.
 
 
-## RequestingParty
+# RequestingParty
 
 Type: rdf:Class
 
@@ -2323,7 +2323,7 @@ RequestingPartySpecifiedCreditorFinancialAccount | [edi3:CreditorFinancialAccoun
 RequestingPartyName | xsd:string | The name, expressed as text, for this requesting party.
 
 
-## MaterialComponent
+# MaterialComponent
 
 Type: rdf:Class
 
@@ -2341,7 +2341,7 @@ MaterialComponentDescription | xsd:string | A textual description for this trans
 RemainingDeliveryEvent | [edi3:Event](#Event) | A delivery event for this remaining transport waste material component.
 
 
-## CreditorFinancialInstitution
+# CreditorFinancialInstitution
 
 Type: rdf:Class
 
@@ -2382,7 +2382,7 @@ CreditorFinancialInstitutionAddress | [edi3:FinancialInstitutionAddress](#Financ
 CreditorFinancialInstitutionIrishNSCID | xsd:token | The unique Irish National Sorting Code (NSC) identifier as assigned by the Irish Payments Services Organisation (IPSO) for this creditor financial institution.
 
 
-## DebtorFinancialInstitution
+# DebtorFinancialInstitution
 
 Type: rdf:Class
 
@@ -2420,7 +2420,7 @@ DebtorFinancialInstitutionHongKongBankID | xsd:token | The unique Hong Kong Bank
 DebtorFinancialInstitutionItalianDomesticID | xsd:token | The unique Italian Domestic Identification Code identifier as assigned by the Associazione Bancaria Italiana (ABI) for this debtor financial institution.
 
 
-## BranchFinancialInstitution
+# BranchFinancialInstitution
 
 Type: rdf:Class
 
@@ -2434,7 +2434,7 @@ SortCode | xsd:token | The unique identifier for this branch of a financial inst
 BranchFinancialInstitutionName | xsd:string | The name, expressed as text, for this branch of a financial institution.
 
 
-## ComplexDescription
+# ComplexDescription
 
 Type: rdf:Class
 
@@ -2451,7 +2451,7 @@ Abstract | xsd:string | A textual abstract of the content of the work item compl
 ComplexDescriptionContractualLanguageCode | xsd:token | The code specifying the contractual language for this work item complex description.
 
 
-## GeopoliticalRegion
+# GeopoliticalRegion
 
 Type: rdf:Class
 
@@ -2466,7 +2466,7 @@ IncludedCountry | [edi3:Country](#Country) | A country included in this trade ge
 GeopoliticalRegionTypeCode | xsd:token | The code specifying the type of trade geopolitical region.
 
 
-## GeographicalMultiSurface
+# GeographicalMultiSurface
 
 Type: rdf:Class
 
@@ -2479,7 +2479,7 @@ name | type | description
 GeographicalMultiSurfacePolygon | [edi3:Polygon](#Polygon) | A polygon included in this geographical multi-surface.
 
 
-## EmailCommunication
+# EmailCommunication
 
 Type: rdf:Class
 
@@ -2491,7 +2491,7 @@ name | type | description
 -|-|-
 
 
-## TelecommunicationCommunication
+# TelecommunicationCommunication
 
 Type: rdf:Class
 
@@ -2511,7 +2511,7 @@ InternalAccessText | xsd:string | Access information, expressed as text, for the
 AreaNumberCode | xsd:token | The code specifying the area number for this telecommunication.
 
 
-## UniversalCommunication
+# UniversalCommunication
 
 Type: rdf:Class
 
@@ -2525,7 +2525,7 @@ UniversalCommunicationCompleteNumber | xsd:string | The text string of character
 ChannelCode | xsd:token | The code specifying the channel or manner in which a universal communication can be made, such as telephone or email.
 
 
-## Context
+# Context
 
 Type: rdf:Class
 
@@ -2547,7 +2547,7 @@ TransactionProcessingDateTime | xsd:dateTime | The date, time, date time, or oth
 Application | [edi3:DocumentContextParameter](#DocumentContextParameter) | An application context parameter specified for this exchanged document context.
 
 
-## CustomsValuation
+# CustomsValuation
 
 Type: rdf:Class
 
@@ -2574,7 +2574,7 @@ BuyerSellerRelationshipPriceInfluenceIndicator | xsd:boolean | The indication of
 DeductedAdjustmentPercent | xsd:decimal | The adjustment deducted, expressed as a percentage, for this cross-border customs valuation.
 
 
-## DeliveryTerms
+# DeliveryTerms
 
 Type: rdf:Class
 
@@ -2591,7 +2591,7 @@ DeliveryTermsPartialDeliveryAllowedIndicator | xsd:boolean | The indication of w
 DeliveryDiscontinuationCode | xsd:token | The code specifying the delivery discontinuation for this trade delivery terms.
 
 
-## Keyword
+# Keyword
 
 Type: rdf:Class
 
@@ -2603,7 +2603,7 @@ name | type | description
 -|-|-
 
 
-## WorkItemDimension
+# WorkItemDimension
 
 Type: rdf:Class
 
@@ -2620,7 +2620,7 @@ WorkItemDimensionContractualLanguageCode | xsd:token | The code specifying the c
 WorkItemDimensionDescription | xsd:string | The textual description of this work item dimension.
 
 
-## SpatialDimension
+# SpatialDimension
 
 Type: rdf:Class
 
@@ -2639,7 +2639,7 @@ Diameter | xsd:decimal | The measure of the diameter component for this spatial 
 Height | xsd:decimal | The measure of the height component of this spatial dimension.
 
 
-## CurrencyExchange
+# CurrencyExchange
 
 Type: rdf:Class
 
@@ -2658,7 +2658,7 @@ CurrencyExchangeAssociatedDocument | [edi3:Document](#Document) | An associated 
 TargetUnitBasis | xsd:decimal | The numeric unit basis of the target currency used in this trade related currency exchange rate calculation.
 
 
-## BinaryFile
+# BinaryFile
 
 Type: rdf:Class
 
@@ -2683,7 +2683,7 @@ AccessAvailabilityPeriod | [edi3:SpecifiedPeriod](#SpecifiedPeriod) | The specif
 MIMECode | xsd:token | The code specifying the Multipurpose Internet Mail Extensions (MIME) type for this specified binary file.
 
 
-## Section
+# Section
 
 Type: rdf:Class
 
@@ -2697,7 +2697,7 @@ SectionID | xsd:token | The identifier of this label section.
 IncludedSegment | [edi3:Segment](#Segment) | A segment included in this label section.
 
 
-## GeographicalPoint
+# GeographicalPoint
 
 Type: rdf:Class
 
@@ -2711,7 +2711,7 @@ GeographicalPointGeographicalObjectCharacteristic | [edi3:GeographicalObjectChar
 GeographicalPointAssociatedLogisticsLocation | [edi3:LogisticsLocation](#LogisticsLocation) | A logistics location associated with this specified geographical point.
 
 
-## Marketplace
+# Marketplace
 
 Type: rdf:Class
 
@@ -2728,7 +2728,7 @@ VirtualIndicator | xsd:boolean | The indication of whether or not this specified
 MarketplaceID | xsd:token | The identifier for this specified marketplace.
 
 
-## Authentication
+# Authentication
 
 Type: rdf:Class
 
@@ -2754,7 +2754,7 @@ SignatoryText | xsd:string | The signatory, expressed as text, for this document
 AuthenticationIssueLocation | [edi3:LogisticsLocation](#LogisticsLocation) | The issue location for this document authentication.
 
 
-## SupplyChainEvent
+# SupplyChainEvent
 
 Type: rdf:Class
 
@@ -2778,7 +2778,7 @@ SupplyChainEventID | xsd:token | The unique identifier for this supply chain eve
 DescriptionBinaryObject | xsd:base64Binary | Binary object data, such as a photograph, describing this supply chain event.
 
 
-## CommunicationEvent
+# CommunicationEvent
 
 Type: rdf:Class
 
@@ -2799,7 +2799,7 @@ CommunicationEventTypeCode | xsd:token | The code specifying the type of communi
 CommunicationEventValueMeasure | xsd:decimal | The measure of a value for this communication event.
 
 
-## ReferencedEvent
+# ReferencedEvent
 
 Type: rdf:Class
 
@@ -2814,7 +2814,7 @@ ReferencedEventScheduledDepartureDateTime | xsd:dateTime | The date, time, date 
 ReasonTypeCode | xsd:token | The code specifying the reason type for this referenced transport event.
 
 
-## Event
+# Event
 
 Type: rdf:Class
 
@@ -2866,7 +2866,7 @@ DepartureDateTime | xsd:dateTime | A departure date, time, date time, or other d
 EventOccurrencePeriod | [edi3:SpecifiedPeriod](#SpecifiedPeriod) | A specified period of time during which this transport event occurs.
 
 
-## DocumentContextParameter
+# DocumentContextParameter
 
 Type: rdf:Class
 
@@ -2880,7 +2880,7 @@ DocumentContextParameterValueText | xsd:string | The value, expressed as text, o
 Version | [edi3:Version](#Version) | The document version specified for this document context parameter.
 
 
-## ControlSettingParameter
+# ControlSettingParameter
 
 Type: rdf:Class
 
@@ -2901,7 +2901,7 @@ ControlSettingParameterValueText | xsd:string | The value, expressed as text, of
 ControlSettingParameterDescription | xsd:string | A textual description of this control setting parameter.
 
 
-## OperationalParameter
+# OperationalParameter
 
 Type: rdf:Class
 
@@ -2922,7 +2922,7 @@ OperationalParameterChangeableIndicator | xsd:boolean | The indication whether o
 OperationalParameterID | xsd:token | The identifier of this operational parameter.
 
 
-## PaymentPenaltyTerms
+# PaymentPenaltyTerms
 
 Type: rdf:Class
 
@@ -2938,7 +2938,7 @@ PaymentPenaltyTermsBasisPeriodMeasure | xsd:decimal | The measure of the period 
 PaymentPenaltyTermsCalculationPercent | xsd:decimal | The percent applied to calculate these trade payment penalty terms.
 
 
-## GeographicalMultiCurve
+# GeographicalMultiCurve
 
 Type: rdf:Class
 
@@ -2952,7 +2952,7 @@ GeographicalMultiCurveGeographicalObjectCharacteristic | [edi3:GeographicalObjec
 GeographicalMultiCurveGeographicalLine | [edi3:GeographicalLine](#GeographicalLine) | A geographical line member of this geographical multi-curve.
 
 
-## LinearRing
+# LinearRing
 
 Type: rdf:Class
 
@@ -2967,7 +2967,7 @@ LinearRingCoordinateText | xsd:string | A coordinate, expressed as text, for thi
 CoordinateDirectPosition | [edi3:DirectPosition](#DirectPosition) | The specified direct position of a coordinate for this linear ring.
 
 
-## LineTradeAgreement
+# LineTradeAgreement
 
 Type: rdf:Class
 
@@ -3054,7 +3054,7 @@ LineTradeAgreementAdditionalDocument | [edi3:Document](#Document) | An additiona
 ProductMadeToOrderIndicator | xsd:boolean | The indication of whether or not, according to this line trade agreement, the product is manufactured, built or customized only after receipt of order.
 
 
-## HeaderTradeAgreement
+# HeaderTradeAgreement
 
 Type: rdf:Class
 
@@ -3133,7 +3133,7 @@ HeaderTradeAgreementSalesReportDocument | [edi3:Document](#Document) | The sales
 HeaderTradeAgreementSeller | [edi3:TradeParty](#TradeParty) | The seller party for this header trade agreement.
 
 
-## SubordinateLineTradeAgreement
+# SubordinateLineTradeAgreement
 
 Type: rdf:Class
 
@@ -3149,7 +3149,7 @@ SubordinateLineTradeAgreementAdditionalDocument | [edi3:Document](#Document) | A
 SubordinateLineTradeAgreementBuyerOrderDocument | [edi3:Document](#Document) | A buyer generated order document referenced in this subordinate line trade agreement.
 
 
-## DirectPosition
+# DirectPosition
 
 Type: rdf:Class
 
@@ -3165,7 +3165,7 @@ DirectPositionCoordinateReferenceDimensionText | xsd:string | A coordinate refer
 DirectPositionName | xsd:string | The name, expressed as text, of the reference for this specified direct position.
 
 
-## TradeAllowanceCharge
+# TradeAllowanceCharge
 
 Type: rdf:Class
 
@@ -3190,7 +3190,7 @@ TradeAllowanceChargeCalculationPercent | xsd:decimal | The percentage applied to
 PrepaidIndicator | xsd:boolean | The indication of whether or not this trade allowance charge is prepaid.
 
 
-## AppliedAllowanceCharge
+# AppliedAllowanceCharge
 
 Type: rdf:Class
 
@@ -3208,7 +3208,7 @@ AppliedAllowanceChargeBasisAmount | xsd:decimal | The monetary value that is the
 AppliedAllowanceChargeChargeIndicator | xsd:boolean | The indication of whether or not the applied allowance charge is a charge.
 
 
-## Label
+# Label
 
 Type: rdf:Class
 
@@ -3225,7 +3225,7 @@ LabelID | xsd:token | The unique identifier of this logistics label.
 IncludedSection | [edi3:Section](#Section) | A section included in this logistics label.
 
 
-## RegisteredTax
+# RegisteredTax
 
 Type: rdf:Class
 
@@ -3243,7 +3243,7 @@ RegisteredTaxJurisdictionText | xsd:string | A jurisdiction, expressed as text, 
 RegisteredTaxExemptionReasonText | xsd:string | A reason, expressed as text, for exemption from this registered tax.
 
 
-## TradeTax
+# TradeTax
 
 Type: rdf:Class
 
@@ -3302,7 +3302,7 @@ LineTotalBasisAmount | xsd:decimal | A monetary value used as the line total bas
 RateCode | xsd:token | The code specifying the rate for this trade related tax, levy or duty.
 
 
-## AppliedTax
+# AppliedTax
 
 Type: rdf:Class
 
@@ -3318,7 +3318,7 @@ AppliedTaxCalculatedRate | xsd:decimal | The rate used to calculate the applied 
 AppliedTaxBasisAmount | xsd:decimal | The monetary value used as the basis in calculating the applied tax.
 
 
-## Process
+# Process
 
 Type: rdf:Class
 
@@ -3334,7 +3334,7 @@ ApplicableCharacteristic | [edi3:ProcessCharacteristic](#ProcessCharacteristic) 
 ProcessOperator | [edi3:TradeParty](#TradeParty) | A trade party who is an operator of this product handling process.
 
 
-## BreakdownStatement
+# BreakdownStatement
 
 Type: rdf:Class
 
@@ -3364,7 +3364,7 @@ BreakdownStatementDescription | xsd:string | A textual description of this valua
 BreakdownStatementComment | xsd:string | A comment, expressed as text, for this valuation breakdown statement.
 
 
-## ForecastTerms
+# ForecastTerms
 
 Type: rdf:Class
 
@@ -3379,7 +3379,7 @@ ForecastTermsCommitmentLevelCode | xsd:token | A code specifying a commitment le
 DateTypeCode | xsd:token | A code specifying a type of date in these supply chain forecast terms.
 
 
-## GeographicalLine
+# GeographicalLine
 
 Type: rdf:Class
 
@@ -3393,7 +3393,7 @@ GeographicalLineDirectPositionList | [edi3:DirectPositionList](#DirectPositionLi
 GeographicalLineGeographicalObjectCharacteristic | [edi3:GeographicalObjectCharacteristic](#GeographicalObjectCharacteristic) | The geographical object characteristic associated with this geographical line.
 
 
-## Version
+# Version
 
 Type: rdf:Class
 
@@ -3407,7 +3407,7 @@ VersionName | xsd:string | The name, expressed as text, of this document version
 VersionID | xsd:token | The unique identifier for this document version.
 
 
-## GeographicalObjectCharacteristic
+# GeographicalObjectCharacteristic
 
 Type: rdf:Class
 
@@ -3426,7 +3426,7 @@ GeographicalObjectCharacteristicName | xsd:string | The name, expressed as text,
 DescriptionReferenceText | xsd:string | The description reference, expressed as text, for this geographical object characteristic.
 
 
-## TaxRegistration
+# TaxRegistration
 
 Type: rdf:Class
 
@@ -3440,7 +3440,7 @@ TaxRegistrationID | xsd:token | The unique identifier for this tax registration.
 RegisteredTax | [edi3:RegisteredTax](#RegisteredTax) | The registered tax associated with this tax registration.
 
 
-## LegalRegistration
+# LegalRegistration
 
 Type: rdf:Class
 
@@ -3455,7 +3455,7 @@ LegalRegistrationLastRegisteredYear | xsd:dateTime | The last year in which this
 LegalRegistrationCountryCode | xsd:token | An identifier of the country in which this legal registration is valid.
 
 
-## GovernmentRegistration
+# GovernmentRegistration
 
 Type: rdf:Class
 
@@ -3476,7 +3476,7 @@ LicenceID | xsd:token | The identifier of a licence for this government registra
 RecordedDate | xsd:date | The date that this government registration was recorded.
 
 
-## SpecifiedGeographicalCoordinate
+# SpecifiedGeographicalCoordinate
 
 Type: rdf:Class
 
@@ -3493,7 +3493,7 @@ SpecifiedGeographicalCoordinateSystemID | xsd:token | The unique identifier of t
 SpecifiedGeographicalCoordinateAltitude | xsd:decimal | The measure of the altitude that reflects the vertical elevation of an object above a surface for this specified geographical coordinate (Reference ISO 6709).
 
 
-## GeographicalCoordinate
+# GeographicalCoordinate
 
 Type: rdf:Class
 
@@ -3519,7 +3519,7 @@ GeographicalCoordinateLatitude | xsd:decimal | The measure of the latitude as an
 GeographicalCoordinateAcquisitionDateTime | xsd:dateTime | The date, time, date time or other date time value of the acquisition of this geographical coordinate.
 
 
-## Production
+# Production
 
 Type: rdf:Class
 
@@ -3532,7 +3532,7 @@ name | type | description
 ManufacturingProcessDescription | xsd:string | A textual description of the manufacturing process for this goods production.
 
 
-## TransportMovement
+# TransportMovement
 
 Type: rdf:Class
 
@@ -3626,7 +3626,7 @@ DepartureEvent | [edi3:Event](#Event) | A departure event during this logistics 
 ApplicableRegulatoryProcedure | [edi3:RegulatoryProcedure](#RegulatoryProcedure) | A cross-border regulatory procedure applicable to this logistics transport movement.
 
 
-## Convoy
+# Convoy
 
 Type: rdf:Class
 
@@ -3642,7 +3642,7 @@ MaximumWidth | xsd:decimal | The maximum width measure for this logistics convoy
 NumberOfTransportMeans | xsd:decimal | The number of means of transport in this logistics convoy.
 
 
-## Polygon
+# Polygon
 
 Type: rdf:Class
 
@@ -3657,7 +3657,7 @@ ExteriorLinearRing | [edi3:LinearRing](#LinearRing) | The exterior linear specif
 PolygonAssociatedLogisticsLocation | [edi3:LogisticsLocation](#LogisticsLocation) | A logistics location associated with this specified polygon.
 
 
-## HeaderBalanceOut
+# HeaderBalanceOut
 
 Type: rdf:Class
 
@@ -3675,7 +3675,7 @@ HeaderBalanceOutOccurrenceDateTime | xsd:dateTime | The date, time, date time, o
 HeaderBalanceOutDescription | xsd:string | A textual description of this header balance out.
 
 
-## PaymentBalanceOut
+# PaymentBalanceOut
 
 Type: rdf:Class
 
@@ -3692,7 +3692,7 @@ PaymentBalanceOutReasonCode | xsd:token | The code specifying the reason for thi
 PaymentBalanceOutReasonDescription | xsd:string | A textual description of the reason for this payment balance out.
 
 
-## Route
+# Route
 
 Type: rdf:Class
 
@@ -3715,7 +3715,7 @@ TransportMeansText | xsd:string | A means of transport, expressed as text, for t
 FrequencyEffectivePeriod | [edi3:SpecifiedPeriod](#SpecifiedPeriod) | A specified period of time for which a frequency is effective for this transport route.
 
 
-## CountrySubDivision
+# CountrySubDivision
 
 Type: rdf:Class
 
@@ -3733,7 +3733,7 @@ FunctionTypeCode | xsd:token | The code specifying the function type of this tra
 HierarchicalLevelCode | xsd:token | The code specifying the hierarchical level of this trade country sub-division.
 
 
-## GoodsCharacteristic
+# GoodsCharacteristic
 
 Type: rdf:Class
 
@@ -3749,7 +3749,7 @@ AbsolutePresenceVolume | xsd:decimal | The volume measure of the absolute presen
 GoodsCharacteristicDescription | xsd:string | A textual description of this material goods characteristic.
 
 
-## Circle
+# Circle
 
 Type: rdf:Class
 
@@ -3764,7 +3764,7 @@ RadiusMeasure | xsd:decimal | The measure of the radius for this specified circl
 CircleAssociatedLogisticsLocation | [edi3:LogisticsLocation](#LogisticsLocation) | A logistics location associated with this specified circle.
 
 
-## TestSpecificationReport
+# TestSpecificationReport
 
 Type: rdf:Class
 
@@ -3778,7 +3778,7 @@ ResultText | xsd:string | A result, expressed as text, reported in this certific
 StandardName | xsd:string | The name, expressed as text, of the standard applicable for this certification test specification report.
 
 
-## Characteristic
+# Characteristic
 
 Type: rdf:Class
 
@@ -3802,7 +3802,7 @@ ValueIndicator | xsd:boolean | The value for this product characteristic express
 CharacteristicApplicableReferencedStandard | [edi3:Standard](#Standard) | The referenced standard that is applicable to this product characteristic.
 
 
-## AvailablePeriod
+# AvailablePeriod
 
 Type: rdf:Class
 
@@ -3816,7 +3816,7 @@ AvailablePeriodStartDateTime | xsd:dateTime | The date, time, date time or other
 AvailablePeriodDescription | xsd:string | The textual description of this available period.
 
 
-## SpecifiedPeriod
+# SpecifiedPeriod
 
 Type: rdf:Class
 
@@ -3841,7 +3841,7 @@ StartDateFlexibilityCode | xsd:token | The code specifying the flexibility of th
 SpecifiedPeriodSeasonCode | xsd:token | The code specifying the season for this specified period.
 
 
-## SupplyChainTradeLineItem
+# SupplyChainTradeLineItem
 
 Type: rdf:Class
 
@@ -3883,7 +3883,7 @@ RequiredProduct | [edi3:Product](#Product) | A required product applicable for t
 SpecifiedRequisitionerTradeProduct | [edi3:TradeProduct](#TradeProduct) | The product specified by the requisitioner for this supply chain trade line item.
 
 
-## SubordinateTradeLineItem
+# SubordinateTradeLineItem
 
 Type: rdf:Class
 
@@ -3900,7 +3900,7 @@ ApplicableProduct | [edi3:TradeProduct](#TradeProduct) | A product applicable fo
 SubordinateTradeLineItemID | xsd:token | A unique identifier for this subordinate trade line item.
 
 
-## Range
+# Range
 
 Type: rdf:Class
 
@@ -3917,7 +3917,7 @@ TotalItemQuantity | xsd:decimal | The total number of items in this specified ra
 MinimumValueMeasure | xsd:decimal | The measure of the minimum value for this specified range.
 
 
-## Certification
+# Certification
 
 Type: rdf:Class
 
@@ -3932,7 +3932,7 @@ StandardText | xsd:string | The standard, expressed as text, for this trade prod
 AssertionText | xsd:string | An assertion, expressed as text, for this trade product certification, such as that this product is free from peanuts.
 
 
-## InstalmentPayment
+# InstalmentPayment
 
 Type: rdf:Class
 
@@ -3947,7 +3947,7 @@ InstalmentPaymentDueDateTime | xsd:dateTime | The due date for this instalment p
 SequenceID | xsd:token | The sequence identifier for this instalment payment.
 
 
-## AdvancePayment
+# AdvancePayment
 
 Type: rdf:Class
 
@@ -3961,7 +3961,7 @@ AdvancePaymentPaidAmount | xsd:decimal | The monetary value of the funds or secu
 AdvancePaymentIncludedTax | [edi3:TradeTax](#TradeTax) | A tax included in this advance payment.
 
 
-## TradeSettlementPayment
+# TradeSettlementPayment
 
 Type: rdf:Class
 
@@ -3977,7 +3977,7 @@ InstructionID | xsd:token | The unique identifier of the instruction for this tr
 RequestedExecutionDateTime | xsd:dateTime | The date, time, date time or other date time value of the requested execution of this trade settlement payment.
 
 
-## LineTradeSettlement
+# LineTradeSettlement
 
 Type: rdf:Class
 
@@ -4016,7 +4016,7 @@ LineTradeSettlementFinancialCard | [edi3:FinancialCard](#FinancialCard) | A fina
 LineTradeSettlementPaymentAmount | xsd:decimal | A monetary value of a payment for this line trade settlement.
 
 
-## SubordinateLineTradeSettlement
+# SubordinateLineTradeSettlement
 
 Type: rdf:Class
 
@@ -4028,7 +4028,7 @@ name | type | description
 -|-|-
 
 
-## PaymentTradeSettlement
+# PaymentTradeSettlement
 
 Type: rdf:Class
 
@@ -4047,7 +4047,7 @@ PaymentTradeSettlementPayer | [edi3:TradeParty](#TradeParty) | The payer party f
 ApplicableTax | [edi3:TradeTax](#TradeTax) | The tax applicable to this payment trade settlement.
 
 
-## HeaderTradeSettlement
+# HeaderTradeSettlement
 
 Type: rdf:Class
 
@@ -4120,7 +4120,7 @@ HeaderTradeSettlementPayee | [edi3:TradeParty](#TradeParty) | A payee party for 
 CreditReasonCode | xsd:token | The code specifying the reason for a credit being given in this header trade settlement.
 
 
-## ReferencePrice
+# ReferencePrice
 
 Type: rdf:Class
 
@@ -4135,7 +4135,7 @@ ReferencePriceBasisQuantity | xsd:decimal | A quantity on which the reference pr
 ComparisonMethodCode | xsd:token | The code specifying the comparison method for this reference price.
 
 
-## TradePrice
+# TradePrice
 
 Type: rdf:Class
 
@@ -4161,7 +4161,7 @@ TradePriceBasisQuantity | xsd:decimal | The quantity on which the trade price is
 TradePriceValidityPeriod | [edi3:SpecifiedPeriod](#SpecifiedPeriod) | A specified period for which this trade price is valid.
 
 
-## CalculatedPrice
+# CalculatedPrice
 
 Type: rdf:Class
 
@@ -4175,7 +4175,7 @@ CalculatedPriceTypeCode | xsd:token | A code specifying the type of calculated p
 CalculatedPriceAppliedAllowanceCharge | [edi3:AppliedAllowanceCharge](#AppliedAllowanceCharge) | Applied allowance charge information related to this calculated price.
 
 
-## SupplyPlan
+# SupplyPlan
 
 Type: rdf:Class
 
@@ -4202,7 +4202,7 @@ SupplyPlanCommitmentLevelCode | xsd:token | The code specifying the commitment l
 ToleranceQuantity | xsd:decimal | The quantity of tolerance from the planned quantity in this supply chain supply plan.
 
 
-## Observation
+# Observation
 
 Type: rdf:Class
 
@@ -4217,7 +4217,7 @@ ObservationApplicableNote | [edi3:Note](#Note) | A note providing information ap
 ObservationID | xsd:token | The identifier for this specified observation.
 
 
-## Packaging
+# Packaging
 
 Type: rdf:Class
 
@@ -4251,7 +4251,7 @@ CustomerFacingTotalUnitQuantity | xsd:decimal | The total number of units of thi
 PackagingMinimumDimensions | [edi3:SpatialDimension](#SpatialDimension) | The minimum linear spatial dimensions of this supply chain packaging.
 
 
-## Certificate
+# Certificate
 
 Type: rdf:Class
 
@@ -4273,7 +4273,7 @@ CertificateExpiryDateTime | xsd:dateTime | The date, time, date time, or other d
 IssueReasonCode | xsd:token | The code specifying the reason why this product certificate was issued.
 
 
-## Sensor
+# Sensor
 
 Type: rdf:Class
 
@@ -4297,7 +4297,7 @@ ReportedActualCalibratedMeasurement | [edi3:CalibratedMeasurement](#CalibratedMe
 PrecisionCalibratedMeasurement | [edi3:CalibratedMeasurement](#CalibratedMeasurement) | A calibrated measurement of precision for this monitoring sensor.
 
 
-## IOTDevice
+# IOTDevice
 
 Type: rdf:Class
 
@@ -4329,7 +4329,7 @@ ReportingSensorCommunicationPairing | [edi3:Pairing](#Pairing) | A sensor commun
 IOTDeviceID | xsd:token | An identifier for this monitoring IOT device.
 
 
-## Measurement
+# Measurement
 
 Type: rdf:Class
 
@@ -4346,7 +4346,7 @@ MethodText | xsd:string | A measurement method expressed as text.
 ConditionMeasure | xsd:decimal | A measure of a condition for this measurement.
 
 
-## CalibratedMeasurement
+# CalibratedMeasurement
 
 Type: rdf:Class
 
@@ -4364,7 +4364,7 @@ QuantificationTypeCode | xsd:token | The code specifying a quantification type f
 TolerancePercent | xsd:decimal | The percent of tolerance of this calibrated measurement.
 
 
-## InstructedTemperature
+# InstructedTemperature
 
 Type: rdf:Class
 
@@ -4377,7 +4377,7 @@ name | type | description
 InstructedTemperatureMinimumValue | xsd:decimal | The measure of the minimum value of this instructed temperature.
 
 
-## TransportSettingTemperature
+# TransportSettingTemperature
 
 Type: rdf:Class
 
@@ -4393,7 +4393,7 @@ Instructions | [edi3:TemperatureSettingInstructions](#TemperatureSettingInstruct
 TransportSettingTemperatureMaximumValue | xsd:decimal | The measure of the highest value of this transport setting temperature, such as a maximum temperature value of fourteen degrees Celsius.
 
 
-## SpecifiedTemperature
+# SpecifiedTemperature
 
 Type: rdf:Class
 
@@ -4407,7 +4407,7 @@ SpecifiedTemperatureMinimumValue | xsd:decimal | The measure of the lowest value
 SpecifiedTemperatureMaximumValue | xsd:decimal | The measure of the highest value of a range for this specified temperature, such as a maximum temperature value of fourteen degrees Celsius.
 
 
-## Emission
+# Emission
 
 Type: rdf:Class
 
@@ -4422,7 +4422,7 @@ EmissionWeight | xsd:decimal | A weight for which this calculated emission is me
 AffectedDistanceMeasure | xsd:decimal | The affected distance over which this calculated emission is measured.
 
 
-## Standard
+# Standard
 
 Type: rdf:Class
 
@@ -4439,7 +4439,7 @@ AgencyID | xsd:token | The identifier of the agency for this referenced standard
 StandardVersionID | xsd:token | The identifier of the version of this referenced standard.
 
 
-## PaymentTerms
+# PaymentTerms
 
 Type: rdf:Class
 
@@ -4466,7 +4466,7 @@ DeprecatedDueDateDateTime | xsd:dateTime | The date, time, date time, or other d
 PaymentTermsTypeCode | xsd:token | A code specifying the type of trade payment terms.
 
 
-## GeographicalFeature
+# GeographicalFeature
 
 Type: rdf:Class
 
@@ -4493,7 +4493,7 @@ GeographicalMultiPoint | [edi3:GeographicalMultiPoint](#GeographicalMultiPoint) 
 GeographicalMultiSurface | [edi3:GeographicalMultiSurface](#GeographicalMultiSurface) | The geographical multi-surface included in this geographical feature.
 
 
-## Segment
+# Segment
 
 Type: rdf:Class
 
@@ -4508,7 +4508,7 @@ ImageBinaryObject | xsd:base64Binary | The image, expressed as a binary object, 
 SegmentInformationText | xsd:string | Information, expressed as text, in this section segment.
 
 
-## ReferencedConsignmentItem
+# ReferencedConsignmentItem
 
 Type: rdf:Class
 
@@ -4530,7 +4530,7 @@ ReferencedConsignmentItemGoodsTypeExtensionCode | xsd:token | The code used as a
 ReferencedConsignmentItemAssociatedDocument | [edi3:Document](#Document) | A referenced document associated with this referenced supply chain consignment item.
 
 
-## ConsignmentItem
+# ConsignmentItem
 
 Type: rdf:Class
 
@@ -4608,7 +4608,7 @@ ConsignmentItemPickUpEvent | [edi3:Event](#Event) | A pick-up transport event fo
 ConsignmentItemGlobalID | xsd:token | A global identifier for this supply chain consignment item.
 
 
-## ServiceCharge
+# ServiceCharge
 
 Type: rdf:Class
 
@@ -4639,7 +4639,7 @@ TransportPaymentMethodCode | xsd:token | The code specifying the transport payme
 ServiceChargeID | xsd:token | The unique identifier for this logistics service charge.
 
 
-## SecurityTag
+# SecurityTag
 
 Type: rdf:Class
 
@@ -4652,7 +4652,7 @@ name | type | description
 SecurityTagTypeCode | xsd:token | The code specifying the type of this product security tag.
 
 
-## Declaration
+# Declaration
 
 Type: rdf:Class
 
@@ -4684,7 +4684,7 @@ SubmissionLogisticsLocation | [edi3:LogisticsLocation](#LogisticsLocation) | The
 AssociatedPrincipalParty | [edi3:TradeParty](#TradeParty) | A principal trade party associated with this exchanged declaration.
 
 
-## DangerousGoods
+# DangerousGoods
 
 Type: rdf:Class
 
@@ -4746,7 +4746,7 @@ AdditionalHazardClassificationID | xsd:token | The unique identifier of an addit
 ComplianceDeclarationInformation | xsd:string | Compliance declaration information, expressed as text, for these transported dangerous goods.
 
 
-## QuantityAnalysis
+# QuantityAnalysis
 
 Type: rdf:Class
 
@@ -4769,7 +4769,7 @@ QuantityAnalysisChangedRecordedStatus | [edi3:RecordedStatus](#RecordedStatus) |
 ActualQuantityPercent | xsd:decimal | The percentage of a total quantity that the actual quantity of this work item quantity analysis represents.
 
 
-## CoordinateSourceSystem
+# CoordinateSourceSystem
 
 Type: rdf:Class
 
@@ -4785,7 +4785,7 @@ CoordinateSourceSystemTypeCode | xsd:token | The code specifying a type of sourc
 CoordinateSourceSystemID | xsd:token | The identifier for this geographical coordinate source system.
 
 
-## Pairing
+# Pairing
 
 Type: rdf:Class
 
@@ -4800,7 +4800,7 @@ PairingMethodCode | xsd:token | The code specifying the method of this communica
 PairedIndicator | xsd:boolean | The indication of whether or not the entity is paired in this communication pairing.
 
 
-## Condition
+# Condition
 
 Type: rdf:Class
 
@@ -4813,7 +4813,7 @@ name | type | description
 ConditionName | xsd:string | A name, expressed as text, for this product characteristic condition.
 
 
-## ShippingMarks
+# ShippingMarks
 
 Type: rdf:Class
 
@@ -4829,7 +4829,7 @@ VINLabel | [edi3:Label](#Label) | A Vehicle Identification Number (VIN) label th
 ShippingMarksMarkingText | xsd:string | Marking, expressed as text, for these logistics shipping marks.
 
 
-## ReferencedService
+# ReferencedService
 
 Type: rdf:Class
 
@@ -4844,7 +4844,7 @@ ReferencedServiceID | xsd:token | An identifier of this referenced transport ser
 ReferencedServiceCategoryTypeCode | xsd:token | A code specifying the category type of this referenced transport service.
 
 
-## Service
+# Service
 
 Type: rdf:Class
 
@@ -4870,7 +4870,7 @@ ServiceInformationText | xsd:string | Information, expressed as text, for this t
 ServiceRequirementCode | xsd:token | A code specifying a service requirement for this transport service.
 
 
-## RadioactiveMaterial
+# RadioactiveMaterial
 
 Type: rdf:Class
 
@@ -4889,7 +4889,7 @@ FissileExceptionIndicator | xsd:boolean | The indication of whether or not this 
 RadionuclideName | xsd:string | The name of the radionuclide, expressed as text, of this radioactive material.
 
 
-## TransportWasteMaterial
+# TransportWasteMaterial
 
 Type: rdf:Class
 
@@ -4905,7 +4905,7 @@ CompleteDeliveryIndicator | xsd:boolean | The indication of whether or not a tra
 ReceptionFacilityContact | [edi3:Contact](#Contact) | A reception facility contact for this transport waste material.
 
 
-## Marking
+# Marking
 
 Type: rdf:Class
 
@@ -4923,7 +4923,7 @@ BarcodeTypeCode | xsd:token | A code specifying a type of barcode for this packa
 ContentAmount | xsd:decimal | Content, expressed as a monetary amount, for this packaging marking.
 
 
-## CargoInsurance
+# CargoInsurance
 
 Type: rdf:Class
 
@@ -4938,7 +4938,7 @@ ContractGeneralConditionsText | xsd:string | The contract general conditions, ex
 CoverageDescription | xsd:string | The textual description of the coverage of this transport cargo insurance.
 
 
-## LogisticsTransportMeans
+# LogisticsTransportMeans
 
 Type: rdf:Class
 
@@ -4991,7 +4991,7 @@ LogisticsTransportMeansAttachedMonitoringIOTDevice | [edi3:IOTDevice](#IOTDevice
 LogisticsTransportMeansOperator | [edi3:TradeParty](#TradeParty) | The party operating this logistics means of transport.
 
 
-## TransportMeans
+# TransportMeans
 
 Type: rdf:Class
 
@@ -5007,7 +5007,7 @@ TransportMeansName | xsd:string | The name, expressed as text, of this reference
 TransportMeansTypeCode | xsd:token | The code specifying the type of referenced transport means [Reference UNECE Recommendation 28].
 
 
-## ProductInstance
+# ProductInstance
 
 Type: rdf:Class
 
@@ -5036,7 +5036,7 @@ PackagingEvent | [edi3:SupplyChainEvent](#SupplyChainEvent) | The packaging even
 SerialID | xsd:token | A unique serial identifier for this trade product instance.
 
 
-## Contact
+# Contact
 
 Type: rdf:Class
 
@@ -5065,7 +5065,7 @@ AuthorizedPersonName | xsd:string | The name, expressed as text, of the authoriz
 ContactMobileTelephone | [edi3:UniversalCommunication](#UniversalCommunication) | The mobile telephone communication information for this trade contact.
 
 
-## WorkflowObject
+# WorkflowObject
 
 Type: rdf:Class
 
@@ -5079,7 +5079,7 @@ PreviousStatusCode | xsd:token | The code specifying the previous status of this
 WorkflowObjectID | xsd:token | The identifier of this trade workflow object.
 
 
-## Response
+# Response
 
 Type: rdf:Class
 
@@ -5095,7 +5095,7 @@ ResponseID | xsd:token | The unique identifier for this specification response.
 QueryID | xsd:token | The unique identifier for the query to which this response refers.
 
 
-## Equipment
+# Equipment
 
 Type: rdf:Class
 
@@ -5112,7 +5112,7 @@ PollingCapabilityIndicator | xsd:boolean | The indication of whether or not this
 EquipmentTypeCode | xsd:token | A code specifying a type of OEM equipment.
 
 
-## DirectPositionList
+# DirectPositionList
 
 Type: rdf:Class
 
@@ -5129,7 +5129,7 @@ DirectPositionListName | xsd:string | The name, expressed as text, of this speci
 DirectPositionListCount | xsd:decimal | A count for this specified direct position list.
 
 
-## Schedule
+# Schedule
 
 Type: rdf:Class
 
@@ -5145,7 +5145,7 @@ ScheduleOccurrenceDateTime | xsd:dateTime | A date, time, date time, or other da
 ScheduleTypeCode | xsd:token | A code specifying the type of supply chain schedule.
 
 
-## Clause
+# Clause
 
 Type: rdf:Class
 
@@ -5161,7 +5161,7 @@ AssociatedPeriod | [edi3:SpecifiedPeriod](#SpecifiedPeriod) | A period of time a
 ClauseContentText | xsd:string | Content, expressed as text, of this document clause.
 
 
-## RegulatedGoods
+# RegulatedGoods
 
 Type: rdf:Class
 
@@ -5173,7 +5173,7 @@ name | type | description
 -|-|-
 
 
-## SubordinateSubordinateLocation
+# SubordinateSubordinateLocation
 
 Type: rdf:Class
 
@@ -5188,7 +5188,7 @@ SubordinateSubordinateLocationTypeCode | xsd:token | The code specifying the typ
 SubordinateSubordinateLocationID | xsd:token | The unique identifier for this subordinate of a subordinate location, such as a United Nations Location Code (UNLOCODE) or GS1 Global Location Number (GLN).
 
 
-## SubordinateLocation
+# SubordinateLocation
 
 Type: rdf:Class
 
@@ -5204,7 +5204,7 @@ SubordinateLocationName | xsd:string | The name, expressed as text, of this subo
 SubordinateLocationPhysicalGeographicalCoordinate | [edi3:GeographicalCoordinate](#GeographicalCoordinate) | Physical geographical coordinate information for this subordinate location.
 
 
-## TradeLocation
+# TradeLocation
 
 Type: rdf:Class
 
@@ -5219,7 +5219,7 @@ TradeLocationCountryName | xsd:string | The name, expressed as text, of a countr
 TradeLocationCountryCode | xsd:token | The unique identifier of a country location used or referenced in trade.
 
 
-## TransportServiceLocation
+# TransportServiceLocation
 
 Type: rdf:Class
 
@@ -5233,7 +5233,7 @@ TransportServiceLocationName | xsd:string | A name, expressed as text, of this t
 TransportServiceLocationTypeCode | xsd:token | A code specifying the type of transport service location.
 
 
-## LogisticsLocation
+# LogisticsLocation
 
 Type: rdf:Class
 
@@ -5259,7 +5259,7 @@ ServicingParty | [edi3:LocationParty](#LocationParty) | A servicing party specif
 LogisticsLocationTypeCode | xsd:token | A code specifying the type of this logistics related location.
 
 
-## GeographicalGrid
+# GeographicalGrid
 
 Type: rdf:Class
 
