@@ -1,3 +1,7 @@
+<h1>BSP RDM JSON-LD Vocabulary</h1>
+
+Vocabulary Definition of BSP RDM semantics in HTML format. JSON-LD format is available at [bsp.jsonld](https://edi3.org/vocab/bsp.jsonld)  
+
 <h1 id="ProductGroup">ProductGroup</h1>
 
 Type: rdf:Class

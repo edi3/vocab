@@ -2,13 +2,12 @@
     "@context": {
         "schema": "http://schema.org/",
         "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
-        "bsp": "https://edi3.org/vocab/bsp#",
-        "ccl": "https://edi3.org/vocab/ccl#",
+        "edi3": "https://edi3.org/vocab#",
         "xsd": "http://www.w3.org/2001/XMLSchema#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
         "dc": "http://purl.org/dc/elements/1.1/"
-      },
-        "@graph": [
+    },
+    "@graph": [
         {
             "@id": "edi3:ProductGroup",
             "@type": "rdfs:Class",
@@ -45,18 +44,18 @@
             "edi3:cefactID": "UN01000073"
         },
         {
-            "@id": "edi3:Product",
-            "@type": "rdfs:Class",
-            "rdfs:comment": "A reference to a product or service produced by human or mechanical effort or by a natural process for trading purposes.",
-            "rdfs:label": "Referenced_ Product. Details",
-            "edi3:cefactID": "UN01004027"
-        },
-        {
             "@id": "edi3:TradeProduct",
             "@type": "rdfs:Class",
             "rdfs:comment": "Any tangible output or service produced by human or mechanical effort or by a natural process for trade purposes.",
             "rdfs:label": "Trade_ Product. Details",
             "edi3:cefactID": "UN01004679"
+        },
+        {
+            "@id": "edi3:Product",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "A reference to a product or service produced by human or mechanical effort or by a natural process for trading purposes.",
+            "rdfs:label": "Referenced_ Product. Details",
+            "edi3:cefactID": "UN01004027"
         },
         {
             "@id": "edi3:Fault",
@@ -66,32 +65,11 @@
             "edi3:cefactID": "UN01010065"
         },
         {
-            "@id": "edi3:FinancingRequestDocument",
+            "@id": "edi3:Document",
             "@type": "rdfs:Class",
-            "rdfs:comment": "The set of characteristics shared by all individual transactions grouped for this financing request document.",
-            "rdfs:label": "Financing Request_ Document. Details",
-            "edi3:cefactID": "UN01013228"
-        },
-        {
-            "@id": "edi3:FinancingRequestResultDocument",
-            "@type": "rdfs:Class",
-            "rdfs:comment": "A collection of data that reports the result of a financing request.",
-            "rdfs:label": "Financing Request Result_ Document. Details",
-            "edi3:cefactID": "UN01013224"
-        },
-        {
-            "@id": "edi3:FinancingSummaryDocument",
-            "@type": "rdfs:Class",
-            "rdfs:comment": "A collection of financing related data that provides an overview of key points.",
-            "rdfs:label": "Financing Summary_ Document. Details",
-            "edi3:cefactID": "UN01013245"
-        },
-        {
-            "@id": "edi3:ExchangedDocument",
-            "@type": "rdfs:Class",
-            "rdfs:comment": "A collection of data for a piece of written, printed or electronic matter that is exchanged between two or more parties.",
-            "rdfs:label": "Exchanged_ Document. Details",
-            "edi3:cefactID": "UN01002487"
+            "rdfs:comment": "Written, printed or electronic matter that is referenced.",
+            "rdfs:label": "Referenced_ Document. Details",
+            "edi3:cefactID": "UN01001569"
         },
         {
             "@id": "edi3:DocumentLineDocument",
@@ -101,18 +79,39 @@
             "edi3:cefactID": "UN01003513"
         },
         {
-            "@id": "edi3:Document",
-            "@type": "rdfs:Class",
-            "rdfs:comment": "Written, printed or electronic matter that is referenced.",
-            "rdfs:label": "Referenced_ Document. Details",
-            "edi3:cefactID": "UN01001569"
-        },
-        {
             "@id": "edi3:AcknowledgementDocument",
             "@type": "rdfs:Class",
             "rdfs:comment": "A document exchanged between parties for a business application level acknowledgement of the receipt of information.",
             "rdfs:label": "Acknowledgement_ Document. Details",
             "edi3:cefactID": "UN01002071"
+        },
+        {
+            "@id": "edi3:FinancingRequestResultDocument",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "A collection of data that reports the result of a financing request.",
+            "rdfs:label": "Financing Request Result_ Document. Details",
+            "edi3:cefactID": "UN01013224"
+        },
+        {
+            "@id": "edi3:ExchangedDocument",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "A collection of data for a piece of written, printed or electronic matter that is exchanged between two or more parties.",
+            "rdfs:label": "Exchanged_ Document. Details",
+            "edi3:cefactID": "UN01002487"
+        },
+        {
+            "@id": "edi3:FinancingRequestDocument",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "The set of characteristics shared by all individual transactions grouped for this financing request document.",
+            "rdfs:label": "Financing Request_ Document. Details",
+            "edi3:cefactID": "UN01013228"
+        },
+        {
+            "@id": "edi3:FinancingSummaryDocument",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "A collection of financing related data that provides an overview of key points.",
+            "rdfs:label": "Financing Summary_ Document. Details",
+            "edi3:cefactID": "UN01013245"
         },
         {
             "@id": "edi3:GeographicalSurface",
@@ -185,6 +184,13 @@
             "edi3:cefactID": "UN01010056"
         },
         {
+            "@id": "edi3:FinancialIdentity",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "A financial identification for an organization.",
+            "rdfs:label": "Financial_ Identity. Details",
+            "edi3:cefactID": "UN01013217"
+        },
+        {
             "@id": "edi3:EmployerIdentity",
             "@type": "rdfs:Class",
             "rdfs:comment": "Identification of a party who pays someone to do work on a regular or contractual basis.",
@@ -206,11 +212,11 @@
             "edi3:cefactID": "UN01013286"
         },
         {
-            "@id": "edi3:FinancialIdentity",
+            "@id": "edi3:ValidationStatus",
             "@type": "rdfs:Class",
-            "rdfs:comment": "A financial identification for an organization.",
-            "rdfs:label": "Financial_ Identity. Details",
-            "edi3:cefactID": "UN01013217"
+            "rdfs:comment": "Information relevant to a condition of a validation.",
+            "rdfs:label": "Validation_ Status. Details",
+            "edi3:cefactID": "UN01013305"
         },
         {
             "@id": "edi3:DocumentStatus",
@@ -227,18 +233,11 @@
             "edi3:cefactID": "UN01013196"
         },
         {
-            "@id": "edi3:ValidationStatus",
+            "@id": "edi3:FinancingStatus",
             "@type": "rdfs:Class",
-            "rdfs:comment": "Information relevant to a condition of a validation.",
-            "rdfs:label": "Validation_ Status. Details",
-            "edi3:cefactID": "UN01013305"
-        },
-        {
-            "@id": "edi3:LogisticsStatus",
-            "@type": "rdfs:Class",
-            "rdfs:comment": "The information relevant to a condition or a position related to logistics.",
-            "rdfs:label": "Logistics_ Status. Details",
-            "edi3:cefactID": "UN01003747"
+            "rdfs:comment": "Information relevant to a condition of financing.",
+            "rdfs:label": "Financing_ Status. Details",
+            "edi3:cefactID": "UN01013262"
         },
         {
             "@id": "edi3:RecordedStatus",
@@ -248,11 +247,11 @@
             "edi3:cefactID": "UN01007516"
         },
         {
-            "@id": "edi3:FinancingStatus",
+            "@id": "edi3:LogisticsStatus",
             "@type": "rdfs:Class",
-            "rdfs:comment": "Information relevant to a condition of financing.",
-            "rdfs:label": "Financing_ Status. Details",
-            "edi3:cefactID": "UN01013262"
+            "rdfs:comment": "The information relevant to a condition or a position related to logistics.",
+            "rdfs:label": "Logistics_ Status. Details",
+            "edi3:cefactID": "UN01003747"
         },
         {
             "@id": "edi3:DeliveryAdjustment",
@@ -283,18 +282,11 @@
             "edi3:cefactID": "UN01013277"
         },
         {
-            "@id": "edi3:QuarantineInstructions",
+            "@id": "edi3:ReturnableAssetInstructions",
             "@type": "rdfs:Class",
-            "rdfs:comment": "Instructions for a period of imposed isolation or detention.",
-            "rdfs:label": "Quarantine_ Instructions. Details",
-            "edi3:cefactID": "UN01003988"
-        },
-        {
-            "@id": "edi3:HaulageInstructions",
-            "@type": "rdfs:Class",
-            "rdfs:comment": "Instructions related to the action or process of conveyance.",
-            "rdfs:label": "Haulage_ Instructions. Details",
-            "edi3:cefactID": "UN01003634"
+            "rdfs:comment": "The procedures to follow for returnable assets, such as reusable packaging (pallets, crates).",
+            "rdfs:label": "Returnable Asset_ Instructions. Details",
+            "edi3:cefactID": "UN01008860"
         },
         {
             "@id": "edi3:HandlingInstructions",
@@ -304,11 +296,18 @@
             "edi3:cefactID": "UN01003625"
         },
         {
-            "@id": "edi3:ReturnableAssetInstructions",
+            "@id": "edi3:QuarantineInstructions",
             "@type": "rdfs:Class",
-            "rdfs:comment": "The procedures to follow for returnable assets, such as reusable packaging (pallets, crates).",
-            "rdfs:label": "Returnable Asset_ Instructions. Details",
-            "edi3:cefactID": "UN01008860"
+            "rdfs:comment": "Instructions for a period of imposed isolation or detention.",
+            "rdfs:label": "Quarantine_ Instructions. Details",
+            "edi3:cefactID": "UN01003988"
+        },
+        {
+            "@id": "edi3:DeliveryInstructions",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "Delivery information of an instructive nature.",
+            "rdfs:label": "Delivery_ Instructions. Details",
+            "edi3:cefactID": "UN01003504"
         },
         {
             "@id": "edi3:TemperatureSettingInstructions",
@@ -325,11 +324,11 @@
             "edi3:cefactID": "UN01004811"
         },
         {
-            "@id": "edi3:DeliveryInstructions",
+            "@id": "edi3:HaulageInstructions",
             "@type": "rdfs:Class",
-            "rdfs:comment": "Delivery information of an instructive nature.",
-            "rdfs:label": "Delivery_ Instructions. Details",
-            "edi3:cefactID": "UN01003504"
+            "rdfs:comment": "Instructions related to the action or process of conveyance.",
+            "rdfs:label": "Haulage_ Instructions. Details",
+            "edi3:cefactID": "UN01003634"
         },
         {
             "@id": "edi3:DisposalInstructions",
@@ -416,6 +415,13 @@
             "edi3:cefactID": "UN01002519"
         },
         {
+            "@id": "edi3:HeaderTradeDelivery",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "Shipping arrangements and movement of products and or services including despatch and delivery at a header level.",
+            "rdfs:label": "Header_ Trade Delivery. Details",
+            "edi3:cefactID": "UN01011603"
+        },
+        {
             "@id": "edi3:SubordinateLineTradeDelivery",
             "@type": "rdfs:Class",
             "rdfs:comment": "Supply chain shipping arrangements and movement of products and or services including despatch and delivery.",
@@ -428,13 +434,6 @@
             "rdfs:comment": "Shipping arrangements and movement of products and or services including despatch and delivery at a line level.",
             "rdfs:label": "Line_ Trade Delivery. Details",
             "edi3:cefactID": "UN01011755"
-        },
-        {
-            "@id": "edi3:HeaderTradeDelivery",
-            "@type": "rdfs:Class",
-            "rdfs:comment": "Shipping arrangements and movement of products and or services including despatch and delivery at a header level.",
-            "rdfs:label": "Header_ Trade Delivery. Details",
-            "edi3:cefactID": "UN01011603"
         },
         {
             "@id": "edi3:Country",
@@ -465,18 +464,18 @@
             "edi3:cefactID": "UN01006790"
         },
         {
-            "@id": "edi3:ContactPerson",
-            "@type": "rdfs:Class",
-            "rdfs:comment": "An individual human being in a position to give assistance or information.",
-            "rdfs:label": "Contact_ Person. Details",
-            "edi3:cefactID": "UN01005145"
-        },
-        {
             "@id": "edi3:TransportPerson",
             "@type": "rdfs:Class",
             "rdfs:comment": "A transport related person, such as a member of a crew or a passenger.",
             "rdfs:label": "Transport_ Person. Details",
             "edi3:cefactID": "UN01004815"
+        },
+        {
+            "@id": "edi3:ContactPerson",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "An individual human being in a position to give assistance or information.",
+            "rdfs:label": "Contact_ Person. Details",
+            "edi3:cefactID": "UN01005145"
         },
         {
             "@id": "edi3:AuthoritativeSignatoryPerson",
@@ -521,13 +520,6 @@
             "edi3:cefactID": "UN01013184"
         },
         {
-            "@id": "edi3:TransportEquipment",
-            "@type": "rdfs:Class",
-            "rdfs:comment": "A piece of equipment used to hold, protect or secure cargo for logistics purposes.",
-            "rdfs:label": "Logistics_ Transport Equipment. Details",
-            "edi3:cefactID": "UN01003757"
-        },
-        {
             "@id": "edi3:ReferencedTransportEquipment",
             "@type": "rdfs:Class",
             "rdfs:comment": "A referenced piece of equipment used to hold, protect or secure cargo for logistics purposes.",
@@ -535,11 +527,11 @@
             "edi3:cefactID": "UN01004022"
         },
         {
-            "@id": "edi3:AttachedTransportEquipment",
+            "@id": "edi3:TransportEquipment",
             "@type": "rdfs:Class",
-            "rdfs:comment": "A piece of attached transport equipment, such as a chain or a tarpaulin.",
-            "rdfs:label": "Attached_ Transport Equipment. Details",
-            "edi3:cefactID": "UN01003416"
+            "rdfs:comment": "A piece of equipment used to hold, protect or secure cargo for logistics purposes.",
+            "rdfs:label": "Logistics_ Transport Equipment. Details",
+            "edi3:cefactID": "UN01003757"
         },
         {
             "@id": "edi3:AssociatedTransportEquipment",
@@ -547,6 +539,13 @@
             "rdfs:comment": "A piece of transport equipment that is associated with another piece of transport equipment, such as a maritime container placed on a rail wagon for transportation.",
             "rdfs:label": "Associated_ Transport Equipment. Details",
             "edi3:cefactID": "UN01004883"
+        },
+        {
+            "@id": "edi3:AttachedTransportEquipment",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "A piece of attached transport equipment, such as a chain or a tarpaulin.",
+            "rdfs:label": "Attached_ Transport Equipment. Details",
+            "edi3:cefactID": "UN01003416"
         },
         {
             "@id": "edi3:Consignment",
@@ -570,18 +569,18 @@
             "edi3:cefactID": "UN01011912"
         },
         {
-            "@id": "edi3:TradeSettlementHeaderMonetarySummation",
-            "@type": "rdfs:Class",
-            "rdfs:comment": "A collection of monetary amount totals, specified at header level, for a trade settlement.",
-            "rdfs:label": "Trade Settlement Header_ Monetary Summation. Details",
-            "edi3:cefactID": "UN01011871"
-        },
-        {
             "@id": "edi3:TradeSettlementLineMonetarySummation",
             "@type": "rdfs:Class",
             "rdfs:comment": "A collection of monetary amount totals, specified at line level, for a trade settlement.",
             "rdfs:label": "Trade Settlement Line_ Monetary Summation. Details",
             "edi3:cefactID": "UN01011896"
+        },
+        {
+            "@id": "edi3:TradeSettlementHeaderMonetarySummation",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "A collection of monetary amount totals, specified at header level, for a trade settlement.",
+            "rdfs:label": "Trade Settlement Header_ Monetary Summation. Details",
+            "edi3:cefactID": "UN01011871"
         },
         {
             "@id": "edi3:PaymentDiscountTerms",
@@ -598,18 +597,18 @@
             "edi3:cefactID": "UN01004493"
         },
         {
-            "@id": "edi3:LocationParty",
-            "@type": "rdfs:Class",
-            "rdfs:comment": "An individual, a group, or a body having a role related to a location.",
-            "rdfs:label": "Location_ Party. Details",
-            "edi3:cefactID": "UN01003661"
-        },
-        {
             "@id": "edi3:TradeParty",
             "@type": "rdfs:Class",
             "rdfs:comment": "An individual, a group, or a body having a role in a trade business function.",
             "rdfs:label": "Trade_ Party. Details",
             "edi3:cefactID": "UN01004594"
+        },
+        {
+            "@id": "edi3:LocationParty",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "An individual, a group, or a body having a role related to a location.",
+            "rdfs:label": "Location_ Party. Details",
+            "edi3:cefactID": "UN01003661"
         },
         {
             "@id": "edi3:RequestingParty",
@@ -633,18 +632,18 @@
             "edi3:cefactID": "UN01002975"
         },
         {
-            "@id": "edi3:DebtorFinancialInstitution",
-            "@type": "rdfs:Class",
-            "rdfs:comment": "A bank, building society, credit union, stock brokerage, or similar business of the party that owes money.",
-            "rdfs:label": "Debtor_ Financial Institution. Details",
-            "edi3:cefactID": "UN01002840"
-        },
-        {
             "@id": "edi3:BranchFinancialInstitution",
             "@type": "rdfs:Class",
             "rdfs:comment": "A sub-division of a bank, building society, credit union, stock brokerage, or similar business; established primarily to provide financial services and financial transactions.",
             "rdfs:label": "Branch_ Financial Institution. Details",
             "edi3:cefactID": "UN01003138"
+        },
+        {
+            "@id": "edi3:DebtorFinancialInstitution",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "A bank, building society, credit union, stock brokerage, or similar business of the party that owes money.",
+            "rdfs:label": "Debtor_ Financial Institution. Details",
+            "edi3:cefactID": "UN01002840"
         },
         {
             "@id": "edi3:ComplexDescription",
@@ -717,18 +716,18 @@
             "edi3:cefactID": "UN01007299"
         },
         {
-            "@id": "edi3:WorkItemDimension",
-            "@type": "rdfs:Class",
-            "rdfs:comment": "A measure of spatial extent associated with this work item, such as length, breadth, or height.",
-            "rdfs:label": "Work Item_ Dimension. Details",
-            "edi3:cefactID": "UN01000056"
-        },
-        {
             "@id": "edi3:SpatialDimension",
             "@type": "rdfs:Class",
             "rdfs:comment": "A measure of spatial extent of an object, such as the length, breadth or height of a shipping container.",
             "rdfs:label": "Spatial_ Dimension. Details",
             "edi3:cefactID": "UN01004075"
+        },
+        {
+            "@id": "edi3:WorkItemDimension",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "A measure of spatial extent associated with this work item, such as length, breadth, or height.",
+            "rdfs:label": "Work Item_ Dimension. Details",
+            "edi3:cefactID": "UN01000056"
         },
         {
             "@id": "edi3:CurrencyExchange",
@@ -773,11 +772,11 @@
             "edi3:cefactID": "UN01002639"
         },
         {
-            "@id": "edi3:SupplyChainEvent",
+            "@id": "edi3:Event",
             "@type": "rdfs:Class",
-            "rdfs:comment": "A significant occurrence or happening in a supply chain.",
-            "rdfs:label": "Supply Chain_ Event. Details",
-            "edi3:cefactID": "UN01004291"
+            "rdfs:comment": "A significant occurrence or happening during transport.",
+            "rdfs:label": "Transport_ Event. Details",
+            "edi3:cefactID": "UN01004791"
         },
         {
             "@id": "edi3:CommunicationEvent",
@@ -787,6 +786,13 @@
             "edi3:cefactID": "UN01013560"
         },
         {
+            "@id": "edi3:SupplyChainEvent",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "A significant occurrence or happening in a supply chain.",
+            "rdfs:label": "Supply Chain_ Event. Details",
+            "edi3:cefactID": "UN01004291"
+        },
+        {
             "@id": "edi3:ReferencedEvent",
             "@type": "rdfs:Class",
             "rdfs:comment": "A referenced significant occurrence or happening during transport.",
@@ -794,11 +800,11 @@
             "edi3:cefactID": "UN01010081"
         },
         {
-            "@id": "edi3:Event",
+            "@id": "edi3:ControlSettingParameter",
             "@type": "rdfs:Class",
-            "rdfs:comment": "A significant occurrence or happening during transport.",
-            "rdfs:label": "Transport_ Event. Details",
-            "edi3:cefactID": "UN01004791"
+            "rdfs:comment": "A set of measurable factors that specifies the conditions of its operation within a specific context.",
+            "rdfs:label": "Control Setting_ Parameter. Details",
+            "edi3:cefactID": "UN01013502"
         },
         {
             "@id": "edi3:DocumentContextParameter",
@@ -806,13 +812,6 @@
             "rdfs:comment": "A feature that is fixed for a particular document context.",
             "rdfs:label": "Document Context_ Parameter. Details",
             "edi3:cefactID": "UN01004852"
-        },
-        {
-            "@id": "edi3:ControlSettingParameter",
-            "@type": "rdfs:Class",
-            "rdfs:comment": "A set of measurable factors that specifies the conditions of its operation within a specific context.",
-            "rdfs:label": "Control Setting_ Parameter. Details",
-            "edi3:cefactID": "UN01013502"
         },
         {
             "@id": "edi3:OperationalParameter",
@@ -843,11 +842,11 @@
             "edi3:cefactID": "UN01010472"
         },
         {
-            "@id": "edi3:LineTradeAgreement",
+            "@id": "edi3:SubordinateLineTradeAgreement",
             "@type": "rdfs:Class",
-            "rdfs:comment": "The contractual terms of a line trade agreement.",
-            "rdfs:label": "Line_ Trade Agreement. Details",
-            "edi3:cefactID": "UN01011693"
+            "rdfs:comment": "The contractual terms of a subordinate line trade agreement.",
+            "rdfs:label": "Subordinate Line_ Trade Agreement. Details",
+            "edi3:cefactID": "UN01011843"
         },
         {
             "@id": "edi3:HeaderTradeAgreement",
@@ -857,11 +856,11 @@
             "edi3:cefactID": "UN01011547"
         },
         {
-            "@id": "edi3:SubordinateLineTradeAgreement",
+            "@id": "edi3:LineTradeAgreement",
             "@type": "rdfs:Class",
-            "rdfs:comment": "The contractual terms of a subordinate line trade agreement.",
-            "rdfs:label": "Subordinate Line_ Trade Agreement. Details",
-            "edi3:cefactID": "UN01011843"
+            "rdfs:comment": "The contractual terms of a line trade agreement.",
+            "rdfs:label": "Line_ Trade Agreement. Details",
+            "edi3:cefactID": "UN01011693"
         },
         {
             "@id": "edi3:DirectPosition",
@@ -871,13 +870,6 @@
             "edi3:cefactID": "UN01010466"
         },
         {
-            "@id": "edi3:TradeAllowanceCharge",
-            "@type": "rdfs:Class",
-            "rdfs:comment": "A component of pricing, such as an allowance or charge for trade purposes.",
-            "rdfs:label": "Trade_ Allowance Charge. Details",
-            "edi3:cefactID": "UN01001631"
-        },
-        {
             "@id": "edi3:AppliedAllowanceCharge",
             "@type": "rdfs:Class",
             "rdfs:comment": "The applied allowance or charge component of pricing.",
@@ -885,18 +877,18 @@
             "edi3:cefactID": "UN01000188"
         },
         {
+            "@id": "edi3:TradeAllowanceCharge",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "A component of pricing, such as an allowance or charge for trade purposes.",
+            "rdfs:label": "Trade_ Allowance Charge. Details",
+            "edi3:cefactID": "UN01001631"
+        },
+        {
             "@id": "edi3:Label",
             "@type": "rdfs:Class",
             "rdfs:comment": "A label used for identifying goods for logistics purposes, such as a barcode, a radio frequency tag or a Vehicle Identification Number (VIN).",
             "rdfs:label": "Logistics_ Label. Details",
             "edi3:cefactID": "UN01003675"
-        },
-        {
-            "@id": "edi3:RegisteredTax",
-            "@type": "rdfs:Class",
-            "rdfs:comment": "A registered tax or duty system pertaining to an authority.",
-            "rdfs:label": "Registered_ Tax. Details",
-            "edi3:cefactID": "UN01004057"
         },
         {
             "@id": "edi3:TradeTax",
@@ -911,6 +903,13 @@
             "rdfs:comment": "A total levy or payment for the support of a government that is required of persons, groups, or businesses within the domain of that government.",
             "rdfs:label": "Applied_ Tax. Details",
             "edi3:cefactID": "UN01000183"
+        },
+        {
+            "@id": "edi3:RegisteredTax",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "A registered tax or duty system pertaining to an authority.",
+            "rdfs:label": "Registered_ Tax. Details",
+            "edi3:cefactID": "UN01004057"
         },
         {
             "@id": "edi3:Process",
@@ -955,18 +954,18 @@
             "edi3:cefactID": "UN01012368"
         },
         {
-            "@id": "edi3:TaxRegistration",
-            "@type": "rdfs:Class",
-            "rdfs:comment": "Registration with a specific tax authority.",
-            "rdfs:label": "Tax_ Registration. Details",
-            "edi3:cefactID": "UN01004486"
-        },
-        {
             "@id": "edi3:LegalRegistration",
             "@type": "rdfs:Class",
             "rdfs:comment": "The recording of items or details for a specific legal purpose.",
             "rdfs:label": "Legal_ Registration. Details",
             "edi3:cefactID": "UN01003648"
+        },
+        {
+            "@id": "edi3:TaxRegistration",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "Registration with a specific tax authority.",
+            "rdfs:label": "Tax_ Registration. Details",
+            "edi3:cefactID": "UN01004486"
         },
         {
             "@id": "edi3:GovernmentRegistration",
@@ -976,18 +975,18 @@
             "edi3:cefactID": "UN01011028"
         },
         {
-            "@id": "edi3:SpecifiedGeographicalCoordinate",
-            "@type": "rdfs:Class",
-            "rdfs:comment": "The latitude and longitude of a specified place, by which its relative situation on the globe is known. The height above the sea level constitutes a third coordinate.",
-            "rdfs:label": "Specified_ Geographical Coordinate. Details",
-            "edi3:cefactID": "UN01002026"
-        },
-        {
             "@id": "edi3:GeographicalCoordinate",
             "@type": "rdfs:Class",
             "rdfs:comment": "A set of geographical coordinates of a specific point such as the longitude, latitude and altitude.",
             "rdfs:label": "Geographical Coordinate. Details",
             "edi3:cefactID": "UN01003616"
+        },
+        {
+            "@id": "edi3:SpecifiedGeographicalCoordinate",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "The latitude and longitude of a specified place, by which its relative situation on the globe is known. The height above the sea level constitutes a third coordinate.",
+            "rdfs:label": "Specified_ Geographical Coordinate. Details",
+            "edi3:cefactID": "UN01002026"
         },
         {
             "@id": "edi3:Production",
@@ -1018,18 +1017,18 @@
             "edi3:cefactID": "UN01010475"
         },
         {
-            "@id": "edi3:HeaderBalanceOut",
-            "@type": "rdfs:Class",
-            "rdfs:comment": "Offset header information to ensure that debits and credits are equal for a transaction.",
-            "rdfs:label": "Header_ Balance Out. Details",
-            "edi3:cefactID": "UN01011539"
-        },
-        {
             "@id": "edi3:PaymentBalanceOut",
             "@type": "rdfs:Class",
             "rdfs:comment": "Offset information to ensure that debits and credits are equal for a transaction.",
             "rdfs:label": "Payment_ Balance Out. Details",
             "edi3:cefactID": "UN01011829"
+        },
+        {
+            "@id": "edi3:HeaderBalanceOut",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "Offset header information to ensure that debits and credits are equal for a transaction.",
+            "rdfs:label": "Header_ Balance Out. Details",
+            "edi3:cefactID": "UN01011539"
         },
         {
             "@id": "edi3:Route",
@@ -1088,18 +1087,18 @@
             "edi3:cefactID": "UN01001270"
         },
         {
-            "@id": "edi3:SupplyChainTradeLineItem",
-            "@type": "rdfs:Class",
-            "rdfs:comment": "A collection of information specific to an item being used or reported on for supply chain trade purposes.",
-            "rdfs:label": "Supply Chain_ Trade Line Item. Details",
-            "edi3:cefactID": "UN01004417"
-        },
-        {
             "@id": "edi3:SubordinateTradeLineItem",
             "@type": "rdfs:Class",
             "rdfs:comment": "A collection of information specific to a subordinate item being used or reported on for trade purposes.",
             "rdfs:label": "Subordinate_ Trade Line Item. Details",
             "edi3:cefactID": "UN01004098"
+        },
+        {
+            "@id": "edi3:SupplyChainTradeLineItem",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "A collection of information specific to an item being used or reported on for supply chain trade purposes.",
+            "rdfs:label": "Supply Chain_ Trade Line Item. Details",
+            "edi3:cefactID": "UN01004417"
         },
         {
             "@id": "edi3:Range",
@@ -1123,6 +1122,13 @@
             "edi3:cefactID": "UN01013272"
         },
         {
+            "@id": "edi3:TradeSettlementPayment",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "The specific discharge obligations in respect of funds or securities transferred between two or more parties as part of a trade settlement.",
+            "rdfs:label": "Trade Settlement_ Payment. Details",
+            "edi3:cefactID": "UN01008866"
+        },
+        {
             "@id": "edi3:AdvancePayment",
             "@type": "rdfs:Class",
             "rdfs:comment": "A prepaid discharge of obligations in respect of funds or securities transferred between two or more parties.",
@@ -1130,11 +1136,11 @@
             "edi3:cefactID": "UN01001295"
         },
         {
-            "@id": "edi3:TradeSettlementPayment",
+            "@id": "edi3:PaymentTradeSettlement",
             "@type": "rdfs:Class",
-            "rdfs:comment": "The specific discharge obligations in respect of funds or securities transferred between two or more parties as part of a trade settlement.",
-            "rdfs:label": "Trade Settlement_ Payment. Details",
-            "edi3:cefactID": "UN01008866"
+            "rdfs:comment": "The information that enables the reconciliation of a payment with the item(s) that the payment is intended to settle, for example a commercial invoice.",
+            "rdfs:label": "Payment_ Trade Settlement. Details",
+            "edi3:cefactID": "UN01003261"
         },
         {
             "@id": "edi3:LineTradeSettlement",
@@ -1151,13 +1157,6 @@
             "edi3:cefactID": "UN01011854"
         },
         {
-            "@id": "edi3:PaymentTradeSettlement",
-            "@type": "rdfs:Class",
-            "rdfs:comment": "The information that enables the reconciliation of a payment with the item(s) that the payment is intended to settle, for example a commercial invoice.",
-            "rdfs:label": "Payment_ Trade Settlement. Details",
-            "edi3:cefactID": "UN01003261"
-        },
-        {
             "@id": "edi3:HeaderTradeSettlement",
             "@type": "rdfs:Class",
             "rdfs:comment": "The information, at a header level, that enables the reconciliation of a financial transaction, with the item(s) that the financial transaction is intended to settle, such as a commercial invoice.",
@@ -1172,18 +1171,18 @@
             "edi3:cefactID": "UN01007304"
         },
         {
-            "@id": "edi3:TradePrice",
-            "@type": "rdfs:Class",
-            "rdfs:comment": "A sum of money for which something is or may be bought or sold for trade purposes.",
-            "rdfs:label": "Trade_ Price. Details",
-            "edi3:cefactID": "UN01001676"
-        },
-        {
             "@id": "edi3:CalculatedPrice",
             "@type": "rdfs:Class",
             "rdfs:comment": "Information related to a calculated price.",
             "rdfs:label": "Calculated_ Price. Details",
             "edi3:cefactID": "UN01000179"
+        },
+        {
+            "@id": "edi3:TradePrice",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "A sum of money for which something is or may be bought or sold for trade purposes.",
+            "rdfs:label": "Trade_ Price. Details",
+            "edi3:cefactID": "UN01001676"
         },
         {
             "@id": "edi3:SupplyPlan",
@@ -1228,13 +1227,6 @@
             "edi3:cefactID": "UN01013475"
         },
         {
-            "@id": "edi3:Measurement",
-            "@type": "rdfs:Class",
-            "rdfs:comment": "An amount, size, or extent as established by measuring.",
-            "rdfs:label": "Measurement. Details",
-            "edi3:cefactID": "UN01003890"
-        },
-        {
             "@id": "edi3:CalibratedMeasurement",
             "@type": "rdfs:Class",
             "rdfs:comment": "A measurement established by a device which is tested to a calibration standard of known accuracy.",
@@ -1242,11 +1234,11 @@
             "edi3:cefactID": "UN01013531"
         },
         {
-            "@id": "edi3:InstructedTemperature",
+            "@id": "edi3:Measurement",
             "@type": "rdfs:Class",
-            "rdfs:comment": "Temperature settings instructed for storage or movement of goods.",
-            "rdfs:label": "Instructed_ Temperature. Details",
-            "edi3:cefactID": "UN01008871"
+            "rdfs:comment": "An amount, size, or extent as established by measuring.",
+            "rdfs:label": "Measurement. Details",
+            "edi3:cefactID": "UN01003890"
         },
         {
             "@id": "edi3:TransportSettingTemperature",
@@ -1254,6 +1246,13 @@
             "rdfs:comment": "Temperature settings for a transport movement, such as a required storage temperature range.",
             "rdfs:label": "Transport Setting_ Temperature. Details",
             "edi3:cefactID": "UN01004746"
+        },
+        {
+            "@id": "edi3:InstructedTemperature",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "Temperature settings instructed for storage or movement of goods.",
+            "rdfs:label": "Instructed_ Temperature. Details",
+            "edi3:cefactID": "UN01008871"
         },
         {
             "@id": "edi3:SpecifiedTemperature",
@@ -1298,18 +1297,18 @@
             "edi3:cefactID": "UN01012735"
         },
         {
-            "@id": "edi3:ReferencedConsignmentItem",
-            "@type": "rdfs:Class",
-            "rdfs:comment": "A reference to an item within a supply chain consignment of goods separately identified for transport and customs purposes.",
-            "rdfs:label": "Referenced_ Supply Chain_ Consignment Item. Details",
-            "edi3:cefactID": "UN01004035"
-        },
-        {
             "@id": "edi3:ConsignmentItem",
             "@type": "rdfs:Class",
             "rdfs:comment": "An item within a supply chain consignment of goods separately identified for transport and customs purposes.",
             "rdfs:label": "Supply Chain_ Consignment Item. Details",
             "edi3:cefactID": "UN01004103"
+        },
+        {
+            "@id": "edi3:ReferencedConsignmentItem",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "A reference to an item within a supply chain consignment of goods separately identified for transport and customs purposes.",
+            "rdfs:label": "Referenced_ Supply Chain_ Consignment Item. Details",
+            "edi3:cefactID": "UN01004035"
         },
         {
             "@id": "edi3:ServiceCharge",
@@ -1375,13 +1374,6 @@
             "edi3:cefactID": "UN01003741"
         },
         {
-            "@id": "edi3:ReferencedService",
-            "@type": "rdfs:Class",
-            "rdfs:comment": "A referenced service associated with a specified event during transport movement.",
-            "rdfs:label": "Referenced Transport_ Service. Details",
-            "edi3:cefactID": "UN01010074"
-        },
-        {
             "@id": "edi3:Service",
             "@type": "rdfs:Class",
             "rdfs:comment": "A service associated with a transport movement.",
@@ -1389,11 +1381,11 @@
             "edi3:cefactID": "UN01004837"
         },
         {
-            "@id": "edi3:RadioactiveMaterial",
+            "@id": "edi3:ReferencedService",
             "@type": "rdfs:Class",
-            "rdfs:comment": "Material capable of undergoing spontaneous nuclear decay involving emission of ionizing radiation in the form of particles or gamma rays.",
-            "rdfs:label": "Radioactive_ Material. Details",
-            "edi3:cefactID": "UN01006194"
+            "rdfs:comment": "A referenced service associated with a specified event during transport movement.",
+            "rdfs:label": "Referenced Transport_ Service. Details",
+            "edi3:cefactID": "UN01010074"
         },
         {
             "@id": "edi3:TransportWasteMaterial",
@@ -1401,6 +1393,13 @@
             "rdfs:comment": "Any materials unused and rejected as unwanted during a transport movement.",
             "rdfs:label": "Transport Waste_ Material. Details",
             "edi3:cefactID": "UN01013160"
+        },
+        {
+            "@id": "edi3:RadioactiveMaterial",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "Material capable of undergoing spontaneous nuclear decay involving emission of ionizing radiation in the form of particles or gamma rays.",
+            "rdfs:label": "Radioactive_ Material. Details",
+            "edi3:cefactID": "UN01006194"
         },
         {
             "@id": "edi3:Marking",
@@ -1417,18 +1416,18 @@
             "edi3:cefactID": "UN01004752"
         },
         {
-            "@id": "edi3:LogisticsTransportMeans",
-            "@type": "rdfs:Class",
-            "rdfs:comment": "The devices used to convey goods or other objects from place to place during logistics cargo movements.",
-            "rdfs:label": "Logistics_ Transport Means. Details",
-            "edi3:cefactID": "UN01003819"
-        },
-        {
             "@id": "edi3:TransportMeans",
             "@type": "rdfs:Class",
             "rdfs:comment": "Reference to a device or method used to convey people, goods, or other objects from place to place.",
             "rdfs:label": "Referenced_ Transport Means. Details",
             "edi3:cefactID": "UN01004049"
+        },
+        {
+            "@id": "edi3:LogisticsTransportMeans",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "The devices used to convey goods or other objects from place to place during logistics cargo movements.",
+            "rdfs:label": "Logistics_ Transport Means. Details",
+            "edi3:cefactID": "UN01003819"
         },
         {
             "@id": "edi3:ProductInstance",
@@ -1494,6 +1493,13 @@
             "edi3:cefactID": "UN01003711"
         },
         {
+            "@id": "edi3:LogisticsLocation",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "A logistics related physical location or place.",
+            "rdfs:label": "Logistics_ Location. Details",
+            "edi3:cefactID": "UN01003679"
+        },
+        {
             "@id": "edi3:SubordinateSubordinateLocation",
             "@type": "rdfs:Class",
             "rdfs:comment": "A physical location or place which is a subordinate location of a subordinate location.",
@@ -1522,18 +1528,20 @@
             "edi3:cefactID": "UN01010086"
         },
         {
-            "@id": "edi3:LogisticsLocation",
-            "@type": "rdfs:Class",
-            "rdfs:comment": "A logistics related physical location or place.",
-            "rdfs:label": "Logistics_ Location. Details",
-            "edi3:cefactID": "UN01003679"
-        },
-        {
             "@id": "edi3:GeographicalGrid",
             "@type": "rdfs:Class",
             "rdfs:comment": "The combination of the latitude and longitude forming a graticule, used for specifying the position of any location on the surface of the Earth, without consideration of altitude or depth (reference ISO 19136).",
             "rdfs:label": "Specified_ Geographical Grid. Details",
             "edi3:cefactID": "UN01012202"
+        },
+        {
+            "@id": "edi3:SupplyChainGoodsCharacteristic",
+            "@type": "rdfs:Property",
+            "rdfs:range": "edi3:GoodsCharacteristic",
+            "rdfs:comment": "Material goods characteristic applicable to this supply chain packaging.",
+            "rdfs:domain": "edi3:Packaging",
+            "rdfs:label": "Supply Chain_ Packaging. Applicable. Material_ Goods Characteristic",
+            "edi3:cefactID": "UN01008490"
         },
         {
             "@id": "edi3:SensorValueMeasure",
@@ -1876,15 +1884,6 @@
             "rdfs:domain": "edi3:Declaration",
             "rdfs:label": "Exchanged_ Declaration. Customs Value_ Specified. Amount",
             "edi3:cefactID": "UN01011015"
-        },
-        {
-            "@id": "edi3:PaymentMeans",
-            "@type": "rdfs:Property",
-            "rdfs:range": "edi3:PaymentMeans",
-            "rdfs:comment": "A payment means specified for this header trade settlement.",
-            "rdfs:domain": "edi3:HeaderTradeSettlement",
-            "rdfs:label": "Header_ Trade Settlement. Specified. Trade Settlement_ Payment Means",
-            "edi3:cefactID": "UN01011671"
         },
         {
             "@id": "edi3:TradeSettlementHeaderMonetarySummationGrandTotalAmount",
@@ -2758,6 +2757,15 @@
             "rdfs:domain": "edi3:SupplyChainTradeLineItem",
             "rdfs:label": "Supply Chain_ Trade Line Item. Identification. Identifier",
             "edi3:cefactID": "UN01004418"
+        },
+        {
+            "@id": "edi3:SpecifiedGeographicalGrid",
+            "@type": "rdfs:Property",
+            "rdfs:range": "edi3:GeographicalGrid",
+            "rdfs:comment": "The geographical grid included in this geographical feature.",
+            "rdfs:domain": "edi3:GeographicalFeature",
+            "rdfs:label": "Specified_ Geographical Feature. Included. Specified_ Geographical Grid",
+            "edi3:cefactID": "UN01012179"
         },
         {
             "@id": "edi3:LineTradeDeliveryFinalDeliveryIndicator",
@@ -4380,15 +4388,6 @@
             "edi3:cefactID": "UN01011126"
         },
         {
-            "@id": "edi3:ServiceCharge",
-            "@type": "rdfs:Property",
-            "rdfs:range": "edi3:ServiceCharge",
-            "rdfs:comment": "A logistics service charge applicable to this supply chain consignment item.",
-            "rdfs:domain": "edi3:ConsignmentItem",
-            "rdfs:label": "Supply Chain_ Consignment Item. Applicable. Logistics_ Service Charge",
-            "edi3:cefactID": "UN01004154"
-        },
-        {
             "@id": "edi3:RecyclingProcedureText",
             "@type": "rdfs:Property",
             "rdfs:range": "xsd:string",
@@ -5163,6 +5162,15 @@
             "edi3:cefactID": "UN01008986"
         },
         {
+            "@id": "edi3:SupplyChainProductGroup",
+            "@type": "rdfs:Property",
+            "rdfs:range": "edi3:ProductGroup",
+            "rdfs:comment": "A product group included in this supply chain trade transaction.",
+            "rdfs:domain": "edi3:SupplyChainTradeTransaction",
+            "rdfs:label": "Supply Chain_ Trade Transaction. Included. Trade_ Product Group",
+            "edi3:cefactID": "UN01011867"
+        },
+        {
             "@id": "edi3:TransportEquipmentRiskRelatedCode",
             "@type": "rdfs:Property",
             "rdfs:range": "xsd:token",
@@ -5262,6 +5270,15 @@
             "edi3:cefactID": "UN01004137"
         },
         {
+            "@id": "edi3:HeaderPaymentMeans",
+            "@type": "rdfs:Property",
+            "rdfs:range": "edi3:PaymentMeans",
+            "rdfs:comment": "A payment means specified for this header trade settlement.",
+            "rdfs:domain": "edi3:HeaderTradeSettlement",
+            "rdfs:label": "Header_ Trade Settlement. Specified. Trade Settlement_ Payment Means",
+            "edi3:cefactID": "UN01011671"
+        },
+        {
             "@id": "edi3:NextDeliveryEvent",
             "@type": "rdfs:Property",
             "rdfs:range": "edi3:Event",
@@ -5296,6 +5313,15 @@
             "rdfs:domain": "edi3:LineTradeDelivery",
             "rdfs:label": "Line_ Trade Delivery. Packing List. Referenced_ Document",
             "edi3:cefactID": "UN01011938"
+        },
+        {
+            "@id": "edi3:LineMarketplace",
+            "@type": "rdfs:Property",
+            "rdfs:range": "edi3:Marketplace",
+            "rdfs:comment": "A marketplace included in this line trade agreement.",
+            "rdfs:domain": "edi3:LineTradeAgreement",
+            "rdfs:label": "Line_ Trade Agreement. Included. Specified_ Marketplace",
+            "edi3:cefactID": "UN01011752"
         },
         {
             "@id": "edi3:LineTradeAgreementBuyerRequisitioner",
@@ -5685,6 +5711,15 @@
             "edi3:cefactID": "UN01003703"
         },
         {
+            "@id": "edi3:TradePaymentDiscountTerms",
+            "@type": "rdfs:Property",
+            "rdfs:range": "edi3:PaymentDiscountTerms",
+            "rdfs:comment": "Trade payment discount terms applicable to these trade payment terms.",
+            "rdfs:domain": "edi3:PaymentTerms",
+            "rdfs:label": "Trade_ Payment Terms. Applicable. Trade_ Payment Discount Terms",
+            "edi3:cefactID": "UN01004640"
+        },
+        {
             "@id": "edi3:GroupedWorkItemTotalCalculatedPrice",
             "@type": "rdfs:Property",
             "rdfs:range": "edi3:CalculatedPrice",
@@ -5845,15 +5880,6 @@
             "rdfs:domain": "edi3:Project",
             "rdfs:label": "Procuring_ Project. Works Type. Code",
             "edi3:cefactID": "UN01000375"
-        },
-        {
-            "@id": "edi3:GeographicalCoordinate",
-            "@type": "rdfs:Property",
-            "rdfs:range": "edi3:GeographicalCoordinate",
-            "rdfs:comment": "An identification of a set of geographical coordinates for this trade address.",
-            "rdfs:domain": "edi3:TradeAddress",
-            "rdfs:label": "Trade_ Address. Geo-Coordinate Identification. Geographical Coordinate",
-            "edi3:cefactID": "UN01004553"
         },
         {
             "@id": "edi3:PaymentPenaltyTermsBasisAmount",
@@ -6039,10 +6065,10 @@
             "@id": "edi3:LineTradeDelivery",
             "@type": "rdfs:Property",
             "rdfs:range": "edi3:LineTradeDelivery",
-            "rdfs:comment": "The line trade delivery specified for this supply chain trade line item.",
-            "rdfs:domain": "edi3:SupplyChainTradeLineItem",
-            "rdfs:label": "Supply Chain_ Trade Line Item. Specified. Line_ Trade Delivery",
-            "edi3:cefactID": "UN01011863"
+            "rdfs:comment": "A trade delivery applicable to this line trade transaction.",
+            "rdfs:domain": "edi3:LineTradeTransaction",
+            "rdfs:label": "Line_ Trade Transaction. Applicable. Line_ Trade Delivery",
+            "edi3:cefactID": "UN01011826"
         },
         {
             "@id": "edi3:DeliveryInstructionsDescriptionCode",
@@ -6349,6 +6375,15 @@
             "rdfs:domain": "edi3:LineTradeDelivery",
             "rdfs:label": "Line_ Trade Delivery. Despatch. Supply Chain_ Schedule",
             "edi3:cefactID": "UN01013019"
+        },
+        {
+            "@id": "edi3:TradeCertification",
+            "@type": "rdfs:Property",
+            "rdfs:range": "edi3:Certification",
+            "rdfs:comment": "A certification applicable to this trade product.",
+            "rdfs:domain": "edi3:TradeProduct",
+            "rdfs:label": "Trade_ Product. Applicable. Trade Product_ Certification",
+            "edi3:cefactID": "UN01008539"
         },
         {
             "@id": "edi3:CreditorFinancialInstitutionJapanFinancialInstitutionCommonID",
@@ -7195,6 +7230,15 @@
             "rdfs:domain": "edi3:CommunicationEvent",
             "rdfs:label": "Communication_ Event. Reason. Code",
             "edi3:cefactID": "UN01013566"
+        },
+        {
+            "@id": "edi3:SpecifiedGeographicalSurface",
+            "@type": "rdfs:Property",
+            "rdfs:range": "edi3:GeographicalSurface",
+            "rdfs:comment": "The geographical surface included in this geographical feature.",
+            "rdfs:domain": "edi3:GeographicalFeature",
+            "rdfs:label": "Specified_ Geographical Feature. Included. Specified_ Geographical Surface",
+            "edi3:cefactID": "UN01012174"
         },
         {
             "@id": "edi3:LineTradeAgreementSalesConditionsDocument",
@@ -8259,6 +8303,15 @@
             "edi3:cefactID": "UN01011056"
         },
         {
+            "@id": "edi3:SupplyChainTransportMeans",
+            "@type": "rdfs:Property",
+            "rdfs:range": "edi3:LogisticsTransportMeans",
+            "rdfs:comment": "The means of transport applicable to this supply chain consignment item.",
+            "rdfs:domain": "edi3:ConsignmentItem",
+            "rdfs:label": "Supply Chain_ Consignment Item. Applicable. Logistics_ Transport Means",
+            "edi3:cefactID": "UN01004150"
+        },
+        {
             "@id": "edi3:ResponseDateTime",
             "@type": "rdfs:Property",
             "rdfs:range": "xsd:dateTime",
@@ -8311,6 +8364,15 @@
             "rdfs:domain": "edi3:BreakdownStatement",
             "rdfs:label": "Valuation_ Breakdown Statement. Default_ Language. Code",
             "edi3:cefactID": "UN01007552"
+        },
+        {
+            "@id": "edi3:SupplyChainMarking",
+            "@type": "rdfs:Property",
+            "rdfs:range": "edi3:Marking",
+            "rdfs:comment": "A marking specified for this supply chain packaging, such as an inscription, stamp or label to indicate date, ownership, quality, manufacture or origin.",
+            "rdfs:domain": "edi3:Packaging",
+            "rdfs:label": "Supply Chain_ Packaging. Specified. Packaging_ Marking",
+            "edi3:cefactID": "UN01004323"
         },
         {
             "@id": "edi3:IncludedClause",
@@ -8896,15 +8958,6 @@
             "rdfs:domain": "edi3:SupplyChainInventory",
             "rdfs:label": "Supply Chain_ Inventory. Planned_ Stock. Quantity",
             "edi3:cefactID": "UN01008437"
-        },
-        {
-            "@id": "edi3:TradeAgreement",
-            "@type": "rdfs:Property",
-            "rdfs:range": "edi3:LineTradeAgreement",
-            "rdfs:comment": "A trade agreement applicable to this line trade transaction, such as payment or delivery terms.",
-            "rdfs:domain": "edi3:LineTradeTransaction",
-            "rdfs:label": "Line_ Trade Transaction. Applicable. Line_ Trade Agreement",
-            "edi3:cefactID": "UN01011825"
         },
         {
             "@id": "edi3:SourceUnitBasis",
@@ -9978,6 +10031,15 @@
             "edi3:cefactID": "UN01004570"
         },
         {
+            "@id": "edi3:TransportSettingInstructions",
+            "@type": "rdfs:Property",
+            "rdfs:range": "edi3:TemperatureSettingInstructions",
+            "rdfs:comment": "Informational instructions for achieving, maintaining, using or responding to this transport setting temperature.",
+            "rdfs:domain": "edi3:TransportSettingTemperature",
+            "rdfs:label": "Transport Setting_ Temperature. Information. Temperature Setting_ Instructions",
+            "edi3:cefactID": "UN01004751"
+        },
+        {
             "@id": "edi3:PaymentDiscountTermsBasisPeriodMeasure",
             "@type": "rdfs:Property",
             "rdfs:range": "xsd:decimal",
@@ -10554,6 +10616,15 @@
             "edi3:cefactID": "UN01010057"
         },
         {
+            "@id": "edi3:SpecifiedGeographicalMultiSurface",
+            "@type": "rdfs:Property",
+            "rdfs:range": "edi3:GeographicalMultiSurface",
+            "rdfs:comment": "The geographical multi-surface included in this geographical feature.",
+            "rdfs:domain": "edi3:GeographicalFeature",
+            "rdfs:label": "Specified_ Geographical Feature. Included. Specified_ Geographical Multi-Surface",
+            "edi3:cefactID": "UN01012177"
+        },
+        {
             "@id": "edi3:ProductionID",
             "@type": "rdfs:Property",
             "rdfs:range": "xsd:token",
@@ -10968,15 +11039,6 @@
             "edi3:cefactID": "UN01004185"
         },
         {
-            "@id": "edi3:Packaging",
-            "@type": "rdfs:Property",
-            "rdfs:range": "edi3:Packaging",
-            "rdfs:comment": "Packaging applicable for use with this trade product.",
-            "rdfs:domain": "edi3:TradeProduct",
-            "rdfs:label": "Trade_ Product. Applicable. Supply Chain_ Packaging",
-            "edi3:cefactID": "UN01004700"
-        },
-        {
             "@id": "edi3:SubordinateSubordinateLocationPhysicalGeographicalCoordinate",
             "@type": "rdfs:Property",
             "rdfs:range": "edi3:GeographicalCoordinate",
@@ -11137,6 +11199,15 @@
             "rdfs:domain": "edi3:AvailablePeriod",
             "rdfs:label": "Available_ Period. Start. Date Time",
             "edi3:cefactID": "UN01005109"
+        },
+        {
+            "@id": "edi3:SpecifiedGeographicalMultiCurve",
+            "@type": "rdfs:Property",
+            "rdfs:range": "edi3:GeographicalMultiCurve",
+            "rdfs:comment": "The geographical multi-curve included in this geographical feature.",
+            "rdfs:domain": "edi3:GeographicalFeature",
+            "rdfs:label": "Specified_ Geographical Feature. Included. Specified_ Geographical Multi-Curve",
+            "edi3:cefactID": "UN01012176"
         },
         {
             "@id": "edi3:MeasurementMethodCode",
@@ -11751,15 +11822,6 @@
             "edi3:cefactID": "UN01000039"
         },
         {
-            "@id": "edi3:TradeDelivery",
-            "@type": "rdfs:Property",
-            "rdfs:range": "edi3:LineTradeDelivery",
-            "rdfs:comment": "A trade delivery applicable to this line trade transaction.",
-            "rdfs:domain": "edi3:LineTradeTransaction",
-            "rdfs:label": "Line_ Trade Transaction. Applicable. Line_ Trade Delivery",
-            "edi3:cefactID": "UN01011826"
-        },
-        {
             "@id": "edi3:TradeSettlementLineMonetarySummationTaxBasisTotalAmount",
             "@type": "rdfs:Property",
             "rdfs:range": "xsd:decimal",
@@ -12127,24 +12189,6 @@
             "rdfs:domain": "edi3:Note",
             "rdfs:label": "Note. Subject. Code",
             "edi3:cefactID": "UN01002523"
-        },
-        {
-            "@id": "edi3:Event",
-            "@type": "rdfs:Property",
-            "rdfs:range": "edi3:Event",
-            "rdfs:comment": "A transport event specified for this logistics transport movement.",
-            "rdfs:domain": "edi3:TransportMovement",
-            "rdfs:label": "Logistics_ Transport Movement. Specified. Transport_ Event",
-            "edi3:cefactID": "UN01012569"
-        },
-        {
-            "@id": "edi3:GeographicalMultiCurve",
-            "@type": "rdfs:Property",
-            "rdfs:range": "edi3:GeographicalMultiCurve",
-            "rdfs:comment": "The geographical multi-curve included in this geographical feature.",
-            "rdfs:domain": "edi3:GeographicalFeature",
-            "rdfs:label": "Specified_ Geographical Feature. Included. Specified_ Geographical Multi-Curve",
-            "edi3:cefactID": "UN01012176"
         },
         {
             "@id": "edi3:TradeTaxTypeCode",
@@ -12743,20 +12787,20 @@
         {
             "@id": "edi3:SupplyChainSupplyChainSupplyChainTradeLineItemReferencedLogisticsPackage",
             "@type": "rdfs:Property",
-            "rdfs:range": "edi3:ReferencedPackage",
-            "rdfs:comment": "A physical logistics package referenced for this supply chain trade line item.",
-            "rdfs:domain": "edi3:SupplyChainTradeLineItem",
-            "rdfs:label": "Supply Chain_ Trade Line Item. Physical. Referenced_ Logistics_ Package",
-            "edi3:cefactID": "UN01011865"
-        },
-        {
-            "@id": "edi3:SupplyChainSupplyChainSupplyChainTradeLineItemReferencedLogisticsPackage",
-            "@type": "rdfs:Property",
             "rdfs:range": "edi3:Package",
             "rdfs:comment": "A logistics package referenced in this supply chain trade line item.",
             "rdfs:domain": "edi3:SupplyChainTradeLineItem",
             "rdfs:label": "Supply Chain_ Trade Line Item. Referenced. Logistics_ Package",
             "edi3:cefactID": "UN01012984"
+        },
+        {
+            "@id": "edi3:SupplyChainSupplyChainSupplyChainTradeLineItemReferencedLogisticsPackage",
+            "@type": "rdfs:Property",
+            "rdfs:range": "edi3:ReferencedPackage",
+            "rdfs:comment": "A physical logistics package referenced for this supply chain trade line item.",
+            "rdfs:domain": "edi3:SupplyChainTradeLineItem",
+            "rdfs:label": "Supply Chain_ Trade Line Item. Physical. Referenced_ Logistics_ Package",
+            "edi3:cefactID": "UN01011865"
         },
         {
             "@id": "edi3:ReferencedConsignmentPreCarriageTransportMovement",
@@ -13722,6 +13766,15 @@
             "edi3:cefactID": "UN01013006"
         },
         {
+            "@id": "edi3:SupplyChainServiceCharge",
+            "@type": "rdfs:Property",
+            "rdfs:range": "edi3:ServiceCharge",
+            "rdfs:comment": "A logistics service charge applicable to this supply chain consignment item.",
+            "rdfs:domain": "edi3:ConsignmentItem",
+            "rdfs:label": "Supply Chain_ Consignment Item. Applicable. Logistics_ Service Charge",
+            "edi3:cefactID": "UN01004154"
+        },
+        {
             "@id": "edi3:ConsignmentStorageEvent",
             "@type": "rdfs:Property",
             "rdfs:range": "edi3:Event",
@@ -13828,15 +13881,6 @@
             "rdfs:domain": "edi3:ExchangedDocument",
             "rdfs:label": "Exchanged_ Document. Original Required. Quantity",
             "edi3:cefactID": "UN01003557"
-        },
-        {
-            "@id": "edi3:Keyword",
-            "@type": "rdfs:Property",
-            "rdfs:range": "edi3:Keyword",
-            "rdfs:comment": "A keyword applicable to this trade product.",
-            "rdfs:domain": "edi3:TradeProduct",
-            "rdfs:label": "Trade_ Product. Applicable. Keyword",
-            "edi3:cefactID": "UN01007281"
         },
         {
             "@id": "edi3:AgencyID",
@@ -13956,15 +14000,6 @@
             "edi3:cefactID": "UN01008296"
         },
         {
-            "@id": "edi3:Marketplace",
-            "@type": "rdfs:Property",
-            "rdfs:range": "edi3:Marketplace",
-            "rdfs:comment": "A marketplace included in this line trade agreement.",
-            "rdfs:domain": "edi3:LineTradeAgreement",
-            "rdfs:label": "Line_ Trade Agreement. Included. Specified_ Marketplace",
-            "edi3:cefactID": "UN01011752"
-        },
-        {
             "@id": "edi3:OEMInterfaceEquipment",
             "@type": "rdfs:Property",
             "rdfs:range": "edi3:Equipment",
@@ -13999,6 +14034,15 @@
             "rdfs:domain": "edi3:LineTradeAgreement",
             "rdfs:label": "Line_ Trade Agreement. Marketplace_ Order. Referenced_ Document",
             "edi3:cefactID": "UN01011714"
+        },
+        {
+            "@id": "edi3:TradePerson",
+            "@type": "rdfs:Property",
+            "rdfs:range": "edi3:ContactPerson",
+            "rdfs:comment": "The contact person specified for this trade contact.",
+            "rdfs:domain": "edi3:Contact",
+            "rdfs:label": "Trade_ Contact. Specified. Contact_ Person",
+            "edi3:cefactID": "UN01008317"
         },
         {
             "@id": "edi3:SubordinateLineTradeDeliveryProductUnitQuantity",
@@ -14260,15 +14304,6 @@
             "rdfs:domain": "edi3:TradeProduct",
             "rdfs:label": "Trade_ Product. Attached. Product_ Security Tag",
             "edi3:cefactID": "UN01007278"
-        },
-        {
-            "@id": "edi3:Characteristic",
-            "@type": "rdfs:Property",
-            "rdfs:range": "edi3:Characteristic",
-            "rdfs:comment": "A characteristic applicable to this trade product.",
-            "rdfs:domain": "edi3:TradeProduct",
-            "rdfs:label": "Trade_ Product. Applicable. Product_ Characteristic",
-            "edi3:cefactID": "UN01004694"
         },
         {
             "@id": "edi3:AdditionalClearingSystemID",
@@ -14604,15 +14639,6 @@
             "edi3:cefactID": "UN01011873"
         },
         {
-            "@id": "edi3:CargoInsurance",
-            "@type": "rdfs:Property",
-            "rdfs:range": "edi3:CargoInsurance",
-            "rdfs:comment": "The cargo insurance applicable to this supply chain consignment.",
-            "rdfs:domain": "edi3:Consignment",
-            "rdfs:label": "Supply Chain_ Consignment. Applicable. Transport_ Cargo Insurance",
-            "edi3:cefactID": "UN01004277"
-        },
-        {
             "@id": "edi3:MiddleName",
             "@type": "rdfs:Property",
             "rdfs:range": "xsd:string",
@@ -14739,6 +14765,15 @@
             "edi3:cefactID": "UN01004707"
         },
         {
+            "@id": "edi3:TradePackaging",
+            "@type": "rdfs:Property",
+            "rdfs:range": "edi3:Packaging",
+            "rdfs:comment": "Packaging applicable for use with this trade product.",
+            "rdfs:domain": "edi3:TradeProduct",
+            "rdfs:label": "Trade_ Product. Applicable. Supply Chain_ Packaging",
+            "edi3:cefactID": "UN01004700"
+        },
+        {
             "@id": "edi3:PaymentTermsID",
             "@type": "rdfs:Property",
             "rdfs:range": "xsd:token",
@@ -14854,6 +14889,24 @@
             "rdfs:domain": "edi3:TradePrice",
             "rdfs:label": "Trade_ Price. Delivery. Trade_ Location",
             "edi3:cefactID": "UN01007237"
+        },
+        {
+            "@id": "edi3:TradePaymentPenaltyTerms",
+            "@type": "rdfs:Property",
+            "rdfs:range": "edi3:PaymentPenaltyTerms",
+            "rdfs:comment": "Trade payment penalty terms applicable to these trade payment terms.",
+            "rdfs:domain": "edi3:PaymentTerms",
+            "rdfs:label": "Trade_ Payment Terms. Applicable. Trade_ Payment Penalty Terms",
+            "edi3:cefactID": "UN01004639"
+        },
+        {
+            "@id": "edi3:TradeCharacteristic",
+            "@type": "rdfs:Property",
+            "rdfs:range": "edi3:Characteristic",
+            "rdfs:comment": "A characteristic applicable to this trade product.",
+            "rdfs:domain": "edi3:TradeProduct",
+            "rdfs:label": "Trade_ Product. Applicable. Product_ Characteristic",
+            "edi3:cefactID": "UN01004694"
         },
         {
             "@id": "edi3:SpecifiedPeriodName",
@@ -16548,15 +16601,6 @@
             "edi3:cefactID": "UN01006136"
         },
         {
-            "@id": "edi3:Person",
-            "@type": "rdfs:Property",
-            "rdfs:range": "edi3:ContactPerson",
-            "rdfs:comment": "The contact person specified for this trade contact.",
-            "rdfs:domain": "edi3:Contact",
-            "rdfs:label": "Trade_ Contact. Specified. Contact_ Person",
-            "edi3:cefactID": "UN01008317"
-        },
-        {
             "@id": "edi3:TareWeight",
             "@type": "rdfs:Property",
             "rdfs:range": "xsd:decimal",
@@ -16987,15 +17031,6 @@
             "rdfs:domain": "edi3:DebtorFinancialInstitution",
             "rdfs:label": "Debtor_ Financial Institution. Indian Financial System_ Identification. Identifier",
             "edi3:cefactID": "UN01002861"
-        },
-        {
-            "@id": "edi3:ForecastTerms",
-            "@type": "rdfs:Property",
-            "rdfs:range": "edi3:ForecastTerms",
-            "rdfs:comment": "The supply chain forecast terms applicable to this line trade agreement.",
-            "rdfs:domain": "edi3:LineTradeAgreement",
-            "rdfs:label": "Line_ Trade Agreement. Applicable. Supply Chain_ Forecast Terms",
-            "edi3:cefactID": "UN01012562"
         },
         {
             "@id": "edi3:GeographicalFeaturePolygon",
@@ -18447,6 +18482,15 @@
             "edi3:cefactID": "UN01004692"
         },
         {
+            "@id": "edi3:GroupedBinaryFile",
+            "@type": "rdfs:Property",
+            "rdfs:range": "edi3:BinaryFile",
+            "rdfs:comment": "A specified binary file referenced by this grouped work item.",
+            "rdfs:domain": "edi3:GroupedWorkItem",
+            "rdfs:label": "Grouped_ Work Item. Referenced. Specified_ Binary File",
+            "edi3:cefactID": "UN01011538"
+        },
+        {
             "@id": "edi3:FinancingSummaryDocumentSpecifiedCreditorFinancialAccount",
             "@type": "rdfs:Property",
             "rdfs:range": "edi3:CreditorFinancialAccount",
@@ -18627,15 +18671,6 @@
             "edi3:cefactID": "UN01007191"
         },
         {
-            "@id": "edi3:PaymentPenaltyTerms",
-            "@type": "rdfs:Property",
-            "rdfs:range": "edi3:PaymentPenaltyTerms",
-            "rdfs:comment": "Trade payment penalty terms applicable to these trade payment terms.",
-            "rdfs:domain": "edi3:PaymentTerms",
-            "rdfs:label": "Trade_ Payment Terms. Applicable. Trade_ Payment Penalty Terms",
-            "edi3:cefactID": "UN01004639"
-        },
-        {
             "@id": "edi3:TradeAddressCountrySubDivisionCode",
             "@type": "rdfs:Property",
             "rdfs:range": "xsd:token",
@@ -18742,6 +18777,15 @@
             "rdfs:domain": "edi3:QuantityAnalysis",
             "rdfs:label": "Work Item_ Quantity Analysis. Status. Code",
             "edi3:cefactID": "UN01000020"
+        },
+        {
+            "@id": "edi3:TradeClassification",
+            "@type": "rdfs:Property",
+            "rdfs:range": "edi3:Classification",
+            "rdfs:comment": "A product classification designated for this trade product.",
+            "rdfs:domain": "edi3:TradeProduct",
+            "rdfs:label": "Trade_ Product. Designated. Product_ Classification",
+            "edi3:cefactID": "UN01004696"
         },
         {
             "@id": "edi3:MinimumOrderQuantityOrderingPeriod",
@@ -19437,15 +19481,6 @@
             "edi3:cefactID": "UN01011932"
         },
         {
-            "@id": "edi3:Classification",
-            "@type": "rdfs:Property",
-            "rdfs:range": "edi3:Classification",
-            "rdfs:comment": "A product classification designated for this trade product.",
-            "rdfs:domain": "edi3:TradeProduct",
-            "rdfs:label": "Trade_ Product. Designated. Product_ Classification",
-            "edi3:cefactID": "UN01004696"
-        },
-        {
             "@id": "edi3:MaximumOrderQuantityOrderingPeriod",
             "@type": "rdfs:Property",
             "rdfs:range": "edi3:SpecifiedPeriod",
@@ -19779,15 +19814,6 @@
             "edi3:cefactID": "UN01004288"
         },
         {
-            "@id": "edi3:PaymentDiscountTerms",
-            "@type": "rdfs:Property",
-            "rdfs:range": "edi3:PaymentDiscountTerms",
-            "rdfs:comment": "Trade payment discount terms applicable to these trade payment terms.",
-            "rdfs:domain": "edi3:PaymentTerms",
-            "rdfs:label": "Trade_ Payment Terms. Applicable. Trade_ Payment Discount Terms",
-            "edi3:cefactID": "UN01004640"
-        },
-        {
             "@id": "edi3:SupportCentre",
             "@type": "rdfs:Property",
             "rdfs:range": "edi3:TradeParty",
@@ -19966,15 +19992,6 @@
             "rdfs:domain": "edi3:ReferencedTransportEquipment",
             "rdfs:label": "Referenced_ Logistics_ Transport Equipment. Affixed. Logistics_ Seal",
             "edi3:cefactID": "UN01013180"
-        },
-        {
-            "@id": "edi3:BinaryFile",
-            "@type": "rdfs:Property",
-            "rdfs:range": "edi3:BinaryFile",
-            "rdfs:comment": "A specified binary file referenced by this grouped work item.",
-            "rdfs:domain": "edi3:GroupedWorkItem",
-            "rdfs:label": "Grouped_ Work Item. Referenced. Specified_ Binary File",
-            "edi3:cefactID": "UN01011538"
         },
         {
             "@id": "edi3:GeographicalCoordinateUsedGeographicalCoordinateSourceSystem",
@@ -20823,15 +20840,6 @@
             "edi3:cefactID": "UN01013615"
         },
         {
-            "@id": "edi3:GeographicalGrid",
-            "@type": "rdfs:Property",
-            "rdfs:range": "edi3:GeographicalGrid",
-            "rdfs:comment": "The geographical grid included in this geographical feature.",
-            "rdfs:domain": "edi3:GeographicalFeature",
-            "rdfs:label": "Specified_ Geographical Feature. Included. Specified_ Geographical Grid",
-            "edi3:cefactID": "UN01012179"
-        },
-        {
             "@id": "edi3:PlusToleranceQuantity",
             "@type": "rdfs:Property",
             "rdfs:range": "xsd:decimal",
@@ -20938,15 +20946,6 @@
             "rdfs:domain": "edi3:Product",
             "rdfs:label": "Referenced_ Product. Manufacturer Assigned_ Identification. Identifier",
             "edi3:cefactID": "UN01004032"
-        },
-        {
-            "@id": "edi3:GeographicalSurface",
-            "@type": "rdfs:Property",
-            "rdfs:range": "edi3:GeographicalSurface",
-            "rdfs:comment": "The geographical surface included in this geographical feature.",
-            "rdfs:domain": "edi3:GeographicalFeature",
-            "rdfs:label": "Specified_ Geographical Feature. Included. Specified_ Geographical Surface",
-            "edi3:cefactID": "UN01012174"
         },
         {
             "@id": "edi3:LineTradeAgreementTargetMarketCountry",
@@ -21390,15 +21389,6 @@
             "edi3:cefactID": "UN01003848"
         },
         {
-            "@id": "edi3:SpatialDimensionDescription",
-            "@type": "rdfs:Property",
-            "rdfs:range": "xsd:string",
-            "rdfs:comment": "A textual description of this spatial dimension.",
-            "rdfs:domain": "edi3:SpatialDimension",
-            "rdfs:label": "Spatial_ Dimension. Description. Text",
-            "edi3:cefactID": "UN01004078"
-        },
-        {
             "@id": "edi3:RouteDescription",
             "@type": "rdfs:Property",
             "rdfs:range": "xsd:string",
@@ -21406,6 +21396,15 @@
             "rdfs:domain": "edi3:Route",
             "rdfs:label": "Transport_ Route. Description. Text",
             "edi3:cefactID": "UN01004824"
+        },
+        {
+            "@id": "edi3:SpatialDimensionDescription",
+            "@type": "rdfs:Property",
+            "rdfs:range": "xsd:string",
+            "rdfs:comment": "A textual description of this spatial dimension.",
+            "rdfs:domain": "edi3:SpatialDimension",
+            "rdfs:label": "Spatial_ Dimension. Description. Text",
+            "edi3:cefactID": "UN01004078"
         },
         {
             "@id": "edi3:ValidationStatusConditionCode",
@@ -21550,6 +21549,15 @@
             "rdfs:domain": "edi3:RegulatoryProcedure",
             "rdfs:label": "Cross-Border_ Regulatory Procedure. Category. Code",
             "edi3:cefactID": "UN01006171"
+        },
+        {
+            "@id": "edi3:SupplyChainCargoInsurance",
+            "@type": "rdfs:Property",
+            "rdfs:range": "edi3:CargoInsurance",
+            "rdfs:comment": "The cargo insurance applicable to this supply chain consignment.",
+            "rdfs:domain": "edi3:Consignment",
+            "rdfs:label": "Supply Chain_ Consignment. Applicable. Transport_ Cargo Insurance",
+            "edi3:cefactID": "UN01004277"
         },
         {
             "@id": "edi3:FinancialInstitutionAddressTypeCode",
@@ -21739,15 +21747,6 @@
             "rdfs:domain": "edi3:GroupedWorkItem",
             "rdfs:label": "Grouped_ Work Item. Item. Grouped_ Work Item",
             "edi3:cefactID": "UN01007568"
-        },
-        {
-            "@id": "edi3:Version",
-            "@type": "rdfs:Property",
-            "rdfs:range": "edi3:Version",
-            "rdfs:comment": "The document version specified for this document context parameter.",
-            "rdfs:domain": "edi3:DocumentContextParameter",
-            "rdfs:label": "Document Context_ Parameter. Specified. Document_ Version",
-            "edi3:cefactID": "UN01004855"
         },
         {
             "@id": "edi3:TradeSettlementHeaderMonetarySummationTaxTotalAmount",
@@ -22074,6 +22073,15 @@
             "edi3:cefactID": "UN01003793"
         },
         {
+            "@id": "edi3:DocumentContextVersion",
+            "@type": "rdfs:Property",
+            "rdfs:range": "edi3:Version",
+            "rdfs:comment": "The document version specified for this document context parameter.",
+            "rdfs:domain": "edi3:DocumentContextParameter",
+            "rdfs:label": "Document Context_ Parameter. Specified. Document_ Version",
+            "edi3:cefactID": "UN01004855"
+        },
+        {
             "@id": "edi3:PartyRiskRelatedCode",
             "@type": "rdfs:Property",
             "rdfs:range": "xsd:token",
@@ -22234,15 +22242,6 @@
             "rdfs:domain": "edi3:PaymentTradeSettlement",
             "rdfs:label": "Payment_ Trade Settlement. Specified. Trade Settlement_ Payment Means",
             "edi3:cefactID": "UN01011841"
-        },
-        {
-            "@id": "edi3:Marking",
-            "@type": "rdfs:Property",
-            "rdfs:range": "edi3:Marking",
-            "rdfs:comment": "A marking specified for this supply chain packaging, such as an inscription, stamp or label to indicate date, ownership, quality, manufacture or origin.",
-            "rdfs:domain": "edi3:Packaging",
-            "rdfs:label": "Supply Chain_ Packaging. Specified. Packaging_ Marking",
-            "edi3:cefactID": "UN01004323"
         },
         {
             "@id": "edi3:MaximumValueMeasure",
@@ -22578,6 +22577,15 @@
             "edi3:cefactID": "UN01003742"
         },
         {
+            "@id": "edi3:TradeKeyword",
+            "@type": "rdfs:Property",
+            "rdfs:range": "edi3:Keyword",
+            "rdfs:comment": "A keyword applicable to this trade product.",
+            "rdfs:domain": "edi3:TradeProduct",
+            "rdfs:label": "Trade_ Product. Applicable. Keyword",
+            "edi3:cefactID": "UN01007281"
+        },
+        {
             "@id": "edi3:UsedLogisticsLabel",
             "@type": "rdfs:Property",
             "rdfs:range": "edi3:Label",
@@ -22585,6 +22593,15 @@
             "rdfs:domain": "edi3:LineTradeDelivery",
             "rdfs:label": "Line_ Trade Delivery. Used. Logistics_ Label",
             "edi3:cefactID": "UN01012670"
+        },
+        {
+            "@id": "edi3:LineForecastTerms",
+            "@type": "rdfs:Property",
+            "rdfs:range": "edi3:ForecastTerms",
+            "rdfs:comment": "The supply chain forecast terms applicable to this line trade agreement.",
+            "rdfs:domain": "edi3:LineTradeAgreement",
+            "rdfs:label": "Line_ Trade Agreement. Applicable. Supply Chain_ Forecast Terms",
+            "edi3:cefactID": "UN01012562"
         },
         {
             "@id": "edi3:EstimatedServiceCharge",
@@ -23298,15 +23315,6 @@
             "edi3:cefactID": "UN01006019"
         },
         {
-            "@id": "edi3:GoodsCharacteristic",
-            "@type": "rdfs:Property",
-            "rdfs:range": "edi3:GoodsCharacteristic",
-            "rdfs:comment": "Material goods characteristic applicable to this supply chain packaging.",
-            "rdfs:domain": "edi3:Packaging",
-            "rdfs:label": "Supply Chain_ Packaging. Applicable. Material_ Goods Characteristic",
-            "edi3:cefactID": "UN01008490"
-        },
-        {
             "@id": "edi3:TradePartyAssociatedParty",
             "@type": "rdfs:Property",
             "rdfs:range": "edi3:TradeParty",
@@ -23404,15 +23412,6 @@
             "rdfs:domain": "edi3:CancellationStatus",
             "rdfs:label": "Cancellation_ Status. Reason. Text",
             "edi3:cefactID": "UN01013199"
-        },
-        {
-            "@id": "edi3:Certification",
-            "@type": "rdfs:Property",
-            "rdfs:range": "edi3:Certification",
-            "rdfs:comment": "A certification applicable to this trade product.",
-            "rdfs:domain": "edi3:TradeProduct",
-            "rdfs:label": "Trade_ Product. Applicable. Trade Product_ Certification",
-            "edi3:cefactID": "UN01008539"
         },
         {
             "@id": "edi3:ServiceID",
@@ -23757,15 +23756,6 @@
             "edi3:cefactID": "UN01011597"
         },
         {
-            "@id": "edi3:TransportMeans",
-            "@type": "rdfs:Property",
-            "rdfs:range": "edi3:LogisticsTransportMeans",
-            "rdfs:comment": "The means of transport applicable to this supply chain consignment item.",
-            "rdfs:domain": "edi3:ConsignmentItem",
-            "rdfs:label": "Supply Chain_ Consignment Item. Applicable. Logistics_ Transport Means",
-            "edi3:cefactID": "UN01004150"
-        },
-        {
             "@id": "edi3:TransportEquipmentManufacturngDateTime",
             "@type": "rdfs:Property",
             "rdfs:range": "xsd:dateTime",
@@ -23899,15 +23889,6 @@
             "rdfs:domain": "edi3:ExchangedDocument",
             "rdfs:label": "Exchanged_ Document. Cancellation. Date Time",
             "edi3:cefactID": "UN01005275"
-        },
-        {
-            "@id": "edi3:ProductGroup",
-            "@type": "rdfs:Property",
-            "rdfs:range": "edi3:ProductGroup",
-            "rdfs:comment": "A product group included in this supply chain trade transaction.",
-            "rdfs:domain": "edi3:SupplyChainTradeTransaction",
-            "rdfs:label": "Supply Chain_ Trade Transaction. Included. Trade_ Product Group",
-            "edi3:cefactID": "UN01011867"
         },
         {
             "@id": "edi3:GeographicalFeatureDescription",
@@ -24261,15 +24242,6 @@
             "edi3:cefactID": "UN01004847"
         },
         {
-            "@id": "edi3:GeographicalMultiPoint",
-            "@type": "rdfs:Property",
-            "rdfs:range": "edi3:GeographicalMultiPoint",
-            "rdfs:comment": "The geographical multi-point included in this geographical feature.",
-            "rdfs:domain": "edi3:GeographicalFeature",
-            "rdfs:label": "Specified_ Geographical Feature. Included. Specified_ Geographical Multi-Point",
-            "edi3:cefactID": "UN01012175"
-        },
-        {
             "@id": "edi3:DebtorFinancialInstitutionCanadianPaymentsAssociationID",
             "@type": "rdfs:Property",
             "rdfs:range": "xsd:token",
@@ -24349,6 +24321,15 @@
             "rdfs:domain": "edi3:TransportMovement",
             "rdfs:label": "Logistics_ Transport Movement. Lifting Instructions_ Related. Referenced_ Document",
             "edi3:cefactID": "UN01003878"
+        },
+        {
+            "@id": "edi3:TradeGeographicalCoordinate",
+            "@type": "rdfs:Property",
+            "rdfs:range": "edi3:GeographicalCoordinate",
+            "rdfs:comment": "An identification of a set of geographical coordinates for this trade address.",
+            "rdfs:domain": "edi3:TradeAddress",
+            "rdfs:label": "Trade_ Address. Geo-Coordinate Identification. Geographical Coordinate",
+            "edi3:cefactID": "UN01004553"
         },
         {
             "@id": "edi3:TolerancePercent",
@@ -25980,15 +25961,6 @@
             "edi3:cefactID": "UN01013104"
         },
         {
-            "@id": "edi3:Instructions",
-            "@type": "rdfs:Property",
-            "rdfs:range": "edi3:TemperatureSettingInstructions",
-            "rdfs:comment": "Informational instructions for achieving, maintaining, using or responding to this transport setting temperature.",
-            "rdfs:domain": "edi3:TransportSettingTemperature",
-            "rdfs:label": "Transport Setting_ Temperature. Information. Temperature Setting_ Instructions",
-            "edi3:cefactID": "UN01004751"
-        },
-        {
             "@id": "edi3:SubjectText",
             "@type": "rdfs:Property",
             "rdfs:range": "xsd:string",
@@ -26331,6 +26303,15 @@
             "edi3:cefactID": "UN01004267"
         },
         {
+            "@id": "edi3:SpecifiedGeographicalMultiPoint",
+            "@type": "rdfs:Property",
+            "rdfs:range": "edi3:GeographicalMultiPoint",
+            "rdfs:comment": "The geographical multi-point included in this geographical feature.",
+            "rdfs:domain": "edi3:GeographicalFeature",
+            "rdfs:label": "Specified_ Geographical Feature. Included. Specified_ Geographical Multi-Point",
+            "edi3:cefactID": "UN01012175"
+        },
+        {
             "@id": "edi3:CommunicationEventValueMeasure",
             "@type": "rdfs:Property",
             "rdfs:range": "xsd:decimal",
@@ -26464,15 +26445,6 @@
             "rdfs:domain": "edi3:RegulatoryProcedure",
             "rdfs:label": "Cross-Border_ Regulatory Procedure. Goods Status. Code",
             "edi3:cefactID": "UN01008965"
-        },
-        {
-            "@id": "edi3:GeographicalMultiSurface",
-            "@type": "rdfs:Property",
-            "rdfs:range": "edi3:GeographicalMultiSurface",
-            "rdfs:comment": "The geographical multi-surface included in this geographical feature.",
-            "rdfs:domain": "edi3:GeographicalFeature",
-            "rdfs:label": "Specified_ Geographical Feature. Included. Specified_ Geographical Multi-Surface",
-            "edi3:cefactID": "UN01012177"
         },
         {
             "@id": "edi3:AcknowledgementDocumentName",
@@ -27382,6 +27354,15 @@
             "rdfs:domain": "edi3:TradeTax",
             "rdfs:label": "Trade_ Tax. Rate. Code",
             "edi3:cefactID": "UN01004736"
+        },
+        {
+            "@id": "edi3:LogisticsEvent",
+            "@type": "rdfs:Property",
+            "rdfs:range": "edi3:Event",
+            "rdfs:comment": "A transport event specified for this logistics transport movement.",
+            "rdfs:domain": "edi3:TransportMovement",
+            "rdfs:label": "Logistics_ Transport Movement. Specified. Transport_ Event",
+            "edi3:cefactID": "UN01012569"
         },
         {
             "@id": "edi3:AcknowledgementDocumentReferenceDocument",
