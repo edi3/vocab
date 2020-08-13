@@ -16,24 +16,6 @@ Name | Type | Definition | Unique UN Assigned ID | Dictionary Entry Name
 <span id="ProductGroupName">ProductGroupName</span> | xsd:string | The name, expressed as text, for this trade product group. | UN01011924 | Trade_ Product Group. Name. Text
 
 
-<h1 id="BirthAddress">BirthAddress</h1>
-
-Type: rdf:Class
-
-Definition: The place of birth.
-
-Unique UN Assigned ID: UN01003169
-
-Dictionary Entry Name: Birth_ Address. Details
-
-Properties: 
-
-Name | Type | Definition | Unique UN Assigned ID | Dictionary Entry Name
--|-|-|-|-
-<span id="BirthAddressCityName">BirthAddressCityName</span> | xsd:string | The name, expressed as text, of the city, town or village of this birth address. | UN01003171 | Birth_ Address. City Name. Text
-<span id="BirthAddressCountrySubDivisionName">BirthAddressCountrySubDivisionName</span> | xsd:string | The name, expressed as text, of the sub-division of a country for this birth address. | UN01003170 | Birth_ Address. Country Sub-Division Name. Text
-
-
 <h1 id="FinancialInstitutionAddress">FinancialInstitutionAddress</h1>
 
 Type: rdf:Class
@@ -84,7 +66,6 @@ Name | Type | Definition | Unique UN Assigned ID | Dictionary Entry Name
 <span id="TradeAddressLineTwo">TradeAddressLineTwo</span> | xsd:string | The second free form line, expressed as text, of this trade address. | UN01004539 | Trade_ Address. Line Two. Text
 <span id="CitySubDivisionText">CitySubDivisionText</span> | xsd:string | A name, expressed as text, of a sub-division of a city for this trade address, for example a district or borough. | UN01004545 | Trade_ Address. City Sub-Division Name. Text
 <span id="AttentionOf">AttentionOf</span> | xsd:string | The name, expressed as text, of a person or department in the organization to whom incoming mail is marked with words such as 'for the attention of' or 'FAO' or 'ATTN' for this trade address. | UN01004550 | Trade_ Address. Attention Of. Text
-<span id="GeographicalCoordinate">GeographicalCoordinate</span> | [edi3:GeographicalCoordinate](#GeographicalCoordinate) | An identification of a set of geographical coordinates for this trade address. | UN01004553 | Trade_ Address. Geo-Coordinate Identification. Geographical Coordinate
 <span id="BuildingName">BuildingName</span> | xsd:string | The name, expressed as text, of a building, a house or other structure on a street at this trade address. | UN01004537 | Trade_ Address. Building Name. Text
 <span id="TradeAddressLineOne">TradeAddressLineOne</span> | xsd:string | The first free form line, expressed as text, of this trade address. | UN01004538 | Trade_ Address. Line One. Text
 <span id="TradeAddressPostcode">TradeAddressPostcode</span> | xsd:token | A code specifying the postcode of this trade address. | UN01004535 | Trade_ Address. Postcode. Code
@@ -101,8 +82,27 @@ Name | Type | Definition | Unique UN Assigned ID | Dictionary Entry Name
 <span id="TradeAddressDepartmentName">TradeAddressDepartmentName</span> | xsd:string | The name, expressed as text, of a department for this trade address. | UN01006206 | Trade_ Address. Department Name. Text
 <span id="TradeAddressLineFour">TradeAddressLineFour</span> | xsd:string | The fourth free form line, expressed as text, of this trade address. | UN01004541 | Trade_ Address. Line Four. Text
 <span id="TradeAddressTypeCode">TradeAddressTypeCode</span> | xsd:token | A code specifying the type of this trade address, such as business address or home address. | UN01013131 | Trade_ Address. Type. Code
+<span id="TradeGeographicalCoordinate">TradeGeographicalCoordinate</span> | [edi3:GeographicalCoordinate](#GeographicalCoordinate) | An identification of a set of geographical coordinates for this trade address. | UN01004553 | Trade_ Address. Geo-Coordinate Identification. Geographical Coordinate
 <span id="TradeAddressCountrySubDivisionName">TradeAddressCountrySubDivisionName</span> | xsd:string | A name, expressed as text, of the sub-division of a country for this trade address. | UN01004549 | Trade_ Address. Country Sub-Division Name. Text
 <span id="TradeAddressBuildingNumber">TradeAddressBuildingNumber</span> | xsd:string | The building number, expressed as text, in this trade address. | UN01006053 | Trade_ Address. Building Number. Text
+
+
+<h1 id="BirthAddress">BirthAddress</h1>
+
+Type: rdf:Class
+
+Definition: The place of birth.
+
+Unique UN Assigned ID: UN01003169
+
+Dictionary Entry Name: Birth_ Address. Details
+
+Properties: 
+
+Name | Type | Definition | Unique UN Assigned ID | Dictionary Entry Name
+-|-|-|-|-
+<span id="BirthAddressCityName">BirthAddressCityName</span> | xsd:string | The name, expressed as text, of the city, town or village of this birth address. | UN01003171 | Birth_ Address. City Name. Text
+<span id="BirthAddressCountrySubDivisionName">BirthAddressCountrySubDivisionName</span> | xsd:string | The name, expressed as text, of the sub-division of a country for this birth address. | UN01003170 | Birth_ Address. Country Sub-Division Name. Text
 
 
 <h1 id="Query">Query</h1>
@@ -121,6 +121,31 @@ Name | Type | Definition | Unique UN Assigned ID | Dictionary Entry Name
 -|-|-|-|-
 <span id="QueryTypeCode">QueryTypeCode</span> | xsd:token | The code specifying the type of specification query. | UN01000075 | Specification_ Query. Type. Code
 <span id="QueryContentText">QueryContentText</span> | xsd:string | The content, expressed as text, of this specification query. | UN01000076 | Specification_ Query. Content. Text
+
+
+<h1 id="Product">Product</h1>
+
+Type: rdf:Class
+
+Definition: A reference to a product or service produced by human or mechanical effort or by a natural process for trading purposes.
+
+Unique UN Assigned ID: UN01004027
+
+Dictionary Entry Name: Referenced_ Product. Details
+
+Properties: 
+
+Name | Type | Definition | Unique UN Assigned ID | Dictionary Entry Name
+-|-|-|-|-
+<span id="ProductGlobalID">ProductGlobalID</span> | xsd:token | A unique global identifier for this referenced product. | UN01004029 | Referenced_ Product. Global_ Identification. Identifier
+<span id="ProductBuyerAssignedID">ProductBuyerAssignedID</span> | xsd:token | The unique buyer assigned identifier for this referenced product. | UN01004031 | Referenced_ Product. Buyer Assigned_ Identification. Identifier
+<span id="ProductName">ProductName</span> | xsd:string | A name, expressed as text, for this referenced product. | UN01004034 | Referenced_ Product. Name. Text
+<span id="ProductUnitQuantity">ProductUnitQuantity</span> | xsd:decimal | A unit quantity of this referenced product. | UN01007191 | Referenced_ Product. Unit. Quantity
+<span id="ProductManufacturerAssignedID">ProductManufacturerAssignedID</span> | xsd:token | A unique manufacturer assigned identifier for this referenced product. | UN01004032 | Referenced_ Product. Manufacturer Assigned_ Identification. Identifier
+<span id="ProductRelationshipTypeCode">ProductRelationshipTypeCode</span> | xsd:token | A code specifying a type of relationship for this referenced product. | UN01007190 | Referenced_ Product. Relationship_ Type. Code
+<span id="ProductSellerAssignedID">ProductSellerAssignedID</span> | xsd:token | The unique seller assigned identifier for this referenced product. | UN01004030 | Referenced_ Product. Seller Assigned_ Identification. Identifier
+<span id="ProductID">ProductID</span> | xsd:token | A unique identifier for this referenced product. | UN01004028 | Referenced_ Product. Identification. Identifier
+<span id="ProductDescription">ProductDescription</span> | xsd:string | A textual description for this referenced product. | UN01007189 | Referenced_ Product. Description. Text
 
 
 <h1 id="TradeProduct">TradeProduct</h1>
@@ -185,7 +210,6 @@ Name | Type | Definition | Unique UN Assigned ID | Dictionary Entry Name
 <span id="FromProductionLifeSpanMeasure">FromProductionLifeSpanMeasure</span> | xsd:decimal | The measure of the life span of this trade product from date of production. | UN01007244 | Trade_ Product. From Production_ Life Span. Measure
 <span id="TradeProductManufacturer">TradeProductManufacturer</span> | [edi3:TradeParty](#TradeParty) | A manufacturer party for this trade product. | UN01004708 | Trade_ Product. Manufacturer. Trade_ Party
 <span id="CertificationEvidenceDocument">CertificationEvidenceDocument</span> | [edi3:Document](#Document) | A referenced certification evidence document for this trade product. | UN01004701 | Trade_ Product. Certification Evidence_ Reference. Referenced_ Document
-<span id="Keyword">Keyword</span> | [edi3:Keyword](#Keyword) | A keyword applicable to this trade product. | UN01007281 | Trade_ Product. Applicable. Keyword
 <span id="AttachedSecurityTag">AttachedSecurityTag</span> | [edi3:SecurityTag](#SecurityTag) | A tag device attached to this trade product to provide protection from a peril such as theft. | UN01007278 | Trade_ Product. Attached. Product_ Security Tag
 <span id="Characteristic">Characteristic</span> | [edi3:Characteristic](#Characteristic) | A characteristic applicable to this trade product. | UN01004694 | Trade_ Product. Applicable. Product_ Characteristic
 <span id="IncludedProductTypeQuantity">IncludedProductTypeQuantity</span> | xsd:decimal | The number of different product types included at the next lower level in this trade product. | UN01007270 | Trade_ Product. Included Product Type. Quantity
@@ -222,6 +246,7 @@ Name | Type | Definition | Unique UN Assigned ID | Dictionary Entry Name
 <span id="BuyerSuppliedPartsReferenceDocument">BuyerSuppliedPartsReferenceDocument</span> | [edi3:Document](#Document) | A buyer supplier parts document referenced for this trade product. | UN01012684 | Trade_ Product. Buyer Supplied Parts_ Reference. Referenced_ Document
 <span id="TransportInformation">TransportInformation</span> | [edi3:Note](#Note) | A transport information note for this trade product. | UN01009051 | Trade_ Product. Transport_ Information. Note
 <span id="TradeProductDisposalInstructions">TradeProductDisposalInstructions</span> | [edi3:DisposalInstructions](#DisposalInstructions) | Disposal instructions applicable to this trade product. | UN01008515 | Trade_ Product. Applicable. Disposal_ Instructions
+<span id="TradeKeyword">TradeKeyword</span> | [edi3:Keyword](#Keyword) | A keyword applicable to this trade product. | UN01007281 | Trade_ Product. Applicable. Keyword
 <span id="TradeProductColourCode">TradeProductColourCode</span> | xsd:token | The code specifying the colour for this trade product. | UN01007262 | Trade_ Product. Colour. Code
 <span id="Certification">Certification</span> | [edi3:Certification](#Certification) | A certification applicable to this trade product. | UN01008539 | Trade_ Product. Applicable. Trade Product_ Certification
 <span id="TradeProductScientificName">TradeProductScientificName</span> | xsd:string | A scientific name, expressed as text, for this trade product. | UN01006144 | Trade_ Product. Scientific_ Name. Text
@@ -243,31 +268,6 @@ Name | Type | Definition | Unique UN Assigned ID | Dictionary Entry Name
 <span id="EndItemName">EndItemName</span> | xsd:string | An end item name, expressed as text, for this trade product. | UN01005386 | Trade_ Product. End Item_ Name. Text
 
 
-<h1 id="Product">Product</h1>
-
-Type: rdf:Class
-
-Definition: A reference to a product or service produced by human or mechanical effort or by a natural process for trading purposes.
-
-Unique UN Assigned ID: UN01004027
-
-Dictionary Entry Name: Referenced_ Product. Details
-
-Properties: 
-
-Name | Type | Definition | Unique UN Assigned ID | Dictionary Entry Name
--|-|-|-|-
-<span id="ProductGlobalID">ProductGlobalID</span> | xsd:token | A unique global identifier for this referenced product. | UN01004029 | Referenced_ Product. Global_ Identification. Identifier
-<span id="ProductBuyerAssignedID">ProductBuyerAssignedID</span> | xsd:token | The unique buyer assigned identifier for this referenced product. | UN01004031 | Referenced_ Product. Buyer Assigned_ Identification. Identifier
-<span id="ProductName">ProductName</span> | xsd:string | A name, expressed as text, for this referenced product. | UN01004034 | Referenced_ Product. Name. Text
-<span id="ProductUnitQuantity">ProductUnitQuantity</span> | xsd:decimal | A unit quantity of this referenced product. | UN01007191 | Referenced_ Product. Unit. Quantity
-<span id="ProductManufacturerAssignedID">ProductManufacturerAssignedID</span> | xsd:token | A unique manufacturer assigned identifier for this referenced product. | UN01004032 | Referenced_ Product. Manufacturer Assigned_ Identification. Identifier
-<span id="ProductRelationshipTypeCode">ProductRelationshipTypeCode</span> | xsd:token | A code specifying a type of relationship for this referenced product. | UN01007190 | Referenced_ Product. Relationship_ Type. Code
-<span id="ProductSellerAssignedID">ProductSellerAssignedID</span> | xsd:token | The unique seller assigned identifier for this referenced product. | UN01004030 | Referenced_ Product. Seller Assigned_ Identification. Identifier
-<span id="ProductID">ProductID</span> | xsd:token | A unique identifier for this referenced product. | UN01004028 | Referenced_ Product. Identification. Identifier
-<span id="ProductDescription">ProductDescription</span> | xsd:string | A textual description for this referenced product. | UN01007189 | Referenced_ Product. Description. Text
-
-
 <h1 id="Fault">Fault</h1>
 
 Type: rdf:Class
@@ -283,6 +283,77 @@ Properties:
 Name | Type | Definition | Unique UN Assigned ID | Dictionary Entry Name
 -|-|-|-|-
 <span id="IDCode">IDCode</span> | xsd:token | A code specifying an identified fault. | UN01010067 | Identified_ Fault. Identification. Code
+
+
+<h1 id="FinancingRequestDocument">FinancingRequestDocument</h1>
+
+Type: rdf:Class
+
+Definition: The set of characteristics shared by all individual transactions grouped for this financing request document.
+
+Unique UN Assigned ID: UN01013228
+
+Dictionary Entry Name: Financing Request_ Document. Details
+
+Properties: 
+
+Name | Type | Definition | Unique UN Assigned ID | Dictionary Entry Name
+-|-|-|-|-
+<span id="IncludedAdditionalInformationNote">IncludedAdditionalInformationNote</span> | [edi3:Note](#Note) | An additional information note included for this financing request document. | UN01013244 | Financing Request_ Document. Additional Information_ Included. Note
+<span id="ContractualDocumentClause">ContractualDocumentClause</span> | [edi3:Clause](#Clause) | A contractual document clause specified for this financing request document. | UN01013243 | Financing Request_ Document. Contractual. Document_ Clause
+<span id="FinancingRequestDocumentCopyIndicator">FinancingRequestDocumentCopyIndicator</span> | xsd:boolean | The indication of whether or not this financing request document is a copy rather than an original. | UN01013233 | Financing Request_ Document. Copy. Indicator
+<span id="FinancingRequestDocumentCurrencyCode">FinancingRequestDocumentCurrencyCode</span> | xsd:token | The code specifying the currency in this financing request document. | UN01013236 | Financing Request_ Document. Currency. Code
+<span id="GroupID">GroupID</span> | xsd:token | The group identifier in this financing request document. | UN01013229 | Financing Request_ Document. Group_ Identification. Identifier
+<span id="CancellationReasonText">CancellationReasonText</span> | xsd:string | A cancellation reason, expressed as text, in this financing request document. | UN01013235 | Financing Request_ Document. Cancellation Reason. Text
+<span id="SpecifiedCancellationStatus">SpecifiedCancellationStatus</span> | [edi3:CancellationStatus](#CancellationStatus) | A status of a cancellation specified for this financing request document, such as accepted. | UN01013241 | Financing Request_ Document. Specified. Cancellation_ Status
+<span id="SpecifiedValidationStatus">SpecifiedValidationStatus</span> | [edi3:ValidationStatus](#ValidationStatus) | The status of the validation specified for this financing request document, such as error. | UN01013242 | Financing Request_ Document. Specified. Validation_ Status
+<span id="GroupedTransactionTotalAmount">GroupedTransactionTotalAmount</span> | xsd:decimal | A total monetary value of grouped transactions in this financing request document. | UN01013231 | Financing Request_ Document. Grouped Transaction_ Total. Amount
+<span id="SpecifiedRequestingParty">SpecifiedRequestingParty</span> | [edi3:RequestingParty](#RequestingParty) | The requesting party specified in this financing request document. | UN01013240 | Financing Request_ Document. Specified. Requesting_ Party
+<span id="SpecifiedIntermediaryCreditorFinancialInstitution">SpecifiedIntermediaryCreditorFinancialInstitution</span> | [edi3:CreditorFinancialInstitution](#CreditorFinancialInstitution) | The creditor financial institution specified as the intermediary in this financing request document. | UN01013239 | Financing Request_ Document. Intermediary_ Specified. Creditor_ Financial Institution
+<span id="SpecifiedFirstAgentCreditorFinancialInstitution">SpecifiedFirstAgentCreditorFinancialInstitution</span> | [edi3:CreditorFinancialInstitution](#CreditorFinancialInstitution) | The creditor financial institution specified as the first agent in this financing request document. | UN01013238 | Financing Request_ Document. First Agent_ Specified. Creditor_ Financial Institution
+<span id="FinancingRequestDocumentCreationDateTime">FinancingRequestDocumentCreationDateTime</span> | xsd:dateTime | The date, time, date time or other date time value for the creation of this financing request document. | UN01013232 | Financing Request_ Document. Creation. Date Time
+<span id="AgreementInformation">AgreementInformation</span> | xsd:string | Agreement information, expressed as text, in this financing request document, such as a collection mandate. | UN01013237 | Financing Request_ Document. Agreement_ Information. Text
+<span id="GroupedTransactionSpecifiedQuantity">GroupedTransactionSpecifiedQuantity</span> | xsd:decimal | The number of grouped transactions specified in this financing request document. | UN01013230 | Financing Request_ Document. Grouped Transaction_ Specified. Quantity
+
+
+<h1 id="FinancingRequestResultDocument">FinancingRequestResultDocument</h1>
+
+Type: rdf:Class
+
+Definition: A collection of data that reports the result of a financing request.
+
+Unique UN Assigned ID: UN01013224
+
+Dictionary Entry Name: Financing Request Result_ Document. Details
+
+Properties: 
+
+Name | Type | Definition | Unique UN Assigned ID | Dictionary Entry Name
+-|-|-|-|-
+<span id="FinancingRequestResultDocumentFinancedTotalAmount">FinancingRequestResultDocumentFinancedTotalAmount</span> | xsd:decimal | A monetary value of the financed total amount in this financing request result document. | UN01013225 | Financing Request Result_ Document. Financed_ Total. Amount
+<span id="SpecifiedFinancingStatus">SpecifiedFinancingStatus</span> | [edi3:FinancingStatus](#FinancingStatus) | The financing status specified in this financing request result document. | UN01013227 | Financing Request Result_ Document. Specified. Financing_ Status
+
+
+<h1 id="FinancingSummaryDocument">FinancingSummaryDocument</h1>
+
+Type: rdf:Class
+
+Definition: A collection of financing related data that provides an overview of key points.
+
+Unique UN Assigned ID: UN01013245
+
+Dictionary Entry Name: Financing Summary_ Document. Details
+
+Properties: 
+
+Name | Type | Definition | Unique UN Assigned ID | Dictionary Entry Name
+-|-|-|-|-
+<span id="LineOfCreditFinancingFinancialAccount">LineOfCreditFinancingFinancialAccount</span> | [edi3:FinancingFinancialAccount](#FinancingFinancialAccount) | The financing financial account, used for managing the line of credit, specified for this financing summary document. | UN01013251 | Financing Summary_ Document. Line Of Credit_ Specified. Financing_ Financial Account
+<span id="FinancingSummaryDocumentFinancedTotalAmount">FinancingSummaryDocumentFinancedTotalAmount</span> | xsd:decimal | A financed total monetary value in this financing summary document. | UN01013248 | Financing Summary_ Document. Financed_ Total. Amount
+<span id="RelatedFinancialBooking">RelatedFinancialBooking</span> | [edi3:Booking](#Booking) | The financial booking related to this financing summary document. | UN01013250 | Financing Summary_ Document. Related. Financial_ Booking
+<span id="FinancedTransactionSpecifiedQuantity">FinancedTransactionSpecifiedQuantity</span> | xsd:decimal | The number of financed transactions specified in this financing summary document. | UN01013246 | Financing Summary_ Document. Financed Transaction_ Specified. Quantity
+<span id="FinancingSummaryDocumentSpecifiedCreditorFinancialAccount">FinancingSummaryDocumentSpecifiedCreditorFinancialAccount</span> | [edi3:CreditorFinancialAccount](#CreditorFinancialAccount) | The creditor financial account, used for crediting, specified for this financing summary document. | UN01013252 | Financing Summary_ Document. Specified. Creditor_ Financial Account
+<span id="FinancedAppliedRate">FinancedAppliedRate</span> | xsd:decimal | The financed applied rate, expressed as a percentage, in this financing summary document. | UN01013249 | Financing Summary_ Document. Financed Applied_ Rate. Percent
 
 
 <h1 id="ExchangedDocument">ExchangedDocument</h1>
@@ -359,104 +430,34 @@ Name | Type | Definition | Unique UN Assigned ID | Dictionary Entry Name
 <span id="AttachedFile">AttachedFile</span> | [edi3:BinaryFile](#BinaryFile) | A binary file attached to this exchanged document. | UN01006747 | Exchanged_ Document. Attached. Specified_ Binary File
 
 
-<h1 id="FinancingRequestDocument">FinancingRequestDocument</h1>
+<h1 id="DocumentLineDocument">DocumentLineDocument</h1>
 
 Type: rdf:Class
 
-Definition: The set of characteristics shared by all individual transactions grouped for this financing request document.
+Definition: A collection of data for a line on a piece of written, printed or electronic matter that provides information or evidence.
 
-Unique UN Assigned ID: UN01013228
+Unique UN Assigned ID: UN01003513
 
-Dictionary Entry Name: Financing Request_ Document. Details
+Dictionary Entry Name: Document Line_ Document. Details
 
 Properties: 
 
 Name | Type | Definition | Unique UN Assigned ID | Dictionary Entry Name
 -|-|-|-|-
-<span id="IncludedAdditionalInformationNote">IncludedAdditionalInformationNote</span> | [edi3:Note](#Note) | An additional information note included for this financing request document. | UN01013244 | Financing Request_ Document. Additional Information_ Included. Note
-<span id="ContractualDocumentClause">ContractualDocumentClause</span> | [edi3:Clause](#Clause) | A contractual document clause specified for this financing request document. | UN01013243 | Financing Request_ Document. Contractual. Document_ Clause
-<span id="FinancingRequestDocumentCopyIndicator">FinancingRequestDocumentCopyIndicator</span> | xsd:boolean | The indication of whether or not this financing request document is a copy rather than an original. | UN01013233 | Financing Request_ Document. Copy. Indicator
-<span id="FinancingRequestDocumentCurrencyCode">FinancingRequestDocumentCurrencyCode</span> | xsd:token | The code specifying the currency in this financing request document. | UN01013236 | Financing Request_ Document. Currency. Code
-<span id="GroupID">GroupID</span> | xsd:token | The group identifier in this financing request document. | UN01013229 | Financing Request_ Document. Group_ Identification. Identifier
-<span id="CancellationReasonText">CancellationReasonText</span> | xsd:string | A cancellation reason, expressed as text, in this financing request document. | UN01013235 | Financing Request_ Document. Cancellation Reason. Text
-<span id="SpecifiedCancellationStatus">SpecifiedCancellationStatus</span> | [edi3:CancellationStatus](#CancellationStatus) | A status of a cancellation specified for this financing request document, such as accepted. | UN01013241 | Financing Request_ Document. Specified. Cancellation_ Status
-<span id="SpecifiedValidationStatus">SpecifiedValidationStatus</span> | [edi3:ValidationStatus](#ValidationStatus) | The status of the validation specified for this financing request document, such as error. | UN01013242 | Financing Request_ Document. Specified. Validation_ Status
-<span id="GroupedTransactionTotalAmount">GroupedTransactionTotalAmount</span> | xsd:decimal | A total monetary value of grouped transactions in this financing request document. | UN01013231 | Financing Request_ Document. Grouped Transaction_ Total. Amount
-<span id="SpecifiedRequestingParty">SpecifiedRequestingParty</span> | [edi3:RequestingParty](#RequestingParty) | The requesting party specified in this financing request document. | UN01013240 | Financing Request_ Document. Specified. Requesting_ Party
-<span id="SpecifiedIntermediaryCreditorFinancialInstitution">SpecifiedIntermediaryCreditorFinancialInstitution</span> | [edi3:CreditorFinancialInstitution](#CreditorFinancialInstitution) | The creditor financial institution specified as the intermediary in this financing request document. | UN01013239 | Financing Request_ Document. Intermediary_ Specified. Creditor_ Financial Institution
-<span id="SpecifiedFirstAgentCreditorFinancialInstitution">SpecifiedFirstAgentCreditorFinancialInstitution</span> | [edi3:CreditorFinancialInstitution](#CreditorFinancialInstitution) | The creditor financial institution specified as the first agent in this financing request document. | UN01013238 | Financing Request_ Document. First Agent_ Specified. Creditor_ Financial Institution
-<span id="FinancingRequestDocumentCreationDateTime">FinancingRequestDocumentCreationDateTime</span> | xsd:dateTime | The date, time, date time or other date time value for the creation of this financing request document. | UN01013232 | Financing Request_ Document. Creation. Date Time
-<span id="AgreementInformation">AgreementInformation</span> | xsd:string | Agreement information, expressed as text, in this financing request document, such as a collection mandate. | UN01013237 | Financing Request_ Document. Agreement_ Information. Text
-<span id="GroupedTransactionSpecifiedQuantity">GroupedTransactionSpecifiedQuantity</span> | xsd:decimal | The number of grouped transactions specified in this financing request document. | UN01013230 | Financing Request_ Document. Grouped Transaction_ Specified. Quantity
-
-
-<h1 id="FinancingSummaryDocument">FinancingSummaryDocument</h1>
-
-Type: rdf:Class
-
-Definition: A collection of financing related data that provides an overview of key points.
-
-Unique UN Assigned ID: UN01013245
-
-Dictionary Entry Name: Financing Summary_ Document. Details
-
-Properties: 
-
-Name | Type | Definition | Unique UN Assigned ID | Dictionary Entry Name
--|-|-|-|-
-<span id="LineOfCreditFinancingFinancialAccount">LineOfCreditFinancingFinancialAccount</span> | [edi3:FinancingFinancialAccount](#FinancingFinancialAccount) | The financing financial account, used for managing the line of credit, specified for this financing summary document. | UN01013251 | Financing Summary_ Document. Line Of Credit_ Specified. Financing_ Financial Account
-<span id="FinancingSummaryDocumentFinancedTotalAmount">FinancingSummaryDocumentFinancedTotalAmount</span> | xsd:decimal | A financed total monetary value in this financing summary document. | UN01013248 | Financing Summary_ Document. Financed_ Total. Amount
-<span id="RelatedFinancialBooking">RelatedFinancialBooking</span> | [edi3:Booking](#Booking) | The financial booking related to this financing summary document. | UN01013250 | Financing Summary_ Document. Related. Financial_ Booking
-<span id="FinancedTransactionSpecifiedQuantity">FinancedTransactionSpecifiedQuantity</span> | xsd:decimal | The number of financed transactions specified in this financing summary document. | UN01013246 | Financing Summary_ Document. Financed Transaction_ Specified. Quantity
-<span id="FinancingSummaryDocumentSpecifiedCreditorFinancialAccount">FinancingSummaryDocumentSpecifiedCreditorFinancialAccount</span> | [edi3:CreditorFinancialAccount](#CreditorFinancialAccount) | The creditor financial account, used for crediting, specified for this financing summary document. | UN01013252 | Financing Summary_ Document. Specified. Creditor_ Financial Account
-<span id="FinancedAppliedRate">FinancedAppliedRate</span> | xsd:decimal | The financed applied rate, expressed as a percentage, in this financing summary document. | UN01013249 | Financing Summary_ Document. Financed Applied_ Rate. Percent
-
-
-<h1 id="AcknowledgementDocument">AcknowledgementDocument</h1>
-
-Type: rdf:Class
-
-Definition: A document exchanged between parties for a business application level acknowledgement of the receipt of information.
-
-Unique UN Assigned ID: UN01002071
-
-Dictionary Entry Name: Acknowledgement_ Document. Details
-
-Properties: 
-
-Name | Type | Definition | Unique UN Assigned ID | Dictionary Entry Name
--|-|-|-|-
-<span id="AcknowledgementDocumentID">AcknowledgementDocumentID</span> | xsd:token | The unique identifier of this acknowledgement document. | UN01002073 | Acknowledgement_ Document. Identification. Identifier
-<span id="AcknowledgementDocumentTypeCode">AcknowledgementDocumentTypeCode</span> | xsd:token | A code specifying a type of acknowledgement document. | UN01002105 | Acknowledgement_ Document. Type. Code
-<span id="AcknowledgementDocumentStatusCode">AcknowledgementDocumentStatusCode</span> | xsd:token | A code specifying a status for this acknowledgement document. | UN01002112 | Acknowledgement_ Document. Status. Code
-<span id="ReportSubmissionDateTime">ReportSubmissionDateTime</span> | xsd:dateTime | The date, time, date time or other date time value of the submission of the report being acknowledged by this acknowledgment document. | UN01002108 | Acknowledgement_ Document. Report_ Submission. Date Time
-<span id="MultipleReferencesIndicator">MultipleReferencesIndicator</span> | xsd:boolean | The indication of whether or not this acknowledgement document has multiple references. | UN01002072 | Acknowledgement_ Document. Multiple References. Indicator
-<span id="AcknowledgementDocumentCreationDateTime">AcknowledgementDocumentCreationDateTime</span> | xsd:dateTime | The date or date time value of the creation of this acknowledgement document. | UN01002111 | Acknowledgement_ Document. Creation. Date Time
-<span id="AcknowledgementDocumentIssueDateTime">AcknowledgementDocumentIssueDateTime</span> | xsd:dateTime | The date, time, date time or other date time value for the issuance of this acknowledgement document. | UN01002107 | Acknowledgement_ Document. Issue. Date Time
-<span id="ReportReceiptDateTime">ReportReceiptDateTime</span> | xsd:dateTime | The date, time, date time or other date time value of the receipt of the report being acknowledged by this acknowledgment document. | UN01002109 | Acknowledgement_ Document. Report_ Receipt. Date Time
-<span id="AcknowledgementDocumentReasonInformationText">AcknowledgementDocumentReasonInformationText</span> | xsd:string | Reason information, expressed as text, for this acknowledgement document. | UN01002649 | Acknowledgement_ Document. Reason_ Information. Text
-<span id="AcknowledgementDocumentControlRequirementIndicator">AcknowledgementDocumentControlRequirementIndicator</span> | xsd:boolean | The indication of whether or not this acknowledgement document has a control requirement. | UN01002110 | Acknowledgement_ Document. Control Requirement. Indicator
-<span id="AcknowledgementStatusCode">AcknowledgementStatusCode</span> | xsd:token | A code specifying an acknowledgment status for this acknowledgement document. | UN01002113 | Acknowledgement_ Document. Acknowledgement_ Status. Code
-<span id="AcknowledgementDocumentName">AcknowledgementDocumentName</span> | xsd:string | The name, expressed as text, for this acknowledgement document. | UN01002106 | Acknowledgement_ Document. Name. Text
-<span id="AcknowledgementDocumentReferenceDocument">AcknowledgementDocumentReferenceDocument</span> | [edi3:Document](#Document) | A document referenced by this acknowledgement document. | UN01002650 | Acknowledgement_ Document. Reference. Referenced_ Document
-
-
-<h1 id="FinancingRequestResultDocument">FinancingRequestResultDocument</h1>
-
-Type: rdf:Class
-
-Definition: A collection of data that reports the result of a financing request.
-
-Unique UN Assigned ID: UN01013224
-
-Dictionary Entry Name: Financing Request Result_ Document. Details
-
-Properties: 
-
-Name | Type | Definition | Unique UN Assigned ID | Dictionary Entry Name
--|-|-|-|-
-<span id="FinancingRequestResultDocumentFinancedTotalAmount">FinancingRequestResultDocumentFinancedTotalAmount</span> | xsd:decimal | A monetary value of the financed total amount in this financing request result document. | UN01013225 | Financing Request Result_ Document. Financed_ Total. Amount
-<span id="SpecifiedFinancingStatus">SpecifiedFinancingStatus</span> | [edi3:FinancingStatus](#FinancingStatus) | The financing status specified in this financing request result document. | UN01013227 | Financing Request Result_ Document. Specified. Financing_ Status
+<span id="ParentLineID">ParentLineID</span> | xsd:token | The unique identifier of the parent line to this document line. | UN01003516 | Document Line_ Document. Parent_ Line. Identifier
+<span id="DocumentLineDocumentSubordinateLineID">DocumentLineDocumentSubordinateLineID</span> | xsd:token | An identifier of a subordinate line of this document line. | UN01013361 | Document Line_ Document. Subordinate Line. Identifier
+<span id="DocumentLineAcknowledgementDocument">DocumentLineAcknowledgementDocument</span> | [edi3:AcknowledgementDocument](#AcknowledgementDocument) | The acknowledgement document referenced in this document line. | UN01011478 | Document Line_ Document. Reference. Acknowledgement_ Document
+<span id="LatestRevisionDateTime">LatestRevisionDateTime</span> | xsd:dateTime | The date, time, date time, or other date time value for the latest revision of this document line. | UN01007176 | Document Line_ Document. Latest_ Revision. Date Time
+<span id="StatusReasonCode">StatusReasonCode</span> | xsd:token | The code specifying the line status reason for this document line. | UN01003518 | Document Line_ Document. Line Status Reason. Code
+<span id="DocumentLineDocumentLineID">DocumentLineDocumentLineID</span> | xsd:token | The unique identifier of this document line. | UN01003514 | Document Line_ Document. Line. Identifier
+<span id="DocumentLineDocumentID">DocumentLineDocumentID</span> | xsd:token | The identifier of this document line document. | UN01011477 | Document Line_ Document. Identification. Identifier
+<span id="DocumentLineDocumentIssueDateTime">DocumentLineDocumentIssueDateTime</span> | xsd:dateTime | The date, time, date time, or other date time value for the issuance of this document line. | UN01012957 | Document Line_ Document. Issue. Date Time
+<span id="PublicationDateTime">PublicationDateTime</span> | xsd:dateTime | The date, time, date time, or other date time value of the publication of this document line. | UN01012959 | Document Line_ Document. Publication. Date Time
+<span id="BuyerAssignedCategoryCode">BuyerAssignedCategoryCode</span> | xsd:token | The code specifying the category assigned by the buyer for this document line. | UN01013319 | Document Line_ Document. Buyer Assigned_ Category. Code
+<span id="DocumentLineDocumentStatusCode">DocumentLineDocumentStatusCode</span> | xsd:token | The code specifying the status of this document line. | UN01003517 | Document Line_ Document. Line Status. Code
+<span id="LineStatusReasonText">LineStatusReasonText</span> | xsd:string | A reason, expressed as text, for the line status in this document line. | UN01012958 | Document Line_ Document. Line Status Reason. Text
+<span id="DocumentLineDocumentEffectivePeriod">DocumentLineDocumentEffectivePeriod</span> | [edi3:SpecifiedPeriod](#SpecifiedPeriod) | The period within which this document line is effective. | UN01007177 | Document Line_ Document. Effective. Specified_ Period
+<span id="DocumentLineDocumentNote">DocumentLineDocumentNote</span> | [edi3:Note](#Note) | A note included in this document line. | UN01003519 | Document Line_ Document. Included. Note
 
 
 <h1 id="Document">Document</h1>
@@ -515,34 +516,33 @@ Name | Type | Definition | Unique UN Assigned ID | Dictionary Entry Name
 <span id="AuthenticatedOriginalIndicator">AuthenticatedOriginalIndicator</span> | xsd:boolean | The indication of whether or not this referenced document is an authenticated original. | UN01004009 | Referenced_ Document. Authenticated Original. Indicator
 
 
-<h1 id="DocumentLineDocument">DocumentLineDocument</h1>
+<h1 id="AcknowledgementDocument">AcknowledgementDocument</h1>
 
 Type: rdf:Class
 
-Definition: A collection of data for a line on a piece of written, printed or electronic matter that provides information or evidence.
+Definition: A document exchanged between parties for a business application level acknowledgement of the receipt of information.
 
-Unique UN Assigned ID: UN01003513
+Unique UN Assigned ID: UN01002071
 
-Dictionary Entry Name: Document Line_ Document. Details
+Dictionary Entry Name: Acknowledgement_ Document. Details
 
 Properties: 
 
 Name | Type | Definition | Unique UN Assigned ID | Dictionary Entry Name
 -|-|-|-|-
-<span id="ParentLineID">ParentLineID</span> | xsd:token | The unique identifier of the parent line to this document line. | UN01003516 | Document Line_ Document. Parent_ Line. Identifier
-<span id="DocumentLineDocumentSubordinateLineID">DocumentLineDocumentSubordinateLineID</span> | xsd:token | An identifier of a subordinate line of this document line. | UN01013361 | Document Line_ Document. Subordinate Line. Identifier
-<span id="LatestRevisionDateTime">LatestRevisionDateTime</span> | xsd:dateTime | The date, time, date time, or other date time value for the latest revision of this document line. | UN01007176 | Document Line_ Document. Latest_ Revision. Date Time
-<span id="StatusReasonCode">StatusReasonCode</span> | xsd:token | The code specifying the line status reason for this document line. | UN01003518 | Document Line_ Document. Line Status Reason. Code
-<span id="DocumentLineDocumentLineID">DocumentLineDocumentLineID</span> | xsd:token | The unique identifier of this document line. | UN01003514 | Document Line_ Document. Line. Identifier
-<span id="DocumentLineDocumentID">DocumentLineDocumentID</span> | xsd:token | The identifier of this document line document. | UN01011477 | Document Line_ Document. Identification. Identifier
-<span id="DocumentLineDocumentIssueDateTime">DocumentLineDocumentIssueDateTime</span> | xsd:dateTime | The date, time, date time, or other date time value for the issuance of this document line. | UN01012957 | Document Line_ Document. Issue. Date Time
-<span id="PublicationDateTime">PublicationDateTime</span> | xsd:dateTime | The date, time, date time, or other date time value of the publication of this document line. | UN01012959 | Document Line_ Document. Publication. Date Time
-<span id="BuyerAssignedCategoryCode">BuyerAssignedCategoryCode</span> | xsd:token | The code specifying the category assigned by the buyer for this document line. | UN01013319 | Document Line_ Document. Buyer Assigned_ Category. Code
-<span id="DocumentLineDocumentStatusCode">DocumentLineDocumentStatusCode</span> | xsd:token | The code specifying the status of this document line. | UN01003517 | Document Line_ Document. Line Status. Code
-<span id="LineStatusReasonText">LineStatusReasonText</span> | xsd:string | A reason, expressed as text, for the line status in this document line. | UN01012958 | Document Line_ Document. Line Status Reason. Text
-<span id="AcknowledgementDocument">AcknowledgementDocument</span> | [edi3:AcknowledgementDocument](#AcknowledgementDocument) | The acknowledgement document referenced in this document line. | UN01011478 | Document Line_ Document. Reference. Acknowledgement_ Document
-<span id="DocumentLineDocumentEffectivePeriod">DocumentLineDocumentEffectivePeriod</span> | [edi3:SpecifiedPeriod](#SpecifiedPeriod) | The period within which this document line is effective. | UN01007177 | Document Line_ Document. Effective. Specified_ Period
-<span id="DocumentLineDocumentNote">DocumentLineDocumentNote</span> | [edi3:Note](#Note) | A note included in this document line. | UN01003519 | Document Line_ Document. Included. Note
+<span id="AcknowledgementDocumentID">AcknowledgementDocumentID</span> | xsd:token | The unique identifier of this acknowledgement document. | UN01002073 | Acknowledgement_ Document. Identification. Identifier
+<span id="AcknowledgementDocumentTypeCode">AcknowledgementDocumentTypeCode</span> | xsd:token | A code specifying a type of acknowledgement document. | UN01002105 | Acknowledgement_ Document. Type. Code
+<span id="AcknowledgementDocumentStatusCode">AcknowledgementDocumentStatusCode</span> | xsd:token | A code specifying a status for this acknowledgement document. | UN01002112 | Acknowledgement_ Document. Status. Code
+<span id="ReportSubmissionDateTime">ReportSubmissionDateTime</span> | xsd:dateTime | The date, time, date time or other date time value of the submission of the report being acknowledged by this acknowledgment document. | UN01002108 | Acknowledgement_ Document. Report_ Submission. Date Time
+<span id="MultipleReferencesIndicator">MultipleReferencesIndicator</span> | xsd:boolean | The indication of whether or not this acknowledgement document has multiple references. | UN01002072 | Acknowledgement_ Document. Multiple References. Indicator
+<span id="AcknowledgementDocumentCreationDateTime">AcknowledgementDocumentCreationDateTime</span> | xsd:dateTime | The date or date time value of the creation of this acknowledgement document. | UN01002111 | Acknowledgement_ Document. Creation. Date Time
+<span id="AcknowledgementDocumentIssueDateTime">AcknowledgementDocumentIssueDateTime</span> | xsd:dateTime | The date, time, date time or other date time value for the issuance of this acknowledgement document. | UN01002107 | Acknowledgement_ Document. Issue. Date Time
+<span id="ReportReceiptDateTime">ReportReceiptDateTime</span> | xsd:dateTime | The date, time, date time or other date time value of the receipt of the report being acknowledged by this acknowledgment document. | UN01002109 | Acknowledgement_ Document. Report_ Receipt. Date Time
+<span id="AcknowledgementDocumentReasonInformationText">AcknowledgementDocumentReasonInformationText</span> | xsd:string | Reason information, expressed as text, for this acknowledgement document. | UN01002649 | Acknowledgement_ Document. Reason_ Information. Text
+<span id="AcknowledgementDocumentControlRequirementIndicator">AcknowledgementDocumentControlRequirementIndicator</span> | xsd:boolean | The indication of whether or not this acknowledgement document has a control requirement. | UN01002110 | Acknowledgement_ Document. Control Requirement. Indicator
+<span id="AcknowledgementStatusCode">AcknowledgementStatusCode</span> | xsd:token | A code specifying an acknowledgment status for this acknowledgement document. | UN01002113 | Acknowledgement_ Document. Acknowledgement_ Status. Code
+<span id="AcknowledgementDocumentName">AcknowledgementDocumentName</span> | xsd:string | The name, expressed as text, for this acknowledgement document. | UN01002106 | Acknowledgement_ Document. Name. Text
+<span id="AcknowledgementDocumentReferenceDocument">AcknowledgementDocumentReferenceDocument</span> | [edi3:Document](#Document) | A document referenced by this acknowledgement document. | UN01002650 | Acknowledgement_ Document. Reference. Referenced_ Document
 
 
 <h1 id="GeographicalSurface">GeographicalSurface</h1>
@@ -652,6 +652,24 @@ Name | Type | Definition | Unique UN Assigned ID | Dictionary Entry Name
 <span id="BasicWorkItemItemBasicWorkItem">BasicWorkItemItemBasicWorkItem</span> | [edi3:BasicWorkItem](#BasicWorkItem) | A basic work item in this basic work item. | UN01007567 | Basic_ Work Item. Item. Basic_ Work Item
 
 
+<h1 id="LineTradeTransaction">LineTradeTransaction</h1>
+
+Type: rdf:Class
+
+Definition: A group of trade line items, trade line agreement, trade line delivery and trade line settlement details.
+
+Unique UN Assigned ID: UN01011824
+
+Dictionary Entry Name: Line_ Trade Transaction. Details
+
+Properties: 
+
+Name | Type | Definition | Unique UN Assigned ID | Dictionary Entry Name
+-|-|-|-|-
+<span id="TradeDelivery">TradeDelivery</span> | [edi3:LineTradeDelivery](#LineTradeDelivery) | A trade delivery applicable to this line trade transaction. | UN01011826 | Line_ Trade Transaction. Applicable. Line_ Trade Delivery
+<span id="LineTradeTransactionTradeProduct">LineTradeTransactionTradeProduct</span> | [edi3:TradeProduct](#TradeProduct) | A trade product included in this line trade transaction. | UN01011827 | Line_ Trade Transaction. Included. Trade_ Product
+
+
 <h1 id="SupplyChainTradeTransaction">SupplyChainTradeTransaction</h1>
 
 Type: rdf:Class
@@ -670,37 +688,19 @@ Name | Type | Definition | Unique UN Assigned ID | Dictionary Entry Name
 <span id="SalesAgentAssignedID">SalesAgentAssignedID</span> | xsd:token | The unique identifier assigned by the sales agent to identify this supply chain trade transaction. | UN01004477 | Supply Chain_ Trade Transaction. Sales Agent Assigned_ Identification. Identifier
 <span id="SupplyChainTradeTransactionReferencedDocument">SupplyChainTradeTransactionReferencedDocument</span> | [edi3:Document](#Document) | A referenced document associated with this supply chain trade transaction, such as the purchase order, invoice or packing list. | UN01004481 | Supply Chain_ Trade Transaction. Associated. Referenced_ Document
 <span id="SupplyChainTradeTransactionLogisticsPackage">SupplyChainTradeTransactionLogisticsPackage</span> | [edi3:Package](#Package) | A logistics package specified for this supply chain trade transaction. | UN01004485 | Supply Chain_ Trade Transaction. Specified. Logistics_ Package
-<span id="HeaderTradeSettlement">HeaderTradeSettlement</span> | [edi3:HeaderTradeSettlement](#HeaderTradeSettlement) | The trade settlement header applicable to this supply chain trade transaction. | UN01011870 | Supply Chain_ Trade Transaction. Applicable. Header_ Trade Settlement
 <span id="ShipmentID">ShipmentID</span> | xsd:token | An identifier, such as the Unique Consignment Reference (UCR), for the shipment which is the subject of this supply chain trade transaction. | UN01013108 | Supply Chain_ Trade Transaction. Shipment_ Identification. Identifier
+<span id="SupplyChainHeaderTradeDelivery">SupplyChainHeaderTradeDelivery</span> | [edi3:HeaderTradeDelivery](#HeaderTradeDelivery) | A trade delivery header applicable to this supply chain trade transaction. | UN01011869 | Supply Chain_ Trade Transaction. Applicable. Header_ Trade Delivery
 <span id="DocumentURL">DocumentURL</span> | xsd:token | The Uniform Resource Locator (URL) of the web location of the document for this supply chain trade transaction. | UN01013296 | Supply Chain_ Trade Transaction. Document_ URL. Identifier
 <span id="SupplyChainTradeTransactionIssueDateTime">SupplyChainTradeTransactionIssueDateTime</span> | xsd:dateTime | The date, time, date time or other date time value for the issuance of this supply chain trade transaction. | UN01013295 | Supply Chain_ Trade Transaction. Issue. Date Time
 <span id="SupplyChainTradeTransactionIncludedTradeLineItem">SupplyChainTradeTransactionIncludedTradeLineItem</span> | [edi3:SupplyChainTradeLineItem](#SupplyChainTradeLineItem) | A trade line item included in this supply chain trade transaction. | UN01004480 | Supply Chain_ Trade Transaction. Included. Supply Chain_ Trade Line Item
 <span id="AssociatedFinancingRequestResultDocument">AssociatedFinancingRequestResultDocument</span> | [edi3:FinancingRequestResultDocument](#FinancingRequestResultDocument) | The financing request result document associated with this supply chain trade transaction. | UN01013298 | Supply Chain_ Trade Transaction. Associated. Financing Request Result_ Document
-<span id="HeaderTradeDelivery">HeaderTradeDelivery</span> | [edi3:HeaderTradeDelivery](#HeaderTradeDelivery) | A trade delivery header applicable to this supply chain trade transaction. | UN01011869 | Supply Chain_ Trade Transaction. Applicable. Header_ Trade Delivery
+<span id="SupplyChainHeaderTradeSettlement">SupplyChainHeaderTradeSettlement</span> | [edi3:HeaderTradeSettlement](#HeaderTradeSettlement) | The trade settlement header applicable to this supply chain trade transaction. | UN01011870 | Supply Chain_ Trade Transaction. Applicable. Header_ Trade Settlement
 <span id="SupplyChainTradeTransactionTypeCode">SupplyChainTradeTransactionTypeCode</span> | xsd:token | The code specifying the type of supply chain trade transaction. | UN01004478 | Supply Chain_ Trade Transaction. Type. Code
 <span id="SupplyChainTradeTransactionInformation">SupplyChainTradeTransactionInformation</span> | xsd:string | Information, expressed as text, for this supply chain trade transaction. | UN01004479 | Supply Chain_ Trade Transaction. Information. Text
-<span id="HeaderTradeAgreement">HeaderTradeAgreement</span> | [edi3:HeaderTradeAgreement](#HeaderTradeAgreement) | A trade agreement header applicable to this supply chain trade transaction, such as payment or delivery terms. | UN01011868 | Supply Chain_ Trade Transaction. Applicable. Header_ Trade Agreement
+<span id="SupplyChainHeaderTradeAgreement">SupplyChainHeaderTradeAgreement</span> | [edi3:HeaderTradeAgreement](#HeaderTradeAgreement) | A trade agreement header applicable to this supply chain trade transaction, such as payment or delivery terms. | UN01011868 | Supply Chain_ Trade Transaction. Applicable. Header_ Trade Agreement
 <span id="ProductGroup">ProductGroup</span> | [edi3:ProductGroup](#ProductGroup) | A product group included in this supply chain trade transaction. | UN01011867 | Supply Chain_ Trade Transaction. Included. Trade_ Product Group
 <span id="SenderRecipientSequenceID">SenderRecipientSequenceID</span> | xsd:token | The sender-recipient sequence identifier for this supply chain trade transaction. | UN01013297 | Supply Chain_ Trade Transaction. Sender Recipient Sequence_ Identification. Identifier
 <span id="SupplyChainTradeTransactionAssociatedDocumentLine">SupplyChainTradeTransactionAssociatedDocumentLine</span> | [edi3:DocumentLineDocument](#DocumentLineDocument) | The document line associated with this supply chain trade transaction. | UN01008819 | Supply Chain_ Trade Transaction. Associated. Document Line_ Document
-
-
-<h1 id="LineTradeTransaction">LineTradeTransaction</h1>
-
-Type: rdf:Class
-
-Definition: A group of trade line items, trade line agreement, trade line delivery and trade line settlement details.
-
-Unique UN Assigned ID: UN01011824
-
-Dictionary Entry Name: Line_ Trade Transaction. Details
-
-Properties: 
-
-Name | Type | Definition | Unique UN Assigned ID | Dictionary Entry Name
--|-|-|-|-
-<span id="TradeDelivery">TradeDelivery</span> | [edi3:LineTradeDelivery](#LineTradeDelivery) | A trade delivery applicable to this line trade transaction. | UN01011826 | Line_ Trade Transaction. Applicable. Line_ Trade Delivery
-<span id="LineTradeTransactionTradeProduct">LineTradeTransactionTradeProduct</span> | [edi3:TradeProduct](#TradeProduct) | A trade product included in this line trade transaction. | UN01011827 | Line_ Trade Transaction. Included. Trade_ Product
 
 
 <h1 id="ChemicalTreatment">ChemicalTreatment</h1>
@@ -810,44 +810,6 @@ Name | Type | Definition | Unique UN Assigned ID | Dictionary Entry Name
 -|-|-|-|-
 
 
-<h1 id="FinancialIdentity">FinancialIdentity</h1>
-
-Type: rdf:Class
-
-Definition: A financial identification for an organization.
-
-Unique UN Assigned ID: UN01013217
-
-Dictionary Entry Name: Financial_ Identity. Details
-
-Properties: 
-
-Name | Type | Definition | Unique UN Assigned ID | Dictionary Entry Name
--|-|-|-|-
-<span id="FinancialIdentityBICID">FinancialIdentityBICID</span> | xsd:token | The Bank Identifier Code (BIC) as defined by ISO 9362 (Banking telecommunication messages, Bank Identifier Codes) for this financial identity. | UN01013218 | Financial_ Identity. BIC_ Identification. Identifier
-<span id="BankAssignedID">BankAssignedID</span> | xsd:token | The bank assigned identifier for this financial identity. | UN01013223 | Financial_ Identity. Bank Assigned_ Identification. Identifier
-<span id="AgentAssignedCustomerID">AgentAssignedCustomerID</span> | xsd:token | The agent assigned customer identifier for this financial identity. | UN01013222 | Financial_ Identity. Agent Assigned Customer_ Identification. Identifier
-<span id="FinancialIdentityCHIPSUniversalID">FinancialIdentityCHIPSUniversalID</span> | xsd:token | The (United States) Clearing House Interbank Payments System (CHIPS) Universal Identification (UID) as assigned by the New York Clearing House for this financial identity. | UN01013221 | Financial_ Identity. CHIPS Universal_ Identification. Identifier
-<span id="IBEI">IBEI</span> | xsd:token | The International Business Entity Identifier (IBEI) for this financial identity. | UN01013219 | Financial_ Identity. IBEI_ Identification. Identifier
-
-
-<h1 id="ProprietaryIdentity">ProprietaryIdentity</h1>
-
-Type: rdf:Class
-
-Definition: Proprietary information which uniquely identifies a person or organization.
-
-Unique UN Assigned ID: UN01013286
-
-Dictionary Entry Name: Proprietary_ Identity. Details
-
-Properties: 
-
-Name | Type | Definition | Unique UN Assigned ID | Dictionary Entry Name
--|-|-|-|-
-<span id="ProprietaryIdentityID">ProprietaryIdentityID</span> | xsd:token | A proprietary identifier. | UN01013287 | Proprietary_ Identity. Identification. Identifier
-
-
 <h1 id="PersonIdentity">PersonIdentity</h1>
 
 Type: rdf:Class
@@ -869,6 +831,85 @@ Name | Type | Definition | Unique UN Assigned ID | Dictionary Entry Name
 <span id="PersonIdentitySpecifiedProprietaryIdentity">PersonIdentitySpecifiedProprietaryIdentity</span> | [edi3:ProprietaryIdentity](#ProprietaryIdentity) | A proprietary Identity specified for this person. | UN01013285 | Person_ Identity. Specified. Proprietary_ Identity
 
 
+<h1 id="ProprietaryIdentity">ProprietaryIdentity</h1>
+
+Type: rdf:Class
+
+Definition: Proprietary information which uniquely identifies a person or organization.
+
+Unique UN Assigned ID: UN01013286
+
+Dictionary Entry Name: Proprietary_ Identity. Details
+
+Properties: 
+
+Name | Type | Definition | Unique UN Assigned ID | Dictionary Entry Name
+-|-|-|-|-
+<span id="ProprietaryIdentityID">ProprietaryIdentityID</span> | xsd:token | A proprietary identifier. | UN01013287 | Proprietary_ Identity. Identification. Identifier
+
+
+<h1 id="FinancialIdentity">FinancialIdentity</h1>
+
+Type: rdf:Class
+
+Definition: A financial identification for an organization.
+
+Unique UN Assigned ID: UN01013217
+
+Dictionary Entry Name: Financial_ Identity. Details
+
+Properties: 
+
+Name | Type | Definition | Unique UN Assigned ID | Dictionary Entry Name
+-|-|-|-|-
+<span id="FinancialIdentityBICID">FinancialIdentityBICID</span> | xsd:token | The Bank Identifier Code (BIC) as defined by ISO 9362 (Banking telecommunication messages, Bank Identifier Codes) for this financial identity. | UN01013218 | Financial_ Identity. BIC_ Identification. Identifier
+<span id="BankAssignedID">BankAssignedID</span> | xsd:token | The bank assigned identifier for this financial identity. | UN01013223 | Financial_ Identity. Bank Assigned_ Identification. Identifier
+<span id="AgentAssignedCustomerID">AgentAssignedCustomerID</span> | xsd:token | The agent assigned customer identifier for this financial identity. | UN01013222 | Financial_ Identity. Agent Assigned Customer_ Identification. Identifier
+<span id="FinancialIdentityCHIPSUniversalID">FinancialIdentityCHIPSUniversalID</span> | xsd:token | The (United States) Clearing House Interbank Payments System (CHIPS) Universal Identification (UID) as assigned by the New York Clearing House for this financial identity. | UN01013221 | Financial_ Identity. CHIPS Universal_ Identification. Identifier
+<span id="IBEI">IBEI</span> | xsd:token | The International Business Entity Identifier (IBEI) for this financial identity. | UN01013219 | Financial_ Identity. IBEI_ Identification. Identifier
+
+
+<h1 id="DocumentStatus">DocumentStatus</h1>
+
+Type: rdf:Class
+
+Definition: The information relevant to a condition related to a document.
+
+Unique UN Assigned ID: UN01013122
+
+Dictionary Entry Name: Document_ Status. Details
+
+Properties: 
+
+Name | Type | Definition | Unique UN Assigned ID | Dictionary Entry Name
+-|-|-|-|-
+<span id="DocumentStatusReasonText">DocumentStatusReasonText</span> | xsd:string | A reason, expressed as text, for this document status. | UN01013127 | Document_ Status. Reason. Text
+<span id="DocumentStatusConditionCode">DocumentStatusConditionCode</span> | xsd:token | The code specifying the condition of this document status. | UN01013125 | Document_ Status. Condition. Code
+<span id="DocumentStatusValidityPeriod">DocumentStatusValidityPeriod</span> | [edi3:SpecifiedPeriod](#SpecifiedPeriod) | A specified validity period for this document status. | UN01013129 | Document_ Status. Validity. Specified_ Period
+<span id="DocumentStatusInformation">DocumentStatusInformation</span> | xsd:string | Information, expressed as text, for this document status. | UN01013128 | Document_ Status. Information. Text
+<span id="DocumentStatusDescription">DocumentStatusDescription</span> | xsd:string | The textual description of this document status. | UN01013123 | Document_ Status. Description. Text
+<span id="DocumentStatusReasonCode">DocumentStatusReasonCode</span> | xsd:token | A code specifying a reason for this document status. | UN01013126 | Document_ Status. Reason. Code
+
+
+<h1 id="CancellationStatus">CancellationStatus</h1>
+
+Type: rdf:Class
+
+Definition: Information relevant to a condition of a cancellation.
+
+Unique UN Assigned ID: UN01013196
+
+Dictionary Entry Name: Cancellation_ Status. Details
+
+Properties: 
+
+Name | Type | Definition | Unique UN Assigned ID | Dictionary Entry Name
+-|-|-|-|-
+<span id="CancellationStatusConditionCode">CancellationStatusConditionCode</span> | xsd:token | The code specifying the condition of this cancellation status. | UN01013197 | Cancellation_ Status. Condition. Code
+<span id="CancellationStatusReasonInformationText">CancellationStatusReasonInformationText</span> | xsd:string | Information, expressed as text, related to the reason for this cancellation status. | UN01013200 | Cancellation_ Status. Reason_ Information. Text
+<span id="CancellationStatusReasonText">CancellationStatusReasonText</span> | xsd:string | A reason, expressed as text, for this cancellation status. | UN01013199 | Cancellation_ Status. Reason. Text
+
+
 <h1 id="ValidationStatus">ValidationStatus</h1>
 
 Type: rdf:Class
@@ -886,6 +927,33 @@ Name | Type | Definition | Unique UN Assigned ID | Dictionary Entry Name
 <span id="ValidationStatusReasonCode">ValidationStatusReasonCode</span> | xsd:token | The code specifying the reason for this validation status. | UN01013307 | Validation_ Status. Reason. Code
 <span id="ValidationStatusConditionCode">ValidationStatusConditionCode</span> | xsd:token | The code specifying the condition of this validation status. | UN01013306 | Validation_ Status. Condition. Code
 <span id="ValidationStatusReasonInformationText">ValidationStatusReasonInformationText</span> | xsd:string | Information, expressed as text, related to the reason for this validation status. | UN01013309 | Validation_ Status. Additional_ Reason. Text
+
+
+<h1 id="LogisticsStatus">LogisticsStatus</h1>
+
+Type: rdf:Class
+
+Definition: The information relevant to a condition or a position related to logistics.
+
+Unique UN Assigned ID: UN01003747
+
+Dictionary Entry Name: Logistics_ Status. Details
+
+Properties: 
+
+Name | Type | Definition | Unique UN Assigned ID | Dictionary Entry Name
+-|-|-|-|-
+<span id="LogisticsStatusReasonCode">LogisticsStatusReasonCode</span> | xsd:token | A code specifying a reason for this logistics status [UNECE Recommendation 24]. | UN01003751 | Logistics_ Status. Reason. Code
+<span id="ReportedDepartureEvent">ReportedDepartureEvent</span> | [edi3:Event](#Event) | A transport departure event reported for this logistics status. | UN01010094 | Logistics_ Status. Departure_ Reported. Transport_ Event
+<span id="LogisticsStatusSequenceNumber">LogisticsStatusSequenceNumber</span> | xsd:decimal | The sequence number of this logistics status, such as within a status report. | UN01003753 | Logistics_ Status. Sequence. Numeric
+<span id="LogisticsStatusConditionCode">LogisticsStatusConditionCode</span> | xsd:token | The code specifying this logistics status condition [UNECE Recommendation 24]. | UN01003748 | Logistics_ Status. Condition. Code
+<span id="LogisticsStatusSpecifiedLocation">LogisticsStatusSpecifiedLocation</span> | [edi3:LogisticsLocation](#LogisticsLocation) | A location specified for this logistics status. | UN01003755 | Logistics_ Status. Specified. Logistics_ Location
+<span id="LogisticsStatusValidityPeriod">LogisticsStatusValidityPeriod</span> | [edi3:SpecifiedPeriod](#SpecifiedPeriod) | A specific validity period for this logistics status. | UN01010092 | Logistics_ Status. Validity. Specified_ Period
+<span id="ReportedUnloadingEvent">ReportedUnloadingEvent</span> | [edi3:Event](#Event) | A transport unloading event reported for this logistics status. | UN01010096 | Logistics_ Status. Unloading_ Reported. Transport_ Event
+<span id="LogisticsStatusReasonText">LogisticsStatusReasonText</span> | xsd:string | A reason, expressed as text, for this logistics status. | UN01003752 | Logistics_ Status. Reason. Text
+<span id="LogisticsStatusDescription">LogisticsStatusDescription</span> | xsd:string | The textual description of this logistics status. | UN01003750 | Logistics_ Status. Description. Text
+<span id="LogisticsStatusReferenceDateTime">LogisticsStatusReferenceDateTime</span> | xsd:dateTime | The reference date, time, date time or other date time value for this logistics status. | UN01003749 | Logistics_ Status. Reference. Date Time
+<span id="ReportedArrivalEvent">ReportedArrivalEvent</span> | [edi3:Event](#Event) | A transport arrival event reported for this logistics status. | UN01010093 | Logistics_ Status. Arrival_ Reported. Transport_ Event
 
 
 <h1 id="RecordedStatus">RecordedStatus</h1>
@@ -925,72 +993,24 @@ Name | Type | Definition | Unique UN Assigned ID | Dictionary Entry Name
 <span id="FinancingStatusConditionCode">FinancingStatusConditionCode</span> | xsd:token | The code specifying the condition of this financing status. | UN01013263 | Financing_ Status. Condition. Code
 
 
-<h1 id="CancellationStatus">CancellationStatus</h1>
+<h1 id="DeliveryAdjustment">DeliveryAdjustment</h1>
 
 Type: rdf:Class
 
-Definition: Information relevant to a condition of a cancellation.
+Definition: A correction or modification to reflect actual delivery conditions.
 
-Unique UN Assigned ID: UN01013196
+Unique UN Assigned ID: UN01003498
 
-Dictionary Entry Name: Cancellation_ Status. Details
+Dictionary Entry Name: Delivery_ Adjustment. Details
 
 Properties: 
 
 Name | Type | Definition | Unique UN Assigned ID | Dictionary Entry Name
 -|-|-|-|-
-<span id="CancellationStatusConditionCode">CancellationStatusConditionCode</span> | xsd:token | The code specifying the condition of this cancellation status. | UN01013197 | Cancellation_ Status. Condition. Code
-<span id="CancellationStatusReasonInformationText">CancellationStatusReasonInformationText</span> | xsd:string | Information, expressed as text, related to the reason for this cancellation status. | UN01013200 | Cancellation_ Status. Reason_ Information. Text
-<span id="CancellationStatusReasonText">CancellationStatusReasonText</span> | xsd:string | A reason, expressed as text, for this cancellation status. | UN01013199 | Cancellation_ Status. Reason. Text
-
-
-<h1 id="LogisticsStatus">LogisticsStatus</h1>
-
-Type: rdf:Class
-
-Definition: The information relevant to a condition or a position related to logistics.
-
-Unique UN Assigned ID: UN01003747
-
-Dictionary Entry Name: Logistics_ Status. Details
-
-Properties: 
-
-Name | Type | Definition | Unique UN Assigned ID | Dictionary Entry Name
--|-|-|-|-
-<span id="LogisticsStatusReasonCode">LogisticsStatusReasonCode</span> | xsd:token | A code specifying a reason for this logistics status [UNECE Recommendation 24]. | UN01003751 | Logistics_ Status. Reason. Code
-<span id="ReportedDepartureEvent">ReportedDepartureEvent</span> | [edi3:Event](#Event) | A transport departure event reported for this logistics status. | UN01010094 | Logistics_ Status. Departure_ Reported. Transport_ Event
-<span id="LogisticsStatusSequenceNumber">LogisticsStatusSequenceNumber</span> | xsd:decimal | The sequence number of this logistics status, such as within a status report. | UN01003753 | Logistics_ Status. Sequence. Numeric
-<span id="LogisticsStatusConditionCode">LogisticsStatusConditionCode</span> | xsd:token | The code specifying this logistics status condition [UNECE Recommendation 24]. | UN01003748 | Logistics_ Status. Condition. Code
-<span id="LogisticsStatusSpecifiedLocation">LogisticsStatusSpecifiedLocation</span> | [edi3:LogisticsLocation](#LogisticsLocation) | A location specified for this logistics status. | UN01003755 | Logistics_ Status. Specified. Logistics_ Location
-<span id="LogisticsStatusValidityPeriod">LogisticsStatusValidityPeriod</span> | [edi3:SpecifiedPeriod](#SpecifiedPeriod) | A specific validity period for this logistics status. | UN01010092 | Logistics_ Status. Validity. Specified_ Period
-<span id="ReportedUnloadingEvent">ReportedUnloadingEvent</span> | [edi3:Event](#Event) | A transport unloading event reported for this logistics status. | UN01010096 | Logistics_ Status. Unloading_ Reported. Transport_ Event
-<span id="LogisticsStatusReasonText">LogisticsStatusReasonText</span> | xsd:string | A reason, expressed as text, for this logistics status. | UN01003752 | Logistics_ Status. Reason. Text
-<span id="LogisticsStatusDescription">LogisticsStatusDescription</span> | xsd:string | The textual description of this logistics status. | UN01003750 | Logistics_ Status. Description. Text
-<span id="LogisticsStatusReferenceDateTime">LogisticsStatusReferenceDateTime</span> | xsd:dateTime | The reference date, time, date time or other date time value for this logistics status. | UN01003749 | Logistics_ Status. Reference. Date Time
-<span id="ReportedArrivalEvent">ReportedArrivalEvent</span> | [edi3:Event](#Event) | A transport arrival event reported for this logistics status. | UN01010093 | Logistics_ Status. Arrival_ Reported. Transport_ Event
-
-
-<h1 id="DocumentStatus">DocumentStatus</h1>
-
-Type: rdf:Class
-
-Definition: The information relevant to a condition related to a document.
-
-Unique UN Assigned ID: UN01013122
-
-Dictionary Entry Name: Document_ Status. Details
-
-Properties: 
-
-Name | Type | Definition | Unique UN Assigned ID | Dictionary Entry Name
--|-|-|-|-
-<span id="DocumentStatusReasonText">DocumentStatusReasonText</span> | xsd:string | A reason, expressed as text, for this document status. | UN01013127 | Document_ Status. Reason. Text
-<span id="DocumentStatusConditionCode">DocumentStatusConditionCode</span> | xsd:token | The code specifying the condition of this document status. | UN01013125 | Document_ Status. Condition. Code
-<span id="DocumentStatusValidityPeriod">DocumentStatusValidityPeriod</span> | [edi3:SpecifiedPeriod](#SpecifiedPeriod) | A specified validity period for this document status. | UN01013129 | Document_ Status. Validity. Specified_ Period
-<span id="DocumentStatusInformation">DocumentStatusInformation</span> | xsd:string | Information, expressed as text, for this document status. | UN01013128 | Document_ Status. Information. Text
-<span id="DocumentStatusDescription">DocumentStatusDescription</span> | xsd:string | The textual description of this document status. | UN01013123 | Document_ Status. Description. Text
-<span id="DocumentStatusReasonCode">DocumentStatusReasonCode</span> | xsd:token | A code specifying a reason for this document status. | UN01013126 | Document_ Status. Reason. Code
+<span id="DeliveryAdjustmentActualQuantity">DeliveryAdjustmentActualQuantity</span> | xsd:decimal | The actual quantity added or subtracted as a result of this delivery adjustment. | UN01003502 | Delivery_ Adjustment. Actual. Quantity
+<span id="DeliveryAdjustmentActualAmount">DeliveryAdjustmentActualAmount</span> | xsd:decimal | An actual monetary value added or subtracted as a result of this delivery adjustment. | UN01003501 | Delivery_ Adjustment. Actual. Amount
+<span id="DeliveryAdjustmentReasonText">DeliveryAdjustmentReasonText</span> | xsd:string | A reason, expressed as text, for this delivery adjustment. | UN01003500 | Delivery_ Adjustment. Reason. Text
+<span id="DeliveryAdjustmentActualDateTime">DeliveryAdjustmentActualDateTime</span> | xsd:dateTime | The actual date, time, date time, or other date time value of this delivery adjustment. | UN01003503 | Delivery_ Adjustment. Actual. Date Time
 
 
 <h1 id="FinancialAdjustment">FinancialAdjustment</h1>
@@ -1014,26 +1034,6 @@ Name | Type | Definition | Unique UN Assigned ID | Dictionary Entry Name
 <span id="FinancialAdjustmentActualDateTime">FinancialAdjustmentActualDateTime</span> | xsd:dateTime | The actual date, time, date time, or other date time value of this financial adjustment. | UN01003599 | Financial_ Adjustment. Actual. Date Time
 <span id="FinancialAdjustmentReasonCode">FinancialAdjustmentReasonCode</span> | xsd:token | A code specifying a reason for this financial adjustment. | UN01003595 | Financial_ Adjustment. Reason. Code
 <span id="ReferenceInvoiceDocument">ReferenceInvoiceDocument</span> | [edi3:Document](#Document) | The invoice document referenced for this financial adjustment. | UN01009706 | Financial_ Adjustment. Invoice_ Reference. Referenced_ Document
-
-
-<h1 id="DeliveryAdjustment">DeliveryAdjustment</h1>
-
-Type: rdf:Class
-
-Definition: A correction or modification to reflect actual delivery conditions.
-
-Unique UN Assigned ID: UN01003498
-
-Dictionary Entry Name: Delivery_ Adjustment. Details
-
-Properties: 
-
-Name | Type | Definition | Unique UN Assigned ID | Dictionary Entry Name
--|-|-|-|-
-<span id="DeliveryAdjustmentActualQuantity">DeliveryAdjustmentActualQuantity</span> | xsd:decimal | The actual quantity added or subtracted as a result of this delivery adjustment. | UN01003502 | Delivery_ Adjustment. Actual. Quantity
-<span id="DeliveryAdjustmentActualAmount">DeliveryAdjustmentActualAmount</span> | xsd:decimal | An actual monetary value added or subtracted as a result of this delivery adjustment. | UN01003501 | Delivery_ Adjustment. Actual. Amount
-<span id="DeliveryAdjustmentReasonText">DeliveryAdjustmentReasonText</span> | xsd:string | A reason, expressed as text, for this delivery adjustment. | UN01003500 | Delivery_ Adjustment. Reason. Text
-<span id="DeliveryAdjustmentActualDateTime">DeliveryAdjustmentActualDateTime</span> | xsd:dateTime | The actual date, time, date time, or other date time value of this delivery adjustment. | UN01003503 | Delivery_ Adjustment. Actual. Date Time
 
 
 <h1 id="RegulatoryProcedure">RegulatoryProcedure</h1>
@@ -1085,6 +1085,7 @@ Name | Type | Definition | Unique UN Assigned ID | Dictionary Entry Name
 <span id="RegulatoryProcedureStatement">RegulatoryProcedureStatement</span> | [edi3:Note](#Note) | A statement note for this cross-border regulatory procedure. | UN01006180 | Cross-Border_ Regulatory Procedure. Statement. Note
 <span id="EntryCustomsOfficeLocation">EntryCustomsOfficeLocation</span> | [edi3:LogisticsLocation](#LogisticsLocation) | The location of the specified customs office at which the goods subject to this cross-border regulatory procedure, enter the customs territory of entry. | UN01008972 | Cross-Border_ Regulatory Procedure. Entry Customs Office_ Specified. Logistics_ Location
 <span id="AppliedRequiredChemicalTreatment">AppliedRequiredChemicalTreatment</span> | [edi3:ChemicalTreatment](#ChemicalTreatment) | A chemical treatment applied as required by this cross-border regulatory procedure. | UN01009039 | Cross-Border_ Regulatory Procedure. Required. Applied_ Chemical Treatment
+<span id="CrossBorderDebtorFinancialAccount">CrossBorderDebtorFinancialAccount</span> | [edi3:DebtorFinancialAccount](#DebtorFinancialAccount) | A debtor financial account specified for this cross-border regulatory procedure. | UN01006181 | Cross-Border_ Regulatory Procedure. Specified. Debtor_ Financial Account
 <span id="ImmediatePayableTotalChargeAmount">ImmediatePayableTotalChargeAmount</span> | xsd:decimal | A monetary value of the total charges, including tariff and non-tariff charges, immediately payable for this cross-border regulatory procedure. | UN01008961 | Cross-Border_ Regulatory Procedure. Immediate Payable_ Total Charge. Amount
 <span id="ExportCustomsOfficeLocation">ExportCustomsOfficeLocation</span> | [edi3:LogisticsLocation](#LogisticsLocation) | The location of the specified customs office which is responsible for export formalities for the goods which are subject to this cross-border regulatory procedure. | UN01008975 | Cross-Border_ Regulatory Procedure. Export Customs Office_ Specified. Logistics_ Location
 <span id="PerformanceDateTime">PerformanceDateTime</span> | xsd:dateTime | A date, time, date time, or other date time value on which this cross-border regulatory procedure was, or will be, performed. | UN01006158 | Cross-Border_ Regulatory Procedure. Performance. Date Time
@@ -1110,7 +1111,6 @@ Name | Type | Definition | Unique UN Assigned ID | Dictionary Entry Name
 <span id="RegulatoryProcedureGuaranteeCode">RegulatoryProcedureGuaranteeCode</span> | xsd:token | The code specifying an undertaking given in cash, bond or as a written guarantee to ensure that an obligation will be fulfilled for this cross-border regulatory procedure. | UN01006151 | Cross-Border_ Regulatory Procedure. Guarantee. Code
 <span id="GoodsStatusCode">GoodsStatusCode</span> | xsd:token | The code specifying the goods status for this cross-border regulatory procedure. | UN01008965 | Cross-Border_ Regulatory Procedure. Goods Status. Code
 <span id="PaymentOfficeLocation">PaymentOfficeLocation</span> | [edi3:LogisticsLocation](#LogisticsLocation) | The location of an office at which a payment relevant to this cross-border regulatory procedure is made. | UN01006179 | Cross-Border_ Regulatory Procedure. Payment Office. Logistics_ Location
-<span id="DebtorFinancialAccount">DebtorFinancialAccount</span> | [edi3:DebtorFinancialAccount](#DebtorFinancialAccount) | A debtor financial account specified for this cross-border regulatory procedure. | UN01006181 | Cross-Border_ Regulatory Procedure. Specified. Debtor_ Financial Account
 <span id="ControlStartDateConfirmationIndicator">ControlStartDateConfirmationIndicator</span> | xsd:boolean | The indication of whether or not the start date of a control has been confirmed for this cross-border regulatory procedure. | UN01006160 | Cross-Border_ Regulatory Procedure. Control Start Date Confirmation. Indicator
 
 
@@ -1130,24 +1130,38 @@ Name | Type | Definition | Unique UN Assigned ID | Dictionary Entry Name
 -|-|-|-|-
 
 
-<h1 id="ReturnableAssetInstructions">ReturnableAssetInstructions</h1>
+<h1 id="QuarantineInstructions">QuarantineInstructions</h1>
 
 Type: rdf:Class
 
-Definition: The procedures to follow for returnable assets, such as reusable packaging (pallets, crates).
+Definition: Instructions for a period of imposed isolation or detention.
 
-Unique UN Assigned ID: UN01008860
+Unique UN Assigned ID: UN01003988
 
-Dictionary Entry Name: Returnable Asset_ Instructions. Details
+Dictionary Entry Name: Quarantine_ Instructions. Details
 
 Properties: 
 
 Name | Type | Definition | Unique UN Assigned ID | Dictionary Entry Name
 -|-|-|-|-
-<span id="TermsAndConditionsText">TermsAndConditionsText</span> | xsd:string | A textual description of the terms and conditions for these returnable asset instructions. | UN01008862 | Returnable Asset_ Instructions. Terms And Conditions_ Description. Text
-<span id="DepositValidityPeriod">DepositValidityPeriod</span> | [edi3:SpecifiedPeriod](#SpecifiedPeriod) | The specified period during which the deposit value specified in these returnable asset instructions is valid. | UN01008865 | Returnable Asset_ Instructions. Deposit Value_ Validity. Specified_ Period
-<span id="ReturnableAssetInstructionsMaterialID">ReturnableAssetInstructionsMaterialID</span> | xsd:token | An identifier of the material to which these returnable asset instructions apply. | UN01008861 | Returnable Asset_ Instructions. Material. Identifier
-<span id="TermsAndConditionsCode">TermsAndConditionsCode</span> | xsd:token | The code specifying the description of the terms and conditions for these returnable asset instructions. | UN01008863 | Returnable Asset_ Instructions. Terms And Conditions_ Description. Code
+<span id="QuarantineInstructionsDescription">QuarantineInstructionsDescription</span> | xsd:string | The textual description of these quarantine instructions. | UN01003989 | Quarantine_ Instructions. Description. Text
+
+
+<h1 id="HaulageInstructions">HaulageInstructions</h1>
+
+Type: rdf:Class
+
+Definition: Instructions related to the action or process of conveyance.
+
+Unique UN Assigned ID: UN01003634
+
+Dictionary Entry Name: Haulage_ Instructions. Details
+
+Properties: 
+
+Name | Type | Definition | Unique UN Assigned ID | Dictionary Entry Name
+-|-|-|-|-
+<span id="HaulageInstructionsDescription">HaulageInstructionsDescription</span> | xsd:string | The textual description of these haulage instructions. | UN01003635 | Haulage_ Instructions. Description. Text
 
 
 <h1 id="HandlingInstructions">HandlingInstructions</h1>
@@ -1170,84 +1184,32 @@ Name | Type | Definition | Unique UN Assigned ID | Dictionary Entry Name
 <span id="MinimumStorageHumidity">MinimumStorageHumidity</span> | xsd:decimal | The measure of the minimum storage humidity applicable to these handling instructions. | UN01008432 | Handling_ Instructions. Minimum Storage Humidity_ Applicable. Measure
 <span id="HandlingInstructionsProcedureText">HandlingInstructionsProcedureText</span> | xsd:string | A procedure, expressed as text, for these handling instructions. | UN01003629 | Handling_ Instructions. Procedure. Text
 <span id="HandlingInstructionsID">HandlingInstructionsID</span> | xsd:token | The identifier of this handling instructions. | UN01012760 | Handling_ Instructions. Identification. Identifier
-<span id="TransportSettingTemperature">TransportSettingTemperature</span> | [edi3:TransportSettingTemperature](#TransportSettingTemperature) | A transport related temperature setting applicable to these handling instructions. | UN01007180 | Handling_ Instructions. Applicable. Transport Setting_ Temperature
 <span id="HandlingInstructionsDescriptionCode">HandlingInstructionsDescriptionCode</span> | xsd:token | A code specifying a description of these handling instructions. | UN01003633 | Handling_ Instructions. Description. Code
 <span id="DeliveryInstructedTemperature">DeliveryInstructedTemperature</span> | [edi3:InstructedTemperature](#InstructedTemperature) | The instructed temperature for delivery applicable to these handling instructions. | UN01008433 | Handling_ Instructions. Delivery_ Applicable. Instructed_ Temperature
 <span id="MarketDeliveryInstructedTemperature">MarketDeliveryInstructedTemperature</span> | [edi3:InstructedTemperature](#InstructedTemperature) | The instructed temperature for market delivery applicable to these handling instructions. | UN01008434 | Handling_ Instructions. Market Delivery_ Applicable. Instructed_ Temperature
 <span id="StorageInstructedTemperature">StorageInstructedTemperature</span> | [edi3:InstructedTemperature](#InstructedTemperature) | The instructed temperature for storage applicable to these handling instructions. | UN01008435 | Handling_ Instructions. Storage_ Applicable. Instructed_ Temperature
 <span id="HandlingInstructionsDescription">HandlingInstructionsDescription</span> | xsd:string | A textual description of these handling instructions. | UN01003632 | Handling_ Instructions. Description. Text
+<span id="HandlingTransportSettingTemperature">HandlingTransportSettingTemperature</span> | [edi3:TransportSettingTemperature](#TransportSettingTemperature) | A transport related temperature setting applicable to these handling instructions. | UN01007180 | Handling_ Instructions. Applicable. Transport Setting_ Temperature
 
 
-<h1 id="DisposalInstructions">DisposalInstructions</h1>
+<h1 id="ReturnableAssetInstructions">ReturnableAssetInstructions</h1>
 
 Type: rdf:Class
 
-Definition: A set of instructions detailing how to properly dispose of a material.
+Definition: The procedures to follow for returnable assets, such as reusable packaging (pallets, crates).
 
-Unique UN Assigned ID: UN01002451
+Unique UN Assigned ID: UN01008860
 
-Dictionary Entry Name: Disposal_ Instructions. Details
+Dictionary Entry Name: Returnable Asset_ Instructions. Details
 
 Properties: 
 
 Name | Type | Definition | Unique UN Assigned ID | Dictionary Entry Name
 -|-|-|-|-
-<span id="RecyclingDescriptionCode">RecyclingDescriptionCode</span> | xsd:token | A code describing recycling in these disposal instructions. | UN01008428 | Disposal_ Instructions. Recycling_ Description. Code
-<span id="DisposalInstructionsMaterialID">DisposalInstructionsMaterialID</span> | xsd:token | The identifier of the material to which these disposal instructions apply. | UN01008427 | Disposal_ Instructions. Material. Identifier
-<span id="DisposalInstructionsDescription">DisposalInstructionsDescription</span> | xsd:string | A textual description of these disposal instructions. | UN01008429 | Disposal_ Instructions. Description. Text
-
-
-<h1 id="HaulageInstructions">HaulageInstructions</h1>
-
-Type: rdf:Class
-
-Definition: Instructions related to the action or process of conveyance.
-
-Unique UN Assigned ID: UN01003634
-
-Dictionary Entry Name: Haulage_ Instructions. Details
-
-Properties: 
-
-Name | Type | Definition | Unique UN Assigned ID | Dictionary Entry Name
--|-|-|-|-
-<span id="HaulageInstructionsDescription">HaulageInstructionsDescription</span> | xsd:string | The textual description of these haulage instructions. | UN01003635 | Haulage_ Instructions. Description. Text
-
-
-<h1 id="QuarantineInstructions">QuarantineInstructions</h1>
-
-Type: rdf:Class
-
-Definition: Instructions for a period of imposed isolation or detention.
-
-Unique UN Assigned ID: UN01003988
-
-Dictionary Entry Name: Quarantine_ Instructions. Details
-
-Properties: 
-
-Name | Type | Definition | Unique UN Assigned ID | Dictionary Entry Name
--|-|-|-|-
-<span id="QuarantineInstructionsDescription">QuarantineInstructionsDescription</span> | xsd:string | The textual description of these quarantine instructions. | UN01003989 | Quarantine_ Instructions. Description. Text
-
-
-<h1 id="DeliveryInstructions">DeliveryInstructions</h1>
-
-Type: rdf:Class
-
-Definition: Delivery information of an instructive nature.
-
-Unique UN Assigned ID: UN01003504
-
-Dictionary Entry Name: Delivery_ Instructions. Details
-
-Properties: 
-
-Name | Type | Definition | Unique UN Assigned ID | Dictionary Entry Name
--|-|-|-|-
-<span id="DeliveryInstructionsDescription">DeliveryInstructionsDescription</span> | xsd:string | A textual description of these delivery instructions. | UN01003511 | Delivery_ Instructions. Description. Text
-<span id="HandlingText">HandlingText</span> | xsd:string | Delivery handling instructions expressed as text. | UN01003506 | Delivery_ Instructions. Handling. Text
-<span id="DeliveryInstructionsHandlingCode">DeliveryInstructionsHandlingCode</span> | xsd:token | A code specifying delivery handling instructions. | UN01003505 | Delivery_ Instructions. Handling. Code
+<span id="TermsAndConditionsText">TermsAndConditionsText</span> | xsd:string | A textual description of the terms and conditions for these returnable asset instructions. | UN01008862 | Returnable Asset_ Instructions. Terms And Conditions_ Description. Text
+<span id="DepositValidityPeriod">DepositValidityPeriod</span> | [edi3:SpecifiedPeriod](#SpecifiedPeriod) | The specified period during which the deposit value specified in these returnable asset instructions is valid. | UN01008865 | Returnable Asset_ Instructions. Deposit Value_ Validity. Specified_ Period
+<span id="ReturnableAssetInstructionsMaterialID">ReturnableAssetInstructionsMaterialID</span> | xsd:token | An identifier of the material to which these returnable asset instructions apply. | UN01008861 | Returnable Asset_ Instructions. Material. Identifier
+<span id="TermsAndConditionsCode">TermsAndConditionsCode</span> | xsd:token | The code specifying the description of the terms and conditions for these returnable asset instructions. | UN01008863 | Returnable Asset_ Instructions. Terms And Conditions_ Description. Code
 
 
 <h1 id="TemperatureSettingInstructions">TemperatureSettingInstructions</h1>
@@ -1283,6 +1245,44 @@ Properties:
 Name | Type | Definition | Unique UN Assigned ID | Dictionary Entry Name
 -|-|-|-|-
 <span id="TransportInstructionsDescription">TransportInstructionsDescription</span> | xsd:string | A textual description of these transport instructions. | UN01004813 | Transport_ Instructions. Description. Text
+
+
+<h1 id="DeliveryInstructions">DeliveryInstructions</h1>
+
+Type: rdf:Class
+
+Definition: Delivery information of an instructive nature.
+
+Unique UN Assigned ID: UN01003504
+
+Dictionary Entry Name: Delivery_ Instructions. Details
+
+Properties: 
+
+Name | Type | Definition | Unique UN Assigned ID | Dictionary Entry Name
+-|-|-|-|-
+<span id="DeliveryInstructionsDescription">DeliveryInstructionsDescription</span> | xsd:string | A textual description of these delivery instructions. | UN01003511 | Delivery_ Instructions. Description. Text
+<span id="HandlingText">HandlingText</span> | xsd:string | Delivery handling instructions expressed as text. | UN01003506 | Delivery_ Instructions. Handling. Text
+<span id="DeliveryInstructionsHandlingCode">DeliveryInstructionsHandlingCode</span> | xsd:token | A code specifying delivery handling instructions. | UN01003505 | Delivery_ Instructions. Handling. Code
+
+
+<h1 id="DisposalInstructions">DisposalInstructions</h1>
+
+Type: rdf:Class
+
+Definition: A set of instructions detailing how to properly dispose of a material.
+
+Unique UN Assigned ID: UN01002451
+
+Dictionary Entry Name: Disposal_ Instructions. Details
+
+Properties: 
+
+Name | Type | Definition | Unique UN Assigned ID | Dictionary Entry Name
+-|-|-|-|-
+<span id="RecyclingDescriptionCode">RecyclingDescriptionCode</span> | xsd:token | A code describing recycling in these disposal instructions. | UN01008428 | Disposal_ Instructions. Recycling_ Description. Code
+<span id="DisposalInstructionsMaterialID">DisposalInstructionsMaterialID</span> | xsd:token | The identifier of the material to which these disposal instructions apply. | UN01008427 | Disposal_ Instructions. Material. Identifier
+<span id="DisposalInstructionsDescription">DisposalInstructionsDescription</span> | xsd:string | A textual description of these disposal instructions. | UN01008429 | Disposal_ Instructions. Description. Text
 
 
 <h1 id="Booking">Booking</h1>
@@ -1432,27 +1432,28 @@ Name | Type | Definition | Unique UN Assigned ID | Dictionary Entry Name
 <span id="ChemicalScientificName">ChemicalScientificName</span> | xsd:string | The scientific name, expressed as text, for this distinct chemical. | UN01002173 | Distinct_ Chemical. Scientific_ Name. Text
 
 
-<h1 id="FinancingFinancialAccount">FinancingFinancialAccount</h1>
+<h1 id="CreditorFinancialAccount">CreditorFinancialAccount</h1>
 
 Type: rdf:Class
 
-Definition: A financial account used internally by a bank to manage the line of credit granted to financing requesting party.
+Definition: A specific business arrangement whereby credits arising from transactions are recorded.
 
-Unique UN Assigned ID: UN01013253
+Unique UN Assigned ID: UN01003347
 
-Dictionary Entry Name: Financing_ Financial Account. Details
+Dictionary Entry Name: Creditor_ Financial Account. Details
 
 Properties: 
 
 Name | Type | Definition | Unique UN Assigned ID | Dictionary Entry Name
 -|-|-|-|-
-<span id="FinancingFinancialAccountIBANID">FinancingFinancialAccountIBANID</span> | xsd:token | The unique International Bank Account Number (IBAN) identifier for this financing financial account. | UN01013254 | Financing_ Financial Account. IBAN_ Identification. Identifier
-<span id="FinancingFinancialAccountProprietaryID">FinancingFinancialAccountProprietaryID</span> | xsd:token | The proprietary identifier for this financing financial account. | UN01013261 | Financing_ Financial Account. Proprietary_ Identification. Identifier
-<span id="FinancingFinancialAccountName">FinancingFinancialAccountName</span> | xsd:string | The account name, expressed as text, of this financing financial account. | UN01013260 | Financing_ Financial Account. Account Name. Text
-<span id="FinancingFinancialAccountProprietaryTypeText">FinancingFinancialAccountProprietaryTypeText</span> | xsd:string | The proprietary type, expressed as text, of this financing financial account, such as the nature or use. | UN01013258 | Financing_ Financial Account. Proprietary_ Type. Text
-<span id="FinancingFinancialAccountTypeCode">FinancingFinancialAccountTypeCode</span> | xsd:token | The code specifying the type of financing financial account. | UN01013257 | Financing_ Financial Account. Type. Code
-<span id="FinancingFinancialAccountUPICID">FinancingFinancialAccountUPICID</span> | xsd:token | The unique Universal Payment Identification Code (UPIC) identifier used by the New York Clearing House for this financing financial account. | UN01013256 | Financing_ Financial Account. UPIC_ Identification. Identifier
-<span id="FinancingFinancialAccountCurrencyCode">FinancingFinancialAccountCurrencyCode</span> | xsd:token | The code specifying the currency of this financing financial account. | UN01013259 | Financing_ Financial Account. Currency. Code
+<span id="CreditorFinancialAccountProprietaryID">CreditorFinancialAccountProprietaryID</span> | xsd:token | The unique proprietary identifier for this creditor financial account. | UN01004850 | Creditor_ Financial Account. Proprietary_ Identification. Identifier
+<span id="CreditorFinancialAccountTypeCode">CreditorFinancialAccountTypeCode</span> | xsd:token | The code specifying the type of creditor financial account. | UN01003352 | Creditor_ Financial Account. Type. Code
+<span id="CreditorFinancialAccountIBANID">CreditorFinancialAccountIBANID</span> | xsd:token | The unique International Bank Account Number (IBAN) identifier for this creditor financial account. | UN01003348 | Creditor_ Financial Account. IBAN_ Identification. Identifier
+<span id="CreditorFinancialAccountName">CreditorFinancialAccountName</span> | xsd:string | The account name, expressed as text, of this creditor financial account. | UN01003355 | Creditor_ Financial Account. Account Name. Text
+<span id="CreditorFinancialAccountCurrencyCode">CreditorFinancialAccountCurrencyCode</span> | xsd:token | The code specifying the currency of this creditor financial account (Reference ISO 4217 codes). | UN01003354 | Creditor_ Financial Account. Currency. Code
+<span id="CreditorFinancialAccountUPICID">CreditorFinancialAccountUPICID</span> | xsd:token | The unique Universal Payment Identification Code (UPIC) identifier used by the New York Clearing House for this creditor financial account. | UN01003350 | Creditor_ Financial Account. UPIC_ Identification. Identifier
+<span id="CreditorFinancialAccountBBANID">CreditorFinancialAccountBBANID</span> | xsd:token | The unique Basic Bank Account Number (BBAN) identifier used as part of a National Account Numbering Scheme(s) for this creditor financial account. | UN01003349 | Creditor_ Financial Account. BBAN_ Identification. Identifier
+<span id="CreditorFinancialAccountProprietaryTypeText">CreditorFinancialAccountProprietaryTypeText</span> | xsd:string | The proprietary type, expressed as text, of this creditor financial account, such as the nature or use of the creditor account. | UN01003353 | Creditor_ Financial Account. Proprietary_ Type. Text
 
 
 <h1 id="DebtorFinancialAccount">DebtorFinancialAccount</h1>
@@ -1479,28 +1480,27 @@ Name | Type | Definition | Unique UN Assigned ID | Dictionary Entry Name
 <span id="DebtorFinancialAccountName">DebtorFinancialAccountName</span> | xsd:string | The account name, expressed as text, of this debtor financial account. | UN01003292 | Debtor_ Financial Account. Account Name. Text
 
 
-<h1 id="CreditorFinancialAccount">CreditorFinancialAccount</h1>
+<h1 id="FinancingFinancialAccount">FinancingFinancialAccount</h1>
 
 Type: rdf:Class
 
-Definition: A specific business arrangement whereby credits arising from transactions are recorded.
+Definition: A financial account used internally by a bank to manage the line of credit granted to financing requesting party.
 
-Unique UN Assigned ID: UN01003347
+Unique UN Assigned ID: UN01013253
 
-Dictionary Entry Name: Creditor_ Financial Account. Details
+Dictionary Entry Name: Financing_ Financial Account. Details
 
 Properties: 
 
 Name | Type | Definition | Unique UN Assigned ID | Dictionary Entry Name
 -|-|-|-|-
-<span id="CreditorFinancialAccountProprietaryID">CreditorFinancialAccountProprietaryID</span> | xsd:token | The unique proprietary identifier for this creditor financial account. | UN01004850 | Creditor_ Financial Account. Proprietary_ Identification. Identifier
-<span id="CreditorFinancialAccountTypeCode">CreditorFinancialAccountTypeCode</span> | xsd:token | The code specifying the type of creditor financial account. | UN01003352 | Creditor_ Financial Account. Type. Code
-<span id="CreditorFinancialAccountIBANID">CreditorFinancialAccountIBANID</span> | xsd:token | The unique International Bank Account Number (IBAN) identifier for this creditor financial account. | UN01003348 | Creditor_ Financial Account. IBAN_ Identification. Identifier
-<span id="CreditorFinancialAccountName">CreditorFinancialAccountName</span> | xsd:string | The account name, expressed as text, of this creditor financial account. | UN01003355 | Creditor_ Financial Account. Account Name. Text
-<span id="CreditorFinancialAccountCurrencyCode">CreditorFinancialAccountCurrencyCode</span> | xsd:token | The code specifying the currency of this creditor financial account (Reference ISO 4217 codes). | UN01003354 | Creditor_ Financial Account. Currency. Code
-<span id="CreditorFinancialAccountUPICID">CreditorFinancialAccountUPICID</span> | xsd:token | The unique Universal Payment Identification Code (UPIC) identifier used by the New York Clearing House for this creditor financial account. | UN01003350 | Creditor_ Financial Account. UPIC_ Identification. Identifier
-<span id="CreditorFinancialAccountBBANID">CreditorFinancialAccountBBANID</span> | xsd:token | The unique Basic Bank Account Number (BBAN) identifier used as part of a National Account Numbering Scheme(s) for this creditor financial account. | UN01003349 | Creditor_ Financial Account. BBAN_ Identification. Identifier
-<span id="CreditorFinancialAccountProprietaryTypeText">CreditorFinancialAccountProprietaryTypeText</span> | xsd:string | The proprietary type, expressed as text, of this creditor financial account, such as the nature or use of the creditor account. | UN01003353 | Creditor_ Financial Account. Proprietary_ Type. Text
+<span id="FinancingFinancialAccountIBANID">FinancingFinancialAccountIBANID</span> | xsd:token | The unique International Bank Account Number (IBAN) identifier for this financing financial account. | UN01013254 | Financing_ Financial Account. IBAN_ Identification. Identifier
+<span id="FinancingFinancialAccountProprietaryID">FinancingFinancialAccountProprietaryID</span> | xsd:token | The proprietary identifier for this financing financial account. | UN01013261 | Financing_ Financial Account. Proprietary_ Identification. Identifier
+<span id="FinancingFinancialAccountName">FinancingFinancialAccountName</span> | xsd:string | The account name, expressed as text, of this financing financial account. | UN01013260 | Financing_ Financial Account. Account Name. Text
+<span id="FinancingFinancialAccountProprietaryTypeText">FinancingFinancialAccountProprietaryTypeText</span> | xsd:string | The proprietary type, expressed as text, of this financing financial account, such as the nature or use. | UN01013258 | Financing_ Financial Account. Proprietary_ Type. Text
+<span id="FinancingFinancialAccountTypeCode">FinancingFinancialAccountTypeCode</span> | xsd:token | The code specifying the type of financing financial account. | UN01013257 | Financing_ Financial Account. Type. Code
+<span id="FinancingFinancialAccountUPICID">FinancingFinancialAccountUPICID</span> | xsd:token | The unique Universal Payment Identification Code (UPIC) identifier used by the New York Clearing House for this financing financial account. | UN01013256 | Financing_ Financial Account. UPIC_ Identification. Identifier
+<span id="FinancingFinancialAccountCurrencyCode">FinancingFinancialAccountCurrencyCode</span> | xsd:token | The code specifying the currency of this financing financial account. | UN01013259 | Financing_ Financial Account. Currency. Code
 
 
 <h1 id="Note">Note</h1>
@@ -1521,6 +1521,25 @@ Name | Type | Definition | Unique UN Assigned ID | Dictionary Entry Name
 <span id="NoteID">NoteID</span> | xsd:token | A unique identifier for this note. | UN01002524 | Note. Identification. Identifier
 <span id="NoteContentCode">NoteContentCode</span> | xsd:token | A code specifying the content of this note. | UN01002521 | Note. Content. Code
 <span id="SubjectText">SubjectText</span> | xsd:string | The subject, expressed as text, of this note. | UN01002520 | Note. Subject. Text
+
+
+<h1 id="SubordinateLineTradeDelivery">SubordinateLineTradeDelivery</h1>
+
+Type: rdf:Class
+
+Definition: Supply chain shipping arrangements and movement of products and or services including despatch and delivery.
+
+Unique UN Assigned ID: UN01011849
+
+Dictionary Entry Name: Subordinate Line_ Trade Delivery. Details
+
+Properties: 
+
+Name | Type | Definition | Unique UN Assigned ID | Dictionary Entry Name
+-|-|-|-|-
+<span id="SubordinateLineTradeDeliveryProductUnitQuantity">SubordinateLineTradeDeliveryProductUnitQuantity</span> | xsd:decimal | The number of product units in this subordinate line trade delivery. | UN01011851 | Subordinate Line_ Trade Delivery. Product_ Unit. Quantity
+<span id="SubordinateLineTradeDeliveryPackageQuantity">SubordinateLineTradeDeliveryPackageQuantity</span> | xsd:decimal | The number of packages in this subordinate line trade delivery. | UN01011850 | Subordinate Line_ Trade Delivery. Package. Quantity
+<span id="SubordinateLineTradeDeliveryIncludedPackaging">SubordinateLineTradeDeliveryIncludedPackaging</span> | [edi3:Packaging](#Packaging) | Packaging included in this subordinate line trade delivery. | UN01011853 | Subordinate Line_ Trade Delivery. Included. Supply Chain_ Packaging
 
 
 <h1 id="LineTradeDelivery">LineTradeDelivery</h1>
@@ -1564,6 +1583,7 @@ Name | Type | Definition | Unique UN Assigned ID | Dictionary Entry Name
 <span id="DespatchSchedule">DespatchSchedule</span> | [edi3:Schedule](#Schedule) | A supply chain despatch schedule, at line level, for this trade delivery. | UN01013019 | Line_ Trade Delivery. Despatch. Supply Chain_ Schedule
 <span id="LineTradeDeliveryPlannedDeliveryEvent">LineTradeDeliveryPlannedDeliveryEvent</span> | [edi3:SupplyChainEvent](#SupplyChainEvent) | A delivery event, at line level, planned for this trade delivery. | UN01011789 | Line_ Trade Delivery. Planned_ Delivery. Supply Chain_ Event
 <span id="CustomerInventory">CustomerInventory</span> | [edi3:SupplyChainInventory](#SupplyChainInventory) | Supply chain customer inventory, at line level, for this trade delivery. | UN01013014 | Line_ Trade Delivery. Customer. Supply Chain_ Inventory
+<span id="LineDeliveryAdjustment">LineDeliveryAdjustment</span> | [edi3:DeliveryAdjustment](#DeliveryAdjustment) | A delivery adjustment, at line level, specified for this trade delivery. | UN01011775 | Line_ Trade Delivery. Specified. Delivery_ Adjustment
 <span id="LineTradeDeliveryDeliveryInstructions">LineTradeDeliveryDeliveryInstructions</span> | [edi3:DeliveryInstructions](#DeliveryInstructions) | Delivery instructions, at line level, specified for this trade delivery. | UN01011782 | Line_ Trade Delivery. Specified. Delivery_ Instructions
 <span id="LineTradeDeliveryRelatedConsignment">LineTradeDeliveryRelatedConsignment</span> | [edi3:Consignment](#Consignment) | A consignment, at line level, related to this line trade delivery. | UN01011777 | Line_ Trade Delivery. Related. Supply Chain_ Consignment
 <span id="DestroyedQuantity">DestroyedQuantity</span> | xsd:decimal | The quantity, at line level, destroyed for this trade delivery. | UN01013444 | Line_ Trade Delivery. Destroyed. Quantity
@@ -1631,7 +1651,6 @@ Name | Type | Definition | Unique UN Assigned ID | Dictionary Entry Name
 <span id="OrderQuantity">OrderQuantity</span> | xsd:decimal | The quantity, at line level, ordered for this trade delivery. | UN01013442 | Line_ Trade Delivery. Order. Quantity
 <span id="LineTradeDeliveryDeliveryNoteDocument">LineTradeDeliveryDeliveryNoteDocument</span> | [edi3:Document](#Document) | The delivery note document, at line level, referenced for this trade delivery. | UN01011795 | Line_ Trade Delivery. Delivery Note. Referenced_ Document
 <span id="LineTradeDeliveryIncludedPackaging">LineTradeDeliveryIncludedPackaging</span> | [edi3:Packaging](#Packaging) | Packaging included, at line level, in this trade delivery. | UN01011776 | Line_ Trade Delivery. Included. Supply Chain_ Packaging
-<span id="DeliveryAdjustment">DeliveryAdjustment</span> | [edi3:DeliveryAdjustment](#DeliveryAdjustment) | A delivery adjustment, at line level, specified for this trade delivery. | UN01011775 | Line_ Trade Delivery. Specified. Delivery_ Adjustment
 <span id="QuantityVariationReasonText">QuantityVariationReasonText</span> | xsd:string | A reason, expressed as text, for a quantity variation, at line level, for this trade delivery. | UN01013451 | Line_ Trade Delivery. Quantity Variation_ Reason. Text
 <span id="LineTradeDeliveryNetVolume">LineTradeDeliveryNetVolume</span> | xsd:decimal | The measure, at line level, of the net volume of this line trade delivery. | UN01011770 | Line_ Trade Delivery. Net Volume. Measure
 <span id="LineTradeDeliveryPackageQuantity">LineTradeDeliveryPackageQuantity</span> | xsd:decimal | The number of packages, at line level, in this trade delivery. | UN01011764 | Line_ Trade Delivery. Package. Quantity
@@ -1639,25 +1658,6 @@ Name | Type | Definition | Unique UN Assigned ID | Dictionary Entry Name
 <span id="DeliverySchedule">DeliverySchedule</span> | [edi3:Schedule](#Schedule) | A supply chain delivery schedule, at line level, for this trade delivery. | UN01013018 | Line_ Trade Delivery. Delivery. Supply Chain_ Schedule
 <span id="LineTradeDeliveryActualLoadingEvent">LineTradeDeliveryActualLoadingEvent</span> | [edi3:SupplyChainEvent](#SupplyChainEvent) | The actual loading event, at line level, for this trade delivery. | UN01013456 | Line_ Trade Delivery. Actual_ Loading. Supply Chain_ Event
 <span id="LineTradeDeliveryDespatchedQuantity">LineTradeDeliveryDespatchedQuantity</span> | xsd:decimal | The quantity, at line level, despatched for this trade delivery. | UN01011943 | Line_ Trade Delivery. Despatched. Quantity
-
-
-<h1 id="SubordinateLineTradeDelivery">SubordinateLineTradeDelivery</h1>
-
-Type: rdf:Class
-
-Definition: Supply chain shipping arrangements and movement of products and or services including despatch and delivery.
-
-Unique UN Assigned ID: UN01011849
-
-Dictionary Entry Name: Subordinate Line_ Trade Delivery. Details
-
-Properties: 
-
-Name | Type | Definition | Unique UN Assigned ID | Dictionary Entry Name
--|-|-|-|-
-<span id="SubordinateLineTradeDeliveryProductUnitQuantity">SubordinateLineTradeDeliveryProductUnitQuantity</span> | xsd:decimal | The number of product units in this subordinate line trade delivery. | UN01011851 | Subordinate Line_ Trade Delivery. Product_ Unit. Quantity
-<span id="SubordinateLineTradeDeliveryPackageQuantity">SubordinateLineTradeDeliveryPackageQuantity</span> | xsd:decimal | The number of packages in this subordinate line trade delivery. | UN01011850 | Subordinate Line_ Trade Delivery. Package. Quantity
-<span id="SubordinateLineTradeDeliveryIncludedPackaging">SubordinateLineTradeDeliveryIncludedPackaging</span> | [edi3:Packaging](#Packaging) | Packaging included in this subordinate line trade delivery. | UN01011853 | Subordinate Line_ Trade Delivery. Included. Supply Chain_ Packaging
 
 
 <h1 id="HeaderTradeDelivery">HeaderTradeDelivery</h1>
@@ -1881,23 +1881,6 @@ Name | Type | Definition | Unique UN Assigned ID | Dictionary Entry Name
 <span id="ContactPersonBirthDateTime">ContactPersonBirthDateTime</span> | xsd:dateTime | The date, time, date time or other date time value which specifies the birth date for this contact person. | UN01012119 | Contact_ Person. Birth. Date Time
 
 
-<h1 id="AuthoritativeSignatoryPerson">AuthoritativeSignatoryPerson</h1>
-
-Type: rdf:Class
-
-Definition: A person who is authorized to sign a document, such as a customs officer or other government official.
-
-Unique UN Assigned ID: UN01002513
-
-Dictionary Entry Name: Authoritative Signatory_ Person. Details
-
-Properties: 
-
-Name | Type | Definition | Unique UN Assigned ID | Dictionary Entry Name
--|-|-|-|-
-<span id="AttainedAcademicQualification">AttainedAcademicQualification</span> | [edi3:Qualification](#Qualification) | An academic qualification attained by this authoritative signatory person. | UN01002515 | Authoritative Signatory_ Person. Attained. Academic_ Qualification
-
-
 <h1 id="TransportPerson">TransportPerson</h1>
 
 Type: rdf:Class
@@ -1924,7 +1907,6 @@ Name | Type | Definition | Unique UN Assigned ID | Dictionary Entry Name
 <span id="TransportPersonGivenName">TransportPersonGivenName</span> | xsd:string | A given name, expressed as text, for this transport person. | UN01013137 | Transport_ Person. Given Name. Text
 <span id="BirthplaceName">BirthplaceName</span> | xsd:string | The name, expressed as text, of the place where this transport person was born. | UN01013140 | Transport_ Person. Birthplace Name. Text
 <span id="TransportPersonCategoryCode">TransportPersonCategoryCode</span> | xsd:token | A code specifying a category for this transport person, such as a member of crew or passenger. | UN01013135 | Transport_ Person. Category. Code
-<span id="CertifiedAccreditation">CertifiedAccreditation</span> | [edi3:Accreditation](#Accreditation) | A certified accreditation specific to this transport person. | UN01010155 | Transport_ Person. Specific. Certified_ Accreditation
 <span id="GenderCode">GenderCode</span> | xsd:token | A code specifying the gender of this transport person. | UN01013136 | Transport_ Person. Gender. Code
 <span id="TransportPersonEmailAddress">TransportPersonEmailAddress</span> | [edi3:UniversalCommunication](#UniversalCommunication) | The email URI (Uniform Resource Identifier) communication for this transport person. | UN01013150 | Transport_ Person. Email_ URI. Universal_ Communication
 <span id="TransportPersonRoleCode">TransportPersonRoleCode</span> | xsd:token | A code specifying a role of this transport person. | UN01013134 | Transport_ Person. Role. Code
@@ -1932,9 +1914,27 @@ Name | Type | Definition | Unique UN Assigned ID | Dictionary Entry Name
 <span id="TransportPersonName">TransportPersonName</span> | xsd:string | The name or set of names, expressed as text, by which this transport person is known. | UN01004817 | Transport_ Person. Name. Text
 <span id="InTransitIndicator">InTransitIndicator</span> | xsd:boolean | The indication of whether or not this transport person is in transit. | UN01013141 | Transport_ Person. In Transit. Indicator
 <span id="TravelVisaDocument">TravelVisaDocument</span> | [edi3:Document](#Document) | A referenced travel visa document for this transport person. | UN01013146 | Transport_ Person. Travel_ Visa. Referenced_ Document
+<span id="TransportCertifiedAccreditation">TransportCertifiedAccreditation</span> | [edi3:Accreditation](#Accreditation) | A certified accreditation specific to this transport person. | UN01010155 | Transport_ Person. Specific. Certified_ Accreditation
 <span id="TransportPersonID">TransportPersonID</span> | xsd:token | The unique identifier for this transport person. | UN01004816 | Transport_ Person. Identification. Identifier
 <span id="BirthCountryCode">BirthCountryCode</span> | xsd:token | The identifier of the birth country of this transport person. | UN01013139 | Transport_ Person. Birth Country. Identifier
 <span id="AttainedQualification">AttainedQualification</span> | [edi3:Qualification](#Qualification) | An academic qualification attained by this transport person. | UN01013142 | Transport_ Person. Attained. Academic_ Qualification
+
+
+<h1 id="AuthoritativeSignatoryPerson">AuthoritativeSignatoryPerson</h1>
+
+Type: rdf:Class
+
+Definition: A person who is authorized to sign a document, such as a customs officer or other government official.
+
+Unique UN Assigned ID: UN01002513
+
+Dictionary Entry Name: Authoritative Signatory_ Person. Details
+
+Properties: 
+
+Name | Type | Definition | Unique UN Assigned ID | Dictionary Entry Name
+-|-|-|-|-
+<span id="AttainedAcademicQualification">AttainedAcademicQualification</span> | [edi3:Qualification](#Qualification) | An academic qualification attained by this authoritative signatory person. | UN01002515 | Authoritative Signatory_ Person. Attained. Academic_ Qualification
 
 
 <h1 id="SupplyChainInventory">SupplyChainInventory</h1>
@@ -2146,26 +2146,6 @@ Name | Type | Definition | Unique UN Assigned ID | Dictionary Entry Name
 <span id="ShipperReferenceInformation">ShipperReferenceInformation</span> | xsd:string | Shipper reference information, expressed as text, for this piece of logistics transport equipment. | UN01013167 | Logistics_ Transport Equipment. Shipper Reference_ Information. Text
 
 
-<h1 id="AttachedTransportEquipment">AttachedTransportEquipment</h1>
-
-Type: rdf:Class
-
-Definition: A piece of attached transport equipment, such as a chain or a tarpaulin.
-
-Unique UN Assigned ID: UN01003416
-
-Dictionary Entry Name: Attached_ Transport Equipment. Details
-
-Properties: 
-
-Name | Type | Definition | Unique UN Assigned ID | Dictionary Entry Name
--|-|-|-|-
-<span id="AttachedTransportEquipmentCategoryCode">AttachedTransportEquipmentCategoryCode</span> | xsd:token | A code specifying a category of this piece of attached transport equipment. | UN01003418 | Attached_ Transport Equipment. Category. Code
-<span id="CharacteristicCode">CharacteristicCode</span> | xsd:token | The code specifying the characteristics, i.e. size and type, of this piece of attached transport equipment. | UN01003419 | Attached_ Transport Equipment. Characteristic. Code
-<span id="AttachedTransportEquipmentCharacteristicText">AttachedTransportEquipmentCharacteristicText</span> | xsd:string | The textual description of the characteristics, i.e. size and type, of this piece of attached transport equipment. | UN01003420 | Attached_ Transport Equipment. Characteristic. Text
-<span id="AttachedTransportEquipmentUnitQuantity">AttachedTransportEquipmentUnitQuantity</span> | xsd:decimal | The number of units of attached transport equipment. | UN01008955 | Attached_ Transport Equipment. Unit. Quantity
-
-
 <h1 id="ReferencedTransportEquipment">ReferencedTransportEquipment</h1>
 
 Type: rdf:Class
@@ -2193,6 +2173,26 @@ Name | Type | Definition | Unique UN Assigned ID | Dictionary Entry Name
 <span id="ReferencedTransportEquipmentSizeTypeCode">ReferencedTransportEquipmentSizeTypeCode</span> | xsd:token | The code specifying the characteristics, such as size and type, of this referenced piece of logistics transport equipment. | UN01004025 | Referenced_ Logistics_ Transport Equipment. Characteristic. Code
 
 
+<h1 id="AttachedTransportEquipment">AttachedTransportEquipment</h1>
+
+Type: rdf:Class
+
+Definition: A piece of attached transport equipment, such as a chain or a tarpaulin.
+
+Unique UN Assigned ID: UN01003416
+
+Dictionary Entry Name: Attached_ Transport Equipment. Details
+
+Properties: 
+
+Name | Type | Definition | Unique UN Assigned ID | Dictionary Entry Name
+-|-|-|-|-
+<span id="AttachedTransportEquipmentCategoryCode">AttachedTransportEquipmentCategoryCode</span> | xsd:token | A code specifying a category of this piece of attached transport equipment. | UN01003418 | Attached_ Transport Equipment. Category. Code
+<span id="CharacteristicCode">CharacteristicCode</span> | xsd:token | The code specifying the characteristics, i.e. size and type, of this piece of attached transport equipment. | UN01003419 | Attached_ Transport Equipment. Characteristic. Code
+<span id="AttachedTransportEquipmentCharacteristicText">AttachedTransportEquipmentCharacteristicText</span> | xsd:string | The textual description of the characteristics, i.e. size and type, of this piece of attached transport equipment. | UN01003420 | Attached_ Transport Equipment. Characteristic. Text
+<span id="AttachedTransportEquipmentUnitQuantity">AttachedTransportEquipmentUnitQuantity</span> | xsd:decimal | The number of units of attached transport equipment. | UN01008955 | Attached_ Transport Equipment. Unit. Quantity
+
+
 <h1 id="AssociatedTransportEquipment">AssociatedTransportEquipment</h1>
 
 Type: rdf:Class
@@ -2208,52 +2208,6 @@ Properties:
 Name | Type | Definition | Unique UN Assigned ID | Dictionary Entry Name
 -|-|-|-|-
 <span id="AssociatedTransportEquipmentCharacteristicText">AssociatedTransportEquipmentCharacteristicText</span> | xsd:string | The textual description of the characteristics, i.e. size and type, of this piece of associated transport equipment. | UN01003415 | Associated_ Transport Equipment. Characteristic. Text
-
-
-<h1 id="ReferencedConsignment">ReferencedConsignment</h1>
-
-Type: rdf:Class
-
-Definition: A referenced, separately identifiable collection of goods items to be transported or available to be transported from one consignor to one consignee via one or more modes of transport where each consignment is the subject of one single transport contract.
-
-Unique UN Assigned ID: UN01004040
-
-Dictionary Entry Name: Referenced_ Supply Chain_ Consignment. Details
-
-Properties: 
-
-Name | Type | Definition | Unique UN Assigned ID | Dictionary Entry Name
--|-|-|-|-
-<span id="ReferencedConsignmentConsignee">ReferencedConsignmentConsignee</span> | [edi3:TradeParty](#TradeParty) | The consignee party for this referenced supply chain consignment. | UN01011055 | Referenced_ Supply Chain_ Consignment. Consignee. Trade_ Party
-<span id="ReferencedConsignmentFreightForwarderAssignedID">ReferencedConsignmentFreightForwarderAssignedID</span> | xsd:token | The unique identifier assigned by the freight forwarder to this referenced supply chain consignment. | UN01004045 | Referenced_ Supply Chain_ Consignment. Freight Forwarder Assigned. Identifier
-<span id="ReferencedConsignmentGrossWeight">ReferencedConsignmentGrossWeight</span> | xsd:decimal | A measure of the gross weight (mass) of this referenced supply chain consignment which includes the weight of packaging but which excludes the weight of any transport equipment. | UN01011048 | Referenced_ Supply Chain_ Consignment. Gross Weight. Measure
-<span id="ReferencedConsignmentConsigneeAssignedID">ReferencedConsignmentConsigneeAssignedID</span> | xsd:token | The unique identifier assigned by the consignee to this referenced supply chain consignment. | UN01004043 | Referenced_ Supply Chain_ Consignment. Consignee Assigned. Identifier
-<span id="ReferencedConsignmentCarrierAcceptanceDateTime">ReferencedConsignmentCarrierAcceptanceDateTime</span> | xsd:dateTime | The date, time, date time or other date time value when this referenced supply chain consignment will be, or has been, accepted by the carrier. | UN01011052 | Referenced_ Supply Chain_ Consignment. Carrier Acceptance. Date Time
-<span id="ReferencedConsignmentUsedTransportEquipment">ReferencedConsignmentUsedTransportEquipment</span> | [edi3:TransportEquipment](#TransportEquipment) | Logistics transport equipment utilized for this referenced supply chain consignment. | UN01011067 | Referenced_ Supply Chain_ Consignment. Utilized. Logistics_ Transport Equipment
-<span id="ReferencedConsignmentDespatchParty">ReferencedConsignmentDespatchParty</span> | [edi3:TradeParty](#TradeParty) | The party from whom this referenced supply chain consignment will be or has been despatched. | UN01011056 | Referenced_ Supply Chain_ Consignment. Despatch. Trade_ Party
-<span id="ReferencedConsignmentLogisticsRiskAnalysisResult">ReferencedConsignmentLogisticsRiskAnalysisResult</span> | [edi3:RiskAnalysisResult](#RiskAnalysisResult) | A result of a logistics risk analysis specified for this referenced supply chain consignment. | UN01013182 | Referenced_ Supply Chain_ Consignment. Specified. Logistics_ Risk Analysis Result
-<span id="ReferencedConsignmentConsignorAssignedID">ReferencedConsignmentConsignorAssignedID</span> | xsd:token | The unique identifier assigned by the consignor to this referenced supply chain consignment. | UN01004042 | Referenced_ Supply Chain_ Consignment. Consignor Assigned. Identifier
-<span id="WarehouseStorageEvent">WarehouseStorageEvent</span> | [edi3:Event](#Event) | A warehouse storage event for this referenced supply chain consignment. | UN01011068 | Referenced_ Supply Chain_ Consignment. Warehouse_ Storage. Transport_ Event
-<span id="ReferencedConsignmentDevanningEvent">ReferencedConsignmentDevanningEvent</span> | [edi3:Event](#Event) | A transport devanning event for this referenced supply chain consignment, i.e. the unloading of this consignment at the place of delivery. | UN01013183 | Referenced_ Supply Chain_ Consignment. Devanning. Transport_ Event
-<span id="ReferencedConsignmentPreCarriageTransportMovement">ReferencedConsignmentPreCarriageTransportMovement</span> | [edi3:TransportMovement](#TransportMovement) | A pre-carriage logistics transport movement for this referenced supply chain consignment. | UN01011066 | Referenced_ Supply Chain_ Consignment. Pre-Carriage. Logistics_ Transport Movement
-<span id="ReferencedConsignmentRegulatoryProcedure">ReferencedConsignmentRegulatoryProcedure</span> | [edi3:RegulatoryProcedure](#RegulatoryProcedure) | A cross-border regulatory procedure applicable to this referenced supply chain consignment. | UN01011064 | Referenced_ Supply Chain_ Consignment. Applicable. Cross-Border_ Regulatory Procedure
-<span id="ReferencedConsignmentCarrier">ReferencedConsignmentCarrier</span> | [edi3:TradeParty](#TradeParty) | The carrier party for this referenced supply chain consignment. | UN01011059 | Referenced_ Supply Chain_ Consignment. Carrier. Trade_ Party
-<span id="ReferencedConsignmentTradeTransaction">ReferencedConsignmentTradeTransaction</span> | [edi3:SupplyChainTradeTransaction](#SupplyChainTradeTransaction) | A trade transaction related to this referenced supply chain consignment. | UN01011060 | Referenced_ Supply Chain_ Consignment. Related. Supply Chain_ Trade Transaction
-<span id="ReferencedConsignmentGrossVolume">ReferencedConsignmentGrossVolume</span> | xsd:decimal | A measure of the gross volume, normally calculated by multiplying the maximum length, width and height, of this referenced supply chain consignment. | UN01011050 | Referenced_ Supply Chain_ Consignment. Gross Volume. Measure
-<span id="ReferencedConsignmentTransportContractDocument">ReferencedConsignmentTransportContractDocument</span> | [edi3:Document](#Document) | The transport contract document for this referenced supply chain consignment, such as an airwaybill or a seawaybill. | UN01011065 | Referenced_ Supply Chain_ Consignment. Transport Contract. Referenced_ Document
-<span id="ReferencedConsignmentCarrierAcceptanceLocation">ReferencedConsignmentCarrierAcceptanceLocation</span> | [edi3:LogisticsLocation](#LogisticsLocation) | The location where this referenced supply chain consignment will be or has been accepted by the carrier. | UN01011063 | Referenced_ Supply Chain_ Consignment. Carrier Acceptance. Logistics_ Location
-<span id="ReferencedConsignmentIncludedConsignmentItem">ReferencedConsignmentIncludedConsignmentItem</span> | [edi3:ReferencedConsignmentItem](#ReferencedConsignmentItem) | A referenced consignment item included in this referenced supply chain consignment. | UN01004048 | Referenced_ Supply Chain_ Consignment. Included. Referenced_ Supply Chain_ Consignment Item
-<span id="ReferencedConsignmentNetWeight">ReferencedConsignmentNetWeight</span> | xsd:decimal | A measure of the net weight (mass) of this referenced consignment which excludes the weight of packaging and the weight of any transport equipment. | UN01011049 | Referenced_ Supply Chain_ Consignment. Net Weight. Measure
-<span id="ReferencedConsignmentConsignmentItemQuantity">ReferencedConsignmentConsignmentItemQuantity</span> | xsd:decimal | The number of consignment items separately defined for transport or customs purposes within this referenced supply chain consignment. | UN01011051 | Referenced_ Supply Chain_ Consignment. Consignment Item. Quantity
-<span id="ReferencedConsignmentCustomsID">ReferencedConsignmentCustomsID</span> | xsd:token | The identifier, for customs purposes, for this referenced supply chain consignment. | UN01011053 | Referenced_ Supply Chain_ Consignment. Customs_ Identification. Identifier
-<span id="ReferencedConsignmentDeliveryParty">ReferencedConsignmentDeliveryParty</span> | [edi3:TradeParty](#TradeParty) | The party to whom this referenced supply chain consignment will be or has been delivered. | UN01011057 | Referenced_ Supply Chain_ Consignment. Delivery. Trade_ Party
-<span id="ReferencedConsignmentCarrierAssignedID">ReferencedConsignmentCarrierAssignedID</span> | xsd:token | The unique identifier assigned by the carrier to this referenced supply chain consignment, such as a booking reference number when cargo space is reserved prior to loading. | UN01004044 | Referenced_ Supply Chain_ Consignment. Carrier Assigned. Identifier
-<span id="ReferencedConsignmentSequenceNumber">ReferencedConsignmentSequenceNumber</span> | xsd:decimal | The sequence number for this referenced supply chain consignment. | UN01004046 | Referenced_ Supply Chain_ Consignment. Sequence. Numeric
-<span id="ReferencedConsignmentVanningEvent">ReferencedConsignmentVanningEvent</span> | [edi3:Event](#Event) | The vanning event (the loading of this consignment at the place of its original despatch) for this referenced supply chain consignment. | UN01011062 | Referenced_ Supply Chain_ Consignment. Vanning. Transport_ Event
-<span id="ReferencedConsignmentTransportPackage">ReferencedConsignmentTransportPackage</span> | [edi3:Package](#Package) | Transport packages for this referenced supply chain consignment. | UN01011061 | Referenced_ Supply Chain_ Consignment. Transport. Logistics_ Package
-<span id="ReferencedConsignmentTransportSplitDescription">ReferencedConsignmentTransportSplitDescription</span> | xsd:string | The textual description of the transport split of this referenced supply chain consignment across different transport means or transport equipment. | UN01004047 | Referenced_ Supply Chain_ Consignment. Transport Split Description. Text
-<span id="ReferencedConsignmentID">ReferencedConsignmentID</span> | xsd:token | A unique identifier for this referenced supply chain consignment. | UN01004041 | Referenced_ Supply Chain_ Consignment. Identification. Identifier
-<span id="ReferencedConsignmentConsignor">ReferencedConsignmentConsignor</span> | [edi3:TradeParty](#TradeParty) | The consignor party for this referenced supply chain consignment. | UN01011054 | Referenced_ Supply Chain_ Consignment. Consignor. Trade_ Party
 
 
 <h1 id="Consignment">Consignment</h1>
@@ -2334,6 +2288,7 @@ Name | Type | Definition | Unique UN Assigned ID | Dictionary Entry Name
 <span id="ConsignmentBondedWarehouseStorageEvent">ConsignmentBondedWarehouseStorageEvent</span> | [edi3:Event](#Event) | A bonded warehouse storage event for this supply chain consignment. | UN01004256 | Supply Chain_ Consignment. Bonded Warehouse_ Storage. Transport_ Event
 <span id="ConsignmentTransportSplitDescription">ConsignmentTransportSplitDescription</span> | xsd:string | The textual description of the transport split of this supply chain consignment across different transport means or transport equipment. | UN01004206 | Supply Chain_ Consignment. Transport Split Description. Text
 <span id="ConsignmentLogisticsRiskAnalysisResult">ConsignmentLogisticsRiskAnalysisResult</span> | [edi3:RiskAnalysisResult](#RiskAnalysisResult) | A result of a logistics risk analysis calculation specified for this supply chain consignment. | UN01013053 | Supply Chain_ Consignment. Specified. Logistics_ Risk Analysis Result
+<span id="SupplyChainTransportEvent">SupplyChainTransportEvent</span> | [edi3:Event](#Event) | An event occurring during the transport of this supply chain consignment. | UN01004252 | Supply Chain_ Consignment. Transport. Transport_ Event
 <span id="Exporter">Exporter</span> | [edi3:TradeParty](#TradeParty) | The party who exports this supply chain consignment. | UN01004218 | Supply Chain_ Consignment. Exporter. Trade_ Party
 <span id="ConsignmentOriginGeopoliticalRegion">ConsignmentOriginGeopoliticalRegion</span> | [edi3:GeopoliticalRegion](#GeopoliticalRegion) | The geopolitical region of origin for this supply chain consignment. | UN01004275 | Supply Chain_ Consignment. Origin. Trade_ Geopolitical Region
 <span id="ImportCountry">ImportCountry</span> | [edi3:Country](#Country) | The import country for this supply chain consignment. | UN01004272 | Supply Chain_ Consignment. Import. Trade_ Country
@@ -2365,6 +2320,7 @@ Name | Type | Definition | Unique UN Assigned ID | Dictionary Entry Name
 <span id="IntermediateConsignee">IntermediateConsignee</span> | [edi3:TradeParty](#TradeParty) | A party that is an intermediate consignee for this supply chain consignment. | UN01004229 | Supply Chain_ Consignment. Intermediate Consignee. Trade_ Party
 <span id="NilInsuranceValueIndicator">NilInsuranceValueIndicator</span> | xsd:boolean | The indication of whether or not this supply chain consignment has a nil value for insurance. | UN01004194 | Supply Chain_ Consignment. Nil Insurance Value. Indicator
 <span id="TransitLocation">TransitLocation</span> | [edi3:LogisticsLocation](#LogisticsLocation) | A location of transit for this supply chain consignment. | UN01004240 | Supply Chain_ Consignment. Transit. Logistics_ Location
+<span id="SupplyChainHaulageInstructions">SupplyChainHaulageInstructions</span> | [edi3:HaulageInstructions](#HaulageInstructions) | Haulage instructions for this supply chain consignment. | UN01004249 | Supply Chain_ Consignment. Haulage. Haulage_ Instructions
 <span id="OnCarriageTransportMovement">OnCarriageTransportMovement</span> | [edi3:TransportMovement](#TransportMovement) | An on-carriage logistics transport movement for this supply chain consignment. | UN01004263 | Supply Chain_ Consignment. On-Carriage. Logistics_ Transport Movement
 <span id="TotalDisbursementAmount">TotalDisbursementAmount</span> | xsd:decimal | The monetary value of total disbursement for this supply chain consignment, such as the amount to be collected by the carrier according to the order given by the consignor. | UN01004186 | Supply Chain_ Consignment. Total Disbursement. Amount
 <span id="Deconsolidator">Deconsolidator</span> | [edi3:TradeParty](#TradeParty) | The party responsible for the deconsolidation of this supply chain consignment. | UN01004231 | Supply Chain_ Consignment. Deconsolidator. Trade_ Party
@@ -2390,7 +2346,6 @@ Name | Type | Definition | Unique UN Assigned ID | Dictionary Entry Name
 <span id="ConsignorProvidedInformationText">ConsignorProvidedInformationText</span> | xsd:string | Information, expressed as text, provided by the consignor for this supply chain consignment. | UN01013607 | Supply Chain_ Consignment. Consignor Provided_ Information. Text
 <span id="BorderCrossingTransportMovement">BorderCrossingTransportMovement</span> | [edi3:TransportMovement](#TransportMovement) | A border crossing logistics transport movement for this supply chain consignment. | UN01004264 | Supply Chain_ Consignment. Border Crossing. Logistics_ Transport Movement
 <span id="ConsignmentPickUpEvent">ConsignmentPickUpEvent</span> | [edi3:Event](#Event) | The pick-up event for this supply chain consignment. | UN01004254 | Supply Chain_ Consignment. Pick-Up. Transport_ Event
-<span id="TransportEvent">TransportEvent</span> | [edi3:Event](#Event) | An event occurring during the transport of this supply chain consignment. | UN01004252 | Supply Chain_ Consignment. Transport. Transport_ Event
 <span id="NetVolumeMeasure">NetVolumeMeasure</span> | xsd:decimal | A measure of the net volume of this supply chain consignment item which excludes all packaging. | UN01012710 | Supply Chain_ Consignment. Net Volume. Measure
 <span id="ConsignmentCarrierAcceptanceDateTime">ConsignmentCarrierAcceptanceDateTime</span> | xsd:dateTime | The date, time, date time or other date time value when this supply chain consignment will be, or has been, accepted by the carrier. | UN01004170 | Supply Chain_ Consignment. Carrier Acceptance. Date Time
 <span id="ConsignmentUnloadingSequenceNumber">ConsignmentUnloadingSequenceNumber</span> | xsd:decimal | The unloading sequence number for this supply chain consignment. | UN01010141 | Supply Chain_ Consignment. Unloading Sequence. Numeric
@@ -2422,40 +2377,54 @@ Name | Type | Definition | Unique UN Assigned ID | Dictionary Entry Name
 <span id="ConsignmentPaymentArrangementCode">ConsignmentPaymentArrangementCode</span> | xsd:token | The code specifying the payment arrangements for this supply chain consignment. | UN01006139 | Supply Chain_ Consignment. Payment Arrangement. Code
 <span id="SpecifiedTransportMovement">SpecifiedTransportMovement</span> | [edi3:TransportMovement](#TransportMovement) | A logistics transport movement specified for this supply chain consignment. | UN01004267 | Supply Chain_ Consignment. Specified. Logistics_ Transport Movement
 <span id="ConsignmentInformation">ConsignmentInformation</span> | xsd:string | Information, expressed as text, for this supply chain consignment. | UN01004203 | Supply Chain_ Consignment. Information. Text
-<span id="HaulageInstructions">HaulageInstructions</span> | [edi3:HaulageInstructions](#HaulageInstructions) | Haulage instructions for this supply chain consignment. | UN01004249 | Supply Chain_ Consignment. Haulage. Haulage_ Instructions
 <span id="ConsignmentApplicableCurrencyExchange">ConsignmentApplicableCurrencyExchange</span> | [edi3:CurrencyExchange](#CurrencyExchange) | A currency exchange applicable to this supply chain consignment. | UN01004279 | Supply Chain_ Consignment. Applicable. Trade_ Currency Exchange
 <span id="ConnectingCarrier">ConnectingCarrier</span> | [edi3:TradeParty](#TradeParty) | A connecting carrier party for this supply chain consignment. | UN01004227 | Supply Chain_ Consignment. Connecting Carrier. Trade_ Party
 
 
-<h1 id="TradeSettlementLineMonetarySummation">TradeSettlementLineMonetarySummation</h1>
+<h1 id="ReferencedConsignment">ReferencedConsignment</h1>
 
 Type: rdf:Class
 
-Definition: A collection of monetary amount totals, specified at line level, for a trade settlement.
+Definition: A referenced, separately identifiable collection of goods items to be transported or available to be transported from one consignor to one consignee via one or more modes of transport where each consignment is the subject of one single transport contract.
 
-Unique UN Assigned ID: UN01011896
+Unique UN Assigned ID: UN01004040
 
-Dictionary Entry Name: Trade Settlement Line_ Monetary Summation. Details
+Dictionary Entry Name: Referenced_ Supply Chain_ Consignment. Details
 
 Properties: 
 
 Name | Type | Definition | Unique UN Assigned ID | Dictionary Entry Name
 -|-|-|-|-
-<span id="TradeSettlementLineMonetarySummationInformationAmount">TradeSettlementLineMonetarySummationInformationAmount</span> | xsd:decimal | A monetary value of an amount being reported for information in this trade settlement monetary summation. | UN01011903 | Trade Settlement Line_ Monetary Summation. Information. Amount
-<span id="TradeSettlementLineMonetarySummationLineTotalAmountIncludingTaxes">TradeSettlementLineMonetarySummationLineTotalAmountIncludingTaxes</span> | xsd:decimal | A monetary value of the line total, including taxes, being reported in this trade settlement line monetary summation. | UN01013109 | Trade Settlement Line_ Monetary Summation. Including Taxes_ Line Total. Amount
-<span id="TradeSettlementLineMonetarySummationNetIncludingTaxesLineTotalAmount">TradeSettlementLineMonetarySummationNetIncludingTaxesLineTotalAmount</span> | xsd:decimal | A monetary value of the total of all line amounts, including line level allowances and charges and including line level taxes, being reported in this trade settlement line monetary summation. | UN01011910 | Trade Settlement Line_ Monetary Summation. Net Including Taxes_ Line Total. Amount
-<span id="TradeSettlementLineMonetarySummationTotalRetailValueInformationAmount">TradeSettlementLineMonetarySummationTotalRetailValueInformationAmount</span> | xsd:decimal | A monetary value which constitutes the total retail value stated for information purposes in this trade settlement line monetary summation. | UN01011907 | Trade Settlement Line_ Monetary Summation. Total Retail Value_ Information. Amount
-<span id="TradeSettlementLineMonetarySummationGrandTotalAmount">TradeSettlementLineMonetarySummationGrandTotalAmount</span> | xsd:decimal | A monetary value of the grand total of this trade settlement line monetary summation, to include addition and subtraction of individual summation amounts. | UN01011902 | Trade Settlement Line_ Monetary Summation. Grand Total. Amount
-<span id="TradeSettlementLineMonetarySummationDuePayableAmount">TradeSettlementLineMonetarySummationDuePayableAmount</span> | xsd:decimal | A monetary value that is an amount due and payable for this trade settlement line monetary summation, such as the amount due to the creditor. | UN01011905 | Trade Settlement Line_ Monetary Summation. Due Payable. Amount
-<span id="TradeSettlementLineMonetarySummationPaymentTotalAmount">TradeSettlementLineMonetarySummationPaymentTotalAmount</span> | xsd:decimal | A monetary value of a payment total reported in this trade settlement line monetary summation. | UN01011906 | Trade Settlement Line_ Monetary Summation. Payment Total. Amount
-<span id="TradeSettlementLineMonetarySummationTaxBasisTotalAmount">TradeSettlementLineMonetarySummationTaxBasisTotalAmount</span> | xsd:decimal | A monetary value of the total of all tax basis amounts being reported in this trade settlement line monetary summation. | UN01011900 | Trade Settlement Line_ Monetary Summation. Tax Basis Total. Amount
-<span id="TradeSettlementLineMonetarySummationNetLineTotalAmount">TradeSettlementLineMonetarySummationNetLineTotalAmount</span> | xsd:decimal | A monetary value of the total of all line amounts, including line level allowances and charges and excluding line level taxes, being reported in this trade settlement line monetary summation. | UN01011909 | Trade Settlement Line_ Monetary Summation. Net_ Line Total. Amount
-<span id="TradeSettlementLineMonetarySummationLineTotalAmount">TradeSettlementLineMonetarySummationLineTotalAmount</span> | xsd:decimal | A monetary value of the line amount total being reported in this trade settlement line monetary summation. | UN01011897 | Trade Settlement Line_ Monetary Summation. Line Total. Amount
-<span id="TradeSettlementLineMonetarySummationTaxTotalAmount">TradeSettlementLineMonetarySummationTaxTotalAmount</span> | xsd:decimal | A monetary value of the total of all tax amounts being reported in this trade settlement line monetary summation. | UN01011901 | Trade Settlement Line_ Monetary Summation. Tax Total. Amount
-<span id="TradeSettlementLineMonetarySummationTotalAllowanceChargeAmount">TradeSettlementLineMonetarySummationTotalAllowanceChargeAmount</span> | xsd:decimal | A monetary value of a total allowance and charge reported in this trade settlement line monetary summation. | UN01011904 | Trade Settlement Line_ Monetary Summation. Total Allowance Charge. Amount
-<span id="TradeSettlementLineMonetarySummationAllowanceTotalAmount">TradeSettlementLineMonetarySummationAllowanceTotalAmount</span> | xsd:decimal | A monetary value of the total of all allowance amounts being reported in this trade settlement line monetary summation. | UN01011899 | Trade Settlement Line_ Monetary Summation. Allowance Total. Amount
-<span id="ProductWeightLossInformationAmount">ProductWeightLossInformationAmount</span> | xsd:decimal | A monetary value of the loss of weight of a product, such as fresh goods, stated for information purposes in this trade settlement line monetary summation. | UN01011911 | Trade Settlement Line_ Monetary Summation. Product Weight Loss_ Information. Amount
-<span id="TradeSettlementLineMonetarySummationChargeTotalAmount">TradeSettlementLineMonetarySummationChargeTotalAmount</span> | xsd:decimal | A monetary value of the total of all charge amounts being reported in this trade settlement line monetary summation. | UN01011898 | Trade Settlement Line_ Monetary Summation. Charge Total. Amount
+<span id="ReferencedConsignmentConsignee">ReferencedConsignmentConsignee</span> | [edi3:TradeParty](#TradeParty) | The consignee party for this referenced supply chain consignment. | UN01011055 | Referenced_ Supply Chain_ Consignment. Consignee. Trade_ Party
+<span id="ReferencedConsignmentFreightForwarderAssignedID">ReferencedConsignmentFreightForwarderAssignedID</span> | xsd:token | The unique identifier assigned by the freight forwarder to this referenced supply chain consignment. | UN01004045 | Referenced_ Supply Chain_ Consignment. Freight Forwarder Assigned. Identifier
+<span id="ReferencedConsignmentGrossWeight">ReferencedConsignmentGrossWeight</span> | xsd:decimal | A measure of the gross weight (mass) of this referenced supply chain consignment which includes the weight of packaging but which excludes the weight of any transport equipment. | UN01011048 | Referenced_ Supply Chain_ Consignment. Gross Weight. Measure
+<span id="ReferencedConsignmentConsigneeAssignedID">ReferencedConsignmentConsigneeAssignedID</span> | xsd:token | The unique identifier assigned by the consignee to this referenced supply chain consignment. | UN01004043 | Referenced_ Supply Chain_ Consignment. Consignee Assigned. Identifier
+<span id="ReferencedConsignmentCarrierAcceptanceDateTime">ReferencedConsignmentCarrierAcceptanceDateTime</span> | xsd:dateTime | The date, time, date time or other date time value when this referenced supply chain consignment will be, or has been, accepted by the carrier. | UN01011052 | Referenced_ Supply Chain_ Consignment. Carrier Acceptance. Date Time
+<span id="ReferencedConsignmentUsedTransportEquipment">ReferencedConsignmentUsedTransportEquipment</span> | [edi3:TransportEquipment](#TransportEquipment) | Logistics transport equipment utilized for this referenced supply chain consignment. | UN01011067 | Referenced_ Supply Chain_ Consignment. Utilized. Logistics_ Transport Equipment
+<span id="ReferencedConsignmentDespatchParty">ReferencedConsignmentDespatchParty</span> | [edi3:TradeParty](#TradeParty) | The party from whom this referenced supply chain consignment will be or has been despatched. | UN01011056 | Referenced_ Supply Chain_ Consignment. Despatch. Trade_ Party
+<span id="ReferencedConsignmentLogisticsRiskAnalysisResult">ReferencedConsignmentLogisticsRiskAnalysisResult</span> | [edi3:RiskAnalysisResult](#RiskAnalysisResult) | A result of a logistics risk analysis specified for this referenced supply chain consignment. | UN01013182 | Referenced_ Supply Chain_ Consignment. Specified. Logistics_ Risk Analysis Result
+<span id="ReferencedConsignmentConsignorAssignedID">ReferencedConsignmentConsignorAssignedID</span> | xsd:token | The unique identifier assigned by the consignor to this referenced supply chain consignment. | UN01004042 | Referenced_ Supply Chain_ Consignment. Consignor Assigned. Identifier
+<span id="WarehouseStorageEvent">WarehouseStorageEvent</span> | [edi3:Event](#Event) | A warehouse storage event for this referenced supply chain consignment. | UN01011068 | Referenced_ Supply Chain_ Consignment. Warehouse_ Storage. Transport_ Event
+<span id="ReferencedConsignmentDevanningEvent">ReferencedConsignmentDevanningEvent</span> | [edi3:Event](#Event) | A transport devanning event for this referenced supply chain consignment, i.e. the unloading of this consignment at the place of delivery. | UN01013183 | Referenced_ Supply Chain_ Consignment. Devanning. Transport_ Event
+<span id="ReferencedConsignmentPreCarriageTransportMovement">ReferencedConsignmentPreCarriageTransportMovement</span> | [edi3:TransportMovement](#TransportMovement) | A pre-carriage logistics transport movement for this referenced supply chain consignment. | UN01011066 | Referenced_ Supply Chain_ Consignment. Pre-Carriage. Logistics_ Transport Movement
+<span id="ReferencedConsignmentRegulatoryProcedure">ReferencedConsignmentRegulatoryProcedure</span> | [edi3:RegulatoryProcedure](#RegulatoryProcedure) | A cross-border regulatory procedure applicable to this referenced supply chain consignment. | UN01011064 | Referenced_ Supply Chain_ Consignment. Applicable. Cross-Border_ Regulatory Procedure
+<span id="ReferencedConsignmentCarrier">ReferencedConsignmentCarrier</span> | [edi3:TradeParty](#TradeParty) | The carrier party for this referenced supply chain consignment. | UN01011059 | Referenced_ Supply Chain_ Consignment. Carrier. Trade_ Party
+<span id="ReferencedConsignmentTradeTransaction">ReferencedConsignmentTradeTransaction</span> | [edi3:SupplyChainTradeTransaction](#SupplyChainTradeTransaction) | A trade transaction related to this referenced supply chain consignment. | UN01011060 | Referenced_ Supply Chain_ Consignment. Related. Supply Chain_ Trade Transaction
+<span id="ReferencedConsignmentGrossVolume">ReferencedConsignmentGrossVolume</span> | xsd:decimal | A measure of the gross volume, normally calculated by multiplying the maximum length, width and height, of this referenced supply chain consignment. | UN01011050 | Referenced_ Supply Chain_ Consignment. Gross Volume. Measure
+<span id="ReferencedConsignmentTransportContractDocument">ReferencedConsignmentTransportContractDocument</span> | [edi3:Document](#Document) | The transport contract document for this referenced supply chain consignment, such as an airwaybill or a seawaybill. | UN01011065 | Referenced_ Supply Chain_ Consignment. Transport Contract. Referenced_ Document
+<span id="ReferencedConsignmentCarrierAcceptanceLocation">ReferencedConsignmentCarrierAcceptanceLocation</span> | [edi3:LogisticsLocation](#LogisticsLocation) | The location where this referenced supply chain consignment will be or has been accepted by the carrier. | UN01011063 | Referenced_ Supply Chain_ Consignment. Carrier Acceptance. Logistics_ Location
+<span id="ReferencedConsignmentIncludedConsignmentItem">ReferencedConsignmentIncludedConsignmentItem</span> | [edi3:ReferencedConsignmentItem](#ReferencedConsignmentItem) | A referenced consignment item included in this referenced supply chain consignment. | UN01004048 | Referenced_ Supply Chain_ Consignment. Included. Referenced_ Supply Chain_ Consignment Item
+<span id="ReferencedConsignmentNetWeight">ReferencedConsignmentNetWeight</span> | xsd:decimal | A measure of the net weight (mass) of this referenced consignment which excludes the weight of packaging and the weight of any transport equipment. | UN01011049 | Referenced_ Supply Chain_ Consignment. Net Weight. Measure
+<span id="ReferencedConsignmentConsignmentItemQuantity">ReferencedConsignmentConsignmentItemQuantity</span> | xsd:decimal | The number of consignment items separately defined for transport or customs purposes within this referenced supply chain consignment. | UN01011051 | Referenced_ Supply Chain_ Consignment. Consignment Item. Quantity
+<span id="ReferencedConsignmentCustomsID">ReferencedConsignmentCustomsID</span> | xsd:token | The identifier, for customs purposes, for this referenced supply chain consignment. | UN01011053 | Referenced_ Supply Chain_ Consignment. Customs_ Identification. Identifier
+<span id="ReferencedConsignmentDeliveryParty">ReferencedConsignmentDeliveryParty</span> | [edi3:TradeParty](#TradeParty) | The party to whom this referenced supply chain consignment will be or has been delivered. | UN01011057 | Referenced_ Supply Chain_ Consignment. Delivery. Trade_ Party
+<span id="ReferencedConsignmentCarrierAssignedID">ReferencedConsignmentCarrierAssignedID</span> | xsd:token | The unique identifier assigned by the carrier to this referenced supply chain consignment, such as a booking reference number when cargo space is reserved prior to loading. | UN01004044 | Referenced_ Supply Chain_ Consignment. Carrier Assigned. Identifier
+<span id="ReferencedConsignmentSequenceNumber">ReferencedConsignmentSequenceNumber</span> | xsd:decimal | The sequence number for this referenced supply chain consignment. | UN01004046 | Referenced_ Supply Chain_ Consignment. Sequence. Numeric
+<span id="ReferencedConsignmentVanningEvent">ReferencedConsignmentVanningEvent</span> | [edi3:Event](#Event) | The vanning event (the loading of this consignment at the place of its original despatch) for this referenced supply chain consignment. | UN01011062 | Referenced_ Supply Chain_ Consignment. Vanning. Transport_ Event
+<span id="ReferencedConsignmentTransportPackage">ReferencedConsignmentTransportPackage</span> | [edi3:Package](#Package) | Transport packages for this referenced supply chain consignment. | UN01011061 | Referenced_ Supply Chain_ Consignment. Transport. Logistics_ Package
+<span id="ReferencedConsignmentTransportSplitDescription">ReferencedConsignmentTransportSplitDescription</span> | xsd:string | The textual description of the transport split of this referenced supply chain consignment across different transport means or transport equipment. | UN01004047 | Referenced_ Supply Chain_ Consignment. Transport Split Description. Text
+<span id="ReferencedConsignmentID">ReferencedConsignmentID</span> | xsd:token | A unique identifier for this referenced supply chain consignment. | UN01004041 | Referenced_ Supply Chain_ Consignment. Identification. Identifier
+<span id="ReferencedConsignmentConsignor">ReferencedConsignmentConsignor</span> | [edi3:TradeParty](#TradeParty) | The consignor party for this referenced supply chain consignment. | UN01011054 | Referenced_ Supply Chain_ Consignment. Consignor. Trade_ Party
 
 
 <h1 id="TradeSettlementPaymentMonetarySummation">TradeSettlementPaymentMonetarySummation</h1>
@@ -2472,9 +2441,9 @@ Properties:
 
 Name | Type | Definition | Unique UN Assigned ID | Dictionary Entry Name
 -|-|-|-|-
-<span id="EquivalentTransferTotalAmount">EquivalentTransferTotalAmount</span> | xsd:decimal | A monetary value transferred as an equivalent amount in the credit transfer payment in this trade settlement payment monetary summation, such as the amount transferred between debtor and creditor, before deduction of charges, expressed in the currency of the debtor's account, and transferred into a different currency. | UN01011913 | Trade Settlement Payment_ Monetary Summation. Equivalent Transfer Total. Amount
 <span id="TradeSettlementPaymentMonetarySummationAdjustedBalanceOutAmount">TradeSettlementPaymentMonetarySummationAdjustedBalanceOutAmount</span> | xsd:decimal | A monetary value that is an adjusted amount balanced out for this trade settlement payment monetary summation. | UN01011916 | Trade Settlement Payment_ Monetary Summation. Adjusted_ Balance Out. Amount
 <span id="TradeSettlementPaymentMonetarySummationTaxTotalAmount">TradeSettlementPaymentMonetarySummationTaxTotalAmount</span> | xsd:decimal | A monetary value of the total of all tax amounts reported in this trade settlement payment monetary summation. | UN01013027 | Trade Settlement Payment_ Monetary Summation. Tax Total. Amount
+<span id="TradeSettlementPaymentPaymentBalanceOut">TradeSettlementPaymentPaymentBalanceOut</span> | [edi3:PaymentBalanceOut](#PaymentBalanceOut) | A balance out applicable to this trade settlement payment monetary summation. | UN01011917 | Trade Settlement Payment_ Monetary Summation. Applicable. Payment_ Balance Out
 <span id="TradeSettlementPaymentMonetarySummationPaymentTotalAmount">TradeSettlementPaymentMonetarySummationPaymentTotalAmount</span> | xsd:decimal | A monetary value of a payment total reported in this trade settlement payment monetary summation. | UN01011914 | Trade Settlement Payment_ Monetary Summation. Payment Total. Amount
 <span id="TradeSettlementPaymentMonetarySummationLineTotalAmountIncludingTaxes">TradeSettlementPaymentMonetarySummationLineTotalAmountIncludingTaxes</span> | xsd:decimal | A monetary value of the line total, including taxes, being reported in this trade settlement payment monetary summation. | UN01013110 | Trade Settlement Payment_ Monetary Summation. Including Taxes_ Line Total. Amount
 <span id="TradeSettlementPaymentMonetarySummationNetLineTotalAmount">TradeSettlementPaymentMonetarySummationNetLineTotalAmount</span> | xsd:decimal | A monetary value of the net total of all line amounts, including line level allowances and charges and excluding line level taxes, being reported in this trade settlement payment monetary summation. | UN01013469 | Trade Settlement Payment_ Monetary Summation. Net_ Line Total. Amount
@@ -2506,12 +2475,12 @@ Name | Type | Definition | Unique UN Assigned ID | Dictionary Entry Name
 <span id="ProductValueExcludingTobaccoTaxInformationAmount">ProductValueExcludingTobaccoTaxInformationAmount</span> | xsd:decimal | A monetary value which constitutes the total product value, excluding tobacco tax, stated for information purposes in this trade settlement header monetary summation. | UN01011888 | Trade Settlement Header_ Monetary Summation. Product Value Excluding Tobacco Tax_ Information. Amount
 <span id="RetailValueExcludingTaxInformationAmount">RetailValueExcludingTaxInformationAmount</span> | xsd:decimal | A monetary value which constitutes the retail value, excluding all duties and taxes, stated for information purposes in this trade settlement header monetary summation. | UN01011886 | Trade Settlement Header_ Monetary Summation. Retail Value Excluding Tax_ Information. Amount
 <span id="TotalDiscountAmount">TotalDiscountAmount</span> | xsd:decimal | A monetary value of a total discount reported in this trade settlement header monetary summation. | UN01011881 | Trade Settlement Header_ Monetary Summation. Total Discount. Amount
-<span id="HeaderBalanceOut">HeaderBalanceOut</span> | [edi3:HeaderBalanceOut](#HeaderBalanceOut) | A header balance out applicable to this trade settlement header monetary summation. | UN01011895 | Trade Settlement Header_ Monetary Summation. Applicable. Header_ Balance Out
 <span id="TradeSettlementHeaderMonetarySummationBalanceOutAmount">TradeSettlementHeaderMonetarySummationBalanceOutAmount</span> | xsd:decimal | A monetary value that is an amount balanced out for this trade settlement header monetary summation. | UN01011893 | Trade Settlement Header_ Monetary Summation. Balance Out. Amount
 <span id="TradeSettlementHeaderMonetarySummationChargeTotalAmount">TradeSettlementHeaderMonetarySummationChargeTotalAmount</span> | xsd:decimal | A monetary value of the total of all charge amounts being reported in this trade settlement header monetary summation. | UN01011873 | Trade Settlement Header_ Monetary Summation. Charge Total. Amount
 <span id="TradeSettlementHeaderMonetarySummationTotalAllowanceChargeAmount">TradeSettlementHeaderMonetarySummationTotalAllowanceChargeAmount</span> | xsd:decimal | A monetary value of a total allowance and charge reported in this trade settlement header monetary summation. | UN01011882 | Trade Settlement Header_ Monetary Summation. Total Allowance Charge. Amount
 <span id="TradeSettlementHeaderMonetarySummationTaxBasisTotalAmount">TradeSettlementHeaderMonetarySummationTaxBasisTotalAmount</span> | xsd:decimal | A monetary value of the total of all tax basis amounts being reported in this trade settlement monetary summation. | UN01011875 | Trade Settlement Header_ Monetary Summation. Tax Basis Total. Amount
 <span id="TradeSettlementHeaderMonetarySummationDuePayableAmount">TradeSettlementHeaderMonetarySummationDuePayableAmount</span> | xsd:decimal | A monetary value that is an amount due and payable for this trade settlement header monetary summation, such as the amount due to the creditor. | UN01011883 | Trade Settlement Header_ Monetary Summation. Due Payable. Amount
+<span id="TradeSettlementHeaderHeaderBalanceOut">TradeSettlementHeaderHeaderBalanceOut</span> | [edi3:HeaderBalanceOut](#HeaderBalanceOut) | A header balance out applicable to this trade settlement header monetary summation. | UN01011895 | Trade Settlement Header_ Monetary Summation. Applicable. Header_ Balance Out
 <span id="TradeSettlementHeaderMonetarySummationAllowanceTotalAmount">TradeSettlementHeaderMonetarySummationAllowanceTotalAmount</span> | xsd:decimal | A monetary value of the total of all allowance amounts being reported in this trade settlement header monetary summation. | UN01011874 | Trade Settlement Header_ Monetary Summation. Allowance Total. Amount
 <span id="TotalPrepaidAmount">TotalPrepaidAmount</span> | xsd:decimal | A monetary value of a prepaid total reported in this trade settlement header monetary summation. | UN01011880 | Trade Settlement Header_ Monetary Summation. Total Prepaid. Amount
 <span id="LineTotalAmountExcludingTaxes">LineTotalAmountExcludingTaxes</span> | xsd:decimal | A monetary value of the total of all line amounts, excluding all duties and taxes, being reported in this trade settlement header monetary summation. | UN01012995 | Trade Settlement Header_ Monetary Summation. Excluding Taxes_ Line Total. Amount
@@ -2523,6 +2492,37 @@ Name | Type | Definition | Unique UN Assigned ID | Dictionary Entry Name
 <span id="GrandTotalSpecifiedFinancialAdjustment">GrandTotalSpecifiedFinancialAdjustment</span> | [edi3:FinancialAdjustment](#FinancialAdjustment) | The financial adjustment of the grand total specified for this trade settlement header monetary summation. | UN01013299 | Trade Settlement Header_ Monetary Summation. Grand Total_ Specified. Financial_ Adjustment
 <span id="TradeSettlementHeaderMonetarySummationNetIncludingTaxesLineTotalAmount">TradeSettlementHeaderMonetarySummationNetIncludingTaxesLineTotalAmount</span> | xsd:decimal | A monetary value of the total of all line amounts, including line level allowances and charges and including line level taxes, being reported in this trade settlement header monetary summation. | UN01011892 | Trade Settlement Header_ Monetary Summation. Net Including Taxes_ Line Total. Amount
 <span id="TotalDepositFeeInformationAmount">TotalDepositFeeInformationAmount</span> | xsd:decimal | A monetary value of the total deposit fee stated for information purposes in this trade settlement header monetary summation. | UN01011887 | Trade Settlement Header_ Monetary Summation. Total Deposit Fee_ Information. Amount
+
+
+<h1 id="TradeSettlementLineMonetarySummation">TradeSettlementLineMonetarySummation</h1>
+
+Type: rdf:Class
+
+Definition: A collection of monetary amount totals, specified at line level, for a trade settlement.
+
+Unique UN Assigned ID: UN01011896
+
+Dictionary Entry Name: Trade Settlement Line_ Monetary Summation. Details
+
+Properties: 
+
+Name | Type | Definition | Unique UN Assigned ID | Dictionary Entry Name
+-|-|-|-|-
+<span id="TradeSettlementLineMonetarySummationInformationAmount">TradeSettlementLineMonetarySummationInformationAmount</span> | xsd:decimal | A monetary value of an amount being reported for information in this trade settlement monetary summation. | UN01011903 | Trade Settlement Line_ Monetary Summation. Information. Amount
+<span id="TradeSettlementLineMonetarySummationLineTotalAmountIncludingTaxes">TradeSettlementLineMonetarySummationLineTotalAmountIncludingTaxes</span> | xsd:decimal | A monetary value of the line total, including taxes, being reported in this trade settlement line monetary summation. | UN01013109 | Trade Settlement Line_ Monetary Summation. Including Taxes_ Line Total. Amount
+<span id="TradeSettlementLineMonetarySummationNetIncludingTaxesLineTotalAmount">TradeSettlementLineMonetarySummationNetIncludingTaxesLineTotalAmount</span> | xsd:decimal | A monetary value of the total of all line amounts, including line level allowances and charges and including line level taxes, being reported in this trade settlement line monetary summation. | UN01011910 | Trade Settlement Line_ Monetary Summation. Net Including Taxes_ Line Total. Amount
+<span id="TradeSettlementLineMonetarySummationTotalRetailValueInformationAmount">TradeSettlementLineMonetarySummationTotalRetailValueInformationAmount</span> | xsd:decimal | A monetary value which constitutes the total retail value stated for information purposes in this trade settlement line monetary summation. | UN01011907 | Trade Settlement Line_ Monetary Summation. Total Retail Value_ Information. Amount
+<span id="TradeSettlementLineMonetarySummationGrandTotalAmount">TradeSettlementLineMonetarySummationGrandTotalAmount</span> | xsd:decimal | A monetary value of the grand total of this trade settlement line monetary summation, to include addition and subtraction of individual summation amounts. | UN01011902 | Trade Settlement Line_ Monetary Summation. Grand Total. Amount
+<span id="TradeSettlementLineMonetarySummationDuePayableAmount">TradeSettlementLineMonetarySummationDuePayableAmount</span> | xsd:decimal | A monetary value that is an amount due and payable for this trade settlement line monetary summation, such as the amount due to the creditor. | UN01011905 | Trade Settlement Line_ Monetary Summation. Due Payable. Amount
+<span id="TradeSettlementLineMonetarySummationPaymentTotalAmount">TradeSettlementLineMonetarySummationPaymentTotalAmount</span> | xsd:decimal | A monetary value of a payment total reported in this trade settlement line monetary summation. | UN01011906 | Trade Settlement Line_ Monetary Summation. Payment Total. Amount
+<span id="TradeSettlementLineMonetarySummationTaxBasisTotalAmount">TradeSettlementLineMonetarySummationTaxBasisTotalAmount</span> | xsd:decimal | A monetary value of the total of all tax basis amounts being reported in this trade settlement line monetary summation. | UN01011900 | Trade Settlement Line_ Monetary Summation. Tax Basis Total. Amount
+<span id="TradeSettlementLineMonetarySummationNetLineTotalAmount">TradeSettlementLineMonetarySummationNetLineTotalAmount</span> | xsd:decimal | A monetary value of the total of all line amounts, including line level allowances and charges and excluding line level taxes, being reported in this trade settlement line monetary summation. | UN01011909 | Trade Settlement Line_ Monetary Summation. Net_ Line Total. Amount
+<span id="TradeSettlementLineMonetarySummationLineTotalAmount">TradeSettlementLineMonetarySummationLineTotalAmount</span> | xsd:decimal | A monetary value of the line amount total being reported in this trade settlement line monetary summation. | UN01011897 | Trade Settlement Line_ Monetary Summation. Line Total. Amount
+<span id="TradeSettlementLineMonetarySummationTaxTotalAmount">TradeSettlementLineMonetarySummationTaxTotalAmount</span> | xsd:decimal | A monetary value of the total of all tax amounts being reported in this trade settlement line monetary summation. | UN01011901 | Trade Settlement Line_ Monetary Summation. Tax Total. Amount
+<span id="TradeSettlementLineMonetarySummationTotalAllowanceChargeAmount">TradeSettlementLineMonetarySummationTotalAllowanceChargeAmount</span> | xsd:decimal | A monetary value of a total allowance and charge reported in this trade settlement line monetary summation. | UN01011904 | Trade Settlement Line_ Monetary Summation. Total Allowance Charge. Amount
+<span id="TradeSettlementLineMonetarySummationAllowanceTotalAmount">TradeSettlementLineMonetarySummationAllowanceTotalAmount</span> | xsd:decimal | A monetary value of the total of all allowance amounts being reported in this trade settlement line monetary summation. | UN01011899 | Trade Settlement Line_ Monetary Summation. Allowance Total. Amount
+<span id="ProductWeightLossInformationAmount">ProductWeightLossInformationAmount</span> | xsd:decimal | A monetary value of the loss of weight of a product, such as fresh goods, stated for information purposes in this trade settlement line monetary summation. | UN01011911 | Trade Settlement Line_ Monetary Summation. Product Weight Loss_ Information. Amount
+<span id="TradeSettlementLineMonetarySummationChargeTotalAmount">TradeSettlementLineMonetarySummationChargeTotalAmount</span> | xsd:decimal | A monetary value of the total of all charge amounts being reported in this trade settlement line monetary summation. | UN01011898 | Trade Settlement Line_ Monetary Summation. Charge Total. Amount
 
 
 <h1 id="PaymentDiscountTerms">PaymentDiscountTerms</h1>
@@ -2572,6 +2572,78 @@ Name | Type | Definition | Unique UN Assigned ID | Dictionary Entry Name
 <span id="InterestRate">InterestRate</span> | xsd:decimal | The interest rate expressed as a percentage for this trade settlement financial card. | UN01006087 | Trade Settlement_ Financial Card. Interest Rate. Percent
 
 
+<h1 id="LocationParty">LocationParty</h1>
+
+Type: rdf:Class
+
+Definition: An individual, a group, or a body having a role related to a location.
+
+Unique UN Assigned ID: UN01003661
+
+Dictionary Entry Name: Location_ Party. Details
+
+Properties: 
+
+Name | Type | Definition | Unique UN Assigned ID | Dictionary Entry Name
+-|-|-|-|-
+<span id="LocationPartyCountryCode">LocationPartyCountryCode</span> | xsd:token | A unique country identifier for this location party. | UN01003667 | Location_ Party. Country. Identifier
+<span id="LocationPartyTelephone">LocationPartyTelephone</span> | [edi3:UniversalCommunication](#UniversalCommunication) | Telephone communication information for this location party. | UN01003671 | Location_ Party. Telephone. Universal_ Communication
+<span id="LocationTransportPerson">LocationTransportPerson</span> | [edi3:TransportPerson](#TransportPerson) | A transport related person specified for this location party. | UN01003668 | Location_ Party. Specified. Transport_ Person
+<span id="LocationPartyPostalAddress">LocationPartyPostalAddress</span> | [edi3:TradeAddress](#TradeAddress) | A postal address for this location party. | UN01003670 | Location_ Party. Postal. Trade_ Address
+<span id="LocationPartyName">LocationPartyName</span> | xsd:string | A name, expressed as text, for this location party. | UN01003664 | Location_ Party. Name. Text
+<span id="LocationPartyFax">LocationPartyFax</span> | [edi3:UniversalCommunication](#UniversalCommunication) | Fax communication information for this location party. | UN01003672 | Location_ Party. Fax. Universal_ Communication
+<span id="ProvidedTransportService">ProvidedTransportService</span> | [edi3:Service](#Service) | A transport service provided by this location party. | UN01003674 | Location_ Party. Provided. Transport_ Service
+<span id="DefinedContact">DefinedContact</span> | [edi3:Contact](#Contact) | A trade contact defined for this location party. | UN01003669 | Location_ Party. Defined. Trade_ Contact
+<span id="LocationPartyRoleCode">LocationPartyRoleCode</span> | xsd:token | A code specifying a role of this location party. | UN01003666 | Location_ Party. Role. Code
+<span id="LocationPartyURI">LocationPartyURI</span> | [edi3:UniversalCommunication](#UniversalCommunication) | Uniform Resource Identifier (URI) communication information for this location party, such as a web or email address. | UN01003673 | Location_ Party. URI. Universal_ Communication
+
+
+<h1 id="TradeParty">TradeParty</h1>
+
+Type: rdf:Class
+
+Definition: An individual, a group, or a body having a role in a trade business function.
+
+Unique UN Assigned ID: UN01004594
+
+Dictionary Entry Name: Trade_ Party. Details
+
+Properties: 
+
+Name | Type | Definition | Unique UN Assigned ID | Dictionary Entry Name
+-|-|-|-|-
+<span id="TradePartyRoleText">TradePartyRoleText</span> | xsd:string | A role, expressed as text, for this trade party. | UN01013115 | Trade_ Party. Role. Text
+<span id="TradeLegalOrganization">TradeLegalOrganization</span> | [edi3:Organization](#Organization) | The legally constituted organization specified for this trade party. | UN01004601 | Trade_ Party. Specified. Legal_ Organization
+<span id="TradeTaxRegistration">TradeTaxRegistration</span> | [edi3:TaxRegistration](#TaxRegistration) | A tax registration specified for this trade party. | UN01004611 | Trade_ Party. Specified. Tax_ Registration
+<span id="TradeGovernmentRegistration">TradeGovernmentRegistration</span> | [edi3:GovernmentRegistration](#GovernmentRegistration) | A governmental registration specified for this trade party. | UN01011071 | Trade_ Party. Specified. Government_ Registration
+<span id="TradePartyDescription">TradePartyDescription</span> | xsd:string | A textual description of this trade party. | UN01010146 | Trade_ Party. Description. Text
+<span id="TradePartyGlobalID">TradePartyGlobalID</span> | xsd:token | A globally unique identifier of this trade party. | UN01004596 | Trade_ Party. Global_ Identification. Identifier
+<span id="LogoBinaryFile">LogoBinaryFile</span> | [edi3:BinaryFile](#BinaryFile) | A file containing a specified binary representation of a logo associated with this trade party. | UN01006723 | Trade_ Party. Logo_ Associated. Specified_ Binary File
+<span id="TradePartyLanguageCode">TradePartyLanguageCode</span> | xsd:token | A code specifying a language for this trade party. | UN01009017 | Trade_ Party. Language. Code
+<span id="TradePartyTransportService">TradePartyTransportService</span> | [edi3:Service](#Service) | A transport service provided by this trade party. | UN01004608 | Trade_ Party. Provided. Transport_ Service
+<span id="TradePartyName">TradePartyName</span> | xsd:string | The name, expressed as text, for this trade party. | UN01004598 | Trade_ Party. Name. Text
+<span id="DUNSID">DUNSID</span> | xsd:token | The unique nine-digit Data Universal Numbering System (DUNS) identifier for this trade party. | UN01006091 | Trade_ Party. DUNS_ Identification. Identifier
+<span id="OwnedCreditorFinancialAccount">OwnedCreditorFinancialAccount</span> | [edi3:CreditorFinancialAccount](#CreditorFinancialAccount) | The creditor financial account owned by this trade party. | UN01013304 | Trade_ Party. Owned. Creditor_ Financial Account
+<span id="TradePartyTypeCode">TradePartyTypeCode</span> | xsd:token | A code specifying the type of trade party that is independent of its role. | UN01004597 | Trade_ Party. Type. Code
+<span id="RegisteredID">RegisteredID</span> | xsd:token | A registered identifier of this trade party. | UN01013041 | Trade_ Party. Registered_ Identification. Identifier
+<span id="TradePartyRoleCode">TradePartyRoleCode</span> | xsd:token | A code specifying the role of this trade party. | UN01004599 | Trade_ Party. Role. Code
+<span id="TradePartyPostalAddress">TradePartyPostalAddress</span> | [edi3:TradeAddress](#TradeAddress) | The postal address for this trade party. | UN01004603 | Trade_ Party. Postal. Trade_ Address
+<span id="TradePartyID">TradePartyID</span> | xsd:token | A unique identifier of this trade party. | UN01004595 | Trade_ Party. Identification. Identifier
+<span id="GLNID">GLNID</span> | xsd:token | A Global Location Number (GLN) identifier for this trade party. | UN01006092 | Trade_ Party. GLN_ Identification. Identifier
+<span id="DefinedContactDetails">DefinedContactDetails</span> | [edi3:Contact](#Contact) | A trade contact defined for this trade party. | UN01004602 | Trade_ Party. Defined. Trade_ Contact
+<span id="TradePartyLogisticsServiceCharge">TradePartyLogisticsServiceCharge</span> | [edi3:ServiceCharge](#ServiceCharge) | A logistics service charge applicable to this trade party. | UN01009008 | Trade_ Party. Applicable. Logistics_ Service Charge
+<span id="SpecifiedFinancialIdentity">SpecifiedFinancialIdentity</span> | [edi3:FinancialIdentity](#FinancialIdentity) | The financial identity specified for this trade party. | UN01013303 | Trade_ Party. Specified. Financial_ Identity
+<span id="TradePartyAssociatedParty">TradePartyAssociatedParty</span> | [edi3:TradeParty](#TradeParty) | A party associated with this trade party, such as a local agent of a shipping line. | UN01004609 | Trade_ Party. Associated. Trade_ Party
+<span id="TradeAuthoritativeSignatoryPerson">TradeAuthoritativeSignatoryPerson</span> | [edi3:AuthoritativeSignatoryPerson](#AuthoritativeSignatoryPerson) | A person specified to sign on behalf of this trade party. | UN01006142 | Trade_ Party. Specified. Authoritative Signatory_ Person
+<span id="TradePartyLogisticsLocation">TradePartyLogisticsLocation</span> | [edi3:LogisticsLocation](#LogisticsLocation) | A logistics related location or place specified for this trade party. | UN01004610 | Trade_ Party. Specified. Logistics_ Location
+<span id="TradePartyTelephone">TradePartyTelephone</span> | [edi3:UniversalCommunication](#UniversalCommunication) | A telephone communication for this trade party. | UN01004604 | Trade_ Party. Telephone. Universal_ Communication
+<span id="SpecifiedContactPerson">SpecifiedContactPerson</span> | [edi3:ContactPerson](#ContactPerson) | A contact person specified for this trade party. | UN01013301 | Trade_ Party. Specified. Contact_ Person
+<span id="TradePartyURI">TradePartyURI</span> | [edi3:UniversalCommunication](#UniversalCommunication) | A Uniform Resource Identifier (URI) communication for this trade party, such as a web or email address. | UN01004606 | Trade_ Party. URI. Universal_ Communication
+<span id="TradePartySpecifiedProprietaryIdentity">TradePartySpecifiedProprietaryIdentity</span> | [edi3:ProprietaryIdentity](#ProprietaryIdentity) | A proprietary identity specified for this trade party. | UN01013302 | Trade_ Party. Specified. Proprietary_ Identity
+<span id="QualityAssuranceIndicator">QualityAssuranceIndicator</span> | xsd:boolean | The indication of whether or not this trade party is quality assured. | UN01004600 | Trade_ Party. Quality Assurance. Indicator
+<span id="TradePartyLogisticsRiskAnalysisResult">TradePartyLogisticsRiskAnalysisResult</span> | [edi3:RiskAnalysisResult](#RiskAnalysisResult) | A result of a logistics risk analysis calculation specified for this trade party. | UN01013054 | Trade_ Party. Specified. Logistics_ Risk Analysis Result
+
+
 <h1 id="RequestingParty">RequestingParty</h1>
 
 Type: rdf:Class
@@ -2599,78 +2671,6 @@ Name | Type | Definition | Unique UN Assigned ID | Dictionary Entry Name
 <span id="RequestingPartyName">RequestingPartyName</span> | xsd:string | The name, expressed as text, for this requesting party. | UN01002020 | Requesting_ Party. Name. Text
 
 
-<h1 id="LocationParty">LocationParty</h1>
-
-Type: rdf:Class
-
-Definition: An individual, a group, or a body having a role related to a location.
-
-Unique UN Assigned ID: UN01003661
-
-Dictionary Entry Name: Location_ Party. Details
-
-Properties: 
-
-Name | Type | Definition | Unique UN Assigned ID | Dictionary Entry Name
--|-|-|-|-
-<span id="LocationPartyCountryCode">LocationPartyCountryCode</span> | xsd:token | A unique country identifier for this location party. | UN01003667 | Location_ Party. Country. Identifier
-<span id="LocationPartyTelephone">LocationPartyTelephone</span> | [edi3:UniversalCommunication](#UniversalCommunication) | Telephone communication information for this location party. | UN01003671 | Location_ Party. Telephone. Universal_ Communication
-<span id="LocationPartyPostalAddress">LocationPartyPostalAddress</span> | [edi3:TradeAddress](#TradeAddress) | A postal address for this location party. | UN01003670 | Location_ Party. Postal. Trade_ Address
-<span id="LocationPartyName">LocationPartyName</span> | xsd:string | A name, expressed as text, for this location party. | UN01003664 | Location_ Party. Name. Text
-<span id="TransportPerson">TransportPerson</span> | [edi3:TransportPerson](#TransportPerson) | A transport related person specified for this location party. | UN01003668 | Location_ Party. Specified. Transport_ Person
-<span id="LocationPartyFax">LocationPartyFax</span> | [edi3:UniversalCommunication](#UniversalCommunication) | Fax communication information for this location party. | UN01003672 | Location_ Party. Fax. Universal_ Communication
-<span id="ProvidedTransportService">ProvidedTransportService</span> | [edi3:Service](#Service) | A transport service provided by this location party. | UN01003674 | Location_ Party. Provided. Transport_ Service
-<span id="DefinedContact">DefinedContact</span> | [edi3:Contact](#Contact) | A trade contact defined for this location party. | UN01003669 | Location_ Party. Defined. Trade_ Contact
-<span id="LocationPartyRoleCode">LocationPartyRoleCode</span> | xsd:token | A code specifying a role of this location party. | UN01003666 | Location_ Party. Role. Code
-<span id="LocationPartyURI">LocationPartyURI</span> | [edi3:UniversalCommunication](#UniversalCommunication) | Uniform Resource Identifier (URI) communication information for this location party, such as a web or email address. | UN01003673 | Location_ Party. URI. Universal_ Communication
-
-
-<h1 id="TradeParty">TradeParty</h1>
-
-Type: rdf:Class
-
-Definition: An individual, a group, or a body having a role in a trade business function.
-
-Unique UN Assigned ID: UN01004594
-
-Dictionary Entry Name: Trade_ Party. Details
-
-Properties: 
-
-Name | Type | Definition | Unique UN Assigned ID | Dictionary Entry Name
--|-|-|-|-
-<span id="TradePartyRoleText">TradePartyRoleText</span> | xsd:string | A role, expressed as text, for this trade party. | UN01013115 | Trade_ Party. Role. Text
-<span id="TradePartyDescription">TradePartyDescription</span> | xsd:string | A textual description of this trade party. | UN01010146 | Trade_ Party. Description. Text
-<span id="TradePartyGlobalID">TradePartyGlobalID</span> | xsd:token | A globally unique identifier of this trade party. | UN01004596 | Trade_ Party. Global_ Identification. Identifier
-<span id="LogoBinaryFile">LogoBinaryFile</span> | [edi3:BinaryFile](#BinaryFile) | A file containing a specified binary representation of a logo associated with this trade party. | UN01006723 | Trade_ Party. Logo_ Associated. Specified_ Binary File
-<span id="TradePartyLanguageCode">TradePartyLanguageCode</span> | xsd:token | A code specifying a language for this trade party. | UN01009017 | Trade_ Party. Language. Code
-<span id="TradePartyTransportService">TradePartyTransportService</span> | [edi3:Service](#Service) | A transport service provided by this trade party. | UN01004608 | Trade_ Party. Provided. Transport_ Service
-<span id="TradePartyName">TradePartyName</span> | xsd:string | The name, expressed as text, for this trade party. | UN01004598 | Trade_ Party. Name. Text
-<span id="DUNSID">DUNSID</span> | xsd:token | The unique nine-digit Data Universal Numbering System (DUNS) identifier for this trade party. | UN01006091 | Trade_ Party. DUNS_ Identification. Identifier
-<span id="OwnedCreditorFinancialAccount">OwnedCreditorFinancialAccount</span> | [edi3:CreditorFinancialAccount](#CreditorFinancialAccount) | The creditor financial account owned by this trade party. | UN01013304 | Trade_ Party. Owned. Creditor_ Financial Account
-<span id="TradePartyTypeCode">TradePartyTypeCode</span> | xsd:token | A code specifying the type of trade party that is independent of its role. | UN01004597 | Trade_ Party. Type. Code
-<span id="RegisteredID">RegisteredID</span> | xsd:token | A registered identifier of this trade party. | UN01013041 | Trade_ Party. Registered_ Identification. Identifier
-<span id="TradePartyRoleCode">TradePartyRoleCode</span> | xsd:token | A code specifying the role of this trade party. | UN01004599 | Trade_ Party. Role. Code
-<span id="GovernmentRegistration">GovernmentRegistration</span> | [edi3:GovernmentRegistration](#GovernmentRegistration) | A governmental registration specified for this trade party. | UN01011071 | Trade_ Party. Specified. Government_ Registration
-<span id="TradePartyPostalAddress">TradePartyPostalAddress</span> | [edi3:TradeAddress](#TradeAddress) | The postal address for this trade party. | UN01004603 | Trade_ Party. Postal. Trade_ Address
-<span id="LegalOrganization">LegalOrganization</span> | [edi3:Organization](#Organization) | The legally constituted organization specified for this trade party. | UN01004601 | Trade_ Party. Specified. Legal_ Organization
-<span id="TradePartyID">TradePartyID</span> | xsd:token | A unique identifier of this trade party. | UN01004595 | Trade_ Party. Identification. Identifier
-<span id="GLNID">GLNID</span> | xsd:token | A Global Location Number (GLN) identifier for this trade party. | UN01006092 | Trade_ Party. GLN_ Identification. Identifier
-<span id="TaxRegistration">TaxRegistration</span> | [edi3:TaxRegistration](#TaxRegistration) | A tax registration specified for this trade party. | UN01004611 | Trade_ Party. Specified. Tax_ Registration
-<span id="DefinedContactDetails">DefinedContactDetails</span> | [edi3:Contact](#Contact) | A trade contact defined for this trade party. | UN01004602 | Trade_ Party. Defined. Trade_ Contact
-<span id="TradePartyLogisticsServiceCharge">TradePartyLogisticsServiceCharge</span> | [edi3:ServiceCharge](#ServiceCharge) | A logistics service charge applicable to this trade party. | UN01009008 | Trade_ Party. Applicable. Logistics_ Service Charge
-<span id="SpecifiedFinancialIdentity">SpecifiedFinancialIdentity</span> | [edi3:FinancialIdentity](#FinancialIdentity) | The financial identity specified for this trade party. | UN01013303 | Trade_ Party. Specified. Financial_ Identity
-<span id="TradePartyAssociatedParty">TradePartyAssociatedParty</span> | [edi3:TradeParty](#TradeParty) | A party associated with this trade party, such as a local agent of a shipping line. | UN01004609 | Trade_ Party. Associated. Trade_ Party
-<span id="AuthoritativeSignatoryPerson">AuthoritativeSignatoryPerson</span> | [edi3:AuthoritativeSignatoryPerson](#AuthoritativeSignatoryPerson) | A person specified to sign on behalf of this trade party. | UN01006142 | Trade_ Party. Specified. Authoritative Signatory_ Person
-<span id="TradePartyLogisticsLocation">TradePartyLogisticsLocation</span> | [edi3:LogisticsLocation](#LogisticsLocation) | A logistics related location or place specified for this trade party. | UN01004610 | Trade_ Party. Specified. Logistics_ Location
-<span id="TradePartyTelephone">TradePartyTelephone</span> | [edi3:UniversalCommunication](#UniversalCommunication) | A telephone communication for this trade party. | UN01004604 | Trade_ Party. Telephone. Universal_ Communication
-<span id="SpecifiedContactPerson">SpecifiedContactPerson</span> | [edi3:ContactPerson](#ContactPerson) | A contact person specified for this trade party. | UN01013301 | Trade_ Party. Specified. Contact_ Person
-<span id="TradePartyURI">TradePartyURI</span> | [edi3:UniversalCommunication](#UniversalCommunication) | A Uniform Resource Identifier (URI) communication for this trade party, such as a web or email address. | UN01004606 | Trade_ Party. URI. Universal_ Communication
-<span id="TradePartySpecifiedProprietaryIdentity">TradePartySpecifiedProprietaryIdentity</span> | [edi3:ProprietaryIdentity](#ProprietaryIdentity) | A proprietary identity specified for this trade party. | UN01013302 | Trade_ Party. Specified. Proprietary_ Identity
-<span id="QualityAssuranceIndicator">QualityAssuranceIndicator</span> | xsd:boolean | The indication of whether or not this trade party is quality assured. | UN01004600 | Trade_ Party. Quality Assurance. Indicator
-<span id="TradePartyLogisticsRiskAnalysisResult">TradePartyLogisticsRiskAnalysisResult</span> | [edi3:RiskAnalysisResult](#RiskAnalysisResult) | A result of a logistics risk analysis calculation specified for this trade party. | UN01013054 | Trade_ Party. Specified. Logistics_ Risk Analysis Result
-
-
 <h1 id="MaterialComponent">MaterialComponent</h1>
 
 Type: rdf:Class
@@ -2691,66 +2691,6 @@ Name | Type | Definition | Unique UN Assigned ID | Dictionary Entry Name
 <span id="DischargedMeasure">DischargedMeasure</span> | xsd:decimal | The planned measure for this discharged transport waste material component. | UN01013158 | Transport Waste_ Material Component. Planned_ Discharged. Measure
 <span id="MaterialComponentDescription">MaterialComponentDescription</span> | xsd:string | A textual description for this transport waste material component. | UN01013154 | Transport Waste_ Material Component. Description. Text
 <span id="RemainingDeliveryEvent">RemainingDeliveryEvent</span> | [edi3:Event](#Event) | A delivery event for this remaining transport waste material component. | UN01013159 | Transport Waste_ Material Component. Remaining_ Delivery. Transport_ Event
-
-
-<h1 id="BranchFinancialInstitution">BranchFinancialInstitution</h1>
-
-Type: rdf:Class
-
-Definition: A sub-division of a bank, building society, credit union, stock brokerage, or similar business; established primarily to provide financial services and financial transactions.
-
-Unique UN Assigned ID: UN01003138
-
-Dictionary Entry Name: Branch_ Financial Institution. Details
-
-Properties: 
-
-Name | Type | Definition | Unique UN Assigned ID | Dictionary Entry Name
--|-|-|-|-
-<span id="SortCode">SortCode</span> | xsd:token | The unique identifier for this branch of a financial institution. | UN01003139 | Branch_ Financial Institution. Identification. Identifier
-<span id="BranchFinancialInstitutionName">BranchFinancialInstitutionName</span> | xsd:string | The name, expressed as text, for this branch of a financial institution. | UN01003140 | Branch_ Financial Institution. Name. Text
-
-
-<h1 id="DebtorFinancialInstitution">DebtorFinancialInstitution</h1>
-
-Type: rdf:Class
-
-Definition: A bank, building society, credit union, stock brokerage, or similar business of the party that owes money.
-
-Unique UN Assigned ID: UN01002840
-
-Dictionary Entry Name: Debtor_ Financial Institution. Details
-
-Properties: 
-
-Name | Type | Definition | Unique UN Assigned ID | Dictionary Entry Name
--|-|-|-|-
-<span id="DebtorFinancialInstitutionBICID">DebtorFinancialInstitutionBICID</span> | xsd:token | The unique Bank Identification Code (BIC) as defined in ISO 9362 for this debtor financial institution. | UN01002841 | Debtor_ Financial Institution. BIC. Identifier
-<span id="DebtorFinancialInstitutionRussianCentralBankID">DebtorFinancialInstitutionRussianCentralBankID</span> | xsd:token | The unique Russian Central Bank Identification Code identifier for this debtor financial institution. | UN01002851 | Debtor_ Financial Institution. Russian Central Bank_ Identification. Identifier
-<span id="DebtorFinancialInstitutionSouthAfricanNCCID">DebtorFinancialInstitutionSouthAfricanNCCID</span> | xsd:token | The unique South African National Clearing Code (NCC) identifier as assigned by the South African Bankers Services Company Ltd. (BankServ) for this debtor financial institution. | UN01002858 | Debtor_ Financial Institution. South African NCC_ Identification. Identifier
-<span id="DebtorFinancialInstitutionHellenicBankID">DebtorFinancialInstitutionHellenicBankID</span> | xsd:token | The unique Hellenic Bank Identification Code identifier for this debtor financial institution. | UN01002862 | Debtor_ Financial Institution. Hellenic Bank_ Identification. Identifier
-<span id="DebtorFinancialInstitutionBranch">DebtorFinancialInstitutionBranch</span> | [edi3:BranchFinancialInstitution](#BranchFinancialInstitution) | The branch financial institution for this debtor financial institution. | UN01002866 | Debtor_ Financial Institution. Sub-Division. Branch_ Financial Institution
-<span id="DebtorFinancialInstitutionJapanFinancialInstitutionCommonID">DebtorFinancialInstitutionJapanFinancialInstitutionCommonID</span> | xsd:token | The Japan Financial Institution Common identifier as assigned by the Japanese Bankers Association for this debtor financial institution. | UN01011473 | Debtor_ Financial Institution. Japan Financial Institution Common_ Identification. Identifier
-<span id="DebtorFinancialInstitutionIrishNSCID">DebtorFinancialInstitutionIrishNSCID</span> | xsd:token | The unique Irish National Sorting Code (NSC) identifier as assigned by the Irish Payments Services Organisation (IPSO) for this debtor financial institution. | UN01002845 | Debtor_ Financial Institution. Irish NSC_ Identification. Identifier
-<span id="DebtorFinancialInstitutionGermanBankleitzahlID">DebtorFinancialInstitutionGermanBankleitzahlID</span> | xsd:token | The unique German Bankleitzahl identifier for this debtor financial institution. | UN01002856 | Debtor_ Financial Institution. German Bankleitzahl_ Identification. Identifier
-<span id="DebtorFinancialInstitutionFedwireRoutingNumberID">DebtorFinancialInstitutionFedwireRoutingNumberID</span> | xsd:token | The unique Fedwire Routing Number identifier as assigned by the American Bankers Association (ABA) for this debtor financial institution. | UN01002849 | Debtor_ Financial Institution. Fedwire Routing Number_ Identification. Identifier
-<span id="DebtorFinancialInstitutionClearingSystemName">DebtorFinancialInstitutionClearingSystemName</span> | xsd:string | The clearing system name, expressed as text, for this debtor financial institution. | UN01002842 | Debtor_ Financial Institution. Clearing System Name. Text
-<span id="DebtorFinancialInstitutionPortugueseNCCID">DebtorFinancialInstitutionPortugueseNCCID</span> | xsd:token | The unique Portuguese National Clearing Code (NCC) identifier for this debtor financial institution. | UN01002850 | Debtor_ Financial Institution. Portuguese NCC_ Identification. Identifier
-<span id="DebtorFinancialInstitutionAustralianBSBID">DebtorFinancialInstitutionAustralianBSBID</span> | xsd:token | The unique Australian Bank State Branch (BSB) Code identifier as assigned by the Australian Payments Clearing Association (APCA) for this debtor financial institution. | UN01002860 | Debtor_ Financial Institution. Australian BSB_ Identification. Identifier
-<span id="DebtorFinancialInstitutionAddress">DebtorFinancialInstitutionAddress</span> | [edi3:FinancialInstitutionAddress](#FinancialInstitutionAddress) | The location address for this debtor financial institution. | UN01002865 | Debtor_ Financial Institution. Location. Financial Institution_ Address
-<span id="DebtorFinancialInstitutionSpanishDomesticInterbankingID">DebtorFinancialInstitutionSpanishDomesticInterbankingID</span> | xsd:token | The unique Spanish Domestic Interbanking Code identifier as assigned by the Centro de Cooperacion Interbancaria (CCI) for this debtor financial institution. | UN01002857 | Debtor_ Financial Institution. Spanish Domestic Interbanking_ Identification. Identifier
-<span id="DebtorFinancialInstitutionSwissBCID">DebtorFinancialInstitutionSwissBCID</span> | xsd:token | The unique Swiss Bank Code (BC) identifier for this debtor financial institution. | UN01002848 | Debtor_ Financial Institution. Swiss BC_ Identification. Identifier
-<span id="DebtorFinancialInstitutionIndianFinancialSystemID">DebtorFinancialInstitutionIndianFinancialSystemID</span> | xsd:token | The unique Indian Financial System Code identifier for this debtor financial institution. | UN01002861 | Debtor_ Financial Institution. Indian Financial System_ Identification. Identifier
-<span id="DebtorFinancialInstitutionNewZealandNCCID">DebtorFinancialInstitutionNewZealandNCCID</span> | xsd:token | The unique New Zealand National Clearing Code (NCC) identifier as assigned by the New Zealand Bankers' Association (NZBA) for this debtor financial institution. | UN01002844 | Debtor_ Financial Institution. New Zealand NCC_ Identification. Identifier
-<span id="DebtorFinancialInstitutionUKSortCodeID">DebtorFinancialInstitutionUKSortCodeID</span> | xsd:token | The unique United Kingdom (UK) Sort Code identifier as assigned by the UK Payment Association (APACS) for this debtor financial institution. | UN01002846 | Debtor_ Financial Institution. UK Sort Code_ Identification. Identifier
-<span id="DebtorFinancialInstitutionCHIPSParticipantID">DebtorFinancialInstitutionCHIPSParticipantID</span> | xsd:token | The unique (United States) Clearing House Interbank Payment System (CHIPS) Participant Identifier (ID) as assigned by the New York Clearing House for this debtor financial institution. | UN01002847 | Debtor_ Financial Institution. CHIPS Participant_ Identification. Identifier
-<span id="DebtorFinancialInstitutionCHIPSUniversalID">DebtorFinancialInstitutionCHIPSUniversalID</span> | xsd:token | The unique (United States) Clearing House Interbank Payments System (CHIPS) Universal Identification (UID) as assigned by the New York Clearing House for this debtor financial institution. | UN01002843 | Debtor_ Financial Institution. CHIPS Universal_ Identification. Identifier
-<span id="DebtorFinancialInstitutionPolishNationalClearingID">DebtorFinancialInstitutionPolishNationalClearingID</span> | xsd:token | The unique Polish National Clearing Code identifier for this debtor financial institution. | UN01002863 | Debtor_ Financial Institution. Polish National Clearing_ Identification. Identifier
-<span id="DebtorFinancialInstitutionCanadianPaymentsAssociationID">DebtorFinancialInstitutionCanadianPaymentsAssociationID</span> | xsd:token | The unique Canadian Payments Association Routing Number identifier for this debtor financial institution. | UN01002854 | Debtor_ Financial Institution. Canadian Payments Association_ Identification. Identifier
-<span id="DebtorFinancialInstitutionName">DebtorFinancialInstitutionName</span> | xsd:string | The name, expressed as text, for this debtor financial institution. | UN01002864 | Debtor_ Financial Institution. Name. Text
-<span id="DebtorFinancialInstitutionAustrianBankleitzahlID">DebtorFinancialInstitutionAustrianBankleitzahlID</span> | xsd:token | The unique Austrian Bankleitzahl identifier for this debtor financial institution. | UN01002853 | Debtor_ Financial Institution. Austrian Bankleitzahl_ Identification. Identifier
-<span id="DebtorFinancialInstitutionHongKongBankID">DebtorFinancialInstitutionHongKongBankID</span> | xsd:token | The unique Hong Kong Bank Code identifier for this debtor financial institution. | UN01002859 | Debtor_ Financial Institution. Hong Kong Bank_ Identification. Identifier
-<span id="DebtorFinancialInstitutionItalianDomesticID">DebtorFinancialInstitutionItalianDomesticID</span> | xsd:token | The unique Italian Domestic Identification Code identifier as assigned by the Associazione Bancaria Italiana (ABI) for this debtor financial institution. | UN01002852 | Debtor_ Financial Institution. Italian Domestic_ Identification. Identifier
 
 
 <h1 id="CreditorFinancialInstitution">CreditorFinancialInstitution</h1>
@@ -2796,6 +2736,66 @@ Name | Type | Definition | Unique UN Assigned ID | Dictionary Entry Name
 <span id="CreditorFinancialInstitutionHellenicBankID">CreditorFinancialInstitutionHellenicBankID</span> | xsd:token | The unique Hellenic Bank Identification Code identifier for this creditor financial institution. | UN01002997 | Creditor_ Financial Institution. Hellenic Bank_ Identification. Identifier
 <span id="CreditorFinancialInstitutionAddress">CreditorFinancialInstitutionAddress</span> | [edi3:FinancialInstitutionAddress](#FinancialInstitutionAddress) | The location address for this creditor financial institution. | UN01003000 | Creditor_ Financial Institution. Location. Financial Institution_ Address
 <span id="CreditorFinancialInstitutionIrishNSCID">CreditorFinancialInstitutionIrishNSCID</span> | xsd:token | The unique Irish National Sorting Code (NSC) identifier as assigned by the Irish Payments Services Organisation (IPSO) for this creditor financial institution. | UN01002980 | Creditor_ Financial Institution. Irish NSC_ Identification. Identifier
+
+
+<h1 id="DebtorFinancialInstitution">DebtorFinancialInstitution</h1>
+
+Type: rdf:Class
+
+Definition: A bank, building society, credit union, stock brokerage, or similar business of the party that owes money.
+
+Unique UN Assigned ID: UN01002840
+
+Dictionary Entry Name: Debtor_ Financial Institution. Details
+
+Properties: 
+
+Name | Type | Definition | Unique UN Assigned ID | Dictionary Entry Name
+-|-|-|-|-
+<span id="DebtorFinancialInstitutionBICID">DebtorFinancialInstitutionBICID</span> | xsd:token | The unique Bank Identification Code (BIC) as defined in ISO 9362 for this debtor financial institution. | UN01002841 | Debtor_ Financial Institution. BIC. Identifier
+<span id="DebtorFinancialInstitutionRussianCentralBankID">DebtorFinancialInstitutionRussianCentralBankID</span> | xsd:token | The unique Russian Central Bank Identification Code identifier for this debtor financial institution. | UN01002851 | Debtor_ Financial Institution. Russian Central Bank_ Identification. Identifier
+<span id="DebtorFinancialInstitutionSouthAfricanNCCID">DebtorFinancialInstitutionSouthAfricanNCCID</span> | xsd:token | The unique South African National Clearing Code (NCC) identifier as assigned by the South African Bankers Services Company Ltd. (BankServ) for this debtor financial institution. | UN01002858 | Debtor_ Financial Institution. South African NCC_ Identification. Identifier
+<span id="DebtorFinancialInstitutionHellenicBankID">DebtorFinancialInstitutionHellenicBankID</span> | xsd:token | The unique Hellenic Bank Identification Code identifier for this debtor financial institution. | UN01002862 | Debtor_ Financial Institution. Hellenic Bank_ Identification. Identifier
+<span id="DebtorFinancialInstitutionBranch">DebtorFinancialInstitutionBranch</span> | [edi3:BranchFinancialInstitution](#BranchFinancialInstitution) | The branch financial institution for this debtor financial institution. | UN01002866 | Debtor_ Financial Institution. Sub-Division. Branch_ Financial Institution
+<span id="DebtorFinancialInstitutionJapanFinancialInstitutionCommonID">DebtorFinancialInstitutionJapanFinancialInstitutionCommonID</span> | xsd:token | The Japan Financial Institution Common identifier as assigned by the Japanese Bankers Association for this debtor financial institution. | UN01011473 | Debtor_ Financial Institution. Japan Financial Institution Common_ Identification. Identifier
+<span id="DebtorFinancialInstitutionIrishNSCID">DebtorFinancialInstitutionIrishNSCID</span> | xsd:token | The unique Irish National Sorting Code (NSC) identifier as assigned by the Irish Payments Services Organisation (IPSO) for this debtor financial institution. | UN01002845 | Debtor_ Financial Institution. Irish NSC_ Identification. Identifier
+<span id="DebtorFinancialInstitutionGermanBankleitzahlID">DebtorFinancialInstitutionGermanBankleitzahlID</span> | xsd:token | The unique German Bankleitzahl identifier for this debtor financial institution. | UN01002856 | Debtor_ Financial Institution. German Bankleitzahl_ Identification. Identifier
+<span id="DebtorFinancialInstitutionFedwireRoutingNumberID">DebtorFinancialInstitutionFedwireRoutingNumberID</span> | xsd:token | The unique Fedwire Routing Number identifier as assigned by the American Bankers Association (ABA) for this debtor financial institution. | UN01002849 | Debtor_ Financial Institution. Fedwire Routing Number_ Identification. Identifier
+<span id="DebtorFinancialInstitutionClearingSystemName">DebtorFinancialInstitutionClearingSystemName</span> | xsd:string | The clearing system name, expressed as text, for this debtor financial institution. | UN01002842 | Debtor_ Financial Institution. Clearing System Name. Text
+<span id="DebtorFinancialInstitutionPortugueseNCCID">DebtorFinancialInstitutionPortugueseNCCID</span> | xsd:token | The unique Portuguese National Clearing Code (NCC) identifier for this debtor financial institution. | UN01002850 | Debtor_ Financial Institution. Portuguese NCC_ Identification. Identifier
+<span id="DebtorFinancialInstitutionAustralianBSBID">DebtorFinancialInstitutionAustralianBSBID</span> | xsd:token | The unique Australian Bank State Branch (BSB) Code identifier as assigned by the Australian Payments Clearing Association (APCA) for this debtor financial institution. | UN01002860 | Debtor_ Financial Institution. Australian BSB_ Identification. Identifier
+<span id="DebtorFinancialInstitutionAddress">DebtorFinancialInstitutionAddress</span> | [edi3:FinancialInstitutionAddress](#FinancialInstitutionAddress) | The location address for this debtor financial institution. | UN01002865 | Debtor_ Financial Institution. Location. Financial Institution_ Address
+<span id="DebtorFinancialInstitutionSpanishDomesticInterbankingID">DebtorFinancialInstitutionSpanishDomesticInterbankingID</span> | xsd:token | The unique Spanish Domestic Interbanking Code identifier as assigned by the Centro de Cooperacion Interbancaria (CCI) for this debtor financial institution. | UN01002857 | Debtor_ Financial Institution. Spanish Domestic Interbanking_ Identification. Identifier
+<span id="DebtorFinancialInstitutionSwissBCID">DebtorFinancialInstitutionSwissBCID</span> | xsd:token | The unique Swiss Bank Code (BC) identifier for this debtor financial institution. | UN01002848 | Debtor_ Financial Institution. Swiss BC_ Identification. Identifier
+<span id="DebtorFinancialInstitutionIndianFinancialSystemID">DebtorFinancialInstitutionIndianFinancialSystemID</span> | xsd:token | The unique Indian Financial System Code identifier for this debtor financial institution. | UN01002861 | Debtor_ Financial Institution. Indian Financial System_ Identification. Identifier
+<span id="DebtorFinancialInstitutionNewZealandNCCID">DebtorFinancialInstitutionNewZealandNCCID</span> | xsd:token | The unique New Zealand National Clearing Code (NCC) identifier as assigned by the New Zealand Bankers' Association (NZBA) for this debtor financial institution. | UN01002844 | Debtor_ Financial Institution. New Zealand NCC_ Identification. Identifier
+<span id="DebtorFinancialInstitutionUKSortCodeID">DebtorFinancialInstitutionUKSortCodeID</span> | xsd:token | The unique United Kingdom (UK) Sort Code identifier as assigned by the UK Payment Association (APACS) for this debtor financial institution. | UN01002846 | Debtor_ Financial Institution. UK Sort Code_ Identification. Identifier
+<span id="DebtorFinancialInstitutionCHIPSParticipantID">DebtorFinancialInstitutionCHIPSParticipantID</span> | xsd:token | The unique (United States) Clearing House Interbank Payment System (CHIPS) Participant Identifier (ID) as assigned by the New York Clearing House for this debtor financial institution. | UN01002847 | Debtor_ Financial Institution. CHIPS Participant_ Identification. Identifier
+<span id="DebtorFinancialInstitutionCHIPSUniversalID">DebtorFinancialInstitutionCHIPSUniversalID</span> | xsd:token | The unique (United States) Clearing House Interbank Payments System (CHIPS) Universal Identification (UID) as assigned by the New York Clearing House for this debtor financial institution. | UN01002843 | Debtor_ Financial Institution. CHIPS Universal_ Identification. Identifier
+<span id="DebtorFinancialInstitutionPolishNationalClearingID">DebtorFinancialInstitutionPolishNationalClearingID</span> | xsd:token | The unique Polish National Clearing Code identifier for this debtor financial institution. | UN01002863 | Debtor_ Financial Institution. Polish National Clearing_ Identification. Identifier
+<span id="DebtorFinancialInstitutionCanadianPaymentsAssociationID">DebtorFinancialInstitutionCanadianPaymentsAssociationID</span> | xsd:token | The unique Canadian Payments Association Routing Number identifier for this debtor financial institution. | UN01002854 | Debtor_ Financial Institution. Canadian Payments Association_ Identification. Identifier
+<span id="DebtorFinancialInstitutionName">DebtorFinancialInstitutionName</span> | xsd:string | The name, expressed as text, for this debtor financial institution. | UN01002864 | Debtor_ Financial Institution. Name. Text
+<span id="DebtorFinancialInstitutionAustrianBankleitzahlID">DebtorFinancialInstitutionAustrianBankleitzahlID</span> | xsd:token | The unique Austrian Bankleitzahl identifier for this debtor financial institution. | UN01002853 | Debtor_ Financial Institution. Austrian Bankleitzahl_ Identification. Identifier
+<span id="DebtorFinancialInstitutionHongKongBankID">DebtorFinancialInstitutionHongKongBankID</span> | xsd:token | The unique Hong Kong Bank Code identifier for this debtor financial institution. | UN01002859 | Debtor_ Financial Institution. Hong Kong Bank_ Identification. Identifier
+<span id="DebtorFinancialInstitutionItalianDomesticID">DebtorFinancialInstitutionItalianDomesticID</span> | xsd:token | The unique Italian Domestic Identification Code identifier as assigned by the Associazione Bancaria Italiana (ABI) for this debtor financial institution. | UN01002852 | Debtor_ Financial Institution. Italian Domestic_ Identification. Identifier
+
+
+<h1 id="BranchFinancialInstitution">BranchFinancialInstitution</h1>
+
+Type: rdf:Class
+
+Definition: A sub-division of a bank, building society, credit union, stock brokerage, or similar business; established primarily to provide financial services and financial transactions.
+
+Unique UN Assigned ID: UN01003138
+
+Dictionary Entry Name: Branch_ Financial Institution. Details
+
+Properties: 
+
+Name | Type | Definition | Unique UN Assigned ID | Dictionary Entry Name
+-|-|-|-|-
+<span id="SortCode">SortCode</span> | xsd:token | The unique identifier for this branch of a financial institution. | UN01003139 | Branch_ Financial Institution. Identification. Identifier
+<span id="BranchFinancialInstitutionName">BranchFinancialInstitutionName</span> | xsd:string | The name, expressed as text, for this branch of a financial institution. | UN01003140 | Branch_ Financial Institution. Name. Text
 
 
 <h1 id="ComplexDescription">ComplexDescription</h1>
@@ -2855,6 +2855,22 @@ Name | Type | Definition | Unique UN Assigned ID | Dictionary Entry Name
 <span id="GeographicalMultiSurfacePolygon">GeographicalMultiSurfacePolygon</span> | [edi3:Polygon](#Polygon) | A polygon included in this geographical multi-surface. | UN01012198 | Specified_ Geographical Multi-Surface. Included. Specified_ Polygon
 
 
+<h1 id="EmailCommunication">EmailCommunication</h1>
+
+Type: rdf:Class
+
+Definition: An address for the delivery of electronic mail.
+
+Unique UN Assigned ID: UN01002838
+
+Dictionary Entry Name: Email_ Communication. Details
+
+Properties: 
+
+Name | Type | Definition | Unique UN Assigned ID | Dictionary Entry Name
+-|-|-|-|-
+
+
 <h1 id="TelecommunicationCommunication">TelecommunicationCommunication</h1>
 
 Type: rdf:Class
@@ -2895,22 +2911,6 @@ Name | Type | Definition | Unique UN Assigned ID | Dictionary Entry Name
 -|-|-|-|-
 <span id="UniversalCommunicationCompleteNumber">UniversalCommunicationCompleteNumber</span> | xsd:string | The text string of characters that make up the complete number for this universal communication. | UN01001256 | Universal_ Communication. Complete Number. Text
 <span id="ChannelCode">ChannelCode</span> | xsd:token | The code specifying the channel or manner in which a universal communication can be made, such as telephone or email. | UN01001254 | Universal_ Communication. Channel. Code
-
-
-<h1 id="EmailCommunication">EmailCommunication</h1>
-
-Type: rdf:Class
-
-Definition: An address for the delivery of electronic mail.
-
-Unique UN Assigned ID: UN01002838
-
-Dictionary Entry Name: Email_ Communication. Details
-
-Properties: 
-
-Name | Type | Definition | Unique UN Assigned ID | Dictionary Entry Name
--|-|-|-|-
 
 
 <h1 id="Context">Context</h1>
@@ -3007,6 +3007,27 @@ Name | Type | Definition | Unique UN Assigned ID | Dictionary Entry Name
 -|-|-|-|-
 
 
+<h1 id="WorkItemDimension">WorkItemDimension</h1>
+
+Type: rdf:Class
+
+Definition: A measure of spatial extent associated with this work item, such as length, breadth, or height.
+
+Unique UN Assigned ID: UN01000056
+
+Dictionary Entry Name: Work Item_ Dimension. Details
+
+Properties: 
+
+Name | Type | Definition | Unique UN Assigned ID | Dictionary Entry Name
+-|-|-|-|-
+<span id="WorkItemDimensionTypeCode">WorkItemDimensionTypeCode</span> | xsd:token | The code specifying the type of this work item dimension. | UN01000060 | Work Item_ Dimension. Type. Code
+<span id="ComponentDimension">ComponentDimension</span> | [edi3:WorkItemDimension](#WorkItemDimension) | A work item component dimension for this work item dimension. | UN01000061 | Work Item_ Dimension. Component. Work Item_ Dimension
+<span id="Measure">Measure</span> | xsd:decimal | The measured value for this work item dimension. | UN01000058 | Work Item_ Dimension. Value. Measure
+<span id="WorkItemDimensionContractualLanguageCode">WorkItemDimensionContractualLanguageCode</span> | xsd:token | The code specifying the contractual language for this work item dimension. | UN01007543 | Work Item_ Dimension. Contractual Language. Code
+<span id="WorkItemDimensionDescription">WorkItemDimensionDescription</span> | xsd:string | The textual description of this work item dimension. | UN01000059 | Work Item_ Dimension. Description. Text
+
+
 <h1 id="SpatialDimension">SpatialDimension</h1>
 
 Type: rdf:Class
@@ -3028,27 +3049,6 @@ Name | Type | Definition | Unique UN Assigned ID | Dictionary Entry Name
 <span id="SpatialDimensionDescription">SpatialDimensionDescription</span> | xsd:string | A textual description of this spatial dimension. | UN01004078 | Spatial_ Dimension. Description. Text
 <span id="Diameter">Diameter</span> | xsd:decimal | The measure of the diameter component for this spatial dimension. | UN01007192 | Spatial_ Dimension. Diameter. Measure
 <span id="Height">Height</span> | xsd:decimal | The measure of the height component of this spatial dimension. | UN01004081 | Spatial_ Dimension. Height. Measure
-
-
-<h1 id="WorkItemDimension">WorkItemDimension</h1>
-
-Type: rdf:Class
-
-Definition: A measure of spatial extent associated with this work item, such as length, breadth, or height.
-
-Unique UN Assigned ID: UN01000056
-
-Dictionary Entry Name: Work Item_ Dimension. Details
-
-Properties: 
-
-Name | Type | Definition | Unique UN Assigned ID | Dictionary Entry Name
--|-|-|-|-
-<span id="WorkItemDimensionTypeCode">WorkItemDimensionTypeCode</span> | xsd:token | The code specifying the type of this work item dimension. | UN01000060 | Work Item_ Dimension. Type. Code
-<span id="ComponentDimension">ComponentDimension</span> | [edi3:WorkItemDimension](#WorkItemDimension) | A work item component dimension for this work item dimension. | UN01000061 | Work Item_ Dimension. Component. Work Item_ Dimension
-<span id="Measure">Measure</span> | xsd:decimal | The measured value for this work item dimension. | UN01000058 | Work Item_ Dimension. Value. Measure
-<span id="WorkItemDimensionContractualLanguageCode">WorkItemDimensionContractualLanguageCode</span> | xsd:token | The code specifying the contractual language for this work item dimension. | UN01007543 | Work Item_ Dimension. Contractual Language. Code
-<span id="WorkItemDimensionDescription">WorkItemDimensionDescription</span> | xsd:string | The textual description of this work item dimension. | UN01000059 | Work Item_ Dimension. Description. Text
 
 
 <h1 id="CurrencyExchange">CurrencyExchange</h1>
@@ -3190,6 +3190,78 @@ Name | Type | Definition | Unique UN Assigned ID | Dictionary Entry Name
 <span id="AuthenticationIssueLocation">AuthenticationIssueLocation</span> | [edi3:LogisticsLocation](#LogisticsLocation) | The issue location for this document authentication. | UN01006141 | Document_ Authentication. Issue. Logistics_ Location
 
 
+<h1 id="SupplyChainEvent">SupplyChainEvent</h1>
+
+Type: rdf:Class
+
+Definition: A significant occurrence or happening in a supply chain.
+
+Unique UN Assigned ID: UN01004291
+
+Dictionary Entry Name: Supply Chain_ Event. Details
+
+Properties: 
+
+Name | Type | Definition | Unique UN Assigned ID | Dictionary Entry Name
+-|-|-|-|-
+<span id="SupplyChainEventDescription">SupplyChainEventDescription</span> | xsd:string | A textual description of this supply chain event. | UN01004295 | Supply Chain_ Event. Description. Text
+<span id="OccurrenceTime">OccurrenceTime</span> | xsd:dateTime | A time value of an occurrence of this supply chain event. | UN01012565 | Supply Chain_ Event. Time_ Occurrence. Date Time
+<span id="SupplyChainEventDueDateTime">SupplyChainEventDueDateTime</span> | xsd:dateTime | The due date, time, date time, or other date time value of this supply chain event. | UN01013373 | Supply Chain_ Event. Due. Date Time
+<span id="EarliestOccurrenceDateTime">EarliestOccurrenceDateTime</span> | xsd:dateTime | The date, time, date time, or other date time value of the earliest occurrence of this supply chain event. | UN01009020 | Supply Chain_ Event. Earliest_ Occurrence. Date Time
+<span id="SupplyChainEventFrequencyCode">SupplyChainEventFrequencyCode</span> | xsd:token | The code specifying a frequency for this supply chain event. | UN01005303 | Supply Chain_ Event. Frequency. Code
+<span id="SupplyChainEventOccurrencePeriod">SupplyChainEventOccurrencePeriod</span> | [edi3:SpecifiedPeriod](#SpecifiedPeriod) | A specified period of time during which this supply chain event occurs. | UN01004298 | Supply Chain_ Event. Occurrence. Specified_ Period
+<span id="SupplyChainEventUnitQuantity">SupplyChainEventUnitQuantity</span> | xsd:decimal | A number of units for this supply chain event. | UN01004297 | Supply Chain_ Event. Unit. Quantity
+<span id="LatestOccurrenceDateTime">LatestOccurrenceDateTime</span> | xsd:dateTime | The date, time, date time, or other date time value of the latest occurrence of this supply chain event. | UN01009019 | Supply Chain_ Event. Latest_ Occurrence. Date Time
+<span id="SupplyChainEventOccurrenceDateTime">SupplyChainEventOccurrenceDateTime</span> | xsd:dateTime | A date, time, date time, or other date time value of an occurrence of this supply chain event. | UN01004293 | Supply Chain_ Event. Occurrence. Date Time
+<span id="SupplyChainEventLocation">SupplyChainEventLocation</span> | [edi3:LogisticsLocation](#LogisticsLocation) | A logistics location where this supply chain event occurs. | UN01004299 | Supply Chain_ Event. Occurrence. Logistics_ Location
+<span id="SupplyChainEventID">SupplyChainEventID</span> | xsd:token | The unique identifier for this supply chain event. | UN01004292 | Supply Chain_ Event. Identification. Identifier
+<span id="DescriptionBinaryObject">DescriptionBinaryObject</span> | xsd:base64Binary | Binary object data, such as a photograph, describing this supply chain event. | UN01004296 | Supply Chain_ Event. Description. Binary Object
+
+
+<h1 id="CommunicationEvent">CommunicationEvent</h1>
+
+Type: rdf:Class
+
+Definition: A significant occurrence or happening communicated by means of sending or receiving information, such as transmitting digital data by using the internet.
+
+Unique UN Assigned ID: UN01013560
+
+Dictionary Entry Name: Communication_ Event. Details
+
+Properties: 
+
+Name | Type | Definition | Unique UN Assigned ID | Dictionary Entry Name
+-|-|-|-|-
+<span id="CommunicationEventReasonCode">CommunicationEventReasonCode</span> | xsd:token | The code specifying a reason for this communication event. | UN01013566 | Communication_ Event. Reason. Code
+<span id="OccurrenceLogisticsLocation">OccurrenceLogisticsLocation</span> | [edi3:LogisticsLocation](#LogisticsLocation) | The logistics location where this communication event will occur or has occurred. | UN01013569 | Communication_ Event. Occurrence. Logistics_ Location
+<span id="CommunicationEventOccurrenceDateTime">CommunicationEventOccurrenceDateTime</span> | xsd:dateTime | The date, time, date time, or other date time value of an occurrence of this communication event. | UN01013562 | Communication_ Event. Occurrence. Date Time
+<span id="CommunicationEventUnitQuantity">CommunicationEventUnitQuantity</span> | xsd:decimal | The number of units for this communication event. | UN01013565 | Communication_ Event. Unit. Quantity
+<span id="CommunicationEventDescription">CommunicationEventDescription</span> | xsd:string | A textual description of this communication event. | UN01013564 | Communication_ Event. Description. Text
+<span id="CommunicationEventAssociatedGeographicalFeature">CommunicationEventAssociatedGeographicalFeature</span> | [edi3:GeographicalFeature](#GeographicalFeature) | A geographical feature associated with this communication event. | UN01013570 | Communication_ Event. Associated. Specified_ Geographical Feature
+<span id="OperationalResponsibleParty">OperationalResponsibleParty</span> | [edi3:TradeParty](#TradeParty) | The operational responsible party for this communication event. | UN01013568 | Communication_ Event. Operational_ Responsible. Trade_ Party
+<span id="CommunicationEventTypeCode">CommunicationEventTypeCode</span> | xsd:token | The code specifying the type of communication event. | UN01013563 | Communication_ Event. Type. Code
+<span id="CommunicationEventValueMeasure">CommunicationEventValueMeasure</span> | xsd:decimal | The measure of a value for this communication event. | UN01013567 | Communication_ Event. Value. Measure
+
+
+<h1 id="ReferencedEvent">ReferencedEvent</h1>
+
+Type: rdf:Class
+
+Definition: A referenced significant occurrence or happening during transport.
+
+Unique UN Assigned ID: UN01010081
+
+Dictionary Entry Name: Referenced_ Transport_ Event. Details
+
+Properties: 
+
+Name | Type | Definition | Unique UN Assigned ID | Dictionary Entry Name
+-|-|-|-|-
+<span id="ReferencedEventScheduledArrivalDateTime">ReferencedEventScheduledArrivalDateTime</span> | xsd:dateTime | The date, time, date time or other date time value of the scheduled arrival related to this referenced transport event. | UN01010082 | Referenced_ Transport_ Event. Scheduled Arrival_ Related. Date Time
+<span id="ReferencedEventScheduledDepartureDateTime">ReferencedEventScheduledDepartureDateTime</span> | xsd:dateTime | The date, time, date time or other date time value of the scheduled departure related to this referenced transport event. | UN01010083 | Referenced_ Transport_ Event. Scheduled Departure_ Related. Date Time
+<span id="ReasonTypeCode">ReasonTypeCode</span> | xsd:token | The code specifying the reason type for this referenced transport event. | UN01010084 | Referenced_ Transport_ Event. Reason_ Type. Code
+
+
 <h1 id="Event">Event</h1>
 
 Type: rdf:Class
@@ -3246,101 +3318,22 @@ Name | Type | Definition | Unique UN Assigned ID | Dictionary Entry Name
 <span id="EventOccurrencePeriod">EventOccurrencePeriod</span> | [edi3:SpecifiedPeriod](#SpecifiedPeriod) | A specified period of time during which this transport event occurs. | UN01004804 | Transport_ Event. Occurrence. Specified_ Period
 
 
-<h1 id="SupplyChainEvent">SupplyChainEvent</h1>
+<h1 id="DocumentContextParameter">DocumentContextParameter</h1>
 
 Type: rdf:Class
 
-Definition: A significant occurrence or happening in a supply chain.
+Definition: A feature that is fixed for a particular document context.
 
-Unique UN Assigned ID: UN01004291
+Unique UN Assigned ID: UN01004852
 
-Dictionary Entry Name: Supply Chain_ Event. Details
+Dictionary Entry Name: Document Context_ Parameter. Details
 
 Properties: 
 
 Name | Type | Definition | Unique UN Assigned ID | Dictionary Entry Name
 -|-|-|-|-
-<span id="SupplyChainEventDescription">SupplyChainEventDescription</span> | xsd:string | A textual description of this supply chain event. | UN01004295 | Supply Chain_ Event. Description. Text
-<span id="OccurrenceTime">OccurrenceTime</span> | xsd:dateTime | A time value of an occurrence of this supply chain event. | UN01012565 | Supply Chain_ Event. Time_ Occurrence. Date Time
-<span id="SupplyChainEventDueDateTime">SupplyChainEventDueDateTime</span> | xsd:dateTime | The due date, time, date time, or other date time value of this supply chain event. | UN01013373 | Supply Chain_ Event. Due. Date Time
-<span id="EarliestOccurrenceDateTime">EarliestOccurrenceDateTime</span> | xsd:dateTime | The date, time, date time, or other date time value of the earliest occurrence of this supply chain event. | UN01009020 | Supply Chain_ Event. Earliest_ Occurrence. Date Time
-<span id="SupplyChainEventFrequencyCode">SupplyChainEventFrequencyCode</span> | xsd:token | The code specifying a frequency for this supply chain event. | UN01005303 | Supply Chain_ Event. Frequency. Code
-<span id="SupplyChainEventOccurrencePeriod">SupplyChainEventOccurrencePeriod</span> | [edi3:SpecifiedPeriod](#SpecifiedPeriod) | A specified period of time during which this supply chain event occurs. | UN01004298 | Supply Chain_ Event. Occurrence. Specified_ Period
-<span id="SupplyChainEventUnitQuantity">SupplyChainEventUnitQuantity</span> | xsd:decimal | A number of units for this supply chain event. | UN01004297 | Supply Chain_ Event. Unit. Quantity
-<span id="LatestOccurrenceDateTime">LatestOccurrenceDateTime</span> | xsd:dateTime | The date, time, date time, or other date time value of the latest occurrence of this supply chain event. | UN01009019 | Supply Chain_ Event. Latest_ Occurrence. Date Time
-<span id="SupplyChainEventOccurrenceDateTime">SupplyChainEventOccurrenceDateTime</span> | xsd:dateTime | A date, time, date time, or other date time value of an occurrence of this supply chain event. | UN01004293 | Supply Chain_ Event. Occurrence. Date Time
-<span id="SupplyChainEventLocation">SupplyChainEventLocation</span> | [edi3:LogisticsLocation](#LogisticsLocation) | A logistics location where this supply chain event occurs. | UN01004299 | Supply Chain_ Event. Occurrence. Logistics_ Location
-<span id="SupplyChainEventID">SupplyChainEventID</span> | xsd:token | The unique identifier for this supply chain event. | UN01004292 | Supply Chain_ Event. Identification. Identifier
-<span id="DescriptionBinaryObject">DescriptionBinaryObject</span> | xsd:base64Binary | Binary object data, such as a photograph, describing this supply chain event. | UN01004296 | Supply Chain_ Event. Description. Binary Object
-
-
-<h1 id="ReferencedEvent">ReferencedEvent</h1>
-
-Type: rdf:Class
-
-Definition: A referenced significant occurrence or happening during transport.
-
-Unique UN Assigned ID: UN01010081
-
-Dictionary Entry Name: Referenced_ Transport_ Event. Details
-
-Properties: 
-
-Name | Type | Definition | Unique UN Assigned ID | Dictionary Entry Name
--|-|-|-|-
-<span id="ReferencedEventScheduledArrivalDateTime">ReferencedEventScheduledArrivalDateTime</span> | xsd:dateTime | The date, time, date time or other date time value of the scheduled arrival related to this referenced transport event. | UN01010082 | Referenced_ Transport_ Event. Scheduled Arrival_ Related. Date Time
-<span id="ReferencedEventScheduledDepartureDateTime">ReferencedEventScheduledDepartureDateTime</span> | xsd:dateTime | The date, time, date time or other date time value of the scheduled departure related to this referenced transport event. | UN01010083 | Referenced_ Transport_ Event. Scheduled Departure_ Related. Date Time
-<span id="ReasonTypeCode">ReasonTypeCode</span> | xsd:token | The code specifying the reason type for this referenced transport event. | UN01010084 | Referenced_ Transport_ Event. Reason_ Type. Code
-
-
-<h1 id="CommunicationEvent">CommunicationEvent</h1>
-
-Type: rdf:Class
-
-Definition: A significant occurrence or happening communicated by means of sending or receiving information, such as transmitting digital data by using the internet.
-
-Unique UN Assigned ID: UN01013560
-
-Dictionary Entry Name: Communication_ Event. Details
-
-Properties: 
-
-Name | Type | Definition | Unique UN Assigned ID | Dictionary Entry Name
--|-|-|-|-
-<span id="CommunicationEventReasonCode">CommunicationEventReasonCode</span> | xsd:token | The code specifying a reason for this communication event. | UN01013566 | Communication_ Event. Reason. Code
-<span id="OccurrenceLogisticsLocation">OccurrenceLogisticsLocation</span> | [edi3:LogisticsLocation](#LogisticsLocation) | The logistics location where this communication event will occur or has occurred. | UN01013569 | Communication_ Event. Occurrence. Logistics_ Location
-<span id="CommunicationEventOccurrenceDateTime">CommunicationEventOccurrenceDateTime</span> | xsd:dateTime | The date, time, date time, or other date time value of an occurrence of this communication event. | UN01013562 | Communication_ Event. Occurrence. Date Time
-<span id="CommunicationEventUnitQuantity">CommunicationEventUnitQuantity</span> | xsd:decimal | The number of units for this communication event. | UN01013565 | Communication_ Event. Unit. Quantity
-<span id="CommunicationEventDescription">CommunicationEventDescription</span> | xsd:string | A textual description of this communication event. | UN01013564 | Communication_ Event. Description. Text
-<span id="CommunicationEventAssociatedGeographicalFeature">CommunicationEventAssociatedGeographicalFeature</span> | [edi3:GeographicalFeature](#GeographicalFeature) | A geographical feature associated with this communication event. | UN01013570 | Communication_ Event. Associated. Specified_ Geographical Feature
-<span id="OperationalResponsibleParty">OperationalResponsibleParty</span> | [edi3:TradeParty](#TradeParty) | The operational responsible party for this communication event. | UN01013568 | Communication_ Event. Operational_ Responsible. Trade_ Party
-<span id="CommunicationEventTypeCode">CommunicationEventTypeCode</span> | xsd:token | The code specifying the type of communication event. | UN01013563 | Communication_ Event. Type. Code
-<span id="CommunicationEventValueMeasure">CommunicationEventValueMeasure</span> | xsd:decimal | The measure of a value for this communication event. | UN01013567 | Communication_ Event. Value. Measure
-
-
-<h1 id="OperationalParameter">OperationalParameter</h1>
-
-Type: rdf:Class
-
-Definition: A set of measurable factors that specifies the conditions within which an entity operates correctly.
-
-Unique UN Assigned ID: UN01013513
-
-Dictionary Entry Name: Operational_ Parameter. Details
-
-Properties: 
-
-Name | Type | Definition | Unique UN Assigned ID | Dictionary Entry Name
--|-|-|-|-
-<span id="OperationalParameterValueMeasure">OperationalParameterValueMeasure</span> | xsd:decimal | The measure value for this operational parameter. | UN01013521 | Operational_ Parameter. Value. Measure
-<span id="DefinedRange">DefinedRange</span> | [edi3:Range](#Range) | A defined range specified for this operational parameter. | UN01013523 | Operational_ Parameter. Defined. Specified_ Range
-<span id="OperationalParameterDescription">OperationalParameterDescription</span> | xsd:string | A textual description of this operational parameter. | UN01013517 | Operational_ Parameter. Description. Text
-<span id="OperationalParameterStatusCode">OperationalParameterStatusCode</span> | xsd:token | The code specifying the status of this operational parameter. | UN01013516 | Operational_ Parameter. Status. Code
-<span id="OperationalParameterTypeCode">OperationalParameterTypeCode</span> | xsd:token | The code specifying the type of this operational parameter. | UN01013515 | Operational_ Parameter. Type. Code
-<span id="OperationalParameterValueText">OperationalParameterValueText</span> | xsd:string | The value, expressed as text, of this operational parameter. | UN01013520 | Operational_ Parameter. Value. Text
-<span id="OperationalParameterName">OperationalParameterName</span> | xsd:string | The name, expressed as text, of this operational parameter. | UN01013518 | Operational_ Parameter. Name. Text
-<span id="OperationalParameterChangeableIndicator">OperationalParameterChangeableIndicator</span> | xsd:boolean | The indication whether or not this operational parameter is changeable. | UN01013522 | Operational_ Parameter. Changeable. Indicator
-<span id="OperationalParameterID">OperationalParameterID</span> | xsd:token | The identifier of this operational parameter. | UN01013514 | Operational_ Parameter. Identification. Identifier
+<span id="DocumentContextParameterValueText">DocumentContextParameterValueText</span> | xsd:string | The value, expressed as text, of this document context parameter. | UN01004854 | Document Context_ Parameter. Value. Text
+<span id="Version">Version</span> | [edi3:Version](#Version) | The document version specified for this document context parameter. | UN01004855 | Document Context_ Parameter. Specified. Document_ Version
 
 
 <h1 id="ControlSettingParameter">ControlSettingParameter</h1>
@@ -3368,22 +3361,29 @@ Name | Type | Definition | Unique UN Assigned ID | Dictionary Entry Name
 <span id="ControlSettingParameterDescription">ControlSettingParameterDescription</span> | xsd:string | A textual description of this control setting parameter. | UN01013506 | Control Setting_ Parameter. Description. Text
 
 
-<h1 id="DocumentContextParameter">DocumentContextParameter</h1>
+<h1 id="OperationalParameter">OperationalParameter</h1>
 
 Type: rdf:Class
 
-Definition: A feature that is fixed for a particular document context.
+Definition: A set of measurable factors that specifies the conditions within which an entity operates correctly.
 
-Unique UN Assigned ID: UN01004852
+Unique UN Assigned ID: UN01013513
 
-Dictionary Entry Name: Document Context_ Parameter. Details
+Dictionary Entry Name: Operational_ Parameter. Details
 
 Properties: 
 
 Name | Type | Definition | Unique UN Assigned ID | Dictionary Entry Name
 -|-|-|-|-
-<span id="DocumentContextParameterValueText">DocumentContextParameterValueText</span> | xsd:string | The value, expressed as text, of this document context parameter. | UN01004854 | Document Context_ Parameter. Value. Text
-<span id="Version">Version</span> | [edi3:Version](#Version) | The document version specified for this document context parameter. | UN01004855 | Document Context_ Parameter. Specified. Document_ Version
+<span id="OperationalParameterValueMeasure">OperationalParameterValueMeasure</span> | xsd:decimal | The measure value for this operational parameter. | UN01013521 | Operational_ Parameter. Value. Measure
+<span id="DefinedRange">DefinedRange</span> | [edi3:Range](#Range) | A defined range specified for this operational parameter. | UN01013523 | Operational_ Parameter. Defined. Specified_ Range
+<span id="OperationalParameterDescription">OperationalParameterDescription</span> | xsd:string | A textual description of this operational parameter. | UN01013517 | Operational_ Parameter. Description. Text
+<span id="OperationalParameterStatusCode">OperationalParameterStatusCode</span> | xsd:token | The code specifying the status of this operational parameter. | UN01013516 | Operational_ Parameter. Status. Code
+<span id="OperationalParameterTypeCode">OperationalParameterTypeCode</span> | xsd:token | The code specifying the type of this operational parameter. | UN01013515 | Operational_ Parameter. Type. Code
+<span id="OperationalParameterValueText">OperationalParameterValueText</span> | xsd:string | The value, expressed as text, of this operational parameter. | UN01013520 | Operational_ Parameter. Value. Text
+<span id="OperationalParameterName">OperationalParameterName</span> | xsd:string | The name, expressed as text, of this operational parameter. | UN01013518 | Operational_ Parameter. Name. Text
+<span id="OperationalParameterChangeableIndicator">OperationalParameterChangeableIndicator</span> | xsd:boolean | The indication whether or not this operational parameter is changeable. | UN01013522 | Operational_ Parameter. Changeable. Indicator
+<span id="OperationalParameterID">OperationalParameterID</span> | xsd:token | The identifier of this operational parameter. | UN01013514 | Operational_ Parameter. Identification. Identifier
 
 
 <h1 id="PaymentPenaltyTerms">PaymentPenaltyTerms</h1>
@@ -3438,7 +3438,7 @@ Properties:
 
 Name | Type | Definition | Unique UN Assigned ID | Dictionary Entry Name
 -|-|-|-|-
-<span id="SpecifiedGeographicalCoordinate">SpecifiedGeographicalCoordinate</span> | [edi3:FLUXGeographicalCoordinate](#FLUXGeographicalCoordinate) | Geographical coordinate information specified for this linear ring. | UN01011207 | Specified_ Linear Ring. Specified. FLUX_ Geographical Coordinate
+<span id="SpecifiedSpecifiedGeographicalCoordinate">SpecifiedSpecifiedGeographicalCoordinate</span> | [edi3:FLUXGeographicalCoordinate](#FLUXGeographicalCoordinate) | Geographical coordinate information specified for this linear ring. | UN01011207 | Specified_ Linear Ring. Specified. FLUX_ Geographical Coordinate
 <span id="LinearRingCoordinateText">LinearRingCoordinateText</span> | xsd:string | A coordinate, expressed as text, for this specified linear ring. | UN01010473 | Specified_ Linear Ring. Coordinate. Text
 <span id="CoordinateDirectPosition">CoordinateDirectPosition</span> | [edi3:DirectPosition](#DirectPosition) | The specified direct position of a coordinate for this linear ring. | UN01010474 | Specified_ Linear Ring. Coordinate. Specified_ Direct Position
 
@@ -3575,6 +3575,7 @@ Name | Type | Definition | Unique UN Assigned ID | Dictionary Entry Name
 <span id="SalesAgent">SalesAgent</span> | [edi3:TradeParty](#TradeParty) | The agent party representing the seller for this header trade agreement. | UN01011553 | Header_ Trade Agreement. Sales Agent. Trade_ Party
 <span id="HeaderTradeAgreementSellerOrderDocument">HeaderTradeAgreementSellerOrderDocument</span> | [edi3:Document](#Document) | The seller generated order document referenced in this header trade agreement. | UN01011563 | Header_ Trade Agreement. Seller_ Order. Referenced_ Document
 <span id="OrderResponseDocument">OrderResponseDocument</span> | [edi3:Document](#Document) | The order response document referenced in this header trade agreement. | UN01011567 | Header_ Trade Agreement. Order Response. Referenced_ Document
+<span id="HeaderProcuringProject">HeaderProcuringProject</span> | [edi3:Project](#Project) | The procuring project specified for this header trade agreement. | UN01011944 | Header_ Trade Agreement. Specified. Procuring_ Project
 <span id="HeaderTradeAgreementPrimeContractSeller">HeaderTradeAgreementPrimeContractSeller</span> | [edi3:TradeParty](#TradeParty) | The seller party acting as the prime contractor for this header trade agreement. | UN01013411 | Header_ Trade Agreement. Prime Contract_ Seller. Trade_ Party
 <span id="HeaderTradeAgreementBuyerRequisitioner">HeaderTradeAgreementBuyerRequisitioner</span> | [edi3:TradeParty](#TradeParty) | A party who is a buyer requisitioner in this header trade agreement. | UN01011554 | Header_ Trade Agreement. Buyer_ Requisitioner. Trade_ Party
 <span id="HeaderTradeAgreementPaymentTerms">HeaderTradeAgreementPaymentTerms</span> | [edi3:PaymentTerms](#PaymentTerms) | The payment terms applicable to this header trade agreement. | UN01011561 | Header_ Trade Agreement. Applicable. Trade_ Payment Terms
@@ -3603,7 +3604,6 @@ Name | Type | Definition | Unique UN Assigned ID | Dictionary Entry Name
 <span id="HeaderTradeAgreementExportLicenceDocument">HeaderTradeAgreementExportLicenceDocument</span> | [edi3:Document](#Document) | The export licence document referenced in this header trade agreement. | UN01011598 | Header_ Trade Agreement. Export Licence. Referenced_ Document
 <span id="HeaderTradeAgreementQuotationRequestDocument">HeaderTradeAgreementQuotationRequestDocument</span> | [edi3:Document](#Document) | The quotation request document referenced in this header trade agreement. | UN01011568 | Header_ Trade Agreement. Quotation Request. Referenced_ Document
 <span id="HeaderTradeAgreementPreviousOrderDocument">HeaderTradeAgreementPreviousOrderDocument</span> | [edi3:Document](#Document) | The previous order document referenced in this header trade agreement. | UN01011591 | Header_ Trade Agreement. Previous_ Order. Referenced_ Document
-<span id="ProcuringProject">ProcuringProject</span> | [edi3:Project](#Project) | The procuring project specified for this header trade agreement. | UN01011944 | Header_ Trade Agreement. Specified. Procuring_ Project
 <span id="HeaderTradeAgreementRequisitionerDocument">HeaderTradeAgreementRequisitionerDocument</span> | [edi3:Document](#Document) | A requisitioner document referenced in this header trade agreement. | UN01011576 | Header_ Trade Agreement. Requisitioner. Referenced_ Document
 <span id="PricingBaseAppilicableLogisticsLocation">PricingBaseAppilicableLogisticsLocation</span> | [edi3:LogisticsLocation](#LogisticsLocation) | The logistics location applicable to the pricing base for this header trade agreement. | UN01012666 | Header_ Trade Agreement. Pricing Base_ Applicable. Logistics_ Location
 <span id="PreviousOrderChangeDocument">PreviousOrderChangeDocument</span> | [edi3:Document](#Document) | The previous order change document referenced in this header trade agreement. | UN01011592 | Header_ Trade Agreement. Previous_ Order Change. Referenced_ Document
@@ -3729,26 +3729,6 @@ Name | Type | Definition | Unique UN Assigned ID | Dictionary Entry Name
 <span id="IncludedSection">IncludedSection</span> | [edi3:Section](#Section) | A section included in this logistics label. | UN01012730 | Logistics_ Label. Included. Label_ Section
 
 
-<h1 id="AppliedTax">AppliedTax</h1>
-
-Type: rdf:Class
-
-Definition: A total levy or payment for the support of a government that is required of persons, groups, or businesses within the domain of that government.
-
-Unique UN Assigned ID: UN01000183
-
-Dictionary Entry Name: Applied_ Tax. Details
-
-Properties: 
-
-Name | Type | Definition | Unique UN Assigned ID | Dictionary Entry Name
--|-|-|-|-
-<span id="AppliedTaxCalculatedAmount">AppliedTaxCalculatedAmount</span> | xsd:decimal | The monetary value resulting from the calculation of the applied tax. | UN01000184 | Applied_ Tax. Calculated. Amount
-<span id="AppliedTaxTaxPointDate">AppliedTaxTaxPointDate</span> | xsd:date | The date of the tax point when taxes, such as VAT, are to be applied. | UN01002070 | Applied_ Tax. Tax Point. Date
-<span id="AppliedTaxCalculatedRate">AppliedTaxCalculatedRate</span> | xsd:decimal | The rate used to calculate the applied tax. | UN01000186 | Applied_ Tax. Calculated. Rate
-<span id="AppliedTaxBasisAmount">AppliedTaxBasisAmount</span> | xsd:decimal | The monetary value used as the basis in calculating the applied tax. | UN01000187 | Applied_ Tax. Basis. Amount
-
-
 <h1 id="RegisteredTax">RegisteredTax</h1>
 
 Type: rdf:Class
@@ -3785,6 +3765,7 @@ Properties:
 
 Name | Type | Definition | Unique UN Assigned ID | Dictionary Entry Name
 -|-|-|-|-
+<span id="TradeTaxBasisAmount">TradeTaxBasisAmount</span> | xsd:decimal | A monetary value used as the basis on which this trade related tax, levy or duty is calculated. | UN01004717 | Trade_ Tax. Basis. Amount
 <span id="BuyerNonDeductibleTaxAccountingAccount">BuyerNonDeductibleTaxAccountingAccount</span> | [edi3:AccountingAccount](#AccountingAccount) | The buyer non-deductible tax specified accounting account for this trade related tax, levy or duty. | UN01009023 | Trade_ Tax. Buyer Non-Deductible Tax_ Specified. Trade_ Accounting Account
 <span id="BuyerRepayableTaxAccountingAccount">BuyerRepayableTaxAccountingAccount</span> | [edi3:AccountingAccount](#AccountingAccount) | The buyer repayable tax specified accounting account for this trade related tax, levy or duty. | UN01009009 | Trade_ Tax. Buyer Repayable Tax_ Specified. Trade_ Accounting Account
 <span id="SelfAssessedBasisQuantity">SelfAssessedBasisQuantity</span> | xsd:decimal | The quantity on which this trade related tax, levy or duty has been calculated on a self-assessment basis. | UN01004732 | Trade_ Tax. Self-Assessed Basis. Quantity
@@ -3814,7 +3795,6 @@ Name | Type | Definition | Unique UN Assigned ID | Dictionary Entry Name
 <span id="SellerPayableTaxAccountingAccount">SellerPayableTaxAccountingAccount</span> | [edi3:AccountingAccount](#AccountingAccount) | The seller payable tax specified accounting account for this trade related tax, levy or duty. | UN01009010 | Trade_ Tax. Seller Payable Tax_ Specified. Trade_ Accounting Account
 <span id="TradeTaxBasisQuantity">TradeTaxBasisQuantity</span> | xsd:decimal | The quantity used as the basis for calculating the amount of this trade related tax, levy or duty. | UN01004716 | Trade_ Tax. Basis. Quantity
 <span id="ApplicableRatePercent">ApplicableRatePercent</span> | xsd:decimal | The applicable rate, expressed as a percentage, for this trade tax, levy or duty. | UN01009021 | Trade_ Tax. Rate_ Applicable. Percent
-<span id="TradeAccountingAccount">TradeAccountingAccount</span> | [edi3:AccountingAccount](#AccountingAccount) | A specified accounting account for this trade related tax, levy or duty. | UN01004744 | Trade_ Tax. Specified. Trade_ Accounting Account
 <span id="TradeTaxTaxPointDate">TradeTaxTaxPointDate</span> | xsd:date | The date of the tax point when this trade related tax, levy or duty becomes applicable. | UN01004725 | Trade_ Tax. Tax Point. Date
 <span id="TaxCalculationMethodCode">TaxCalculationMethodCode</span> | xsd:token | The code specifying the method by which this trade related tax, levy or duty is calculated, such as codes for "tax calculated after line total summation", "tax calculated before line total summation", "tax back calculated based on grand total". | UN01013097 | Trade_ Tax. Calculation Method. Code
 <span id="AllowanceChargeBasisAmount">AllowanceChargeBasisAmount</span> | xsd:decimal | A monetary value used as the allowance and charge basis on which this trade related tax, levy or duty is calculated. | UN01004875 | Trade_ Tax. Allowance Charge_ Basis. Amount
@@ -3832,6 +3812,26 @@ Name | Type | Definition | Unique UN Assigned ID | Dictionary Entry Name
 <span id="TaxExemptionAuthorityID">TaxExemptionAuthorityID</span> | xsd:token | The unique tax exemption authority identifier for this trade tax. | UN01004873 | Trade_ Tax. Tax Exemption Authority_ Identification. Identifier
 <span id="LineTotalBasisAmount">LineTotalBasisAmount</span> | xsd:decimal | A monetary value used as the line total basis on which this trade related tax, levy or duty is calculated. | UN01004874 | Trade_ Tax. Line Total_ Basis. Amount
 <span id="RateCode">RateCode</span> | xsd:token | The code specifying the rate for this trade related tax, levy or duty. | UN01004736 | Trade_ Tax. Rate. Code
+
+
+<h1 id="AppliedTax">AppliedTax</h1>
+
+Type: rdf:Class
+
+Definition: A total levy or payment for the support of a government that is required of persons, groups, or businesses within the domain of that government.
+
+Unique UN Assigned ID: UN01000183
+
+Dictionary Entry Name: Applied_ Tax. Details
+
+Properties: 
+
+Name | Type | Definition | Unique UN Assigned ID | Dictionary Entry Name
+-|-|-|-|-
+<span id="AppliedTaxCalculatedAmount">AppliedTaxCalculatedAmount</span> | xsd:decimal | The monetary value resulting from the calculation of the applied tax. | UN01000184 | Applied_ Tax. Calculated. Amount
+<span id="AppliedTaxTaxPointDate">AppliedTaxTaxPointDate</span> | xsd:date | The date of the tax point when taxes, such as VAT, are to be applied. | UN01002070 | Applied_ Tax. Tax Point. Date
+<span id="AppliedTaxCalculatedRate">AppliedTaxCalculatedRate</span> | xsd:decimal | The rate used to calculate the applied tax. | UN01000186 | Applied_ Tax. Calculated. Rate
+<span id="AppliedTaxBasisAmount">AppliedTaxBasisAmount</span> | xsd:decimal | The monetary value used as the basis in calculating the applied tax. | UN01000187 | Applied_ Tax. Basis. Amount
 
 
 <h1 id="Process">Process</h1>
@@ -3875,9 +3875,9 @@ Name | Type | Definition | Unique UN Assigned ID | Dictionary Entry Name
 <span id="DefaultCurrencyCode">DefaultCurrencyCode</span> | xsd:token | The code specifying the default currency for this valuation breakdown statement. | UN01007551 | Valuation_ Breakdown Statement. Default_ Currency. Code
 <span id="BreakdownStatementID">BreakdownStatementID</span> | xsd:token | The unique identifier for this valuation breakdown statement. | UN01007546 | Valuation_ Breakdown Statement. Identification. Identifier
 <span id="PriceListID">PriceListID</span> | xsd:token | The identifier of a price list for this valuation breakdown statement. | UN01007556 | Valuation_ Breakdown Statement. Price List_ Identification. Identifier
-<span id="GroupedWorkItem">GroupedWorkItem</span> | [edi3:GroupedWorkItem](#GroupedWorkItem) | A grouped work item in this valuation breakdown statement. | UN01007558 | Valuation_ Breakdown Statement. Item. Grouped_ Work Item
-<span id="BasicWorkItem">BasicWorkItem</span> | [edi3:BasicWorkItem](#BasicWorkItem) | A basic work item in this valuation breakdown statement. | UN01007559 | Valuation_ Breakdown Statement. Item. Basic_ Work Item
+<span id="ValuationGroupedWorkItem">ValuationGroupedWorkItem</span> | [edi3:GroupedWorkItem](#GroupedWorkItem) | A grouped work item in this valuation breakdown statement. | UN01007558 | Valuation_ Breakdown Statement. Item. Grouped_ Work Item
 <span id="BreakdownStatementTypeCode">BreakdownStatementTypeCode</span> | xsd:token | A code specifying the type of valuation breakdown statement. | UN01007554 | Valuation_ Breakdown Statement. Type. Code
+<span id="ValuationBasicWorkItem">ValuationBasicWorkItem</span> | [edi3:BasicWorkItem](#BasicWorkItem) | A basic work item in this valuation breakdown statement. | UN01007559 | Valuation_ Breakdown Statement. Item. Basic_ Work Item
 <span id="BreakdownStatementRequestedActionCode">BreakdownStatementRequestedActionCode</span> | xsd:token | A code specifying the requested action for this valuation breakdown statement. | UN01007555 | Valuation_ Breakdown Statement. Requested Action. Code
 <span id="BreakdownStatementReferencedBinaryFile">BreakdownStatementReferencedBinaryFile</span> | [edi3:BinaryFile](#BinaryFile) | A specified binary file referenced by this valuation breakdown statement. | UN01011936 | Valuation_ Breakdown Statement. Referenced. Specified_ Binary File
 <span id="BreakdownStatementTotalCalculatedPrice">BreakdownStatementTotalCalculatedPrice</span> | [edi3:CalculatedPrice](#CalculatedPrice) | A total calculated price for this valuation breakdown statement. | UN01007560 | Valuation_ Breakdown Statement. Total. Calculated_ Price
@@ -3966,6 +3966,24 @@ Name | Type | Definition | Unique UN Assigned ID | Dictionary Entry Name
 <span id="DescriptionReferenceText">DescriptionReferenceText</span> | xsd:string | The description reference, expressed as text, for this geographical object characteristic. | UN01012371 | Specified_ Geographical Object Characteristic. Description Reference. Text
 
 
+<h1 id="TaxRegistration">TaxRegistration</h1>
+
+Type: rdf:Class
+
+Definition: Registration with a specific tax authority.
+
+Unique UN Assigned ID: UN01004486
+
+Dictionary Entry Name: Tax_ Registration. Details
+
+Properties: 
+
+Name | Type | Definition | Unique UN Assigned ID | Dictionary Entry Name
+-|-|-|-|-
+<span id="TaxRegistrationID">TaxRegistrationID</span> | xsd:token | The unique identifier for this tax registration. | UN01004487 | Tax_ Registration. Identification. Identifier
+<span id="TaxRegisteredTax">TaxRegisteredTax</span> | [edi3:RegisteredTax](#RegisteredTax) | The registered tax associated with this tax registration. | UN01004488 | Tax_ Registration. Associated. Registered_ Tax
+
+
 <h1 id="LegalRegistration">LegalRegistration</h1>
 
 Type: rdf:Class
@@ -3983,24 +4001,6 @@ Name | Type | Definition | Unique UN Assigned ID | Dictionary Entry Name
 <span id="LegalRegistrationID">LegalRegistrationID</span> | xsd:token | A unique identifier for this legal registration. | UN01003651 | Legal_ Registration. Identification. Identifier
 <span id="LegalRegistrationLastRegisteredYear">LegalRegistrationLastRegisteredYear</span> | xsd:dateTime | The last year in which this legal registration was registered. | UN01003656 | Legal_ Registration. Last Registered Year. Date Time
 <span id="LegalRegistrationCountryCode">LegalRegistrationCountryCode</span> | xsd:token | An identifier of the country in which this legal registration is valid. | UN01003654 | Legal_ Registration. Country. Identifier
-
-
-<h1 id="TaxRegistration">TaxRegistration</h1>
-
-Type: rdf:Class
-
-Definition: Registration with a specific tax authority.
-
-Unique UN Assigned ID: UN01004486
-
-Dictionary Entry Name: Tax_ Registration. Details
-
-Properties: 
-
-Name | Type | Definition | Unique UN Assigned ID | Dictionary Entry Name
--|-|-|-|-
-<span id="TaxRegistrationID">TaxRegistrationID</span> | xsd:token | The unique identifier for this tax registration. | UN01004487 | Tax_ Registration. Identification. Identifier
-<span id="RegisteredTax">RegisteredTax</span> | [edi3:RegisteredTax](#RegisteredTax) | The registered tax associated with this tax registration. | UN01004488 | Tax_ Registration. Associated. Registered_ Tax
 
 
 <h1 id="GovernmentRegistration">GovernmentRegistration</h1>
@@ -4026,6 +4026,27 @@ Name | Type | Definition | Unique UN Assigned ID | Dictionary Entry Name
 <span id="GovernmentRegistrationValidityPeriod">GovernmentRegistrationValidityPeriod</span> | [edi3:SpecifiedPeriod](#SpecifiedPeriod) | The period of time during which this government registration is valid. | UN01011038 | Government_ Registration. Validity. Specified_ Period
 <span id="LicenceID">LicenceID</span> | xsd:token | The identifier of a licence for this government registration. | UN01011033 | Government_ Registration. Licence. Identifier
 <span id="RecordedDate">RecordedDate</span> | xsd:date | The date that this government registration was recorded. | UN01011034 | Government_ Registration. Recorded. Date
+
+
+<h1 id="SpecifiedGeographicalCoordinate">SpecifiedGeographicalCoordinate</h1>
+
+Type: rdf:Class
+
+Definition: The latitude and longitude of a specified place, by which its relative situation on the globe is known. The height above the sea level constitutes a third coordinate.
+
+Unique UN Assigned ID: UN01002026
+
+Dictionary Entry Name: Specified_ Geographical Coordinate. Details
+
+Properties: 
+
+Name | Type | Definition | Unique UN Assigned ID | Dictionary Entry Name
+-|-|-|-|-
+<span id="SpecifiedGeographicalCoordinateLongitude">SpecifiedGeographicalCoordinateLongitude</span> | xsd:decimal | The measure of the longitude as an angular distance east or west from the Greenwich meridian to the meridian of a specific place for this specified geographical coordinate. (Reference ISO 6709). | UN01002029 | Specified_ Geographical Coordinate. Longitude. Measure
+<span id="SpecifiedGeographicalCoordinateLatitudeDirectionIndicator">SpecifiedGeographicalCoordinateLatitudeDirectionIndicator</span> | xsd:boolean | The indication of whether the latitude compass direction from the Equator meridian to the meridian of a specific place for this specified geographical coordinate is North (+) or South (-).  (Reference ISO 6709). | UN01002030 | Specified_ Geographical Coordinate. Latitude Direction. Indicator
+<span id="SpecifiedGeographicalCoordinateLatitude">SpecifiedGeographicalCoordinateLatitude</span> | xsd:decimal | The measure of the latitude as an angular distance north or south from the Equator meridian to the meridian of a specific place for this specified geographical coordinate. (Reference ISO 6709). | UN01002028 | Specified_ Geographical Coordinate. Latitude. Measure
+<span id="SpecifiedGeographicalCoordinateSystemID">SpecifiedGeographicalCoordinateSystemID</span> | xsd:token | The unique identifier of the system used for measuring this specified geographical coordinate. | UN01002032 | Specified_ Geographical Coordinate. System. Identifier
+<span id="SpecifiedGeographicalCoordinateAltitude">SpecifiedGeographicalCoordinateAltitude</span> | xsd:decimal | The measure of the altitude that reflects the vertical elevation of an object above a surface for this specified geographical coordinate (Reference ISO 6709). | UN01002027 | Specified_ Geographical Coordinate. Altitude. Measure
 
 
 <h1 id="GeographicalCoordinate">GeographicalCoordinate</h1>
@@ -4056,27 +4077,6 @@ Name | Type | Definition | Unique UN Assigned ID | Dictionary Entry Name
 <span id="TimeZoneCode">TimeZoneCode</span> | xsd:token | The code specifying the time zone of this geographical coordinate. | UN01013466 | Geographical Coordinate. Time Zone. Code
 <span id="GeographicalCoordinateLatitude">GeographicalCoordinateLatitude</span> | xsd:decimal | The measure of the latitude as an angular distance north or south from the Equator meridian to the meridian of a specific place for this geographical coordinate (Reference ISO 6709). | UN01003618 | Geographical Coordinate. Latitude. Measure
 <span id="GeographicalCoordinateAcquisitionDateTime">GeographicalCoordinateAcquisitionDateTime</span> | xsd:dateTime | The date, time, date time or other date time value of the acquisition of this geographical coordinate. | UN01013611 | Geographical Coordinate. Acquisition. Date Time
-
-
-<h1 id="SpecifiedGeographicalCoordinate">SpecifiedGeographicalCoordinate</h1>
-
-Type: rdf:Class
-
-Definition: The latitude and longitude of a specified place, by which its relative situation on the globe is known. The height above the sea level constitutes a third coordinate.
-
-Unique UN Assigned ID: UN01002026
-
-Dictionary Entry Name: Specified_ Geographical Coordinate. Details
-
-Properties: 
-
-Name | Type | Definition | Unique UN Assigned ID | Dictionary Entry Name
--|-|-|-|-
-<span id="SpecifiedGeographicalCoordinateLongitude">SpecifiedGeographicalCoordinateLongitude</span> | xsd:decimal | The measure of the longitude as an angular distance east or west from the Greenwich meridian to the meridian of a specific place for this specified geographical coordinate. (Reference ISO 6709). | UN01002029 | Specified_ Geographical Coordinate. Longitude. Measure
-<span id="SpecifiedGeographicalCoordinateLatitudeDirectionIndicator">SpecifiedGeographicalCoordinateLatitudeDirectionIndicator</span> | xsd:boolean | The indication of whether the latitude compass direction from the Equator meridian to the meridian of a specific place for this specified geographical coordinate is North (+) or South (-).  (Reference ISO 6709). | UN01002030 | Specified_ Geographical Coordinate. Latitude Direction. Indicator
-<span id="SpecifiedGeographicalCoordinateLatitude">SpecifiedGeographicalCoordinateLatitude</span> | xsd:decimal | The measure of the latitude as an angular distance north or south from the Equator meridian to the meridian of a specific place for this specified geographical coordinate. (Reference ISO 6709). | UN01002028 | Specified_ Geographical Coordinate. Latitude. Measure
-<span id="SpecifiedGeographicalCoordinateSystemID">SpecifiedGeographicalCoordinateSystemID</span> | xsd:token | The unique identifier of the system used for measuring this specified geographical coordinate. | UN01002032 | Specified_ Geographical Coordinate. System. Identifier
-<span id="SpecifiedGeographicalCoordinateAltitude">SpecifiedGeographicalCoordinateAltitude</span> | xsd:decimal | The measure of the altitude that reflects the vertical elevation of an object above a surface for this specified geographical coordinate (Reference ISO 6709). | UN01002027 | Specified_ Geographical Coordinate. Altitude. Measure
 
 
 <h1 id="Production">Production</h1>
@@ -4233,27 +4233,6 @@ Name | Type | Definition | Unique UN Assigned ID | Dictionary Entry Name
 <span id="PolygonAssociatedLogisticsLocation">PolygonAssociatedLogisticsLocation</span> | [edi3:LogisticsLocation](#LogisticsLocation) | A logistics location associated with this specified polygon. | UN01013627 | Specified_ Polygon. Associated. Logistics_ Location
 
 
-<h1 id="PaymentBalanceOut">PaymentBalanceOut</h1>
-
-Type: rdf:Class
-
-Definition: Offset information to ensure that debits and credits are equal for a transaction.
-
-Unique UN Assigned ID: UN01011829
-
-Dictionary Entry Name: Payment_ Balance Out. Details
-
-Properties: 
-
-Name | Type | Definition | Unique UN Assigned ID | Dictionary Entry Name
--|-|-|-|-
-<span id="PaymentBalanceOutID">PaymentBalanceOutID</span> | xsd:token | The identifier for this payment balance out. | UN01011830 | Payment_ Balance Out. Identification. Identifier
-<span id="PaymentBalanceOutDescription">PaymentBalanceOutDescription</span> | xsd:string | A textual description of this payment balance out. | UN01011831 | Payment_ Balance Out. Description. Text
-<span id="PaymentBalanceOutCalculatedAmount">PaymentBalanceOutCalculatedAmount</span> | xsd:decimal | A monetary value calculated for this payment balance out. | UN01011835 | Payment_ Balance Out. Calculated. Amount
-<span id="PaymentBalanceOutReasonCode">PaymentBalanceOutReasonCode</span> | xsd:token | The code specifying the reason for this payment balance out. | UN01011832 | Payment_ Balance Out. Reason. Code
-<span id="PaymentBalanceOutReasonDescription">PaymentBalanceOutReasonDescription</span> | xsd:string | A textual description of the reason for this payment balance out. | UN01011833 | Payment_ Balance Out. Reason Description. Text
-
-
 <h1 id="HeaderBalanceOut">HeaderBalanceOut</h1>
 
 Type: rdf:Class
@@ -4276,6 +4255,27 @@ Name | Type | Definition | Unique UN Assigned ID | Dictionary Entry Name
 <span id="HeaderBalanceOutDescription">HeaderBalanceOutDescription</span> | xsd:string | A textual description of this header balance out. | UN01011541 | Header_ Balance Out. Description. Text
 
 
+<h1 id="PaymentBalanceOut">PaymentBalanceOut</h1>
+
+Type: rdf:Class
+
+Definition: Offset information to ensure that debits and credits are equal for a transaction.
+
+Unique UN Assigned ID: UN01011829
+
+Dictionary Entry Name: Payment_ Balance Out. Details
+
+Properties: 
+
+Name | Type | Definition | Unique UN Assigned ID | Dictionary Entry Name
+-|-|-|-|-
+<span id="PaymentBalanceOutID">PaymentBalanceOutID</span> | xsd:token | The identifier for this payment balance out. | UN01011830 | Payment_ Balance Out. Identification. Identifier
+<span id="PaymentBalanceOutDescription">PaymentBalanceOutDescription</span> | xsd:string | A textual description of this payment balance out. | UN01011831 | Payment_ Balance Out. Description. Text
+<span id="PaymentBalanceOutCalculatedAmount">PaymentBalanceOutCalculatedAmount</span> | xsd:decimal | A monetary value calculated for this payment balance out. | UN01011835 | Payment_ Balance Out. Calculated. Amount
+<span id="PaymentBalanceOutReasonCode">PaymentBalanceOutReasonCode</span> | xsd:token | The code specifying the reason for this payment balance out. | UN01011832 | Payment_ Balance Out. Reason. Code
+<span id="PaymentBalanceOutReasonDescription">PaymentBalanceOutReasonDescription</span> | xsd:string | A textual description of the reason for this payment balance out. | UN01011833 | Payment_ Balance Out. Reason Description. Text
+
+
 <h1 id="Route">Route</h1>
 
 Type: rdf:Class
@@ -4291,12 +4291,12 @@ Properties:
 Name | Type | Definition | Unique UN Assigned ID | Dictionary Entry Name
 -|-|-|-|-
 <span id="RouteStatusCode">RouteStatusCode</span> | xsd:token | The code specifying a status for a transport route, such as planned or actual. | UN01011530 | Transport_ Route. Status. Code
-<span id="SpecifiedPeriod">SpecifiedPeriod</span> | [edi3:SpecifiedPeriod](#SpecifiedPeriod) | The specified period during which this transport route is scheduled. | UN01004831 | Transport_ Route. Scheduled. Specified_ Period
 <span id="FrequencyTypeCode">FrequencyTypeCode</span> | xsd:token | The code specifying the type of frequency for this transport route, such as weekly, bi-monthly or daily. | UN01004828 | Transport_ Route. Frequency Type. Code
 <span id="ItineraryStopEvent">ItineraryStopEvent</span> | [edi3:Event](#Event) | An itinerary stop event for this transport route, such as a port call in a vessel schedule. | UN01004829 | Transport_ Route. Itinerary Stop. Transport_ Event
 <span id="RouteSecurityLevelCode">RouteSecurityLevelCode</span> | xsd:token | A code specifying a security level for this transport route. | UN01013151 | Transport_ Route. Security Level. Code
 <span id="DeparturePointText">DeparturePointText</span> | xsd:string | A departure point, expressed as text, for this transport route. | UN01004825 | Transport_ Route. Departure Point. Text
 <span id="MapBinaryObject">MapBinaryObject</span> | xsd:base64Binary | Binary object data that is the map of this transport route. | UN01004826 | Transport_ Route. Map. Binary Object
+<span id="TransportSpecifiedPeriod">TransportSpecifiedPeriod</span> | [edi3:SpecifiedPeriod](#SpecifiedPeriod) | The specified period during which this transport route is scheduled. | UN01004831 | Transport_ Route. Scheduled. Specified_ Period
 <span id="RouteDescription">RouteDescription</span> | xsd:string | The textual description of this transport route. | UN01004824 | Transport_ Route. Description. Text
 <span id="RouteTypeText">RouteTypeText</span> | xsd:string | A type, expressed as text for this transport route. | UN01013605 | Transport_ Route. Type. Text
 <span id="TransportMeansText">TransportMeansText</span> | xsd:string | A means of transport, expressed as text, for this transport route. | UN01004827 | Transport_ Route. Transport Means. Text
@@ -4410,6 +4410,24 @@ Name | Type | Definition | Unique UN Assigned ID | Dictionary Entry Name
 <span id="CharacteristicApplicableReferencedStandard">CharacteristicApplicableReferencedStandard</span> | [edi3:Standard](#Standard) | The referenced standard that is applicable to this product characteristic. | UN01008309 | Product_ Characteristic. Applicable. Referenced_ Standard
 
 
+<h1 id="AvailablePeriod">AvailablePeriod</h1>
+
+Type: rdf:Class
+
+Definition: A specific period of time such as the length of time between two known date/time points, from a start date onwards, or up to an end date for which something is available.
+
+Unique UN Assigned ID: UN01005108
+
+Dictionary Entry Name: Available_ Period. Details
+
+Properties: 
+
+Name | Type | Definition | Unique UN Assigned ID | Dictionary Entry Name
+-|-|-|-|-
+<span id="AvailablePeriodStartDateTime">AvailablePeriodStartDateTime</span> | xsd:dateTime | The date, time, date time or other date time value for the start of this available period of time. | UN01005109 | Available_ Period. Start. Date Time
+<span id="AvailablePeriodDescription">AvailablePeriodDescription</span> | xsd:string | The textual description of this available period. | UN01005111 | Available_ Period. Description. Text
+
+
 <h1 id="SpecifiedPeriod">SpecifiedPeriod</h1>
 
 Type: rdf:Class
@@ -4439,45 +4457,6 @@ Name | Type | Definition | Unique UN Assigned ID | Dictionary Entry Name
 <span id="SpecifiedPeriodSeasonCode">SpecifiedPeriodSeasonCode</span> | xsd:token | The code specifying the season for this specified period. | UN01001278 | Specified_ Period. Season. Code
 
 
-<h1 id="AvailablePeriod">AvailablePeriod</h1>
-
-Type: rdf:Class
-
-Definition: A specific period of time such as the length of time between two known date/time points, from a start date onwards, or up to an end date for which something is available.
-
-Unique UN Assigned ID: UN01005108
-
-Dictionary Entry Name: Available_ Period. Details
-
-Properties: 
-
-Name | Type | Definition | Unique UN Assigned ID | Dictionary Entry Name
--|-|-|-|-
-<span id="AvailablePeriodStartDateTime">AvailablePeriodStartDateTime</span> | xsd:dateTime | The date, time, date time or other date time value for the start of this available period of time. | UN01005109 | Available_ Period. Start. Date Time
-<span id="AvailablePeriodDescription">AvailablePeriodDescription</span> | xsd:string | The textual description of this available period. | UN01005111 | Available_ Period. Description. Text
-
-
-<h1 id="SubordinateTradeLineItem">SubordinateTradeLineItem</h1>
-
-Type: rdf:Class
-
-Definition: A collection of information specific to a subordinate item being used or reported on for trade purposes.
-
-Unique UN Assigned ID: UN01004098
-
-Dictionary Entry Name: Subordinate_ Trade Line Item. Details
-
-Properties: 
-
-Name | Type | Definition | Unique UN Assigned ID | Dictionary Entry Name
--|-|-|-|-
-<span id="ReferencedProduct">ReferencedProduct</span> | [edi3:Product](#Product) | The referenced product specified for this subordinate trade line item. | UN01004102 | Subordinate_ Trade Line Item. Specified. Referenced_ Product
-<span id="SubordinateLineTradeDelivery">SubordinateLineTradeDelivery</span> | [edi3:SubordinateLineTradeDelivery](#SubordinateLineTradeDelivery) | The delivery specified for this subordinate trade line item. | UN01011857 | Subordinate_ Trade Line Item. Specified. Subordinate Line_ Trade Delivery
-<span id="SubordinateLineTradeSettlement">SubordinateLineTradeSettlement</span> | [edi3:SubordinateLineTradeSettlement](#SubordinateLineTradeSettlement) | A trade settlement specified for this subordinate trade line item. | UN01011858 | Subordinate_ Trade Line Item. Specified. Subordinate Line_ Trade Settlement
-<span id="ApplicableProduct">ApplicableProduct</span> | [edi3:TradeProduct](#TradeProduct) | A product applicable for this subordinate trade line item. | UN01010015 | Subordinate_ Trade Line Item. Applicable. Trade_ Product
-<span id="SubordinateTradeLineItemID">SubordinateTradeLineItemID</span> | xsd:token | A unique identifier for this subordinate trade line item. | UN01004099 | Subordinate_ Trade Line Item. Identification. Identifier
-
-
 <h1 id="SupplyChainTradeLineItem">SupplyChainTradeLineItem</h1>
 
 Type: rdf:Class
@@ -4499,29 +4478,50 @@ Name | Type | Definition | Unique UN Assigned ID | Dictionary Entry Name
 <span id="SubstituteProduct">SubstituteProduct</span> | [edi3:Product](#Product) | A referenced substitute product applicable for this supply chain trade line item. | UN01007230 | Supply Chain_ Trade Line Item. Substitute_ Applicable. Referenced_ Product
 <span id="InvoiceReferencedDocument">InvoiceReferencedDocument</span> | [edi3:Document](#Document) | An invoice document associated to this supply chain trade line item. | UN01013311 | Supply Chain_ Trade Line Item. Invoice_ Associated. Referenced_ Document
 <span id="SupplyChainTradeLineItemReferencedDocument">SupplyChainTradeLineItemReferencedDocument</span> | [edi3:Document](#Document) | A document referenced for this supply chain trade line item. | UN01011126 | Supply Chain_ Trade Line Item. Reference. Referenced_ Document
-<span id="LineTradeDelivery">LineTradeDelivery</span> | [edi3:LineTradeDelivery](#LineTradeDelivery) | The line trade delivery specified for this supply chain trade line item. | UN01011863 | Supply Chain_ Trade Line Item. Specified. Line_ Trade Delivery
+<span id="SupplyChainLineTradeAgreement">SupplyChainLineTradeAgreement</span> | [edi3:LineTradeAgreement](#LineTradeAgreement) | The line trade agreement specified for this supply chain trade line item. | UN01011862 | Supply Chain_ Trade Line Item. Specified. Line_ Trade Agreement
 <span id="BarcodeID">BarcodeID</span> | xsd:token | A unique barcode identifier for this supply chain trade line item. | UN01004420 | Supply Chain_ Trade Line Item. Barcode_ Identification. Identifier
 <span id="AssertedAuthentication">AssertedAuthentication</span> | [edi3:Authentication](#Authentication) | A document authentication asserted for this supply chain trade line item. | UN01004426 | Supply Chain_ Trade Line Item. Asserted. Document_ Authentication
 <span id="SupplyChainTradeLineItemLogisticsPackage">SupplyChainTradeLineItemLogisticsPackage</span> | [edi3:Package](#Package) | A physical logistics package for this supply chain trade line item. | UN01005348 | Supply Chain_ Trade Line Item. Physical. Logistics_ Package
-<span id="LineTradeSettlement">LineTradeSettlement</span> | [edi3:LineTradeSettlement](#LineTradeSettlement) | A line trade settlement specified for this supply chain trade line item. | UN01011864 | Supply Chain_ Trade Line Item. Specified. Line_ Trade Settlement
 <span id="SupplyChainTradeLineItemAssociatedDocumentLine">SupplyChainTradeLineItemAssociatedDocumentLine</span> | [edi3:DocumentLineDocument](#DocumentLineDocument) | The document line associated with this trade line item. | UN01004427 | Supply Chain_ Trade Line Item. Associated. Document Line_ Document
-<span id="LineTradeAgreement">LineTradeAgreement</span> | [edi3:LineTradeAgreement](#LineTradeAgreement) | The line trade agreement specified for this supply chain trade line item. | UN01011862 | Supply Chain_ Trade Line Item. Specified. Line_ Trade Agreement
 <span id="SupplyChainTradeLineItemTransportEquipment">SupplyChainTradeLineItemTransportEquipment</span> | [edi3:TransportEquipment](#TransportEquipment) | A piece of transport equipment associated with this supply chain trade line item. | UN01004425 | Supply Chain_ Trade Line Item. Associated. Logistics_ Transport Equipment
 <span id="AdditionalID">AdditionalID</span> | xsd:token | An additional unique identifier for this supply chain trade line item. | UN01004419 | Supply Chain_ Trade Line Item. Additional_ Identification. Identifier
 <span id="SupplyChainTradeLineItemTradeProduct">SupplyChainTradeLineItemTradeProduct</span> | [edi3:TradeProduct](#TradeProduct) | A product specified for this supply chain trade line item. | UN01004431 | Supply Chain_ Trade Line Item. Specified. Trade_ Product
-<span id="SupplyChainSupplyChainSupplyChainTradeLineItemReferencedLogisticsPackage">SupplyChainSupplyChainSupplyChainTradeLineItemReferencedLogisticsPackage</span> | [edi3:Package](#Package) | A logistics package referenced in this supply chain trade line item. | UN01012984 | Supply Chain_ Trade Line Item. Referenced. Logistics_ Package
 <span id="SupplyChainSupplyChainSupplyChainTradeLineItemReferencedLogisticsPackage">SupplyChainSupplyChainSupplyChainTradeLineItemReferencedLogisticsPackage</span> | [edi3:ReferencedPackage](#ReferencedPackage) | A physical logistics package referenced for this supply chain trade line item. | UN01011865 | Supply Chain_ Trade Line Item. Physical. Referenced_ Logistics_ Package
+<span id="SupplyChainSupplyChainSupplyChainTradeLineItemReferencedLogisticsPackage">SupplyChainSupplyChainSupplyChainTradeLineItemReferencedLogisticsPackage</span> | [edi3:Package](#Package) | A logistics package referenced in this supply chain trade line item. | UN01012984 | Supply Chain_ Trade Line Item. Referenced. Logistics_ Package
 <span id="SupplyChainTradeLineItemSequenceNumber">SupplyChainTradeLineItemSequenceNumber</span> | xsd:decimal | A sequence number for this supply chain trade line item. | UN01009005 | Supply Chain_ Trade Line Item. Sequence. Numeric
 <span id="SubstitutedProduct">SubstitutedProduct</span> | [edi3:Product](#Product) | A referenced product substituted for this supply chain trade line item. | UN01006722 | Supply Chain_ Trade Line Item. Substituted. Referenced_ Product
 <span id="IncludedWithinConsignmentItem">IncludedWithinConsignmentItem</span> | [edi3:ConsignmentItem](#ConsignmentItem) | The consignment item within which this supply chain trade line item is included. | UN01004423 | Supply Chain_ Trade Line Item. Included Within. Supply Chain_ Consignment Item
 <span id="ComponentProduct">ComponentProduct</span> | [edi3:Product](#Product) | A referenced component product applicable for this supply chain trade line item. | UN01007234 | Supply Chain_ Trade Line Item. Component_ Applicable. Referenced_ Product
+<span id="SupplyChainLineTradeSettlement">SupplyChainLineTradeSettlement</span> | [edi3:LineTradeSettlement](#LineTradeSettlement) | A line trade settlement specified for this supply chain trade line item. | UN01011864 | Supply Chain_ Trade Line Item. Specified. Line_ Trade Settlement
 <span id="ComplementaryProduct">ComplementaryProduct</span> | [edi3:Product](#Product) | A referenced complementary product applicable for this supply chain trade line item. | UN01007232 | Supply Chain_ Trade Line Item. Complementary_ Applicable. Referenced_ Product
+<span id="SupplyChainLineTradeDelivery">SupplyChainLineTradeDelivery</span> | [edi3:LineTradeDelivery](#LineTradeDelivery) | The line trade delivery specified for this supply chain trade line item. | UN01011863 | Supply Chain_ Trade Line Item. Specified. Line_ Trade Delivery
 <span id="IncludedSubordinateTradeLineItem">IncludedSubordinateTradeLineItem</span> | [edi3:SubordinateTradeLineItem](#SubordinateTradeLineItem) | A subordinate trade line item included in this supply chain trade line item. | UN01011866 | Supply Chain_ Trade Line Item. Included. Subordinate_ Trade Line Item
 <span id="AdditionalProduct">AdditionalProduct</span> | [edi3:Product](#Product) | A referenced product additionally applicable with this supply chain trade line item. | UN01007233 | Supply Chain_ Trade Line Item. Additional_ Applicable. Referenced_ Product
 <span id="AccessoryProduct">AccessoryProduct</span> | [edi3:Product](#Product) | A referenced accessory product applicable for this supply chain trade line item. | UN01007231 | Supply Chain_ Trade Line Item. Accessory_ Applicable. Referenced_ Product
 <span id="SupplyChainTradeLineItemDescriptionCode">SupplyChainTradeLineItemDescriptionCode</span> | xsd:token | The code specifying a description of this supply chain trade line item. | UN01011941 | Supply Chain_ Trade Line Item. Description. Code
 <span id="RequiredProduct">RequiredProduct</span> | [edi3:Product](#Product) | A required product applicable for this supply chain trade line item. | UN01008770 | Supply Chain_ Trade Line Item. Required_ Applicable. Referenced_ Product
 <span id="SpecifiedRequisitionerTradeProduct">SpecifiedRequisitionerTradeProduct</span> | [edi3:TradeProduct](#TradeProduct) | The product specified by the requisitioner for this supply chain trade line item. | UN01013381 | Supply Chain_ Trade Line Item. Requisitioner_ Specified. Trade_ Product
+
+
+<h1 id="SubordinateTradeLineItem">SubordinateTradeLineItem</h1>
+
+Type: rdf:Class
+
+Definition: A collection of information specific to a subordinate item being used or reported on for trade purposes.
+
+Unique UN Assigned ID: UN01004098
+
+Dictionary Entry Name: Subordinate_ Trade Line Item. Details
+
+Properties: 
+
+Name | Type | Definition | Unique UN Assigned ID | Dictionary Entry Name
+-|-|-|-|-
+<span id="SubordinateSubordinateLineTradeDelivery">SubordinateSubordinateLineTradeDelivery</span> | [edi3:SubordinateLineTradeDelivery](#SubordinateLineTradeDelivery) | The delivery specified for this subordinate trade line item. | UN01011857 | Subordinate_ Trade Line Item. Specified. Subordinate Line_ Trade Delivery
+<span id="ApplicableProduct">ApplicableProduct</span> | [edi3:TradeProduct](#TradeProduct) | A product applicable for this subordinate trade line item. | UN01010015 | Subordinate_ Trade Line Item. Applicable. Trade_ Product
+<span id="SubordinateReferencedProduct">SubordinateReferencedProduct</span> | [edi3:Product](#Product) | The referenced product specified for this subordinate trade line item. | UN01004102 | Subordinate_ Trade Line Item. Specified. Referenced_ Product
+<span id="SubordinateTradeLineItemID">SubordinateTradeLineItemID</span> | xsd:token | A unique identifier for this subordinate trade line item. | UN01004099 | Subordinate_ Trade Line Item. Identification. Identifier
+<span id="SubordinateSubordinateLineTradeAgreement">SubordinateSubordinateLineTradeAgreement</span> | [edi3:SubordinateLineTradeAgreement](#SubordinateLineTradeAgreement) | The trade agreement specified for this subordinate trade line item. | UN01011856 | Subordinate_ Trade Line Item. Specified. Subordinate Line_ Trade Agreement
 
 
 <h1 id="Range">Range</h1>
@@ -4564,24 +4564,23 @@ Name | Type | Definition | Unique UN Assigned ID | Dictionary Entry Name
 <span id="AssertionText">AssertionText</span> | xsd:string | An assertion, expressed as text, for this trade product certification, such as that this product is free from peanuts. | UN01008295 | Trade Product_ Certification. Assertion. Text
 
 
-<h1 id="TradeSettlementPayment">TradeSettlementPayment</h1>
+<h1 id="InstalmentPayment">InstalmentPayment</h1>
 
 Type: rdf:Class
 
-Definition: The specific discharge obligations in respect of funds or securities transferred between two or more parties as part of a trade settlement.
+Definition: A discharge of obligations in respect of funds or securities, transferred through one of several payments, between two or more parties.
 
-Unique UN Assigned ID: UN01008866
+Unique UN Assigned ID: UN01013272
 
-Dictionary Entry Name: Trade Settlement_ Payment. Details
+Dictionary Entry Name: Instalment_ Payment. Details
 
 Properties: 
 
 Name | Type | Definition | Unique UN Assigned ID | Dictionary Entry Name
 -|-|-|-|-
-<span id="EndToEndID">EndToEndID</span> | xsd:token | The unique identifier for the end-to-end processing of this trade settlement payment, such as an identifier assigned by an initiating party to unambiguously identify the transaction. | UN01008867 | Trade Settlement_ Payment. End-To-End_ Identification. Identifier
-<span id="SpecifiedPaymentTradeSettlement">SpecifiedPaymentTradeSettlement</span> | [edi3:PaymentTradeSettlement](#PaymentTradeSettlement) | A trade settlement payment specified for this trade settlement payment. | UN01011918 | Trade Settlement_ Payment. Specified. Payment_ Trade Settlement
-<span id="InstructionID">InstructionID</span> | xsd:token | The unique identifier of the instruction for this trade settlement payment. | UN01008868 | Trade Settlement_ Payment. Instruction. Identifier
-<span id="RequestedExecutionDateTime">RequestedExecutionDateTime</span> | xsd:dateTime | The date, time, date time or other date time value of the requested execution of this trade settlement payment. | UN01008869 | Trade Settlement_ Payment. Requested Execution. Date Time
+<span id="SpecifiedFinancingRequestResultDocument">SpecifiedFinancingRequestResultDocument</span> | [edi3:FinancingRequestResultDocument](#FinancingRequestResultDocument) | The financing request result document specified for this instalment payment. | UN01013276 | Instalment_ Payment. Specified. Financing Request Result_ Document
+<span id="InstalmentPaymentDueDateTime">InstalmentPaymentDueDateTime</span> | xsd:dateTime | The due date for this instalment payment. | UN01013275 | Instalment_ Payment. Due. Date Time
+<span id="SequenceID">SequenceID</span> | xsd:token | The sequence identifier for this instalment payment. | UN01013273 | Instalment_ Payment. Sequence. Identifier
 
 
 <h1 id="AdvancePayment">AdvancePayment</h1>
@@ -4602,23 +4601,24 @@ Name | Type | Definition | Unique UN Assigned ID | Dictionary Entry Name
 <span id="AdvancePaymentIncludedTax">AdvancePaymentIncludedTax</span> | [edi3:TradeTax](#TradeTax) | A tax included in this advance payment. | UN01012134 | Advance_ Payment. Included. Trade_ Tax
 
 
-<h1 id="InstalmentPayment">InstalmentPayment</h1>
+<h1 id="TradeSettlementPayment">TradeSettlementPayment</h1>
 
 Type: rdf:Class
 
-Definition: A discharge of obligations in respect of funds or securities, transferred through one of several payments, between two or more parties.
+Definition: The specific discharge obligations in respect of funds or securities transferred between two or more parties as part of a trade settlement.
 
-Unique UN Assigned ID: UN01013272
+Unique UN Assigned ID: UN01008866
 
-Dictionary Entry Name: Instalment_ Payment. Details
+Dictionary Entry Name: Trade Settlement_ Payment. Details
 
 Properties: 
 
 Name | Type | Definition | Unique UN Assigned ID | Dictionary Entry Name
 -|-|-|-|-
-<span id="SpecifiedFinancingRequestResultDocument">SpecifiedFinancingRequestResultDocument</span> | [edi3:FinancingRequestResultDocument](#FinancingRequestResultDocument) | The financing request result document specified for this instalment payment. | UN01013276 | Instalment_ Payment. Specified. Financing Request Result_ Document
-<span id="InstalmentPaymentDueDateTime">InstalmentPaymentDueDateTime</span> | xsd:dateTime | The due date for this instalment payment. | UN01013275 | Instalment_ Payment. Due. Date Time
-<span id="SequenceID">SequenceID</span> | xsd:token | The sequence identifier for this instalment payment. | UN01013273 | Instalment_ Payment. Sequence. Identifier
+<span id="EndToEndID">EndToEndID</span> | xsd:token | The unique identifier for the end-to-end processing of this trade settlement payment, such as an identifier assigned by an initiating party to unambiguously identify the transaction. | UN01008867 | Trade Settlement_ Payment. End-To-End_ Identification. Identifier
+<span id="SpecifiedPaymentTradeSettlement">SpecifiedPaymentTradeSettlement</span> | [edi3:PaymentTradeSettlement](#PaymentTradeSettlement) | A trade settlement payment specified for this trade settlement payment. | UN01011918 | Trade Settlement_ Payment. Specified. Payment_ Trade Settlement
+<span id="InstructionID">InstructionID</span> | xsd:token | The unique identifier of the instruction for this trade settlement payment. | UN01008868 | Trade Settlement_ Payment. Instruction. Identifier
+<span id="RequestedExecutionDateTime">RequestedExecutionDateTime</span> | xsd:dateTime | The date, time, date time or other date time value of the requested execution of this trade settlement payment. | UN01008869 | Trade Settlement_ Payment. Requested Execution. Date Time
 
 
 <h1 id="LineTradeSettlement">LineTradeSettlement</h1>
@@ -4664,83 +4664,6 @@ Name | Type | Definition | Unique UN Assigned ID | Dictionary Entry Name
 <span id="LineTradeSettlementPaymentAmount">LineTradeSettlementPaymentAmount</span> | xsd:decimal | A monetary value of a payment for this line trade settlement. | UN01013471 | Line_ Trade Settlement. Payment. Amount
 
 
-<h1 id="HeaderTradeSettlement">HeaderTradeSettlement</h1>
-
-Type: rdf:Class
-
-Definition: The information, at a header level, that enables the reconciliation of a financial transaction, with the item(s) that the financial transaction is intended to settle, such as a commercial invoice.
-
-Unique UN Assigned ID: UN01011643
-
-Dictionary Entry Name: Header_ Trade Settlement. Details
-
-Properties: 
-
-Name | Type | Definition | Unique UN Assigned ID | Dictionary Entry Name
--|-|-|-|-
-<span id="CreditorReferenceIssuerID">CreditorReferenceIssuerID</span> | xsd:token | An identifier of the creditor reference issuer for this header trade settlement. | UN01011647 | Header_ Trade Settlement. Creditor Reference Issuer. Identifier
-<span id="PaymentMeans">PaymentMeans</span> | [edi3:PaymentMeans](#PaymentMeans) | A payment means specified for this header trade settlement. | UN01011671 | Header_ Trade Settlement. Specified. Trade Settlement_ Payment Means
-<span id="ScheduledPaymentDateTime">ScheduledPaymentDateTime</span> | xsd:dateTime | The date, time, date time or other date time value of the scheduled payment of this header trade settlement. | UN01012136 | Header_ Trade Settlement. Scheduled_ Payment. Date Time
-<span id="HeaderTradeSettlementInvoicee">HeaderTradeSettlementInvoicee</span> | [edi3:TradeParty](#TradeParty) | The party to whom an invoice is issued for this header trade settlement. | UN01011663 | Header_ Trade Settlement. Invoicee. Trade_ Party
-<span id="TaxCurrencyCode">TaxCurrencyCode</span> | xsd:token | The code specifying the tax currency for this header trade settlement. | UN01011650 | Header_ Trade Settlement. Tax_ Currency. Code
-<span id="HeaderTradeSettlementPaymentReferenceText">HeaderTradeSettlementPaymentReferenceText</span> | xsd:string | A payment reference, expressed as text, for this header trade settlement. | UN01011649 | Header_ Trade Settlement. Payment Reference. Text
-<span id="HeaderTradeSettlementLetterOfCreditDocument">HeaderTradeSettlementLetterOfCreditDocument</span> | [edi3:Document](#Document) | The letter of credit document referenced in this header trade settlement. | UN01011682 | Header_ Trade Settlement. Letter Of Credit. Referenced_ Document
-<span id="RequestedFinancingAmount">RequestedFinancingAmount</span> | xsd:decimal | A financing monetary value requested for this header trade settlement. | UN01013267 | Header_ Trade Settlement. Requested_ Financing. Amount
-<span id="HeaderTradeSettlementSubtotalCalculatedTax">HeaderTradeSettlementSubtotalCalculatedTax</span> | [edi3:TradeTax](#TradeTax) | A tax subtotal calculated for this header trade settlement. | UN01011675 | Header_ Trade Settlement. Subtotal_ Calculated. Trade_ Tax
-<span id="NextInvoiceDateTime">NextInvoiceDateTime</span> | xsd:dateTime | A date, time, date time or other date time value of a next invoice or invoices in this header trade settlement. | UN01011659 | Header_ Trade Settlement. Next_ Invoice. Date Time
-<span id="ProFormaInvoiceDocument">ProFormaInvoiceDocument</span> | [edi3:Document](#Document) | The pro-forma invoice document referenced by this header trade settlement. | UN01011681 | Header_ Trade Settlement. Pro-Forma Invoice. Referenced_ Document
-<span id="HeaderTradeSettlementRelevantParty">HeaderTradeSettlementRelevantParty</span> | [edi3:TradeParty](#TradeParty) | A relevant party for this header trade settlement. | UN01013473 | Header_ Trade Settlement. Relevant. Trade_ Party
-<span id="CreditorReferenceID">CreditorReferenceID</span> | xsd:token | The identifier of the creditor reference for this header trade settlement, such as a specific identifier assigned by the creditor to reference the financial transaction. | UN01011648 | Header_ Trade Settlement. Creditor Reference. Identifier
-<span id="HeaderTradeSettlementInvoiceIssuerReferenceText">HeaderTradeSettlementInvoiceIssuerReferenceText</span> | xsd:string | The invoice issuer reference, expressed as text, for this header trade settlement. | UN01011655 | Header_ Trade Settlement. Invoice Issuer_ Reference. Text
-<span id="HeaderTradeSettlementTradeTax">HeaderTradeSettlementTradeTax</span> | [edi3:TradeTax](#TradeTax) | A tax applicable to this header trade settlement. | UN01011672 | Header_ Trade Settlement. Applicable. Trade_ Tax
-<span id="HeaderTradeSettlementInvoiceDateTime">HeaderTradeSettlementInvoiceDateTime</span> | xsd:dateTime | The date, time, date time or other date time value of the invoice in this header trade settlement. | UN01011658 | Header_ Trade Settlement. Invoice. Date Time
-<span id="QuotationCurrencyCode">QuotationCurrencyCode</span> | xsd:token | The code specifying the quotation currency for this header trade settlement. | UN01011657 | Header_ Trade Settlement. Quotation_ Currency. Code
-<span id="CreditorReferenceTypeText">CreditorReferenceTypeText</span> | xsd:string | A creditor reference type, expressed as text, for this header trade settlement. | UN01011646 | Header_ Trade Settlement. Creditor Reference Type. Text
-<span id="HeaderTradeSettlementPaymentCurrencyExchange">HeaderTradeSettlementPaymentCurrencyExchange</span> | [edi3:CurrencyExchange](#CurrencyExchange) | The currency exchange applicable to the payment in this header trade settlement. | UN01011670 | Header_ Trade Settlement. Payment_ Applicable. Trade_ Currency Exchange
-<span id="CreditReasonText">CreditReasonText</span> | xsd:string | A textual description of the reason for a credit being given in this header trade settlement. | UN01011661 | Header_ Trade Settlement. Credit Reason. Text
-<span id="HeaderTradeSettlementDescription">HeaderTradeSettlementDescription</span> | xsd:string | A textual description of this header trade settlement. | UN01012991 | Header_ Trade Settlement. Description. Text
-<span id="CreditNoteAmount">CreditNoteAmount</span> | xsd:decimal | A monetary value of the credit note for this header trade settlement. | UN01013270 | Header_ Trade Settlement. Credit Note. Amount
-<span id="FactoringListDocument">FactoringListDocument</span> | [edi3:Document](#Document) | A factoring list document referenced in this header trade settlement. | UN01011684 | Header_ Trade Settlement. Factoring List. Referenced_ Document
-<span id="PaymentInstalmentPlan">PaymentInstalmentPlan</span> | [edi3:InstalmentPlan](#InstalmentPlan) | The payment instalment plan specified for this header trade settlement. | UN01013271 | Header_ Trade Settlement. Specified. Payment_ Instalment Plan
-<span id="HeaderTradeSettlementInvoiceDocument">HeaderTradeSettlementInvoiceDocument</span> | [edi3:Document](#Document) | An invoice document referenced by this header trade settlement. | UN01011680 | Header_ Trade Settlement. Invoice. Referenced_ Document
-<span id="HeaderTradeSettlementPaymentCurrencyCode">HeaderTradeSettlementPaymentCurrencyCode</span> | xsd:token | The code specifying the payment currency for this header trade settlement. | UN01011654 | Header_ Trade Settlement. Payment_ Currency. Code
-<span id="HeaderTradeSettlementInvoiceCurrencyExchange">HeaderTradeSettlementInvoiceCurrencyExchange</span> | [edi3:CurrencyExchange](#CurrencyExchange) | The currency exchange applicable to the invoice in this header trade settlement. | UN01011668 | Header_ Trade Settlement. Invoice_ Applicable. Trade_ Currency Exchange
-<span id="HeaderTradeSettlementFinancialCard">HeaderTradeSettlementFinancialCard</span> | [edi3:FinancialCard](#FinancialCard) | A financial card specified in this header trade settlement. | UN01011689 | Header_ Trade Settlement. Specified. Trade Settlement_ Financial Card
-<span id="DebitNoteAmount">DebitNoteAmount</span> | xsd:decimal | A monetary value of the debit note for this header trade settlement. | UN01013269 | Header_ Trade Settlement. Debit Note. Amount
-<span id="HeaderTradeSettlementPayerReferenceText">HeaderTradeSettlementPayerReferenceText</span> | xsd:string | The payer reference, expressed as text, for this header trade settlement. | UN01011656 | Header_ Trade Settlement. Payer_ Reference. Text
-<span id="FactoringAgreementDocument">FactoringAgreementDocument</span> | [edi3:Document](#Document) | A factoring agreement document referenced in this header trade settlement. | UN01011683 | Header_ Trade Settlement. Factoring Agreement. Referenced_ Document
-<span id="HeaderTradeSettlementPaymentAmount">HeaderTradeSettlementPaymentAmount</span> | xsd:decimal | A monetary value of a payment for this header trade settlement. | UN01013470 | Header_ Trade Settlement. Payment. Amount
-<span id="HeaderTradeSettlementSalesAccountingAccount">HeaderTradeSettlementSalesAccountingAccount</span> | [edi3:AccountingAccount](#AccountingAccount) | A sales accounting account specified for this header trade settlement. | UN01011688 | Header_ Trade Settlement. Sales_ Specified. Trade_ Accounting Account
-<span id="HeaderTradeSettlementAccountsReceivable">HeaderTradeSettlementAccountsReceivable</span> | [edi3:AccountingAccount](#AccountingAccount) | A receivable accounting account specified for this header trade settlement. | UN01011686 | Header_ Trade Settlement. Receivable_ Specified. Trade_ Accounting Account
-<span id="QuotationCurrencyExchange">QuotationCurrencyExchange</span> | [edi3:CurrencyExchange](#CurrencyExchange) | The currency exchange applicable to the quotation currency in this header trade settlement. | UN01011690 | Header_ Trade Settlement. Quotation_ Applicable. Trade_ Currency Exchange
-<span id="HeaderTradeSettlementDiscountIndicator">HeaderTradeSettlementDiscountIndicator</span> | xsd:boolean | The indication of whether or not this header trade settlement includes a discount amount. | UN01012992 | Header_ Trade Settlement. Discount. Indicator
-<span id="OrderCurrencyExchange">OrderCurrencyExchange</span> | [edi3:CurrencyExchange](#CurrencyExchange) | The currency exchange applicable to the order currency in this header trade settlement. | UN01011667 | Header_ Trade Settlement. Order_ Applicable. Trade_ Currency Exchange
-<span id="HeaderTradeSettlementPurchaseAccountingAccount">HeaderTradeSettlementPurchaseAccountingAccount</span> | [edi3:AccountingAccount](#AccountingAccount) | A purchase accounting account specified for this header trade settlement. | UN01011687 | Header_ Trade Settlement. Purchase_ Specified. Trade_ Accounting Account
-<span id="UltimatePayee">UltimatePayee</span> | [edi3:TradeParty](#TradeParty) | An ultimate payee party in this header trade settlement. | UN01011692 | Header_ Trade Settlement. Ultimate_ Payee. Trade_ Party
-<span id="HeaderTradeSettlementClosingBookDueDateTime">HeaderTradeSettlementClosingBookDueDateTime</span> | xsd:dateTime | The date, time, date time or other date time value when the book closing is due for this header trade settlement. | UN01012135 | Header_ Trade Settlement. Closing Book_ Due. Date Time
-<span id="HeaderTradeSettlementAllowanceCharge">HeaderTradeSettlementAllowanceCharge</span> | [edi3:TradeAllowanceCharge](#TradeAllowanceCharge) | An allowance or charge specified for this header trade settlement. | UN01011674 | Header_ Trade Settlement. Specified. Trade_ Allowance Charge
-<span id="HeaderTradeSettlementBillingPeriod">HeaderTradeSettlementBillingPeriod</span> | [edi3:SpecifiedPeriod](#SpecifiedPeriod) | A billing period specified for this header trade settlement. | UN01011673 | Header_ Trade Settlement. Billing. Specified_ Period
-<span id="RequestedFinancingRate">RequestedFinancingRate</span> | xsd:decimal | The financing rate, expressed as a percentage, requested for this header trade settlement. | UN01013268 | Header_ Trade Settlement. Requested_ Financing Rate. Percent
-<span id="HeaderTradeSettlementPaymentTerms">HeaderTradeSettlementPaymentTerms</span> | [edi3:PaymentTerms](#PaymentTerms) | Payment terms specified for this header trade settlement. | UN01011677 | Header_ Trade Settlement. Specified. Trade_ Payment Terms
-<span id="HeaderTradeSettlementAccountsPayable">HeaderTradeSettlementAccountsPayable</span> | [edi3:AccountingAccount](#AccountingAccount) | A payable accounting account specified for this header trade settlement. | UN01011685 | Header_ Trade Settlement. Payable_ Specified. Trade_ Accounting Account
-<span id="HeaderTradeSettlementPriceCurrencyCode">HeaderTradeSettlementPriceCurrencyCode</span> | xsd:token | The code specifying the price currency for this header trade settlement. | UN01011653 | Header_ Trade Settlement. Price_ Currency. Code
-<span id="HeaderTradeSettlementTotalAdjustmentAmount">HeaderTradeSettlementTotalAdjustmentAmount</span> | xsd:decimal | A monetary value of the total adjustment for this header trade settlement. | UN01012994 | Header_ Trade Settlement. Total_ Adjustment. Amount
-<span id="PriceCurrencyExchange">PriceCurrencyExchange</span> | [edi3:CurrencyExchange](#CurrencyExchange) | The currency exchange applicable to the price in this header trade settlement. | UN01011669 | Header_ Trade Settlement. Price_ Applicable. Trade_ Currency Exchange
-<span id="HeaderTradeSettlementMonetarySummation">HeaderTradeSettlementMonetarySummation</span> | [edi3:TradeSettlementHeaderMonetarySummation](#TradeSettlementHeaderMonetarySummation) | The monetary summation totals specified for this header trade settlement. | UN01011678 | Header_ Trade Settlement. Specified. Trade Settlement Header_ Monetary Summation
-<span id="HeaderTradeSettlementTotalInvoiceAmount">HeaderTradeSettlementTotalInvoiceAmount</span> | xsd:decimal | A monetary value of the total invoice on which this header trade settlement is calculated. | UN01012993 | Header_ Trade Settlement. Total Invoice. Amount
-<span id="CreditorReferenceTypeCode">CreditorReferenceTypeCode</span> | xsd:token | A code specifying the creditor reference type for this header trade settlement. | UN01011645 | Header_ Trade Settlement. Creditor Reference Type. Code
-<span id="HeaderTradeSettlementFinancialAdjustment">HeaderTradeSettlementFinancialAdjustment</span> | [edi3:FinancialAdjustment](#FinancialAdjustment) | A financial adjustment specified for this header trade settlement. | UN01011679 | Header_ Trade Settlement. Specified. Financial_ Adjustment
-<span id="HeaderTradeSettlementLogisticsServiceCharge">HeaderTradeSettlementLogisticsServiceCharge</span> | [edi3:ServiceCharge](#ServiceCharge) | A logistics service charge specified for this header trade settlement. | UN01011676 | Header_ Trade Settlement. Specified. Logistics_ Service Charge
-<span id="HeaderTradeSettlementDuePayableAmount">HeaderTradeSettlementDuePayableAmount</span> | xsd:decimal | A monetary value that is an exact amount due and payable for this header trade settlement, such as the amount due to the creditor. | UN01011644 | Header_ Trade Settlement. Due Payable. Amount
-<span id="OrderCurrencyCode">OrderCurrencyCode</span> | xsd:token | The code specifying the currency of the order for this header trade settlement. | UN01011651 | Header_ Trade Settlement. Order_ Currency. Code
-<span id="AdvancePayment">AdvancePayment</span> | [edi3:AdvancePayment](#AdvancePayment) | An advance payment specified in this header trade settlement. | UN01011691 | Header_ Trade Settlement. Specified. Advance_ Payment
-<span id="InvoiceCurrencyCode">InvoiceCurrencyCode</span> | xsd:token | The code specifying the invoice currency for this header trade settlement. | UN01011652 | Header_ Trade Settlement. Invoice_ Currency. Code
-<span id="Invoicer">Invoicer</span> | [edi3:TradeParty](#TradeParty) | The party issuing the invoice for this header trade settlement. | UN01011662 | Header_ Trade Settlement. Invoicer. Trade_ Party
-<span id="HeaderTradeSettlementPayer">HeaderTradeSettlementPayer</span> | [edi3:TradeParty](#TradeParty) | The payer party for this header trade settlement. | UN01011665 | Header_ Trade Settlement. Payer. Trade_ Party
-<span id="HeaderTradeSettlementPayee">HeaderTradeSettlementPayee</span> | [edi3:TradeParty](#TradeParty) | A payee party for this header trade settlement. | UN01011664 | Header_ Trade Settlement. Payee. Trade_ Party
-<span id="CreditReasonCode">CreditReasonCode</span> | xsd:token | The code specifying the reason for a credit being given in this header trade settlement. | UN01011660 | Header_ Trade Settlement. Credit Reason. Code
-
-
 <h1 id="SubordinateLineTradeSettlement">SubordinateLineTradeSettlement</h1>
 
 Type: rdf:Class
@@ -4778,6 +4701,83 @@ Name | Type | Definition | Unique UN Assigned ID | Dictionary Entry Name
 <span id="PaymentTradeSettlementPayee">PaymentTradeSettlementPayee</span> | [edi3:TradeParty](#TradeParty) | The payee party for this payment trade settlement. | UN01011837 | Payment_ Trade Settlement. Payee. Trade_ Party
 <span id="PaymentTradeSettlementPayer">PaymentTradeSettlementPayer</span> | [edi3:TradeParty](#TradeParty) | The payer party for this payment trade settlement. | UN01011838 | Payment_ Trade Settlement. Payer. Trade_ Party
 <span id="ApplicableTax">ApplicableTax</span> | [edi3:TradeTax](#TradeTax) | The tax applicable to this payment trade settlement. | UN01011842 | Payment_ Trade Settlement. Applicable. Trade_ Tax
+
+
+<h1 id="HeaderTradeSettlement">HeaderTradeSettlement</h1>
+
+Type: rdf:Class
+
+Definition: The information, at a header level, that enables the reconciliation of a financial transaction, with the item(s) that the financial transaction is intended to settle, such as a commercial invoice.
+
+Unique UN Assigned ID: UN01011643
+
+Dictionary Entry Name: Header_ Trade Settlement. Details
+
+Properties: 
+
+Name | Type | Definition | Unique UN Assigned ID | Dictionary Entry Name
+-|-|-|-|-
+<span id="CreditorReferenceIssuerID">CreditorReferenceIssuerID</span> | xsd:token | An identifier of the creditor reference issuer for this header trade settlement. | UN01011647 | Header_ Trade Settlement. Creditor Reference Issuer. Identifier
+<span id="PaymentMeans">PaymentMeans</span> | [edi3:PaymentMeans](#PaymentMeans) | A payment means specified for this header trade settlement. | UN01011671 | Header_ Trade Settlement. Specified. Trade Settlement_ Payment Means
+<span id="ScheduledPaymentDateTime">ScheduledPaymentDateTime</span> | xsd:dateTime | The date, time, date time or other date time value of the scheduled payment of this header trade settlement. | UN01012136 | Header_ Trade Settlement. Scheduled_ Payment. Date Time
+<span id="HeaderTradeSettlementInvoicee">HeaderTradeSettlementInvoicee</span> | [edi3:TradeParty](#TradeParty) | The party to whom an invoice is issued for this header trade settlement. | UN01011663 | Header_ Trade Settlement. Invoicee. Trade_ Party
+<span id="TaxCurrencyCode">TaxCurrencyCode</span> | xsd:token | The code specifying the tax currency for this header trade settlement. | UN01011650 | Header_ Trade Settlement. Tax_ Currency. Code
+<span id="HeaderTradeSettlementPaymentReferenceText">HeaderTradeSettlementPaymentReferenceText</span> | xsd:string | A payment reference, expressed as text, for this header trade settlement. | UN01011649 | Header_ Trade Settlement. Payment Reference. Text
+<span id="HeaderTradeSettlementLetterOfCreditDocument">HeaderTradeSettlementLetterOfCreditDocument</span> | [edi3:Document](#Document) | The letter of credit document referenced in this header trade settlement. | UN01011682 | Header_ Trade Settlement. Letter Of Credit. Referenced_ Document
+<span id="RequestedFinancingAmount">RequestedFinancingAmount</span> | xsd:decimal | A financing monetary value requested for this header trade settlement. | UN01013267 | Header_ Trade Settlement. Requested_ Financing. Amount
+<span id="HeaderAdvancePayment">HeaderAdvancePayment</span> | [edi3:AdvancePayment](#AdvancePayment) | An advance payment specified in this header trade settlement. | UN01011691 | Header_ Trade Settlement. Specified. Advance_ Payment
+<span id="HeaderTradeSettlementSubtotalCalculatedTax">HeaderTradeSettlementSubtotalCalculatedTax</span> | [edi3:TradeTax](#TradeTax) | A tax subtotal calculated for this header trade settlement. | UN01011675 | Header_ Trade Settlement. Subtotal_ Calculated. Trade_ Tax
+<span id="NextInvoiceDateTime">NextInvoiceDateTime</span> | xsd:dateTime | A date, time, date time or other date time value of a next invoice or invoices in this header trade settlement. | UN01011659 | Header_ Trade Settlement. Next_ Invoice. Date Time
+<span id="ProFormaInvoiceDocument">ProFormaInvoiceDocument</span> | [edi3:Document](#Document) | The pro-forma invoice document referenced by this header trade settlement. | UN01011681 | Header_ Trade Settlement. Pro-Forma Invoice. Referenced_ Document
+<span id="HeaderPaymentInstalmentPlan">HeaderPaymentInstalmentPlan</span> | [edi3:InstalmentPlan](#InstalmentPlan) | The payment instalment plan specified for this header trade settlement. | UN01013271 | Header_ Trade Settlement. Specified. Payment_ Instalment Plan
+<span id="HeaderTradeSettlementRelevantParty">HeaderTradeSettlementRelevantParty</span> | [edi3:TradeParty](#TradeParty) | A relevant party for this header trade settlement. | UN01013473 | Header_ Trade Settlement. Relevant. Trade_ Party
+<span id="CreditorReferenceID">CreditorReferenceID</span> | xsd:token | The identifier of the creditor reference for this header trade settlement, such as a specific identifier assigned by the creditor to reference the financial transaction. | UN01011648 | Header_ Trade Settlement. Creditor Reference. Identifier
+<span id="HeaderTradeSettlementInvoiceIssuerReferenceText">HeaderTradeSettlementInvoiceIssuerReferenceText</span> | xsd:string | The invoice issuer reference, expressed as text, for this header trade settlement. | UN01011655 | Header_ Trade Settlement. Invoice Issuer_ Reference. Text
+<span id="HeaderTradeSettlementTradeTax">HeaderTradeSettlementTradeTax</span> | [edi3:TradeTax](#TradeTax) | A tax applicable to this header trade settlement. | UN01011672 | Header_ Trade Settlement. Applicable. Trade_ Tax
+<span id="HeaderTradeSettlementInvoiceDateTime">HeaderTradeSettlementInvoiceDateTime</span> | xsd:dateTime | The date, time, date time or other date time value of the invoice in this header trade settlement. | UN01011658 | Header_ Trade Settlement. Invoice. Date Time
+<span id="QuotationCurrencyCode">QuotationCurrencyCode</span> | xsd:token | The code specifying the quotation currency for this header trade settlement. | UN01011657 | Header_ Trade Settlement. Quotation_ Currency. Code
+<span id="CreditorReferenceTypeText">CreditorReferenceTypeText</span> | xsd:string | A creditor reference type, expressed as text, for this header trade settlement. | UN01011646 | Header_ Trade Settlement. Creditor Reference Type. Text
+<span id="HeaderTradeSettlementPaymentCurrencyExchange">HeaderTradeSettlementPaymentCurrencyExchange</span> | [edi3:CurrencyExchange](#CurrencyExchange) | The currency exchange applicable to the payment in this header trade settlement. | UN01011670 | Header_ Trade Settlement. Payment_ Applicable. Trade_ Currency Exchange
+<span id="CreditReasonText">CreditReasonText</span> | xsd:string | A textual description of the reason for a credit being given in this header trade settlement. | UN01011661 | Header_ Trade Settlement. Credit Reason. Text
+<span id="HeaderTradeSettlementDescription">HeaderTradeSettlementDescription</span> | xsd:string | A textual description of this header trade settlement. | UN01012991 | Header_ Trade Settlement. Description. Text
+<span id="CreditNoteAmount">CreditNoteAmount</span> | xsd:decimal | A monetary value of the credit note for this header trade settlement. | UN01013270 | Header_ Trade Settlement. Credit Note. Amount
+<span id="FactoringListDocument">FactoringListDocument</span> | [edi3:Document](#Document) | A factoring list document referenced in this header trade settlement. | UN01011684 | Header_ Trade Settlement. Factoring List. Referenced_ Document
+<span id="HeaderTradeSettlementInvoiceDocument">HeaderTradeSettlementInvoiceDocument</span> | [edi3:Document](#Document) | An invoice document referenced by this header trade settlement. | UN01011680 | Header_ Trade Settlement. Invoice. Referenced_ Document
+<span id="HeaderTradeSettlementPaymentCurrencyCode">HeaderTradeSettlementPaymentCurrencyCode</span> | xsd:token | The code specifying the payment currency for this header trade settlement. | UN01011654 | Header_ Trade Settlement. Payment_ Currency. Code
+<span id="HeaderTradeSettlementInvoiceCurrencyExchange">HeaderTradeSettlementInvoiceCurrencyExchange</span> | [edi3:CurrencyExchange](#CurrencyExchange) | The currency exchange applicable to the invoice in this header trade settlement. | UN01011668 | Header_ Trade Settlement. Invoice_ Applicable. Trade_ Currency Exchange
+<span id="HeaderTradeSettlementFinancialCard">HeaderTradeSettlementFinancialCard</span> | [edi3:FinancialCard](#FinancialCard) | A financial card specified in this header trade settlement. | UN01011689 | Header_ Trade Settlement. Specified. Trade Settlement_ Financial Card
+<span id="DebitNoteAmount">DebitNoteAmount</span> | xsd:decimal | A monetary value of the debit note for this header trade settlement. | UN01013269 | Header_ Trade Settlement. Debit Note. Amount
+<span id="HeaderTradeSettlementPayerReferenceText">HeaderTradeSettlementPayerReferenceText</span> | xsd:string | The payer reference, expressed as text, for this header trade settlement. | UN01011656 | Header_ Trade Settlement. Payer_ Reference. Text
+<span id="FactoringAgreementDocument">FactoringAgreementDocument</span> | [edi3:Document](#Document) | A factoring agreement document referenced in this header trade settlement. | UN01011683 | Header_ Trade Settlement. Factoring Agreement. Referenced_ Document
+<span id="HeaderTradeSettlementPaymentAmount">HeaderTradeSettlementPaymentAmount</span> | xsd:decimal | A monetary value of a payment for this header trade settlement. | UN01013470 | Header_ Trade Settlement. Payment. Amount
+<span id="HeaderTradeSettlementSalesAccountingAccount">HeaderTradeSettlementSalesAccountingAccount</span> | [edi3:AccountingAccount](#AccountingAccount) | A sales accounting account specified for this header trade settlement. | UN01011688 | Header_ Trade Settlement. Sales_ Specified. Trade_ Accounting Account
+<span id="HeaderTradeSettlementAccountsReceivable">HeaderTradeSettlementAccountsReceivable</span> | [edi3:AccountingAccount](#AccountingAccount) | A receivable accounting account specified for this header trade settlement. | UN01011686 | Header_ Trade Settlement. Receivable_ Specified. Trade_ Accounting Account
+<span id="QuotationCurrencyExchange">QuotationCurrencyExchange</span> | [edi3:CurrencyExchange](#CurrencyExchange) | The currency exchange applicable to the quotation currency in this header trade settlement. | UN01011690 | Header_ Trade Settlement. Quotation_ Applicable. Trade_ Currency Exchange
+<span id="HeaderTradeSettlementDiscountIndicator">HeaderTradeSettlementDiscountIndicator</span> | xsd:boolean | The indication of whether or not this header trade settlement includes a discount amount. | UN01012992 | Header_ Trade Settlement. Discount. Indicator
+<span id="OrderCurrencyExchange">OrderCurrencyExchange</span> | [edi3:CurrencyExchange](#CurrencyExchange) | The currency exchange applicable to the order currency in this header trade settlement. | UN01011667 | Header_ Trade Settlement. Order_ Applicable. Trade_ Currency Exchange
+<span id="HeaderTradeSettlementPurchaseAccountingAccount">HeaderTradeSettlementPurchaseAccountingAccount</span> | [edi3:AccountingAccount](#AccountingAccount) | A purchase accounting account specified for this header trade settlement. | UN01011687 | Header_ Trade Settlement. Purchase_ Specified. Trade_ Accounting Account
+<span id="UltimatePayee">UltimatePayee</span> | [edi3:TradeParty](#TradeParty) | An ultimate payee party in this header trade settlement. | UN01011692 | Header_ Trade Settlement. Ultimate_ Payee. Trade_ Party
+<span id="HeaderTradeSettlementClosingBookDueDateTime">HeaderTradeSettlementClosingBookDueDateTime</span> | xsd:dateTime | The date, time, date time or other date time value when the book closing is due for this header trade settlement. | UN01012135 | Header_ Trade Settlement. Closing Book_ Due. Date Time
+<span id="HeaderTradeSettlementAllowanceCharge">HeaderTradeSettlementAllowanceCharge</span> | [edi3:TradeAllowanceCharge](#TradeAllowanceCharge) | An allowance or charge specified for this header trade settlement. | UN01011674 | Header_ Trade Settlement. Specified. Trade_ Allowance Charge
+<span id="HeaderTradeSettlementBillingPeriod">HeaderTradeSettlementBillingPeriod</span> | [edi3:SpecifiedPeriod](#SpecifiedPeriod) | A billing period specified for this header trade settlement. | UN01011673 | Header_ Trade Settlement. Billing. Specified_ Period
+<span id="RequestedFinancingRate">RequestedFinancingRate</span> | xsd:decimal | The financing rate, expressed as a percentage, requested for this header trade settlement. | UN01013268 | Header_ Trade Settlement. Requested_ Financing Rate. Percent
+<span id="HeaderTradeSettlementPaymentTerms">HeaderTradeSettlementPaymentTerms</span> | [edi3:PaymentTerms](#PaymentTerms) | Payment terms specified for this header trade settlement. | UN01011677 | Header_ Trade Settlement. Specified. Trade_ Payment Terms
+<span id="HeaderTradeSettlementAccountsPayable">HeaderTradeSettlementAccountsPayable</span> | [edi3:AccountingAccount](#AccountingAccount) | A payable accounting account specified for this header trade settlement. | UN01011685 | Header_ Trade Settlement. Payable_ Specified. Trade_ Accounting Account
+<span id="HeaderTradeSettlementPriceCurrencyCode">HeaderTradeSettlementPriceCurrencyCode</span> | xsd:token | The code specifying the price currency for this header trade settlement. | UN01011653 | Header_ Trade Settlement. Price_ Currency. Code
+<span id="HeaderTradeSettlementTotalAdjustmentAmount">HeaderTradeSettlementTotalAdjustmentAmount</span> | xsd:decimal | A monetary value of the total adjustment for this header trade settlement. | UN01012994 | Header_ Trade Settlement. Total_ Adjustment. Amount
+<span id="PriceCurrencyExchange">PriceCurrencyExchange</span> | [edi3:CurrencyExchange](#CurrencyExchange) | The currency exchange applicable to the price in this header trade settlement. | UN01011669 | Header_ Trade Settlement. Price_ Applicable. Trade_ Currency Exchange
+<span id="HeaderTradeSettlementMonetarySummation">HeaderTradeSettlementMonetarySummation</span> | [edi3:TradeSettlementHeaderMonetarySummation](#TradeSettlementHeaderMonetarySummation) | The monetary summation totals specified for this header trade settlement. | UN01011678 | Header_ Trade Settlement. Specified. Trade Settlement Header_ Monetary Summation
+<span id="HeaderTradeSettlementTotalInvoiceAmount">HeaderTradeSettlementTotalInvoiceAmount</span> | xsd:decimal | A monetary value of the total invoice on which this header trade settlement is calculated. | UN01012993 | Header_ Trade Settlement. Total Invoice. Amount
+<span id="CreditorReferenceTypeCode">CreditorReferenceTypeCode</span> | xsd:token | A code specifying the creditor reference type for this header trade settlement. | UN01011645 | Header_ Trade Settlement. Creditor Reference Type. Code
+<span id="HeaderTradeSettlementFinancialAdjustment">HeaderTradeSettlementFinancialAdjustment</span> | [edi3:FinancialAdjustment](#FinancialAdjustment) | A financial adjustment specified for this header trade settlement. | UN01011679 | Header_ Trade Settlement. Specified. Financial_ Adjustment
+<span id="HeaderTradeSettlementLogisticsServiceCharge">HeaderTradeSettlementLogisticsServiceCharge</span> | [edi3:ServiceCharge](#ServiceCharge) | A logistics service charge specified for this header trade settlement. | UN01011676 | Header_ Trade Settlement. Specified. Logistics_ Service Charge
+<span id="HeaderTradeSettlementDuePayableAmount">HeaderTradeSettlementDuePayableAmount</span> | xsd:decimal | A monetary value that is an exact amount due and payable for this header trade settlement, such as the amount due to the creditor. | UN01011644 | Header_ Trade Settlement. Due Payable. Amount
+<span id="OrderCurrencyCode">OrderCurrencyCode</span> | xsd:token | The code specifying the currency of the order for this header trade settlement. | UN01011651 | Header_ Trade Settlement. Order_ Currency. Code
+<span id="InvoiceCurrencyCode">InvoiceCurrencyCode</span> | xsd:token | The code specifying the invoice currency for this header trade settlement. | UN01011652 | Header_ Trade Settlement. Invoice_ Currency. Code
+<span id="Invoicer">Invoicer</span> | [edi3:TradeParty](#TradeParty) | The party issuing the invoice for this header trade settlement. | UN01011662 | Header_ Trade Settlement. Invoicer. Trade_ Party
+<span id="HeaderTradeSettlementPayer">HeaderTradeSettlementPayer</span> | [edi3:TradeParty](#TradeParty) | The payer party for this header trade settlement. | UN01011665 | Header_ Trade Settlement. Payer. Trade_ Party
+<span id="HeaderTradeSettlementPayee">HeaderTradeSettlementPayee</span> | [edi3:TradeParty](#TradeParty) | A payee party for this header trade settlement. | UN01011664 | Header_ Trade Settlement. Payee. Trade_ Party
+<span id="CreditReasonCode">CreditReasonCode</span> | xsd:token | The code specifying the reason for a credit being given in this header trade settlement. | UN01011660 | Header_ Trade Settlement. Credit Reason. Code
 
 
 <h1 id="ReferencePrice">ReferencePrice</h1>
@@ -4917,10 +4917,10 @@ Name | Type | Definition | Unique UN Assigned ID | Dictionary Entry Name
 <span id="PackagingMaximumStackabilityWeight">PackagingMaximumStackabilityWeight</span> | xsd:decimal | The measure of the maximum stackability weight of this supply chain packaging. | UN01006750 | Supply Chain_ Packaging. Maximum Stackability_ Weight. Measure
 <span id="AdditionalInstructionIndicator">AdditionalInstructionIndicator</span> | xsd:boolean | The indication of whether or not there is an additional instruction for this supply chain packaging. | UN01012709 | Supply Chain_ Packaging. Additional_ Instruction. Indicator
 <span id="PackagingDimensions">PackagingDimensions</span> | [edi3:SpatialDimension](#SpatialDimension) | The linear spatial dimensions of this supply chain packaging. | UN01004320 | Supply Chain_ Packaging. Linear. Spatial_ Dimension
+<span id="SupplyChainReturnableAssetInstructions">SupplyChainReturnableAssetInstructions</span> | [edi3:ReturnableAssetInstructions](#ReturnableAssetInstructions) | Returnable asset instructions for this supply chain packaging. | UN01008492 | Supply Chain_ Packaging. Applicable. Returnable Asset_ Instructions
 <span id="PackagingReturnableIndicator">PackagingReturnableIndicator</span> | xsd:boolean | The indication of whether or not this supply chain packaging is returnable. | UN01006751 | Supply Chain_ Packaging. Returnable. Indicator
 <span id="TotalUnitQuantity">TotalUnitQuantity</span> | xsd:decimal | A total number of units contained in this supply chain packaging. | UN01007195 | Supply Chain_ Packaging. Total Unit. Quantity
 <span id="PackagingTypeCode">PackagingTypeCode</span> | xsd:token | The code specifying the type of supply chain packaging. | UN01004313 | Supply Chain_ Packaging. Type. Code
-<span id="ReturnableAssetInstructions">ReturnableAssetInstructions</span> | [edi3:ReturnableAssetInstructions](#ReturnableAssetInstructions) | Returnable asset instructions for this supply chain packaging. | UN01008492 | Supply Chain_ Packaging. Applicable. Returnable Asset_ Instructions
 <span id="PackagingWeight">PackagingWeight</span> | xsd:decimal | A measure of the weight of this supply chain packaging. | UN01004319 | Supply Chain_ Packaging. Weight. Measure
 <span id="PackagingDescription">PackagingDescription</span> | xsd:string | A textual description of this supply chain packaging. | UN01004315 | Supply Chain_ Packaging. Description. Text
 <span id="AdditionalInstructionCode">AdditionalInstructionCode</span> | xsd:token | A code specifying an additional instruction for this supply chain packaging. | UN01012708 | Supply Chain_ Packaging. Additional_ Instruction. Code
@@ -5068,22 +5068,21 @@ Name | Type | Definition | Unique UN Assigned ID | Dictionary Entry Name
 <span id="TolerancePercent">TolerancePercent</span> | xsd:decimal | The percent of tolerance of this calibrated measurement. | UN01013538 | Calibrated_ Measurement. Tolerance. Percent
 
 
-<h1 id="SpecifiedTemperature">SpecifiedTemperature</h1>
+<h1 id="InstructedTemperature">InstructedTemperature</h1>
 
 Type: rdf:Class
 
-Definition: A specified temperature value or range of values.
+Definition: Temperature settings instructed for storage or movement of goods.
 
-Unique UN Assigned ID: UN01009043
+Unique UN Assigned ID: UN01008871
 
-Dictionary Entry Name: Specified_ Temperature. Details
+Dictionary Entry Name: Instructed_ Temperature. Details
 
 Properties: 
 
 Name | Type | Definition | Unique UN Assigned ID | Dictionary Entry Name
 -|-|-|-|-
-<span id="SpecifiedTemperatureMinimumValue">SpecifiedTemperatureMinimumValue</span> | xsd:decimal | The measure of the lowest value of a range for this specified temperature, such as a minimum temperature value of four degrees Celsius. | UN01009045 | Specified_ Temperature. Minimum_ Value. Measure
-<span id="SpecifiedTemperatureMaximumValue">SpecifiedTemperatureMaximumValue</span> | xsd:decimal | The measure of the highest value of a range for this specified temperature, such as a maximum temperature value of fourteen degrees Celsius. | UN01009046 | Specified_ Temperature. Maximum_ Value. Measure
+<span id="InstructedTemperatureMinimumValue">InstructedTemperatureMinimumValue</span> | xsd:decimal | The measure of the minimum value of this instructed temperature. | UN01008873 | Instructed_ Temperature. Minimum_ Value. Measure
 
 
 <h1 id="TransportSettingTemperature">TransportSettingTemperature</h1>
@@ -5106,21 +5105,22 @@ Name | Type | Definition | Unique UN Assigned ID | Dictionary Entry Name
 <span id="TransportSettingTemperatureMaximumValue">TransportSettingTemperatureMaximumValue</span> | xsd:decimal | The measure of the highest value of this transport setting temperature, such as a maximum temperature value of fourteen degrees Celsius. | UN01004749 | Transport Setting_ Temperature. Maximum_ Value. Measure
 
 
-<h1 id="InstructedTemperature">InstructedTemperature</h1>
+<h1 id="SpecifiedTemperature">SpecifiedTemperature</h1>
 
 Type: rdf:Class
 
-Definition: Temperature settings instructed for storage or movement of goods.
+Definition: A specified temperature value or range of values.
 
-Unique UN Assigned ID: UN01008871
+Unique UN Assigned ID: UN01009043
 
-Dictionary Entry Name: Instructed_ Temperature. Details
+Dictionary Entry Name: Specified_ Temperature. Details
 
 Properties: 
 
 Name | Type | Definition | Unique UN Assigned ID | Dictionary Entry Name
 -|-|-|-|-
-<span id="InstructedTemperatureMinimumValue">InstructedTemperatureMinimumValue</span> | xsd:decimal | The measure of the minimum value of this instructed temperature. | UN01008873 | Instructed_ Temperature. Minimum_ Value. Measure
+<span id="SpecifiedTemperatureMinimumValue">SpecifiedTemperatureMinimumValue</span> | xsd:decimal | The measure of the lowest value of a range for this specified temperature, such as a minimum temperature value of four degrees Celsius. | UN01009045 | Specified_ Temperature. Minimum_ Value. Measure
+<span id="SpecifiedTemperatureMaximumValue">SpecifiedTemperatureMaximumValue</span> | xsd:decimal | The measure of the highest value of a range for this specified temperature, such as a maximum temperature value of fourteen degrees Celsius. | UN01009046 | Specified_ Temperature. Maximum_ Value. Measure
 
 
 <h1 id="Emission">Emission</h1>
@@ -5244,6 +5244,32 @@ Name | Type | Definition | Unique UN Assigned ID | Dictionary Entry Name
 <span id="SegmentInformationText">SegmentInformationText</span> | xsd:string | Information, expressed as text, in this section segment. | UN01012738 | Section_ Segment. Information. Text
 
 
+<h1 id="ReferencedConsignmentItem">ReferencedConsignmentItem</h1>
+
+Type: rdf:Class
+
+Definition: A reference to an item within a supply chain consignment of goods separately identified for transport and customs purposes.
+
+Unique UN Assigned ID: UN01004035
+
+Dictionary Entry Name: Referenced_ Supply Chain_ Consignment Item. Details
+
+Properties: 
+
+Name | Type | Definition | Unique UN Assigned ID | Dictionary Entry Name
+-|-|-|-|-
+<span id="ReferencedConsignmentItemCargoNatureIdentification">ReferencedConsignmentItemCargoNatureIdentification</span> | [edi3:Cargo](#Cargo) | Transport cargo details of this referenced supply chain consignment item sufficient to identify its nature for customs, statistical or transport purposes. | UN01011045 | Referenced_ Supply Chain_ Consignment Item. Nature Identification. Transport_ Cargo
+<span id="ReferencedConsignmentItemSequenceNumber">ReferencedConsignmentItemSequenceNumber</span> | xsd:decimal | The sequence number for this referenced supply chain consignment item. | UN01004036 | Referenced_ Supply Chain_ Consignment Item. Sequence. Numeric
+<span id="ReferencedConsignmentItemTradeLineItem">ReferencedConsignmentItemTradeLineItem</span> | [edi3:SupplyChainTradeLineItem](#SupplyChainTradeLineItem) | A trade line item included in this referenced supply chain consignment item. | UN01011044 | Referenced_ Supply Chain_ Consignment Item. Included. Supply Chain_ Trade Line Item
+<span id="ReferencedConsignmentItemTradeLineItemQuantity">ReferencedConsignmentItemTradeLineItemQuantity</span> | xsd:decimal | The number of trade line items in this referenced supply chain consignment item. | UN01011042 | Referenced_ Supply Chain_ Consignment Item. Trade Line Item. Quantity
+<span id="ReferencedConsignmentItemGoodsTypeCode">ReferencedConsignmentItemGoodsTypeCode</span> | xsd:token | The code specifying the type of referenced supply chain consignment item. | UN01004037 | Referenced_ Supply Chain_ Consignment Item. Type. Code
+<span id="ReferencedConsignmentItemTransportPackage">ReferencedConsignmentItemTransportPackage</span> | [edi3:Package](#Package) | A transport package for this referenced supply chain consignment item. | UN01011043 | Referenced_ Supply Chain_ Consignment Item. Transport. Logistics_ Package
+<span id="ReferencedConsignmentItemAssociatedTransportEquipment">ReferencedConsignmentItemAssociatedTransportEquipment</span> | [edi3:ReferencedTransportEquipment](#ReferencedTransportEquipment) | A piece of transport equipment associated with this referenced supply chain consignment item. | UN01011047 | Referenced_ Supply Chain_ Consignment Item. Associated. Referenced_ Logistics_ Transport Equipment
+<span id="ReferencedConsignmentItemTransportDangerousGoods">ReferencedConsignmentItemTransportDangerousGoods</span> | [edi3:DangerousGoods](#DangerousGoods) | Dangerous goods transport details applicable to this referenced supply chain consignment item. | UN01011531 | Referenced_ Supply Chain_ Consignment Item. Applicable. Transport_ Dangerous Goods
+<span id="ReferencedConsignmentItemGoodsTypeExtensionCode">ReferencedConsignmentItemGoodsTypeExtensionCode</span> | xsd:token | The code used as an extension to the type code for further specifying the type of referenced supply chain consignment item. | UN01004038 | Referenced_ Supply Chain_ Consignment Item. Type Extension. Code
+<span id="ReferencedConsignmentItemAssociatedDocument">ReferencedConsignmentItemAssociatedDocument</span> | [edi3:Document](#Document) | A referenced document associated with this referenced supply chain consignment item. | UN01004039 | Referenced_ Supply Chain_ Consignment Item. Associated. Referenced_ Document
+
+
 <h1 id="ConsignmentItem">ConsignmentItem</h1>
 
 Type: rdf:Class
@@ -5326,32 +5352,6 @@ Name | Type | Definition | Unique UN Assigned ID | Dictionary Entry Name
 <span id="ConsignmentItemGlobalID">ConsignmentItemGlobalID</span> | xsd:token | A global identifier for this supply chain consignment item. | UN01012575 | Supply Chain_ Consignment Item. Global_ Identification. Identifier
 
 
-<h1 id="ReferencedConsignmentItem">ReferencedConsignmentItem</h1>
-
-Type: rdf:Class
-
-Definition: A reference to an item within a supply chain consignment of goods separately identified for transport and customs purposes.
-
-Unique UN Assigned ID: UN01004035
-
-Dictionary Entry Name: Referenced_ Supply Chain_ Consignment Item. Details
-
-Properties: 
-
-Name | Type | Definition | Unique UN Assigned ID | Dictionary Entry Name
--|-|-|-|-
-<span id="ReferencedConsignmentItemCargoNatureIdentification">ReferencedConsignmentItemCargoNatureIdentification</span> | [edi3:Cargo](#Cargo) | Transport cargo details of this referenced supply chain consignment item sufficient to identify its nature for customs, statistical or transport purposes. | UN01011045 | Referenced_ Supply Chain_ Consignment Item. Nature Identification. Transport_ Cargo
-<span id="ReferencedConsignmentItemSequenceNumber">ReferencedConsignmentItemSequenceNumber</span> | xsd:decimal | The sequence number for this referenced supply chain consignment item. | UN01004036 | Referenced_ Supply Chain_ Consignment Item. Sequence. Numeric
-<span id="ReferencedConsignmentItemTradeLineItem">ReferencedConsignmentItemTradeLineItem</span> | [edi3:SupplyChainTradeLineItem](#SupplyChainTradeLineItem) | A trade line item included in this referenced supply chain consignment item. | UN01011044 | Referenced_ Supply Chain_ Consignment Item. Included. Supply Chain_ Trade Line Item
-<span id="ReferencedConsignmentItemTradeLineItemQuantity">ReferencedConsignmentItemTradeLineItemQuantity</span> | xsd:decimal | The number of trade line items in this referenced supply chain consignment item. | UN01011042 | Referenced_ Supply Chain_ Consignment Item. Trade Line Item. Quantity
-<span id="ReferencedConsignmentItemGoodsTypeCode">ReferencedConsignmentItemGoodsTypeCode</span> | xsd:token | The code specifying the type of referenced supply chain consignment item. | UN01004037 | Referenced_ Supply Chain_ Consignment Item. Type. Code
-<span id="ReferencedConsignmentItemTransportPackage">ReferencedConsignmentItemTransportPackage</span> | [edi3:Package](#Package) | A transport package for this referenced supply chain consignment item. | UN01011043 | Referenced_ Supply Chain_ Consignment Item. Transport. Logistics_ Package
-<span id="ReferencedConsignmentItemAssociatedTransportEquipment">ReferencedConsignmentItemAssociatedTransportEquipment</span> | [edi3:ReferencedTransportEquipment](#ReferencedTransportEquipment) | A piece of transport equipment associated with this referenced supply chain consignment item. | UN01011047 | Referenced_ Supply Chain_ Consignment Item. Associated. Referenced_ Logistics_ Transport Equipment
-<span id="ReferencedConsignmentItemTransportDangerousGoods">ReferencedConsignmentItemTransportDangerousGoods</span> | [edi3:DangerousGoods](#DangerousGoods) | Dangerous goods transport details applicable to this referenced supply chain consignment item. | UN01011531 | Referenced_ Supply Chain_ Consignment Item. Applicable. Transport_ Dangerous Goods
-<span id="ReferencedConsignmentItemGoodsTypeExtensionCode">ReferencedConsignmentItemGoodsTypeExtensionCode</span> | xsd:token | The code used as an extension to the type code for further specifying the type of referenced supply chain consignment item. | UN01004038 | Referenced_ Supply Chain_ Consignment Item. Type Extension. Code
-<span id="ReferencedConsignmentItemAssociatedDocument">ReferencedConsignmentItemAssociatedDocument</span> | [edi3:Document](#Document) | A referenced document associated with this referenced supply chain consignment item. | UN01004039 | Referenced_ Supply Chain_ Consignment Item. Associated. Referenced_ Document
-
-
 <h1 id="ServiceCharge">ServiceCharge</h1>
 
 Type: rdf:Class
@@ -5421,6 +5421,7 @@ Name | Type | Definition | Unique UN Assigned ID | Dictionary Entry Name
 <span id="StatisticalValueAmount">StatisticalValueAmount</span> | xsd:decimal | The monetary value specified for statistical purposes in this exchanged declaration. | UN01011016 | Exchanged_ Declaration. Statistical Value_ Specified. Amount
 <span id="Declarant">Declarant</span> | [edi3:TradeParty](#TradeParty) | The trade party acting as the declarant for this exchanged declaration. | UN01011020 | Exchanged_ Declaration. Declarant. Trade_ Party
 <span id="DeclarantAgent">DeclarantAgent</span> | [edi3:TradeParty](#TradeParty) | The trade party acting as an agent for the declarant for this exchanged declaration. | UN01011021 | Exchanged_ Declaration. Declarant Agent. Trade_ Party
+<span id="ExchangedCrossBorderCustomsValuation">ExchangedCrossBorderCustomsValuation</span> | [edi3:CustomsValuation](#CustomsValuation) | Customs valuation information applicable to this exchanged declaration. | UN01011023 | Exchanged_ Declaration. Applicable. Cross-Border_ Customs Valuation
 <span id="DeclarationGrossWeight">DeclarationGrossWeight</span> | xsd:decimal | The gross weight measure specified in this exchanged declaration. | UN01011009 | Exchanged_ Declaration. Gross Weight_ Specified. Measure
 <span id="AdditionalStatement">AdditionalStatement</span> | [edi3:Note](#Note) | An additional statement note for this exchanged declaration. | UN01011026 | Exchanged_ Declaration. Additional_ Statement. Note
 <span id="ProcedureCode">ProcedureCode</span> | xsd:token | A code specifying a procedure for this exchanged declaration. | UN01011014 | Exchanged_ Declaration. Procedure. Code
@@ -5431,7 +5432,6 @@ Name | Type | Definition | Unique UN Assigned ID | Dictionary Entry Name
 <span id="DeclarationID">DeclarationID</span> | xsd:token | An identifier for this exchanged declaration. | UN01011007 | Exchanged_ Declaration. Identification. Identifier
 <span id="FormattedJurisdictionEntryDateTime">FormattedJurisdictionEntryDateTime</span> | xsd:dateTime | The date, time, date time or other date time value when the items which are a subject of this exchanged declaration enter a jurisdiction, such as the actual date of arrival of a means of transport. | UN01011011 | Exchanged_ Declaration. Jurisdiction Entry. Date Time
 <span id="DeclarationVersionID">DeclarationVersionID</span> | xsd:token | The identifier for the version of this exchanged declaration. | UN01011012 | Exchanged_ Declaration. Version. Identifier
-<span id="CrossBorderCustomsValuation">CrossBorderCustomsValuation</span> | [edi3:CustomsValuation](#CustomsValuation) | Customs valuation information applicable to this exchanged declaration. | UN01011023 | Exchanged_ Declaration. Applicable. Cross-Border_ Customs Valuation
 <span id="SpecificCircumstanceCode">SpecificCircumstanceCode</span> | xsd:token | The code specifying a specific circumstance in this exchanged declaration. | UN01011019 | Exchanged_ Declaration. Specific Circumstance. Code
 <span id="CurrencyExchangeRate">CurrencyExchangeRate</span> | xsd:decimal | The rate of currency exchange in this exchanged declaration. | UN01011018 | Exchanged_ Declaration. Currency Exchange. Rate
 <span id="DeclarationPreviousReferencedDocument">DeclarationPreviousReferencedDocument</span> | [edi3:Document](#Document) | A previous document referenced for this exchanged declaration. | UN01011024 | Exchanged_ Declaration. Previous. Referenced_ Document
@@ -5491,7 +5491,6 @@ Name | Type | Definition | Unique UN Assigned ID | Dictionary Entry Name
 <span id="TunnelRestrictionCode">TunnelRestrictionCode</span> | xsd:token | The code specifying the tunnel restriction for these transported dangerous goods. | UN01006211 | Transport_ Dangerous Goods. Tunnel Restriction. Code
 <span id="DangerousGoodsTransportEquipment">DangerousGoodsTransportEquipment</span> | [edi3:ReferencedTransportEquipment](#ReferencedTransportEquipment) | Referenced transport equipment associated with the dangerous goods. | UN01009014 | Transport_ Dangerous Goods. Associated. Referenced_ Logistics_ Transport Equipment
 <span id="ProperShippingName">ProperShippingName</span> | xsd:string | The proper shipping name, expressed as text, for these transported dangerous goods. | UN01006207 | Transport_ Dangerous Goods. Proper Shipping Name. Text
-<span id="RadioactiveMaterial">RadioactiveMaterial</span> | [edi3:RadioactiveMaterial](#RadioactiveMaterial) | The radioactive material transported as dangerous goods. | UN01006224 | Transport_ Dangerous Goods. Radioactive. Radioactive_ Material
 <span id="HazardClassificationID">HazardClassificationID</span> | xsd:token | The unique identifier of a hazard class applicable to these transported dangerous goods as defined by the relevant governing regulation authority. | UN01004780 | Transport_ Dangerous Goods. Hazard Classification. Identifier
 <span id="RegulationName">RegulationName</span> | xsd:string | A name, expressed as text, for a regulation of these transported dangerous goods. | UN01004766 | Transport_ Dangerous Goods. Regulation Name. Text
 <span id="FlashpointTemperature">FlashpointTemperature</span> | [edi3:Measurement](#Measurement) | A measurement of the flashpoint temperature of these transported dangerous goods. | UN01004790 | Transport_ Dangerous Goods. Flashpoint Temperature. Measurement
@@ -5502,6 +5501,7 @@ Name | Type | Definition | Unique UN Assigned ID | Dictionary Entry Name
 <span id="EmergencyContact">EmergencyContact</span> | [edi3:Contact](#Contact) | The person or department to be contacted in the event of any emergency related to these transported dangerous goods. | UN01004789 | Transport_ Dangerous Goods. Emergency. Trade_ Contact
 <span id="ShipperDeclarationInformation">ShipperDeclarationInformation</span> | xsd:string | Shipper declaration information, expressed as text, for these transported dangerous goods. | UN01006221 | Transport_ Dangerous Goods. Shipper Declaration_ Information. Text
 <span id="LimitedQuantityCode">LimitedQuantityCode</span> | xsd:token | A code specifying facilitations for transport of limited quantities of these transported dangerous goods. | UN01008331 | Transport_ Dangerous Goods. Limited Quantity. Code
+<span id="TransportRadioactiveMaterial">TransportRadioactiveMaterial</span> | [edi3:RadioactiveMaterial](#RadioactiveMaterial) | The radioactive material transported as dangerous goods. | UN01006224 | Transport_ Dangerous Goods. Radioactive. Radioactive_ Material
 <span id="AdditionalHazardClassificationID">AdditionalHazardClassificationID</span> | xsd:token | The unique identifier of an additional hazard class applicable to these transported dangerous goods. | UN01004781 | Transport_ Dangerous Goods. Additional_ Hazard Classification. Identifier
 <span id="ComplianceDeclarationInformation">ComplianceDeclarationInformation</span> | xsd:string | Compliance declaration information, expressed as text, for these transported dangerous goods. | UN01006220 | Transport_ Dangerous Goods. Compliance Declaration_ Information. Text
 
@@ -5838,18 +5838,18 @@ Name | Type | Definition | Unique UN Assigned ID | Dictionary Entry Name
 <span id="GlobalSerialID">GlobalSerialID</span> | xsd:token | The unique global serial identifier for this trade product instance. | UN01004655 | Trade_ Product Instance. Global Serial_ Identification. Identifier
 <span id="RegistrationID">RegistrationID</span> | xsd:token | A unique registration identifier, such as a vehicle licence plate identification, for this trade product instance. | UN01007239 | Trade_ Product Instance. Registration_ Identification. Identifier
 <span id="KanbanID">KanbanID</span> | xsd:token | The unique kanban identifier for this trade product instance. | UN01004657 | Trade_ Product Instance. Kanban_ Identification. Identifier
-<span id="ProductHandlingProcess">ProductHandlingProcess</span> | [edi3:Process](#Process) | A product handling process applied to this trade product instance, such as manufacturing or storage. | UN01004667 | Trade_ Product Instance. Applied. Product Handling_ Process
 <span id="ProductInstanceOriginLocation">ProductInstanceOriginLocation</span> | [edi3:LogisticsLocation](#LogisticsLocation) | A location of origin for this supply chain product instance. | UN01004665 | Trade_ Product Instance. Origin. Logistics_ Location
+<span id="TradeProductCharacteristic">TradeProductCharacteristic</span> | [edi3:Characteristic](#Characteristic) | A product characteristic applicable to this trade product instance. | UN01011926 | Trade_ Product Instance. Applicable. Product_ Characteristic
 <span id="BestBeforeDateTime">BestBeforeDateTime</span> | xsd:dateTime | The date, time, date time, or other date time value before which it is best to consume the items contained in this trade product instance. | UN01004662 | Trade_ Product Instance. Best Before. Date Time
 <span id="ProductInstanceMaterialGoodsCharacteristic">ProductInstanceMaterialGoodsCharacteristic</span> | [edi3:GoodsCharacteristic](#GoodsCharacteristic) | A distinguishing material feature applicable to this trade product instance. | UN01007240 | Trade_ Product Instance. Applicable. Material_ Goods Characteristic
 <span id="ProductInstanceExpiryDateTime">ProductInstanceExpiryDateTime</span> | xsd:dateTime | The date, time, date time, or other date time value of expiry of the items contained in the trade product instance. | UN01004663 | Trade_ Product Instance. Expiry. Date Time
 <span id="ProductInstanceActualQuantity">ProductInstanceActualQuantity</span> | xsd:decimal | The actual quantity of items in this trade product instance. | UN01004661 | Trade_ Product Instance. Actual. Quantity
 <span id="ProductInstanceInspectionEvent">ProductInstanceInspectionEvent</span> | [edi3:SupplyChainEvent](#SupplyChainEvent) | The inspection event for this trade product instance. | UN01004676 | Trade_ Product Instance. Inspection. Supply Chain_ Event
 <span id="LotID">LotID</span> | xsd:token | The unique lot identifier for this trade product instance. | UN01004658 | Trade_ Product Instance. Lot_ Identification. Identifier
-<span id="ProductCharacteristic">ProductCharacteristic</span> | [edi3:Characteristic](#Characteristic) | A product characteristic applicable to this trade product instance. | UN01011926 | Trade_ Product Instance. Applicable. Product_ Characteristic
 <span id="ProductInstanceBatchID">ProductInstanceBatchID</span> | xsd:token | The unique batch identifier for this trade product instance. | UN01004656 | Trade_ Product Instance. Batch_ Identification. Identifier
 <span id="PackagingEvent">PackagingEvent</span> | [edi3:SupplyChainEvent](#SupplyChainEvent) | The packaging event for this trade product instance. | UN01004677 | Trade_ Product Instance. Packaging. Supply Chain_ Event
 <span id="SerialID">SerialID</span> | xsd:token | A unique serial identifier for this trade product instance. | UN01005370 | Trade_ Product Instance. Serial_ Identification. Identifier
+<span id="TradeProductHandlingProcess">TradeProductHandlingProcess</span> | [edi3:Process](#Process) | A product handling process applied to this trade product instance, such as manufacturing or storage. | UN01004667 | Trade_ Product Instance. Applied. Product Handling_ Process
 
 
 <h1 id="Contact">Contact</h1>
@@ -6060,6 +6060,43 @@ Name | Type | Definition | Unique UN Assigned ID | Dictionary Entry Name
 <span id="SubordinateLocationPhysicalGeographicalCoordinate">SubordinateLocationPhysicalGeographicalCoordinate</span> | [edi3:GeographicalCoordinate](#GeographicalCoordinate) | Physical geographical coordinate information for this subordinate location. | UN01004096 | Subordinate_ Location. Physical. Geographical Coordinate
 
 
+<h1 id="TradeLocation">TradeLocation</h1>
+
+Type: rdf:Class
+
+Definition: A physical location or place used or referenced for trade purposes.
+
+Unique UN Assigned ID: UN01001658
+
+Dictionary Entry Name: Trade_ Location. Details
+
+Properties: 
+
+Name | Type | Definition | Unique UN Assigned ID | Dictionary Entry Name
+-|-|-|-|-
+<span id="TradeLocationName">TradeLocationName</span> | xsd:string | The name, expressed as text, of this location used or referenced in trade. | UN01001662 | Trade_ Location. Name. Text
+<span id="TradeLocationCountryName">TradeLocationCountryName</span> | xsd:string | The name, expressed as text, of a country location used or referenced in trade. | UN01001660 | Trade_ Location. Country Name. Text
+<span id="TradeLocationCountryCode">TradeLocationCountryCode</span> | xsd:token | The unique identifier of a country location used or referenced in trade. | UN01001659 | Trade_ Location. Country. Identifier
+
+
+<h1 id="TransportServiceLocation">TransportServiceLocation</h1>
+
+Type: rdf:Class
+
+Definition: A location where a transport service takes place.
+
+Unique UN Assigned ID: UN01010086
+
+Dictionary Entry Name: Transport Service_ Location. Details
+
+Properties: 
+
+Name | Type | Definition | Unique UN Assigned ID | Dictionary Entry Name
+-|-|-|-|-
+<span id="TransportServiceLocationName">TransportServiceLocationName</span> | xsd:string | A name, expressed as text, of this transport service location. | UN01010088 | Transport Service_ Location. Name. Text
+<span id="TransportServiceLocationTypeCode">TransportServiceLocationTypeCode</span> | xsd:token | A code specifying the type of transport service location. | UN01010089 | Transport Service_ Location. Type. Code
+
+
 <h1 id="LogisticsLocation">LogisticsLocation</h1>
 
 Type: rdf:Class
@@ -6088,43 +6125,6 @@ Name | Type | Definition | Unique UN Assigned ID | Dictionary Entry Name
 <span id="CountrySubDivisionID">CountrySubDivisionID</span> | xsd:token | The identifier of the country sub-division for this logistics related location. | UN01013369 | Logistics_ Location. Country Sub-Division. Identifier
 <span id="ServicingParty">ServicingParty</span> | [edi3:LocationParty](#LocationParty) | A servicing party specified for this logistics related location. | UN01003688 | Logistics_ Location. Servicing_ Specified. Location_ Party
 <span id="LogisticsLocationTypeCode">LogisticsLocationTypeCode</span> | xsd:token | A code specifying the type of this logistics related location. | UN01003682 | Logistics_ Location. Type. Code
-
-
-<h1 id="TransportServiceLocation">TransportServiceLocation</h1>
-
-Type: rdf:Class
-
-Definition: A location where a transport service takes place.
-
-Unique UN Assigned ID: UN01010086
-
-Dictionary Entry Name: Transport Service_ Location. Details
-
-Properties: 
-
-Name | Type | Definition | Unique UN Assigned ID | Dictionary Entry Name
--|-|-|-|-
-<span id="TransportServiceLocationName">TransportServiceLocationName</span> | xsd:string | A name, expressed as text, of this transport service location. | UN01010088 | Transport Service_ Location. Name. Text
-<span id="TransportServiceLocationTypeCode">TransportServiceLocationTypeCode</span> | xsd:token | A code specifying the type of transport service location. | UN01010089 | Transport Service_ Location. Type. Code
-
-
-<h1 id="TradeLocation">TradeLocation</h1>
-
-Type: rdf:Class
-
-Definition: A physical location or place used or referenced for trade purposes.
-
-Unique UN Assigned ID: UN01001658
-
-Dictionary Entry Name: Trade_ Location. Details
-
-Properties: 
-
-Name | Type | Definition | Unique UN Assigned ID | Dictionary Entry Name
--|-|-|-|-
-<span id="TradeLocationName">TradeLocationName</span> | xsd:string | The name, expressed as text, of this location used or referenced in trade. | UN01001662 | Trade_ Location. Name. Text
-<span id="TradeLocationCountryName">TradeLocationCountryName</span> | xsd:string | The name, expressed as text, of a country location used or referenced in trade. | UN01001660 | Trade_ Location. Country Name. Text
-<span id="TradeLocationCountryCode">TradeLocationCountryCode</span> | xsd:token | The unique identifier of a country location used or referenced in trade. | UN01001659 | Trade_ Location. Country. Identifier
 
 
 <h1 id="GeographicalGrid">GeographicalGrid</h1>
