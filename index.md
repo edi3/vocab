@@ -2,7 +2,7 @@
 
 Vocabulary Definition of BSP RDM semantics in HTML format. JSON-LD format is available at [bsp.jsonld](https://edi3.org/vocab/bsp.jsonld)  
 
-COO sample in JSON-LD playground with the context defined - https://tinyurl.com/yxo94623
+COO sample in JSON-LD playground with the context defined - [https://tinyurl.com/yxo94623](https://tinyurl.com/yxo94623)
 
 <h1 id="ProductGroup">ProductGroup</h1>
 
