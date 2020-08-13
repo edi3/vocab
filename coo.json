@@ -1,0 +1,186 @@
+{
+    "@context": "http://edi3.org/vocab/coo-context.jsonld",
+    "certificateOfOrigin": {
+        "type": "CertificateOfOrigin",
+        "iD": "id:string",
+        "issueDateTime": "2020-07-06T22:53:01.607Z",
+        "name": "string",
+        "attachedFile": {
+            "type": "BinaryFile",
+            "uRI": "id:string",
+            "encodingCode": "string",
+            "mIMECode": "string",
+            "size": {
+                "type": "Measure",
+                "uom": "string",
+                "value": "string"
+            }
+        },
+        "firstSignatoryAuthentication": {
+            "type": "Authentication",
+            "signature": "string",
+            "actualDateTime": "2020-07-06T22:53:01.607Z",
+            "statement": "string"
+        },
+        "issueLocation": {
+            "type": "LogisticsLocation",
+            "iD": "id:string",
+            "name": "string"
+        },
+        "issuer": {
+            "type": "TradeParty",
+            "iD": "id:string",
+            "name": "string",
+            "postalAddress": {
+                "line1": "string",
+                "line2": "string",
+                "cityName": "string",
+                "postcode": "string",
+                "countrySubDivisionName": "string",
+                "countryCode": "AD"
+            }
+        },
+        "secondSignatoryAuthentication": {
+            "type": "Authentication",
+            "signature": "string",
+            "actualDateTime": "2020-07-06T22:53:01.608Z",
+            "statement": "string"
+        },
+        "status": "string",
+        "isPreferential": true,
+        "freeTradeAgreement": "string",
+        "supplyChainConsignment": {
+            "type": "Consignment",
+            "iD": "id:string",
+            "information": "string",
+            "exportCountry": {
+                "type": "Country",
+                "code": "AD",
+                "name": "string"
+            },
+            "exporter": {
+                "type": "TradeParty",
+                "iD": "id:string",
+                "name": "string",
+                "postalAddress": {
+                    "line1": "string",
+                    "line2": "string",
+                    "cityName": "string",
+                    "postcode": "string",
+                    "countrySubDivisionName": "string",
+                    "countryCode": "AD"
+                }
+            },
+            "importCountry": {
+                "type": "Country",
+                "code": "AD",
+                "name": "string"
+            },
+            "importer": {
+                "type": "TradeParty",
+                "iD": "id:string",
+                "name": "string",
+                "postalAddress": {
+                    "line1": "string",
+                    "line2": "string",
+                    "cityName": "string",
+                    "postcode": "string",
+                    "countrySubDivisionName": "string",
+                    "countryCode": "AD"
+                }
+            },
+            "includedConsignmentItems": [
+                {
+                    "type": "ConsignmentItem",
+                    "iD": "id:string",
+                    "information": "string",
+                    "crossBorderRegulatoryProcedure": {
+                        "originCriteriaText": "string"
+                    },
+                    "manufacturer": {
+                        "type": "TradeParty",
+                        "iD": "id:string",
+                        "name": "string",
+                        "postalAddress": {
+                            "line1": "string",
+                            "line2": "string",
+                            "cityName": "string",
+                            "postcode": "string",
+                            "countrySubDivisionName": "string",
+                            "countryCode": "AD"
+                        }
+                    },
+                    "tradeLineItems": [
+                        {
+                            "type": "SupplyChainTradeLineItem",
+                            "sequenceNumber": 0,
+                            "invoiceReference": {
+                                "type": "Document",
+                                "iD": "id:string",
+                                "formattedIssueDateTime": "2020-07-06T22:53:01.608Z",
+                                "attachedBinaryFile": {
+                                    "uRI": "id:string"
+                                }
+                            },
+                            "tradeProduct": {
+                                "type": "TradeProduct",
+                                "iD": "id:string",
+                                "description": "string",
+                                "harmonisedTariffCode": {
+                                    "type": "Classification",
+                                    "classCode": "string",
+                                    "className": "string"
+                                },
+                                "originCountry": {
+                                    "type": "Country",
+                                    "code": "AD",
+                                    "name": "string"
+                                }
+                            }
+                        }
+                    ]
+                }
+            ],
+            "loadingBaseportLocation": {
+                "type": "LogisticsLocation",
+                "iD": "id:string",
+                "name": "string"
+            },
+            "mainCarriageTransportMovement": {
+                "type": "TransportMovement",
+                "iD": "id:string",
+                "information": "string",
+                "departureEvent": {
+                    "type": "Event",
+                    "departureDateTime": "2020-07-06T22:53:01.608Z"
+                },
+                "usedTransportMeans": {
+                    "type": "LogisticsTransportMeans",
+                    "iD": "id:string",
+                    "name": "string"
+                }
+            },
+            "transportPackages": [
+                {
+                    "type": "Package",
+                    "iD": "id:string",
+                    "grossVolume": {
+                        "type": "Measure",
+                        "uom": "id:string",
+                        "value": "id:string"
+                    },
+                    "grossWeight": {
+                        "type": "Measure",
+                        "uom": "id:string",
+                        "value": "id:string"
+                    }
+                }
+            ],
+            "unloadingBaseportLocation": {
+                "type": "LogisticsLocation",
+                "iD": "id:string",
+                "name": "string"
+            }
+        }
+    }
+}
