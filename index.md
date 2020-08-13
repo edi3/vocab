@@ -4,7 +4,7 @@ Type: rdf:Class
 
 Definition: A grouping of trade products.
 
-Unique UN Assigned ID: UN01011922
+Unique UN Assigned ID: <span id="UN01011922">UN01011922</span>
 
 Dictionary Entry Name: Trade_ Product Group. Details
 
@@ -22,7 +22,7 @@ Type: rdf:Class
 
 Definition: The location at which a financial institution may be found or reached.
 
-Unique UN Assigned ID: UN01003173
+Unique UN Assigned ID: <span id="UN01003173">UN01003173</span>
 
 Dictionary Entry Name: Financial Institution_ Address. Details
 
@@ -54,7 +54,7 @@ Type: rdf:Class
 
 Definition: The location at which a particular trade related organization or person may be found or reached.
 
-Unique UN Assigned ID: UN01004533
+Unique UN Assigned ID: <span id="UN01004533">UN01004533</span>
 
 Dictionary Entry Name: Trade_ Address. Details
 
@@ -93,7 +93,7 @@ Type: rdf:Class
 
 Definition: The place of birth.
 
-Unique UN Assigned ID: UN01003169
+Unique UN Assigned ID: <span id="UN01003169">UN01003169</span>
 
 Dictionary Entry Name: Birth_ Address. Details
 
@@ -111,7 +111,7 @@ Type: rdf:Class
 
 Definition: A formally raised question or request for information about this specification.
 
-Unique UN Assigned ID: UN01000073
+Unique UN Assigned ID: <span id="UN01000073">UN01000073</span>
 
 Dictionary Entry Name: Specification_ Query. Details
 
@@ -129,7 +129,7 @@ Type: rdf:Class
 
 Definition: Any tangible output or service produced by human or mechanical effort or by a natural process for trade purposes.
 
-Unique UN Assigned ID: UN01004679
+Unique UN Assigned ID: <span id="UN01004679">UN01004679</span>
 
 Dictionary Entry Name: Trade_ Product. Details
 
@@ -249,7 +249,7 @@ Type: rdf:Class
 
 Definition: A reference to a product or service produced by human or mechanical effort or by a natural process for trading purposes.
 
-Unique UN Assigned ID: UN01004027
+Unique UN Assigned ID: <span id="UN01004027">UN01004027</span>
 
 Dictionary Entry Name: Referenced_ Product. Details
 
@@ -274,7 +274,7 @@ Type: rdf:Class
 
 Definition: An identified defect or fault.
 
-Unique UN Assigned ID: UN01010065
+Unique UN Assigned ID: <span id="UN01010065">UN01010065</span>
 
 Dictionary Entry Name: Identified_ Fault. Details
 
@@ -291,7 +291,7 @@ Type: rdf:Class
 
 Definition: Written, printed or electronic matter that is referenced.
 
-Unique UN Assigned ID: UN01001569
+Unique UN Assigned ID: <span id="UN01001569">UN01001569</span>
 
 Dictionary Entry Name: Referenced_ Document. Details
 
@@ -347,7 +347,7 @@ Type: rdf:Class
 
 Definition: A collection of data for a line on a piece of written, printed or electronic matter that provides information or evidence.
 
-Unique UN Assigned ID: UN01003513
+Unique UN Assigned ID: <span id="UN01003513">UN01003513</span>
 
 Dictionary Entry Name: Document Line_ Document. Details
 
@@ -377,7 +377,7 @@ Type: rdf:Class
 
 Definition: A document exchanged between parties for a business application level acknowledgement of the receipt of information.
 
-Unique UN Assigned ID: UN01002071
+Unique UN Assigned ID: <span id="UN01002071">UN01002071</span>
 
 Dictionary Entry Name: Acknowledgement_ Document. Details
 
@@ -406,7 +406,7 @@ Type: rdf:Class
 
 Definition: A collection of data that reports the result of a financing request.
 
-Unique UN Assigned ID: UN01013224
+Unique UN Assigned ID: <span id="UN01013224">UN01013224</span>
 
 Dictionary Entry Name: Financing Request Result_ Document. Details
 
@@ -424,7 +424,7 @@ Type: rdf:Class
 
 Definition: A collection of data for a piece of written, printed or electronic matter that is exchanged between two or more parties.
 
-Unique UN Assigned ID: UN01002487
+Unique UN Assigned ID: <span id="UN01002487">UN01002487</span>
 
 Dictionary Entry Name: Exchanged_ Document. Details
 
@@ -498,7 +498,7 @@ Type: rdf:Class
 
 Definition: The set of characteristics shared by all individual transactions grouped for this financing request document.
 
-Unique UN Assigned ID: UN01013228
+Unique UN Assigned ID: <span id="UN01013228">UN01013228</span>
 
 Dictionary Entry Name: Financing Request_ Document. Details
 
@@ -529,7 +529,7 @@ Type: rdf:Class
 
 Definition: A collection of financing related data that provides an overview of key points.
 
-Unique UN Assigned ID: UN01013245
+Unique UN Assigned ID: <span id="UN01013245">UN01013245</span>
 
 Dictionary Entry Name: Financing Summary_ Document. Details
 
@@ -551,7 +551,7 @@ Type: rdf:Class
 
 Definition: A figure on the Earth having only two dimensions (reference ISO 19136).
 
-Unique UN Assigned ID: UN01012199
+Unique UN Assigned ID: <span id="UN01012199">UN01012199</span>
 
 Dictionary Entry Name: Specified_ Geographical Surface. Details
 
@@ -568,7 +568,7 @@ Type: rdf:Class
 
 Definition: Distinctive or characteristic parts of a trade product.
 
-Unique UN Assigned ID: UN01007470
+Unique UN Assigned ID: <span id="UN01007470">UN01007470</span>
 
 Dictionary Entry Name: Trade Product_ Feature. Details
 
@@ -589,7 +589,7 @@ Type: rdf:Class
 
 Definition: A grouping of related work items.
 
-Unique UN Assigned ID: UN01000043
+Unique UN Assigned ID: <span id="UN01000043">UN01000043</span>
 
 Dictionary Entry Name: Grouped_ Work Item. Details
 
@@ -620,7 +620,7 @@ Type: rdf:Class
 
 Definition: A basic item of work.
 
-Unique UN Assigned ID: UN01000026
+Unique UN Assigned ID: <span id="UN01000026">UN01000026</span>
 
 Dictionary Entry Name: Basic_ Work Item. Details
 
@@ -658,7 +658,7 @@ Type: rdf:Class
 
 Definition: A group of trade line items, trade line agreement, trade line delivery and trade line settlement details.
 
-Unique UN Assigned ID: UN01011824
+Unique UN Assigned ID: <span id="UN01011824">UN01011824</span>
 
 Dictionary Entry Name: Line_ Trade Transaction. Details
 
@@ -675,7 +675,7 @@ Type: rdf:Class
 
 Definition: A group of supply chain trade line items, trade agreement, trade delivery and trade settlement details.
 
-Unique UN Assigned ID: UN01004475
+Unique UN Assigned ID: <span id="UN01004475">UN01004475</span>
 
 Dictionary Entry Name: Supply Chain_ Trade Transaction. Details
 
@@ -708,7 +708,7 @@ Type: rdf:Class
 
 Definition: A process of applying a chemical, physical, or biological agent to an object.
 
-Unique UN Assigned ID: UN01009024
+Unique UN Assigned ID: <span id="UN01009024">UN01009024</span>
 
 Dictionary Entry Name: Applied_ Chemical Treatment. Details
 
@@ -732,7 +732,7 @@ Type: rdf:Class
 
 Definition: The result of a logistics risk analysis calculation.
 
-Unique UN Assigned ID: UN01013043
+Unique UN Assigned ID: <span id="UN01013043">UN01013043</span>
 
 Dictionary Entry Name: Logistics_ Risk Analysis Result. Details
 
@@ -754,7 +754,7 @@ Type: rdf:Class
 
 Definition: A systematic arrangement of products in classes or categories according to established criteria.
 
-Unique UN Assigned ID: UN01002608
+Unique UN Assigned ID: <span id="UN01002608">UN01002608</span>
 
 Dictionary Entry Name: Product_ Classification. Details
 
@@ -776,7 +776,7 @@ Type: rdf:Class
 
 Definition: A certified recognition that provides evidence of a level of competency in a given area, such as certifying a level of skill in a trade.
 
-Unique UN Assigned ID: UN01010056
+Unique UN Assigned ID: <span id="UN01010056">UN01010056</span>
 
 Dictionary Entry Name: Certified_ Accreditation. Details
 
@@ -799,7 +799,7 @@ Type: rdf:Class
 
 Definition: A financial identification for an organization.
 
-Unique UN Assigned ID: UN01013217
+Unique UN Assigned ID: <span id="UN01013217">UN01013217</span>
 
 Dictionary Entry Name: Financial_ Identity. Details
 
@@ -820,7 +820,7 @@ Type: rdf:Class
 
 Definition: Identification of a party who pays someone to do work on a regular or contractual basis.
 
-Unique UN Assigned ID: UN01003023
+Unique UN Assigned ID: <span id="UN01003023">UN01003023</span>
 
 Dictionary Entry Name: Employer_ Identity. Details
 
@@ -836,7 +836,7 @@ Type: rdf:Class
 
 Definition: Identification of a person.
 
-Unique UN Assigned ID: UN01013279
+Unique UN Assigned ID: <span id="UN01013279">UN01013279</span>
 
 Dictionary Entry Name: Person_ Identity. Details
 
@@ -857,7 +857,7 @@ Type: rdf:Class
 
 Definition: Proprietary information which uniquely identifies a person or organization.
 
-Unique UN Assigned ID: UN01013286
+Unique UN Assigned ID: <span id="UN01013286">UN01013286</span>
 
 Dictionary Entry Name: Proprietary_ Identity. Details
 
@@ -874,7 +874,7 @@ Type: rdf:Class
 
 Definition: Information relevant to a condition of a validation.
 
-Unique UN Assigned ID: UN01013305
+Unique UN Assigned ID: <span id="UN01013305">UN01013305</span>
 
 Dictionary Entry Name: Validation_ Status. Details
 
@@ -893,7 +893,7 @@ Type: rdf:Class
 
 Definition: The information relevant to a condition related to a document.
 
-Unique UN Assigned ID: UN01013122
+Unique UN Assigned ID: <span id="UN01013122">UN01013122</span>
 
 Dictionary Entry Name: Document_ Status. Details
 
@@ -915,7 +915,7 @@ Type: rdf:Class
 
 Definition: Information relevant to a condition of a cancellation.
 
-Unique UN Assigned ID: UN01013196
+Unique UN Assigned ID: <span id="UN01013196">UN01013196</span>
 
 Dictionary Entry Name: Cancellation_ Status. Details
 
@@ -934,7 +934,7 @@ Type: rdf:Class
 
 Definition: Information relevant to a condition of financing.
 
-Unique UN Assigned ID: UN01013262
+Unique UN Assigned ID: <span id="UN01013262">UN01013262</span>
 
 Dictionary Entry Name: Financing_ Status. Details
 
@@ -953,7 +953,7 @@ Type: rdf:Class
 
 Definition: Recorded information relevant to a condition or a position of an object.
 
-Unique UN Assigned ID: UN01007516
+Unique UN Assigned ID: <span id="UN01007516">UN01007516</span>
 
 Dictionary Entry Name: Recorded_ Status. Details
 
@@ -971,7 +971,7 @@ Type: rdf:Class
 
 Definition: The information relevant to a condition or a position related to logistics.
 
-Unique UN Assigned ID: UN01003747
+Unique UN Assigned ID: <span id="UN01003747">UN01003747</span>
 
 Dictionary Entry Name: Logistics_ Status. Details
 
@@ -998,7 +998,7 @@ Type: rdf:Class
 
 Definition: A correction or modification to reflect actual delivery conditions.
 
-Unique UN Assigned ID: UN01003498
+Unique UN Assigned ID: <span id="UN01003498">UN01003498</span>
 
 Dictionary Entry Name: Delivery_ Adjustment. Details
 
@@ -1018,7 +1018,7 @@ Type: rdf:Class
 
 Definition: A correction or modification to reflect actual financial conditions.
 
-Unique UN Assigned ID: UN01003594
+Unique UN Assigned ID: <span id="UN01003594">UN01003594</span>
 
 Dictionary Entry Name: Financial_ Adjustment. Details
 
@@ -1041,7 +1041,7 @@ Type: rdf:Class
 
 Definition: A set of formal steps to satisfy a cross-border regulation, law or convention.
 
-Unique UN Assigned ID: UN01006147
+Unique UN Assigned ID: <span id="UN01006147">UN01006147</span>
 
 Dictionary Entry Name: Cross-Border_ Regulatory Procedure. Details
 
@@ -1119,7 +1119,7 @@ Type: rdf:Class
 
 Definition: A plan for paying a total sum of money by several payments made over a period of time.
 
-Unique UN Assigned ID: UN01013277
+Unique UN Assigned ID: <span id="UN01013277">UN01013277</span>
 
 Dictionary Entry Name: Payment_ Instalment Plan. Details
 
@@ -1135,7 +1135,7 @@ Type: rdf:Class
 
 Definition: The procedures to follow for returnable assets, such as reusable packaging (pallets, crates).
 
-Unique UN Assigned ID: UN01008860
+Unique UN Assigned ID: <span id="UN01008860">UN01008860</span>
 
 Dictionary Entry Name: Returnable Asset_ Instructions. Details
 
@@ -1155,7 +1155,7 @@ Type: rdf:Class
 
 Definition: Handling information of an instructive nature.
 
-Unique UN Assigned ID: UN01003625
+Unique UN Assigned ID: <span id="UN01003625">UN01003625</span>
 
 Dictionary Entry Name: Handling_ Instructions. Details
 
@@ -1183,7 +1183,7 @@ Type: rdf:Class
 
 Definition: Instructions for a period of imposed isolation or detention.
 
-Unique UN Assigned ID: UN01003988
+Unique UN Assigned ID: <span id="UN01003988">UN01003988</span>
 
 Dictionary Entry Name: Quarantine_ Instructions. Details
 
@@ -1200,7 +1200,7 @@ Type: rdf:Class
 
 Definition: Delivery information of an instructive nature.
 
-Unique UN Assigned ID: UN01003504
+Unique UN Assigned ID: <span id="UN01003504">UN01003504</span>
 
 Dictionary Entry Name: Delivery_ Instructions. Details
 
@@ -1219,7 +1219,7 @@ Type: rdf:Class
 
 Definition: Temperature setting related information of an instructive nature.
 
-Unique UN Assigned ID: UN01004489
+Unique UN Assigned ID: <span id="UN01004489">UN01004489</span>
 
 Dictionary Entry Name: Temperature Setting_ Instructions. Details
 
@@ -1237,7 +1237,7 @@ Type: rdf:Class
 
 Definition: Transport information of an instructive nature.
 
-Unique UN Assigned ID: UN01004811
+Unique UN Assigned ID: <span id="UN01004811">UN01004811</span>
 
 Dictionary Entry Name: Transport_ Instructions. Details
 
@@ -1254,7 +1254,7 @@ Type: rdf:Class
 
 Definition: Instructions related to the action or process of conveyance.
 
-Unique UN Assigned ID: UN01003634
+Unique UN Assigned ID: <span id="UN01003634">UN01003634</span>
 
 Dictionary Entry Name: Haulage_ Instructions. Details
 
@@ -1271,7 +1271,7 @@ Type: rdf:Class
 
 Definition: A set of instructions detailing how to properly dispose of a material.
 
-Unique UN Assigned ID: UN01002451
+Unique UN Assigned ID: <span id="UN01002451">UN01002451</span>
 
 Dictionary Entry Name: Disposal_ Instructions. Details
 
@@ -1290,7 +1290,7 @@ Type: rdf:Class
 
 Definition: A result of a financial transaction recorded within a financial account.
 
-Unique UN Assigned ID: UN01013213
+Unique UN Assigned ID: <span id="UN01013213">UN01013213</span>
 
 Dictionary Entry Name: Financial_ Booking. Details
 
@@ -1308,7 +1308,7 @@ Type: rdf:Class
 
 Definition: A specific trade account for recording debits and credits to general accounting, cost accounting or budget accounting.
 
-Unique UN Assigned ID: UN01004522
+Unique UN Assigned ID: <span id="UN01004522">UN01004522</span>
 
 Dictionary Entry Name: Trade_ Accounting Account. Details
 
@@ -1329,7 +1329,7 @@ Type: rdf:Class
 
 Definition: A collection of points, on the surface of the Earth (reference ISO 19136).
 
-Unique UN Assigned ID: UN01012183
+Unique UN Assigned ID: <span id="UN01012183">UN01012183</span>
 
 Dictionary Entry Name: Specified_ Geographical Multi-Point. Details
 
@@ -1347,7 +1347,7 @@ Type: rdf:Class
 
 Definition: The means by which a payment will be or has been made for trade settlement purposes.
 
-Unique UN Assigned ID: UN01004512
+Unique UN Assigned ID: <span id="UN01004512">UN01004512</span>
 
 Dictionary Entry Name: Trade Settlement_ Payment Means. Details
 
@@ -1374,7 +1374,7 @@ Type: rdf:Class
 
 Definition: An endeavour carefully planned to achieve a procurement of goods, works and service.
 
-Unique UN Assigned ID: UN01000371
+Unique UN Assigned ID: <span id="UN01000371">UN01000371</span>
 
 Dictionary Entry Name: Procuring_ Project. Details
 
@@ -1398,7 +1398,7 @@ Type: rdf:Class
 
 Definition: An academic achievement that is officially recognized.
 
-Unique UN Assigned ID: UN01002516
+Unique UN Assigned ID: <span id="UN01002516">UN01002516</span>
 
 Dictionary Entry Name: Academic_ Qualification. Details
 
@@ -1415,7 +1415,7 @@ Type: rdf:Class
 
 Definition: Any clearly defined substance having a defined molecular composition.
 
-Unique UN Assigned ID: UN01002172
+Unique UN Assigned ID: <span id="UN01002172">UN01002172</span>
 
 Dictionary Entry Name: Distinct_ Chemical. Details
 
@@ -1437,7 +1437,7 @@ Type: rdf:Class
 
 Definition: A specific business arrangement whereby credits arising from transactions are recorded.
 
-Unique UN Assigned ID: UN01003347
+Unique UN Assigned ID: <span id="UN01003347">UN01003347</span>
 
 Dictionary Entry Name: Creditor_ Financial Account. Details
 
@@ -1461,7 +1461,7 @@ Type: rdf:Class
 
 Definition: A specific business arrangement whereby debits arising from transactions are recorded.
 
-Unique UN Assigned ID: UN01003284
+Unique UN Assigned ID: <span id="UN01003284">UN01003284</span>
 
 Dictionary Entry Name: Debtor_ Financial Account. Details
 
@@ -1485,7 +1485,7 @@ Type: rdf:Class
 
 Definition: A financial account used internally by a bank to manage the line of credit granted to financing requesting party.
 
-Unique UN Assigned ID: UN01013253
+Unique UN Assigned ID: <span id="UN01013253">UN01013253</span>
 
 Dictionary Entry Name: Financing_ Financial Account. Details
 
@@ -1508,7 +1508,7 @@ Type: rdf:Class
 
 Definition: A textual or coded description, such as a remark or additional information.
 
-Unique UN Assigned ID: UN01002519
+Unique UN Assigned ID: <span id="UN01002519">UN01002519</span>
 
 Dictionary Entry Name: Note. Details
 
@@ -1528,7 +1528,7 @@ Type: rdf:Class
 
 Definition: Shipping arrangements and movement of products and or services including despatch and delivery at a header level.
 
-Unique UN Assigned ID: UN01011603
+Unique UN Assigned ID: <span id="UN01011603">UN01011603</span>
 
 Dictionary Entry Name: Header_ Trade Delivery. Details
 
@@ -1606,7 +1606,7 @@ Type: rdf:Class
 
 Definition: Supply chain shipping arrangements and movement of products and or services including despatch and delivery.
 
-Unique UN Assigned ID: UN01011849
+Unique UN Assigned ID: <span id="UN01011849">UN01011849</span>
 
 Dictionary Entry Name: Subordinate Line_ Trade Delivery. Details
 
@@ -1625,7 +1625,7 @@ Type: rdf:Class
 
 Definition: Shipping arrangements and movement of products and or services including despatch and delivery at a line level.
 
-Unique UN Assigned ID: UN01011755
+Unique UN Assigned ID: <span id="UN01011755">UN01011755</span>
 
 Dictionary Entry Name: Line_ Trade Delivery. Details
 
@@ -1743,7 +1743,7 @@ Type: rdf:Class
 
 Definition: The area of land that belongs to a nation together with its properties, such as population, political organization, etc., used or referenced for trade purposes.
 
-Unique UN Assigned ID: UN01002552
+Unique UN Assigned ID: <span id="UN01002552">UN01002552</span>
 
 Dictionary Entry Name: Trade_ Country. Details
 
@@ -1761,7 +1761,7 @@ Type: rdf:Class
 
 Definition: A device used to secure an object and protect it from unauthorized entry or tampering during transport or other logistics operations.
 
-Unique UN Assigned ID: UN01003713
+Unique UN Assigned ID: <span id="UN01003713">UN01003713</span>
 
 Dictionary Entry Name: Logistics_ Seal. Details
 
@@ -1782,7 +1782,7 @@ Type: rdf:Class
 
 Definition: A self-contained wrapping or container within which goods can be contained for logistics purposes, such as a box or a barrel which can be filled, partially filled or empty.
 
-Unique UN Assigned ID: UN01003689
+Unique UN Assigned ID: <span id="UN01003689">UN01003689</span>
 
 Dictionary Entry Name: Logistics_ Package. Details
 
@@ -1822,7 +1822,7 @@ Type: rdf:Class
 
 Definition: A referenced self-contained wrapping or container within which goods can be contained for logistics purposes.
 
-Unique UN Assigned ID: UN01006790
+Unique UN Assigned ID: <span id="UN01006790">UN01006790</span>
 
 Dictionary Entry Name: Referenced_ Logistics_ Package. Details
 
@@ -1857,7 +1857,7 @@ Type: rdf:Class
 
 Definition: A transport related person, such as a member of a crew or a passenger.
 
-Unique UN Assigned ID: UN01004815
+Unique UN Assigned ID: <span id="UN01004815">UN01004815</span>
 
 Dictionary Entry Name: Transport_ Person. Details
 
@@ -1896,7 +1896,7 @@ Type: rdf:Class
 
 Definition: An individual human being in a position to give assistance or information.
 
-Unique UN Assigned ID: UN01005145
+Unique UN Assigned ID: <span id="UN01005145">UN01005145</span>
 
 Dictionary Entry Name: Contact_ Person. Details
 
@@ -1925,7 +1925,7 @@ Type: rdf:Class
 
 Definition: A person who is authorized to sign a document, such as a customs officer or other government official.
 
-Unique UN Assigned ID: UN01002513
+Unique UN Assigned ID: <span id="UN01002513">UN01002513</span>
 
 Dictionary Entry Name: Authoritative Signatory_ Person. Details
 
@@ -1942,7 +1942,7 @@ Type: rdf:Class
 
 Definition: Supply chain goods and materials held in stock.
 
-Unique UN Assigned ID: UN01004305
+Unique UN Assigned ID: <span id="UN01004305">UN01004305</span>
 
 Dictionary Entry Name: Supply Chain_ Inventory. Details
 
@@ -1972,7 +1972,7 @@ Type: rdf:Class
 
 Definition: A stores item, such as for onboard use during a journey.
 
-Unique UN Assigned ID: UN01013189
+Unique UN Assigned ID: <span id="UN01013189">UN01013189</span>
 
 Dictionary Entry Name: Stores Item_ Inventory. Details
 
@@ -1992,7 +1992,7 @@ Type: rdf:Class
 
 Definition: Information about goods being transported identifying their nature for customs, statistical or transport purposes.
 
-Unique UN Assigned ID: UN01004757
+Unique UN Assigned ID: <span id="UN01004757">UN01004757</span>
 
 Dictionary Entry Name: Transport_ Cargo. Details
 
@@ -2011,7 +2011,7 @@ Type: rdf:Class
 
 Definition: An organization set up on a legal basis as a business, government body, department, charity, or financial institution.
 
-Unique UN Assigned ID: UN01003637
+Unique UN Assigned ID: <span id="UN01003637">UN01003637</span>
 
 Dictionary Entry Name: Legal_ Organization. Details
 
@@ -2035,7 +2035,7 @@ Type: rdf:Class
 
 Definition: Specified privately owned articles for personal use by an individual.
 
-Unique UN Assigned ID: UN01013184
+Unique UN Assigned ID: <span id="UN01013184">UN01013184</span>
 
 Dictionary Entry Name: Specified_ Personal Effects. Details
 
@@ -2054,7 +2054,7 @@ Type: rdf:Class
 
 Definition: A referenced piece of equipment used to hold, protect or secure cargo for logistics purposes.
 
-Unique UN Assigned ID: UN01004022
+Unique UN Assigned ID: <span id="UN01004022">UN01004022</span>
 
 Dictionary Entry Name: Referenced_ Logistics_ Transport Equipment. Details
 
@@ -2081,7 +2081,7 @@ Type: rdf:Class
 
 Definition: A piece of equipment used to hold, protect or secure cargo for logistics purposes.
 
-Unique UN Assigned ID: UN01003757
+Unique UN Assigned ID: <span id="UN01003757">UN01003757</span>
 
 Dictionary Entry Name: Logistics_ Transport Equipment. Details
 
@@ -2178,7 +2178,7 @@ Type: rdf:Class
 
 Definition: A piece of transport equipment that is associated with another piece of transport equipment, such as a maritime container placed on a rail wagon for transportation.
 
-Unique UN Assigned ID: UN01004883
+Unique UN Assigned ID: <span id="UN01004883">UN01004883</span>
 
 Dictionary Entry Name: Associated_ Transport Equipment. Details
 
@@ -2195,7 +2195,7 @@ Type: rdf:Class
 
 Definition: A piece of attached transport equipment, such as a chain or a tarpaulin.
 
-Unique UN Assigned ID: UN01003416
+Unique UN Assigned ID: <span id="UN01003416">UN01003416</span>
 
 Dictionary Entry Name: Attached_ Transport Equipment. Details
 
@@ -2215,7 +2215,7 @@ Type: rdf:Class
 
 Definition: A separately identifiable collection of goods items to be transported or available to be transported from one consignor to one consignee in a supply chain via one or more modes of transport where each consignment is the subject of one single transport contract.
 
-Unique UN Assigned ID: UN01004159
+Unique UN Assigned ID: <span id="UN01004159">UN01004159</span>
 
 Dictionary Entry Name: Supply Chain_ Consignment. Details
 
@@ -2386,7 +2386,7 @@ Type: rdf:Class
 
 Definition: A referenced, separately identifiable collection of goods items to be transported or available to be transported from one consignor to one consignee via one or more modes of transport where each consignment is the subject of one single transport contract.
 
-Unique UN Assigned ID: UN01004040
+Unique UN Assigned ID: <span id="UN01004040">UN01004040</span>
 
 Dictionary Entry Name: Referenced_ Supply Chain_ Consignment. Details
 
@@ -2432,7 +2432,7 @@ Type: rdf:Class
 
 Definition: A collection of monetary amount totals specified for a trade settlement payment.
 
-Unique UN Assigned ID: UN01011912
+Unique UN Assigned ID: <span id="UN01011912">UN01011912</span>
 
 Dictionary Entry Name: Trade Settlement Payment_ Monetary Summation. Details
 
@@ -2456,7 +2456,7 @@ Type: rdf:Class
 
 Definition: A collection of monetary amount totals, specified at line level, for a trade settlement.
 
-Unique UN Assigned ID: UN01011896
+Unique UN Assigned ID: <span id="UN01011896">UN01011896</span>
 
 Dictionary Entry Name: Trade Settlement Line_ Monetary Summation. Details
 
@@ -2487,7 +2487,7 @@ Type: rdf:Class
 
 Definition: A collection of monetary amount totals, specified at header level, for a trade settlement.
 
-Unique UN Assigned ID: UN01011871
+Unique UN Assigned ID: <span id="UN01011871">UN01011871</span>
 
 Dictionary Entry Name: Trade Settlement Header_ Monetary Summation. Details
 
@@ -2530,7 +2530,7 @@ Type: rdf:Class
 
 Definition: Trade terms and conditions by which a discount is or can be applied to a payable amount.
 
-Unique UN Assigned ID: UN01004617
+Unique UN Assigned ID: <span id="UN01004617">UN01004617</span>
 
 Dictionary Entry Name: Trade_ Payment Discount Terms. Details
 
@@ -2550,7 +2550,7 @@ Type: rdf:Class
 
 Definition: A card used to represent a financial account for a trade settlement.
 
-Unique UN Assigned ID: UN01004493
+Unique UN Assigned ID: <span id="UN01004493">UN01004493</span>
 
 Dictionary Entry Name: Trade Settlement_ Financial Card. Details
 
@@ -2577,7 +2577,7 @@ Type: rdf:Class
 
 Definition: An individual, a group, or a body having a role in a trade business function.
 
-Unique UN Assigned ID: UN01004594
+Unique UN Assigned ID: <span id="UN01004594">UN01004594</span>
 
 Dictionary Entry Name: Trade_ Party. Details
 
@@ -2623,7 +2623,7 @@ Type: rdf:Class
 
 Definition: An individual, a group, or a body having a role related to a location.
 
-Unique UN Assigned ID: UN01003661
+Unique UN Assigned ID: <span id="UN01003661">UN01003661</span>
 
 Dictionary Entry Name: Location_ Party. Details
 
@@ -2649,7 +2649,7 @@ Type: rdf:Class
 
 Definition: An individual, a group, or a body having a role as a requestor.
 
-Unique UN Assigned ID: UN01002017
+Unique UN Assigned ID: <span id="UN01002017">UN01002017</span>
 
 Dictionary Entry Name: Requesting_ Party. Details
 
@@ -2676,7 +2676,7 @@ Type: rdf:Class
 
 Definition: An unused and rejected as unwanted component of transport material.
 
-Unique UN Assigned ID: UN01013152
+Unique UN Assigned ID: <span id="UN01013152">UN01013152</span>
 
 Dictionary Entry Name: Transport Waste_ Material Component. Details
 
@@ -2698,7 +2698,7 @@ Type: rdf:Class
 
 Definition: A bank, building society, credit union, stock brokerage, or similar business of the party that receives money.
 
-Unique UN Assigned ID: UN01002975
+Unique UN Assigned ID: <span id="UN01002975">UN01002975</span>
 
 Dictionary Entry Name: Creditor_ Financial Institution. Details
 
@@ -2743,7 +2743,7 @@ Type: rdf:Class
 
 Definition: A sub-division of a bank, building society, credit union, stock brokerage, or similar business; established primarily to provide financial services and financial transactions.
 
-Unique UN Assigned ID: UN01003138
+Unique UN Assigned ID: <span id="UN01003138">UN01003138</span>
 
 Dictionary Entry Name: Branch_ Financial Institution. Details
 
@@ -2761,7 +2761,7 @@ Type: rdf:Class
 
 Definition: A bank, building society, credit union, stock brokerage, or similar business of the party that owes money.
 
-Unique UN Assigned ID: UN01002840
+Unique UN Assigned ID: <span id="UN01002840">UN01002840</span>
 
 Dictionary Entry Name: Debtor_ Financial Institution. Details
 
@@ -2803,7 +2803,7 @@ Type: rdf:Class
 
 Definition: An aggregation of descriptive information consisting of different but related characteristics that together constitute a work item complex description.
 
-Unique UN Assigned ID: UN01000067
+Unique UN Assigned ID: <span id="UN01000067">UN01000067</span>
 
 Dictionary Entry Name: Work Item_ Complex Description. Details
 
@@ -2824,7 +2824,7 @@ Type: rdf:Class
 
 Definition: A collection of countries and/or economies united for trade purposes.
 
-Unique UN Assigned ID: UN01004587
+Unique UN Assigned ID: <span id="UN01004587">UN01004587</span>
 
 Dictionary Entry Name: Trade_ Geopolitical Region. Details
 
@@ -2843,7 +2843,7 @@ Type: rdf:Class
 
 Definition: A collection of surfaces on the Earth (reference ISO 19136).
 
-Unique UN Assigned ID: UN01012196
+Unique UN Assigned ID: <span id="UN01012196">UN01012196</span>
 
 Dictionary Entry Name: Specified_ Geographical Multi-Surface. Details
 
@@ -2860,7 +2860,7 @@ Type: rdf:Class
 
 Definition: An address for the delivery of electronic mail.
 
-Unique UN Assigned ID: UN01002838
+Unique UN Assigned ID: <span id="UN01002838">UN01002838</span>
 
 Dictionary Entry Name: Email_ Communication. Details
 
@@ -2876,7 +2876,7 @@ Type: rdf:Class
 
 Definition: Information necessary to establish an electronic telecommunication connection for the purpose of a telephone or facsimile exchange.
 
-Unique UN Assigned ID: UN01002043
+Unique UN Assigned ID: <span id="UN01002043">UN01002043</span>
 
 Dictionary Entry Name: Telecommunication_ Communication. Details
 
@@ -2900,7 +2900,7 @@ Type: rdf:Class
 
 Definition: The exchange of thoughts, messages, or information, as universally exchanged by speech, signals, writing, or behaviour between persons and/or organizations.
 
-Unique UN Assigned ID: UN01001252
+Unique UN Assigned ID: <span id="UN01001252">UN01001252</span>
 
 Dictionary Entry Name: Universal_ Communication. Details
 
@@ -2918,7 +2918,7 @@ Type: rdf:Class
 
 Definition: The scenario or setting of an exchanged document, such as its business process application context.
 
-Unique UN Assigned ID: UN01003540
+Unique UN Assigned ID: <span id="UN01003540">UN01003540</span>
 
 Dictionary Entry Name: Exchanged Document_ Context. Details
 
@@ -2944,7 +2944,7 @@ Type: rdf:Class
 
 Definition: A cross-border trade related assessment of the worth of an object, such as its monetary value, for customs purposes.
 
-Unique UN Assigned ID: UN01003483
+Unique UN Assigned ID: <span id="UN01003483">UN01003483</span>
 
 Dictionary Entry Name: Cross-Border_ Customs Valuation. Details
 
@@ -2975,7 +2975,7 @@ Type: rdf:Class
 
 Definition: Conditions agreed upon between the parties with regard to the delivery of goods and or services for trade purposes.
 
-Unique UN Assigned ID: UN01001654
+Unique UN Assigned ID: <span id="UN01001654">UN01001654</span>
 
 Dictionary Entry Name: Trade_ Delivery Terms. Details
 
@@ -2996,7 +2996,7 @@ Type: rdf:Class
 
 Definition: A significant word, part of word or phrase that is used to enable indexing of or searching within a textual repository, such as a product catalogue or library.
 
-Unique UN Assigned ID: UN01007299
+Unique UN Assigned ID: <span id="UN01007299">UN01007299</span>
 
 Dictionary Entry Name: Keyword. Details
 
@@ -3012,7 +3012,7 @@ Type: rdf:Class
 
 Definition: A measure of spatial extent of an object, such as the length, breadth or height of a shipping container.
 
-Unique UN Assigned ID: UN01004075
+Unique UN Assigned ID: <span id="UN01004075">UN01004075</span>
 
 Dictionary Entry Name: Spatial_ Dimension. Details
 
@@ -3035,7 +3035,7 @@ Type: rdf:Class
 
 Definition: A measure of spatial extent associated with this work item, such as length, breadth, or height.
 
-Unique UN Assigned ID: UN01000056
+Unique UN Assigned ID: <span id="UN01000056">UN01000056</span>
 
 Dictionary Entry Name: Work Item_ Dimension. Details
 
@@ -3056,7 +3056,7 @@ Type: rdf:Class
 
 Definition: The conversion of one currency to another for trade purposes.
 
-Unique UN Assigned ID: UN01004576
+Unique UN Assigned ID: <span id="UN01004576">UN01004576</span>
 
 Dictionary Entry Name: Trade_ Currency Exchange. Details
 
@@ -3079,7 +3079,7 @@ Type: rdf:Class
 
 Definition: A specified computer file or program stored in a binary format.
 
-Unique UN Assigned ID: UN01006014
+Unique UN Assigned ID: <span id="UN01006014">UN01006014</span>
 
 Dictionary Entry Name: Specified_ Binary File. Details
 
@@ -3108,7 +3108,7 @@ Type: rdf:Class
 
 Definition: The parts into which a label is or may be divided.
 
-Unique UN Assigned ID: UN01012731
+Unique UN Assigned ID: <span id="UN01012731">UN01012731</span>
 
 Dictionary Entry Name: Label_ Section. Details
 
@@ -3126,7 +3126,7 @@ Type: rdf:Class
 
 Definition: A point on the surface of the Earth (reference ISO 19136).
 
-Unique UN Assigned ID: UN01012180
+Unique UN Assigned ID: <span id="UN01012180">UN01012180</span>
 
 Dictionary Entry Name: Specified_ Geographical Point. Details
 
@@ -3144,7 +3144,7 @@ Type: rdf:Class
 
 Definition: An actual or virtual place where buyers and sellers interact, directly or through intermediaries, to trade goods or services.
 
-Unique UN Assigned ID: UN01009952
+Unique UN Assigned ID: <span id="UN01009952">UN01009952</span>
 
 Dictionary Entry Name: Specified_ Marketplace. Details
 
@@ -3165,7 +3165,7 @@ Type: rdf:Class
 
 Definition: A proof that a document is genuine.
 
-Unique UN Assigned ID: UN01002639
+Unique UN Assigned ID: <span id="UN01002639">UN01002639</span>
 
 Dictionary Entry Name: Document_ Authentication. Details
 
@@ -3195,7 +3195,7 @@ Type: rdf:Class
 
 Definition: A significant occurrence or happening during transport.
 
-Unique UN Assigned ID: UN01004791
+Unique UN Assigned ID: <span id="UN01004791">UN01004791</span>
 
 Dictionary Entry Name: Transport_ Event. Details
 
@@ -3251,7 +3251,7 @@ Type: rdf:Class
 
 Definition: A significant occurrence or happening communicated by means of sending or receiving information, such as transmitting digital data by using the internet.
 
-Unique UN Assigned ID: UN01013560
+Unique UN Assigned ID: <span id="UN01013560">UN01013560</span>
 
 Dictionary Entry Name: Communication_ Event. Details
 
@@ -3276,7 +3276,7 @@ Type: rdf:Class
 
 Definition: A significant occurrence or happening in a supply chain.
 
-Unique UN Assigned ID: UN01004291
+Unique UN Assigned ID: <span id="UN01004291">UN01004291</span>
 
 Dictionary Entry Name: Supply Chain_ Event. Details
 
@@ -3304,7 +3304,7 @@ Type: rdf:Class
 
 Definition: A referenced significant occurrence or happening during transport.
 
-Unique UN Assigned ID: UN01010081
+Unique UN Assigned ID: <span id="UN01010081">UN01010081</span>
 
 Dictionary Entry Name: Referenced_ Transport_ Event. Details
 
@@ -3323,7 +3323,7 @@ Type: rdf:Class
 
 Definition: A set of measurable factors that specifies the conditions of its operation within a specific context.
 
-Unique UN Assigned ID: UN01013502
+Unique UN Assigned ID: <span id="UN01013502">UN01013502</span>
 
 Dictionary Entry Name: Control Setting_ Parameter. Details
 
@@ -3348,7 +3348,7 @@ Type: rdf:Class
 
 Definition: A feature that is fixed for a particular document context.
 
-Unique UN Assigned ID: UN01004852
+Unique UN Assigned ID: <span id="UN01004852">UN01004852</span>
 
 Dictionary Entry Name: Document Context_ Parameter. Details
 
@@ -3366,7 +3366,7 @@ Type: rdf:Class
 
 Definition: A set of measurable factors that specifies the conditions within which an entity operates correctly.
 
-Unique UN Assigned ID: UN01013513
+Unique UN Assigned ID: <span id="UN01013513">UN01013513</span>
 
 Dictionary Entry Name: Operational_ Parameter. Details
 
@@ -3391,7 +3391,7 @@ Type: rdf:Class
 
 Definition: Trade terms and conditions by which a penalty is or can be applied to a payable amount.
 
-Unique UN Assigned ID: UN01004626
+Unique UN Assigned ID: <span id="UN01004626">UN01004626</span>
 
 Dictionary Entry Name: Trade_ Payment Penalty Terms. Details
 
@@ -3411,7 +3411,7 @@ Type: rdf:Class
 
 Definition: A collection of curves on the surface of the Earth (reference ISO 19136).
 
-Unique UN Assigned ID: UN01012190
+Unique UN Assigned ID: <span id="UN01012190">UN01012190</span>
 
 Dictionary Entry Name: Specified_ Geographical Multi-Curve. Details
 
@@ -3429,7 +3429,7 @@ Type: rdf:Class
 
 Definition: A specified array of points which define a closed loop which is not self intersecting.
 
-Unique UN Assigned ID: UN01010472
+Unique UN Assigned ID: <span id="UN01010472">UN01010472</span>
 
 Dictionary Entry Name: Specified_ Linear Ring. Details
 
@@ -3448,7 +3448,7 @@ Type: rdf:Class
 
 Definition: The contractual terms of a subordinate line trade agreement.
 
-Unique UN Assigned ID: UN01011843
+Unique UN Assigned ID: <span id="UN01011843">UN01011843</span>
 
 Dictionary Entry Name: Subordinate Line_ Trade Agreement. Details
 
@@ -3468,7 +3468,7 @@ Type: rdf:Class
 
 Definition: The contractual terms of a header trade agreement.
 
-Unique UN Assigned ID: UN01011547
+Unique UN Assigned ID: <span id="UN01011547">UN01011547</span>
 
 Dictionary Entry Name: Header_ Trade Agreement. Details
 
@@ -3551,7 +3551,7 @@ Type: rdf:Class
 
 Definition: The contractual terms of a line trade agreement.
 
-Unique UN Assigned ID: UN01011693
+Unique UN Assigned ID: <span id="UN01011693">UN01011693</span>
 
 Dictionary Entry Name: Line_ Trade Agreement. Details
 
@@ -3642,7 +3642,7 @@ Type: rdf:Class
 
 Definition: A specified physical location described within a coordinate reference system.
 
-Unique UN Assigned ID: UN01010466
+Unique UN Assigned ID: <span id="UN01010466">UN01010466</span>
 
 Dictionary Entry Name: Specified_ Direct Position. Details
 
@@ -3662,7 +3662,7 @@ Type: rdf:Class
 
 Definition: The applied allowance or charge component of pricing.
 
-Unique UN Assigned ID: UN01000188
+Unique UN Assigned ID: <span id="UN01000188">UN01000188</span>
 
 Dictionary Entry Name: Applied_ Allowance Charge. Details
 
@@ -3684,7 +3684,7 @@ Type: rdf:Class
 
 Definition: A component of pricing, such as an allowance or charge for trade purposes.
 
-Unique UN Assigned ID: UN01001631
+Unique UN Assigned ID: <span id="UN01001631">UN01001631</span>
 
 Dictionary Entry Name: Trade_ Allowance Charge. Details
 
@@ -3713,7 +3713,7 @@ Type: rdf:Class
 
 Definition: A label used for identifying goods for logistics purposes, such as a barcode, a radio frequency tag or a Vehicle Identification Number (VIN).
 
-Unique UN Assigned ID: UN01003675
+Unique UN Assigned ID: <span id="UN01003675">UN01003675</span>
 
 Dictionary Entry Name: Logistics_ Label. Details
 
@@ -3734,7 +3734,7 @@ Type: rdf:Class
 
 Definition: A trade related fiscal levy or duty.
 
-Unique UN Assigned ID: UN01004709
+Unique UN Assigned ID: <span id="UN01004709">UN01004709</span>
 
 Dictionary Entry Name: Trade_ Tax. Details
 
@@ -3797,7 +3797,7 @@ Type: rdf:Class
 
 Definition: A total levy or payment for the support of a government that is required of persons, groups, or businesses within the domain of that government.
 
-Unique UN Assigned ID: UN01000183
+Unique UN Assigned ID: <span id="UN01000183">UN01000183</span>
 
 Dictionary Entry Name: Applied_ Tax. Details
 
@@ -3817,7 +3817,7 @@ Type: rdf:Class
 
 Definition: A registered tax or duty system pertaining to an authority.
 
-Unique UN Assigned ID: UN01004057
+Unique UN Assigned ID: <span id="UN01004057">UN01004057</span>
 
 Dictionary Entry Name: Registered_ Tax. Details
 
@@ -3839,7 +3839,7 @@ Type: rdf:Class
 
 Definition: A naturally occurring or designed sequence of operations or events that create, transform, or touch a product, such as manufacturing, treating, packaging, and storing.
 
-Unique UN Assigned ID: UN01002627
+Unique UN Assigned ID: <span id="UN01002627">UN01002627</span>
 
 Dictionary Entry Name: Product Handling_ Process. Details
 
@@ -3859,7 +3859,7 @@ Type: rdf:Class
 
 Definition: A detailed statement of work, prices, and dimensions for this valuation.
 
-Unique UN Assigned ID: UN01007545
+Unique UN Assigned ID: <span id="UN01007545">UN01007545</span>
 
 Dictionary Entry Name: Valuation_ Breakdown Statement. Details
 
@@ -3893,7 +3893,7 @@ Type: rdf:Class
 
 Definition: A set of terms and conditions by which a supply chain forecast has been or will be made.
 
-Unique UN Assigned ID: UN01004300
+Unique UN Assigned ID: <span id="UN01004300">UN01004300</span>
 
 Dictionary Entry Name: Supply Chain_ Forecast Terms. Details
 
@@ -3912,7 +3912,7 @@ Type: rdf:Class
 
 Definition: A connection between two points on the surface of the Earth (reference ISO 19136).
 
-Unique UN Assigned ID: UN01012187
+Unique UN Assigned ID: <span id="UN01012187">UN01012187</span>
 
 Dictionary Entry Name: Specified_ Geographical Line. Details
 
@@ -3930,7 +3930,7 @@ Type: rdf:Class
 
 Definition: A specific variant of a document.
 
-Unique UN Assigned ID: UN01003590
+Unique UN Assigned ID: <span id="UN01003590">UN01003590</span>
 
 Dictionary Entry Name: Document_ Version. Details
 
@@ -3948,7 +3948,7 @@ Type: rdf:Class
 
 Definition: An attribute of a geographical object.
 
-Unique UN Assigned ID: UN01012368
+Unique UN Assigned ID: <span id="UN01012368">UN01012368</span>
 
 Dictionary Entry Name: Specified_ Geographical Object Characteristic. Details
 
@@ -3971,7 +3971,7 @@ Type: rdf:Class
 
 Definition: The recording of items or details for a specific legal purpose.
 
-Unique UN Assigned ID: UN01003648
+Unique UN Assigned ID: <span id="UN01003648">UN01003648</span>
 
 Dictionary Entry Name: Legal_ Registration. Details
 
@@ -3990,7 +3990,7 @@ Type: rdf:Class
 
 Definition: Registration with a specific tax authority.
 
-Unique UN Assigned ID: UN01004486
+Unique UN Assigned ID: <span id="UN01004486">UN01004486</span>
 
 Dictionary Entry Name: Tax_ Registration. Details
 
@@ -4008,7 +4008,7 @@ Type: rdf:Class
 
 Definition: The recording of items or details for a governmental purpose.
 
-Unique UN Assigned ID: UN01011028
+Unique UN Assigned ID: <span id="UN01011028">UN01011028</span>
 
 Dictionary Entry Name: Government_ Registration. Details
 
@@ -4033,7 +4033,7 @@ Type: rdf:Class
 
 Definition: A set of geographical coordinates of a specific point such as the longitude, latitude and altitude.
 
-Unique UN Assigned ID: UN01003616
+Unique UN Assigned ID: <span id="UN01003616">UN01003616</span>
 
 Dictionary Entry Name: Geographical Coordinate. Details
 
@@ -4063,7 +4063,7 @@ Type: rdf:Class
 
 Definition: The latitude and longitude of a specified place, by which its relative situation on the globe is known. The height above the sea level constitutes a third coordinate.
 
-Unique UN Assigned ID: UN01002026
+Unique UN Assigned ID: <span id="UN01002026">UN01002026</span>
 
 Dictionary Entry Name: Specified_ Geographical Coordinate. Details
 
@@ -4084,7 +4084,7 @@ Type: rdf:Class
 
 Definition: The making or manufacturing of goods, such as from components or raw materials.
 
-Unique UN Assigned ID: UN01012676
+Unique UN Assigned ID: <span id="UN01012676">UN01012676</span>
 
 Dictionary Entry Name: Goods_ Production. Details
 
@@ -4101,7 +4101,7 @@ Type: rdf:Class
 
 Definition: The conveyance (physical carriage) of goods or other objects used for logistics transport purposes.
 
-Unique UN Assigned ID: UN01003837
+Unique UN Assigned ID: <span id="UN01003837">UN01003837</span>
 
 Dictionary Entry Name: Logistics_ Transport Movement. Details
 
@@ -4199,7 +4199,7 @@ Type: rdf:Class
 
 Definition: A number of means of transport following each other with a common logistics purpose.
 
-Unique UN Assigned ID: UN01010068
+Unique UN Assigned ID: <span id="UN01010068">UN01010068</span>
 
 Dictionary Entry Name: Logistics_ Convoy. Details
 
@@ -4219,7 +4219,7 @@ Type: rdf:Class
 
 Definition: A planar surface, defined by one exterior boundary and zero or more interior boundaries. Each interior boundary defines a hole in the polygon.
 
-Unique UN Assigned ID: UN01010475
+Unique UN Assigned ID: <span id="UN01010475">UN01010475</span>
 
 Dictionary Entry Name: Specified_ Polygon. Details
 
@@ -4238,7 +4238,7 @@ Type: rdf:Class
 
 Definition: Offset information to ensure that debits and credits are equal for a transaction.
 
-Unique UN Assigned ID: UN01011829
+Unique UN Assigned ID: <span id="UN01011829">UN01011829</span>
 
 Dictionary Entry Name: Payment_ Balance Out. Details
 
@@ -4259,7 +4259,7 @@ Type: rdf:Class
 
 Definition: Offset header information to ensure that debits and credits are equal for a transaction.
 
-Unique UN Assigned ID: UN01011539
+Unique UN Assigned ID: <span id="UN01011539">UN01011539</span>
 
 Dictionary Entry Name: Header_ Balance Out. Details
 
@@ -4281,7 +4281,7 @@ Type: rdf:Class
 
 Definition: A way or course taken from one location to another for the purpose of transporting cargo and or passengers.
 
-Unique UN Assigned ID: UN01004822
+Unique UN Assigned ID: <span id="UN01004822">UN01004822</span>
 
 Dictionary Entry Name: Transport_ Route. Details
 
@@ -4308,7 +4308,7 @@ Type: rdf:Class
 
 Definition: A political or physical area or region within the political boundaries of a country used or referenced for trade purposes.
 
-Unique UN Assigned ID: UN01002561
+Unique UN Assigned ID: <span id="UN01002561">UN01002561</span>
 
 Dictionary Entry Name: Trade_ Country Sub-Division. Details
 
@@ -4330,7 +4330,7 @@ Type: rdf:Class
 
 Definition: A distinctive feature of a material contained within physical goods.
 
-Unique UN Assigned ID: UN01003884
+Unique UN Assigned ID: <span id="UN01003884">UN01003884</span>
 
 Dictionary Entry Name: Material_ Goods Characteristic. Details
 
@@ -4350,7 +4350,7 @@ Type: rdf:Class
 
 Definition: A planar surface specified as one completely round flat shape in the mathematical sense.
 
-Unique UN Assigned ID: UN01013577
+Unique UN Assigned ID: <span id="UN01013577">UN01013577</span>
 
 Dictionary Entry Name: Specified_ Circle. Details
 
@@ -4369,7 +4369,7 @@ Type: rdf:Class
 
 Definition: A report that specifies a certification test and its attributes.
 
-Unique UN Assigned ID: UN01009034
+Unique UN Assigned ID: <span id="UN01009034">UN01009034</span>
 
 Dictionary Entry Name: Certification_ Test Specification Report. Details
 
@@ -4387,7 +4387,7 @@ Type: rdf:Class
 
 Definition: A prominent attribute or aspect of a product.
 
-Unique UN Assigned ID: UN01003971
+Unique UN Assigned ID: <span id="UN01003971">UN01003971</span>
 
 Dictionary Entry Name: Product_ Characteristic. Details
 
@@ -4415,7 +4415,7 @@ Type: rdf:Class
 
 Definition: A specific period of time such as the length of time between two known date/time points, from a start date onwards, or up to an end date for which something is available.
 
-Unique UN Assigned ID: UN01005108
+Unique UN Assigned ID: <span id="UN01005108">UN01005108</span>
 
 Dictionary Entry Name: Available_ Period. Details
 
@@ -4433,7 +4433,7 @@ Type: rdf:Class
 
 Definition: A specified period of time.
 
-Unique UN Assigned ID: UN01001270
+Unique UN Assigned ID: <span id="UN01001270">UN01001270</span>
 
 Dictionary Entry Name: Specified_ Period. Details
 
@@ -4462,7 +4462,7 @@ Type: rdf:Class
 
 Definition: A collection of information specific to a subordinate item being used or reported on for trade purposes.
 
-Unique UN Assigned ID: UN01004098
+Unique UN Assigned ID: <span id="UN01004098">UN01004098</span>
 
 Dictionary Entry Name: Subordinate_ Trade Line Item. Details
 
@@ -4483,7 +4483,7 @@ Type: rdf:Class
 
 Definition: A collection of information specific to an item being used or reported on for supply chain trade purposes.
 
-Unique UN Assigned ID: UN01004417
+Unique UN Assigned ID: <span id="UN01004417">UN01004417</span>
 
 Dictionary Entry Name: Supply Chain_ Trade Line Item. Details
 
@@ -4528,7 +4528,7 @@ Type: rdf:Class
 
 Definition: A row, line or series, commonly used to express the difference between lowest and highest values.
 
-Unique UN Assigned ID: UN01013524
+Unique UN Assigned ID: <span id="UN01013524">UN01013524</span>
 
 Dictionary Entry Name: Specified_ Range. Details
 
@@ -4549,7 +4549,7 @@ Type: rdf:Class
 
 Definition: The process of certifying that a certain product has passed performance and quality assurance tests, or qualification requirements stipulated in regulations.
 
-Unique UN Assigned ID: UN01008292
+Unique UN Assigned ID: <span id="UN01008292">UN01008292</span>
 
 Dictionary Entry Name: Trade Product_ Certification. Details
 
@@ -4568,7 +4568,7 @@ Type: rdf:Class
 
 Definition: A discharge of obligations in respect of funds or securities, transferred through one of several payments, between two or more parties.
 
-Unique UN Assigned ID: UN01013272
+Unique UN Assigned ID: <span id="UN01013272">UN01013272</span>
 
 Dictionary Entry Name: Instalment_ Payment. Details
 
@@ -4587,7 +4587,7 @@ Type: rdf:Class
 
 Definition: The specific discharge obligations in respect of funds or securities transferred between two or more parties as part of a trade settlement.
 
-Unique UN Assigned ID: UN01008866
+Unique UN Assigned ID: <span id="UN01008866">UN01008866</span>
 
 Dictionary Entry Name: Trade Settlement_ Payment. Details
 
@@ -4607,7 +4607,7 @@ Type: rdf:Class
 
 Definition: A prepaid discharge of obligations in respect of funds or securities transferred between two or more parties.
 
-Unique UN Assigned ID: UN01001295
+Unique UN Assigned ID: <span id="UN01001295">UN01001295</span>
 
 Dictionary Entry Name: Advance_ Payment. Details
 
@@ -4625,7 +4625,7 @@ Type: rdf:Class
 
 Definition: The information that enables the reconciliation of a payment with the item(s) that the payment is intended to settle, for example a commercial invoice.
 
-Unique UN Assigned ID: UN01003261
+Unique UN Assigned ID: <span id="UN01003261">UN01003261</span>
 
 Dictionary Entry Name: Payment_ Trade Settlement. Details
 
@@ -4648,7 +4648,7 @@ Type: rdf:Class
 
 Definition: The information, at a line level, that enables the reconciliation of a financial transaction with the item(s) that the financial transaction is intended to settle, for example a commercial invoice.
 
-Unique UN Assigned ID: UN01011800
+Unique UN Assigned ID: <span id="UN01011800">UN01011800</span>
 
 Dictionary Entry Name: Line_ Trade Settlement. Details
 
@@ -4691,7 +4691,7 @@ Type: rdf:Class
 
 Definition: The information, at a subordinate line level, that enables the reconciliation of a financial transaction with the item(s) that the financial transaction is intended to settle, for example a commercial invoice.
 
-Unique UN Assigned ID: UN01011854
+Unique UN Assigned ID: <span id="UN01011854">UN01011854</span>
 
 Dictionary Entry Name: Subordinate Line_ Trade Settlement. Details
 
@@ -4707,7 +4707,7 @@ Type: rdf:Class
 
 Definition: The information, at a header level, that enables the reconciliation of a financial transaction, with the item(s) that the financial transaction is intended to settle, such as a commercial invoice.
 
-Unique UN Assigned ID: UN01011643
+Unique UN Assigned ID: <span id="UN01011643">UN01011643</span>
 
 Dictionary Entry Name: Header_ Trade Settlement. Details
 
@@ -4784,7 +4784,7 @@ Type: rdf:Class
 
 Definition: A reference to a sum of money for which something is or may be bought or sold.
 
-Unique UN Assigned ID: UN01007304
+Unique UN Assigned ID: <span id="UN01007304">UN01007304</span>
 
 Dictionary Entry Name: Reference_ Price. Details
 
@@ -4803,7 +4803,7 @@ Type: rdf:Class
 
 Definition: Information related to a calculated price.
 
-Unique UN Assigned ID: UN01000179
+Unique UN Assigned ID: <span id="UN01000179">UN01000179</span>
 
 Dictionary Entry Name: Calculated_ Price. Details
 
@@ -4821,7 +4821,7 @@ Type: rdf:Class
 
 Definition: A sum of money for which something is or may be bought or sold for trade purposes.
 
-Unique UN Assigned ID: UN01001676
+Unique UN Assigned ID: <span id="UN01001676">UN01001676</span>
 
 Dictionary Entry Name: Trade_ Price. Details
 
@@ -4851,7 +4851,7 @@ Type: rdf:Class
 
 Definition: Specification of the delivery time and quantity bucket in a supply chain demand forecast or delivery schedule.
 
-Unique UN Assigned ID: UN01004324
+Unique UN Assigned ID: <span id="UN01004324">UN01004324</span>
 
 Dictionary Entry Name: Supply Chain_ Supply Plan. Details
 
@@ -4882,7 +4882,7 @@ Type: rdf:Class
 
 Definition: A specified act or instance of viewing or noting a fact or occurrence for some scientific or other special purpose.
 
-Unique UN Assigned ID: UN01012570
+Unique UN Assigned ID: <span id="UN01012570">UN01012570</span>
 
 Dictionary Entry Name: Specified_ Observation. Details
 
@@ -4901,7 +4901,7 @@ Type: rdf:Class
 
 Definition: Any material with which supply chain goods are packaged, such as a box or bubble wrap.
 
-Unique UN Assigned ID: UN01004312
+Unique UN Assigned ID: <span id="UN01004312">UN01004312</span>
 
 Dictionary Entry Name: Supply Chain_ Packaging. Details
 
@@ -4939,7 +4939,7 @@ Type: rdf:Class
 
 Definition: A collection of data for a piece of written, printed or electronic matter that provides information or evidence about the product.
 
-Unique UN Assigned ID: UN01012483
+Unique UN Assigned ID: <span id="UN01012483">UN01012483</span>
 
 Dictionary Entry Name: Product_ Certificate. Details
 
@@ -4965,7 +4965,7 @@ Type: rdf:Class
 
 Definition: An object which can detect and measure physical properties and which can record, indicate and transmit such measurements.
 
-Unique UN Assigned ID: UN01013539
+Unique UN Assigned ID: <span id="UN01013539">UN01013539</span>
 
 Dictionary Entry Name: Monitoring_ Sensor. Details
 
@@ -4993,7 +4993,7 @@ Type: rdf:Class
 
 Definition: An IOT (Internet of Things) piece of mechanical or electronic equipment which can collect, report and autonomously transmit digital data.
 
-Unique UN Assigned ID: UN01013475
+Unique UN Assigned ID: <span id="UN01013475">UN01013475</span>
 
 Dictionary Entry Name: Monitoring_ IOT Device. Details
 
@@ -5029,7 +5029,7 @@ Type: rdf:Class
 
 Definition: A measurement established by a device which is tested to a calibration standard of known accuracy.
 
-Unique UN Assigned ID: UN01013531
+Unique UN Assigned ID: <span id="UN01013531">UN01013531</span>
 
 Dictionary Entry Name: Calibrated_ Measurement. Details
 
@@ -5051,7 +5051,7 @@ Type: rdf:Class
 
 Definition: An amount, size, or extent as established by measuring.
 
-Unique UN Assigned ID: UN01003890
+Unique UN Assigned ID: <span id="UN01003890">UN01003890</span>
 
 Dictionary Entry Name: Measurement. Details
 
@@ -5072,7 +5072,7 @@ Type: rdf:Class
 
 Definition: Temperature settings for a transport movement, such as a required storage temperature range.
 
-Unique UN Assigned ID: UN01004746
+Unique UN Assigned ID: <span id="UN01004746">UN01004746</span>
 
 Dictionary Entry Name: Transport Setting_ Temperature. Details
 
@@ -5092,7 +5092,7 @@ Type: rdf:Class
 
 Definition: Temperature settings instructed for storage or movement of goods.
 
-Unique UN Assigned ID: UN01008871
+Unique UN Assigned ID: <span id="UN01008871">UN01008871</span>
 
 Dictionary Entry Name: Instructed_ Temperature. Details
 
@@ -5109,7 +5109,7 @@ Type: rdf:Class
 
 Definition: A specified temperature value or range of values.
 
-Unique UN Assigned ID: UN01009043
+Unique UN Assigned ID: <span id="UN01009043">UN01009043</span>
 
 Dictionary Entry Name: Specified_ Temperature. Details
 
@@ -5127,7 +5127,7 @@ Type: rdf:Class
 
 Definition: A calculation of the pollution (including noise, heat, and radiation etc.) discharged into the environment by a residential, commercial, or industrial facility or by a means of transport, such as a vessel, aircraft or truck.
 
-Unique UN Assigned ID: UN01010051
+Unique UN Assigned ID: <span id="UN01010051">UN01010051</span>
 
 Dictionary Entry Name: Calculated_ Emission. Details
 
@@ -5146,7 +5146,7 @@ Type: rdf:Class
 
 Definition: A referenced norm or requirement that establishes uniform criteria, methods, processes and practices, such as in engineering or technical areas.
 
-Unique UN Assigned ID: UN01008540
+Unique UN Assigned ID: <span id="UN01008540">UN01008540</span>
 
 Dictionary Entry Name: Referenced_ Standard. Details
 
@@ -5167,7 +5167,7 @@ Type: rdf:Class
 
 Definition: Terms and conditions by which payment has been or will be made for trade purposes.
 
-Unique UN Assigned ID: UN01001672
+Unique UN Assigned ID: <span id="UN01001672">UN01001672</span>
 
 Dictionary Entry Name: Trade_ Payment Terms. Details
 
@@ -5198,7 +5198,7 @@ Type: rdf:Class
 
 Definition: Representation of real world phenomenon associated with a location relative to the Earth, such as cities, buildings, roads, rivers, forests and lakes.
 
-Unique UN Assigned ID: UN01012168
+Unique UN Assigned ID: <span id="UN01012168">UN01012168</span>
 
 Dictionary Entry Name: Specified_ Geographical Feature. Details
 
@@ -5229,7 +5229,7 @@ Type: rdf:Class
 
 Definition: The parts into which a segment is or may be divided.
 
-Unique UN Assigned ID: UN01012735
+Unique UN Assigned ID: <span id="UN01012735">UN01012735</span>
 
 Dictionary Entry Name: Section_ Segment. Details
 
@@ -5248,7 +5248,7 @@ Type: rdf:Class
 
 Definition: An item within a supply chain consignment of goods separately identified for transport and customs purposes.
 
-Unique UN Assigned ID: UN01004103
+Unique UN Assigned ID: <span id="UN01004103">UN01004103</span>
 
 Dictionary Entry Name: Supply Chain_ Consignment Item. Details
 
@@ -5330,7 +5330,7 @@ Type: rdf:Class
 
 Definition: A reference to an item within a supply chain consignment of goods separately identified for transport and customs purposes.
 
-Unique UN Assigned ID: UN01004035
+Unique UN Assigned ID: <span id="UN01004035">UN01004035</span>
 
 Dictionary Entry Name: Referenced_ Supply Chain_ Consignment Item. Details
 
@@ -5356,7 +5356,7 @@ Type: rdf:Class
 
 Definition: A charge made for a logistics related service.
 
-Unique UN Assigned ID: UN01003721
+Unique UN Assigned ID: <span id="UN01003721">UN01003721</span>
 
 Dictionary Entry Name: Logistics_ Service Charge. Details
 
@@ -5391,7 +5391,7 @@ Type: rdf:Class
 
 Definition: A product tag device to provide protection from a peril such as theft.
 
-Unique UN Assigned ID: UN01007301
+Unique UN Assigned ID: <span id="UN01007301">UN01007301</span>
 
 Dictionary Entry Name: Product_ Security Tag. Details
 
@@ -5408,7 +5408,7 @@ Type: rdf:Class
 
 Definition: A collection of data for a piece of written, printed or electronic matter that is exchanged between two parties as a formal declaration.
 
-Unique UN Assigned ID: UN01011006
+Unique UN Assigned ID: <span id="UN01011006">UN01011006</span>
 
 Dictionary Entry Name: Exchanged_ Declaration. Details
 
@@ -5444,7 +5444,7 @@ Type: rdf:Class
 
 Definition: Goods which may contain a substance which poses risks to people and/or the environment during transportation which is regulated by dangerous goods regulations.
 
-Unique UN Assigned ID: UN01004762
+Unique UN Assigned ID: <span id="UN01004762">UN01004762</span>
 
 Dictionary Entry Name: Transport_ Dangerous Goods. Details
 
@@ -5510,7 +5510,7 @@ Type: rdf:Class
 
 Definition: The quantity analysis for this work item.
 
-Unique UN Assigned ID: UN01000015
+Unique UN Assigned ID: <span id="UN01000015">UN01000015</span>
 
 Dictionary Entry Name: Work Item_ Quantity Analysis. Details
 
@@ -5537,7 +5537,7 @@ Type: rdf:Class
 
 Definition: Properties defining a geographical coordinate source system used in different places around the world to identify locations on the earth.
 
-Unique UN Assigned ID: UN01013571
+Unique UN Assigned ID: <span id="UN01013571">UN01013571</span>
 
 Dictionary Entry Name: Geographical_ Coordinate Source System. Details
 
@@ -5557,7 +5557,7 @@ Type: rdf:Class
 
 Definition: The process by which two potentially communicating entities are linked.
 
-Unique UN Assigned ID: UN01013497
+Unique UN Assigned ID: <span id="UN01013497">UN01013497</span>
 
 Dictionary Entry Name: Communication_ Pairing. Details
 
@@ -5576,7 +5576,7 @@ Type: rdf:Class
 
 Definition: A state that applies to a product characteristic.
 
-Unique UN Assigned ID: UN01008312
+Unique UN Assigned ID: <span id="UN01008312">UN01008312</span>
 
 Dictionary Entry Name: Product Characteristic_ Condition. Details
 
@@ -5593,7 +5593,7 @@ Type: rdf:Class
 
 Definition: Physical markings or labels on individual packages or transport units for logistics purposes.
 
-Unique UN Assigned ID: UN01003741
+Unique UN Assigned ID: <span id="UN01003741">UN01003741</span>
 
 Dictionary Entry Name: Logistics_ Shipping Marks. Details
 
@@ -5613,7 +5613,7 @@ Type: rdf:Class
 
 Definition: A service associated with a transport movement.
 
-Unique UN Assigned ID: UN01004837
+Unique UN Assigned ID: <span id="UN01004837">UN01004837</span>
 
 Dictionary Entry Name: Transport_ Service. Details
 
@@ -5643,7 +5643,7 @@ Type: rdf:Class
 
 Definition: A referenced service associated with a specified event during transport movement.
 
-Unique UN Assigned ID: UN01010074
+Unique UN Assigned ID: <span id="UN01010074">UN01010074</span>
 
 Dictionary Entry Name: Referenced Transport_ Service. Details
 
@@ -5662,7 +5662,7 @@ Type: rdf:Class
 
 Definition: Any materials unused and rejected as unwanted during a transport movement.
 
-Unique UN Assigned ID: UN01013160
+Unique UN Assigned ID: <span id="UN01013160">UN01013160</span>
 
 Dictionary Entry Name: Transport Waste_ Material. Details
 
@@ -5682,7 +5682,7 @@ Type: rdf:Class
 
 Definition: Material capable of undergoing spontaneous nuclear decay involving emission of ionizing radiation in the form of particles or gamma rays.
 
-Unique UN Assigned ID: UN01006194
+Unique UN Assigned ID: <span id="UN01006194">UN01006194</span>
 
 Dictionary Entry Name: Radioactive_ Material. Details
 
@@ -5705,7 +5705,7 @@ Type: rdf:Class
 
 Definition: An inscription, stamp or label on packaging, such as to indicate date, ownership, quality, manufacture or origin.
 
-Unique UN Assigned ID: UN01003919
+Unique UN Assigned ID: <span id="UN01003919">UN01003919</span>
 
 Dictionary Entry Name: Packaging_ Marking. Details
 
@@ -5727,7 +5727,7 @@ Type: rdf:Class
 
 Definition: Insurance coverage for cargo during transport movements.
 
-Unique UN Assigned ID: UN01004752
+Unique UN Assigned ID: <span id="UN01004752">UN01004752</span>
 
 Dictionary Entry Name: Transport_ Cargo Insurance. Details
 
@@ -5746,7 +5746,7 @@ Type: rdf:Class
 
 Definition: Reference to a device or method used to convey people, goods, or other objects from place to place.
 
-Unique UN Assigned ID: UN01004049
+Unique UN Assigned ID: <span id="UN01004049">UN01004049</span>
 
 Dictionary Entry Name: Referenced_ Transport Means. Details
 
@@ -5766,7 +5766,7 @@ Type: rdf:Class
 
 Definition: The devices used to convey goods or other objects from place to place during logistics cargo movements.
 
-Unique UN Assigned ID: UN01003819
+Unique UN Assigned ID: <span id="UN01003819">UN01003819</span>
 
 Dictionary Entry Name: Logistics_ Transport Means. Details
 
@@ -5823,7 +5823,7 @@ Type: rdf:Class
 
 Definition: An individual trade product or batch of similar trade products produced by human or mechanical effort or by a natural process.
 
-Unique UN Assigned ID: UN01004651
+Unique UN Assigned ID: <span id="UN01004651">UN01004651</span>
 
 Dictionary Entry Name: Trade_ Product Instance. Details
 
@@ -5856,7 +5856,7 @@ Type: rdf:Class
 
 Definition: A person or a department that acts as a point of contact with another person or department in a trading relationship.
 
-Unique UN Assigned ID: UN01001640
+Unique UN Assigned ID: <span id="UN01001640">UN01001640</span>
 
 Dictionary Entry Name: Trade_ Contact. Details
 
@@ -5889,7 +5889,7 @@ Type: rdf:Class
 
 Definition: An object used in the management of the status changes in a business process.
 
-Unique UN Assigned ID: UN01011930
+Unique UN Assigned ID: <span id="UN01011930">UN01011930</span>
 
 Dictionary Entry Name: Trade_ Workflow Object. Details
 
@@ -5907,7 +5907,7 @@ Type: rdf:Class
 
 Definition: A response to a specification query.
 
-Unique UN Assigned ID: UN01000077
+Unique UN Assigned ID: <span id="UN01000077">UN01000077</span>
 
 Dictionary Entry Name: Specification_ Response. Details
 
@@ -5927,7 +5927,7 @@ Type: rdf:Class
 
 Definition: Hardware or software typically marketed by a company other than the original manufacturer.
 
-Unique UN Assigned ID: UN01013553
+Unique UN Assigned ID: <span id="UN01013553">UN01013553</span>
 
 Dictionary Entry Name: OEM_ Equipment. Details
 
@@ -5948,7 +5948,7 @@ Type: rdf:Class
 
 Definition: The specified list of coordinates for a physical location, expressed as a sequence of direct positions.
 
-Unique UN Assigned ID: UN01012471
+Unique UN Assigned ID: <span id="UN01012471">UN01012471</span>
 
 Dictionary Entry Name: Specified_ Direct Position List. Details
 
@@ -5969,7 +5969,7 @@ Type: rdf:Class
 
 Definition: A series of planned activities or things to be done in this supply chain.
 
-Unique UN Assigned ID: UN01012978
+Unique UN Assigned ID: <span id="UN01012978">UN01012978</span>
 
 Dictionary Entry Name: Supply Chain_ Schedule. Details
 
@@ -5989,7 +5989,7 @@ Type: rdf:Class
 
 Definition: A distinct article or provision in a document, which requires compliance.
 
-Unique UN Assigned ID: UN01002646
+Unique UN Assigned ID: <span id="UN01002646">UN01002646</span>
 
 Dictionary Entry Name: Document_ Clause. Details
 
@@ -6009,7 +6009,7 @@ Type: rdf:Class
 
 Definition: Articles of trade or commerce which are subject to, or controlled by a rule, regulation, or law at a particular point during their logistics lifecycle.
 
-Unique UN Assigned ID: UN01003711
+Unique UN Assigned ID: <span id="UN01003711">UN01003711</span>
 
 Dictionary Entry Name: Logistics_ Regulated Goods. Details
 
@@ -6025,7 +6025,7 @@ Type: rdf:Class
 
 Definition: A logistics related physical location or place.
 
-Unique UN Assigned ID: UN01003679
+Unique UN Assigned ID: <span id="UN01003679">UN01003679</span>
 
 Dictionary Entry Name: Logistics_ Location. Details
 
@@ -6055,7 +6055,7 @@ Type: rdf:Class
 
 Definition: A physical location or place which is a subordinate location of a subordinate location.
 
-Unique UN Assigned ID: UN01004087
+Unique UN Assigned ID: <span id="UN01004087">UN01004087</span>
 
 Dictionary Entry Name: Subordinate Subordinate_ Location. Details
 
@@ -6074,7 +6074,7 @@ Type: rdf:Class
 
 Definition: A physical location or place which is a subordinate location of a location.
 
-Unique UN Assigned ID: UN01004092
+Unique UN Assigned ID: <span id="UN01004092">UN01004092</span>
 
 Dictionary Entry Name: Subordinate_ Location. Details
 
@@ -6094,7 +6094,7 @@ Type: rdf:Class
 
 Definition: A physical location or place used or referenced for trade purposes.
 
-Unique UN Assigned ID: UN01001658
+Unique UN Assigned ID: <span id="UN01001658">UN01001658</span>
 
 Dictionary Entry Name: Trade_ Location. Details
 
@@ -6113,7 +6113,7 @@ Type: rdf:Class
 
 Definition: A location where a transport service takes place.
 
-Unique UN Assigned ID: UN01010086
+Unique UN Assigned ID: <span id="UN01010086">UN01010086</span>
 
 Dictionary Entry Name: Transport Service_ Location. Details
 
@@ -6131,7 +6131,7 @@ Type: rdf:Class
 
 Definition: The combination of the latitude and longitude forming a graticule, used for specifying the position of any location on the surface of the Earth, without consideration of altitude or depth (reference ISO 19136).
 
-Unique UN Assigned ID: UN01012202
+Unique UN Assigned ID: <span id="UN01012202">UN01012202</span>
 
 Dictionary Entry Name: Specified_ Geographical Grid. Details
 
