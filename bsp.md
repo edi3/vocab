@@ -3887,7 +3887,13 @@ Properties:
 
 Type: rdf:Class
 
-Comments: A specific trade account for recording debits and credits to general accounting, cost accounting or budget accounting.
+Cefact Element Metadata: 
+
+@id | cefact:Trade_AccountingAccount.Details
+@type | edi3:AggregateBIE
+edi3:cefactUNId | cefact:UN01004522
+rdfs:comment | A specific trade account for recording debits and credits to general accounting, cost accounting or budget accounting.
+edi3:cefactBusinessProcess | Buy-Ship-Pay
 
 Properties: 
 
@@ -3904,7 +3910,13 @@ Name | Type
 
 Type: rdf:Class
 
-Comments: A certified recognition that provides evidence of a level of competency in a given area, such as certifying a level of skill in a trade.
+Cefact Element Metadata: 
+
+@id | cefact:Certified_Accreditation.Details
+@type | edi3:AggregateBIE
+edi3:cefactUNId | cefact:UN01010056
+rdfs:comment | A certified recognition that provides evidence of a level of competency in a given area, such as certifying a level of skill in a trade.
+edi3:cefactBusinessProcess | Transport
 
 Properties: 
 
@@ -3923,7 +3935,25 @@ Name | Type
 
 Type: rdf:Class
 
-Comments: <br/>The place of birth.<br/>The location at which a particular trade related organization or person may be found or reached.<br/>The location at which a financial institution may be found or reached.<br/>
+Cefact Element Metadata: 
+
+@id | cefact:Trade_Address.Details
+@type | edi3:AggregateBIE
+edi3:cefactUNId | cefact:UN01004533
+rdfs:comment | The location at which a particular trade related organization or person may be found or reached.
+edi3:cefactBusinessProcess | Buy-Ship-Pay
+
+@id | cefact:Birth_Address.Details
+@type | edi3:AggregateBIE
+edi3:cefactUNId | cefact:UN01003169
+rdfs:comment | The place of birth.
+edi3:cefactBusinessProcess | Customer to bank payment initiation
+
+@id | cefact:FinancialInstitution_Address.Details
+@type | edi3:AggregateBIE
+edi3:cefactUNId | cefact:UN01003173
+rdfs:comment | The location at which a financial institution may be found or reached.
+edi3:cefactBusinessProcess | Customer to bank payment initiation
 
 Properties: 
 
@@ -3960,7 +3990,19 @@ Name | Type
 
 Type: rdf:Class
 
-Comments: <br/>A correction or modification to reflect actual financial conditions.<br/>A correction or modification to reflect actual delivery conditions.<br/>
+Cefact Element Metadata: 
+
+@id | cefact:Delivery_Adjustment.Details
+@type | edi3:AggregateBIE
+edi3:cefactUNId | cefact:UN01003498
+rdfs:comment | A correction or modification to reflect actual delivery conditions.
+edi3:cefactBusinessProcess | Buy-Ship-Pay
+
+@id | cefact:Financial_Adjustment.Details
+@type | edi3:AggregateBIE
+edi3:cefactUNId | cefact:UN01003594
+rdfs:comment | A correction or modification to reflect actual financial conditions.
+edi3:cefactBusinessProcess | In All Contexts
 
 Properties: 
 
@@ -3980,7 +4022,19 @@ Name | Type
 
 Type: rdf:Class
 
-Comments: <br/>A component of pricing, such as an allowance or charge for trade purposes.<br/>The applied allowance or charge component of pricing.<br/>
+Cefact Element Metadata: 
+
+@id | cefact:Trade_AllowanceCharge.Details
+@type | edi3:AggregateBIE
+edi3:cefactUNId | cefact:UN01001631
+rdfs:comment | A component of pricing, such as an allowance or charge for trade purposes.
+edi3:cefactBusinessProcess | Trade
+
+@id | cefact:Applied_AllowanceCharge.Details
+@type | edi3:AggregateBIE
+edi3:cefactUNId | cefact:UN01000188
+rdfs:comment | The applied allowance or charge component of pricing.
+edi3:cefactBusinessProcess | Pricing
 
 Properties: 
 
@@ -4008,7 +4062,13 @@ Name | Type
 
 Type: rdf:Class
 
-Comments: A proof that a document is genuine.
+Cefact Element Metadata: 
+
+@id | cefact:Document_Authentication.Details
+@type | edi3:AggregateBIE
+edi3:cefactUNId | cefact:UN01002639
+rdfs:comment | A proof that a document is genuine.
+edi3:cefactBusinessProcess | In All Contexts
 
 Properties: 
 
@@ -4034,7 +4094,19 @@ Name | Type
 
 Type: rdf:Class
 
-Comments: <br/>Offset header information to ensure that debits and credits are equal for a transaction.<br/>Offset information to ensure that debits and credits are equal for a transaction.<br/>
+Cefact Element Metadata: 
+
+@id | cefact:Payment_BalanceOut.Details
+@type | edi3:AggregateBIE
+edi3:cefactUNId | cefact:UN01011829
+rdfs:comment | Offset information to ensure that debits and credits are equal for a transaction.
+edi3:cefactBusinessProcess | Buy-Ship-Pay
+
+@id | cefact:Header_BalanceOut.Details
+@type | edi3:AggregateBIE
+edi3:cefactUNId | cefact:UN01011539
+rdfs:comment | Offset header information to ensure that debits and credits are equal for a transaction.
+edi3:cefactBusinessProcess | Buy-Ship-Pay
 
 Properties: 
 
@@ -4052,7 +4124,13 @@ Name | Type
 
 Type: rdf:Class
 
-Comments: A specified computer file or program stored in a binary format.
+Cefact Element Metadata: 
+
+@id | cefact:Specified_BinaryFile.Details
+@type | edi3:AggregateBIE
+edi3:cefactUNId | cefact:UN01006014
+rdfs:comment | A specified computer file or program stored in a binary format.
+edi3:cefactBusinessProcess | In All Contexts
 
 Properties: 
 
@@ -4077,7 +4155,13 @@ Name | Type
 
 Type: rdf:Class
 
-Comments: A result of a financial transaction recorded within a financial account.
+Cefact Element Metadata: 
+
+@id | cefact:Financial_Booking.Details
+@type | edi3:AggregateBIE
+edi3:cefactUNId | cefact:UN01013213
+rdfs:comment | A result of a financial transaction recorded within a financial account.
+edi3:cefactBusinessProcess | Buy-Ship-Pay
 
 Properties: 
 
@@ -4091,7 +4175,13 @@ Name | Type
 
 Type: rdf:Class
 
-Comments: A detailed statement of work, prices, and dimensions for this valuation.
+Cefact Element Metadata: 
+
+@id | cefact:Valuation_BreakdownStatement.Details
+@type | edi3:AggregateBIE
+edi3:cefactUNId | cefact:UN01007545
+rdfs:comment | A detailed statement of work, prices, and dimensions for this valuation.
+edi3:cefactBusinessProcess | Invoicing
 
 Properties: 
 
@@ -4121,7 +4211,13 @@ Name | Type
 
 Type: rdf:Class
 
-Comments: Information about goods being transported identifying their nature for customs, statistical or transport purposes.
+Cefact Element Metadata: 
+
+@id | cefact:Transport_Cargo.Details
+@type | edi3:AggregateBIE
+edi3:cefactUNId | cefact:UN01004757
+rdfs:comment | Information about goods being transported identifying their nature for customs, statistical or transport purposes.
+edi3:cefactBusinessProcess | In All Contexts
 
 Properties: 
 
@@ -4136,7 +4232,13 @@ Name | Type
 
 Type: rdf:Class
 
-Comments: Insurance coverage for cargo during transport movements.
+Cefact Element Metadata: 
+
+@id | cefact:Transport_CargoInsurance.Details
+@type | edi3:AggregateBIE
+edi3:cefactUNId | cefact:UN01004752
+rdfs:comment | Insurance coverage for cargo during transport movements.
+edi3:cefactBusinessProcess | In All Contexts
 
 Properties: 
 
@@ -4151,7 +4253,13 @@ Name | Type
 
 Type: rdf:Class
 
-Comments: A collection of data for a piece of written, printed or electronic matter that provides information or evidence about the product.
+Cefact Element Metadata: 
+
+@id | cefact:Product_Certificate.Details
+@type | edi3:AggregateBIE
+edi3:cefactUNId | cefact:UN01012483
+rdfs:comment | A collection of data for a piece of written, printed or electronic matter that provides information or evidence about the product.
+edi3:cefactBusinessProcess | Traceability
 
 Properties: 
 
@@ -4173,7 +4281,13 @@ Name | Type
 
 Type: rdf:Class
 
-Comments: The process of certifying that a certain product has passed performance and quality assurance tests, or qualification requirements stipulated in regulations.
+Cefact Element Metadata: 
+
+@id | cefact:TradeProduct_Certification.Details
+@type | edi3:AggregateBIE
+edi3:cefactUNId | cefact:UN01008292
+rdfs:comment | The process of certifying that a certain product has passed performance and quality assurance tests, or qualification requirements stipulated in regulations.
+edi3:cefactBusinessProcess | Trade
 
 Properties: 
 
@@ -4188,7 +4302,13 @@ Name | Type
 
 Type: rdf:Class
 
-Comments: A prominent attribute or aspect of a product.
+Cefact Element Metadata: 
+
+@id | cefact:Product_Characteristic.Details
+@type | edi3:AggregateBIE
+edi3:cefactUNId | cefact:UN01003971
+rdfs:comment | A prominent attribute or aspect of a product.
+edi3:cefactBusinessProcess | In All Contexts
 
 Properties: 
 
@@ -4212,7 +4332,13 @@ Name | Type
 
 Type: rdf:Class
 
-Comments: Any clearly defined substance having a defined molecular composition.
+Cefact Element Metadata: 
+
+@id | cefact:Distinct_Chemical.Details
+@type | edi3:AggregateBIE
+edi3:cefactUNId | cefact:UN01002172
+rdfs:comment | Any clearly defined substance having a defined molecular composition.
+edi3:cefactBusinessProcess | MSDS Reporting
 
 Properties: 
 
@@ -4230,7 +4356,13 @@ Name | Type
 
 Type: rdf:Class
 
-Comments: A process of applying a chemical, physical, or biological agent to an object.
+Cefact Element Metadata: 
+
+@id | cefact:Applied_ChemicalTreatment.Details
+@type | edi3:AggregateBIE
+edi3:cefactUNId | cefact:UN01009024
+rdfs:comment | A process of applying a chemical, physical, or biological agent to an object.
+edi3:cefactBusinessProcess | In All Contexts
 
 Properties: 
 
@@ -4250,7 +4382,13 @@ Name | Type
 
 Type: rdf:Class
 
-Comments: A planar surface specified as one completely round flat shape in the mathematical sense.
+Cefact Element Metadata: 
+
+@id | cefact:Specified_Circle.Details
+@type | edi3:AggregateBIE
+edi3:cefactUNId | cefact:UN01013577
+rdfs:comment | A planar surface specified as one completely round flat shape in the mathematical sense.
+edi3:cefactBusinessProcess | In All Contexts
 
 Properties: 
 
@@ -4265,7 +4403,13 @@ Name | Type
 
 Type: rdf:Class
 
-Comments: A systematic arrangement of products in classes or categories according to established criteria.
+Cefact Element Metadata: 
+
+@id | cefact:Product_Classification.Details
+@type | edi3:AggregateBIE
+edi3:cefactUNId | cefact:UN01002608
+rdfs:comment | A systematic arrangement of products in classes or categories according to established criteria.
+edi3:cefactBusinessProcess | In All Contexts
 
 Properties: 
 
@@ -4283,7 +4427,13 @@ Name | Type
 
 Type: rdf:Class
 
-Comments: A distinct article or provision in a document, which requires compliance.
+Cefact Element Metadata: 
+
+@id | cefact:Document_Clause.Details
+@type | edi3:AggregateBIE
+edi3:cefactUNId | cefact:UN01002646
+rdfs:comment | A distinct article or provision in a document, which requires compliance.
+edi3:cefactBusinessProcess | In All Contexts
 
 Properties: 
 
@@ -4299,7 +4449,25 @@ Name | Type
 
 Type: rdf:Class
 
-Comments: <br/>The exchange of thoughts, messages, or information, as universally exchanged by speech, signals, writing, or behaviour between persons and/or organizations.<br/>An address for the delivery of electronic mail.<br/>Information necessary to establish an electronic telecommunication connection for the purpose of a telephone or facsimile exchange.<br/>
+Cefact Element Metadata: 
+
+@id | cefact:Email_Communication.Details
+@type | edi3:AggregateBIE
+edi3:cefactUNId | cefact:UN01002838
+rdfs:comment | An address for the delivery of electronic mail.
+edi3:cefactBusinessProcess | In All Contexts
+
+@id | cefact:Telecommunication_Communication.Details
+@type | edi3:AggregateBIE
+edi3:cefactUNId | cefact:UN01002043
+rdfs:comment | Information necessary to establish an electronic telecommunication connection for the purpose of a telephone or facsimile exchange.
+edi3:cefactBusinessProcess | Project Management
+
+@id | cefact:Universal_Communication.Details
+@type | edi3:AggregateBIE
+edi3:cefactUNId | cefact:UN01001252
+rdfs:comment | The exchange of thoughts, messages, or information, as universally exchanged by speech, signals, writing, or behaviour between persons and/or organizations.
+edi3:cefactBusinessProcess | In All Contexts
 
 Properties: 
 
@@ -4321,7 +4489,13 @@ Name | Type
 
 Type: rdf:Class
 
-Comments: An aggregation of descriptive information consisting of different but related characteristics that together constitute a work item complex description.
+Cefact Element Metadata: 
+
+@id | cefact:WorkItem_ComplexDescription.Details
+@type | edi3:AggregateBIE
+edi3:cefactUNId | cefact:UN01000067
+rdfs:comment | An aggregation of descriptive information consisting of different but related characteristics that together constitute a work item complex description.
+edi3:cefactBusinessProcess | In All Contexts
 
 Properties: 
 
@@ -4338,7 +4512,13 @@ Name | Type
 
 Type: rdf:Class
 
-Comments: A state that applies to a product characteristic.
+Cefact Element Metadata: 
+
+@id | cefact:ProductCharacteristic_Condition.Details
+@type | edi3:AggregateBIE
+edi3:cefactUNId | cefact:UN01008312
+rdfs:comment | A state that applies to a product characteristic.
+edi3:cefactBusinessProcess | Supply Chain
 
 Properties: 
 
@@ -4352,7 +4532,19 @@ Name | Type
 
 Type: rdf:Class
 
-Comments: <br/>A separately identifiable collection of goods items to be transported or available to be transported from one consignor to one consignee in a supply chain via one or more modes of transport where each consignment is the subject of one single transport contract.<br/>A referenced, separately identifiable collection of goods items to be transported or available to be transported from one consignor to one consignee via one or more modes of transport where each consignment is the subject of one single transport contract.<br/>
+Cefact Element Metadata: 
+
+@id | cefact:SupplyChain_Consignment.Details
+@type | edi3:AggregateBIE
+edi3:cefactUNId | cefact:UN01004159
+rdfs:comment | A separately identifiable collection of goods items to be transported or available to be transported from one consignor to one consignee in a supply chain via one or more modes of transport where each consignment is the subject of one single transport contract.
+edi3:cefactBusinessProcess | Buy-Ship-Pay
+
+@id | cefact:Referenced_SupplyChain_Consignment.Details
+@type | edi3:AggregateBIE
+edi3:cefactUNId | cefact:UN01004040
+rdfs:comment | A referenced, separately identifiable collection of goods items to be transported or available to be transported from one consignor to one consignee via one or more modes of transport where each consignment is the subject of one single transport contract.
+edi3:cefactBusinessProcess | Buy-Ship-Pay
 
 Properties: 
 
@@ -4522,7 +4714,19 @@ Name | Type
 
 Type: rdf:Class
 
-Comments: <br/>A reference to an item within a supply chain consignment of goods separately identified for transport and customs purposes.<br/>An item within a supply chain consignment of goods separately identified for transport and customs purposes.<br/>
+Cefact Element Metadata: 
+
+@id | cefact:Referenced_SupplyChain_ConsignmentItem.Details
+@type | edi3:AggregateBIE
+edi3:cefactUNId | cefact:UN01004035
+rdfs:comment | A reference to an item within a supply chain consignment of goods separately identified for transport and customs purposes.
+edi3:cefactBusinessProcess | Buy-Ship-Pay
+
+@id | cefact:SupplyChain_ConsignmentItem.Details
+@type | edi3:AggregateBIE
+edi3:cefactUNId | cefact:UN01004103
+rdfs:comment | An item within a supply chain consignment of goods separately identified for transport and customs purposes.
+edi3:cefactBusinessProcess | Buy-Ship-Pay
 
 Properties: 
 
@@ -4600,7 +4804,13 @@ Name | Type
 
 Type: rdf:Class
 
-Comments: A person or a department that acts as a point of contact with another person or department in a trading relationship.
+Cefact Element Metadata: 
+
+@id | cefact:Trade_Contact.Details
+@type | edi3:AggregateBIE
+edi3:cefactUNId | cefact:UN01001640
+rdfs:comment | A person or a department that acts as a point of contact with another person or department in a trading relationship.
+edi3:cefactBusinessProcess | Trade
 
 Properties: 
 
@@ -4629,7 +4839,13 @@ Name | Type
 
 Type: rdf:Class
 
-Comments: The scenario or setting of an exchanged document, such as its business process application context.
+Cefact Element Metadata: 
+
+@id | cefact:ExchangedDocument_Context.Details
+@type | edi3:AggregateBIE
+edi3:cefactUNId | cefact:UN01003540
+rdfs:comment | The scenario or setting of an exchanged document, such as its business process application context.
+edi3:cefactBusinessProcess | In All Contexts
 
 Properties: 
 
@@ -4651,7 +4867,13 @@ Name | Type
 
 Type: rdf:Class
 
-Comments: A number of means of transport following each other with a common logistics purpose.
+Cefact Element Metadata: 
+
+@id | cefact:Logistics_Convoy.Details
+@type | edi3:AggregateBIE
+edi3:cefactUNId | cefact:UN01010068
+rdfs:comment | A number of means of transport following each other with a common logistics purpose.
+edi3:cefactBusinessProcess | Transport
 
 Properties: 
 
@@ -4667,7 +4889,13 @@ Name | Type
 
 Type: rdf:Class
 
-Comments: Properties defining a geographical coordinate source system used in different places around the world to identify locations on the earth.
+Cefact Element Metadata: 
+
+@id | cefact:Geographical_CoordinateSourceSystem.Details
+@type | edi3:AggregateBIE
+edi3:cefactUNId | cefact:UN01013571
+rdfs:comment | Properties defining a geographical coordinate source system used in different places around the world to identify locations on the earth.
+edi3:cefactBusinessProcess | In All Contexts
 
 Properties: 
 
@@ -4683,7 +4911,13 @@ Name | Type
 
 Type: rdf:Class
 
-Comments: The area of land that belongs to a nation together with its properties, such as population, political organization, etc., used or referenced for trade purposes.
+Cefact Element Metadata: 
+
+@id | cefact:Trade_Country.Details
+@type | edi3:AggregateBIE
+edi3:cefactUNId | cefact:UN01002552
+rdfs:comment | The area of land that belongs to a nation together with its properties, such as population, political organization, etc., used or referenced for trade purposes.
+edi3:cefactBusinessProcess | In All Contexts
 
 Properties: 
 
@@ -4697,7 +4931,13 @@ Name | Type
 
 Type: rdf:Class
 
-Comments: A political or physical area or region within the political boundaries of a country used or referenced for trade purposes.
+Cefact Element Metadata: 
+
+@id | cefact:Trade_CountrySub-Division.Details
+@type | edi3:AggregateBIE
+edi3:cefactUNId | cefact:UN01002561
+rdfs:comment | A political or physical area or region within the political boundaries of a country used or referenced for trade purposes.
+edi3:cefactBusinessProcess | In All Contexts
 
 Properties: 
 
@@ -4716,7 +4956,13 @@ Name | Type
 
 Type: rdf:Class
 
-Comments: The conversion of one currency to another for trade purposes.
+Cefact Element Metadata: 
+
+@id | cefact:Trade_CurrencyExchange.Details
+@type | edi3:AggregateBIE
+edi3:cefactUNId | cefact:UN01004576
+rdfs:comment | The conversion of one currency to another for trade purposes.
+edi3:cefactBusinessProcess | Buy-Ship-Pay
 
 Properties: 
 
@@ -4735,7 +4981,13 @@ Name | Type
 
 Type: rdf:Class
 
-Comments: A cross-border trade related assessment of the worth of an object, such as its monetary value, for customs purposes.
+Cefact Element Metadata: 
+
+@id | cefact:Cross-Border_CustomsValuation.Details
+@type | edi3:AggregateBIE
+edi3:cefactUNId | cefact:UN01003483
+rdfs:comment | A cross-border trade related assessment of the worth of an object, such as its monetary value, for customs purposes.
+edi3:cefactBusinessProcess | Buy-Ship-Pay
 
 Properties: 
 
@@ -4762,7 +5014,13 @@ Name | Type
 
 Type: rdf:Class
 
-Comments: Goods which may contain a substance which poses risks to people and/or the environment during transportation which is regulated by dangerous goods regulations.
+Cefact Element Metadata: 
+
+@id | cefact:Transport_DangerousGoods.Details
+@type | edi3:AggregateBIE
+edi3:cefactUNId | cefact:UN01004762
+rdfs:comment | Goods which may contain a substance which poses risks to people and/or the environment during transportation which is regulated by dangerous goods regulations.
+edi3:cefactBusinessProcess | In All Contexts
 
 Properties: 
 
@@ -4824,7 +5082,13 @@ Name | Type
 
 Type: rdf:Class
 
-Comments: A collection of data for a piece of written, printed or electronic matter that is exchanged between two parties as a formal declaration.
+Cefact Element Metadata: 
+
+@id | cefact:Exchanged_Declaration.Details
+@type | edi3:AggregateBIE
+edi3:cefactUNId | cefact:UN01011006
+rdfs:comment | A collection of data for a piece of written, printed or electronic matter that is exchanged between two parties as a formal declaration.
+edi3:cefactBusinessProcess | Buy-Ship-Pay
 
 Properties: 
 
@@ -4856,7 +5120,13 @@ Name | Type
 
 Type: rdf:Class
 
-Comments: Conditions agreed upon between the parties with regard to the delivery of goods and or services for trade purposes.
+Cefact Element Metadata: 
+
+@id | cefact:Trade_DeliveryTerms.Details
+@type | edi3:AggregateBIE
+edi3:cefactUNId | cefact:UN01001654
+rdfs:comment | Conditions agreed upon between the parties with regard to the delivery of goods and or services for trade purposes.
+edi3:cefactBusinessProcess | Trade
 
 Properties: 
 
@@ -4873,7 +5143,19 @@ Name | Type
 
 Type: rdf:Class
 
-Comments: <br/>A measure of spatial extent associated with this work item, such as length, breadth, or height.<br/>A measure of spatial extent of an object, such as the length, breadth or height of a shipping container.<br/>
+Cefact Element Metadata: 
+
+@id | cefact:WorkItem_Dimension.Details
+@type | edi3:AggregateBIE
+edi3:cefactUNId | cefact:UN01000056
+rdfs:comment | A measure of spatial extent associated with this work item, such as length, breadth, or height.
+edi3:cefactBusinessProcess | In All Contexts
+
+@id | cefact:Spatial_Dimension.Details
+@type | edi3:AggregateBIE
+edi3:cefactUNId | cefact:UN01004075
+rdfs:comment | A measure of spatial extent of an object, such as the length, breadth or height of a shipping container.
+edi3:cefactBusinessProcess | In All Contexts
 
 Properties: 
 
@@ -4895,7 +5177,13 @@ Name | Type
 
 Type: rdf:Class
 
-Comments: A specified physical location described within a coordinate reference system.
+Cefact Element Metadata: 
+
+@id | cefact:Specified_DirectPosition.Details
+@type | edi3:AggregateBIE
+edi3:cefactUNId | cefact:UN01010466
+rdfs:comment | A specified physical location described within a coordinate reference system.
+edi3:cefactBusinessProcess | Laboratory Observation
 
 Properties: 
 
@@ -4911,7 +5199,13 @@ Name | Type
 
 Type: rdf:Class
 
-Comments: The specified list of coordinates for a physical location, expressed as a sequence of direct positions.
+Cefact Element Metadata: 
+
+@id | cefact:Specified_DirectPositionList.Details
+@type | edi3:AggregateBIE
+edi3:cefactUNId | cefact:UN01012471
+rdfs:comment | The specified list of coordinates for a physical location, expressed as a sequence of direct positions.
+edi3:cefactBusinessProcess | Agricultural
 
 Properties: 
 
@@ -4928,7 +5222,49 @@ Name | Type
 
 Type: rdf:Class
 
-Comments: <br/>A collection of financing related data that provides an overview of key points.<br/>A collection of data for a piece of written, printed or electronic matter that is exchanged between two or more parties.<br/>A collection of data that reports the result of a financing request.<br/>Written, printed or electronic matter that is referenced.<br/>A collection of data for a line on a piece of written, printed or electronic matter that provides information or evidence.<br/>The set of characteristics shared by all individual transactions grouped for this financing request document.<br/>A document exchanged between parties for a business application level acknowledgement of the receipt of information.<br/>
+Cefact Element Metadata: 
+
+@id | cefact:FinancingSummary_Document.Details
+@type | edi3:AggregateBIE
+edi3:cefactUNId | cefact:UN01013245
+rdfs:comment | A collection of financing related data that provides an overview of key points.
+edi3:cefactBusinessProcess | Buy-Ship-Pay
+
+@id | cefact:Acknowledgement_Document.Details
+@type | edi3:AggregateBIE
+edi3:cefactUNId | cefact:UN01002071
+rdfs:comment | A document exchanged between parties for a business application level acknowledgement of the receipt of information.
+edi3:cefactBusinessProcess | In All Contexts
+
+@id | cefact:Exchanged_Document.Details
+@type | edi3:AggregateBIE
+edi3:cefactUNId | cefact:UN01002487
+rdfs:comment | A collection of data for a piece of written, printed or electronic matter that is exchanged between two or more parties.
+edi3:cefactBusinessProcess | In All Contexts
+
+@id | cefact:Referenced_Document.Details
+@type | edi3:AggregateBIE
+edi3:cefactUNId | cefact:UN01001569
+rdfs:comment | Written, printed or electronic matter that is referenced.
+edi3:cefactBusinessProcess | Trade
+
+@id | cefact:DocumentLine_Document.Details
+@type | edi3:AggregateBIE
+edi3:cefactUNId | cefact:UN01003513
+rdfs:comment | A collection of data for a line on a piece of written, printed or electronic matter that provides information or evidence.
+edi3:cefactBusinessProcess | In All Contexts
+
+@id | cefact:FinancingRequestResult_Document.Details
+@type | edi3:AggregateBIE
+edi3:cefactUNId | cefact:UN01013224
+rdfs:comment | A collection of data that reports the result of a financing request.
+edi3:cefactBusinessProcess | Buy-Ship-Pay
+
+@id | cefact:FinancingRequest_Document.Details
+@type | edi3:AggregateBIE
+edi3:cefactUNId | cefact:UN01013228
+rdfs:comment | The set of characteristics shared by all individual transactions grouped for this financing request document.
+edi3:cefactBusinessProcess | Buy-Ship-Pay
 
 Properties: 
 
@@ -5056,7 +5392,13 @@ Name | Type
 
 Type: rdf:Class
 
-Comments: A calculation of the pollution (including noise, heat, and radiation etc.) discharged into the environment by a residential, commercial, or industrial facility or by a means of transport, such as a vessel, aircraft or truck.
+Cefact Element Metadata: 
+
+@id | cefact:Calculated_Emission.Details
+@type | edi3:AggregateBIE
+edi3:cefactUNId | cefact:UN01010051
+rdfs:comment | A calculation of the pollution (including noise, heat, and radiation etc.) discharged into the environment by a residential, commercial, or industrial facility or by a means of transport, such as a vessel, aircraft or truck.
+edi3:cefactBusinessProcess | Transport
 
 Properties: 
 
@@ -5071,7 +5413,13 @@ Name | Type
 
 Type: rdf:Class
 
-Comments: Hardware or software typically marketed by a company other than the original manufacturer.
+Cefact Element Metadata: 
+
+@id | cefact:OEM_Equipment.Details
+@type | edi3:AggregateBIE
+edi3:cefactUNId | cefact:UN01013553
+rdfs:comment | Hardware or software typically marketed by a company other than the original manufacturer.
+edi3:cefactBusinessProcess | In All Contexts
 
 Properties: 
 
@@ -5088,7 +5436,31 @@ Name | Type
 
 Type: rdf:Class
 
-Comments: <br/>A significant occurrence or happening communicated by means of sending or receiving information, such as transmitting digital data by using the internet.<br/>A significant occurrence or happening during transport.<br/>A referenced significant occurrence or happening during transport.<br/>A significant occurrence or happening in a supply chain.<br/>
+Cefact Element Metadata: 
+
+@id | cefact:Communication_Event.Details
+@type | edi3:AggregateBIE
+edi3:cefactUNId | cefact:UN01013560
+rdfs:comment | A significant occurrence or happening communicated by means of sending or receiving information, such as transmitting digital data by using the internet.
+edi3:cefactBusinessProcess | In All Contexts
+
+@id | cefact:Referenced_Transport_Event.Details
+@type | edi3:AggregateBIE
+edi3:cefactUNId | cefact:UN01010081
+rdfs:comment | A referenced significant occurrence or happening during transport.
+edi3:cefactBusinessProcess | Transport
+
+@id | cefact:SupplyChain_Event.Details
+@type | edi3:AggregateBIE
+edi3:cefactUNId | cefact:UN01004291
+rdfs:comment | A significant occurrence or happening in a supply chain.
+edi3:cefactBusinessProcess | Buy-Ship-Pay
+
+@id | cefact:Transport_Event.Details
+@type | edi3:AggregateBIE
+edi3:cefactUNId | cefact:UN01004791
+rdfs:comment | A significant occurrence or happening during transport.
+edi3:cefactBusinessProcess | In All Contexts
 
 Properties: 
 
@@ -5153,7 +5525,13 @@ Name | Type
 
 Type: rdf:Class
 
-Comments: An identified defect or fault.
+Cefact Element Metadata: 
+
+@id | cefact:Identified_Fault.Details
+@type | edi3:AggregateBIE
+edi3:cefactUNId | cefact:UN01010065
+rdfs:comment | An identified defect or fault.
+edi3:cefactBusinessProcess | Transport
 
 Properties: 
 
@@ -5166,7 +5544,13 @@ Name | Type
 
 Type: rdf:Class
 
-Comments: Distinctive or characteristic parts of a trade product.
+Cefact Element Metadata: 
+
+@id | cefact:TradeProduct_Feature.Details
+@type | edi3:AggregateBIE
+edi3:cefactUNId | cefact:UN01007470
+rdfs:comment | Distinctive or characteristic parts of a trade product.
+edi3:cefactBusinessProcess | Buy-Ship-Pay
 
 Properties: 
 
@@ -5183,7 +5567,25 @@ Name | Type
 
 Type: rdf:Class
 
-Comments: <br/>A specific business arrangement whereby debits arising from transactions are recorded.<br/>A specific business arrangement whereby credits arising from transactions are recorded.<br/>A financial account used internally by a bank to manage the line of credit granted to financing requesting party.<br/>
+Cefact Element Metadata: 
+
+@id | cefact:Financing_FinancialAccount.Details
+@type | edi3:AggregateBIE
+edi3:cefactUNId | cefact:UN01013253
+rdfs:comment | A financial account used internally by a bank to manage the line of credit granted to financing requesting party.
+edi3:cefactBusinessProcess | Buy-Ship-Pay
+
+@id | cefact:Creditor_FinancialAccount.Details
+@type | edi3:AggregateBIE
+edi3:cefactUNId | cefact:UN01003347
+rdfs:comment | A specific business arrangement whereby credits arising from transactions are recorded.
+edi3:cefactBusinessProcess | Customer to bank payment initiation
+
+@id | cefact:Debtor_FinancialAccount.Details
+@type | edi3:AggregateBIE
+edi3:cefactUNId | cefact:UN01003284
+rdfs:comment | A specific business arrangement whereby debits arising from transactions are recorded.
+edi3:cefactBusinessProcess | Customer to bank payment initiation
 
 Properties: 
 
@@ -5205,7 +5607,13 @@ Name | Type
 
 Type: rdf:Class
 
-Comments: A card used to represent a financial account for a trade settlement.
+Cefact Element Metadata: 
+
+@id | cefact:TradeSettlement_FinancialCard.Details
+@type | edi3:AggregateBIE
+edi3:cefactUNId | cefact:UN01004493
+rdfs:comment | A card used to represent a financial account for a trade settlement.
+edi3:cefactBusinessProcess | Buy-Ship-Pay
 
 Properties: 
 
@@ -5228,7 +5636,25 @@ Name | Type
 
 Type: rdf:Class
 
-Comments: <br/>A bank, building society, credit union, stock brokerage, or similar business of the party that owes money.<br/>A bank, building society, credit union, stock brokerage, or similar business of the party that receives money.<br/>A sub-division of a bank, building society, credit union, stock brokerage, or similar business; established primarily to provide financial services and financial transactions.<br/>
+Cefact Element Metadata: 
+
+@id | cefact:Branch_FinancialInstitution.Details
+@type | edi3:AggregateBIE
+edi3:cefactUNId | cefact:UN01003138
+rdfs:comment | A sub-division of a bank, building society, credit union, stock brokerage, or similar business; established primarily to provide financial services and financial transactions.
+edi3:cefactBusinessProcess | Customer to bank payment initiation
+
+@id | cefact:Creditor_FinancialInstitution.Details
+@type | edi3:AggregateBIE
+edi3:cefactUNId | cefact:UN01002975
+rdfs:comment | A bank, building society, credit union, stock brokerage, or similar business of the party that receives money.
+edi3:cefactBusinessProcess | Customer to bank payment initiation
+
+@id | cefact:Debtor_FinancialInstitution.Details
+@type | edi3:AggregateBIE
+edi3:cefactUNId | cefact:UN01002840
+rdfs:comment | A bank, building society, credit union, stock brokerage, or similar business of the party that owes money.
+edi3:cefactBusinessProcess | Customer to bank payment initiation
 
 Properties: 
 
@@ -5270,7 +5696,13 @@ Name | Type
 
 Type: rdf:Class
 
-Comments: A set of terms and conditions by which a supply chain forecast has been or will be made.
+Cefact Element Metadata: 
+
+@id | cefact:SupplyChain_ForecastTerms.Details
+@type | edi3:AggregateBIE
+edi3:cefactUNId | cefact:UN01004300
+rdfs:comment | A set of terms and conditions by which a supply chain forecast has been or will be made.
+edi3:cefactBusinessProcess | Buy-Ship-Pay
 
 Properties: 
 
@@ -5285,7 +5717,19 @@ Name | Type
 
 Type: rdf:Class
 
-Comments: <br/>The latitude and longitude of a specified place, by which its relative situation on the globe is known. The height above the sea level constitutes a third coordinate.<br/>A set of geographical coordinates of a specific point such as the longitude, latitude and altitude.<br/>
+Cefact Element Metadata: 
+
+@id | cefact:Specified_GeographicalCoordinate.Details
+@type | edi3:AggregateBIE
+edi3:cefactUNId | cefact:UN01002026
+rdfs:comment | The latitude and longitude of a specified place, by which its relative situation on the globe is known. The height above the sea level constitutes a third coordinate.
+edi3:cefactBusinessProcess | In All Contexts
+
+@id | cefact:GeographicalCoordinate.Details
+@type | edi3:AggregateBIE
+edi3:cefactUNId | cefact:UN01003616
+rdfs:comment | A set of geographical coordinates of a specific point such as the longitude, latitude and altitude.
+edi3:cefactBusinessProcess | In All Contexts
 
 Properties: 
 
@@ -5311,7 +5755,13 @@ Name | Type
 
 Type: rdf:Class
 
-Comments: Representation of real world phenomenon associated with a location relative to the Earth, such as cities, buildings, roads, rivers, forests and lakes.
+Cefact Element Metadata: 
+
+@id | cefact:Specified_GeographicalFeature.Details
+@type | edi3:AggregateBIE
+edi3:cefactUNId | cefact:UN01012168
+rdfs:comment | Representation of real world phenomenon associated with a location relative to the Earth, such as cities, buildings, roads, rivers, forests and lakes.
+edi3:cefactBusinessProcess | Agricultural
 
 Properties: 
 
@@ -5338,7 +5788,13 @@ Name | Type
 
 Type: rdf:Class
 
-Comments: The combination of the latitude and longitude forming a graticule, used for specifying the position of any location on the surface of the Earth, without consideration of altitude or depth (reference ISO 19136).
+Cefact Element Metadata: 
+
+@id | cefact:Specified_GeographicalGrid.Details
+@type | edi3:AggregateBIE
+edi3:cefactUNId | cefact:UN01012202
+rdfs:comment | The combination of the latitude and longitude forming a graticule, used for specifying the position of any location on the surface of the Earth, without consideration of altitude or depth (reference ISO 19136).
+edi3:cefactBusinessProcess | Agricultural
 
 Properties: 
 
@@ -5359,7 +5815,13 @@ Name | Type
 
 Type: rdf:Class
 
-Comments: A connection between two points on the surface of the Earth (reference ISO 19136).
+Cefact Element Metadata: 
+
+@id | cefact:Specified_GeographicalLine.Details
+@type | edi3:AggregateBIE
+edi3:cefactUNId | cefact:UN01012187
+rdfs:comment | A connection between two points on the surface of the Earth (reference ISO 19136).
+edi3:cefactBusinessProcess | Agricultural
 
 Properties: 
 
@@ -5373,7 +5835,13 @@ Name | Type
 
 Type: rdf:Class
 
-Comments: A collection of curves on the surface of the Earth (reference ISO 19136).
+Cefact Element Metadata: 
+
+@id | cefact:Specified_GeographicalMulti-Curve.Details
+@type | edi3:AggregateBIE
+edi3:cefactUNId | cefact:UN01012190
+rdfs:comment | A collection of curves on the surface of the Earth (reference ISO 19136).
+edi3:cefactBusinessProcess | Agricultural
 
 Properties: 
 
@@ -5387,7 +5855,13 @@ Name | Type
 
 Type: rdf:Class
 
-Comments: A collection of points, on the surface of the Earth (reference ISO 19136).
+Cefact Element Metadata: 
+
+@id | cefact:Specified_GeographicalMulti-Point.Details
+@type | edi3:AggregateBIE
+edi3:cefactUNId | cefact:UN01012183
+rdfs:comment | A collection of points, on the surface of the Earth (reference ISO 19136).
+edi3:cefactBusinessProcess | Agricultural
 
 Properties: 
 
@@ -5401,7 +5875,13 @@ Name | Type
 
 Type: rdf:Class
 
-Comments: A collection of surfaces on the Earth (reference ISO 19136).
+Cefact Element Metadata: 
+
+@id | cefact:Specified_GeographicalMulti-Surface.Details
+@type | edi3:AggregateBIE
+edi3:cefactUNId | cefact:UN01012196
+rdfs:comment | A collection of surfaces on the Earth (reference ISO 19136).
+edi3:cefactBusinessProcess | Agricultural
 
 Properties: 
 
@@ -5414,7 +5894,13 @@ Name | Type
 
 Type: rdf:Class
 
-Comments: An attribute of a geographical object.
+Cefact Element Metadata: 
+
+@id | cefact:Specified_GeographicalObjectCharacteristic.Details
+@type | edi3:AggregateBIE
+edi3:cefactUNId | cefact:UN01012368
+rdfs:comment | An attribute of a geographical object.
+edi3:cefactBusinessProcess | Agricultural
 
 Properties: 
 
@@ -5433,7 +5919,13 @@ Name | Type
 
 Type: rdf:Class
 
-Comments: A point on the surface of the Earth (reference ISO 19136).
+Cefact Element Metadata: 
+
+@id | cefact:Specified_GeographicalPoint.Details
+@type | edi3:AggregateBIE
+edi3:cefactUNId | cefact:UN01012180
+rdfs:comment | A point on the surface of the Earth (reference ISO 19136).
+edi3:cefactBusinessProcess | Agricultural
 
 Properties: 
 
@@ -5447,7 +5939,13 @@ Name | Type
 
 Type: rdf:Class
 
-Comments: A figure on the Earth having only two dimensions (reference ISO 19136).
+Cefact Element Metadata: 
+
+@id | cefact:Specified_GeographicalSurface.Details
+@type | edi3:AggregateBIE
+edi3:cefactUNId | cefact:UN01012199
+rdfs:comment | A figure on the Earth having only two dimensions (reference ISO 19136).
+edi3:cefactBusinessProcess | Agricultural
 
 Properties: 
 
@@ -5460,7 +5958,13 @@ Name | Type
 
 Type: rdf:Class
 
-Comments: A collection of countries and/or economies united for trade purposes.
+Cefact Element Metadata: 
+
+@id | cefact:Trade_GeopoliticalRegion.Details
+@type | edi3:AggregateBIE
+edi3:cefactUNId | cefact:UN01004587
+rdfs:comment | A collection of countries and/or economies united for trade purposes.
+edi3:cefactBusinessProcess | Buy-Ship-Pay
 
 Properties: 
 
@@ -5475,7 +5979,13 @@ Name | Type
 
 Type: rdf:Class
 
-Comments: A distinctive feature of a material contained within physical goods.
+Cefact Element Metadata: 
+
+@id | cefact:Material_GoodsCharacteristic.Details
+@type | edi3:AggregateBIE
+edi3:cefactUNId | cefact:UN01003884
+rdfs:comment | A distinctive feature of a material contained within physical goods.
+edi3:cefactBusinessProcess | In All Contexts
 
 Properties: 
 
@@ -5491,7 +6001,13 @@ Name | Type
 
 Type: rdf:Class
 
-Comments: An IOT (Internet of Things) piece of mechanical or electronic equipment which can collect, report and autonomously transmit digital data.
+Cefact Element Metadata: 
+
+@id | cefact:Monitoring_IOTDevice.Details
+@type | edi3:AggregateBIE
+edi3:cefactUNId | cefact:UN01013475
+rdfs:comment | An IOT (Internet of Things) piece of mechanical or electronic equipment which can collect, report and autonomously transmit digital data.
+edi3:cefactBusinessProcess | Buy-Ship-Pay
 
 Properties: 
 
@@ -5523,7 +6039,31 @@ Name | Type
 
 Type: rdf:Class
 
-Comments: <br/>Identification of a person.<br/>Identification of a party who pays someone to do work on a regular or contractual basis.<br/>Proprietary information which uniquely identifies a person or organization.<br/>A financial identification for an organization.<br/>
+Cefact Element Metadata: 
+
+@id | cefact:Proprietary_Identity.Details
+@type | edi3:AggregateBIE
+edi3:cefactUNId | cefact:UN01013286
+rdfs:comment | Proprietary information which uniquely identifies a person or organization.
+edi3:cefactBusinessProcess | Buy-Ship-Pay
+
+@id | cefact:Person_Identity.Details
+@type | edi3:AggregateBIE
+edi3:cefactUNId | cefact:UN01013279
+rdfs:comment | Identification of a person.
+edi3:cefactBusinessProcess | Buy-Ship-Pay
+
+@id | cefact:Financial_Identity.Details
+@type | edi3:AggregateBIE
+edi3:cefactUNId | cefact:UN01013217
+rdfs:comment | A financial identification for an organization.
+edi3:cefactBusinessProcess | Buy-Ship-Pay
+
+@id | cefact:Employer_Identity.Details
+@type | edi3:AggregateBIE
+edi3:cefactUNId | cefact:UN01003023
+rdfs:comment | Identification of a party who pays someone to do work on a regular or contractual basis.
+edi3:cefactBusinessProcess | In All Contexts
 
 Properties: 
 
@@ -5548,7 +6088,13 @@ Name | Type
 
 Type: rdf:Class
 
-Comments: A plan for paying a total sum of money by several payments made over a period of time.
+Cefact Element Metadata: 
+
+@id | cefact:Payment_InstalmentPlan.Details
+@type | edi3:AggregateBIE
+edi3:cefactUNId | cefact:UN01013277
+rdfs:comment | A plan for paying a total sum of money by several payments made over a period of time.
+edi3:cefactBusinessProcess | Buy-Ship-Pay
 
 Properties: 
 
@@ -5560,7 +6106,55 @@ Name | Type
 
 Type: rdf:Class
 
-Comments: <br/>Instructions for a period of imposed isolation or detention.<br/>The procedures to follow for returnable assets, such as reusable packaging (pallets, crates).<br/>Transport information of an instructive nature.<br/>Temperature setting related information of an instructive nature.<br/>A set of instructions detailing how to properly dispose of a material.<br/>Delivery information of an instructive nature.<br/>Instructions related to the action or process of conveyance.<br/>Handling information of an instructive nature.<br/>
+Cefact Element Metadata: 
+
+@id | cefact:TemperatureSetting_Instructions.Details
+@type | edi3:AggregateBIE
+edi3:cefactUNId | cefact:UN01004489
+rdfs:comment | Temperature setting related information of an instructive nature.
+edi3:cefactBusinessProcess | In All Contexts
+
+@id | cefact:Delivery_Instructions.Details
+@type | edi3:AggregateBIE
+edi3:cefactUNId | cefact:UN01003504
+rdfs:comment | Delivery information of an instructive nature.
+edi3:cefactBusinessProcess | Buy-Ship-Pay
+
+@id | cefact:Transport_Instructions.Details
+@type | edi3:AggregateBIE
+edi3:cefactUNId | cefact:UN01004811
+rdfs:comment | Transport information of an instructive nature.
+edi3:cefactBusinessProcess | In All Contexts
+
+@id | cefact:ReturnableAsset_Instructions.Details
+@type | edi3:AggregateBIE
+edi3:cefactUNId | cefact:UN01008860
+rdfs:comment | The procedures to follow for returnable assets, such as reusable packaging (pallets, crates).
+edi3:cefactBusinessProcess | Supply Chain
+
+@id | cefact:Disposal_Instructions.Details
+@type | edi3:AggregateBIE
+edi3:cefactUNId | cefact:UN01002451
+rdfs:comment | A set of instructions detailing how to properly dispose of a material.
+edi3:cefactBusinessProcess | MSDS Reporting
+
+@id | cefact:Haulage_Instructions.Details
+@type | edi3:AggregateBIE
+edi3:cefactUNId | cefact:UN01003634
+rdfs:comment | Instructions related to the action or process of conveyance.
+edi3:cefactBusinessProcess | In All Contexts
+
+@id | cefact:Quarantine_Instructions.Details
+@type | edi3:AggregateBIE
+edi3:cefactUNId | cefact:UN01003988
+rdfs:comment | Instructions for a period of imposed isolation or detention.
+edi3:cefactBusinessProcess | Buy-Ship-Pay
+
+@id | cefact:Handling_Instructions.Details
+@type | edi3:AggregateBIE
+edi3:cefactUNId | cefact:UN01003625
+rdfs:comment | Handling information of an instructive nature.
+edi3:cefactBusinessProcess | In All Contexts
 
 Properties: 
 
@@ -5592,7 +6186,19 @@ Name | Type
 
 Type: rdf:Class
 
-Comments: <br/>A stores item, such as for onboard use during a journey.<br/>Supply chain goods and materials held in stock.<br/>
+Cefact Element Metadata: 
+
+@id | cefact:StoresItem_Inventory.Details
+@type | edi3:AggregateBIE
+edi3:cefactUNId | cefact:UN01013189
+rdfs:comment | A stores item, such as for onboard use during a journey.
+edi3:cefactBusinessProcess | Buy-Ship-Pay
+
+@id | cefact:SupplyChain_Inventory.Details
+@type | edi3:AggregateBIE
+edi3:cefactUNId | cefact:UN01004305
+rdfs:comment | Supply chain goods and materials held in stock.
+edi3:cefactBusinessProcess | Buy-Ship-Pay
 
 Properties: 
 
@@ -5622,7 +6228,13 @@ Name | Type
 
 Type: rdf:Class
 
-Comments: A significant word, part of word or phrase that is used to enable indexing of or searching within a textual repository, such as a product catalogue or library.
+Cefact Element Metadata: 
+
+@id | cefact:Keyword.Details
+@type | edi3:AggregateBIE
+edi3:cefactUNId | cefact:UN01007299
+rdfs:comment | A significant word, part of word or phrase that is used to enable indexing of or searching within a textual repository, such as a product catalogue or library.
+edi3:cefactBusinessProcess | In All Contexts
 
 Properties: 
 
@@ -5634,7 +6246,13 @@ Name | Type
 
 Type: rdf:Class
 
-Comments: A label used for identifying goods for logistics purposes, such as a barcode, a radio frequency tag or a Vehicle Identification Number (VIN).
+Cefact Element Metadata: 
+
+@id | cefact:Logistics_Label.Details
+@type | edi3:AggregateBIE
+edi3:cefactUNId | cefact:UN01003675
+rdfs:comment | A label used for identifying goods for logistics purposes, such as a barcode, a radio frequency tag or a Vehicle Identification Number (VIN).
+edi3:cefactBusinessProcess | Buy-Ship-Pay
 
 Properties: 
 
@@ -5651,7 +6269,13 @@ Name | Type
 
 Type: rdf:Class
 
-Comments: A specified array of points which define a closed loop which is not self intersecting.
+Cefact Element Metadata: 
+
+@id | cefact:Specified_LinearRing.Details
+@type | edi3:AggregateBIE
+edi3:cefactUNId | cefact:UN01010472
+rdfs:comment | A specified array of points which define a closed loop which is not self intersecting.
+edi3:cefactBusinessProcess | Laboratory Observation
 
 Properties: 
 
@@ -5666,7 +6290,37 @@ Name | Type
 
 Type: rdf:Class
 
-Comments: <br/>A location where a transport service takes place.<br/>A physical location or place used or referenced for trade purposes.<br/>A physical location or place which is a subordinate location of a location.<br/>A physical location or place which is a subordinate location of a subordinate location.<br/>A logistics related physical location or place.<br/>
+Cefact Element Metadata: 
+
+@id | cefact:SubordinateSubordinate_Location.Details
+@type | edi3:AggregateBIE
+edi3:cefactUNId | cefact:UN01004087
+rdfs:comment | A physical location or place which is a subordinate location of a subordinate location.
+edi3:cefactBusinessProcess | In All Contexts
+
+@id | cefact:Subordinate_Location.Details
+@type | edi3:AggregateBIE
+edi3:cefactUNId | cefact:UN01004092
+rdfs:comment | A physical location or place which is a subordinate location of a location.
+edi3:cefactBusinessProcess | In All Contexts
+
+@id | cefact:Logistics_Location.Details
+@type | edi3:AggregateBIE
+edi3:cefactUNId | cefact:UN01003679
+rdfs:comment | A logistics related physical location or place.
+edi3:cefactBusinessProcess | Buy-Ship-Pay
+
+@id | cefact:TransportService_Location.Details
+@type | edi3:AggregateBIE
+edi3:cefactUNId | cefact:UN01010086
+rdfs:comment | A location where a transport service takes place.
+edi3:cefactBusinessProcess | Transport
+
+@id | cefact:Trade_Location.Details
+@type | edi3:AggregateBIE
+edi3:cefactUNId | cefact:UN01001658
+rdfs:comment | A physical location or place used or referenced for trade purposes.
+edi3:cefactBusinessProcess | Trade
 
 Properties: 
 
@@ -5693,7 +6347,13 @@ Name | Type
 
 Type: rdf:Class
 
-Comments: An actual or virtual place where buyers and sellers interact, directly or through intermediaries, to trade goods or services.
+Cefact Element Metadata: 
+
+@id | cefact:Specified_Marketplace.Details
+@type | edi3:AggregateBIE
+edi3:cefactUNId | cefact:UN01009952
+rdfs:comment | An actual or virtual place where buyers and sellers interact, directly or through intermediaries, to trade goods or services.
+edi3:cefactBusinessProcess | Invoicing
 
 Properties: 
 
@@ -5710,7 +6370,13 @@ Name | Type
 
 Type: rdf:Class
 
-Comments: An inscription, stamp or label on packaging, such as to indicate date, ownership, quality, manufacture or origin.
+Cefact Element Metadata: 
+
+@id | cefact:Packaging_Marking.Details
+@type | edi3:AggregateBIE
+edi3:cefactUNId | cefact:UN01003919
+rdfs:comment | An inscription, stamp or label on packaging, such as to indicate date, ownership, quality, manufacture or origin.
+edi3:cefactBusinessProcess | In All Contexts
 
 Properties: 
 
@@ -5728,7 +6394,19 @@ Name | Type
 
 Type: rdf:Class
 
-Comments: <br/>Material capable of undergoing spontaneous nuclear decay involving emission of ionizing radiation in the form of particles or gamma rays.<br/>Any materials unused and rejected as unwanted during a transport movement.<br/>
+Cefact Element Metadata: 
+
+@id | cefact:Radioactive_Material.Details
+@type | edi3:AggregateBIE
+edi3:cefactUNId | cefact:UN01006194
+rdfs:comment | Material capable of undergoing spontaneous nuclear decay involving emission of ionizing radiation in the form of particles or gamma rays.
+edi3:cefactBusinessProcess | Cross-Border
+
+@id | cefact:TransportWaste_Material.Details
+@type | edi3:AggregateBIE
+edi3:cefactUNId | cefact:UN01013160
+rdfs:comment | Any materials unused and rejected as unwanted during a transport movement.
+edi3:cefactBusinessProcess | Transport
 
 Properties: 
 
@@ -5752,7 +6430,13 @@ Name | Type
 
 Type: rdf:Class
 
-Comments: An unused and rejected as unwanted component of transport material.
+Cefact Element Metadata: 
+
+@id | cefact:TransportWaste_MaterialComponent.Details
+@type | edi3:AggregateBIE
+edi3:cefactUNId | cefact:UN01013152
+rdfs:comment | An unused and rejected as unwanted component of transport material.
+edi3:cefactBusinessProcess | Transport
 
 Properties: 
 
@@ -5770,7 +6454,19 @@ Name | Type
 
 Type: rdf:Class
 
-Comments: <br/>A measurement established by a device which is tested to a calibration standard of known accuracy.<br/>An amount, size, or extent as established by measuring.<br/>
+Cefact Element Metadata: 
+
+@id | cefact:Calibrated_Measurement.Details
+@type | edi3:AggregateBIE
+edi3:cefactUNId | cefact:UN01013531
+rdfs:comment | A measurement established by a device which is tested to a calibration standard of known accuracy.
+edi3:cefactBusinessProcess | In All Contexts
+
+@id | cefact:Measurement.Details
+@type | edi3:AggregateBIE
+edi3:cefactUNId | cefact:UN01003890
+rdfs:comment | An amount, size, or extent as established by measuring.
+edi3:cefactBusinessProcess | In All Contexts
 
 Properties: 
 
@@ -5794,7 +6490,25 @@ Name | Type
 
 Type: rdf:Class
 
-Comments: <br/>A collection of monetary amount totals, specified at header level, for a trade settlement.<br/>A collection of monetary amount totals specified for a trade settlement payment.<br/>A collection of monetary amount totals, specified at line level, for a trade settlement.<br/>
+Cefact Element Metadata: 
+
+@id | cefact:TradeSettlementHeader_MonetarySummation.Details
+@type | edi3:AggregateBIE
+edi3:cefactUNId | cefact:UN01011871
+rdfs:comment | A collection of monetary amount totals, specified at header level, for a trade settlement.
+edi3:cefactBusinessProcess | Buy-Ship-Pay
+
+@id | cefact:TradeSettlementLine_MonetarySummation.Details
+@type | edi3:AggregateBIE
+edi3:cefactUNId | cefact:UN01011896
+rdfs:comment | A collection of monetary amount totals, specified at line level, for a trade settlement.
+edi3:cefactBusinessProcess | Buy-Ship-Pay
+
+@id | cefact:TradeSettlementPayment_MonetarySummation.Details
+@type | edi3:AggregateBIE
+edi3:cefactUNId | cefact:UN01011912
+rdfs:comment | A collection of monetary amount totals specified for a trade settlement payment.
+edi3:cefactBusinessProcess | Buy-Ship-Pay
 
 Properties: 
 
@@ -5836,7 +6550,13 @@ Name | Type
 
 Type: rdf:Class
 
-Comments: A textual or coded description, such as a remark or additional information.
+Cefact Element Metadata: 
+
+@id | cefact:Note.Details
+@type | edi3:AggregateBIE
+edi3:cefactUNId | cefact:UN01002519
+rdfs:comment | A textual or coded description, such as a remark or additional information.
+edi3:cefactBusinessProcess | In All Contexts
 
 Properties: 
 
@@ -5852,7 +6572,13 @@ Name | Type
 
 Type: rdf:Class
 
-Comments: A specified act or instance of viewing or noting a fact or occurrence for some scientific or other special purpose.
+Cefact Element Metadata: 
+
+@id | cefact:Specified_Observation.Details
+@type | edi3:AggregateBIE
+edi3:cefactUNId | cefact:UN01012570
+rdfs:comment | A specified act or instance of viewing or noting a fact or occurrence for some scientific or other special purpose.
+edi3:cefactBusinessProcess | In All Contexts
 
 Properties: 
 
@@ -5867,7 +6593,13 @@ Name | Type
 
 Type: rdf:Class
 
-Comments: An organization set up on a legal basis as a business, government body, department, charity, or financial institution.
+Cefact Element Metadata: 
+
+@id | cefact:Legal_Organization.Details
+@type | edi3:AggregateBIE
+edi3:cefactUNId | cefact:UN01003637
+rdfs:comment | An organization set up on a legal basis as a business, government body, department, charity, or financial institution.
+edi3:cefactBusinessProcess | In All Contexts
 
 Properties: 
 
@@ -5887,7 +6619,19 @@ Name | Type
 
 Type: rdf:Class
 
-Comments: <br/>A self-contained wrapping or container within which goods can be contained for logistics purposes, such as a box or a barrel which can be filled, partially filled or empty.<br/>A referenced self-contained wrapping or container within which goods can be contained for logistics purposes.<br/>
+Cefact Element Metadata: 
+
+@id | cefact:Referenced_Logistics_Package.Details
+@type | edi3:AggregateBIE
+edi3:cefactUNId | cefact:UN01006790
+rdfs:comment | A referenced self-contained wrapping or container within which goods can be contained for logistics purposes.
+edi3:cefactBusinessProcess | Buy-Ship-Pay
+
+@id | cefact:Logistics_Package.Details
+@type | edi3:AggregateBIE
+edi3:cefactUNId | cefact:UN01003689
+rdfs:comment | A self-contained wrapping or container within which goods can be contained for logistics purposes, such as a box or a barrel which can be filled, partially filled or empty.
+edi3:cefactBusinessProcess | Buy-Ship-Pay
 
 Properties: 
 
@@ -5928,7 +6672,13 @@ Name | Type
 
 Type: rdf:Class
 
-Comments: Any material with which supply chain goods are packaged, such as a box or bubble wrap.
+Cefact Element Metadata: 
+
+@id | cefact:SupplyChain_Packaging.Details
+@type | edi3:AggregateBIE
+edi3:cefactUNId | cefact:UN01004312
+rdfs:comment | Any material with which supply chain goods are packaged, such as a box or bubble wrap.
+edi3:cefactBusinessProcess | Buy-Ship-Pay
 
 Properties: 
 
@@ -5962,7 +6712,13 @@ Name | Type
 
 Type: rdf:Class
 
-Comments: The process by which two potentially communicating entities are linked.
+Cefact Element Metadata: 
+
+@id | cefact:Communication_Pairing.Details
+@type | edi3:AggregateBIE
+edi3:cefactUNId | cefact:UN01013497
+rdfs:comment | The process by which two potentially communicating entities are linked.
+edi3:cefactBusinessProcess | In All Contexts
 
 Properties: 
 
@@ -5977,7 +6733,25 @@ Name | Type
 
 Type: rdf:Class
 
-Comments: <br/>A set of measurable factors that specifies the conditions within which an entity operates correctly.<br/>A set of measurable factors that specifies the conditions of its operation within a specific context.<br/>A feature that is fixed for a particular document context.<br/>
+Cefact Element Metadata: 
+
+@id | cefact:ControlSetting_Parameter.Details
+@type | edi3:AggregateBIE
+edi3:cefactUNId | cefact:UN01013502
+rdfs:comment | A set of measurable factors that specifies the conditions of its operation within a specific context.
+edi3:cefactBusinessProcess | In All Contexts
+
+@id | cefact:Operational_Parameter.Details
+@type | edi3:AggregateBIE
+edi3:cefactUNId | cefact:UN01013513
+rdfs:comment | A set of measurable factors that specifies the conditions within which an entity operates correctly.
+edi3:cefactBusinessProcess | In All Contexts
+
+@id | cefact:DocumentContext_Parameter.Details
+@type | edi3:AggregateBIE
+edi3:cefactUNId | cefact:UN01004852
+rdfs:comment | A feature that is fixed for a particular document context.
+edi3:cefactBusinessProcess | In All Contexts
 
 Properties: 
 
@@ -6000,7 +6774,25 @@ Name | Type
 
 Type: rdf:Class
 
-Comments: <br/>An individual, a group, or a body having a role related to a location.<br/>An individual, a group, or a body having a role as a requestor.<br/>An individual, a group, or a body having a role in a trade business function.<br/>
+Cefact Element Metadata: 
+
+@id | cefact:Location_Party.Details
+@type | edi3:AggregateBIE
+edi3:cefactUNId | cefact:UN01003661
+rdfs:comment | An individual, a group, or a body having a role related to a location.
+edi3:cefactBusinessProcess | In All Contexts
+
+@id | cefact:Requesting_Party.Details
+@type | edi3:AggregateBIE
+edi3:cefactUNId | cefact:UN01002017
+rdfs:comment | An individual, a group, or a body having a role as a requestor.
+edi3:cefactBusinessProcess | Project Management
+
+@id | cefact:Trade_Party.Details
+@type | edi3:AggregateBIE
+edi3:cefactUNId | cefact:UN01004594
+rdfs:comment | An individual, a group, or a body having a role in a trade business function.
+edi3:cefactBusinessProcess | Buy-Ship-Pay
 
 Properties: 
 
@@ -6053,7 +6845,25 @@ Name | Type
 
 Type: rdf:Class
 
-Comments: <br/>The specific discharge obligations in respect of funds or securities transferred between two or more parties as part of a trade settlement.<br/>A discharge of obligations in respect of funds or securities, transferred through one of several payments, between two or more parties.<br/>A prepaid discharge of obligations in respect of funds or securities transferred between two or more parties.<br/>
+Cefact Element Metadata: 
+
+@id | cefact:Instalment_Payment.Details
+@type | edi3:AggregateBIE
+edi3:cefactUNId | cefact:UN01013272
+rdfs:comment | A discharge of obligations in respect of funds or securities, transferred through one of several payments, between two or more parties.
+edi3:cefactBusinessProcess | Buy-Ship-Pay
+
+@id | cefact:TradeSettlement_Payment.Details
+@type | edi3:AggregateBIE
+edi3:cefactUNId | cefact:UN01008866
+rdfs:comment | The specific discharge obligations in respect of funds or securities transferred between two or more parties as part of a trade settlement.
+edi3:cefactBusinessProcess | Trade
+
+@id | cefact:Advance_Payment.Details
+@type | edi3:AggregateBIE
+edi3:cefactUNId | cefact:UN01001295
+rdfs:comment | A prepaid discharge of obligations in respect of funds or securities transferred between two or more parties.
+edi3:cefactBusinessProcess | Trade
 
 Properties: 
 
@@ -6075,7 +6885,13 @@ Name | Type
 
 Type: rdf:Class
 
-Comments: Trade terms and conditions by which a discount is or can be applied to a payable amount.
+Cefact Element Metadata: 
+
+@id | cefact:Trade_PaymentDiscountTerms.Details
+@type | edi3:AggregateBIE
+edi3:cefactUNId | cefact:UN01004617
+rdfs:comment | Trade terms and conditions by which a discount is or can be applied to a payable amount.
+edi3:cefactBusinessProcess | Buy-Ship-Pay
 
 Properties: 
 
@@ -6091,7 +6907,13 @@ Name | Type
 
 Type: rdf:Class
 
-Comments: The means by which a payment will be or has been made for trade settlement purposes.
+Cefact Element Metadata: 
+
+@id | cefact:TradeSettlement_PaymentMeans.Details
+@type | edi3:AggregateBIE
+edi3:cefactUNId | cefact:UN01004512
+rdfs:comment | The means by which a payment will be or has been made for trade settlement purposes.
+edi3:cefactBusinessProcess | Buy-Ship-Pay
 
 Properties: 
 
@@ -6114,7 +6936,13 @@ Name | Type
 
 Type: rdf:Class
 
-Comments: Trade terms and conditions by which a penalty is or can be applied to a payable amount.
+Cefact Element Metadata: 
+
+@id | cefact:Trade_PaymentPenaltyTerms.Details
+@type | edi3:AggregateBIE
+edi3:cefactUNId | cefact:UN01004626
+rdfs:comment | Trade terms and conditions by which a penalty is or can be applied to a payable amount.
+edi3:cefactBusinessProcess | Buy-Ship-Pay
 
 Properties: 
 
@@ -6130,7 +6958,13 @@ Name | Type
 
 Type: rdf:Class
 
-Comments: Terms and conditions by which payment has been or will be made for trade purposes.
+Cefact Element Metadata: 
+
+@id | cefact:Trade_PaymentTerms.Details
+@type | edi3:AggregateBIE
+edi3:cefactUNId | cefact:UN01001672
+rdfs:comment | Terms and conditions by which payment has been or will be made for trade purposes.
+edi3:cefactBusinessProcess | Trade
 
 Properties: 
 
@@ -6157,7 +6991,19 @@ Name | Type
 
 Type: rdf:Class
 
-Comments: <br/>A specified period of time.<br/>A specific period of time such as the length of time between two known date/time points, from a start date onwards, or up to an end date for which something is available.<br/>
+Cefact Element Metadata: 
+
+@id | cefact:Available_Period.Details
+@type | edi3:AggregateBIE
+edi3:cefactUNId | cefact:UN01005108
+rdfs:comment | A specific period of time such as the length of time between two known date/time points, from a start date onwards, or up to an end date for which something is available.
+edi3:cefactBusinessProcess | In All Contexts
+
+@id | cefact:Specified_Period.Details
+@type | edi3:AggregateBIE
+edi3:cefactUNId | cefact:UN01001270
+rdfs:comment | A specified period of time.
+edi3:cefactBusinessProcess | In All Contexts
 
 Properties: 
 
@@ -6182,7 +7028,25 @@ Name | Type
 
 Type: rdf:Class
 
-Comments: <br/>A transport related person, such as a member of a crew or a passenger.<br/>A person who is authorized to sign a document, such as a customs officer or other government official.<br/>An individual human being in a position to give assistance or information.<br/>
+Cefact Element Metadata: 
+
+@id | cefact:AuthoritativeSignatory_Person.Details
+@type | edi3:AggregateBIE
+edi3:cefactUNId | cefact:UN01002513
+rdfs:comment | A person who is authorized to sign a document, such as a customs officer or other government official.
+edi3:cefactBusinessProcess | In All Contexts
+
+@id | cefact:Transport_Person.Details
+@type | edi3:AggregateBIE
+edi3:cefactUNId | cefact:UN01004815
+rdfs:comment | A transport related person, such as a member of a crew or a passenger.
+edi3:cefactBusinessProcess | In All Contexts
+
+@id | cefact:Contact_Person.Details
+@type | edi3:AggregateBIE
+edi3:cefactUNId | cefact:UN01005145
+rdfs:comment | An individual human being in a position to give assistance or information.
+edi3:cefactBusinessProcess | In All Contexts
 
 Properties: 
 
@@ -6227,7 +7091,13 @@ Name | Type
 
 Type: rdf:Class
 
-Comments: Specified privately owned articles for personal use by an individual.
+Cefact Element Metadata: 
+
+@id | cefact:Specified_PersonalEffects.Details
+@type | edi3:AggregateBIE
+edi3:cefactUNId | cefact:UN01013184
+rdfs:comment | Specified privately owned articles for personal use by an individual.
+edi3:cefactBusinessProcess | In All Contexts
 
 Properties: 
 
@@ -6242,7 +7112,13 @@ Name | Type
 
 Type: rdf:Class
 
-Comments: A planar surface, defined by one exterior boundary and zero or more interior boundaries. Each interior boundary defines a hole in the polygon.
+Cefact Element Metadata: 
+
+@id | cefact:Specified_Polygon.Details
+@type | edi3:AggregateBIE
+edi3:cefactUNId | cefact:UN01010475
+rdfs:comment | A planar surface, defined by one exterior boundary and zero or more interior boundaries. Each interior boundary defines a hole in the polygon.
+edi3:cefactBusinessProcess | Laboratory Observation
 
 Properties: 
 
@@ -6257,7 +7133,25 @@ Name | Type
 
 Type: rdf:Class
 
-Comments: <br/>A sum of money for which something is or may be bought or sold for trade purposes.<br/>A reference to a sum of money for which something is or may be bought or sold.<br/>Information related to a calculated price.<br/>
+Cefact Element Metadata: 
+
+@id | cefact:Reference_Price.Details
+@type | edi3:AggregateBIE
+edi3:cefactUNId | cefact:UN01007304
+rdfs:comment | A reference to a sum of money for which something is or may be bought or sold.
+edi3:cefactBusinessProcess | Buy-Ship-Pay
+
+@id | cefact:Trade_Price.Details
+@type | edi3:AggregateBIE
+edi3:cefactUNId | cefact:UN01001676
+rdfs:comment | A sum of money for which something is or may be bought or sold for trade purposes.
+edi3:cefactBusinessProcess | Trade
+
+@id | cefact:Calculated_Price.Details
+@type | edi3:AggregateBIE
+edi3:cefactUNId | cefact:UN01000179
+rdfs:comment | Information related to a calculated price.
+edi3:cefactBusinessProcess | In All Contexts
 
 Properties: 
 
@@ -6287,7 +7181,13 @@ Name | Type
 
 Type: rdf:Class
 
-Comments: A naturally occurring or designed sequence of operations or events that create, transform, or touch a product, such as manufacturing, treating, packaging, and storing.
+Cefact Element Metadata: 
+
+@id | cefact:ProductHandling_Process.Details
+@type | edi3:AggregateBIE
+edi3:cefactUNId | cefact:UN01002627
+rdfs:comment | A naturally occurring or designed sequence of operations or events that create, transform, or touch a product, such as manufacturing, treating, packaging, and storing.
+edi3:cefactBusinessProcess | In All Contexts
 
 Properties: 
 
@@ -6303,7 +7203,19 @@ Name | Type
 
 Type: rdf:Class
 
-Comments: <br/>A reference to a product or service produced by human or mechanical effort or by a natural process for trading purposes.<br/>Any tangible output or service produced by human or mechanical effort or by a natural process for trade purposes.<br/>
+Cefact Element Metadata: 
+
+@id | cefact:Referenced_Product.Details
+@type | edi3:AggregateBIE
+edi3:cefactUNId | cefact:UN01004027
+rdfs:comment | A reference to a product or service produced by human or mechanical effort or by a natural process for trading purposes.
+edi3:cefactBusinessProcess | In All Contexts
+
+@id | cefact:Trade_Product.Details
+@type | edi3:AggregateBIE
+edi3:cefactUNId | cefact:UN01004679
+rdfs:comment | Any tangible output or service produced by human or mechanical effort or by a natural process for trade purposes.
+edi3:cefactBusinessProcess | Buy-Ship-Pay
 
 Properties: 
 
@@ -6421,7 +7333,13 @@ Name | Type
 
 Type: rdf:Class
 
-Comments: A grouping of trade products.
+Cefact Element Metadata: 
+
+@id | cefact:Trade_ProductGroup.Details
+@type | edi3:AggregateBIE
+edi3:cefactUNId | cefact:UN01011922
+rdfs:comment | A grouping of trade products.
+edi3:cefactBusinessProcess | Trade
 
 Properties: 
 
@@ -6435,7 +7353,13 @@ Name | Type
 
 Type: rdf:Class
 
-Comments: An individual trade product or batch of similar trade products produced by human or mechanical effort or by a natural process.
+Cefact Element Metadata: 
+
+@id | cefact:Trade_ProductInstance.Details
+@type | edi3:AggregateBIE
+edi3:cefactUNId | cefact:UN01004651
+rdfs:comment | An individual trade product or batch of similar trade products produced by human or mechanical effort or by a natural process.
+edi3:cefactBusinessProcess | Buy-Ship-Pay
 
 Properties: 
 
@@ -6464,7 +7388,13 @@ Name | Type
 
 Type: rdf:Class
 
-Comments: The making or manufacturing of goods, such as from components or raw materials.
+Cefact Element Metadata: 
+
+@id | cefact:Goods_Production.Details
+@type | edi3:AggregateBIE
+edi3:cefactUNId | cefact:UN01012676
+rdfs:comment | The making or manufacturing of goods, such as from components or raw materials.
+edi3:cefactBusinessProcess | Cross Industry
 
 Properties: 
 
@@ -6477,7 +7407,13 @@ Name | Type
 
 Type: rdf:Class
 
-Comments: An endeavour carefully planned to achieve a procurement of goods, works and service.
+Cefact Element Metadata: 
+
+@id | cefact:Procuring_Project.Details
+@type | edi3:AggregateBIE
+edi3:cefactUNId | cefact:UN01000371
+rdfs:comment | An endeavour carefully planned to achieve a procurement of goods, works and service.
+edi3:cefactBusinessProcess | In All Contexts
 
 Properties: 
 
@@ -6497,7 +7433,13 @@ Name | Type
 
 Type: rdf:Class
 
-Comments: An academic achievement that is officially recognized.
+Cefact Element Metadata: 
+
+@id | cefact:Academic_Qualification.Details
+@type | edi3:AggregateBIE
+edi3:cefactUNId | cefact:UN01002516
+rdfs:comment | An academic achievement that is officially recognized.
+edi3:cefactBusinessProcess | In All Contexts
 
 Properties: 
 
@@ -6510,7 +7452,13 @@ Name | Type
 
 Type: rdf:Class
 
-Comments: The quantity analysis for this work item.
+Cefact Element Metadata: 
+
+@id | cefact:WorkItem_QuantityAnalysis.Details
+@type | edi3:AggregateBIE
+edi3:cefactUNId | cefact:UN01000015
+rdfs:comment | The quantity analysis for this work item.
+edi3:cefactBusinessProcess | In All Contexts
 
 Properties: 
 
@@ -6533,7 +7481,13 @@ Name | Type
 
 Type: rdf:Class
 
-Comments: A formally raised question or request for information about this specification.
+Cefact Element Metadata: 
+
+@id | cefact:Specification_Query.Details
+@type | edi3:AggregateBIE
+edi3:cefactUNId | cefact:UN01000073
+rdfs:comment | A formally raised question or request for information about this specification.
+edi3:cefactBusinessProcess | In All Contexts
 
 Properties: 
 
@@ -6548,7 +7502,13 @@ Name | Type
 
 Type: rdf:Class
 
-Comments: A row, line or series, commonly used to express the difference between lowest and highest values.
+Cefact Element Metadata: 
+
+@id | cefact:Specified_Range.Details
+@type | edi3:AggregateBIE
+edi3:cefactUNId | cefact:UN01013524
+rdfs:comment | A row, line or series, commonly used to express the difference between lowest and highest values.
+edi3:cefactBusinessProcess | In All Contexts
 
 Properties: 
 
@@ -6565,7 +7525,25 @@ Name | Type
 
 Type: rdf:Class
 
-Comments: <br/>The recording of items or details for a governmental purpose.<br/>The recording of items or details for a specific legal purpose.<br/>Registration with a specific tax authority.<br/>
+Cefact Element Metadata: 
+
+@id | cefact:Legal_Registration.Details
+@type | edi3:AggregateBIE
+edi3:cefactUNId | cefact:UN01003648
+rdfs:comment | The recording of items or details for a specific legal purpose.
+edi3:cefactBusinessProcess | In All Contexts
+
+@id | cefact:Tax_Registration.Details
+@type | edi3:AggregateBIE
+edi3:cefactUNId | cefact:UN01004486
+rdfs:comment | Registration with a specific tax authority.
+edi3:cefactBusinessProcess | In All Contexts
+
+@id | cefact:Government_Registration.Details
+@type | edi3:AggregateBIE
+edi3:cefactUNId | cefact:UN01011028
+rdfs:comment | The recording of items or details for a governmental purpose.
+edi3:cefactBusinessProcess | Buy-Ship-Pay
 
 Properties: 
 
@@ -6589,7 +7567,13 @@ Name | Type
 
 Type: rdf:Class
 
-Comments: Articles of trade or commerce which are subject to, or controlled by a rule, regulation, or law at a particular point during their logistics lifecycle.
+Cefact Element Metadata: 
+
+@id | cefact:Logistics_RegulatedGoods.Details
+@type | edi3:AggregateBIE
+edi3:cefactUNId | cefact:UN01003711
+rdfs:comment | Articles of trade or commerce which are subject to, or controlled by a rule, regulation, or law at a particular point during their logistics lifecycle.
+edi3:cefactBusinessProcess | Buy-Ship-Pay
 
 Properties: 
 
@@ -6601,7 +7585,13 @@ Name | Type
 
 Type: rdf:Class
 
-Comments: A set of formal steps to satisfy a cross-border regulation, law or convention.
+Cefact Element Metadata: 
+
+@id | cefact:Cross-Border_RegulatoryProcedure.Details
+@type | edi3:AggregateBIE
+edi3:cefactUNId | cefact:UN01006147
+rdfs:comment | A set of formal steps to satisfy a cross-border regulation, law or convention.
+edi3:cefactBusinessProcess | Buy-Ship-Pay
 
 Properties: 
 
@@ -6675,7 +7665,13 @@ Name | Type
 
 Type: rdf:Class
 
-Comments: A response to a specification query.
+Cefact Element Metadata: 
+
+@id | cefact:Specification_Response.Details
+@type | edi3:AggregateBIE
+edi3:cefactUNId | cefact:UN01000077
+rdfs:comment | A response to a specification query.
+edi3:cefactBusinessProcess | In All Contexts
 
 Properties: 
 
@@ -6691,7 +7687,13 @@ Name | Type
 
 Type: rdf:Class
 
-Comments: The result of a logistics risk analysis calculation.
+Cefact Element Metadata: 
+
+@id | cefact:Logistics_RiskAnalysisResult.Details
+@type | edi3:AggregateBIE
+edi3:cefactUNId | cefact:UN01013043
+rdfs:comment | The result of a logistics risk analysis calculation.
+edi3:cefactBusinessProcess | Buy-Ship-Pay
 
 Properties: 
 
@@ -6709,7 +7711,13 @@ Name | Type
 
 Type: rdf:Class
 
-Comments: A way or course taken from one location to another for the purpose of transporting cargo and or passengers.
+Cefact Element Metadata: 
+
+@id | cefact:Transport_Route.Details
+@type | edi3:AggregateBIE
+edi3:cefactUNId | cefact:UN01004822
+rdfs:comment | A way or course taken from one location to another for the purpose of transporting cargo and or passengers.
+edi3:cefactBusinessProcess | In All Contexts
 
 Properties: 
 
@@ -6732,7 +7740,13 @@ Name | Type
 
 Type: rdf:Class
 
-Comments: A series of planned activities or things to be done in this supply chain.
+Cefact Element Metadata: 
+
+@id | cefact:SupplyChain_Schedule.Details
+@type | edi3:AggregateBIE
+edi3:cefactUNId | cefact:UN01012978
+rdfs:comment | A series of planned activities or things to be done in this supply chain.
+edi3:cefactBusinessProcess | Supply Chain
 
 Properties: 
 
@@ -6748,7 +7762,13 @@ Name | Type
 
 Type: rdf:Class
 
-Comments: A device used to secure an object and protect it from unauthorized entry or tampering during transport or other logistics operations.
+Cefact Element Metadata: 
+
+@id | cefact:Logistics_Seal.Details
+@type | edi3:AggregateBIE
+edi3:cefactUNId | cefact:UN01003713
+rdfs:comment | A device used to secure an object and protect it from unauthorized entry or tampering during transport or other logistics operations.
+edi3:cefactBusinessProcess | Buy-Ship-Pay
 
 Properties: 
 
@@ -6765,7 +7785,13 @@ Name | Type
 
 Type: rdf:Class
 
-Comments: The parts into which a label is or may be divided.
+Cefact Element Metadata: 
+
+@id | cefact:Label_Section.Details
+@type | edi3:AggregateBIE
+edi3:cefactUNId | cefact:UN01012731
+rdfs:comment | The parts into which a label is or may be divided.
+edi3:cefactBusinessProcess | Cross Industry Trade
 
 Properties: 
 
@@ -6779,7 +7805,13 @@ Name | Type
 
 Type: rdf:Class
 
-Comments: A product tag device to provide protection from a peril such as theft.
+Cefact Element Metadata: 
+
+@id | cefact:Product_SecurityTag.Details
+@type | edi3:AggregateBIE
+edi3:cefactUNId | cefact:UN01007301
+rdfs:comment | A product tag device to provide protection from a peril such as theft.
+edi3:cefactBusinessProcess | In All Contexts
 
 Properties: 
 
@@ -6792,7 +7824,13 @@ Name | Type
 
 Type: rdf:Class
 
-Comments: The parts into which a segment is or may be divided.
+Cefact Element Metadata: 
+
+@id | cefact:Section_Segment.Details
+@type | edi3:AggregateBIE
+edi3:cefactUNId | cefact:UN01012735
+rdfs:comment | The parts into which a segment is or may be divided.
+edi3:cefactBusinessProcess | Cross Industry Trade
 
 Properties: 
 
@@ -6807,7 +7845,13 @@ Name | Type
 
 Type: rdf:Class
 
-Comments: An object which can detect and measure physical properties and which can record, indicate and transmit such measurements.
+Cefact Element Metadata: 
+
+@id | cefact:Monitoring_Sensor.Details
+@type | edi3:AggregateBIE
+edi3:cefactUNId | cefact:UN01013539
+rdfs:comment | An object which can detect and measure physical properties and which can record, indicate and transmit such measurements.
+edi3:cefactBusinessProcess | Buy-Ship-Pay
 
 Properties: 
 
@@ -6831,7 +7875,19 @@ Name | Type
 
 Type: rdf:Class
 
-Comments: <br/>A service associated with a transport movement.<br/>A referenced service associated with a specified event during transport movement.<br/>
+Cefact Element Metadata: 
+
+@id | cefact:ReferencedTransport_Service.Details
+@type | edi3:AggregateBIE
+edi3:cefactUNId | cefact:UN01010074
+rdfs:comment | A referenced service associated with a specified event during transport movement.
+edi3:cefactBusinessProcess | Transport
+
+@id | cefact:Transport_Service.Details
+@type | edi3:AggregateBIE
+edi3:cefactUNId | cefact:UN01004837
+rdfs:comment | A service associated with a transport movement.
+edi3:cefactBusinessProcess | In All Contexts
 
 Properties: 
 
@@ -6858,7 +7914,13 @@ Name | Type
 
 Type: rdf:Class
 
-Comments: A charge made for a logistics related service.
+Cefact Element Metadata: 
+
+@id | cefact:Logistics_ServiceCharge.Details
+@type | edi3:AggregateBIE
+edi3:cefactUNId | cefact:UN01003721
+rdfs:comment | A charge made for a logistics related service.
+edi3:cefactBusinessProcess | Buy-Ship-Pay
 
 Properties: 
 
@@ -6889,7 +7951,13 @@ Name | Type
 
 Type: rdf:Class
 
-Comments: Physical markings or labels on individual packages or transport units for logistics purposes.
+Cefact Element Metadata: 
+
+@id | cefact:Logistics_ShippingMarks.Details
+@type | edi3:AggregateBIE
+edi3:cefactUNId | cefact:UN01003741
+rdfs:comment | Physical markings or labels on individual packages or transport units for logistics purposes.
+edi3:cefactBusinessProcess | Buy-Ship-Pay
 
 Properties: 
 
@@ -6905,7 +7973,13 @@ Name | Type
 
 Type: rdf:Class
 
-Comments: A referenced norm or requirement that establishes uniform criteria, methods, processes and practices, such as in engineering or technical areas.
+Cefact Element Metadata: 
+
+@id | cefact:Referenced_Standard.Details
+@type | edi3:AggregateBIE
+edi3:cefactUNId | cefact:UN01008540
+rdfs:comment | A referenced norm or requirement that establishes uniform criteria, methods, processes and practices, such as in engineering or technical areas.
+edi3:cefactBusinessProcess | Supply Chain
 
 Properties: 
 
@@ -6922,7 +7996,43 @@ Name | Type
 
 Type: rdf:Class
 
-Comments: <br/>Information relevant to a condition of financing.<br/>The information relevant to a condition or a position related to logistics.<br/>The information relevant to a condition related to a document.<br/>Recorded information relevant to a condition or a position of an object.<br/>Information relevant to a condition of a validation.<br/>Information relevant to a condition of a cancellation.<br/>
+Cefact Element Metadata: 
+
+@id | cefact:Document_Status.Details
+@type | edi3:AggregateBIE
+edi3:cefactUNId | cefact:UN01013122
+rdfs:comment | The information relevant to a condition related to a document.
+edi3:cefactBusinessProcess | In All Contexts
+
+@id | cefact:Validation_Status.Details
+@type | edi3:AggregateBIE
+edi3:cefactUNId | cefact:UN01013305
+rdfs:comment | Information relevant to a condition of a validation.
+edi3:cefactBusinessProcess | Buy-Ship-Pay
+
+@id | cefact:Financing_Status.Details
+@type | edi3:AggregateBIE
+edi3:cefactUNId | cefact:UN01013262
+rdfs:comment | Information relevant to a condition of financing.
+edi3:cefactBusinessProcess | Buy-Ship-Pay
+
+@id | cefact:Recorded_Status.Details
+@type | edi3:AggregateBIE
+edi3:cefactUNId | cefact:UN01007516
+rdfs:comment | Recorded information relevant to a condition or a position of an object.
+edi3:cefactBusinessProcess | In All Contexts
+
+@id | cefact:Logistics_Status.Details
+@type | edi3:AggregateBIE
+edi3:cefactUNId | cefact:UN01003747
+rdfs:comment | The information relevant to a condition or a position related to logistics.
+edi3:cefactBusinessProcess | Buy-Ship-Pay
+
+@id | cefact:Cancellation_Status.Details
+@type | edi3:AggregateBIE
+edi3:cefactUNId | cefact:UN01013196
+rdfs:comment | Information relevant to a condition of a cancellation.
+edi3:cefactBusinessProcess | Buy-Ship-Pay
 
 Properties: 
 
@@ -6957,7 +8067,13 @@ Name | Type
 
 Type: rdf:Class
 
-Comments: Specification of the delivery time and quantity bucket in a supply chain demand forecast or delivery schedule.
+Cefact Element Metadata: 
+
+@id | cefact:SupplyChain_SupplyPlan.Details
+@type | edi3:AggregateBIE
+edi3:cefactUNId | cefact:UN01004324
+rdfs:comment | Specification of the delivery time and quantity bucket in a supply chain demand forecast or delivery schedule.
+edi3:cefactBusinessProcess | Buy-Ship-Pay
 
 Properties: 
 
@@ -6984,7 +8100,25 @@ Name | Type
 
 Type: rdf:Class
 
-Comments: <br/>A total levy or payment for the support of a government that is required of persons, groups, or businesses within the domain of that government.<br/>A trade related fiscal levy or duty.<br/>A registered tax or duty system pertaining to an authority.<br/>
+Cefact Element Metadata: 
+
+@id | cefact:Applied_Tax.Details
+@type | edi3:AggregateBIE
+edi3:cefactUNId | cefact:UN01000183
+rdfs:comment | A total levy or payment for the support of a government that is required of persons, groups, or businesses within the domain of that government.
+edi3:cefactBusinessProcess | In All Contexts
+
+@id | cefact:Trade_Tax.Details
+@type | edi3:AggregateBIE
+edi3:cefactUNId | cefact:UN01004709
+rdfs:comment | A trade related fiscal levy or duty.
+edi3:cefactBusinessProcess | Buy-Ship-Pay
+
+@id | cefact:Registered_Tax.Details
+@type | edi3:AggregateBIE
+edi3:cefactUNId | cefact:UN01004057
+rdfs:comment | A registered tax or duty system pertaining to an authority.
+edi3:cefactBusinessProcess | In All Contexts
 
 Properties: 
 
@@ -7046,7 +8180,25 @@ Name | Type
 
 Type: rdf:Class
 
-Comments: <br/>Temperature settings instructed for storage or movement of goods.<br/>A specified temperature value or range of values.<br/>Temperature settings for a transport movement, such as a required storage temperature range.<br/>
+Cefact Element Metadata: 
+
+@id | cefact:TransportSetting_Temperature.Details
+@type | edi3:AggregateBIE
+edi3:cefactUNId | cefact:UN01004746
+rdfs:comment | Temperature settings for a transport movement, such as a required storage temperature range.
+edi3:cefactBusinessProcess | In All Contexts
+
+@id | cefact:Instructed_Temperature.Details
+@type | edi3:AggregateBIE
+edi3:cefactUNId | cefact:UN01008871
+rdfs:comment | Temperature settings instructed for storage or movement of goods.
+edi3:cefactBusinessProcess | Supply Chain
+
+@id | cefact:Specified_Temperature.Details
+@type | edi3:AggregateBIE
+edi3:cefactUNId | cefact:UN01009043
+rdfs:comment | A specified temperature value or range of values.
+edi3:cefactBusinessProcess | In All Contexts
 
 Properties: 
 
@@ -7064,7 +8216,13 @@ Name | Type
 
 Type: rdf:Class
 
-Comments: A report that specifies a certification test and its attributes.
+Cefact Element Metadata: 
+
+@id | cefact:Certification_TestSpecificationReport.Details
+@type | edi3:AggregateBIE
+edi3:cefactUNId | cefact:UN01009034
+rdfs:comment | A report that specifies a certification test and its attributes.
+edi3:cefactBusinessProcess | In All Contexts
 
 Properties: 
 
@@ -7078,7 +8236,25 @@ Name | Type
 
 Type: rdf:Class
 
-Comments: <br/>The contractual terms of a line trade agreement.<br/>The contractual terms of a subordinate line trade agreement.<br/>The contractual terms of a header trade agreement.<br/>
+Cefact Element Metadata: 
+
+@id | cefact:Header_TradeAgreement.Details
+@type | edi3:AggregateBIE
+edi3:cefactUNId | cefact:UN01011547
+rdfs:comment | The contractual terms of a header trade agreement.
+edi3:cefactBusinessProcess | Buy-Ship-Pay
+
+@id | cefact:SubordinateLine_TradeAgreement.Details
+@type | edi3:AggregateBIE
+edi3:cefactUNId | cefact:UN01011843
+rdfs:comment | The contractual terms of a subordinate line trade agreement.
+edi3:cefactBusinessProcess | Buy-Ship-Pay
+
+@id | cefact:Line_TradeAgreement.Details
+@type | edi3:AggregateBIE
+edi3:cefactUNId | cefact:UN01011693
+rdfs:comment | The contractual terms of a line trade agreement.
+edi3:cefactBusinessProcess | Buy-Ship-Pay
 
 Properties: 
 
@@ -7185,7 +8361,25 @@ Name | Type
 
 Type: rdf:Class
 
-Comments: <br/>Shipping arrangements and movement of products and or services including despatch and delivery at a line level.<br/>Shipping arrangements and movement of products and or services including despatch and delivery at a header level.<br/>Supply chain shipping arrangements and movement of products and or services including despatch and delivery.<br/>
+Cefact Element Metadata: 
+
+@id | cefact:SubordinateLine_TradeDelivery.Details
+@type | edi3:AggregateBIE
+edi3:cefactUNId | cefact:UN01011849
+rdfs:comment | Supply chain shipping arrangements and movement of products and or services including despatch and delivery.
+edi3:cefactBusinessProcess | Buy-Ship-Pay
+
+@id | cefact:Line_TradeDelivery.Details
+@type | edi3:AggregateBIE
+edi3:cefactUNId | cefact:UN01011755
+rdfs:comment | Shipping arrangements and movement of products and or services including despatch and delivery at a line level.
+edi3:cefactBusinessProcess | Buy-Ship-Pay
+
+@id | cefact:Header_TradeDelivery.Details
+@type | edi3:AggregateBIE
+edi3:cefactUNId | cefact:UN01011603
+rdfs:comment | Shipping arrangements and movement of products and or services including despatch and delivery at a header level.
+edi3:cefactBusinessProcess | Buy-Ship-Pay
 
 Properties: 
 
@@ -7309,7 +8503,19 @@ Name | Type
 
 Type: rdf:Class
 
-Comments: <br/>A collection of information specific to a subordinate item being used or reported on for trade purposes.<br/>A collection of information specific to an item being used or reported on for supply chain trade purposes.<br/>
+Cefact Element Metadata: 
+
+@id | cefact:SupplyChain_TradeLineItem.Details
+@type | edi3:AggregateBIE
+edi3:cefactUNId | cefact:UN01004417
+rdfs:comment | A collection of information specific to an item being used or reported on for supply chain trade purposes.
+edi3:cefactBusinessProcess | Buy-Ship-Pay
+
+@id | cefact:Subordinate_TradeLineItem.Details
+@type | edi3:AggregateBIE
+edi3:cefactUNId | cefact:UN01004098
+rdfs:comment | A collection of information specific to a subordinate item being used or reported on for trade purposes.
+edi3:cefactBusinessProcess | Buy-Ship-Pay
 
 Properties: 
 
@@ -7356,7 +8562,31 @@ Name | Type
 
 Type: rdf:Class
 
-Comments: <br/>The information, at a line level, that enables the reconciliation of a financial transaction with the item(s) that the financial transaction is intended to settle, for example a commercial invoice.<br/>The information, at a subordinate line level, that enables the reconciliation of a financial transaction with the item(s) that the financial transaction is intended to settle, for example a commercial invoice.<br/>The information that enables the reconciliation of a payment with the item(s) that the payment is intended to settle, for example a commercial invoice.<br/>The information, at a header level, that enables the reconciliation of a financial transaction, with the item(s) that the financial transaction is intended to settle, such as a commercial invoice.<br/>
+Cefact Element Metadata: 
+
+@id | cefact:SubordinateLine_TradeSettlement.Details
+@type | edi3:AggregateBIE
+edi3:cefactUNId | cefact:UN01011854
+rdfs:comment | The information, at a subordinate line level, that enables the reconciliation of a financial transaction with the item(s) that the financial transaction is intended to settle, for example a commercial invoice.
+edi3:cefactBusinessProcess | Buy-Ship-Pay
+
+@id | cefact:Line_TradeSettlement.Details
+@type | edi3:AggregateBIE
+edi3:cefactUNId | cefact:UN01011800
+rdfs:comment | The information, at a line level, that enables the reconciliation of a financial transaction with the item(s) that the financial transaction is intended to settle, for example a commercial invoice.
+edi3:cefactBusinessProcess | Buy-Ship-Pay
+
+@id | cefact:Header_TradeSettlement.Details
+@type | edi3:AggregateBIE
+edi3:cefactUNId | cefact:UN01011643
+rdfs:comment | The information, at a header level, that enables the reconciliation of a financial transaction, with the item(s) that the financial transaction is intended to settle, such as a commercial invoice.
+edi3:cefactBusinessProcess | Buy-Ship-Pay
+
+@id | cefact:Payment_TradeSettlement.Details
+@type | edi3:AggregateBIE
+edi3:cefactUNId | cefact:UN01003261
+rdfs:comment | The information that enables the reconciliation of a payment with the item(s) that the payment is intended to settle, for example a commercial invoice.
+edi3:cefactBusinessProcess | Customer to bank payment initiation
 
 Properties: 
 
@@ -7437,7 +8667,19 @@ Name | Type
 
 Type: rdf:Class
 
-Comments: <br/>A group of supply chain trade line items, trade agreement, trade delivery and trade settlement details.<br/>A group of trade line items, trade line agreement, trade line delivery and trade line settlement details.<br/>
+Cefact Element Metadata: 
+
+@id | cefact:SupplyChain_TradeTransaction.Details
+@type | edi3:AggregateBIE
+edi3:cefactUNId | cefact:UN01004475
+rdfs:comment | A group of supply chain trade line items, trade agreement, trade delivery and trade settlement details.
+edi3:cefactBusinessProcess | Buy-Ship-Pay
+
+@id | cefact:Line_TradeTransaction.Details
+@type | edi3:AggregateBIE
+edi3:cefactUNId | cefact:UN01011824
+rdfs:comment | A group of trade line items, trade line agreement, trade line delivery and trade line settlement details.
+edi3:cefactBusinessProcess | Buy-Ship-Pay
 
 Properties: 
 
@@ -7469,7 +8711,31 @@ Name | Type
 
 Type: rdf:Class
 
-Comments: <br/>A piece of equipment used to hold, protect or secure cargo for logistics purposes.<br/>A referenced piece of equipment used to hold, protect or secure cargo for logistics purposes.<br/>A piece of transport equipment that is associated with another piece of transport equipment, such as a maritime container placed on a rail wagon for transportation.<br/>A piece of attached transport equipment, such as a chain or a tarpaulin.<br/>
+Cefact Element Metadata: 
+
+@id | cefact:Associated_TransportEquipment.Details
+@type | edi3:AggregateBIE
+edi3:cefactUNId | cefact:UN01004883
+rdfs:comment | A piece of transport equipment that is associated with another piece of transport equipment, such as a maritime container placed on a rail wagon for transportation.
+edi3:cefactBusinessProcess | Buy-Ship-Pay
+
+@id | cefact:Logistics_TransportEquipment.Details
+@type | edi3:AggregateBIE
+edi3:cefactUNId | cefact:UN01003757
+rdfs:comment | A piece of equipment used to hold, protect or secure cargo for logistics purposes.
+edi3:cefactBusinessProcess | Buy-Ship-Pay
+
+@id | cefact:Referenced_Logistics_TransportEquipment.Details
+@type | edi3:AggregateBIE
+edi3:cefactUNId | cefact:UN01004022
+rdfs:comment | A referenced piece of equipment used to hold, protect or secure cargo for logistics purposes.
+edi3:cefactBusinessProcess | Buy-Ship-Pay
+
+@id | cefact:Attached_TransportEquipment.Details
+@type | edi3:AggregateBIE
+edi3:cefactUNId | cefact:UN01003416
+rdfs:comment | A piece of attached transport equipment, such as a chain or a tarpaulin.
+edi3:cefactBusinessProcess | Buy-Ship-Pay
 
 Properties: 
 
@@ -7562,7 +8828,19 @@ Name | Type
 
 Type: rdf:Class
 
-Comments: <br/>The devices used to convey goods or other objects from place to place during logistics cargo movements.<br/>Reference to a device or method used to convey people, goods, or other objects from place to place.<br/>
+Cefact Element Metadata: 
+
+@id | cefact:Referenced_TransportMeans.Details
+@type | edi3:AggregateBIE
+edi3:cefactUNId | cefact:UN01004049
+rdfs:comment | Reference to a device or method used to convey people, goods, or other objects from place to place.
+edi3:cefactBusinessProcess | In All Contexts
+
+@id | cefact:Logistics_TransportMeans.Details
+@type | edi3:AggregateBIE
+edi3:cefactUNId | cefact:UN01003819
+rdfs:comment | The devices used to convey goods or other objects from place to place during logistics cargo movements.
+edi3:cefactBusinessProcess | Buy-Ship-Pay
 
 Properties: 
 
@@ -7615,7 +8893,13 @@ Name | Type
 
 Type: rdf:Class
 
-Comments: The conveyance (physical carriage) of goods or other objects used for logistics transport purposes.
+Cefact Element Metadata: 
+
+@id | cefact:Logistics_TransportMovement.Details
+@type | edi3:AggregateBIE
+edi3:cefactUNId | cefact:UN01003837
+rdfs:comment | The conveyance (physical carriage) of goods or other objects used for logistics transport purposes.
+edi3:cefactBusinessProcess | Buy-Ship-Pay
 
 Properties: 
 
@@ -7710,7 +8994,13 @@ Name | Type
 
 Type: rdf:Class
 
-Comments: A specific variant of a document.
+Cefact Element Metadata: 
+
+@id | cefact:Document_Version.Details
+@type | edi3:AggregateBIE
+edi3:cefactUNId | cefact:UN01003590
+rdfs:comment | A specific variant of a document.
+edi3:cefactBusinessProcess | In All Contexts
 
 Properties: 
 
@@ -7724,7 +9014,19 @@ Name | Type
 
 Type: rdf:Class
 
-Comments: <br/>A basic item of work.<br/>A grouping of related work items.<br/>
+Cefact Element Metadata: 
+
+@id | cefact:Grouped_WorkItem.Details
+@type | edi3:AggregateBIE
+edi3:cefactUNId | cefact:UN01000043
+rdfs:comment | A grouping of related work items.
+edi3:cefactBusinessProcess | In All Contexts
+
+@id | cefact:Basic_WorkItem.Details
+@type | edi3:AggregateBIE
+edi3:cefactUNId | cefact:UN01000026
+rdfs:comment | A basic item of work.
+edi3:cefactBusinessProcess | In All Contexts
 
 Properties: 
 
@@ -7759,7 +9061,13 @@ Name | Type
 
 Type: rdf:Class
 
-Comments: An object used in the management of the status changes in a business process.
+Cefact Element Metadata: 
+
+@id | cefact:Trade_WorkflowObject.Details
+@type | edi3:AggregateBIE
+edi3:cefactUNId | cefact:UN01011930
+rdfs:comment | An object used in the management of the status changes in a business process.
+edi3:cefactBusinessProcess | Trade
 
 Properties: 
 
@@ -7995,7 +9303,7 @@ Domains:
 
 Type: rdf:Property
 
-Comments: <br/>The actual date, time, date time, or other date time value of this delivery adjustment.<br/>The actual date, time, date time, or other date time value of this financial adjustment.<br/>The actual date, time, date time, or other date time value of this document authentication.<br/>
+Comments: <br/>The actual date, time, date time, or other date time value of this financial adjustment.<br/>The actual date, time, date time, or other date time value of this delivery adjustment.<br/>The actual date, time, date time, or other date time value of this document authentication.<br/>
 
 Domains: 
 
@@ -8139,7 +9447,7 @@ Domains:
 
 Type: rdf:Property
 
-Comments: <br/>The actual quantity for this work item quantity analysis.<br/>The actual quantity of items in this trade product instance.<br/>The actual quantity added or subtracted as a result of this financial adjustment.<br/>The actual quantity added or subtracted as a result of this delivery adjustment.<br/>The actual quantity in this supply chain supply plan.<br/>
+Comments: <br/>The actual quantity for this work item quantity analysis.<br/>The actual quantity of items in this trade product instance.<br/>The actual quantity added or subtracted as a result of this financial adjustment.<br/>The actual quantity in this supply chain supply plan.<br/>The actual quantity added or subtracted as a result of this delivery adjustment.<br/>
 
 Domains: 
 
@@ -8874,7 +10182,7 @@ Domains:
 
 Type: rdf:Property
 
-Comments: <br/>A note providing information applicable to this supply chain consignment item.<br/>A note providing information applicable to this transport event.<br/>A note providing information applicable to this specified observation.<br/>A note providing information applicable to this piece of logistics transport equipment.<br/>
+Comments: <br/>A note providing information applicable to this supply chain consignment item.<br/>A note providing information applicable to this transport event.<br/>A note providing information applicable to this piece of logistics transport equipment.<br/>A note providing information applicable to this specified observation.<br/>
 
 Domains: 
 
@@ -8970,8 +10278,8 @@ Comments: <br/>The referenced standard that is applicable to this product classi
 
 Domains: 
 
-[edi3:Characteristic](#Characteristic)
 [edi3:Classification](#Classification)
+[edi3:Characteristic](#Characteristic)
 
 
 <h1 id="ApplicableReturnableAssetInstructions">ApplicableReturnableAssetInstructions</h1>
@@ -9158,7 +10466,7 @@ Domains:
 
 Type: rdf:Property
 
-Comments: <br/>The transport dangerous goods details, at line level, applicable to this trade delivery.<br/>Dangerous goods transport details applicable to this referenced supply chain consignment item.<br/>Dangerous goods applicable to the transport of this supply chain consignment.<br/>Transport dangerous goods information applicable to these logistics regulated goods.<br/>Dangerous goods transport details applicable to this supply chain consignment item.<br/>Transport dangerous goods information applicable for this trade product.<br/>
+Comments: <br/>The transport dangerous goods details, at line level, applicable to this trade delivery.<br/>Dangerous goods transport details applicable to this referenced supply chain consignment item.<br/>Transport dangerous goods information applicable to these logistics regulated goods.<br/>Dangerous goods applicable to the transport of this supply chain consignment.<br/>Dangerous goods transport details applicable to this supply chain consignment item.<br/>Transport dangerous goods information applicable for this trade product.<br/>
 
 Domains: 
 
@@ -9450,15 +10758,15 @@ Domains:
 
 Type: rdf:Property
 
-Comments: <br/>A logistics location associated with this specified geographical point.<br/>A logistics location associated with this specified geographical grid.<br/>A logistics location associated with this specified geographical line.<br/>A logistics location associated with this specified circle.<br/>A logistics location associated with this specified polygon.<br/>
+Comments: <br/>A logistics location associated with this specified geographical point.<br/>A logistics location associated with this specified geographical line.<br/>A logistics location associated with this specified geographical grid.<br/>A logistics location associated with this specified circle.<br/>A logistics location associated with this specified polygon.<br/>
 
 Domains: 
 
 [edi3:GeographicalPoint](#GeographicalPoint)
 [edi3:Circle](#Circle)
 [edi3:Polygon](#Polygon)
-[edi3:GeographicalGrid](#GeographicalGrid)
 [edi3:GeographicalLine](#GeographicalLine)
+[edi3:GeographicalGrid](#GeographicalGrid)
 
 
 <h1 id="AssociatedLogisticsTransportEquipment">AssociatedLogisticsTransportEquipment</h1>
@@ -9487,13 +10795,13 @@ Domains:
 
 Type: rdf:Property
 
-Comments: <br/>An associated document referenced for this trade price.<br/>A referenced document associated with this supply chain trade transaction, such as the purchase order, invoice or packing list.<br/>A referenced document associated with this piece of logistics transport equipment.<br/>A referenced document associated with this supply chain consignment, such as the certificate of origin or dangerous goods note.<br/>A document associated with this line trade settlement.<br/>A referenced document associated with this referenced supply chain consignment item.<br/>An associated document referenced for this trade related currency exchange.<br/>A referenced document associated with this exchanged declaration.<br/>A referenced document associated with this supply chain consignment item.<br/>
+Comments: <br/>An associated document referenced for this trade price.<br/>A referenced document associated with this supply chain trade transaction, such as the purchase order, invoice or packing list.<br/>A referenced document associated with this supply chain consignment, such as the certificate of origin or dangerous goods note.<br/>A referenced document associated with this piece of logistics transport equipment.<br/>A document associated with this line trade settlement.<br/>A referenced document associated with this referenced supply chain consignment item.<br/>An associated document referenced for this trade related currency exchange.<br/>A referenced document associated with this exchanged declaration.<br/>A referenced document associated with this supply chain consignment item.<br/>
 
 Domains: 
 
 [edi3:TradeTransaction](#TradeTransaction)
-[edi3:TradeSettlement](#TradeSettlement)
 [edi3:ConsignmentItem](#ConsignmentItem)
+[edi3:TradeSettlement](#TradeSettlement)
 [edi3:Price](#Price)
 [edi3:TransportEquipment](#TransportEquipment)
 [edi3:Consignment](#Consignment)
@@ -9554,16 +10862,16 @@ Domains:
 
 Type: rdf:Property
 
-Comments: <br/>The geographical object characteristic associated with this geographical multi-surface.<br/>The geographical object characteristic associated with this specified polygon.<br/>The geographical object characteristic associated with this specified circle.<br/>The geographical object characteristic associated with this geographical surface.<br/>The geographical object characteristic associated with this geographical multi-curve.<br/>The geographical object characteristic associated with this linear ring.<br/>The geographical object characteristic associated with this geographical grid.<br/>The geographical object characteristic associated with this geographical multi-point.<br/>The geographical object characteristic associated with this geographical point.<br/>The geographical object characteristic associated with this geographical line.<br/>
+Comments: <br/>The geographical object characteristic associated with this geographical multi-surface.<br/>The geographical object characteristic associated with this specified polygon.<br/>The geographical object characteristic associated with this specified circle.<br/>The geographical object characteristic associated with this geographical surface.<br/>The geographical object characteristic associated with this geographical multi-curve.<br/>The geographical object characteristic associated with this geographical grid.<br/>The geographical object characteristic associated with this linear ring.<br/>The geographical object characteristic associated with this geographical multi-point.<br/>The geographical object characteristic associated with this geographical point.<br/>The geographical object characteristic associated with this geographical line.<br/>
 
 Domains: 
 
 [edi3:GeographicalPoint](#GeographicalPoint)
 [edi3:Circle](#Circle)
 [edi3:GeographicalMultiCurve](#GeographicalMultiCurve)
-[edi3:GeographicalSurface](#GeographicalSurface)
-[edi3:LinearRing](#LinearRing)
 [edi3:Polygon](#Polygon)
+[edi3:LinearRing](#LinearRing)
+[edi3:GeographicalSurface](#GeographicalSurface)
 [edi3:GeographicalMultiSurface](#GeographicalMultiSurface)
 [edi3:GeographicalMultiPoint](#GeographicalMultiPoint)
 [edi3:GeographicalGrid](#GeographicalGrid)
@@ -10169,7 +11477,7 @@ Domains:
 
 Type: rdf:Property
 
-Comments: <br/>A bonded warehouse storage event specifying when and where this piece of logistics transport equipment will be, or has been, stored.<br/>A bonded warehouse storage event for this supply chain consignment.<br/>
+Comments: <br/>A bonded warehouse storage event for this supply chain consignment.<br/>A bonded warehouse storage event specifying when and where this piece of logistics transport equipment will be, or has been, stored.<br/>
 
 Domains: 
 
@@ -10402,7 +11710,7 @@ Domains:
 
 Type: rdf:Property
 
-Comments: <br/>The date, time, date time, or other date time value, at header level, of the buyer order for this trade delivery.<br/>The date, time, date time, or other date time value, at line level, of the buyer order for this trade delivery.<br/>
+Comments: <br/>The date, time, date time, or other date time value, at line level, of the buyer order for this trade delivery.<br/>The date, time, date time, or other date time value, at header level, of the buyer order for this trade delivery.<br/>
 
 Domains: 
 
@@ -10870,7 +12178,7 @@ Domains:
 
 Type: rdf:Property
 
-Comments: <br/>A carrier assigned booking identifier for this piece of logistics transport equipment.<br/>A carrier assigned booking identifier for this piece of referenced logistics transport equipment.<br/>
+Comments: <br/>A carrier assigned booking identifier for this piece of referenced logistics transport equipment.<br/>A carrier assigned booking identifier for this piece of logistics transport equipment.<br/>
 
 Domains: 
 
@@ -10903,7 +12211,7 @@ Domains:
 
 Type: rdf:Property
 
-Comments: <br/>A carrier party for this line trade agreement.<br/>A carrier party for this piece of logistics transport equipment.<br/>A carrier party for this logistics transport movement.<br/>The carrier party for this supply chain consignment.<br/>The carrier party, at header level, for this trade agreement.<br/>The carrier party for this referenced supply chain consignment.<br/>
+Comments: <br/>A carrier party for this piece of logistics transport equipment.<br/>A carrier party for this line trade agreement.<br/>A carrier party for this logistics transport movement.<br/>The carrier party, at header level, for this trade agreement.<br/>The carrier party for this supply chain consignment.<br/>The carrier party for this referenced supply chain consignment.<br/>
 
 Domains: 
 
@@ -10983,13 +12291,13 @@ Domains:
 
 Type: rdf:Property
 
-Comments: <br/>A code specifying a category for this transport person, such as a member of crew or passenger.<br/>The code specifying a category for this exchanged document.<br/>The code specifying the category of this referenced document.<br/>A code specifying a category for this cross-border regulatory procedure, such as the appendices of the CITES Convention.<br/>A code specifying a category for this document authentication.<br/>The code specifying the category for this logistics risk analysis result.<br/>The code specifying the category of this certified accreditation, such as driving or academic.<br/>A code specifying a category of this government registration.<br/>
+Comments: <br/>A code specifying a category for this transport person, such as a member of crew or passenger.<br/>The code specifying a category for this exchanged document.<br/>The code specifying the category of this referenced document.<br/>A code specifying a category for this cross-border regulatory procedure, such as the appendices of the CITES Convention.<br/>The code specifying the category for this logistics risk analysis result.<br/>A code specifying a category for this document authentication.<br/>The code specifying the category of this certified accreditation, such as driving or academic.<br/>A code specifying a category of this government registration.<br/>
 
 Domains: 
 
 [edi3:RiskAnalysisResult](#RiskAnalysisResult)
-[edi3:Authentication](#Authentication)
 [edi3:Registration](#Registration)
+[edi3:Authentication](#Authentication)
 [edi3:RegulatoryProcedure](#RegulatoryProcedure)
 [edi3:Accreditation](#Accreditation)
 [edi3:Document](#Document)
@@ -11143,7 +12451,7 @@ Domains:
 
 Type: rdf:Property
 
-Comments: <br/>The indication whether or not this control setting parameter is changeable.<br/>The indication whether or not this operational parameter is changeable.<br/>
+Comments: <br/>The indication whether or not this operational parameter is changeable.<br/>The indication whether or not this control setting parameter is changeable.<br/>
 
 Domains: 
 
@@ -11703,7 +13011,7 @@ Domains:
 
 Type: rdf:Property
 
-Comments: <br/>The code specifying the condition for this recorded status.<br/>A code specifying the condition of this supply chain packaging.<br/>
+Comments: <br/>A code specifying the condition of this supply chain packaging.<br/>The code specifying the condition for this recorded status.<br/>
 
 Domains: 
 
@@ -12090,7 +13398,7 @@ Domains:
 
 Type: rdf:Property
 
-Comments: <br/>The consumption report document, at line level, referenced from this trade delivery.<br/>The consumption report document, at header level, referenced for this trade delivery.<br/>
+Comments: <br/>The consumption report document, at header level, referenced for this trade delivery.<br/>The consumption report document, at line level, referenced from this trade delivery.<br/>
 
 Domains: 
 
@@ -12209,8 +13517,8 @@ Domains:
 [edi3:Query](#Query)
 [edi3:Note](#Note)
 [edi3:ComplexDescription](#ComplexDescription)
-[edi3:Clause](#Clause)
 [edi3:Marking](#Marking)
+[edi3:Clause](#Clause)
 
 
 <h1 id="ContentTypeCode">ContentTypeCode</h1>
@@ -12306,7 +13614,7 @@ Domains:
 
 Type: rdf:Property
 
-Comments: <br/>The code specifying the contractual language for this work item quantity analysis.<br/>The code specifying the contractual language for this basic work item.<br/>The code specifying the contractual language for this work item complex description.<br/>The code specifying the contractual language for this grouped work item.<br/>The code specifying the contractual language for this work item dimension.<br/>The code specifying the contractual language for this specification response.<br/>The code specifying the contractual language for this specification query.<br/>The code specifying the contractual language for this valuation breakdown statement.<br/>
+Comments: <br/>The code specifying the contractual language for this work item quantity analysis.<br/>The code specifying the contractual language for this work item complex description.<br/>The code specifying the contractual language for this basic work item.<br/>The code specifying the contractual language for this grouped work item.<br/>The code specifying the contractual language for this work item dimension.<br/>The code specifying the contractual language for this specification response.<br/>The code specifying the contractual language for this valuation breakdown statement.<br/>The code specifying the contractual language for this specification query.<br/>
 
 Domains: 
 
@@ -13443,7 +14751,7 @@ Domains:
 
 Type: rdf:Property
 
-Comments: <br/>The party to whom this supply chain consignment item will be or has been delivered.<br/>The party to whom this referenced supply chain consignment will be or has been delivered.<br/>The party to whom this supply chain consignment will be, or has been, delivered.<br/>
+Comments: <br/>The party to whom this referenced supply chain consignment will be or has been delivered.<br/>The party to whom this supply chain consignment item will be or has been delivered.<br/>The party to whom this supply chain consignment will be, or has been, delivered.<br/>
 
 Domains: 
 
@@ -13590,7 +14898,7 @@ Domains:
 
 Type: rdf:Property
 
-Comments: <br/>The code specifying the description of these haulage instructions.<br/>The code specifying a description of this supply chain trade line item.<br/>The code specifying a description of these transport instructions.<br/>A code specifying a description of these handling instructions.<br/>The code specifying a description of these temperature setting instructions.<br/>The code specifying a description of these delivery instructions.<br/>The code specifying the description of these quarantine instructions.<br/>
+Comments: <br/>The code specifying the description of these haulage instructions.<br/>The code specifying a description of this supply chain trade line item.<br/>A code specifying a description of these handling instructions.<br/>The code specifying a description of these transport instructions.<br/>The code specifying a description of these temperature setting instructions.<br/>The code specifying a description of these delivery instructions.<br/>The code specifying the description of these quarantine instructions.<br/>
 
 Domains: 
 
@@ -13613,7 +14921,7 @@ Domains:
 
 Type: rdf:Property
 
-Comments: <br/>The textual description of these quarantine instructions.<br/>A textual description of this specified binary file.<br/>A textual description of this header balance out.<br/>A textual description of this referenced logistics package.<br/>A textual description of this logistics service charge.<br/>A textual description of this logistics related location.<br/>The textual description of this procuring project.<br/>A textual description of these trade payment terms.<br/>A textual description of this identified fault.<br/>The textual description of this transport service.<br/>A textual description of this registered tax.<br/>A textual description of this product certificate.<br/>A textual description of this logistics package.<br/>A textual description of this payment balance out.<br/>A textual description of these trade delivery terms.<br/>A textual description of this specified period of time.<br/>A textual description of this supply chain schedule.<br/>A textual description of these transport instructions.<br/>A textual description of these disposal instructions.<br/>The textual description of this available period.<br/>The textual description for this specified observation.<br/>A textual description of this valuation breakdown statement.<br/>The textual description of this work item dimension.<br/>The textual description of this trade settlement financial card.<br/>A textual description of this trade party.<br/>A textual description for this referenced product.<br/>A textual description of this operational parameter.<br/>A textual description of this product characteristic.<br/>The textual description of this transport event.<br/>A textual description of this stores inventory item.<br/>The textual description of the applied allowance charge.<br/>A textual description of these temperature setting instructions.<br/>A textual description of this spatial dimension.<br/>A textual description of this measurement.<br/>A textual description of this header trade settlement.<br/>A textual description of this supply chain packaging.<br/>A textual description of these delivery instructions.<br/>The textual description of this logistics risk analysis result.<br/>The textual description of this logistics status.<br/>A textual description of this supply chain event.<br/>A textual description of these handling instructions.<br/>A textual description of these specified personal effects.<br/>The textual description of this specified geographical feature.<br/>A textual description of this control setting parameter.<br/>A textual description for this transport waste material component.<br/>The textual description of this transport route.<br/>A textual description of this material goods characteristic.<br/>The textual description of this document status.<br/>A textual description of this trade product feature.<br/>A textual description for this trade product.<br/>The textual description of this work item quantity analysis.<br/>The textual description of this requesting party.<br/>The textual description of this certified accreditation.<br/>A textual description of this communication event.<br/>The textual description of these haulage instructions.<br/>A textual description of this exchanged document.<br/>The textual description for this geographical object characteristic.<br/>
+Comments: <br/>The textual description of these quarantine instructions.<br/>A textual description of this specified binary file.<br/>A textual description of this header balance out.<br/>A textual description of this referenced logistics package.<br/>A textual description of this logistics service charge.<br/>A textual description of this logistics related location.<br/>The textual description of this procuring project.<br/>A textual description of these trade payment terms.<br/>A textual description of this identified fault.<br/>The textual description of this transport service.<br/>A textual description of this registered tax.<br/>A textual description of this product certificate.<br/>A textual description of this logistics package.<br/>A textual description of this payment balance out.<br/>A textual description of these trade delivery terms.<br/>A textual description of this specified period of time.<br/>A textual description of this supply chain schedule.<br/>A textual description of these transport instructions.<br/>A textual description of these disposal instructions.<br/>The textual description of this available period.<br/>The textual description for this specified observation.<br/>A textual description of this valuation breakdown statement.<br/>The textual description of this work item dimension.<br/>The textual description of this trade settlement financial card.<br/>A textual description of this trade party.<br/>A textual description for this referenced product.<br/>A textual description of this operational parameter.<br/>A textual description of this product characteristic.<br/>The textual description of this transport event.<br/>A textual description of this stores inventory item.<br/>The textual description of the applied allowance charge.<br/>A textual description of these temperature setting instructions.<br/>A textual description of this spatial dimension.<br/>A textual description of this header trade settlement.<br/>A textual description of this measurement.<br/>A textual description of this supply chain packaging.<br/>A textual description of these delivery instructions.<br/>The textual description of this logistics risk analysis result.<br/>A textual description of this supply chain event.<br/>The textual description of this logistics status.<br/>A textual description of these handling instructions.<br/>A textual description of these specified personal effects.<br/>The textual description of this specified geographical feature.<br/>A textual description of this control setting parameter.<br/>A textual description for this transport waste material component.<br/>The textual description of this transport route.<br/>The textual description of this document status.<br/>A textual description of this material goods characteristic.<br/>A textual description for this trade product.<br/>A textual description of this trade product feature.<br/>The textual description of this work item quantity analysis.<br/>The textual description of this requesting party.<br/>The textual description of this certified accreditation.<br/>A textual description of this communication event.<br/>The textual description of these haulage instructions.<br/>A textual description of this exchanged document.<br/>The textual description for this geographical object characteristic.<br/>
 
 Domains: 
 
@@ -13621,8 +14929,8 @@ Domains:
 [edi3:PersonalEffects](#PersonalEffects)
 [edi3:AllowanceCharge](#AllowanceCharge)
 [edi3:Product](#Product)
-[edi3:Tax](#Tax)
 [edi3:Fault](#Fault)
+[edi3:Tax](#Tax)
 [edi3:PaymentTerms](#PaymentTerms)
 [edi3:GeographicalFeature](#GeographicalFeature)
 [edi3:Document](#Document)
@@ -13630,10 +14938,10 @@ Domains:
 [edi3:BreakdownStatement](#BreakdownStatement)
 [edi3:RiskAnalysisResult](#RiskAnalysisResult)
 [edi3:FinancialCard](#FinancialCard)
-[edi3:ServiceCharge](#ServiceCharge)
 [edi3:Party](#Party)
-[edi3:GeographicalObjectCharacteristic](#GeographicalObjectCharacteristic)
+[edi3:ServiceCharge](#ServiceCharge)
 [edi3:MaterialComponent](#MaterialComponent)
+[edi3:GeographicalObjectCharacteristic](#GeographicalObjectCharacteristic)
 [edi3:Accreditation](#Accreditation)
 [edi3:QuantityAnalysis](#QuantityAnalysis)
 [edi3:BalanceOut](#BalanceOut)
@@ -13650,14 +14958,14 @@ Domains:
 [edi3:Project](#Project)
 [edi3:TradeSettlement](#TradeSettlement)
 [edi3:Schedule](#Schedule)
-[edi3:Observation](#Observation)
 [edi3:Packaging](#Packaging)
+[edi3:Observation](#Observation)
 [edi3:Event](#Event)
 [edi3:Parameter](#Parameter)
 [edi3:Package](#Package)
 [edi3:Inventory](#Inventory)
-[edi3:Certificate](#Certificate)
 [edi3:Location](#Location)
+[edi3:Certificate](#Certificate)
 
 
 <h1 id="DesignatedProductClassification">DesignatedProductClassification</h1>
@@ -15298,7 +16606,7 @@ Domains:
 
 Type: rdf:Property
 
-Comments: <br/>The unique global identifier for this exchanged document.<br/>A unique global identifier for this referenced product.<br/>The unique global identifier for this logistics package.<br/>A globally unique identifier of this trade party.<br/>A unique global identifier for this referenced document.<br/>The global identifier for this referenced logistics package.<br/>A global identifier for this supply chain consignment item.<br/>A unique global identifier for this trade product.<br/>
+Comments: <br/>The unique global identifier for this exchanged document.<br/>A unique global identifier for this referenced product.<br/>The unique global identifier for this logistics package.<br/>A globally unique identifier of this trade party.<br/>A unique global identifier for this referenced document.<br/>The global identifier for this referenced logistics package.<br/>A unique global identifier for this trade product.<br/>A global identifier for this supply chain consignment item.<br/>
 
 Domains: 
 
@@ -15439,15 +16747,15 @@ Comments: <br/>A product certificate granted for this monitoring IOT device.<br/
 
 Domains: 
 
-[edi3:IOTDevice](#IOTDevice)
 [edi3:Sensor](#Sensor)
+[edi3:IOTDevice](#IOTDevice)
 
 
 <h1 id="GrossLineTotalAmount">GrossLineTotalAmount</h1>
 
 Type: rdf:Property
 
-Comments: <br/>A monetary value of the total of all line amounts, excluding line level allowances and charges and taxes, being reported in this trade settlement line monetary summation.<br/>A monetary value of the total of all line amounts, excluding line level allowances and charges and taxes, being reported in this trade settlement header monetary summation.<br/>
+Comments: <br/>A monetary value of the total of all line amounts, excluding line level allowances and charges and taxes, being reported in this trade settlement header monetary summation.<br/>A monetary value of the total of all line amounts, excluding line level allowances and charges and taxes, being reported in this trade settlement line monetary summation.<br/>
 
 Domains: 
 
@@ -15481,7 +16789,7 @@ Domains:
 
 Type: rdf:Property
 
-Comments: <br/>The measure, at line level, of the gross volume of this trade delivery.<br/>The measure of the gross volume of this piece of referenced logistics transport equipment.<br/>The measure of the gross volume of this piece of logistics transport equipment.<br/>The measure of the gross volume of this referenced logistics package.<br/>A measure of the gross volume, normally calculated by multiplying the maximum length, width and height, of this referenced supply chain consignment.<br/>The measure of the gross volume, normally calculated by multiplying the maximum length, width and height dimensions of these transported dangerous goods.<br/>A measure of the gross volume, normally calculated by multiplying the maximum length, width and height of this supply chain consignment.<br/>A measure of the gross volume, normally calculated by multiplying the maximum length, width and height of this supply chain consignment item.<br/>
+Comments: <br/>The measure of the gross volume of this piece of referenced logistics transport equipment.<br/>The measure, at line level, of the gross volume of this trade delivery.<br/>The measure of the gross volume of this piece of logistics transport equipment.<br/>A measure of the gross volume, normally calculated by multiplying the maximum length, width and height, of this referenced supply chain consignment.<br/>The measure of the gross volume of this referenced logistics package.<br/>The measure of the gross volume, normally calculated by multiplying the maximum length, width and height dimensions of these transported dangerous goods.<br/>A measure of the gross volume, normally calculated by multiplying the maximum length, width and height of this supply chain consignment.<br/>A measure of the gross volume, normally calculated by multiplying the maximum length, width and height of this supply chain consignment item.<br/>
 
 Domains: 
 
@@ -15520,7 +16828,7 @@ Domains:
 
 Type: rdf:Property
 
-Comments: <br/>A measure of the gross weight (mass) of this supply chain consignment item which includes packaging but excludes any transport equipment.<br/>The measure of the gross weight (mass) of this piece of logistics transport equipment which is the weight (mass) including loaded goods, packing and transport equipment.<br/>The measure, at line level, of the gross weight (mass) of this line trade delivery.<br/>The measure of the gross weight (mass) of this piece of referenced logistics transport equipment which is the weight (mass) including loaded goods, packing and transport equipment.<br/>The measure of the gross weight (mass) of this referenced logistics package and its contents.<br/>The measure of the weight (mass) of these transported dangerous goods including packaging but excluding the transport equipment.<br/>The measure of the gross weight (mass) of this logistics means of transport including cargo, such as the measure of the overall size of a vessel determined in accordance with the provisions of the International Convention on Tonnage Measurement of Ships, 1969.<br/>A measure of the gross weight (mass) of this supply chain consignment which includes the weight of packaging but which excludes the weight of any transport equipment.<br/>A measure of the gross weight (mass) of this referenced supply chain consignment which includes the weight of packaging but which excludes the weight of any transport equipment.<br/>
+Comments: <br/>A measure of the gross weight (mass) of this supply chain consignment item which includes packaging but excludes any transport equipment.<br/>The measure of the gross weight (mass) of this piece of logistics transport equipment which is the weight (mass) including loaded goods, packing and transport equipment.<br/>The measure of the gross weight (mass) of this piece of referenced logistics transport equipment which is the weight (mass) including loaded goods, packing and transport equipment.<br/>The measure, at line level, of the gross weight (mass) of this line trade delivery.<br/>The measure of the gross weight (mass) of this referenced logistics package and its contents.<br/>The measure of the weight (mass) of these transported dangerous goods including packaging but excluding the transport equipment.<br/>The measure of the gross weight (mass) of this logistics means of transport including cargo, such as the measure of the overall size of a vessel determined in accordance with the provisions of the International Convention on Tonnage Measurement of Ships, 1969.<br/>A measure of the gross weight (mass) of this supply chain consignment which includes the weight of packaging but which excludes the weight of any transport equipment.<br/>A measure of the gross weight (mass) of this referenced supply chain consignment which includes the weight of packaging but which excludes the weight of any transport equipment.<br/>
 
 Domains: 
 
@@ -15938,23 +17246,23 @@ Domains:
 
 Type: rdf:Property
 
-Comments: <br/>A unique identifier for this subordinate trade line item.<br/>The unique identifier for this supply chain trade line item.<br/>The unique identifier for this branch of a financial institution.<br/>An identifier of this referenced transport service.<br/>The identifier for this referenced logistics package.<br/>An identifier of this referenced transport means, such as the International Maritime Organization number for a vessel.<br/>The unique identifier of this acknowledgement document.<br/>A unique identifier for this logistics related location, such as a United Nations Location Code (UNLOCODE) or GS1 Global Location Number (GLN).<br/>The identifier for this product certificate.<br/>An identifier for this trade settlement payment means.<br/>The unique identifier for this specification response.<br/>A unique identifier for this trade address.<br/>The unique identifier of this exchanged document.<br/>A unique identifier for this supply chain trade transaction.<br/>The identifier for this specified geographical feature.<br/>The identifier of this operational parameter.<br/>The unique identifier for this transport event.<br/>The identifier for this production of goods.<br/>An identifier for this transport service location, such as a United Nations Location Code (UNLOCODE) or GS1 Global Location Number (GLN).<br/>The unique identifier for this trade country sub-division.<br/>A unique identifier for this note.<br/>An identifier for this monitoring IOT device.<br/>A unique identifier of this piece of attached transport equipment.<br/>The unique identifier for this supply chain event.<br/>The unique identifier of this specified period.<br/>The unique identifier for this location used or referenced in trade.<br/>The identifier for this specified marketplace.<br/>The unique identifier for this logistics package.<br/>An identifier for this line trade agreement.<br/>The unique identifier for this requesting party.<br/>The unique identifier for this document version.<br/>A unique identifier of this location party.<br/>The unique identifier for this transport person.<br/>A unique identifier for this logistics seal.<br/>An identifier for this government registration.<br/>An identifier of this logistics means of transport, such as the International Maritime Organization number of a vessel.<br/>A unique identifier for this supply chain consignment item.<br/>The unique identifier for this valuation breakdown statement.<br/>The identifier of this label section.<br/>The unique identifier for this employer identity.<br/>The unique identifier for this geographical coordinate.<br/>The identifier, at header level, for this trade delivery.<br/>A unique identifier for this legal registration.<br/>The unique identifier for this trade accounting account.<br/>The unique identifier for this tax registration.<br/>A unique identifier for this referenced supply chain consignment.<br/>The unique identifier for this specification query.<br/>A unique identifier for this product characteristic.<br/>A unique identifier for this supply chain consignment.<br/>An identifier of this supply chain schedule.<br/>The unique identifier for this trade product feature.<br/>The identifier of this control setting parameter.<br/>The unique identifier for this basic work item.<br/>The unique identifier for this logistics transport movement, such as a voyage number, flight number, or trip number.<br/>An identifier of this monitoring sensor.<br/>The unique identifier of this spatial dimension.<br/>An identifier of this OEM equipment.<br/>The identifier for this specified observation.<br/>The identifier for this calibrated measurement.<br/>The unique identifier of this piece of logistics transport equipment.<br/>The identifier for this payment balance out.<br/>An identifier for this header trade agreement.<br/>A unique identifier for this document authentication.<br/>The unique identifier of this document context parameter.<br/>The unique identifier for this subordinate location, such as a United Nations Location Code (UNLOCODE) or GS1 Global Location Number (GLN).<br/>The unique identifier of this logistics label.<br/>An identifier for this exchanged declaration.<br/>An identifier for this certified accreditation.<br/>The identifier of this handling instructions.<br/>The unique identifier for this work item dimension.<br/>An identifier for this geographical grid.<br/>The unique identifier of this procuring project.<br/>The unique identifier for this trade geopolitical region.<br/>The unique identifier for this work item group.<br/>The identifier for this geographical object characteristic.<br/>A unique identifier for this referenced product.<br/>The unique identifier of this transport route.<br/>The identifier for this communication event.<br/>A unique identifier for this legally set up organization.<br/>The unique identifier for this subordinate of a subordinate location, such as a United Nations Location Code (UNLOCODE) or GS1 Global Location Number (GLN).<br/>The unique identifier of this document clause.<br/>The identifier of this document line document.<br/>The identifier of this trade workflow object.<br/>The identifier of this section segment.<br/>A unique identifier for this specified binary file.<br/>The identifier for this geographical coordinate source system.<br/>A unique identifier of this trade party.<br/>A proprietary identifier.<br/>An identifier for this trade product group.<br/>The unique identifier for this trade allowance charge.<br/>The unique identifier for this referenced piece of logistics transport equipment, such as a number, mark or name.<br/>The unique identifier of this transport service.<br/>A unique identifier for this referenced document.<br/>The identifier of this referenced standard.<br/>The unique identifier, commonly known as the card number, of this trade settlement financial card.<br/>An identifier, at line level, for this trade delivery.<br/>A unique identifier for this trade product.<br/>The identifier for this header balance out.<br/>The unique identifier for this trade contact.<br/>The unique identifier for this work item quantity analysis.<br/>A unique number, mark or name which identifies this associated piece of transport equipment.<br/>
+Comments: <br/>The unique identifier for this supply chain trade line item.<br/>A unique identifier for this subordinate trade line item.<br/>The unique identifier for this branch of a financial institution.<br/>An identifier of this referenced transport service.<br/>The identifier for this referenced logistics package.<br/>An identifier of this referenced transport means, such as the International Maritime Organization number for a vessel.<br/>The unique identifier of this acknowledgement document.<br/>A unique identifier for this logistics related location, such as a United Nations Location Code (UNLOCODE) or GS1 Global Location Number (GLN).<br/>The identifier for this product certificate.<br/>An identifier for this trade settlement payment means.<br/>The unique identifier for this specification response.<br/>A unique identifier for this trade address.<br/>The unique identifier of this exchanged document.<br/>A unique identifier for this supply chain trade transaction.<br/>The identifier for this specified geographical feature.<br/>The identifier of this operational parameter.<br/>The unique identifier for this transport event.<br/>The identifier for this production of goods.<br/>The unique identifier for this trade country sub-division.<br/>An identifier for this transport service location, such as a United Nations Location Code (UNLOCODE) or GS1 Global Location Number (GLN).<br/>A unique identifier for this note.<br/>An identifier for this monitoring IOT device.<br/>A unique identifier of this piece of attached transport equipment.<br/>The unique identifier for this supply chain event.<br/>The unique identifier of this specified period.<br/>The identifier for this specified marketplace.<br/>The unique identifier for this location used or referenced in trade.<br/>The unique identifier for this logistics package.<br/>The unique identifier for this requesting party.<br/>An identifier for this line trade agreement.<br/>The unique identifier for this document version.<br/>A unique identifier of this location party.<br/>The unique identifier for this transport person.<br/>A unique identifier for this logistics seal.<br/>An identifier for this government registration.<br/>An identifier of this logistics means of transport, such as the International Maritime Organization number of a vessel.<br/>A unique identifier for this supply chain consignment item.<br/>The unique identifier for this valuation breakdown statement.<br/>The identifier of this label section.<br/>The unique identifier for this employer identity.<br/>The unique identifier for this geographical coordinate.<br/>A unique identifier for this legal registration.<br/>The identifier, at header level, for this trade delivery.<br/>The unique identifier for this trade accounting account.<br/>The unique identifier for this tax registration.<br/>A unique identifier for this referenced supply chain consignment.<br/>The unique identifier for this specification query.<br/>A unique identifier for this product characteristic.<br/>A unique identifier for this supply chain consignment.<br/>An identifier of this supply chain schedule.<br/>The unique identifier for this trade product feature.<br/>The identifier of this control setting parameter.<br/>The unique identifier for this basic work item.<br/>An identifier of this monitoring sensor.<br/>The unique identifier for this logistics transport movement, such as a voyage number, flight number, or trip number.<br/>The unique identifier of this spatial dimension.<br/>An identifier of this OEM equipment.<br/>The identifier for this specified observation.<br/>The unique identifier of this piece of logistics transport equipment.<br/>The identifier for this calibrated measurement.<br/>The identifier for this payment balance out.<br/>An identifier for this header trade agreement.<br/>A unique identifier for this document authentication.<br/>The unique identifier of this document context parameter.<br/>The unique identifier for this subordinate location, such as a United Nations Location Code (UNLOCODE) or GS1 Global Location Number (GLN).<br/>The unique identifier of this logistics label.<br/>An identifier for this exchanged declaration.<br/>An identifier for this certified accreditation.<br/>The identifier of this handling instructions.<br/>The unique identifier for this work item dimension.<br/>The unique identifier of this procuring project.<br/>An identifier for this geographical grid.<br/>The unique identifier for this trade geopolitical region.<br/>The unique identifier for this work item group.<br/>The identifier for this geographical object characteristic.<br/>The identifier for this communication event.<br/>The unique identifier of this transport route.<br/>A unique identifier for this referenced product.<br/>The unique identifier of this document clause.<br/>The unique identifier for this subordinate of a subordinate location, such as a United Nations Location Code (UNLOCODE) or GS1 Global Location Number (GLN).<br/>A unique identifier for this legally set up organization.<br/>The identifier of this document line document.<br/>The identifier of this trade workflow object.<br/>The identifier of this section segment.<br/>A unique identifier for this specified binary file.<br/>The identifier for this geographical coordinate source system.<br/>A unique identifier of this trade party.<br/>A proprietary identifier.<br/>An identifier for this trade product group.<br/>The unique identifier for this trade allowance charge.<br/>The unique identifier for this referenced piece of logistics transport equipment, such as a number, mark or name.<br/>The unique identifier of this transport service.<br/>A unique identifier for this referenced document.<br/>The identifier of this referenced standard.<br/>The unique identifier, commonly known as the card number, of this trade settlement financial card.<br/>An identifier, at line level, for this trade delivery.<br/>A unique identifier for this trade product.<br/>The identifier for this header balance out.<br/>The unique identifier for this trade contact.<br/>The unique identifier for this work item quantity analysis.<br/>A unique number, mark or name which identifies this associated piece of transport equipment.<br/>
 
 Domains: 
 
 [edi3:ProductGroup](#ProductGroup)
 [edi3:Address](#Address)
 [edi3:Query](#Query)
-[edi3:Label](#Label)
 [edi3:AllowanceCharge](#AllowanceCharge)
+[edi3:Label](#Label)
 [edi3:Product](#Product)
 [edi3:Document](#Document)
-[edi3:Feature](#Feature)
 [edi3:WorkItem](#WorkItem)
+[edi3:Feature](#Feature)
 [edi3:BreakdownStatement](#BreakdownStatement)
 [edi3:TradeTransaction](#TradeTransaction)
-[edi3:Version](#Version)
 [edi3:GeographicalObjectCharacteristic](#GeographicalObjectCharacteristic)
+[edi3:Version](#Version)
 [edi3:Registration](#Registration)
 [edi3:GeographicalCoordinate](#GeographicalCoordinate)
 [edi3:Production](#Production)
@@ -15977,9 +17285,9 @@ Domains:
 [edi3:Seal](#Seal)
 [edi3:Package](#Package)
 [edi3:Person](#Person)
-[edi3:Certificate](#Certificate)
-[edi3:Sensor](#Sensor)
 [edi3:IOTDevice](#IOTDevice)
+[edi3:Sensor](#Sensor)
+[edi3:Certificate](#Certificate)
 [edi3:Measurement](#Measurement)
 [edi3:Organization](#Organization)
 [edi3:TransportEquipment](#TransportEquipment)
@@ -15997,22 +17305,22 @@ Domains:
 [edi3:GeopoliticalRegion](#GeopoliticalRegion)
 [edi3:Service](#Service)
 [edi3:Dimension](#Dimension)
-[edi3:BinaryFile](#BinaryFile)
 [edi3:TransportMeans](#TransportMeans)
+[edi3:BinaryFile](#BinaryFile)
 [edi3:Section](#Section)
-[edi3:WorkflowObject](#WorkflowObject)
 [edi3:Contact](#Contact)
+[edi3:WorkflowObject](#WorkflowObject)
 [edi3:Response](#Response)
 [edi3:Marketplace](#Marketplace)
 [edi3:Equipment](#Equipment)
 [edi3:Authentication](#Authentication)
 [edi3:Schedule](#Schedule)
-[edi3:Parameter](#Parameter)
 [edi3:Event](#Event)
+[edi3:Parameter](#Parameter)
 [edi3:Clause](#Clause)
-[edi3:TradeAgreement](#TradeAgreement)
 [edi3:GeographicalGrid](#GeographicalGrid)
 [edi3:Location](#Location)
+[edi3:TradeAgreement](#TradeAgreement)
 
 
 <h1 id="IdentificationPaymentTermsIdentifier">IdentificationPaymentTermsIdentifier</h1>
@@ -16665,14 +17973,14 @@ Domains:
 
 Type: rdf:Property
 
-Comments: <br/>Information, expressed as text, for this trade settlement payment means.<br/>Information, expressed as text, for this document status.<br/>Information, expressed as text, for this exchanged document.<br/>Information, expressed as text, for this supply chain consignment item.<br/>Information, expressed as text, for this referenced document.<br/>Information, expressed as text, for this referenced logistics package.<br/>Information, expressed as text, for this logistics transport movement.<br/>Information, expressed as text, concerning the transport of these dangerous goods.<br/>Information, expressed as text, for this supply chain consignment.<br/>Information, expressed as text, for this document authentication.<br/>Information, expressed as text, for this logistics package.<br/>Information, expressed as text, in this section segment.<br/>Information, expressed as text, for this piece of logistics transport equipment.<br/>Information, expressed as text, for this transport service.<br/>Information, expressed as text, for this supply chain trade transaction.<br/>
+Comments: <br/>Information, expressed as text, for this trade settlement payment means.<br/>Information, expressed as text, for this document status.<br/>Information, expressed as text, for this exchanged document.<br/>Information, expressed as text, for this supply chain consignment item.<br/>Information, expressed as text, for this referenced document.<br/>Information, expressed as text, for this referenced logistics package.<br/>Information, expressed as text, for this logistics transport movement.<br/>Information, expressed as text, concerning the transport of these dangerous goods.<br/>Information, expressed as text, for this document authentication.<br/>Information, expressed as text, for this supply chain consignment.<br/>Information, expressed as text, for this logistics package.<br/>Information, expressed as text, in this section segment.<br/>Information, expressed as text, for this piece of logistics transport equipment.<br/>Information, expressed as text, for this transport service.<br/>Information, expressed as text, for this supply chain trade transaction.<br/>
 
 Domains: 
 
 [edi3:Status](#Status)
 [edi3:TransportEquipment](#TransportEquipment)
-[edi3:Consignment](#Consignment)
 [edi3:Service](#Service)
+[edi3:Consignment](#Consignment)
 [edi3:Document](#Document)
 [edi3:Segment](#Segment)
 [edi3:PaymentMeans](#PaymentMeans)
@@ -17791,7 +19099,7 @@ Domains:
 
 Type: rdf:Property
 
-Comments: <br/>Linear spatial dimensions of this trade product.<br/>The linear spatial dimensions of this logistics package.<br/>The linear spatial dimensions of this piece of logistics transport equipment.<br/>The linear spatial dimensions of this supply chain packaging.<br/>The linear spatial dimensions of this supply chain consignment item.<br/>
+Comments: <br/>The linear spatial dimensions of this piece of logistics transport equipment.<br/>Linear spatial dimensions of this trade product.<br/>The linear spatial dimensions of this logistics package.<br/>The linear spatial dimensions of this supply chain packaging.<br/>The linear spatial dimensions of this supply chain consignment item.<br/>
 
 Domains: 
 
@@ -18262,7 +19570,7 @@ Domains:
 
 Type: rdf:Property
 
-Comments: <br/>The manufacturer party for this OEM equipment.<br/>The manufacturer party of this monitoring IOT device.<br/>The manufacturer party for this monitoring sensor.<br/>A manufacturer party for this trade product.<br/>The party which manufactured this supply chain consignment item.<br/>The manufacturer party for this logistics means of transport.<br/>The manufacturer party specified for this piece of logistics transport equipment.<br/>
+Comments: <br/>The manufacturer party for this OEM equipment.<br/>The manufacturer party of this monitoring IOT device.<br/>A manufacturer party for this trade product.<br/>The manufacturer party for this monitoring sensor.<br/>The party which manufactured this supply chain consignment item.<br/>The manufacturer party specified for this piece of logistics transport equipment.<br/>The manufacturer party for this logistics means of transport.<br/>
 
 Domains: 
 
@@ -18846,7 +20154,7 @@ Domains:
 
 Type: rdf:Property
 
-Comments: <br/>The measure of the minimum value of this instructed temperature.<br/>The measure of the minimum value for this specified range.<br/>
+Comments: <br/>The measure of the minimum value for this specified range.<br/>The measure of the minimum value of this instructed temperature.<br/>
 
 Domains: 
 
@@ -18980,12 +20288,12 @@ Domains:
 
 Type: rdf:Property
 
-Comments: <br/>The name, expressed as text, of this referenced transport means, such as the vessel name.<br/>A name, expressed as text, for this trade product.<br/>The name, expressed as text, for this requesting party.<br/>A name, expressed as text, of this academic qualification.<br/>The name, expressed as text, for this branch of a financial institution.<br/>A name, expressed as text, of this legally set up organization.<br/>The name, expressed as text, for this logistics transport movement.<br/>The name, expressed as text, for this valuation breakdown statement.<br/>The name, expressed as text, for this specified marketplace.<br/>A name, expressed as text, of this applied chemical treatment.<br/>The name, expressed as text, of this location used or referenced in trade.<br/>The name, expressed as text, of this operational parameter.<br/>The name, expressed as text, of this trade geopolitical region.<br/>The name, expressed as text, of this procuring project.<br/>A name, expressed as text, of this exchanged document.<br/>The name, expressed as text, of this control setting parameter.<br/>The name, expressed as text, of this trade accounting account.<br/>A name, expressed as text, of this transport service location.<br/>A name, expressed as text, for this location party.<br/>The name, expressed as text, of this specified geographical feature.<br/>The name, expressed as text, of this logistics means of transport.<br/>The name, expressed as text, of this subordinate of a subordinate location.<br/>A name, expressed as text, of this specified period.<br/>A name, expressed as text, for this referenced document.<br/>The name, expressed as text, for this geographical object characteristic.<br/>A name, expressed as text, for this product characteristic condition.<br/>The name, expressed as text, of this document version.<br/>A name, expressed as text, for this keyword.<br/>The name or set of names, expressed as text, by which this transport person is known.<br/>The name, expressed as text, for this debtor financial institution.<br/>A name, expressed as text, of this logistics related location.<br/>The name, expressed as text, of this transport service.<br/>The name, expressed as text, for this trade product group.<br/>The name, expressed as text, of this specified direct position list.<br/>A name, expressed as text, of this trade country sub-division.<br/>The name, expressed as text, of this authoritative signatory person.<br/>A name, expressed as text, for this referenced product.<br/>The name, expressed as text, of this subordinate location.<br/>The name, expressed as text, of the reference for this specified direct position.<br/>The name, expressed as text, for this creditor financial institution.<br/>The name, expressed as text, for this acknowledgement document.<br/>The name, expressed as text, for this trade party.<br/>A name, expressed as text, of this trade country.<br/>A name, expressed as text, for this trade product feature.<br/>
+Comments: <br/>The name, expressed as text, of this referenced transport means, such as the vessel name.<br/>A name, expressed as text, of this academic qualification.<br/>The name, expressed as text, for this requesting party.<br/>A name, expressed as text, for this trade product.<br/>The name, expressed as text, for this branch of a financial institution.<br/>A name, expressed as text, of this legally set up organization.<br/>The name, expressed as text, for this logistics transport movement.<br/>The name, expressed as text, for this specified marketplace.<br/>The name, expressed as text, for this valuation breakdown statement.<br/>The name, expressed as text, of this location used or referenced in trade.<br/>A name, expressed as text, of this applied chemical treatment.<br/>The name, expressed as text, of this operational parameter.<br/>The name, expressed as text, of this trade geopolitical region.<br/>The name, expressed as text, of this procuring project.<br/>A name, expressed as text, of this exchanged document.<br/>The name, expressed as text, of this control setting parameter.<br/>The name, expressed as text, of this trade accounting account.<br/>A name, expressed as text, for this location party.<br/>A name, expressed as text, of this transport service location.<br/>The name, expressed as text, of this specified geographical feature.<br/>The name, expressed as text, of this logistics means of transport.<br/>The name, expressed as text, of this subordinate of a subordinate location.<br/>A name, expressed as text, of this specified period.<br/>A name, expressed as text, for this referenced document.<br/>The name, expressed as text, for this geographical object characteristic.<br/>A name, expressed as text, for this product characteristic condition.<br/>The name, expressed as text, of this document version.<br/>A name, expressed as text, for this keyword.<br/>The name or set of names, expressed as text, by which this transport person is known.<br/>The name, expressed as text, of this transport service.<br/>The name, expressed as text, for this debtor financial institution.<br/>A name, expressed as text, of this logistics related location.<br/>The name, expressed as text, for this trade product group.<br/>The name, expressed as text, of this specified direct position list.<br/>A name, expressed as text, of this trade country sub-division.<br/>The name, expressed as text, of this authoritative signatory person.<br/>A name, expressed as text, for this referenced product.<br/>The name, expressed as text, of this subordinate location.<br/>The name, expressed as text, of the reference for this specified direct position.<br/>The name, expressed as text, for this creditor financial institution.<br/>The name, expressed as text, for this trade party.<br/>The name, expressed as text, for this acknowledgement document.<br/>A name, expressed as text, of this trade country.<br/>A name, expressed as text, for this trade product feature.<br/>
 
 Domains: 
 
-[edi3:ProductGroup](#ProductGroup)
 [edi3:DirectPosition](#DirectPosition)
+[edi3:ProductGroup](#ProductGroup)
 [edi3:Organization](#Organization)
 [edi3:Product](#Product)
 [edi3:GeographicalFeature](#GeographicalFeature)
@@ -18994,24 +20302,24 @@ Domains:
 [edi3:BreakdownStatement](#BreakdownStatement)
 [edi3:ChemicalTreatment](#ChemicalTreatment)
 [edi3:Party](#Party)
-[edi3:Version](#Version)
 [edi3:GeographicalObjectCharacteristic](#GeographicalObjectCharacteristic)
+[edi3:Version](#Version)
 [edi3:FinancialInstitution](#FinancialInstitution)
 [edi3:TransportMovement](#TransportMovement)
 [edi3:GeopoliticalRegion](#GeopoliticalRegion)
-[edi3:CountrySubDivision](#CountrySubDivision)
 [edi3:Condition](#Condition)
+[edi3:CountrySubDivision](#CountrySubDivision)
 [edi3:Keyword](#Keyword)
-[edi3:Period](#Period)
 [edi3:Service](#Service)
+[edi3:Period](#Period)
 [edi3:AccountingAccount](#AccountingAccount)
 [edi3:TransportMeans](#TransportMeans)
 [edi3:Project](#Project)
-[edi3:Marketplace](#Marketplace)
 [edi3:Qualification](#Qualification)
+[edi3:Marketplace](#Marketplace)
 [edi3:DirectPositionList](#DirectPositionList)
-[edi3:Country](#Country)
 [edi3:Parameter](#Parameter)
+[edi3:Country](#Country)
 [edi3:Person](#Person)
 [edi3:Location](#Location)
 
@@ -19098,7 +20406,7 @@ Domains:
 
 Type: rdf:Property
 
-Comments: <br/>A net product price in this line trade agreement.<br/>A net product price in this subordinate line trade agreement.<br/>
+Comments: <br/>A net product price in this subordinate line trade agreement.<br/>A net product price in this line trade agreement.<br/>
 
 Domains: 
 
@@ -19144,7 +20452,7 @@ Domains:
 
 Type: rdf:Property
 
-Comments: <br/>A measure of the net weight (mass) of this referenced consignment which excludes the weight of packaging and the weight of any transport equipment.<br/>A measure of the net weight (mass) of this supply chain consignment item which excludes all packaging.<br/>A measure of the net weight (mass) of this consignment which excludes the weight of packaging of this supply chain consignment and that of any transport equipment.<br/>The measure of the net weight (mass) of these transported dangerous goods.<br/>The measure of the net weight (mass) of this piece of referenced logistics transport equipment.<br/>The measure of the net weight (mass) of this logistics means of transport, such as the net tonnage of a vessel determined in accordance with the provisions of the International Convention on Tonnage Measurement of Ships, 1969.<br/>The measure of the net weight (mass) of this piece of logistics transport equipment.<br/>The measure, at line level, of the net weight (mass) of this trade delivery.<br/>The measure of the net weight (mass) of the contents of this referenced logistics package.<br/>
+Comments: <br/>A measure of the net weight (mass) of this supply chain consignment item which excludes all packaging.<br/>A measure of the net weight (mass) of this referenced consignment which excludes the weight of packaging and the weight of any transport equipment.<br/>A measure of the net weight (mass) of this consignment which excludes the weight of packaging of this supply chain consignment and that of any transport equipment.<br/>The measure of the net weight (mass) of these transported dangerous goods.<br/>The measure of the net weight (mass) of this piece of referenced logistics transport equipment.<br/>The measure of the net weight (mass) of this logistics means of transport, such as the net tonnage of a vessel determined in accordance with the provisions of the International Convention on Tonnage Measurement of Ships, 1969.<br/>The measure of the net weight (mass) of this piece of logistics transport equipment.<br/>The measure, at line level, of the net weight (mass) of this trade delivery.<br/>The measure of the net weight (mass) of the contents of this referenced logistics package.<br/>
 
 Domains: 
 
@@ -19331,7 +20639,7 @@ Domains:
 
 Type: rdf:Property
 
-Comments: <br/>A specified period of time for the occurrence of this referenced transport event.<br/>A specified period of time during which this transport event occurs.<br/>A specified period of time during which this supply chain event occurs.<br/>
+Comments: <br/>A specified period of time for the occurrence of this referenced transport event.<br/>A specified period of time during which this supply chain event occurs.<br/>A specified period of time during which this transport event occurs.<br/>
 
 Domains: 
 
@@ -19654,20 +20962,20 @@ Domains:
 
 Type: rdf:Property
 
-Comments: <br/>A country of origin for this trade product.<br/>A country of origin for this supply chain consignment.<br/>The country of origin where this supply chain consignment item has been produced.<br/>
+Comments: <br/>A country of origin for this supply chain consignment.<br/>A country of origin for this trade product.<br/>The country of origin where this supply chain consignment item has been produced.<br/>
 
 Domains: 
 
 [edi3:ConsignmentItem](#ConsignmentItem)
-[edi3:Product](#Product)
 [edi3:Consignment](#Consignment)
+[edi3:Product](#Product)
 
 
 <h1 id="OriginTradeGeopoliticalRegion">OriginTradeGeopoliticalRegion</h1>
 
 Type: rdf:Property
 
-Comments: <br/>The geopolitical region of origin for this supply chain consignment.<br/>The geopolitical region of origin for this supply chain consignment item.<br/>
+Comments: <br/>The geopolitical region of origin for this supply chain consignment item.<br/>The geopolitical region of origin for this supply chain consignment.<br/>
 
 Domains: 
 
@@ -19791,7 +21099,7 @@ Domains:
 
 Type: rdf:Property
 
-Comments: <br/>The number of packages within this supply chain consignment.<br/>The number of packages in this logistics transport movement.<br/>The package quantity for this supply chain consignment item.<br/>The number of packages, at line level, in this trade delivery.<br/>The number of packages in this subordinate line trade delivery.<br/>
+Comments: <br/>The number of packages within this supply chain consignment.<br/>The number of packages in this logistics transport movement.<br/>The package quantity for this supply chain consignment item.<br/>The number of packages in this subordinate line trade delivery.<br/>The number of packages, at line level, in this trade delivery.<br/>
 
 Domains: 
 
@@ -20165,8 +21473,8 @@ Comments: <br/>The code specifying the payment arrangement for this logistics se
 Domains: 
 
 [edi3:ServiceCharge](#ServiceCharge)
-[edi3:Service](#Service)
 [edi3:Consignment](#Consignment)
+[edi3:Service](#Service)
 
 
 <h1 id="PaymentChannelPaymentMeansChannelCode">PaymentChannelPaymentMeansChannelCode</h1>
@@ -21220,7 +22528,7 @@ Domains:
 
 Type: rdf:Property
 
-Comments: <br/>The number of product units, at line level, in this trade delivery.<br/>The number of product units in this subordinate line trade delivery.<br/>
+Comments: <br/>The number of product units in this subordinate line trade delivery.<br/>The number of product units, at line level, in this trade delivery.<br/>
 
 Domains: 
 
@@ -21785,7 +23093,7 @@ Domains:
 
 Type: rdf:Property
 
-Comments: <br/>A code specifying a reason for this document status.<br/>A code specifying a reason for this financial adjustment.<br/>The code specifying the reason for this payment balance out.<br/>The code specifying a reason for this communication event.<br/>The code specifying the reason for this validation status.<br/>The code specifying the reason for this applied allowance charge.<br/>The code specifying the reason for this cancellation status.<br/>The code specifying the reason for this header balance out.<br/>
+Comments: <br/>A code specifying a reason for this document status.<br/>The code specifying the reason for this payment balance out.<br/>A code specifying a reason for this financial adjustment.<br/>The code specifying a reason for this communication event.<br/>The code specifying the reason for this validation status.<br/>The code specifying the reason for this applied allowance charge.<br/>The code specifying the reason for this cancellation status.<br/>The code specifying the reason for this header balance out.<br/>
 
 Domains: 
 
@@ -21845,7 +23153,7 @@ Domains:
 
 Type: rdf:Property
 
-Comments: <br/>A reason, expressed as text, for this financial adjustment.<br/>A reason, expressed as text, for this financing status.<br/>The reason, expressed as text, for this trade allowance charge.<br/>A reason, expressed as text, for this validation status.<br/>A reason, expressed as text, for this document status.<br/>A reason, expressed as text, for this delivery adjustment.<br/>A reason, expressed as text, for this cancellation status.<br/>A reason, expressed as text, for this logistics status.<br/>
+Comments: <br/>A reason, expressed as text, for this financial adjustment.<br/>The reason, expressed as text, for this trade allowance charge.<br/>A reason, expressed as text, for this financing status.<br/>A reason, expressed as text, for this validation status.<br/>A reason, expressed as text, for this document status.<br/>A reason, expressed as text, for this delivery adjustment.<br/>A reason, expressed as text, for this cancellation status.<br/>A reason, expressed as text, for this logistics status.<br/>
 
 Domains: 
 
@@ -22356,7 +23664,7 @@ Domains:
 
 Type: rdf:Property
 
-Comments: <br/>A consignment, at header level, related to this trade delivery.<br/>A consignment, at line level, related to this line trade delivery.<br/>
+Comments: <br/>A consignment, at line level, related to this line trade delivery.<br/>A consignment, at header level, related to this trade delivery.<br/>
 
 Domains: 
 
@@ -22589,7 +23897,7 @@ Domains:
 
 Type: rdf:Property
 
-Comments: <br/>A logistics status reported for this supply chain consignment item.<br/>A logistics status reported for this cross-border regulatory procedure.<br/>A status reported for this piece of logistics transport equipment.<br/>A logistics status reported for this supply chain consignment.<br/>
+Comments: <br/>A logistics status reported for this supply chain consignment item.<br/>A logistics status reported for this cross-border regulatory procedure.<br/>A logistics status reported for this supply chain consignment.<br/>A status reported for this piece of logistics transport equipment.<br/>
 
 Domains: 
 
@@ -23616,8 +24924,8 @@ Comments: <br/>The code specifying the season for this specified period.<br/>A c
 
 Domains: 
 
-[edi3:Period](#Period)
 [edi3:Product](#Product)
+[edi3:Period](#Period)
 
 
 <h1 id="SeasonDescriptionText">SeasonDescriptionText</h1>
@@ -23867,7 +25175,7 @@ Domains:
 
 Type: rdf:Property
 
-Comments: <br/>The sequence number for this supply chain consignment item.<br/>The sequence number of this logistics status, such as within a status report.<br/>The sequence number of this logistics package.<br/>A sequence number for this supply chain consignment.<br/>A sequence number for this stores inventory item.<br/>The sequence number differentiating this logistics transport means from others.<br/>The sequence number for this referenced supply chain consignment.<br/>The sequence number of this referenced logistics package.<br/>A sequence number for this specified period.<br/>A sequence number for this supply chain trade line item.<br/>The sequence number for this referenced supply chain consignment item.<br/>The sequence number for applying this trade allowance charge.<br/>A sequence number for these specified personal effects.<br/>The sequence number differentiating this piece of logistics transport equipment from others in a set of transport equipment.<br/>
+Comments: <br/>The sequence number for this supply chain consignment item.<br/>The sequence number of this logistics status, such as within a status report.<br/>A sequence number for this supply chain consignment.<br/>The sequence number of this logistics package.<br/>A sequence number for this stores inventory item.<br/>The sequence number differentiating this logistics transport means from others.<br/>The sequence number for this referenced supply chain consignment.<br/>The sequence number of this referenced logistics package.<br/>A sequence number for this specified period.<br/>A sequence number for this supply chain trade line item.<br/>The sequence number for this referenced supply chain consignment item.<br/>The sequence number for applying this trade allowance charge.<br/>A sequence number for these specified personal effects.<br/>The sequence number differentiating this piece of logistics transport equipment from others in a set of transport equipment.<br/>
 
 Domains: 
 
@@ -24188,7 +25496,7 @@ Domains:
 
 Type: rdf:Property
 
-Comments: <br/>A signatory document authentication for this exchanged document.<br/>A signatory authentication for this referenced document.<br/>
+Comments: <br/>A signatory authentication for this referenced document.<br/>A signatory document authentication for this exchanged document.<br/>
 
 Domains: 
 
@@ -24631,7 +25939,7 @@ Domains:
 
 Type: rdf:Property
 
-Comments: <br/>Handling instructions, at header level, specified for this trade delivery.<br/>Handling instructions specified for this logistics means of transport.<br/>Handling instructions, at line level, specified for this trade delivery.<br/>Handling instructions specified for this logistics transport movement.<br/>
+Comments: <br/>Handling instructions, at header level, specified for this trade delivery.<br/>Handling instructions specified for this logistics means of transport.<br/>Handling instructions specified for this logistics transport movement.<br/>Handling instructions, at line level, specified for this trade delivery.<br/>
 
 Domains: 
 
@@ -25051,7 +26359,7 @@ Domains:
 
 Type: rdf:Property
 
-Comments: <br/>A financial card specified in this line trade settlement.<br/>A financial card specified in this header trade settlement.<br/>
+Comments: <br/>A financial card specified in this header trade settlement.<br/>A financial card specified in this line trade settlement.<br/>
 
 Domains: 
 
@@ -25294,14 +26602,14 @@ Domains:
 
 Type: rdf:Property
 
-Comments: <br/>The code specifying the status, at line level, for this trade delivery.<br/>The code specifying the status of this trade workflow object.<br/>The code specifying the status of this control setting parameter.<br/>A code specifying a status for this trade product.<br/>The code specifying the status, at header level, for this trade delivery.<br/>The code specifying the status of this work item quantity analysis, such as partial, approved, not approved.<br/>The code specifying the status of this operational parameter.<br/>A code specifying the status of this basic work item.<br/>The code specifying a status for this supply chain inventory.<br/>A code specifying the status of this supply chain schedule.<br/>
+Comments: <br/>The code specifying the status, at line level, for this trade delivery.<br/>The code specifying the status of this trade workflow object.<br/>A code specifying a status for this trade product.<br/>The code specifying the status of this control setting parameter.<br/>The code specifying the status, at header level, for this trade delivery.<br/>The code specifying the status of this work item quantity analysis, such as partial, approved, not approved.<br/>The code specifying the status of this operational parameter.<br/>A code specifying the status of this basic work item.<br/>The code specifying a status for this supply chain inventory.<br/>A code specifying the status of this supply chain schedule.<br/>
 
 Domains: 
 
 [edi3:Schedule](#Schedule)
 [edi3:TradeDelivery](#TradeDelivery)
-[edi3:Parameter](#Parameter)
 [edi3:Product](#Product)
+[edi3:Parameter](#Parameter)
 [edi3:QuantityAnalysis](#QuantityAnalysis)
 [edi3:WorkItem](#WorkItem)
 [edi3:Inventory](#Inventory)
@@ -25590,7 +26898,7 @@ Domains:
 
 Type: rdf:Property
 
-Comments: <br/>A trade country sub-division that is subordinate to this trade country, such as a state, a county, a canton, a province.<br/>A subordinate country sub-division within this trade country sub-division.<br/>
+Comments: <br/>A subordinate country sub-division within this trade country sub-division.<br/>A trade country sub-division that is subordinate to this trade country, such as a state, a county, a canton, a province.<br/>
 
 Domains: 
 
@@ -26482,7 +27790,7 @@ Domains:
 
 Type: rdf:Property
 
-Comments: <br/>A monetary value which constitutes the total retail value stated for information purposes in this trade settlement line monetary summation.<br/>A monetary value which constitutes the total retail value stated for information purposes in this trade settlement header monetary summation.<br/>
+Comments: <br/>A monetary value which constitutes the total retail value stated for information purposes in this trade settlement header monetary summation.<br/>A monetary value which constitutes the total retail value stated for information purposes in this trade settlement line monetary summation.<br/>
 
 Domains: 
 
@@ -26760,7 +28068,7 @@ Domains:
 
 Type: rdf:Property
 
-Comments: <br/>Transport packages for this referenced supply chain consignment.<br/>Transport packages for this supply chain consignment.<br/>A transport package for this referenced supply chain consignment item.<br/>A transport package for this supply chain consignment item.<br/>
+Comments: <br/>Transport packages for this supply chain consignment.<br/>Transport packages for this referenced supply chain consignment.<br/>A transport package for this referenced supply chain consignment item.<br/>A transport package for this supply chain consignment item.<br/>
 
 Domains: 
 
@@ -27059,22 +28367,22 @@ Domains:
 
 Type: rdf:Property
 
-Comments: <br/>The code specifying the type of product characteristic condition.<br/>The code specifying the type of requesting party.<br/>The code specifying the type of this radioactive material.<br/>The code specifying the type of trade geopolitical region.<br/>A code specifying the type of valuation breakdown statement.<br/>The code specifying the type of procuring project, such as goods, works and service.<br/>A code specifying the type of supply chain event.<br/>A code specifying a type of measurement.<br/>A code specifying the type of stores inventory item.<br/>The code specifying a type of parameter for this control setting parameter.<br/>The code specifying the type of this specification response.<br/>A code specifying a type of specified personal effects.<br/>A code specifying the type of basic work item.<br/>The code specifying the type of this calculated emission.<br/>A code specifying the type of this legal registration.<br/>The code specifying the type of section segment.<br/>The code specifying the type of this product security tag.<br/>The code specifying the type of communication event.<br/>The code specifying the applied tax type such as VAT.<br/>A code specifying the type of trade party that is independent of its role.<br/>A code specifying a type of cross-border regulatory procedure.<br/>A code specifying the type of trade product.<br/>The code specifying a type of monitoring sensor.<br/>The code specifying the type of creditor financial account.<br/>The code specifying the type of distinct chemical.<br/>The code specifying the type of debtor financial account.<br/>A code specifying the type of supply chain schedule.<br/>A code specifying a type of OEM equipment.<br/>The code specifying the type of this operational parameter.<br/>The code specifying the type of trade product feature.<br/>The code specifying the type of specification query.<br/>The code specifying the type of work item quantity analysis.<br/>The code specifying the type of financial institution address.<br/>The code specifying a type of this specified range.<br/>A code specifying the type of calculated price.<br/>The code specifying the type of transport event.<br/>The code specifying the type of supply chain trade line item.<br/>A code specifying a type of government registration.<br/>A code specifying the type of this work item group.<br/>The code specifying the type of monitoring IOT device.<br/>The code specifying the type of this certified accreditation, such as a type of driving license.<br/>A code specifying a type of country sub-division for trade purposes.<br/>The code specifying the type of cross-border customs valuation.<br/>A code specifying a type of product characteristic.<br/>The code specifying the type of supply chain trade transaction.<br/>The code specifying the type of this trade settlement financial card, such as debit or credit.<br/>A code specifying the type of product certificate.<br/>The code specifying the type of this work item dimension.<br/>The code specifying the type of material goods characteristic.<br/>A code specifying a type of transport waste material component.<br/>A code specifying a type of legally set up organization.<br/>The code specifying the type of registered tax.<br/>
+Comments: <br/>The code specifying the type of product characteristic condition.<br/>The code specifying the type of requesting party.<br/>The code specifying the type of this radioactive material.<br/>The code specifying the type of trade geopolitical region.<br/>A code specifying the type of valuation breakdown statement.<br/>The code specifying the type of procuring project, such as goods, works and service.<br/>A code specifying the type of supply chain event.<br/>A code specifying a type of measurement.<br/>The code specifying a type of parameter for this control setting parameter.<br/>A code specifying the type of stores inventory item.<br/>The code specifying the type of this specification response.<br/>A code specifying a type of specified personal effects.<br/>A code specifying the type of basic work item.<br/>The code specifying the type of this calculated emission.<br/>A code specifying the type of this legal registration.<br/>The code specifying the type of section segment.<br/>The code specifying the type of this product security tag.<br/>The code specifying the type of communication event.<br/>The code specifying the applied tax type such as VAT.<br/>A code specifying the type of trade party that is independent of its role.<br/>A code specifying a type of cross-border regulatory procedure.<br/>A code specifying the type of trade product.<br/>The code specifying a type of monitoring sensor.<br/>The code specifying the type of creditor financial account.<br/>The code specifying the type of debtor financial account.<br/>The code specifying the type of distinct chemical.<br/>A code specifying the type of supply chain schedule.<br/>A code specifying a type of OEM equipment.<br/>The code specifying the type of trade product feature.<br/>The code specifying the type of this operational parameter.<br/>The code specifying the type of specification query.<br/>The code specifying the type of financial institution address.<br/>The code specifying the type of work item quantity analysis.<br/>The code specifying a type of this specified range.<br/>A code specifying the type of calculated price.<br/>The code specifying the type of supply chain trade line item.<br/>The code specifying the type of transport event.<br/>A code specifying a type of government registration.<br/>A code specifying the type of this work item group.<br/>The code specifying the type of monitoring IOT device.<br/>The code specifying the type of this certified accreditation, such as a type of driving license.<br/>A code specifying a type of country sub-division for trade purposes.<br/>The code specifying the type of cross-border customs valuation.<br/>The code specifying the type of supply chain trade transaction.<br/>A code specifying a type of product characteristic.<br/>The code specifying the type of this trade settlement financial card, such as debit or credit.<br/>A code specifying the type of product certificate.<br/>The code specifying the type of this work item dimension.<br/>The code specifying the type of material goods characteristic.<br/>A code specifying a type of legally set up organization.<br/>A code specifying a type of transport waste material component.<br/>The code specifying the type of registered tax.<br/>
 
 Domains: 
 
 [edi3:Measurement](#Measurement)
 [edi3:Organization](#Organization)
-[edi3:PersonalEffects](#PersonalEffects)
 [edi3:Query](#Query)
 [edi3:Address](#Address)
+[edi3:PersonalEffects](#PersonalEffects)
 [edi3:Emission](#Emission)
 [edi3:Product](#Product)
 [edi3:Tax](#Tax)
 [edi3:WorkItem](#WorkItem)
 [edi3:Feature](#Feature)
-[edi3:Segment](#Segment)
 [edi3:BreakdownStatement](#BreakdownStatement)
+[edi3:Segment](#Segment)
 [edi3:TradeTransaction](#TradeTransaction)
 [edi3:FinancialCard](#FinancialCard)
 [edi3:Party](#Party)
@@ -27085,11 +28393,11 @@ Domains:
 [edi3:QuantityAnalysis](#QuantityAnalysis)
 [edi3:GeopoliticalRegion](#GeopoliticalRegion)
 [edi3:CountrySubDivision](#CountrySubDivision)
-[edi3:Condition](#Condition)
 [edi3:GoodsCharacteristic](#GoodsCharacteristic)
+[edi3:Condition](#Condition)
 [edi3:CustomsValuation](#CustomsValuation)
-[edi3:Characteristic](#Characteristic)
 [edi3:RegulatoryProcedure](#RegulatoryProcedure)
+[edi3:Characteristic](#Characteristic)
 [edi3:Material](#Material)
 [edi3:Dimension](#Dimension)
 [edi3:TradeLineItem](#TradeLineItem)
@@ -27135,7 +28443,7 @@ Domains:
 
 Type: rdf:Property
 
-Comments: <br/>The code specifying the type of exchanged document.<br/>The code specifying the type of referenced document.<br/>A code specifying a type of acknowledgement document.<br/>The code specifying the type of this exchanged declaration.<br/>
+Comments: <br/>The code specifying the type of exchanged document.<br/>The code specifying the type of referenced document.<br/>The code specifying the type of this exchanged declaration.<br/>A code specifying a type of acknowledgement document.<br/>
 
 Domains: 
 
@@ -27202,7 +28510,7 @@ Domains:
 
 Type: rdf:Property
 
-Comments: <br/>The code specifying the type of supply chain packaging.<br/>A code specifying the type of logistics package.<br/>The code specifying the type of referenced logistics package.<br/>
+Comments: <br/>A code specifying the type of logistics package.<br/>The code specifying the type of supply chain packaging.<br/>The code specifying the type of referenced logistics package.<br/>
 
 Domains: 
 
@@ -27302,14 +28610,14 @@ Domains:
 
 Type: rdf:Property
 
-Comments: <br/>A type, expressed as text for this transport route.<br/>The type, expressed as text, of this trade related tax, levy or duty.<br/>The type, expressed as text, of supply chain packaging.<br/>The type, expressed as text, of this referenced transport means.<br/>The type, expressed as text, of this logistics means of transport.<br/>A type, expressed as text, of this referenced logistics package.<br/>A type, expressed as text, for this trade price.<br/>The type, as expressed as text, of the logistics transport movement.<br/>A type, expressed as text, of this logistics package.<br/>
+Comments: <br/>A type, expressed as text for this transport route.<br/>The type, expressed as text, of this trade related tax, levy or duty.<br/>The type, expressed as text, of supply chain packaging.<br/>A type, expressed as text, of this referenced logistics package.<br/>The type, expressed as text, of this referenced transport means.<br/>The type, expressed as text, of this logistics means of transport.<br/>A type, expressed as text, for this trade price.<br/>The type, as expressed as text, of the logistics transport movement.<br/>A type, expressed as text, of this logistics package.<br/>
 
 Domains: 
 
 [edi3:Price](#Price)
 [edi3:Packaging](#Packaging)
-[edi3:TransportMovement](#TransportMovement)
 [edi3:Tax](#Tax)
+[edi3:TransportMovement](#TransportMovement)
 [edi3:Package](#Package)
 [edi3:TransportMeans](#TransportMeans)
 [edi3:Route](#Route)
@@ -27399,7 +28707,7 @@ Domains:
 
 Type: rdf:Property
 
-Comments: <br/>Uniform Resource Identifier (URI) communication information for this location party, such as a web or email address.<br/>The Uniform Resource Identifier (URI) communication for this transport service, such as its website or email address.<br/>A Uniform Resource Identifier (URI) communication for this trade party, such as a web or email address.<br/>
+Comments: <br/>The Uniform Resource Identifier (URI) communication for this transport service, such as its website or email address.<br/>Uniform Resource Identifier (URI) communication information for this location party, such as a web or email address.<br/>A Uniform Resource Identifier (URI) communication for this trade party, such as a web or email address.<br/>
 
 Domains: 
 
@@ -27960,15 +29268,15 @@ Domains:
 
 Type: rdf:Property
 
-Comments: <br/>The measure value for this control setting parameter.<br/>The measure of the value of this spatial dimension.<br/>The measure of the value for this monitoring sensor.<br/>The measured value for this work item dimension.<br/>The value of a measure for this calibrated measurement.<br/>The measure value for this operational parameter.<br/>A measure of a value for this product characteristic.<br/>The measure of a value for this communication event.<br/>The measure of the value for this product characteristic condition.<br/>
+Comments: <br/>The measure of the value of this spatial dimension.<br/>The measure value for this control setting parameter.<br/>The measure of the value for this monitoring sensor.<br/>The measured value for this work item dimension.<br/>The value of a measure for this calibrated measurement.<br/>The measure value for this operational parameter.<br/>A measure of a value for this product characteristic.<br/>The measure of a value for this communication event.<br/>The measure of the value for this product characteristic condition.<br/>
 
 Domains: 
 
-[edi3:Condition](#Condition)
 [edi3:Measurement](#Measurement)
+[edi3:Condition](#Condition)
 [edi3:Characteristic](#Characteristic)
-[edi3:Parameter](#Parameter)
 [edi3:Event](#Event)
+[edi3:Parameter](#Parameter)
 [edi3:Dimension](#Dimension)
 [edi3:Sensor](#Sensor)
 
@@ -27999,7 +29307,7 @@ Domains:
 
 Type: rdf:Property
 
-Comments: <br/>The value, expressed as text, of this document context parameter.<br/>The value, expressed as text, of this operational parameter.<br/>The value, expressed as text, of this control setting parameter.<br/>A value, expressed as text, for this product characteristic.<br/>
+Comments: <br/>The value, expressed as text, of this document context parameter.<br/>The value, expressed as text, of this control setting parameter.<br/>The value, expressed as text, of this operational parameter.<br/>A value, expressed as text, for this product characteristic.<br/>
 
 Domains: 
 
