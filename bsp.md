@@ -8,8 +8,8 @@ Properties:
 
 Name | Type 
 -|-
-<span id="IdentificationIdentifier">IdentificationIdentifier</span> | xsd:token
-<span id="NameText">NameText</span> | xsd:string
+[IdentificationIdentifier](#IdentificationIdentifier) | xsd:token
+[NameText](#NameText) | xsd:string
 
 
 <h1 id="Address">Address</h1>
@@ -22,31 +22,31 @@ Properties:
 
 Name | Type 
 -|-
-<span id="CountrySubDivisionIdentifier">CountrySubDivisionIdentifier</span> | xsd:token
-<span id="PostcodeCode">PostcodeCode</span> | xsd:token
-<span id="LineFiveText">LineFiveText</span> | xsd:string
-<span id="CountryCountryIdentifier">CountryCountryIdentifier</span> | xsd:token
-<span id="LineFourText">LineFourText</span> | xsd:string
-<span id="CityNameText">CityNameText</span> | xsd:string
-<span id="PostOfficeBoxText">PostOfficeBoxText</span> | xsd:string
-<span id="LineOneText">LineOneText</span> | xsd:string
-<span id="BuildingNameText">BuildingNameText</span> | xsd:string
-<span id="TypeCode">TypeCode</span> | xsd:token
-<span id="CountrySubDivisionNameText">CountrySubDivisionNameText</span> | xsd:string
-<span id="CityIdentifier">CityIdentifier</span> | xsd:token
-<span id="TypeAddressTypeCode">TypeAddressTypeCode</span> | xsd:token
-<span id="StreetNameText">StreetNameText</span> | xsd:string
-<span id="AttentionOfText">AttentionOfText</span> | xsd:string
-<span id="CountryNameText">CountryNameText</span> | xsd:string
-<span id="IdentificationIdentifier">IdentificationIdentifier</span> | xsd:token
-<span id="GeoCoordinateIdentificationGeographicalCoordinate">GeoCoordinateIdentificationGeographicalCoordinate</span> | [edi3:GeographicalCoordinate](#GeographicalCoordinate)
-<span id="CountryIdentifier">CountryIdentifier</span> | xsd:token
-<span id="CareOfText">CareOfText</span> | xsd:string
-<span id="DepartmentNameText">DepartmentNameText</span> | xsd:string
-<span id="CitySubDivisionNameText">CitySubDivisionNameText</span> | xsd:string
-<span id="LineThreeText">LineThreeText</span> | xsd:string
-<span id="BuildingNumberText">BuildingNumberText</span> | xsd:string
-<span id="LineTwoText">LineTwoText</span> | xsd:string
+[CountrySubDivisionIdentifier](#CountrySubDivisionIdentifier) | xsd:token
+[PostcodeCode](#PostcodeCode) | xsd:token
+[LineFiveText](#LineFiveText) | xsd:string
+[CountryCountryIdentifier](#CountryCountryIdentifier) | xsd:token
+[LineFourText](#LineFourText) | xsd:string
+[CityNameText](#CityNameText) | xsd:string
+[PostOfficeBoxText](#PostOfficeBoxText) | xsd:string
+[LineOneText](#LineOneText) | xsd:string
+[BuildingNameText](#BuildingNameText) | xsd:string
+[TypeCode](#TypeCode) | xsd:token
+[CountrySubDivisionNameText](#CountrySubDivisionNameText) | xsd:string
+[CityIdentifier](#CityIdentifier) | xsd:token
+[TypeAddressTypeCode](#TypeAddressTypeCode) | xsd:token
+[StreetNameText](#StreetNameText) | xsd:string
+[AttentionOfText](#AttentionOfText) | xsd:string
+[CountryNameText](#CountryNameText) | xsd:string
+[IdentificationIdentifier](#IdentificationIdentifier) | xsd:token
+[GeoCoordinateIdentificationGeographicalCoordinate](#GeoCoordinateIdentificationGeographicalCoordinate) | [edi3:GeographicalCoordinate](#GeographicalCoordinate)
+[CountryIdentifier](#CountryIdentifier) | xsd:token
+[CareOfText](#CareOfText) | xsd:string
+[DepartmentNameText](#DepartmentNameText) | xsd:string
+[CitySubDivisionNameText](#CitySubDivisionNameText) | xsd:string
+[LineThreeText](#LineThreeText) | xsd:string
+[BuildingNumberText](#BuildingNumberText) | xsd:string
+[LineTwoText](#LineTwoText) | xsd:string
 
 
 <h1 id="Query">Query</h1>
@@ -59,9 +59,9 @@ Properties:
 
 Name | Type 
 -|-
-<span id="ContractualLanguageCode">ContractualLanguageCode</span> | xsd:token
-<span id="IdentificationIdentifier">IdentificationIdentifier</span> | xsd:token
-<span id="ContentText">ContentText</span> | xsd:string
+[ContractualLanguageCode](#ContractualLanguageCode) | xsd:token
+[IdentificationIdentifier](#IdentificationIdentifier) | xsd:token
+[ContentText](#ContentText) | xsd:string
 
 
 <h1 id="Product">Product</h1>
@@ -74,112 +74,112 @@ Properties:
 
 Name | Type 
 -|-
-<span id="UseDescriptionText">UseDescriptionText</span> | xsd:string
-<span id="MaximumLinearSpatialDimension">MaximumLinearSpatialDimension</span> | [edi3:Dimension](#Dimension)
-<span id="RecyclingTypeCode">RecyclingTypeCode</span> | xsd:token
-<span id="StatusCode">StatusCode</span> | xsd:token
-<span id="AdditionalDescriptionText">AdditionalDescriptionText</span> | xsd:string
-<span id="ModelNameText">ModelNameText</span> | xsd:string
-<span id="DesignationText">DesignationText</span> | xsd:string
-<span id="SeasonDescriptionText">SeasonDescriptionText</span> | xsd:string
-<span id="FinalAssemblyTradeCountry">FinalAssemblyTradeCountry</span> | [edi3:Country](#Country)
-<span id="PromotionalVariantIdentificationIdentifier">PromotionalVariantIdentificationIdentifier</span> | xsd:token
-<span id="IntendedUseText">IntendedUseText</span> | xsd:string
-<span id="AttachedProductSecurityTag">AttachedProductSecurityTag</span> | [edi3:SecurityTag](#SecurityTag)
-<span id="ApplicableDisposalInstructions">ApplicableDisposalInstructions</span> | [edi3:Instructions](#Instructions)
-<span id="DrainedNetWeightMeasure">DrainedNetWeightMeasure</span> | xsd:decimal
-<span id="ApplicableTransportDangerousGoods">ApplicableTransportDangerousGoods</span> | [edi3:DangerousGoods](#DangerousGoods)
-<span id="FromDeliveryLifeSpanDurationUnitMeasure">FromDeliveryLifeSpanDurationUnitMeasure</span> | xsd:decimal
-<span id="MarketingDescriptionText">MarketingDescriptionText</span> | xsd:string
-<span id="UnitQuantity">UnitQuantity</span> | xsd:decimal
-<span id="GlobalIdentificationIdentifier">GlobalIdentificationIdentifier</span> | xsd:token
-<span id="CommonNameText">CommonNameText</span> | xsd:string
-<span id="PresentationSpecifiedBinaryFile">PresentationSpecifiedBinaryFile</span> | [edi3:BinaryFile](#BinaryFile)
-<span id="SellerAssignedIdentificationIdentifier">SellerAssignedIdentificationIdentifier</span> | xsd:token
-<span id="EndItemTypeCode">EndItemTypeCode</span> | xsd:token
-<span id="ProductGroupIdentifier">ProductGroupIdentifier</span> | xsd:token
-<span id="TypeCode">TypeCode</span> | xsd:token
-<span id="ContentUnitQuantity">ContentUnitQuantity</span> | xsd:decimal
-<span id="IncludedProductContentUnitQuantity">IncludedProductContentUnitQuantity</span> | xsd:decimal
-<span id="BrandOwnerTradeParty">BrandOwnerTradeParty</span> | [edi3:Party](#Party)
-<span id="PrePackagedIndicator">PrePackagedIndicator</span> | xsd:boolean
-<span id="TransportInformationNote">TransportInformationNote</span> | [edi3:Note](#Note)
-<span id="CustomerAssignedIdentificationIdentifier">CustomerAssignedIdentificationIdentifier</span> | xsd:token
-<span id="MarkedSerialNumberIndicator">MarkedSerialNumberIndicator</span> | xsd:boolean
-<span id="LinearSpatialDimension">LinearSpatialDimension</span> | [edi3:Dimension](#Dimension)
-<span id="InspectionReferenceReferencedDocument">InspectionReferenceReferencedDocument</span> | [edi3:Document](#Document)
-<span id="IncludedReferencedProduct">IncludedReferencedProduct</span> | [edi3:Product](#Product)
-<span id="InnerPackQuantity">InnerPackQuantity</span> | xsd:decimal
-<span id="CertificationEvidenceReferenceReferencedDocument">CertificationEvidenceReferenceReferencedDocument</span> | [edi3:Document](#Document)
-<span id="FromOpeningLifeSpanDurationUnitMeasure">FromOpeningLifeSpanDurationUnitMeasure</span> | xsd:decimal
-<span id="GrossWeightMeasure">GrossWeightMeasure</span> | xsd:decimal
-<span id="OriginLogisticsLocation">OriginLogisticsLocation</span> | [edi3:Location](#Location)
-<span id="UnitTypeCode">UnitTypeCode</span> | xsd:token
-<span id="ManufactureTradeCountry">ManufactureTradeCountry</span> | [edi3:Country](#Country)
-<span id="NetWeightMeasure">NetWeightMeasure</span> | xsd:decimal
-<span id="RelationshipTypeCode">RelationshipTypeCode</span> | xsd:token
-<span id="StorageInformationNote">StorageInformationNote</span> | [edi3:Note](#Note)
-<span id="BrandRangeNameText">BrandRangeNameText</span> | xsd:string
-<span id="GlobalExtensionIdentificationIdentifier">GlobalExtensionIdentificationIdentifier</span> | xsd:token
-<span id="IncludedProductTypeQuantity">IncludedProductTypeQuantity</span> | xsd:decimal
-<span id="BrandNameText">BrandNameText</span> | xsd:string
-<span id="TrackingSystemIdentifier">TrackingSystemIdentifier</span> | xsd:token
-<span id="ManufacturerTradeParty">ManufacturerTradeParty</span> | [edi3:Party](#Party)
-<span id="RegulationConformityIdentifier">RegulationConformityIdentifier</span> | xsd:token
-<span id="DescriptionText">DescriptionText</span> | xsd:string
-<span id="FunctionDescriptionText">FunctionDescriptionText</span> | xsd:string
-<span id="MarketingTradeProductFeature">MarketingTradeProductFeature</span> | [edi3:Feature](#Feature)
-<span id="InnerPackContentUnitQuantity">InnerPackContentUnitQuantity</span> | xsd:decimal
-<span id="BatchIdentificationIdentifier">BatchIdentificationIdentifier</span> | xsd:token
-<span id="InformationNote">InformationNote</span> | [edi3:Note](#Note)
-<span id="ContentVariableMeasureIndicator">ContentVariableMeasureIndicator</span> | xsd:boolean
-<span id="ConsumerGenderDescriptionText">ConsumerGenderDescriptionText</span> | xsd:string
-<span id="VariantDescriptionText">VariantDescriptionText</span> | xsd:string
-<span id="SeasonCode">SeasonCode</span> | xsd:token
-<span id="ProductionDiscontinuedDateTime">ProductionDiscontinuedDateTime</span> | xsd:dateTime
-<span id="ApplicableTradeProductCertification">ApplicableTradeProductCertification</span> | [edi3:Certification](#Certification)
-<span id="MinimumLinearSpatialDimension">MinimumLinearSpatialDimension</span> | [edi3:Dimension](#Dimension)
-<span id="ApplicableProductCharacteristic">ApplicableProductCharacteristic</span> | [edi3:Characteristic](#Characteristic)
-<span id="PhysicalFormDescriptionText">PhysicalFormDescriptionText</span> | xsd:string
-<span id="FromProductionLifeSpanDurationUnitMeasure">FromProductionLifeSpanDurationUnitMeasure</span> | xsd:decimal
-<span id="LegalRightsOwnerTradeParty">LegalRightsOwnerTradeParty</span> | [edi3:Party](#Party)
-<span id="IdentificationIdentifier">IdentificationIdentifier</span> | xsd:token
-<span id="VariableMeasureIndicator">VariableMeasureIndicator</span> | xsd:boolean
-<span id="AdditionalReferenceReferencedDocument">AdditionalReferenceReferencedDocument</span> | [edi3:Document](#Document)
-<span id="SuppliedFromTradeCountry">SuppliedFromTradeCountry</span> | [edi3:Country](#Country)
-<span id="EndItemNameText">EndItemNameText</span> | xsd:string
-<span id="ConciseDescriptionText">ConciseDescriptionText</span> | xsd:string
-<span id="ManufacturerAssignedIdentificationIdentifier">ManufacturerAssignedIdentificationIdentifier</span> | xsd:token
-<span id="GeneticModificationExtentCode">GeneticModificationExtentCode</span> | xsd:token
-<span id="FormattedLatestProductDataChangeFormattedDateTime">FormattedLatestProductDataChangeFormattedDateTime</span> | xsd:dateTime
-<span id="NameText">NameText</span> | xsd:string
-<span id="DesignatedProductClassification">DesignatedProductClassification</span> | [edi3:Classification](#Classification)
-<span id="OriginTradeCountry">OriginTradeCountry</span> | [edi3:Country](#Country)
-<span id="ColourCode">ColourCode</span> | xsd:token
-<span id="SecurityInformationNote">SecurityInformationNote</span> | [edi3:Note](#Note)
-<span id="MarketingCampaignReferenceReferencedDocument">MarketingCampaignReferenceReferencedDocument</span> | [edi3:Document](#Document)
-<span id="ConfigurableIndicator">ConfigurableIndicator</span> | xsd:boolean
-<span id="ModelIdentificationIdentifier">ModelIdentificationIdentifier</span> | xsd:token
-<span id="NetVolumeMeasure">NetVolumeMeasure</span> | xsd:decimal
-<span id="BuyerAssignedIdentificationIdentifier">BuyerAssignedIdentificationIdentifier</span> | xsd:token
-<span id="ConsumerAgeDescriptionText">ConsumerAgeDescriptionText</span> | xsd:string
-<span id="FormattedCancellationAnnouncedLaunchFormattedDateTime">FormattedCancellationAnnouncedLaunchFormattedDateTime</span> | xsd:dateTime
-<span id="ApplicableKeyword">ApplicableKeyword</span> | [edi3:Keyword](#Keyword)
-<span id="BuyerSuppliedPartsReferenceReferencedDocument">BuyerSuppliedPartsReferenceReferencedDocument</span> | [edi3:Document](#Document)
-<span id="ApplicableSupplyChainPackaging">ApplicableSupplyChainPackaging</span> | [edi3:Packaging](#Packaging)
-<span id="ColourDescriptionText">ColourDescriptionText</span> | xsd:string
-<span id="SpecifiedProductCertificate">SpecifiedProductCertificate</span> | [edi3:Certificate](#Certificate)
-<span id="IndustryAssignedIdentificationIdentifier">IndustryAssignedIdentificationIdentifier</span> | xsd:token
-<span id="MSDSReferenceReferencedDocument">MSDSReferenceReferencedDocument</span> | [edi3:Document](#Document)
-<span id="ScientificNameText">ScientificNameText</span> | xsd:string
-<span id="ApplicableMaterialGoodsCharacteristic">ApplicableMaterialGoodsCharacteristic</span> | [edi3:GoodsCharacteristic](#GoodsCharacteristic)
-<span id="ExportIndicator">ExportIndicator</span> | xsd:boolean
-<span id="UltimateCustomerAssignedExtensionIdentificationIdentifier">UltimateCustomerAssignedExtensionIdentificationIdentifier</span> | xsd:token
-<span id="SubBrandNameText">SubBrandNameText</span> | xsd:string
-<span id="IndividualTradeProductInstance">IndividualTradeProductInstance</span> | [edi3:ProductInstance](#ProductInstance)
-<span id="AreaDensityMeasure">AreaDensityMeasure</span> | xsd:decimal
-<span id="TradeNameText">TradeNameText</span> | xsd:string
-<span id="GrossVolumeMeasure">GrossVolumeMeasure</span> | xsd:decimal
+[UseDescriptionText](#UseDescriptionText) | xsd:string
+[MaximumLinearSpatialDimension](#MaximumLinearSpatialDimension) | [edi3:Dimension](#Dimension)
+[RecyclingTypeCode](#RecyclingTypeCode) | xsd:token
+[StatusCode](#StatusCode) | xsd:token
+[AdditionalDescriptionText](#AdditionalDescriptionText) | xsd:string
+[ModelNameText](#ModelNameText) | xsd:string
+[DesignationText](#DesignationText) | xsd:string
+[SeasonDescriptionText](#SeasonDescriptionText) | xsd:string
+[FinalAssemblyTradeCountry](#FinalAssemblyTradeCountry) | [edi3:Country](#Country)
+[PromotionalVariantIdentificationIdentifier](#PromotionalVariantIdentificationIdentifier) | xsd:token
+[IntendedUseText](#IntendedUseText) | xsd:string
+[AttachedProductSecurityTag](#AttachedProductSecurityTag) | [edi3:SecurityTag](#SecurityTag)
+[ApplicableDisposalInstructions](#ApplicableDisposalInstructions) | [edi3:Instructions](#Instructions)
+[DrainedNetWeightMeasure](#DrainedNetWeightMeasure) | xsd:decimal
+[ApplicableTransportDangerousGoods](#ApplicableTransportDangerousGoods) | [edi3:DangerousGoods](#DangerousGoods)
+[FromDeliveryLifeSpanDurationUnitMeasure](#FromDeliveryLifeSpanDurationUnitMeasure) | xsd:decimal
+[MarketingDescriptionText](#MarketingDescriptionText) | xsd:string
+[UnitQuantity](#UnitQuantity) | xsd:decimal
+[GlobalIdentificationIdentifier](#GlobalIdentificationIdentifier) | xsd:token
+[CommonNameText](#CommonNameText) | xsd:string
+[PresentationSpecifiedBinaryFile](#PresentationSpecifiedBinaryFile) | [edi3:BinaryFile](#BinaryFile)
+[SellerAssignedIdentificationIdentifier](#SellerAssignedIdentificationIdentifier) | xsd:token
+[EndItemTypeCode](#EndItemTypeCode) | xsd:token
+[ProductGroupIdentifier](#ProductGroupIdentifier) | xsd:token
+[TypeCode](#TypeCode) | xsd:token
+[ContentUnitQuantity](#ContentUnitQuantity) | xsd:decimal
+[IncludedProductContentUnitQuantity](#IncludedProductContentUnitQuantity) | xsd:decimal
+[BrandOwnerTradeParty](#BrandOwnerTradeParty) | [edi3:Party](#Party)
+[PrePackagedIndicator](#PrePackagedIndicator) | xsd:boolean
+[TransportInformationNote](#TransportInformationNote) | [edi3:Note](#Note)
+[CustomerAssignedIdentificationIdentifier](#CustomerAssignedIdentificationIdentifier) | xsd:token
+[MarkedSerialNumberIndicator](#MarkedSerialNumberIndicator) | xsd:boolean
+[LinearSpatialDimension](#LinearSpatialDimension) | [edi3:Dimension](#Dimension)
+[InspectionReferenceReferencedDocument](#InspectionReferenceReferencedDocument) | [edi3:Document](#Document)
+[IncludedReferencedProduct](#IncludedReferencedProduct) | [edi3:Product](#Product)
+[InnerPackQuantity](#InnerPackQuantity) | xsd:decimal
+[CertificationEvidenceReferenceReferencedDocument](#CertificationEvidenceReferenceReferencedDocument) | [edi3:Document](#Document)
+[FromOpeningLifeSpanDurationUnitMeasure](#FromOpeningLifeSpanDurationUnitMeasure) | xsd:decimal
+[GrossWeightMeasure](#GrossWeightMeasure) | xsd:decimal
+[OriginLogisticsLocation](#OriginLogisticsLocation) | [edi3:Location](#Location)
+[UnitTypeCode](#UnitTypeCode) | xsd:token
+[ManufactureTradeCountry](#ManufactureTradeCountry) | [edi3:Country](#Country)
+[NetWeightMeasure](#NetWeightMeasure) | xsd:decimal
+[RelationshipTypeCode](#RelationshipTypeCode) | xsd:token
+[StorageInformationNote](#StorageInformationNote) | [edi3:Note](#Note)
+[BrandRangeNameText](#BrandRangeNameText) | xsd:string
+[GlobalExtensionIdentificationIdentifier](#GlobalExtensionIdentificationIdentifier) | xsd:token
+[IncludedProductTypeQuantity](#IncludedProductTypeQuantity) | xsd:decimal
+[BrandNameText](#BrandNameText) | xsd:string
+[TrackingSystemIdentifier](#TrackingSystemIdentifier) | xsd:token
+[ManufacturerTradeParty](#ManufacturerTradeParty) | [edi3:Party](#Party)
+[RegulationConformityIdentifier](#RegulationConformityIdentifier) | xsd:token
+[DescriptionText](#DescriptionText) | xsd:string
+[FunctionDescriptionText](#FunctionDescriptionText) | xsd:string
+[MarketingTradeProductFeature](#MarketingTradeProductFeature) | [edi3:Feature](#Feature)
+[InnerPackContentUnitQuantity](#InnerPackContentUnitQuantity) | xsd:decimal
+[BatchIdentificationIdentifier](#BatchIdentificationIdentifier) | xsd:token
+[InformationNote](#InformationNote) | [edi3:Note](#Note)
+[ContentVariableMeasureIndicator](#ContentVariableMeasureIndicator) | xsd:boolean
+[ConsumerGenderDescriptionText](#ConsumerGenderDescriptionText) | xsd:string
+[VariantDescriptionText](#VariantDescriptionText) | xsd:string
+[SeasonCode](#SeasonCode) | xsd:token
+[ProductionDiscontinuedDateTime](#ProductionDiscontinuedDateTime) | xsd:dateTime
+[ApplicableTradeProductCertification](#ApplicableTradeProductCertification) | [edi3:Certification](#Certification)
+[MinimumLinearSpatialDimension](#MinimumLinearSpatialDimension) | [edi3:Dimension](#Dimension)
+[ApplicableProductCharacteristic](#ApplicableProductCharacteristic) | [edi3:Characteristic](#Characteristic)
+[PhysicalFormDescriptionText](#PhysicalFormDescriptionText) | xsd:string
+[FromProductionLifeSpanDurationUnitMeasure](#FromProductionLifeSpanDurationUnitMeasure) | xsd:decimal
+[LegalRightsOwnerTradeParty](#LegalRightsOwnerTradeParty) | [edi3:Party](#Party)
+[IdentificationIdentifier](#IdentificationIdentifier) | xsd:token
+[VariableMeasureIndicator](#VariableMeasureIndicator) | xsd:boolean
+[AdditionalReferenceReferencedDocument](#AdditionalReferenceReferencedDocument) | [edi3:Document](#Document)
+[SuppliedFromTradeCountry](#SuppliedFromTradeCountry) | [edi3:Country](#Country)
+[EndItemNameText](#EndItemNameText) | xsd:string
+[ConciseDescriptionText](#ConciseDescriptionText) | xsd:string
+[ManufacturerAssignedIdentificationIdentifier](#ManufacturerAssignedIdentificationIdentifier) | xsd:token
+[GeneticModificationExtentCode](#GeneticModificationExtentCode) | xsd:token
+[FormattedLatestProductDataChangeFormattedDateTime](#FormattedLatestProductDataChangeFormattedDateTime) | xsd:dateTime
+[NameText](#NameText) | xsd:string
+[DesignatedProductClassification](#DesignatedProductClassification) | [edi3:Classification](#Classification)
+[OriginTradeCountry](#OriginTradeCountry) | [edi3:Country](#Country)
+[ColourCode](#ColourCode) | xsd:token
+[SecurityInformationNote](#SecurityInformationNote) | [edi3:Note](#Note)
+[MarketingCampaignReferenceReferencedDocument](#MarketingCampaignReferenceReferencedDocument) | [edi3:Document](#Document)
+[ConfigurableIndicator](#ConfigurableIndicator) | xsd:boolean
+[ModelIdentificationIdentifier](#ModelIdentificationIdentifier) | xsd:token
+[NetVolumeMeasure](#NetVolumeMeasure) | xsd:decimal
+[BuyerAssignedIdentificationIdentifier](#BuyerAssignedIdentificationIdentifier) | xsd:token
+[ConsumerAgeDescriptionText](#ConsumerAgeDescriptionText) | xsd:string
+[FormattedCancellationAnnouncedLaunchFormattedDateTime](#FormattedCancellationAnnouncedLaunchFormattedDateTime) | xsd:dateTime
+[ApplicableKeyword](#ApplicableKeyword) | [edi3:Keyword](#Keyword)
+[BuyerSuppliedPartsReferenceReferencedDocument](#BuyerSuppliedPartsReferenceReferencedDocument) | [edi3:Document](#Document)
+[ApplicableSupplyChainPackaging](#ApplicableSupplyChainPackaging) | [edi3:Packaging](#Packaging)
+[ColourDescriptionText](#ColourDescriptionText) | xsd:string
+[SpecifiedProductCertificate](#SpecifiedProductCertificate) | [edi3:Certificate](#Certificate)
+[IndustryAssignedIdentificationIdentifier](#IndustryAssignedIdentificationIdentifier) | xsd:token
+[MSDSReferenceReferencedDocument](#MSDSReferenceReferencedDocument) | [edi3:Document](#Document)
+[ScientificNameText](#ScientificNameText) | xsd:string
+[ApplicableMaterialGoodsCharacteristic](#ApplicableMaterialGoodsCharacteristic) | [edi3:GoodsCharacteristic](#GoodsCharacteristic)
+[ExportIndicator](#ExportIndicator) | xsd:boolean
+[UltimateCustomerAssignedExtensionIdentificationIdentifier](#UltimateCustomerAssignedExtensionIdentificationIdentifier) | xsd:token
+[SubBrandNameText](#SubBrandNameText) | xsd:string
+[IndividualTradeProductInstance](#IndividualTradeProductInstance) | [edi3:ProductInstance](#ProductInstance)
+[AreaDensityMeasure](#AreaDensityMeasure) | xsd:decimal
+[TradeNameText](#TradeNameText) | xsd:string
+[GrossVolumeMeasure](#GrossVolumeMeasure) | xsd:decimal
 
 
 <h1 id="Fault">Fault</h1>
@@ -192,7 +192,7 @@ Properties:
 
 Name | Type 
 -|-
-<span id="IdentificationCode">IdentificationCode</span> | xsd:token
+[IdentificationCode](#IdentificationCode) | xsd:token
 
 
 <h1 id="GeographicalSurface">GeographicalSurface</h1>
@@ -205,135 +205,135 @@ Properties:
 
 Name | Type 
 -|-
-<span id="AssociatedSpecifiedGeographicalObjectCharacteristic">AssociatedSpecifiedGeographicalObjectCharacteristic</span> | [edi3:GeographicalObjectCharacteristic](#GeographicalObjectCharacteristic)
+[AssociatedSpecifiedGeographicalObjectCharacteristic](#AssociatedSpecifiedGeographicalObjectCharacteristic) | [edi3:GeographicalObjectCharacteristic](#GeographicalObjectCharacteristic)
 
 
 <h1 id="Document">Document</h1>
 
 Type: rdf:Class
 
-Comments: <br/>A collection of financing related data that provides an overview of key points.<br/>A collection of data for a piece of written, printed or electronic matter that is exchanged between two or more parties.<br/>Written, printed or electronic matter that is referenced.<br/>A collection of data for a line on a piece of written, printed or electronic matter that provides information or evidence.<br/>A collection of data that reports the result of a financing request.<br/>The set of characteristics shared by all individual transactions grouped for this financing request document.<br/>A document exchanged between parties for a business application level acknowledgement of the receipt of information.<br/>
+Comments: <br/>A collection of financing related data that provides an overview of key points.<br/>A collection of data for a piece of written, printed or electronic matter that is exchanged between two or more parties.<br/>A collection of data that reports the result of a financing request.<br/>Written, printed or electronic matter that is referenced.<br/>A collection of data for a line on a piece of written, printed or electronic matter that provides information or evidence.<br/>The set of characteristics shared by all individual transactions grouped for this financing request document.<br/>A document exchanged between parties for a business application level acknowledgement of the receipt of information.<br/>
 
 Properties: 
 
 Name | Type 
 -|-
-<span id="FinancedTotalAmount">FinancedTotalAmount</span> | xsd:decimal
-<span id="ReferenceFormattedDateTime">ReferenceFormattedDateTime</span> | xsd:dateTime
-<span id="SectionNameText">SectionNameText</span> | xsd:string
-<span id="CurrencyCurrencyCode">CurrencyCurrencyCode</span> | xsd:token
-<span id="FinancedRatePercent">FinancedRatePercent</span> | xsd:decimal
-<span id="PurposeText">PurposeText</span> | xsd:string
-<span id="CreationFormattedDateTime">CreationFormattedDateTime</span> | xsd:dateTime
-<span id="CreationDateTime">CreationDateTime</span> | xsd:dateTime
-<span id="LineItemQuantity">LineItemQuantity</span> | xsd:decimal
-<span id="UrgencyText">UrgencyText</span> | xsd:string
-<span id="FourthSignatoryDocumentAuthentication">FourthSignatoryDocumentAuthentication</span> | [edi3:Authentication](#Authentication)
-<span id="ElectronicPresentationIndicator">ElectronicPresentationIndicator</span> | xsd:boolean
-<span id="ReasonInformationText">ReasonInformationText</span> | xsd:string
-<span id="AuthorizationText">AuthorizationText</span> | xsd:string
-<span id="AmendmentPurposeCode">AmendmentPurposeCode</span> | xsd:token
-<span id="InformationText">InformationText</span> | xsd:string
-<span id="CopyIssuedQuantity">CopyIssuedQuantity</span> | xsd:decimal
-<span id="PageIdentifier">PageIdentifier</span> | xsd:token
-<span id="IssuerTradeParty">IssuerTradeParty</span> | [edi3:Party](#Party)
-<span id="GlobalIdentificationIdentifier">GlobalIdentificationIdentifier</span> | xsd:token
-<span id="FirstAgentSpecifiedCreditorFinancialInstitution">FirstAgentSpecifiedCreditorFinancialInstitution</span> | [edi3:FinancialInstitution](#FinancialInstitution)
-<span id="CustomsIdentificationIdentifier">CustomsIdentificationIdentifier</span> | xsd:token
-<span id="AcceptedTransactionOriginalTotalAmount">AcceptedTransactionOriginalTotalAmount</span> | xsd:decimal
-<span id="ThirdSignatoryDocumentAuthentication">ThirdSignatoryDocumentAuthentication</span> | [edi3:Authentication](#Authentication)
-<span id="ReferenceReferencedDocument">ReferenceReferencedDocument</span> | [edi3:Document](#Document)
-<span id="AcceptanceDateTime">AcceptanceDateTime</span> | xsd:dateTime
-<span id="ResponseDateTime">ResponseDateTime</span> | xsd:dateTime
-<span id="ContractualDocumentClause">ContractualDocumentClause</span> | [edi3:Clause](#Clause)
-<span id="PreviousRevisionIdentificationIdentifier">PreviousRevisionIdentificationIdentifier</span> | xsd:token
-<span id="AgreementInformationText">AgreementInformationText</span> | xsd:string
-<span id="TraderAssignedIdentificationIdentifier">TraderAssignedIdentificationIdentifier</span> | xsd:token
-<span id="ReferenceTypeReferenceCode">ReferenceTypeReferenceCode</span> | xsd:token
-<span id="RecipientAssignedIdentificationIdentifier">RecipientAssignedIdentificationIdentifier</span> | xsd:token
-<span id="LodgementLogisticsLocation">LodgementLogisticsLocation</span> | [edi3:Location](#Location)
-<span id="IncludedAmount">IncludedAmount</span> | xsd:decimal
-<span id="UrgencyCode">UrgencyCode</span> | xsd:token
-<span id="FinancedAppliedRatePercent">FinancedAppliedRatePercent</span> | xsd:decimal
-<span id="LineStatusLineStatusCode">LineStatusLineStatusCode</span> | xsd:token
-<span id="LatestRevisionDateTime">LatestRevisionDateTime</span> | xsd:dateTime
-<span id="RelatedFinancialBooking">RelatedFinancialBooking</span> | [edi3:Booking](#Booking)
-<span id="CategoryCode">CategoryCode</span> | xsd:token
-<span id="StatusDocumentStatusCode">StatusDocumentStatusCode</span> | xsd:token
-<span id="OffsetProcessingStatusText">OffsetProcessingStatusText</span> | xsd:string
-<span id="RejectionResponseDateTime">RejectionResponseDateTime</span> | xsd:dateTime
-<span id="OriginalRequiredQuantity">OriginalRequiredQuantity</span> | xsd:decimal
-<span id="TypeDocumentCode">TypeDocumentCode</span> | xsd:token
-<span id="CancellationReasonText">CancellationReasonText</span> | xsd:string
-<span id="LineIdentifier">LineIdentifier</span> | xsd:token
-<span id="GroupIdentificationIdentifier">GroupIdentificationIdentifier</span> | xsd:token
-<span id="FirstSignatoryDocumentAuthentication">FirstSignatoryDocumentAuthentication</span> | [edi3:Authentication](#Authentication)
-<span id="SpecifiedCancellationStatus">SpecifiedCancellationStatus</span> | [edi3:Status](#Status)
-<span id="IssuerAssignedIdentificationIdentifier">IssuerAssignedIdentificationIdentifier</span> | xsd:token
-<span id="RemarksText">RemarksText</span> | xsd:string
-<span id="AttachmentBinaryObject">AttachmentBinaryObject</span> | xsd:base64Binary
-<span id="SpecifiedValidationStatus">SpecifiedValidationStatus</span> | [edi3:Status](#Status)
-<span id="PurposeMessageFunctionCode">PurposeMessageFunctionCode</span> | xsd:token
-<span id="GroupedTransactionTotalAmount">GroupedTransactionTotalAmount</span> | xsd:decimal
-<span id="DescriptionText">DescriptionText</span> | xsd:string
-<span id="SubordinateLineIdentifier">SubordinateLineIdentifier</span> | xsd:token
-<span id="SpecifiedRequestingParty">SpecifiedRequestingParty</span> | [edi3:Party](#Party)
-<span id="FinancedTransactionSpecifiedQuantity">FinancedTransactionSpecifiedQuantity</span> | xsd:decimal
-<span id="RequestedResponseTypeCode">RequestedResponseTypeCode</span> | xsd:token
-<span id="RevisionIdentificationIdentifier">RevisionIdentificationIdentifier</span> | xsd:token
-<span id="AdditionalInformationIncludedNote">AdditionalInformationIncludedNote</span> | [edi3:Note](#Note)
-<span id="ReportSubmissionDateTime">ReportSubmissionDateTime</span> | xsd:dateTime
-<span id="SignatoryDocumentAuthentication">SignatoryDocumentAuthentication</span> | [edi3:Authentication](#Authentication)
-<span id="MultipleReferencesIndicator">MultipleReferencesIndicator</span> | xsd:boolean
-<span id="LineCountNumeric">LineCountNumeric</span> | xsd:decimal
-<span id="PublicationDateTime">PublicationDateTime</span> | xsd:dateTime
-<span id="EffectiveSpecifiedPeriod">EffectiveSpecifiedPeriod</span> | [edi3:Period](#Period)
-<span id="BuyerAssignedCategoryCode">BuyerAssignedCategoryCode</span> | xsd:token
-<span id="RelationshipTypeReferenceCode">RelationshipTypeReferenceCode</span> | xsd:token
-<span id="VersionIdentificationIdentifier">VersionIdentificationIdentifier</span> | xsd:token
-<span id="SpecifiedDocumentStatus">SpecifiedDocumentStatus</span> | [edi3:Status](#Status)
-<span id="ItemIdentificationIdentifier">ItemIdentificationIdentifier</span> | xsd:token
-<span id="FormattedIssueFormattedDateTime">FormattedIssueFormattedDateTime</span> | xsd:dateTime
-<span id="BuyerSignatoryDocumentAuthentication">BuyerSignatoryDocumentAuthentication</span> | [edi3:Authentication](#Authentication)
-<span id="AcceptableSpecifiedPeriod">AcceptableSpecifiedPeriod</span> | [edi3:Period](#Period)
-<span id="AgentTradeParty">AgentTradeParty</span> | [edi3:Party](#Party)
-<span id="IdentificationIdentifier">IdentificationIdentifier</span> | xsd:token
-<span id="SpecifiedFinancingStatus">SpecifiedFinancingStatus</span> | [edi3:Status](#Status)
-<span id="URIIdentificationIdentifier">URIIdentificationIdentifier</span> | xsd:token
-<span id="SecondSignatoryDocumentAuthentication">SecondSignatoryDocumentAuthentication</span> | [edi3:Authentication](#Authentication)
-<span id="ParentLineIdentifier">ParentLineIdentifier</span> | xsd:token
-<span id="LineStatusReasonCode">LineStatusReasonCode</span> | xsd:token
-<span id="SubmissionDateTime">SubmissionDateTime</span> | xsd:dateTime
-<span id="CopyIndicator">CopyIndicator</span> | xsd:boolean
-<span id="NameText">NameText</span> | xsd:string
-<span id="ControlRequirementIndicator">ControlRequirementIndicator</span> | xsd:boolean
-<span id="OriginalIssuedQuantity">OriginalIssuedQuantity</span> | xsd:decimal
-<span id="AcknowledgementStatusAcknowledgementCode">AcknowledgementStatusAcknowledgementCode</span> | xsd:token
-<span id="StatusStatusCode">StatusStatusCode</span> | xsd:token
-<span id="ReportReceiptDateTime">ReportReceiptDateTime</span> | xsd:dateTime
-<span id="IntermediarySpecifiedCreditorFinancialInstitution">IntermediarySpecifiedCreditorFinancialInstitution</span> | [edi3:FinancialInstitution](#FinancialInstitution)
-<span id="RecipientTradeParty">RecipientTradeParty</span> | [edi3:Party](#Party)
-<span id="LineStatusReasonText">LineStatusReasonText</span> | xsd:string
-<span id="CopyRequiredQuantity">CopyRequiredQuantity</span> | xsd:decimal
-<span id="LanguageIdentifier">LanguageIdentifier</span> | xsd:token
-<span id="SpecifiedCreditorFinancialAccount">SpecifiedCreditorFinancialAccount</span> | [edi3:FinancialAccount](#FinancialAccount)
-<span id="IssueDateTime">IssueDateTime</span> | xsd:dateTime
-<span id="IssueLogisticsLocation">IssueLogisticsLocation</span> | [edi3:Location](#Location)
-<span id="AttachedSpecifiedBinaryFile">AttachedSpecifiedBinaryFile</span> | [edi3:BinaryFile](#BinaryFile)
-<span id="ApproverSignatoryDocumentAuthentication">ApproverSignatoryDocumentAuthentication</span> | [edi3:Authentication](#Authentication)
-<span id="IncludedNote">IncludedNote</span> | [edi3:Note](#Note)
-<span id="CancellationDateTime">CancellationDateTime</span> | xsd:dateTime
-<span id="RevisionDateTime">RevisionDateTime</span> | xsd:dateTime
-<span id="UUIDLineIdentifier">UUIDLineIdentifier</span> | xsd:token
-<span id="SenderTradeParty">SenderTradeParty</span> | [edi3:Party](#Party)
-<span id="ResponseReasonCode">ResponseReasonCode</span> | xsd:token
-<span id="ProprietaryTypeText">ProprietaryTypeText</span> | xsd:string
-<span id="GroupedTransactionSpecifiedQuantity">GroupedTransactionSpecifiedQuantity</span> | xsd:decimal
-<span id="ReferenceAcknowledgementDocument">ReferenceAcknowledgementDocument</span> | [edi3:Document](#Document)
-<span id="ReceiptDateTime">ReceiptDateTime</span> | xsd:dateTime
-<span id="AuthenticatedOriginalIndicator">AuthenticatedOriginalIndicator</span> | xsd:boolean
-<span id="SenderAssignedIdentificationIdentifier">SenderAssignedIdentificationIdentifier</span> | xsd:token
-<span id="LineOfCreditSpecifiedFinancingFinancialAccount">LineOfCreditSpecifiedFinancingFinancialAccount</span> | [edi3:FinancialAccount](#FinancialAccount)
+[FinancedTotalAmount](#FinancedTotalAmount) | xsd:decimal
+[ReferenceFormattedDateTime](#ReferenceFormattedDateTime) | xsd:dateTime
+[SectionNameText](#SectionNameText) | xsd:string
+[CurrencyCurrencyCode](#CurrencyCurrencyCode) | xsd:token
+[FinancedRatePercent](#FinancedRatePercent) | xsd:decimal
+[PurposeText](#PurposeText) | xsd:string
+[CreationFormattedDateTime](#CreationFormattedDateTime) | xsd:dateTime
+[CreationDateTime](#CreationDateTime) | xsd:dateTime
+[LineItemQuantity](#LineItemQuantity) | xsd:decimal
+[UrgencyText](#UrgencyText) | xsd:string
+[FourthSignatoryDocumentAuthentication](#FourthSignatoryDocumentAuthentication) | [edi3:Authentication](#Authentication)
+[ElectronicPresentationIndicator](#ElectronicPresentationIndicator) | xsd:boolean
+[ReasonInformationText](#ReasonInformationText) | xsd:string
+[AuthorizationText](#AuthorizationText) | xsd:string
+[AmendmentPurposeCode](#AmendmentPurposeCode) | xsd:token
+[InformationText](#InformationText) | xsd:string
+[CopyIssuedQuantity](#CopyIssuedQuantity) | xsd:decimal
+[PageIdentifier](#PageIdentifier) | xsd:token
+[IssuerTradeParty](#IssuerTradeParty) | [edi3:Party](#Party)
+[GlobalIdentificationIdentifier](#GlobalIdentificationIdentifier) | xsd:token
+[FirstAgentSpecifiedCreditorFinancialInstitution](#FirstAgentSpecifiedCreditorFinancialInstitution) | [edi3:FinancialInstitution](#FinancialInstitution)
+[CustomsIdentificationIdentifier](#CustomsIdentificationIdentifier) | xsd:token
+[AcceptedTransactionOriginalTotalAmount](#AcceptedTransactionOriginalTotalAmount) | xsd:decimal
+[ThirdSignatoryDocumentAuthentication](#ThirdSignatoryDocumentAuthentication) | [edi3:Authentication](#Authentication)
+[ReferenceReferencedDocument](#ReferenceReferencedDocument) | [edi3:Document](#Document)
+[AcceptanceDateTime](#AcceptanceDateTime) | xsd:dateTime
+[ResponseDateTime](#ResponseDateTime) | xsd:dateTime
+[ContractualDocumentClause](#ContractualDocumentClause) | [edi3:Clause](#Clause)
+[PreviousRevisionIdentificationIdentifier](#PreviousRevisionIdentificationIdentifier) | xsd:token
+[AgreementInformationText](#AgreementInformationText) | xsd:string
+[TraderAssignedIdentificationIdentifier](#TraderAssignedIdentificationIdentifier) | xsd:token
+[ReferenceTypeReferenceCode](#ReferenceTypeReferenceCode) | xsd:token
+[RecipientAssignedIdentificationIdentifier](#RecipientAssignedIdentificationIdentifier) | xsd:token
+[LodgementLogisticsLocation](#LodgementLogisticsLocation) | [edi3:Location](#Location)
+[IncludedAmount](#IncludedAmount) | xsd:decimal
+[UrgencyCode](#UrgencyCode) | xsd:token
+[FinancedAppliedRatePercent](#FinancedAppliedRatePercent) | xsd:decimal
+[LineStatusLineStatusCode](#LineStatusLineStatusCode) | xsd:token
+[LatestRevisionDateTime](#LatestRevisionDateTime) | xsd:dateTime
+[RelatedFinancialBooking](#RelatedFinancialBooking) | [edi3:Booking](#Booking)
+[CategoryCode](#CategoryCode) | xsd:token
+[StatusDocumentStatusCode](#StatusDocumentStatusCode) | xsd:token
+[OffsetProcessingStatusText](#OffsetProcessingStatusText) | xsd:string
+[RejectionResponseDateTime](#RejectionResponseDateTime) | xsd:dateTime
+[OriginalRequiredQuantity](#OriginalRequiredQuantity) | xsd:decimal
+[TypeDocumentCode](#TypeDocumentCode) | xsd:token
+[CancellationReasonText](#CancellationReasonText) | xsd:string
+[LineIdentifier](#LineIdentifier) | xsd:token
+[GroupIdentificationIdentifier](#GroupIdentificationIdentifier) | xsd:token
+[FirstSignatoryDocumentAuthentication](#FirstSignatoryDocumentAuthentication) | [edi3:Authentication](#Authentication)
+[SpecifiedCancellationStatus](#SpecifiedCancellationStatus) | [edi3:Status](#Status)
+[IssuerAssignedIdentificationIdentifier](#IssuerAssignedIdentificationIdentifier) | xsd:token
+[RemarksText](#RemarksText) | xsd:string
+[AttachmentBinaryObject](#AttachmentBinaryObject) | xsd:base64Binary
+[SpecifiedValidationStatus](#SpecifiedValidationStatus) | [edi3:Status](#Status)
+[PurposeMessageFunctionCode](#PurposeMessageFunctionCode) | xsd:token
+[GroupedTransactionTotalAmount](#GroupedTransactionTotalAmount) | xsd:decimal
+[DescriptionText](#DescriptionText) | xsd:string
+[SubordinateLineIdentifier](#SubordinateLineIdentifier) | xsd:token
+[SpecifiedRequestingParty](#SpecifiedRequestingParty) | [edi3:Party](#Party)
+[FinancedTransactionSpecifiedQuantity](#FinancedTransactionSpecifiedQuantity) | xsd:decimal
+[RequestedResponseTypeCode](#RequestedResponseTypeCode) | xsd:token
+[RevisionIdentificationIdentifier](#RevisionIdentificationIdentifier) | xsd:token
+[AdditionalInformationIncludedNote](#AdditionalInformationIncludedNote) | [edi3:Note](#Note)
+[ReportSubmissionDateTime](#ReportSubmissionDateTime) | xsd:dateTime
+[SignatoryDocumentAuthentication](#SignatoryDocumentAuthentication) | [edi3:Authentication](#Authentication)
+[MultipleReferencesIndicator](#MultipleReferencesIndicator) | xsd:boolean
+[LineCountNumeric](#LineCountNumeric) | xsd:decimal
+[PublicationDateTime](#PublicationDateTime) | xsd:dateTime
+[EffectiveSpecifiedPeriod](#EffectiveSpecifiedPeriod) | [edi3:Period](#Period)
+[BuyerAssignedCategoryCode](#BuyerAssignedCategoryCode) | xsd:token
+[RelationshipTypeReferenceCode](#RelationshipTypeReferenceCode) | xsd:token
+[VersionIdentificationIdentifier](#VersionIdentificationIdentifier) | xsd:token
+[SpecifiedDocumentStatus](#SpecifiedDocumentStatus) | [edi3:Status](#Status)
+[ItemIdentificationIdentifier](#ItemIdentificationIdentifier) | xsd:token
+[FormattedIssueFormattedDateTime](#FormattedIssueFormattedDateTime) | xsd:dateTime
+[BuyerSignatoryDocumentAuthentication](#BuyerSignatoryDocumentAuthentication) | [edi3:Authentication](#Authentication)
+[AcceptableSpecifiedPeriod](#AcceptableSpecifiedPeriod) | [edi3:Period](#Period)
+[AgentTradeParty](#AgentTradeParty) | [edi3:Party](#Party)
+[IdentificationIdentifier](#IdentificationIdentifier) | xsd:token
+[SpecifiedFinancingStatus](#SpecifiedFinancingStatus) | [edi3:Status](#Status)
+[URIIdentificationIdentifier](#URIIdentificationIdentifier) | xsd:token
+[SecondSignatoryDocumentAuthentication](#SecondSignatoryDocumentAuthentication) | [edi3:Authentication](#Authentication)
+[ParentLineIdentifier](#ParentLineIdentifier) | xsd:token
+[LineStatusReasonCode](#LineStatusReasonCode) | xsd:token
+[SubmissionDateTime](#SubmissionDateTime) | xsd:dateTime
+[CopyIndicator](#CopyIndicator) | xsd:boolean
+[NameText](#NameText) | xsd:string
+[ControlRequirementIndicator](#ControlRequirementIndicator) | xsd:boolean
+[OriginalIssuedQuantity](#OriginalIssuedQuantity) | xsd:decimal
+[AcknowledgementStatusAcknowledgementCode](#AcknowledgementStatusAcknowledgementCode) | xsd:token
+[StatusStatusCode](#StatusStatusCode) | xsd:token
+[ReportReceiptDateTime](#ReportReceiptDateTime) | xsd:dateTime
+[IntermediarySpecifiedCreditorFinancialInstitution](#IntermediarySpecifiedCreditorFinancialInstitution) | [edi3:FinancialInstitution](#FinancialInstitution)
+[RecipientTradeParty](#RecipientTradeParty) | [edi3:Party](#Party)
+[LineStatusReasonText](#LineStatusReasonText) | xsd:string
+[CopyRequiredQuantity](#CopyRequiredQuantity) | xsd:decimal
+[LanguageIdentifier](#LanguageIdentifier) | xsd:token
+[SpecifiedCreditorFinancialAccount](#SpecifiedCreditorFinancialAccount) | [edi3:FinancialAccount](#FinancialAccount)
+[IssueDateTime](#IssueDateTime) | xsd:dateTime
+[IssueLogisticsLocation](#IssueLogisticsLocation) | [edi3:Location](#Location)
+[AttachedSpecifiedBinaryFile](#AttachedSpecifiedBinaryFile) | [edi3:BinaryFile](#BinaryFile)
+[ApproverSignatoryDocumentAuthentication](#ApproverSignatoryDocumentAuthentication) | [edi3:Authentication](#Authentication)
+[IncludedNote](#IncludedNote) | [edi3:Note](#Note)
+[CancellationDateTime](#CancellationDateTime) | xsd:dateTime
+[RevisionDateTime](#RevisionDateTime) | xsd:dateTime
+[UUIDLineIdentifier](#UUIDLineIdentifier) | xsd:token
+[SenderTradeParty](#SenderTradeParty) | [edi3:Party](#Party)
+[ResponseReasonCode](#ResponseReasonCode) | xsd:token
+[ProprietaryTypeText](#ProprietaryTypeText) | xsd:string
+[GroupedTransactionSpecifiedQuantity](#GroupedTransactionSpecifiedQuantity) | xsd:decimal
+[ReferenceAcknowledgementDocument](#ReferenceAcknowledgementDocument) | [edi3:Document](#Document)
+[ReceiptDateTime](#ReceiptDateTime) | xsd:dateTime
+[AuthenticatedOriginalIndicator](#AuthenticatedOriginalIndicator) | xsd:boolean
+[SenderAssignedIdentificationIdentifier](#SenderAssignedIdentificationIdentifier) | xsd:token
+[LineOfCreditSpecifiedFinancingFinancialAccount](#LineOfCreditSpecifiedFinancingFinancialAccount) | [edi3:FinancialAccount](#FinancialAccount)
 
 
 <h1 id="Feature">Feature</h1>
@@ -346,11 +346,11 @@ Properties:
 
 Name | Type 
 -|-
-<span id="TypeCode">TypeCode</span> | xsd:token
-<span id="DescriptionText">DescriptionText</span> | xsd:string
-<span id="MarketingMeasure">MarketingMeasure</span> | xsd:decimal
-<span id="IdentificationIdentifier">IdentificationIdentifier</span> | xsd:token
-<span id="NameText">NameText</span> | xsd:string
+[TypeCode](#TypeCode) | xsd:token
+[DescriptionText](#DescriptionText) | xsd:string
+[MarketingMeasure](#MarketingMeasure) | xsd:decimal
+[IdentificationIdentifier](#IdentificationIdentifier) | xsd:token
+[NameText](#NameText) | xsd:string
 
 
 <h1 id="WorkItem">WorkItem</h1>
@@ -363,29 +363,29 @@ Properties:
 
 Name | Type 
 -|-
-<span id="SubordinateBasicWorkItem">SubordinateBasicWorkItem</span> | [edi3:WorkItem](#WorkItem)
-<span id="UnitCalculatedPrice">UnitCalculatedPrice</span> | [edi3:Price](#Price)
-<span id="TypeCode">TypeCode</span> | xsd:token
-<span id="TotalQuantityWorkItemQuantityAnalysis">TotalQuantityWorkItemQuantityAnalysis</span> | [edi3:QuantityAnalysis](#QuantityAnalysis)
-<span id="IndexValue">IndexValue</span> | xsd:string
-<span id="ItemBasicWorkItem">ItemBasicWorkItem</span> | [edi3:WorkItem](#WorkItem)
-<span id="TotalQuantityClassificationCode">TotalQuantityClassificationCode</span> | xsd:token
-<span id="CommentText">CommentText</span> | xsd:string
-<span id="ContractualLanguageCode">ContractualLanguageCode</span> | xsd:token
-<span id="ReferenceFileBinaryObject">ReferenceFileBinaryObject</span> | xsd:base64Binary
-<span id="ReferencedSpecifiedBinaryFile">ReferencedSpecifiedBinaryFile</span> | [edi3:BinaryFile](#BinaryFile)
-<span id="PrimaryClassificationCode">PrimaryClassificationCode</span> | xsd:token
-<span id="PriceListItemIdentificationIdentifier">PriceListItemIdentificationIdentifier</span> | xsd:token
-<span id="AlternativeClassificationCode">AlternativeClassificationCode</span> | xsd:token
-<span id="ActualWorkItemComplexDescription">ActualWorkItemComplexDescription</span> | [edi3:ComplexDescription](#ComplexDescription)
-<span id="RequestedActionCode">RequestedActionCode</span> | xsd:token
-<span id="IdentificationIdentifier">IdentificationIdentifier</span> | xsd:token
-<span id="TotalQuantity">TotalQuantity</span> | xsd:decimal
-<span id="TotalCalculatedPrice">TotalCalculatedPrice</span> | [edi3:Price](#Price)
-<span id="ChangedRecordedStatus">ChangedRecordedStatus</span> | [edi3:Status](#Status)
-<span id="ItemGroupedWorkItem">ItemGroupedWorkItem</span> | [edi3:WorkItem](#WorkItem)
-<span id="ReferenceIdentificationIdentifier">ReferenceIdentificationIdentifier</span> | xsd:token
-<span id="IndexText">IndexText</span> | xsd:string
+[SubordinateBasicWorkItem](#SubordinateBasicWorkItem) | [edi3:WorkItem](#WorkItem)
+[UnitCalculatedPrice](#UnitCalculatedPrice) | [edi3:Price](#Price)
+[TypeCode](#TypeCode) | xsd:token
+[TotalQuantityWorkItemQuantityAnalysis](#TotalQuantityWorkItemQuantityAnalysis) | [edi3:QuantityAnalysis](#QuantityAnalysis)
+[IndexValue](#IndexValue) | xsd:string
+[ItemBasicWorkItem](#ItemBasicWorkItem) | [edi3:WorkItem](#WorkItem)
+[TotalQuantityClassificationCode](#TotalQuantityClassificationCode) | xsd:token
+[CommentText](#CommentText) | xsd:string
+[ContractualLanguageCode](#ContractualLanguageCode) | xsd:token
+[ReferenceFileBinaryObject](#ReferenceFileBinaryObject) | xsd:base64Binary
+[ReferencedSpecifiedBinaryFile](#ReferencedSpecifiedBinaryFile) | [edi3:BinaryFile](#BinaryFile)
+[PrimaryClassificationCode](#PrimaryClassificationCode) | xsd:token
+[PriceListItemIdentificationIdentifier](#PriceListItemIdentificationIdentifier) | xsd:token
+[AlternativeClassificationCode](#AlternativeClassificationCode) | xsd:token
+[ActualWorkItemComplexDescription](#ActualWorkItemComplexDescription) | [edi3:ComplexDescription](#ComplexDescription)
+[RequestedActionCode](#RequestedActionCode) | xsd:token
+[IdentificationIdentifier](#IdentificationIdentifier) | xsd:token
+[TotalQuantity](#TotalQuantity) | xsd:decimal
+[TotalCalculatedPrice](#TotalCalculatedPrice) | [edi3:Price](#Price)
+[ChangedRecordedStatus](#ChangedRecordedStatus) | [edi3:Status](#Status)
+[ItemGroupedWorkItem](#ItemGroupedWorkItem) | [edi3:WorkItem](#WorkItem)
+[ReferenceIdentificationIdentifier](#ReferenceIdentificationIdentifier) | xsd:token
+[IndexText](#IndexText) | xsd:string
 
 
 <h1 id="ChemicalTreatment">ChemicalTreatment</h1>
@@ -398,14 +398,14 @@ Properties:
 
 Name | Type 
 -|-
-<span id="ApplicableSpecifiedTemperature">ApplicableSpecifiedTemperature</span> | [edi3:Temperature](#Temperature)
-<span id="AppliedSpecifiedPeriod">AppliedSpecifiedPeriod</span> | [edi3:Period](#Period)
-<span id="OccurrenceDateTime">OccurrenceDateTime</span> | xsd:dateTime
-<span id="UsedDistinctChemical">UsedDistinctChemical</span> | [edi3:Chemical](#Chemical)
-<span id="ResultNote">ResultNote</span> | [edi3:Note](#Note)
-<span id="NameText">NameText</span> | xsd:string
-<span id="ChemicalConcentrationMeasure">ChemicalConcentrationMeasure</span> | xsd:decimal
-<span id="MethodNameText">MethodNameText</span> | xsd:string
+[ApplicableSpecifiedTemperature](#ApplicableSpecifiedTemperature) | [edi3:Temperature](#Temperature)
+[AppliedSpecifiedPeriod](#AppliedSpecifiedPeriod) | [edi3:Period](#Period)
+[OccurrenceDateTime](#OccurrenceDateTime) | xsd:dateTime
+[UsedDistinctChemical](#UsedDistinctChemical) | [edi3:Chemical](#Chemical)
+[ResultNote](#ResultNote) | [edi3:Note](#Note)
+[NameText](#NameText) | xsd:string
+[ChemicalConcentrationMeasure](#ChemicalConcentrationMeasure) | xsd:decimal
+[MethodNameText](#MethodNameText) | xsd:string
 
 
 <h1 id="TradeTransaction">TradeTransaction</h1>
@@ -418,26 +418,26 @@ Properties:
 
 Name | Type 
 -|-
-<span id="IssueFormattedDateTime">IssueFormattedDateTime</span> | xsd:dateTime
-<span id="LineItemQuantity">LineItemQuantity</span> | xsd:decimal
-<span id="InformationText">InformationText</span> | xsd:string
-<span id="IncludedTradeProductGroup">IncludedTradeProductGroup</span> | [edi3:ProductGroup](#ProductGroup)
-<span id="SpecifiedLogisticsPackage">SpecifiedLogisticsPackage</span> | [edi3:Package](#Package)
-<span id="AssociatedReferencedDocument">AssociatedReferencedDocument</span> | [edi3:Document](#Document)
-<span id="ApplicableHeaderTradeSettlement">ApplicableHeaderTradeSettlement</span> | [edi3:TradeSettlement](#TradeSettlement)
-<span id="TypeCode">TypeCode</span> | xsd:token
-<span id="AssociatedDocumentLineDocument">AssociatedDocumentLineDocument</span> | [edi3:Document](#Document)
-<span id="IncludedTradeProduct">IncludedTradeProduct</span> | [edi3:Product](#Product)
-<span id="ApplicableHeaderTradeDelivery">ApplicableHeaderTradeDelivery</span> | [edi3:TradeDelivery](#TradeDelivery)
-<span id="DocumentURLIdentifier">DocumentURLIdentifier</span> | xsd:token
-<span id="ShipmentIdentificationIdentifier">ShipmentIdentificationIdentifier</span> | xsd:token
-<span id="AssociatedFinancingRequestResultDocument">AssociatedFinancingRequestResultDocument</span> | [edi3:Document](#Document)
-<span id="SalesAgentAssignedIdentificationIdentifier">SalesAgentAssignedIdentificationIdentifier</span> | xsd:token
-<span id="SenderRecipientSequenceIdentificationIdentifier">SenderRecipientSequenceIdentificationIdentifier</span> | xsd:token
-<span id="IncludedSupplyChainTradeLineItem">IncludedSupplyChainTradeLineItem</span> | [edi3:TradeLineItem](#TradeLineItem)
-<span id="ApplicableLineTradeDelivery">ApplicableLineTradeDelivery</span> | [edi3:TradeDelivery](#TradeDelivery)
-<span id="IdentificationIdentifier">IdentificationIdentifier</span> | xsd:token
-<span id="ApplicableHeaderTradeAgreement">ApplicableHeaderTradeAgreement</span> | [edi3:TradeAgreement](#TradeAgreement)
+[IssueFormattedDateTime](#IssueFormattedDateTime) | xsd:dateTime
+[LineItemQuantity](#LineItemQuantity) | xsd:decimal
+[InformationText](#InformationText) | xsd:string
+[IncludedTradeProductGroup](#IncludedTradeProductGroup) | [edi3:ProductGroup](#ProductGroup)
+[SpecifiedLogisticsPackage](#SpecifiedLogisticsPackage) | [edi3:Package](#Package)
+[AssociatedReferencedDocument](#AssociatedReferencedDocument) | [edi3:Document](#Document)
+[ApplicableHeaderTradeSettlement](#ApplicableHeaderTradeSettlement) | [edi3:TradeSettlement](#TradeSettlement)
+[TypeCode](#TypeCode) | xsd:token
+[AssociatedDocumentLineDocument](#AssociatedDocumentLineDocument) | [edi3:Document](#Document)
+[IncludedTradeProduct](#IncludedTradeProduct) | [edi3:Product](#Product)
+[ApplicableHeaderTradeDelivery](#ApplicableHeaderTradeDelivery) | [edi3:TradeDelivery](#TradeDelivery)
+[DocumentURLIdentifier](#DocumentURLIdentifier) | xsd:token
+[ShipmentIdentificationIdentifier](#ShipmentIdentificationIdentifier) | xsd:token
+[AssociatedFinancingRequestResultDocument](#AssociatedFinancingRequestResultDocument) | [edi3:Document](#Document)
+[SalesAgentAssignedIdentificationIdentifier](#SalesAgentAssignedIdentificationIdentifier) | xsd:token
+[SenderRecipientSequenceIdentificationIdentifier](#SenderRecipientSequenceIdentificationIdentifier) | xsd:token
+[IncludedSupplyChainTradeLineItem](#IncludedSupplyChainTradeLineItem) | [edi3:TradeLineItem](#TradeLineItem)
+[ApplicableLineTradeDelivery](#ApplicableLineTradeDelivery) | [edi3:TradeDelivery](#TradeDelivery)
+[IdentificationIdentifier](#IdentificationIdentifier) | xsd:token
+[ApplicableHeaderTradeAgreement](#ApplicableHeaderTradeAgreement) | [edi3:TradeAgreement](#TradeAgreement)
 
 
 <h1 id="RiskAnalysisResult">RiskAnalysisResult</h1>
@@ -450,12 +450,12 @@ Properties:
 
 Name | Type 
 -|-
-<span id="TransportEquipmentRiskRelatedCode">TransportEquipmentRiskRelatedCode</span> | xsd:token
-<span id="CategoryCode">CategoryCode</span> | xsd:token
-<span id="DescriptionText">DescriptionText</span> | xsd:string
-<span id="ConsignmentRiskRelatedCode">ConsignmentRiskRelatedCode</span> | xsd:token
-<span id="PartyRiskRelatedCode">PartyRiskRelatedCode</span> | xsd:token
-<span id="LevelCode">LevelCode</span> | xsd:token
+[TransportEquipmentRiskRelatedCode](#TransportEquipmentRiskRelatedCode) | xsd:token
+[CategoryCode](#CategoryCode) | xsd:token
+[DescriptionText](#DescriptionText) | xsd:string
+[ConsignmentRiskRelatedCode](#ConsignmentRiskRelatedCode) | xsd:token
+[PartyRiskRelatedCode](#PartyRiskRelatedCode) | xsd:token
+[LevelCode](#LevelCode) | xsd:token
 
 
 <h1 id="Classification">Classification</h1>
@@ -468,12 +468,12 @@ Properties:
 
 Name | Type 
 -|-
-<span id="ClassNameText">ClassNameText</span> | xsd:string
-<span id="SystemIdentifier">SystemIdentifier</span> | xsd:token
-<span id="ClassCode">ClassCode</span> | xsd:token
-<span id="SubClassCode">SubClassCode</span> | xsd:token
-<span id="ClassProductCharacteristic">ClassProductCharacteristic</span> | [edi3:Characteristic](#Characteristic)
-<span id="SystemNameText">SystemNameText</span> | xsd:string
+[ClassNameText](#ClassNameText) | xsd:string
+[SystemIdentifier](#SystemIdentifier) | xsd:token
+[ClassCode](#ClassCode) | xsd:token
+[SubClassCode](#SubClassCode) | xsd:token
+[ClassProductCharacteristic](#ClassProductCharacteristic) | [edi3:Characteristic](#Characteristic)
+[SystemNameText](#SystemNameText) | xsd:string
 
 
 <h1 id="Accreditation">Accreditation</h1>
@@ -486,13 +486,13 @@ Properties:
 
 Name | Type 
 -|-
-<span id="TypeCode">TypeCode</span> | xsd:token
-<span id="ExpiryFormattedDateTime">ExpiryFormattedDateTime</span> | xsd:dateTime
-<span id="AuthenticationMethodCode">AuthenticationMethodCode</span> | xsd:token
-<span id="CategoryCode">CategoryCode</span> | xsd:token
-<span id="DescriptionText">DescriptionText</span> | xsd:string
-<span id="IdentificationIdentifier">IdentificationIdentifier</span> | xsd:token
-<span id="ObtainedFormattedDateTime">ObtainedFormattedDateTime</span> | xsd:dateTime
+[TypeCode](#TypeCode) | xsd:token
+[ExpiryFormattedDateTime](#ExpiryFormattedDateTime) | xsd:dateTime
+[AuthenticationMethodCode](#AuthenticationMethodCode) | xsd:token
+[CategoryCode](#CategoryCode) | xsd:token
+[DescriptionText](#DescriptionText) | xsd:string
+[IdentificationIdentifier](#IdentificationIdentifier) | xsd:token
+[ObtainedFormattedDateTime](#ObtainedFormattedDateTime) | xsd:dateTime
 
 
 <h1 id="Identity">Identity</h1>
@@ -505,19 +505,19 @@ Properties:
 
 Name | Type 
 -|-
-<span id="SpecifiedProprietaryIdentity">SpecifiedProprietaryIdentity</span> | [edi3:Identity](#Identity)
-<span id="BEIIdentificationIdentifier">BEIIdentificationIdentifier</span> | xsd:token
-<span id="SocialSecurityIdentificationIdentifier">SocialSecurityIdentificationIdentifier</span> | xsd:token
-<span id="PassportIdentificationIdentifier">PassportIdentificationIdentifier</span> | xsd:token
-<span id="IdentityCardIdentificationIdentifier">IdentityCardIdentificationIdentifier</span> | xsd:token
-<span id="BICIdentificationIdentifier">BICIdentificationIdentifier</span> | xsd:token
-<span id="CHIPSUniversalIdentificationIdentifier">CHIPSUniversalIdentificationIdentifier</span> | xsd:token
-<span id="DriversLicenceIdentificationIdentifier">DriversLicenceIdentificationIdentifier</span> | xsd:token
-<span id="AgentAssignedCustomerIdentificationIdentifier">AgentAssignedCustomerIdentificationIdentifier</span> | xsd:token
-<span id="IdentificationIdentifier">IdentificationIdentifier</span> | xsd:token
-<span id="IBEIIdentificationIdentifier">IBEIIdentificationIdentifier</span> | xsd:token
-<span id="BankAssignedIdentificationIdentifier">BankAssignedIdentificationIdentifier</span> | xsd:token
-<span id="AlienRegistrationIdentificationIdentifier">AlienRegistrationIdentificationIdentifier</span> | xsd:token
+[SpecifiedProprietaryIdentity](#SpecifiedProprietaryIdentity) | [edi3:Identity](#Identity)
+[BEIIdentificationIdentifier](#BEIIdentificationIdentifier) | xsd:token
+[SocialSecurityIdentificationIdentifier](#SocialSecurityIdentificationIdentifier) | xsd:token
+[PassportIdentificationIdentifier](#PassportIdentificationIdentifier) | xsd:token
+[IdentityCardIdentificationIdentifier](#IdentityCardIdentificationIdentifier) | xsd:token
+[BICIdentificationIdentifier](#BICIdentificationIdentifier) | xsd:token
+[CHIPSUniversalIdentificationIdentifier](#CHIPSUniversalIdentificationIdentifier) | xsd:token
+[DriversLicenceIdentificationIdentifier](#DriversLicenceIdentificationIdentifier) | xsd:token
+[AgentAssignedCustomerIdentificationIdentifier](#AgentAssignedCustomerIdentificationIdentifier) | xsd:token
+[IdentificationIdentifier](#IdentificationIdentifier) | xsd:token
+[IBEIIdentificationIdentifier](#IBEIIdentificationIdentifier) | xsd:token
+[BankAssignedIdentificationIdentifier](#BankAssignedIdentificationIdentifier) | xsd:token
+[AlienRegistrationIdentificationIdentifier](#AlienRegistrationIdentificationIdentifier) | xsd:token
 
 
 <h1 id="Status">Status</h1>
@@ -530,29 +530,29 @@ Properties:
 
 Name | Type 
 -|-
-<span id="DepartureReportedTransportEvent">DepartureReportedTransportEvent</span> | [edi3:Event](#Event)
-<span id="ReasonLogisticsStatusCode">ReasonLogisticsStatusCode</span> | xsd:token
-<span id="ReasonInformationText">ReasonInformationText</span> | xsd:string
-<span id="InformationText">InformationText</span> | xsd:string
-<span id="ValiditySpecifiedPeriod">ValiditySpecifiedPeriod</span> | [edi3:Period](#Period)
-<span id="AdditionalReasonText">AdditionalReasonText</span> | xsd:string
-<span id="ConditionDocumentStatusCode">ConditionDocumentStatusCode</span> | xsd:token
-<span id="ReasonText">ReasonText</span> | xsd:string
-<span id="ConditionValidationDocumentStatusCode">ConditionValidationDocumentStatusCode</span> | xsd:token
-<span id="ChangerNameText">ChangerNameText</span> | xsd:string
-<span id="DescriptionText">DescriptionText</span> | xsd:string
-<span id="LoadingReportedTransportEvent">LoadingReportedTransportEvent</span> | [edi3:Event](#Event)
-<span id="ConditionCode">ConditionCode</span> | xsd:token
-<span id="SequenceNumeric">SequenceNumeric</span> | xsd:decimal
-<span id="ReferenceDateTime">ReferenceDateTime</span> | xsd:dateTime
-<span id="ConditionFinancingStatusCode">ConditionFinancingStatusCode</span> | xsd:token
-<span id="SpecifiedLogisticsLocation">SpecifiedLogisticsLocation</span> | [edi3:Location](#Location)
-<span id="ConditionCancellationDocumentStatusCode">ConditionCancellationDocumentStatusCode</span> | xsd:token
-<span id="ChangedDateTime">ChangedDateTime</span> | xsd:dateTime
-<span id="ReasonFinancingStatusReasonCode">ReasonFinancingStatusReasonCode</span> | xsd:token
-<span id="ConditionLogisticsStatusCode">ConditionLogisticsStatusCode</span> | xsd:token
-<span id="ArrivalReportedTransportEvent">ArrivalReportedTransportEvent</span> | [edi3:Event](#Event)
-<span id="ReasonCode">ReasonCode</span> | xsd:token
+[DepartureReportedTransportEvent](#DepartureReportedTransportEvent) | [edi3:Event](#Event)
+[ReasonLogisticsStatusCode](#ReasonLogisticsStatusCode) | xsd:token
+[ReasonInformationText](#ReasonInformationText) | xsd:string
+[InformationText](#InformationText) | xsd:string
+[ValiditySpecifiedPeriod](#ValiditySpecifiedPeriod) | [edi3:Period](#Period)
+[AdditionalReasonText](#AdditionalReasonText) | xsd:string
+[ConditionDocumentStatusCode](#ConditionDocumentStatusCode) | xsd:token
+[ReasonText](#ReasonText) | xsd:string
+[ConditionValidationDocumentStatusCode](#ConditionValidationDocumentStatusCode) | xsd:token
+[ChangerNameText](#ChangerNameText) | xsd:string
+[DescriptionText](#DescriptionText) | xsd:string
+[LoadingReportedTransportEvent](#LoadingReportedTransportEvent) | [edi3:Event](#Event)
+[ConditionCode](#ConditionCode) | xsd:token
+[SequenceNumeric](#SequenceNumeric) | xsd:decimal
+[ReferenceDateTime](#ReferenceDateTime) | xsd:dateTime
+[ConditionFinancingStatusCode](#ConditionFinancingStatusCode) | xsd:token
+[SpecifiedLogisticsLocation](#SpecifiedLogisticsLocation) | [edi3:Location](#Location)
+[ConditionCancellationDocumentStatusCode](#ConditionCancellationDocumentStatusCode) | xsd:token
+[ChangedDateTime](#ChangedDateTime) | xsd:dateTime
+[ReasonFinancingStatusReasonCode](#ReasonFinancingStatusReasonCode) | xsd:token
+[ConditionLogisticsStatusCode](#ConditionLogisticsStatusCode) | xsd:token
+[ArrivalReportedTransportEvent](#ArrivalReportedTransportEvent) | [edi3:Event](#Event)
+[ReasonCode](#ReasonCode) | xsd:token
 
 
 <h1 id="Adjustment">Adjustment</h1>
@@ -565,14 +565,14 @@ Properties:
 
 Name | Type 
 -|-
-<span id="ActualQuantity">ActualQuantity</span> | xsd:decimal
-<span id="ReasonText">ReasonText</span> | xsd:string
-<span id="ActualAmount">ActualAmount</span> | xsd:decimal
-<span id="DirectionAccountingDebitCreditStatusCode">DirectionAccountingDebitCreditStatusCode</span> | xsd:token
-<span id="InvoiceReferenceReferencedDocument">InvoiceReferenceReferencedDocument</span> | [edi3:Document](#Document)
-<span id="ClaimRelatedTradeParty">ClaimRelatedTradeParty</span> | [edi3:Party](#Party)
-<span id="ReasonAdjustmentReasonCode">ReasonAdjustmentReasonCode</span> | xsd:token
-<span id="ReasonCode">ReasonCode</span> | xsd:token
+[ActualQuantity](#ActualQuantity) | xsd:decimal
+[ReasonText](#ReasonText) | xsd:string
+[ActualAmount](#ActualAmount) | xsd:decimal
+[DirectionAccountingDebitCreditStatusCode](#DirectionAccountingDebitCreditStatusCode) | xsd:token
+[InvoiceReferenceReferencedDocument](#InvoiceReferenceReferencedDocument) | [edi3:Document](#Document)
+[ClaimRelatedTradeParty](#ClaimRelatedTradeParty) | [edi3:Party](#Party)
+[ReasonAdjustmentReasonCode](#ReasonAdjustmentReasonCode) | xsd:token
+[ReasonCode](#ReasonCode) | xsd:token
 
 
 <h1 id="InstalmentPlan">InstalmentPlan</h1>
@@ -597,100 +597,100 @@ Properties:
 
 Name | Type 
 -|-
-<span id="CertificationBasisText">CertificationBasisText</span> | xsd:string
-<span id="ExitCustomsOfficeSpecifiedLogisticsLocation">ExitCustomsOfficeSpecifiedLogisticsLocation</span> | [edi3:Location](#Location)
-<span id="AnnualQuotaQuantity">AnnualQuotaQuantity</span> | xsd:decimal
-<span id="EntryCustomsOfficeSpecifiedLogisticsLocation">EntryCustomsOfficeSpecifiedLogisticsLocation</span> | [edi3:Location](#Location)
-<span id="RequiredCertificationTestSpecificationReport">RequiredCertificationTestSpecificationReport</span> | [edi3:TestSpecificationReport](#TestSpecificationReport)
-<span id="ValuationBasisAmount">ValuationBasisAmount</span> | xsd:decimal
-<span id="TariffQuantity">TariffQuantity</span> | xsd:decimal
-<span id="ApplicableTradeTax">ApplicableTradeTax</span> | [edi3:Tax](#Tax)
-<span id="ExportLicenceControlClassificationIdentifier">ExportLicenceControlClassificationIdentifier</span> | xsd:token
-<span id="DeclarationLodgementLogisticsLocation">DeclarationLodgementLogisticsLocation</span> | [edi3:Location](#Location)
-<span id="ApplicableTradeCurrencyExchange">ApplicableTradeCurrencyExchange</span> | [edi3:CurrencyExchange](#CurrencyExchange)
-<span id="TypeCode">TypeCode</span> | xsd:token
-<span id="DeclarantAssignedDeclarationIdentifier">DeclarantAssignedDeclarationIdentifier</span> | xsd:token
-<span id="ExportCustomsOfficeSpecifiedLogisticsLocation">ExportCustomsOfficeSpecifiedLogisticsLocation</span> | [edi3:Location](#Location)
-<span id="PaymentMethodPaymentMethodCode">PaymentMethodPaymentMethodCode</span> | xsd:token
-<span id="TransitReleaseCustomsOfficeSpecifiedLogisticsLocation">TransitReleaseCustomsOfficeSpecifiedLogisticsLocation</span> | [edi3:Location](#Location)
-<span id="GuaranteeCode">GuaranteeCode</span> | xsd:token
-<span id="PaymentOfficeLogisticsLocation">PaymentOfficeLogisticsLocation</span> | [edi3:Location](#Location)
-<span id="ReportedLogisticsStatus">ReportedLogisticsStatus</span> | [edi3:Status](#Status)
-<span id="TransactionNatureCode">TransactionNatureCode</span> | xsd:token
-<span id="RemarkText">RemarkText</span> | xsd:string
-<span id="RequiredLogisticsSeal">RequiredLogisticsSeal</span> | [edi3:Seal](#Seal)
-<span id="ConsignmentDestinationSpecifiedLogisticsLocation">ConsignmentDestinationSpecifiedLogisticsLocation</span> | [edi3:Location](#Location)
-<span id="TotalChargeAmount">TotalChargeAmount</span> | xsd:decimal
-<span id="CategoryCode">CategoryCode</span> | xsd:token
-<span id="ResponsibleAgencyActionGovernmentActionCode">ResponsibleAgencyActionGovernmentActionCode</span> | xsd:token
-<span id="ApplicableSpecifiedPeriod">ApplicableSpecifiedPeriod</span> | [edi3:Period](#Period)
-<span id="RequiredAppliedChemicalTreatment">RequiredAppliedChemicalTreatment</span> | [edi3:ChemicalTreatment](#ChemicalTreatment)
-<span id="ResponsibleAgencyInvolvementResponsibleGovernmentAgencyInvolvementCode">ResponsibleAgencyInvolvementResponsibleGovernmentAgencyInvolvementCode</span> | xsd:token
-<span id="QuotaIdentifier">QuotaIdentifier</span> | xsd:token
-<span id="TotalConsignmentValueAmount">TotalConsignmentValueAmount</span> | xsd:decimal
-<span id="BorderClearanceTransportInstructions">BorderClearanceTransportInstructions</span> | [edi3:Instructions](#Instructions)
-<span id="TariffAmount">TariffAmount</span> | xsd:decimal
-<span id="ImmediatePayableTotalChargeAmount">ImmediatePayableTotalChargeAmount</span> | xsd:decimal
-<span id="ExemptionClaimantTradeParty">ExemptionClaimantTradeParty</span> | [edi3:Party](#Party)
-<span id="StatementNote">StatementNote</span> | [edi3:Note](#Note)
-<span id="PerformanceDateTime">PerformanceDateTime</span> | xsd:dateTime
-<span id="DeferredPayableTotalChargeAmount">DeferredPayableTotalChargeAmount</span> | xsd:decimal
-<span id="TariffDeductionQuantity">TariffDeductionQuantity</span> | xsd:decimal
-<span id="TransportMovementTypeTransportMovementTypeCode">TransportMovementTypeTransportMovementTypeCode</span> | xsd:token
-<span id="ResponsibleAgencyResponsibleGovernmentAgencyCode">ResponsibleAgencyResponsibleGovernmentAgencyCode</span> | xsd:token
-<span id="GuaranteeText">GuaranteeText</span> | xsd:string
-<span id="TreatmentTransportEvent">TreatmentTransportEvent</span> | [edi3:Event](#Event)
-<span id="RequestOverrideCode">RequestOverrideCode</span> | xsd:token
-<span id="ControlRequirementIndicator">ControlRequirementIndicator</span> | xsd:boolean
-<span id="PreviousReferencedDocument">PreviousReferencedDocument</span> | [edi3:Document](#Document)
-<span id="ImportCustomsOfficeSpecifiedLogisticsLocation">ImportCustomsOfficeSpecifiedLogisticsLocation</span> | [edi3:Location](#Location)
-<span id="ReferencedReferencedDocument">ReferencedReferencedDocument</span> | [edi3:Document](#Document)
-<span id="UsedToDateQuotaQuantity">UsedToDateQuotaQuantity</span> | xsd:decimal
-<span id="RegisteredDeferredPaymentPayerIdentifier">RegisteredDeferredPaymentPayerIdentifier</span> | xsd:token
-<span id="AcquisitionDateTime">AcquisitionDateTime</span> | xsd:dateTime
-<span id="NonTariffChargeAmount">NonTariffChargeAmount</span> | xsd:decimal
-<span id="ControlResultText">ControlResultText</span> | xsd:string
-<span id="AmendmentReasonCode">AmendmentReasonCode</span> | xsd:token
-<span id="SpecifiedCrossBorderCustomsProcedure">SpecifiedCrossBorderCustomsProcedure</span> | [edi3:CustomsProcedure](#CustomsProcedure)
-<span id="DeferredPaymentMethodIndicator">DeferredPaymentMethodIndicator</span> | xsd:boolean
-<span id="ExaminationTransportEvent">ExaminationTransportEvent</span> | [edi3:Event](#Event)
-<span id="TransitCustomsOfficeSpecifiedLogisticsLocation">TransitCustomsOfficeSpecifiedLogisticsLocation</span> | [edi3:Location](#Location)
-<span id="PreviousProcedureTypeCode">PreviousProcedureTypeCode</span> | xsd:token
-<span id="SpecifiedDebtorFinancialAccount">SpecifiedDebtorFinancialAccount</span> | [edi3:FinancialAccount](#FinancialAccount)
-<span id="GoodsStatusCode">GoodsStatusCode</span> | xsd:token
-<span id="ControlStartDateConfirmationIndicator">ControlStartDateConfirmationIndicator</span> | xsd:boolean
+[CertificationBasisText](#CertificationBasisText) | xsd:string
+[ExitCustomsOfficeSpecifiedLogisticsLocation](#ExitCustomsOfficeSpecifiedLogisticsLocation) | [edi3:Location](#Location)
+[AnnualQuotaQuantity](#AnnualQuotaQuantity) | xsd:decimal
+[EntryCustomsOfficeSpecifiedLogisticsLocation](#EntryCustomsOfficeSpecifiedLogisticsLocation) | [edi3:Location](#Location)
+[RequiredCertificationTestSpecificationReport](#RequiredCertificationTestSpecificationReport) | [edi3:TestSpecificationReport](#TestSpecificationReport)
+[ValuationBasisAmount](#ValuationBasisAmount) | xsd:decimal
+[TariffQuantity](#TariffQuantity) | xsd:decimal
+[ApplicableTradeTax](#ApplicableTradeTax) | [edi3:Tax](#Tax)
+[ExportLicenceControlClassificationIdentifier](#ExportLicenceControlClassificationIdentifier) | xsd:token
+[DeclarationLodgementLogisticsLocation](#DeclarationLodgementLogisticsLocation) | [edi3:Location](#Location)
+[ApplicableTradeCurrencyExchange](#ApplicableTradeCurrencyExchange) | [edi3:CurrencyExchange](#CurrencyExchange)
+[TypeCode](#TypeCode) | xsd:token
+[DeclarantAssignedDeclarationIdentifier](#DeclarantAssignedDeclarationIdentifier) | xsd:token
+[ExportCustomsOfficeSpecifiedLogisticsLocation](#ExportCustomsOfficeSpecifiedLogisticsLocation) | [edi3:Location](#Location)
+[PaymentMethodPaymentMethodCode](#PaymentMethodPaymentMethodCode) | xsd:token
+[TransitReleaseCustomsOfficeSpecifiedLogisticsLocation](#TransitReleaseCustomsOfficeSpecifiedLogisticsLocation) | [edi3:Location](#Location)
+[GuaranteeCode](#GuaranteeCode) | xsd:token
+[PaymentOfficeLogisticsLocation](#PaymentOfficeLogisticsLocation) | [edi3:Location](#Location)
+[ReportedLogisticsStatus](#ReportedLogisticsStatus) | [edi3:Status](#Status)
+[TransactionNatureCode](#TransactionNatureCode) | xsd:token
+[RemarkText](#RemarkText) | xsd:string
+[RequiredLogisticsSeal](#RequiredLogisticsSeal) | [edi3:Seal](#Seal)
+[ConsignmentDestinationSpecifiedLogisticsLocation](#ConsignmentDestinationSpecifiedLogisticsLocation) | [edi3:Location](#Location)
+[TotalChargeAmount](#TotalChargeAmount) | xsd:decimal
+[CategoryCode](#CategoryCode) | xsd:token
+[ResponsibleAgencyActionGovernmentActionCode](#ResponsibleAgencyActionGovernmentActionCode) | xsd:token
+[ApplicableSpecifiedPeriod](#ApplicableSpecifiedPeriod) | [edi3:Period](#Period)
+[RequiredAppliedChemicalTreatment](#RequiredAppliedChemicalTreatment) | [edi3:ChemicalTreatment](#ChemicalTreatment)
+[ResponsibleAgencyInvolvementResponsibleGovernmentAgencyInvolvementCode](#ResponsibleAgencyInvolvementResponsibleGovernmentAgencyInvolvementCode) | xsd:token
+[QuotaIdentifier](#QuotaIdentifier) | xsd:token
+[TotalConsignmentValueAmount](#TotalConsignmentValueAmount) | xsd:decimal
+[BorderClearanceTransportInstructions](#BorderClearanceTransportInstructions) | [edi3:Instructions](#Instructions)
+[TariffAmount](#TariffAmount) | xsd:decimal
+[ImmediatePayableTotalChargeAmount](#ImmediatePayableTotalChargeAmount) | xsd:decimal
+[ExemptionClaimantTradeParty](#ExemptionClaimantTradeParty) | [edi3:Party](#Party)
+[StatementNote](#StatementNote) | [edi3:Note](#Note)
+[PerformanceDateTime](#PerformanceDateTime) | xsd:dateTime
+[DeferredPayableTotalChargeAmount](#DeferredPayableTotalChargeAmount) | xsd:decimal
+[TariffDeductionQuantity](#TariffDeductionQuantity) | xsd:decimal
+[TransportMovementTypeTransportMovementTypeCode](#TransportMovementTypeTransportMovementTypeCode) | xsd:token
+[ResponsibleAgencyResponsibleGovernmentAgencyCode](#ResponsibleAgencyResponsibleGovernmentAgencyCode) | xsd:token
+[GuaranteeText](#GuaranteeText) | xsd:string
+[TreatmentTransportEvent](#TreatmentTransportEvent) | [edi3:Event](#Event)
+[RequestOverrideCode](#RequestOverrideCode) | xsd:token
+[ControlRequirementIndicator](#ControlRequirementIndicator) | xsd:boolean
+[PreviousReferencedDocument](#PreviousReferencedDocument) | [edi3:Document](#Document)
+[ImportCustomsOfficeSpecifiedLogisticsLocation](#ImportCustomsOfficeSpecifiedLogisticsLocation) | [edi3:Location](#Location)
+[ReferencedReferencedDocument](#ReferencedReferencedDocument) | [edi3:Document](#Document)
+[UsedToDateQuotaQuantity](#UsedToDateQuotaQuantity) | xsd:decimal
+[RegisteredDeferredPaymentPayerIdentifier](#RegisteredDeferredPaymentPayerIdentifier) | xsd:token
+[AcquisitionDateTime](#AcquisitionDateTime) | xsd:dateTime
+[NonTariffChargeAmount](#NonTariffChargeAmount) | xsd:decimal
+[ControlResultText](#ControlResultText) | xsd:string
+[AmendmentReasonCode](#AmendmentReasonCode) | xsd:token
+[SpecifiedCrossBorderCustomsProcedure](#SpecifiedCrossBorderCustomsProcedure) | [edi3:CustomsProcedure](#CustomsProcedure)
+[DeferredPaymentMethodIndicator](#DeferredPaymentMethodIndicator) | xsd:boolean
+[ExaminationTransportEvent](#ExaminationTransportEvent) | [edi3:Event](#Event)
+[TransitCustomsOfficeSpecifiedLogisticsLocation](#TransitCustomsOfficeSpecifiedLogisticsLocation) | [edi3:Location](#Location)
+[PreviousProcedureTypeCode](#PreviousProcedureTypeCode) | xsd:token
+[SpecifiedDebtorFinancialAccount](#SpecifiedDebtorFinancialAccount) | [edi3:FinancialAccount](#FinancialAccount)
+[GoodsStatusCode](#GoodsStatusCode) | xsd:token
+[ControlStartDateConfirmationIndicator](#ControlStartDateConfirmationIndicator) | xsd:boolean
 
 
 <h1 id="Instructions">Instructions</h1>
 
 Type: rdf:Class
 
-Comments: <br/>The procedures to follow for returnable assets, such as reusable packaging (pallets, crates).<br/>Instructions for a period of imposed isolation or detention.<br/>Temperature setting related information of an instructive nature.<br/>Transport information of an instructive nature.<br/>A set of instructions detailing how to properly dispose of a material.<br/>Delivery information of an instructive nature.<br/>Instructions related to the action or process of conveyance.<br/>Handling information of an instructive nature.<br/>
+Comments: <br/>Instructions for a period of imposed isolation or detention.<br/>The procedures to follow for returnable assets, such as reusable packaging (pallets, crates).<br/>Transport information of an instructive nature.<br/>Temperature setting related information of an instructive nature.<br/>A set of instructions detailing how to properly dispose of a material.<br/>Delivery information of an instructive nature.<br/>Instructions related to the action or process of conveyance.<br/>Handling information of an instructive nature.<br/>
 
 Properties: 
 
 Name | Type 
 -|-
-<span id="ApplicableTransportSettingTemperature">ApplicableTransportSettingTemperature</span> | [edi3:Temperature](#Temperature)
-<span id="DepositValueSpecifiedAmount">DepositValueSpecifiedAmount</span> | xsd:decimal
-<span id="HandlingCode">HandlingCode</span> | xsd:token
-<span id="RecyclingProcedureText">RecyclingProcedureText</span> | xsd:string
-<span id="RecyclingDescriptionCode">RecyclingDescriptionCode</span> | xsd:token
-<span id="MaximumStackabilityWeightApplicableWeightUnitMeasure">MaximumStackabilityWeightApplicableWeightUnitMeasure</span> | xsd:decimal
-<span id="MaximumStorageHumidityApplicableMeasure">MaximumStorageHumidityApplicableMeasure</span> | xsd:decimal
-<span id="DepositValueValiditySpecifiedPeriod">DepositValueValiditySpecifiedPeriod</span> | [edi3:Period](#Period)
-<span id="MarketDeliveryApplicableInstructedTemperature">MarketDeliveryApplicableInstructedTemperature</span> | [edi3:Temperature](#Temperature)
-<span id="MaterialIdentifier">MaterialIdentifier</span> | xsd:token
-<span id="TermsAndConditionsDescriptionText">TermsAndConditionsDescriptionText</span> | xsd:string
-<span id="DeliveryApplicableInstructedTemperature">DeliveryApplicableInstructedTemperature</span> | [edi3:Temperature](#Temperature)
-<span id="DescriptionText">DescriptionText</span> | xsd:string
-<span id="IdentificationIdentifier">IdentificationIdentifier</span> | xsd:token
-<span id="StorageApplicableInstructedTemperature">StorageApplicableInstructedTemperature</span> | [edi3:Temperature](#Temperature)
-<span id="ProcedureText">ProcedureText</span> | xsd:string
-<span id="MaximumStackabilityApplicableQuantity">MaximumStackabilityApplicableQuantity</span> | xsd:decimal
-<span id="HandlingText">HandlingText</span> | xsd:string
-<span id="MinimumStorageHumidityApplicableMeasure">MinimumStorageHumidityApplicableMeasure</span> | xsd:decimal
-<span id="TermsAndConditionsDescriptionCode">TermsAndConditionsDescriptionCode</span> | xsd:token
+[ApplicableTransportSettingTemperature](#ApplicableTransportSettingTemperature) | [edi3:Temperature](#Temperature)
+[DepositValueSpecifiedAmount](#DepositValueSpecifiedAmount) | xsd:decimal
+[HandlingCode](#HandlingCode) | xsd:token
+[RecyclingProcedureText](#RecyclingProcedureText) | xsd:string
+[RecyclingDescriptionCode](#RecyclingDescriptionCode) | xsd:token
+[MaximumStackabilityWeightApplicableWeightUnitMeasure](#MaximumStackabilityWeightApplicableWeightUnitMeasure) | xsd:decimal
+[MaximumStorageHumidityApplicableMeasure](#MaximumStorageHumidityApplicableMeasure) | xsd:decimal
+[DepositValueValiditySpecifiedPeriod](#DepositValueValiditySpecifiedPeriod) | [edi3:Period](#Period)
+[MarketDeliveryApplicableInstructedTemperature](#MarketDeliveryApplicableInstructedTemperature) | [edi3:Temperature](#Temperature)
+[MaterialIdentifier](#MaterialIdentifier) | xsd:token
+[TermsAndConditionsDescriptionText](#TermsAndConditionsDescriptionText) | xsd:string
+[DeliveryApplicableInstructedTemperature](#DeliveryApplicableInstructedTemperature) | [edi3:Temperature](#Temperature)
+[DescriptionText](#DescriptionText) | xsd:string
+[IdentificationIdentifier](#IdentificationIdentifier) | xsd:token
+[StorageApplicableInstructedTemperature](#StorageApplicableInstructedTemperature) | [edi3:Temperature](#Temperature)
+[ProcedureText](#ProcedureText) | xsd:string
+[MaximumStackabilityApplicableQuantity](#MaximumStackabilityApplicableQuantity) | xsd:decimal
+[HandlingText](#HandlingText) | xsd:string
+[MinimumStorageHumidityApplicableMeasure](#MinimumStorageHumidityApplicableMeasure) | xsd:decimal
+[TermsAndConditionsDescriptionCode](#TermsAndConditionsDescriptionCode) | xsd:token
 
 
 <h1 id="Booking">Booking</h1>
@@ -703,8 +703,8 @@ Properties:
 
 Name | Type 
 -|-
-<span id="ActualFormattedDateTime">ActualFormattedDateTime</span> | xsd:dateTime
-<span id="CreditFormattedDateTime">CreditFormattedDateTime</span> | xsd:dateTime
+[ActualFormattedDateTime](#ActualFormattedDateTime) | xsd:dateTime
+[CreditFormattedDateTime](#CreditFormattedDateTime) | xsd:dateTime
 
 
 <h1 id="AccountingAccount">AccountingAccount</h1>
@@ -717,11 +717,11 @@ Properties:
 
 Name | Type 
 -|-
-<span id="IdentificationIdentifier">IdentificationIdentifier</span> | xsd:token
-<span id="NameText">NameText</span> | xsd:string
-<span id="CostReferenceDimensionPatternText">CostReferenceDimensionPatternText</span> | xsd:string
-<span id="TypeAccountingAccountTypeCode">TypeAccountingAccountTypeCode</span> | xsd:token
-<span id="AmountTypeAccountingAmountTypeCode">AmountTypeAccountingAmountTypeCode</span> | xsd:token
+[IdentificationIdentifier](#IdentificationIdentifier) | xsd:token
+[NameText](#NameText) | xsd:string
+[CostReferenceDimensionPatternText](#CostReferenceDimensionPatternText) | xsd:string
+[TypeAccountingAccountTypeCode](#TypeAccountingAccountTypeCode) | xsd:token
+[AmountTypeAccountingAmountTypeCode](#AmountTypeAccountingAmountTypeCode) | xsd:token
 
 
 <h1 id="GeographicalMultiPoint">GeographicalMultiPoint</h1>
@@ -734,8 +734,8 @@ Properties:
 
 Name | Type 
 -|-
-<span id="MemberSpecifiedGeographicalPoint">MemberSpecifiedGeographicalPoint</span> | [edi3:GeographicalPoint](#GeographicalPoint)
-<span id="AssociatedSpecifiedGeographicalObjectCharacteristic">AssociatedSpecifiedGeographicalObjectCharacteristic</span> | [edi3:GeographicalObjectCharacteristic](#GeographicalObjectCharacteristic)
+[MemberSpecifiedGeographicalPoint](#MemberSpecifiedGeographicalPoint) | [edi3:GeographicalPoint](#GeographicalPoint)
+[AssociatedSpecifiedGeographicalObjectCharacteristic](#AssociatedSpecifiedGeographicalObjectCharacteristic) | [edi3:GeographicalObjectCharacteristic](#GeographicalObjectCharacteristic)
 
 
 <h1 id="PaymentMeans">PaymentMeans</h1>
@@ -748,17 +748,17 @@ Properties:
 
 Name | Type 
 -|-
-<span id="InformationText">InformationText</span> | xsd:string
-<span id="PaymentMethodCode">PaymentMethodCode</span> | xsd:token
-<span id="PayeePartyCreditorFinancialAccount">PayeePartyCreditorFinancialAccount</span> | [edi3:FinancialAccount](#FinancialAccount)
-<span id="GuaranteeMethodPaymentGuaranteeMeansCode">GuaranteeMethodPaymentGuaranteeMeansCode</span> | xsd:token
-<span id="PayerSpecifiedDebtorFinancialInstitution">PayerSpecifiedDebtorFinancialInstitution</span> | [edi3:FinancialInstitution](#FinancialInstitution)
-<span id="PayerPartyDebtorFinancialAccount">PayerPartyDebtorFinancialAccount</span> | [edi3:FinancialAccount](#FinancialAccount)
-<span id="PayeeSpecifiedCreditorFinancialInstitution">PayeeSpecifiedCreditorFinancialInstitution</span> | [edi3:FinancialInstitution](#FinancialInstitution)
-<span id="PaymentChannelPaymentMeansChannelCode">PaymentChannelPaymentMeansChannelCode</span> | xsd:token
-<span id="IdentificationIdentifier">IdentificationIdentifier</span> | xsd:token
-<span id="SpecifiedCreditorFinancialAccount">SpecifiedCreditorFinancialAccount</span> | [edi3:FinancialAccount](#FinancialAccount)
-<span id="ApplicableTradeSettlementFinancialCard">ApplicableTradeSettlementFinancialCard</span> | [edi3:FinancialCard](#FinancialCard)
+[InformationText](#InformationText) | xsd:string
+[PaymentMethodCode](#PaymentMethodCode) | xsd:token
+[PayeePartyCreditorFinancialAccount](#PayeePartyCreditorFinancialAccount) | [edi3:FinancialAccount](#FinancialAccount)
+[GuaranteeMethodPaymentGuaranteeMeansCode](#GuaranteeMethodPaymentGuaranteeMeansCode) | xsd:token
+[PayerSpecifiedDebtorFinancialInstitution](#PayerSpecifiedDebtorFinancialInstitution) | [edi3:FinancialInstitution](#FinancialInstitution)
+[PayerPartyDebtorFinancialAccount](#PayerPartyDebtorFinancialAccount) | [edi3:FinancialAccount](#FinancialAccount)
+[PayeeSpecifiedCreditorFinancialInstitution](#PayeeSpecifiedCreditorFinancialInstitution) | [edi3:FinancialInstitution](#FinancialInstitution)
+[PaymentChannelPaymentMeansChannelCode](#PaymentChannelPaymentMeansChannelCode) | xsd:token
+[IdentificationIdentifier](#IdentificationIdentifier) | xsd:token
+[SpecifiedCreditorFinancialAccount](#SpecifiedCreditorFinancialAccount) | [edi3:FinancialAccount](#FinancialAccount)
+[ApplicableTradeSettlementFinancialCard](#ApplicableTradeSettlementFinancialCard) | [edi3:FinancialCard](#FinancialCard)
 
 
 <h1 id="Project">Project</h1>
@@ -771,14 +771,14 @@ Properties:
 
 Name | Type 
 -|-
-<span id="NetBudgetAmount">NetBudgetAmount</span> | xsd:decimal
-<span id="SubWorksTypeCode">SubWorksTypeCode</span> | xsd:token
-<span id="WorksTypeCode">WorksTypeCode</span> | xsd:token
-<span id="TypeCode">TypeCode</span> | xsd:token
-<span id="DescriptionText">DescriptionText</span> | xsd:string
-<span id="TotalBudgetAmount">TotalBudgetAmount</span> | xsd:decimal
-<span id="IdentificationIdentifier">IdentificationIdentifier</span> | xsd:token
-<span id="NameText">NameText</span> | xsd:string
+[NetBudgetAmount](#NetBudgetAmount) | xsd:decimal
+[SubWorksTypeCode](#SubWorksTypeCode) | xsd:token
+[WorksTypeCode](#WorksTypeCode) | xsd:token
+[TypeCode](#TypeCode) | xsd:token
+[DescriptionText](#DescriptionText) | xsd:string
+[TotalBudgetAmount](#TotalBudgetAmount) | xsd:decimal
+[IdentificationIdentifier](#IdentificationIdentifier) | xsd:token
+[NameText](#NameText) | xsd:string
 
 
 <h1 id="Qualification">Qualification</h1>
@@ -791,7 +791,7 @@ Properties:
 
 Name | Type 
 -|-
-<span id="AbbreviatedNameText">AbbreviatedNameText</span> | xsd:string
+[AbbreviatedNameText](#AbbreviatedNameText) | xsd:string
 
 
 <h1 id="Chemical">Chemical</h1>
@@ -804,12 +804,12 @@ Properties:
 
 Name | Type 
 -|-
-<span id="CommonNameText">CommonNameText</span> | xsd:string
-<span id="TypeCode">TypeCode</span> | xsd:token
-<span id="FormulaDescriptionText">FormulaDescriptionText</span> | xsd:string
-<span id="MolecularWeightMeasure">MolecularWeightMeasure</span> | xsd:decimal
-<span id="SynonymNameText">SynonymNameText</span> | xsd:string
-<span id="ScientificNameText">ScientificNameText</span> | xsd:string
+[CommonNameText](#CommonNameText) | xsd:string
+[TypeCode](#TypeCode) | xsd:token
+[FormulaDescriptionText](#FormulaDescriptionText) | xsd:string
+[MolecularWeightMeasure](#MolecularWeightMeasure) | xsd:decimal
+[SynonymNameText](#SynonymNameText) | xsd:string
+[ScientificNameText](#ScientificNameText) | xsd:string
 
 
 <h1 id="FinancialAccount">FinancialAccount</h1>
@@ -822,16 +822,16 @@ Properties:
 
 Name | Type 
 -|-
-<span id="CurrencyCurrencyCode">CurrencyCurrencyCode</span> | xsd:token
-<span id="ProprietaryAccountNameText">ProprietaryAccountNameText</span> | xsd:string
-<span id="UPICIdentificationIdentifier">UPICIdentificationIdentifier</span> | xsd:token
-<span id="IBANIdentificationIdentifier">IBANIdentificationIdentifier</span> | xsd:token
-<span id="TypeCode">TypeCode</span> | xsd:token
-<span id="TypeCashAccountTypeCode">TypeCashAccountTypeCode</span> | xsd:token
-<span id="BBANIdentificationIdentifier">BBANIdentificationIdentifier</span> | xsd:token
-<span id="ProprietaryIdentificationIdentifier">ProprietaryIdentificationIdentifier</span> | xsd:token
-<span id="AccountNameText">AccountNameText</span> | xsd:string
-<span id="ProprietaryTypeText">ProprietaryTypeText</span> | xsd:string
+[CurrencyCurrencyCode](#CurrencyCurrencyCode) | xsd:token
+[ProprietaryAccountNameText](#ProprietaryAccountNameText) | xsd:string
+[UPICIdentificationIdentifier](#UPICIdentificationIdentifier) | xsd:token
+[IBANIdentificationIdentifier](#IBANIdentificationIdentifier) | xsd:token
+[TypeCode](#TypeCode) | xsd:token
+[TypeCashAccountTypeCode](#TypeCashAccountTypeCode) | xsd:token
+[BBANIdentificationIdentifier](#BBANIdentificationIdentifier) | xsd:token
+[ProprietaryIdentificationIdentifier](#ProprietaryIdentificationIdentifier) | xsd:token
+[AccountNameText](#AccountNameText) | xsd:string
+[ProprietaryTypeText](#ProprietaryTypeText) | xsd:string
 
 
 <h1 id="Note">Note</h1>
@@ -844,10 +844,10 @@ Properties:
 
 Name | Type 
 -|-
-<span id="SubjectCode">SubjectCode</span> | xsd:token
-<span id="IdentificationIdentifier">IdentificationIdentifier</span> | xsd:token
-<span id="ContentText">ContentText</span> | xsd:string
-<span id="SubjectText">SubjectText</span> | xsd:string
+[SubjectCode](#SubjectCode) | xsd:token
+[IdentificationIdentifier](#IdentificationIdentifier) | xsd:token
+[ContentText](#ContentText) | xsd:string
+[SubjectText](#SubjectText) | xsd:string
 
 
 <h1 id="TradeDelivery">TradeDelivery</h1>
@@ -860,118 +860,118 @@ Properties:
 
 Name | Type 
 -|-
-<span id="FormattedPickUpAvailabilityFormattedDateTime">FormattedPickUpAvailabilityFormattedDateTime</span> | xsd:dateTime
-<span id="PerPackageUnitQuantity">PerPackageUnitQuantity</span> | xsd:decimal
-<span id="NetWeightWeightUnitMeasure">NetWeightWeightUnitMeasure</span> | xsd:decimal
-<span id="UnavailableQuantity">UnavailableQuantity</span> | xsd:decimal
-<span id="StatusCode">StatusCode</span> | xsd:token
-<span id="DueInForecastedQuantity">DueInForecastedQuantity</span> | xsd:decimal
-<span id="FinalDeliveryIndicator">FinalDeliveryIndicator</span> | xsd:boolean
-<span id="ConfirmedDespatchSupplyChainEvent">ConfirmedDespatchSupplyChainEvent</span> | [edi3:Event](#Event)
-<span id="DisposalTradeParty">DisposalTradeParty</span> | [edi3:Party](#Party)
-<span id="DeliveryNoteReferencedDocument">DeliveryNoteReferencedDocument</span> | [edi3:Document](#Document)
-<span id="ConsumptionSupplyChainSchedule">ConsumptionSupplyChainSchedule</span> | [edi3:Schedule](#Schedule)
-<span id="ModificationForecastedQuantity">ModificationForecastedQuantity</span> | xsd:decimal
-<span id="GoodsOwnershipChangeFormattedDateTime">GoodsOwnershipChangeFormattedDateTime</span> | xsd:dateTime
-<span id="ReverseBilledQuantity">ReverseBilledQuantity</span> | xsd:decimal
-<span id="RequestedDeliverySupplyChainEvent">RequestedDeliverySupplyChainEvent</span> | [edi3:Event](#Event)
-<span id="DueInAvailableQuantity">DueInAvailableQuantity</span> | xsd:decimal
-<span id="ReturnedQuantity">ReturnedQuantity</span> | xsd:decimal
-<span id="RemainingRequestedQuantity">RemainingRequestedQuantity</span> | xsd:decimal
-<span id="ApplicableTransportDangerousGoods">ApplicableTransportDangerousGoods</span> | [edi3:DangerousGoods](#DangerousGoods)
-<span id="DespatchAdviceReferencedDocument">DespatchAdviceReferencedDocument</span> | [edi3:Document](#Document)
-<span id="DueInReturnedQuantity">DueInReturnedQuantity</span> | xsd:decimal
-<span id="SpecifiedLogisticsPackage">SpecifiedLogisticsPackage</span> | [edi3:Package](#Package)
-<span id="GoodsPhysicalStateTypeText">GoodsPhysicalStateTypeText</span> | xsd:string
-<span id="AvailableSupplyChainInventory">AvailableSupplyChainInventory</span> | [edi3:Inventory](#Inventory)
-<span id="RequestedDespatchSupplyChainEvent">RequestedDespatchSupplyChainEvent</span> | [edi3:Event](#Event)
-<span id="GoodsPhysicalStateDescriptionCode">GoodsPhysicalStateDescriptionCode</span> | xsd:token
-<span id="EconomicOrderQuantity">EconomicOrderQuantity</span> | xsd:decimal
-<span id="RequestedQuantity">RequestedQuantity</span> | xsd:decimal
-<span id="DeliverySupplyChainSchedule">DeliverySupplyChainSchedule</span> | [edi3:Schedule](#Schedule)
-<span id="SpecifiedDeliveryAdjustment">SpecifiedDeliveryAdjustment</span> | [edi3:Adjustment](#Adjustment)
-<span id="PlannedReleaseSupplyChainEvent">PlannedReleaseSupplyChainEvent</span> | [edi3:Event](#Event)
-<span id="ConsignmentSupplyChainInventory">ConsignmentSupplyChainInventory</span> | [edi3:Inventory](#Inventory)
-<span id="GrossWeightWeightUnitMeasure">GrossWeightWeightUnitMeasure</span> | xsd:decimal
-<span id="UltimateShipToDeliveryFormattedDateTime">UltimateShipToDeliveryFormattedDateTime</span> | xsd:dateTime
-<span id="DestroyedQuantity">DestroyedQuantity</span> | xsd:decimal
-<span id="PlannedPickUpSupplyChainEvent">PlannedPickUpSupplyChainEvent</span> | [edi3:Event](#Event)
-<span id="ChargeFreeQuantity">ChargeFreeQuantity</span> | xsd:decimal
-<span id="QuantityVariationTypeCode">QuantityVariationTypeCode</span> | xsd:token
-<span id="UltimateShipToTradeParty">UltimateShipToTradeParty</span> | [edi3:Party](#Party)
-<span id="CancelledQuantity">CancelledQuantity</span> | xsd:decimal
-<span id="AcceptanceSupplyChainEvent">AcceptanceSupplyChainEvent</span> | [edi3:Event](#Event)
-<span id="QuantityVariationReasonCode">QuantityVariationReasonCode</span> | xsd:token
-<span id="SpecifiedDeliveryInstructions">SpecifiedDeliveryInstructions</span> | [edi3:Instructions](#Instructions)
-<span id="GFMTransferRejectedQuantity">GFMTransferRejectedQuantity</span> | xsd:decimal
-<span id="FormattedPickUpAvailabilityDateTime">FormattedPickUpAvailabilityDateTime</span> | xsd:dateTime
-<span id="PlannedDeliverySupplyChainEvent">PlannedDeliverySupplyChainEvent</span> | [edi3:Event](#Event)
-<span id="RelatedSupplyChainConsignment">RelatedSupplyChainConsignment</span> | [edi3:Consignment](#Consignment)
-<span id="NetVolumeVolumeUnitMeasure">NetVolumeVolumeUnitMeasure</span> | xsd:decimal
-<span id="BuyerOrderFormattedDateTime">BuyerOrderFormattedDateTime</span> | xsd:dateTime
-<span id="ReceiptSupplyChainSchedule">ReceiptSupplyChainSchedule</span> | [edi3:Schedule](#Schedule)
-<span id="ShipToTradeParty">ShipToTradeParty</span> | [edi3:Party](#Party)
-<span id="LatestDespatchedQuantity">LatestDespatchedQuantity</span> | xsd:decimal
-<span id="ProjectedSupplyChainSupplyPlan">ProjectedSupplyChainSupplyPlan</span> | [edi3:SupplyPlan](#SupplyPlan)
-<span id="InventoryManagerTradeParty">InventoryManagerTradeParty</span> | [edi3:Party](#Party)
-<span id="ReceivedQuantity">ReceivedQuantity</span> | xsd:decimal
-<span id="IndividualPackageQuantity">IndividualPackageQuantity</span> | xsd:decimal
-<span id="FinalDestinationTradeCountry">FinalDestinationTradeCountry</span> | [edi3:Country](#Country)
-<span id="QuantityDiscrepancyNatureCode">QuantityDiscrepancyNatureCode</span> | xsd:token
-<span id="ShipFromTradeParty">ShipFromTradeParty</span> | [edi3:Party](#Party)
-<span id="SupplySpecifiedSupplyChainSchedule">SupplySpecifiedSupplyChainSchedule</span> | [edi3:Schedule](#Schedule)
-<span id="CustomerSupplyChainInventory">CustomerSupplyChainInventory</span> | [edi3:Inventory](#Inventory)
-<span id="PlannedShipFromDeliverySupplyChainEvent">PlannedShipFromDeliverySupplyChainEvent</span> | [edi3:Event](#Event)
-<span id="TheoreticalWeightWeightUnitMeasure">TheoreticalWeightWeightUnitMeasure</span> | xsd:decimal
-<span id="IncludedSupplyChainPackaging">IncludedSupplyChainPackaging</span> | [edi3:Packaging](#Packaging)
-<span id="AvailableQuantity">AvailableQuantity</span> | xsd:decimal
-<span id="ActualDespatchSupplyChainEvent">ActualDespatchSupplyChainEvent</span> | [edi3:Event](#Event)
-<span id="ConsumptionReportReferencedDocument">ConsumptionReportReferencedDocument</span> | [edi3:Document](#Document)
-<span id="BilledQuantity">BilledQuantity</span> | xsd:decimal
-<span id="TurnInReceivedQuantity">TurnInReceivedQuantity</span> | xsd:decimal
-<span id="PlannedSupplyChainConsignment">PlannedSupplyChainConsignment</span> | [edi3:Consignment](#Consignment)
-<span id="GoodsReceiptNoteReferencedDocument">GoodsReceiptNoteReferencedDocument</span> | [edi3:Document](#Document)
-<span id="InformationNote">InformationNote</span> | [edi3:Note](#Note)
-<span id="PackageQuantity">PackageQuantity</span> | xsd:decimal
-<span id="PlannedDespatchSupplyChainEvent">PlannedDespatchSupplyChainEvent</span> | [edi3:Event](#Event)
-<span id="SpecifiedHandlingInstructions">SpecifiedHandlingInstructions</span> | [edi3:Instructions](#Instructions)
-<span id="ReceivingAdviceReferencedDocument">ReceivingAdviceReferencedDocument</span> | [edi3:Document](#Document)
-<span id="PreviousDeliverySupplyChainEvent">PreviousDeliverySupplyChainEvent</span> | [edi3:Event](#Event)
-<span id="PartialDeliveryAllowedIndicator">PartialDeliveryAllowedIndicator</span> | xsd:boolean
-<span id="LogisticsServiceProviderTradeParty">LogisticsServiceProviderTradeParty</span> | [edi3:Party](#Party)
-<span id="UltimateShipToDeliverySupplyChainEvent">UltimateShipToDeliverySupplyChainEvent</span> | [edi3:Event](#Event)
-<span id="ProductUnitQuantity">ProductUnitQuantity</span> | xsd:decimal
-<span id="FormattedUltimateShipToDeliveryFormattedDateTime">FormattedUltimateShipToDeliveryFormattedDateTime</span> | xsd:dateTime
-<span id="GoodsPhysicalStateDescriptionText">GoodsPhysicalStateDescriptionText</span> | xsd:string
-<span id="ConfirmedPickUpSupplyChainEvent">ConfirmedPickUpSupplyChainEvent</span> | [edi3:Event](#Event)
-<span id="ActualUnloadingSupplyChainEvent">ActualUnloadingSupplyChainEvent</span> | [edi3:Event](#Event)
-<span id="IdentificationIdentifier">IdentificationIdentifier</span> | xsd:token
-<span id="DespatchSupplyChainSchedule">DespatchSupplyChainSchedule</span> | [edi3:Schedule](#Schedule)
-<span id="RejectedQuantity">RejectedQuantity</span> | xsd:decimal
-<span id="FullyDeliveredIndicator">FullyDeliveredIndicator</span> | xsd:boolean
-<span id="ActualReceiptSupplyChainEvent">ActualReceiptSupplyChainEvent</span> | [edi3:Event](#Event)
-<span id="GrossVolumeVolumeUnitMeasure">GrossVolumeVolumeUnitMeasure</span> | xsd:decimal
-<span id="DueInRequestedQuantity">DueInRequestedQuantity</span> | xsd:decimal
-<span id="GoodsPhysicalStateTypeCode">GoodsPhysicalStateTypeCode</span> | xsd:token
-<span id="UtilizedReferencedLogisticsTransportEquipment">UtilizedReferencedLogisticsTransportEquipment</span> | [edi3:TransportEquipment](#TransportEquipment)
-<span id="ChargeableWeightWeightUnitMeasure">ChargeableWeightWeightUnitMeasure</span> | xsd:decimal
-<span id="AdditionalReferencedDocument">AdditionalReferencedDocument</span> | [edi3:Document](#Document)
-<span id="UsedLogisticsLabel">UsedLogisticsLabel</span> | [edi3:Label](#Label)
-<span id="PlannedShipToDeliverySupplyChainEvent">PlannedShipToDeliverySupplyChainEvent</span> | [edi3:Event](#Event)
-<span id="ActualDeliverySupplyChainEvent">ActualDeliverySupplyChainEvent</span> | [edi3:Event](#Event)
-<span id="ActualPickUpSupplyChainEvent">ActualPickUpSupplyChainEvent</span> | [edi3:Event](#Event)
-<span id="DespatchedQuantity">DespatchedQuantity</span> | xsd:decimal
-<span id="OrderSupplyChainSchedule">OrderSupplyChainSchedule</span> | [edi3:Schedule](#Schedule)
-<span id="OrderQuantity">OrderQuantity</span> | xsd:decimal
-<span id="AgreedQuantity">AgreedQuantity</span> | xsd:decimal
-<span id="ShipmentScheduleReferencedDocument">ShipmentScheduleReferencedDocument</span> | [edi3:Document](#Document)
-<span id="QuantityVariationReasonText">QuantityVariationReasonText</span> | xsd:string
-<span id="SubordinateIdentificationIdentifier">SubordinateIdentificationIdentifier</span> | xsd:token
-<span id="OverDeliveryAllowedIndicator">OverDeliveryAllowedIndicator</span> | xsd:boolean
-<span id="ConfirmedReleaseSupplyChainEvent">ConfirmedReleaseSupplyChainEvent</span> | [edi3:Event](#Event)
-<span id="ConfirmedDeliverySupplyChainEvent">ConfirmedDeliverySupplyChainEvent</span> | [edi3:Event](#Event)
-<span id="SpecifiedSupplyChainSchedule">SpecifiedSupplyChainSchedule</span> | [edi3:Schedule](#Schedule)
-<span id="PackingListReferencedDocument">PackingListReferencedDocument</span> | [edi3:Document](#Document)
+[FormattedPickUpAvailabilityFormattedDateTime](#FormattedPickUpAvailabilityFormattedDateTime) | xsd:dateTime
+[PerPackageUnitQuantity](#PerPackageUnitQuantity) | xsd:decimal
+[NetWeightWeightUnitMeasure](#NetWeightWeightUnitMeasure) | xsd:decimal
+[UnavailableQuantity](#UnavailableQuantity) | xsd:decimal
+[StatusCode](#StatusCode) | xsd:token
+[DueInForecastedQuantity](#DueInForecastedQuantity) | xsd:decimal
+[FinalDeliveryIndicator](#FinalDeliveryIndicator) | xsd:boolean
+[ConfirmedDespatchSupplyChainEvent](#ConfirmedDespatchSupplyChainEvent) | [edi3:Event](#Event)
+[DisposalTradeParty](#DisposalTradeParty) | [edi3:Party](#Party)
+[DeliveryNoteReferencedDocument](#DeliveryNoteReferencedDocument) | [edi3:Document](#Document)
+[ConsumptionSupplyChainSchedule](#ConsumptionSupplyChainSchedule) | [edi3:Schedule](#Schedule)
+[ModificationForecastedQuantity](#ModificationForecastedQuantity) | xsd:decimal
+[GoodsOwnershipChangeFormattedDateTime](#GoodsOwnershipChangeFormattedDateTime) | xsd:dateTime
+[ReverseBilledQuantity](#ReverseBilledQuantity) | xsd:decimal
+[RequestedDeliverySupplyChainEvent](#RequestedDeliverySupplyChainEvent) | [edi3:Event](#Event)
+[DueInAvailableQuantity](#DueInAvailableQuantity) | xsd:decimal
+[ReturnedQuantity](#ReturnedQuantity) | xsd:decimal
+[RemainingRequestedQuantity](#RemainingRequestedQuantity) | xsd:decimal
+[ApplicableTransportDangerousGoods](#ApplicableTransportDangerousGoods) | [edi3:DangerousGoods](#DangerousGoods)
+[DespatchAdviceReferencedDocument](#DespatchAdviceReferencedDocument) | [edi3:Document](#Document)
+[DueInReturnedQuantity](#DueInReturnedQuantity) | xsd:decimal
+[SpecifiedLogisticsPackage](#SpecifiedLogisticsPackage) | [edi3:Package](#Package)
+[GoodsPhysicalStateTypeText](#GoodsPhysicalStateTypeText) | xsd:string
+[AvailableSupplyChainInventory](#AvailableSupplyChainInventory) | [edi3:Inventory](#Inventory)
+[RequestedDespatchSupplyChainEvent](#RequestedDespatchSupplyChainEvent) | [edi3:Event](#Event)
+[GoodsPhysicalStateDescriptionCode](#GoodsPhysicalStateDescriptionCode) | xsd:token
+[EconomicOrderQuantity](#EconomicOrderQuantity) | xsd:decimal
+[RequestedQuantity](#RequestedQuantity) | xsd:decimal
+[DeliverySupplyChainSchedule](#DeliverySupplyChainSchedule) | [edi3:Schedule](#Schedule)
+[SpecifiedDeliveryAdjustment](#SpecifiedDeliveryAdjustment) | [edi3:Adjustment](#Adjustment)
+[PlannedReleaseSupplyChainEvent](#PlannedReleaseSupplyChainEvent) | [edi3:Event](#Event)
+[ConsignmentSupplyChainInventory](#ConsignmentSupplyChainInventory) | [edi3:Inventory](#Inventory)
+[GrossWeightWeightUnitMeasure](#GrossWeightWeightUnitMeasure) | xsd:decimal
+[UltimateShipToDeliveryFormattedDateTime](#UltimateShipToDeliveryFormattedDateTime) | xsd:dateTime
+[DestroyedQuantity](#DestroyedQuantity) | xsd:decimal
+[PlannedPickUpSupplyChainEvent](#PlannedPickUpSupplyChainEvent) | [edi3:Event](#Event)
+[ChargeFreeQuantity](#ChargeFreeQuantity) | xsd:decimal
+[QuantityVariationTypeCode](#QuantityVariationTypeCode) | xsd:token
+[UltimateShipToTradeParty](#UltimateShipToTradeParty) | [edi3:Party](#Party)
+[CancelledQuantity](#CancelledQuantity) | xsd:decimal
+[AcceptanceSupplyChainEvent](#AcceptanceSupplyChainEvent) | [edi3:Event](#Event)
+[QuantityVariationReasonCode](#QuantityVariationReasonCode) | xsd:token
+[SpecifiedDeliveryInstructions](#SpecifiedDeliveryInstructions) | [edi3:Instructions](#Instructions)
+[GFMTransferRejectedQuantity](#GFMTransferRejectedQuantity) | xsd:decimal
+[FormattedPickUpAvailabilityDateTime](#FormattedPickUpAvailabilityDateTime) | xsd:dateTime
+[PlannedDeliverySupplyChainEvent](#PlannedDeliverySupplyChainEvent) | [edi3:Event](#Event)
+[RelatedSupplyChainConsignment](#RelatedSupplyChainConsignment) | [edi3:Consignment](#Consignment)
+[NetVolumeVolumeUnitMeasure](#NetVolumeVolumeUnitMeasure) | xsd:decimal
+[BuyerOrderFormattedDateTime](#BuyerOrderFormattedDateTime) | xsd:dateTime
+[ReceiptSupplyChainSchedule](#ReceiptSupplyChainSchedule) | [edi3:Schedule](#Schedule)
+[ShipToTradeParty](#ShipToTradeParty) | [edi3:Party](#Party)
+[LatestDespatchedQuantity](#LatestDespatchedQuantity) | xsd:decimal
+[ProjectedSupplyChainSupplyPlan](#ProjectedSupplyChainSupplyPlan) | [edi3:SupplyPlan](#SupplyPlan)
+[InventoryManagerTradeParty](#InventoryManagerTradeParty) | [edi3:Party](#Party)
+[ReceivedQuantity](#ReceivedQuantity) | xsd:decimal
+[IndividualPackageQuantity](#IndividualPackageQuantity) | xsd:decimal
+[FinalDestinationTradeCountry](#FinalDestinationTradeCountry) | [edi3:Country](#Country)
+[QuantityDiscrepancyNatureCode](#QuantityDiscrepancyNatureCode) | xsd:token
+[ShipFromTradeParty](#ShipFromTradeParty) | [edi3:Party](#Party)
+[SupplySpecifiedSupplyChainSchedule](#SupplySpecifiedSupplyChainSchedule) | [edi3:Schedule](#Schedule)
+[CustomerSupplyChainInventory](#CustomerSupplyChainInventory) | [edi3:Inventory](#Inventory)
+[PlannedShipFromDeliverySupplyChainEvent](#PlannedShipFromDeliverySupplyChainEvent) | [edi3:Event](#Event)
+[TheoreticalWeightWeightUnitMeasure](#TheoreticalWeightWeightUnitMeasure) | xsd:decimal
+[IncludedSupplyChainPackaging](#IncludedSupplyChainPackaging) | [edi3:Packaging](#Packaging)
+[AvailableQuantity](#AvailableQuantity) | xsd:decimal
+[ActualDespatchSupplyChainEvent](#ActualDespatchSupplyChainEvent) | [edi3:Event](#Event)
+[ConsumptionReportReferencedDocument](#ConsumptionReportReferencedDocument) | [edi3:Document](#Document)
+[BilledQuantity](#BilledQuantity) | xsd:decimal
+[TurnInReceivedQuantity](#TurnInReceivedQuantity) | xsd:decimal
+[PlannedSupplyChainConsignment](#PlannedSupplyChainConsignment) | [edi3:Consignment](#Consignment)
+[GoodsReceiptNoteReferencedDocument](#GoodsReceiptNoteReferencedDocument) | [edi3:Document](#Document)
+[InformationNote](#InformationNote) | [edi3:Note](#Note)
+[PackageQuantity](#PackageQuantity) | xsd:decimal
+[PlannedDespatchSupplyChainEvent](#PlannedDespatchSupplyChainEvent) | [edi3:Event](#Event)
+[SpecifiedHandlingInstructions](#SpecifiedHandlingInstructions) | [edi3:Instructions](#Instructions)
+[ReceivingAdviceReferencedDocument](#ReceivingAdviceReferencedDocument) | [edi3:Document](#Document)
+[PreviousDeliverySupplyChainEvent](#PreviousDeliverySupplyChainEvent) | [edi3:Event](#Event)
+[PartialDeliveryAllowedIndicator](#PartialDeliveryAllowedIndicator) | xsd:boolean
+[LogisticsServiceProviderTradeParty](#LogisticsServiceProviderTradeParty) | [edi3:Party](#Party)
+[UltimateShipToDeliverySupplyChainEvent](#UltimateShipToDeliverySupplyChainEvent) | [edi3:Event](#Event)
+[ProductUnitQuantity](#ProductUnitQuantity) | xsd:decimal
+[FormattedUltimateShipToDeliveryFormattedDateTime](#FormattedUltimateShipToDeliveryFormattedDateTime) | xsd:dateTime
+[GoodsPhysicalStateDescriptionText](#GoodsPhysicalStateDescriptionText) | xsd:string
+[ConfirmedPickUpSupplyChainEvent](#ConfirmedPickUpSupplyChainEvent) | [edi3:Event](#Event)
+[ActualUnloadingSupplyChainEvent](#ActualUnloadingSupplyChainEvent) | [edi3:Event](#Event)
+[IdentificationIdentifier](#IdentificationIdentifier) | xsd:token
+[DespatchSupplyChainSchedule](#DespatchSupplyChainSchedule) | [edi3:Schedule](#Schedule)
+[RejectedQuantity](#RejectedQuantity) | xsd:decimal
+[FullyDeliveredIndicator](#FullyDeliveredIndicator) | xsd:boolean
+[ActualReceiptSupplyChainEvent](#ActualReceiptSupplyChainEvent) | [edi3:Event](#Event)
+[GrossVolumeVolumeUnitMeasure](#GrossVolumeVolumeUnitMeasure) | xsd:decimal
+[DueInRequestedQuantity](#DueInRequestedQuantity) | xsd:decimal
+[GoodsPhysicalStateTypeCode](#GoodsPhysicalStateTypeCode) | xsd:token
+[UtilizedReferencedLogisticsTransportEquipment](#UtilizedReferencedLogisticsTransportEquipment) | [edi3:TransportEquipment](#TransportEquipment)
+[ChargeableWeightWeightUnitMeasure](#ChargeableWeightWeightUnitMeasure) | xsd:decimal
+[AdditionalReferencedDocument](#AdditionalReferencedDocument) | [edi3:Document](#Document)
+[UsedLogisticsLabel](#UsedLogisticsLabel) | [edi3:Label](#Label)
+[PlannedShipToDeliverySupplyChainEvent](#PlannedShipToDeliverySupplyChainEvent) | [edi3:Event](#Event)
+[ActualDeliverySupplyChainEvent](#ActualDeliverySupplyChainEvent) | [edi3:Event](#Event)
+[ActualPickUpSupplyChainEvent](#ActualPickUpSupplyChainEvent) | [edi3:Event](#Event)
+[DespatchedQuantity](#DespatchedQuantity) | xsd:decimal
+[OrderSupplyChainSchedule](#OrderSupplyChainSchedule) | [edi3:Schedule](#Schedule)
+[OrderQuantity](#OrderQuantity) | xsd:decimal
+[AgreedQuantity](#AgreedQuantity) | xsd:decimal
+[ShipmentScheduleReferencedDocument](#ShipmentScheduleReferencedDocument) | [edi3:Document](#Document)
+[QuantityVariationReasonText](#QuantityVariationReasonText) | xsd:string
+[SubordinateIdentificationIdentifier](#SubordinateIdentificationIdentifier) | xsd:token
+[OverDeliveryAllowedIndicator](#OverDeliveryAllowedIndicator) | xsd:boolean
+[ConfirmedReleaseSupplyChainEvent](#ConfirmedReleaseSupplyChainEvent) | [edi3:Event](#Event)
+[ConfirmedDeliverySupplyChainEvent](#ConfirmedDeliverySupplyChainEvent) | [edi3:Event](#Event)
+[SpecifiedSupplyChainSchedule](#SpecifiedSupplyChainSchedule) | [edi3:Schedule](#Schedule)
+[PackingListReferencedDocument](#PackingListReferencedDocument) | [edi3:Document](#Document)
 
 
 <h1 id="Country">Country</h1>
@@ -984,8 +984,8 @@ Properties:
 
 Name | Type 
 -|-
-<span id="NameText">NameText</span> | xsd:string
-<span id="IdentificationCountryIdentifier">IdentificationCountryIdentifier</span> | xsd:token
+[NameText](#NameText) | xsd:string
+[IdentificationCountryIdentifier](#IdentificationCountryIdentifier) | xsd:token
 
 
 <h1 id="Seal">Seal</h1>
@@ -998,11 +998,11 @@ Properties:
 
 Name | Type 
 -|-
-<span id="TypeSealTypeCode">TypeSealTypeCode</span> | xsd:token
-<span id="SealingPartyRoleSealingPartyRoleCode">SealingPartyRoleSealingPartyRoleCode</span> | xsd:token
-<span id="MaximumIdentificationIdentifier">MaximumIdentificationIdentifier</span> | xsd:token
-<span id="IdentificationIdentifier">IdentificationIdentifier</span> | xsd:token
-<span id="IssuingTradeParty">IssuingTradeParty</span> | [edi3:Party](#Party)
+[TypeSealTypeCode](#TypeSealTypeCode) | xsd:token
+[SealingPartyRoleSealingPartyRoleCode](#SealingPartyRoleSealingPartyRoleCode) | xsd:token
+[MaximumIdentificationIdentifier](#MaximumIdentificationIdentifier) | xsd:token
+[IdentificationIdentifier](#IdentificationIdentifier) | xsd:token
+[IssuingTradeParty](#IssuingTradeParty) | [edi3:Party](#Party)
 
 
 <h1 id="Package">Package</h1>
@@ -1015,35 +1015,35 @@ Properties:
 
 Name | Type 
 -|-
-<span id="PerPackageUnitQuantity">PerPackageUnitQuantity</span> | xsd:decimal
-<span id="NetWeightWeightUnitMeasure">NetWeightWeightUnitMeasure</span> | xsd:decimal
-<span id="TypePackageTypeCode">TypePackageTypeCode</span> | xsd:token
-<span id="InformationText">InformationText</span> | xsd:string
-<span id="NominalGrossVolumeVolumeUnitMeasure">NominalGrossVolumeVolumeUnitMeasure</span> | xsd:decimal
-<span id="GlobalIdentificationIdentifier">GlobalIdentificationIdentifier</span> | xsd:token
-<span id="DespatchNoteAssociatedReferencedDocument">DespatchNoteAssociatedReferencedDocument</span> | [edi3:Document](#Document)
-<span id="TypeText">TypeText</span> | xsd:string
-<span id="GrossWeightWeightUnitMeasure">GrossWeightWeightUnitMeasure</span> | xsd:decimal
-<span id="LinearSpatialDimension">LinearSpatialDimension</span> | [edi3:Dimension](#Dimension)
-<span id="ReturnableIndicator">ReturnableIndicator</span> | xsd:boolean
-<span id="ItemQuantity">ItemQuantity</span> | xsd:decimal
-<span id="GrossWeightMeasure">GrossWeightMeasure</span> | xsd:decimal
-<span id="NetWeightMeasure">NetWeightMeasure</span> | xsd:decimal
-<span id="DescriptionText">DescriptionText</span> | xsd:string
-<span id="UsedSupplyChainPackaging">UsedSupplyChainPackaging</span> | [edi3:Packaging](#Packaging)
-<span id="SequenceNumeric">SequenceNumeric</span> | xsd:decimal
-<span id="IncludedSupplyChainTradeLineItem">IncludedSupplyChainTradeLineItem</span> | [edi3:TradeLineItem](#TradeLineItem)
-<span id="NominalGrossVolumeMeasure">NominalGrossVolumeMeasure</span> | xsd:decimal
-<span id="IdentificationIdentifier">IdentificationIdentifier</span> | xsd:token
-<span id="GrossVolumeVolumeUnitMeasure">GrossVolumeVolumeUnitMeasure</span> | xsd:decimal
-<span id="ParentIdentificationIdentifier">ParentIdentificationIdentifier</span> | xsd:token
-<span id="SeriesEndIdentificationIdentifier">SeriesEndIdentificationIdentifier</span> | xsd:token
-<span id="ColourCode">ColourCode</span> | xsd:token
-<span id="PhysicalLogisticsShippingMarks">PhysicalLogisticsShippingMarks</span> | [edi3:ShippingMarks](#ShippingMarks)
-<span id="NominalGrossWeightMeasure">NominalGrossWeightMeasure</span> | xsd:decimal
-<span id="SeriesStartIdentificationIdentifier">SeriesStartIdentificationIdentifier</span> | xsd:token
-<span id="LevelPackagingLevelCode">LevelPackagingLevelCode</span> | xsd:token
-<span id="GrossVolumeMeasure">GrossVolumeMeasure</span> | xsd:decimal
+[PerPackageUnitQuantity](#PerPackageUnitQuantity) | xsd:decimal
+[NetWeightWeightUnitMeasure](#NetWeightWeightUnitMeasure) | xsd:decimal
+[TypePackageTypeCode](#TypePackageTypeCode) | xsd:token
+[InformationText](#InformationText) | xsd:string
+[NominalGrossVolumeVolumeUnitMeasure](#NominalGrossVolumeVolumeUnitMeasure) | xsd:decimal
+[GlobalIdentificationIdentifier](#GlobalIdentificationIdentifier) | xsd:token
+[DespatchNoteAssociatedReferencedDocument](#DespatchNoteAssociatedReferencedDocument) | [edi3:Document](#Document)
+[TypeText](#TypeText) | xsd:string
+[GrossWeightWeightUnitMeasure](#GrossWeightWeightUnitMeasure) | xsd:decimal
+[LinearSpatialDimension](#LinearSpatialDimension) | [edi3:Dimension](#Dimension)
+[ReturnableIndicator](#ReturnableIndicator) | xsd:boolean
+[ItemQuantity](#ItemQuantity) | xsd:decimal
+[GrossWeightMeasure](#GrossWeightMeasure) | xsd:decimal
+[NetWeightMeasure](#NetWeightMeasure) | xsd:decimal
+[DescriptionText](#DescriptionText) | xsd:string
+[UsedSupplyChainPackaging](#UsedSupplyChainPackaging) | [edi3:Packaging](#Packaging)
+[SequenceNumeric](#SequenceNumeric) | xsd:decimal
+[IncludedSupplyChainTradeLineItem](#IncludedSupplyChainTradeLineItem) | [edi3:TradeLineItem](#TradeLineItem)
+[NominalGrossVolumeMeasure](#NominalGrossVolumeMeasure) | xsd:decimal
+[IdentificationIdentifier](#IdentificationIdentifier) | xsd:token
+[GrossVolumeVolumeUnitMeasure](#GrossVolumeVolumeUnitMeasure) | xsd:decimal
+[ParentIdentificationIdentifier](#ParentIdentificationIdentifier) | xsd:token
+[SeriesEndIdentificationIdentifier](#SeriesEndIdentificationIdentifier) | xsd:token
+[ColourCode](#ColourCode) | xsd:token
+[PhysicalLogisticsShippingMarks](#PhysicalLogisticsShippingMarks) | [edi3:ShippingMarks](#ShippingMarks)
+[NominalGrossWeightMeasure](#NominalGrossWeightMeasure) | xsd:decimal
+[SeriesStartIdentificationIdentifier](#SeriesStartIdentificationIdentifier) | xsd:token
+[LevelPackagingLevelCode](#LevelPackagingLevelCode) | xsd:token
+[GrossVolumeMeasure](#GrossVolumeMeasure) | xsd:decimal
 
 
 <h1 id="Person">Person</h1>
@@ -1056,39 +1056,39 @@ Properties:
 
 Name | Type 
 -|-
-<span id="DeclaredSpecifiedPersonalEffects">DeclaredSpecifiedPersonalEffects</span> | [edi3:PersonalEffects](#PersonalEffects)
-<span id="RoleText">RoleText</span> | xsd:string
-<span id="BirthCountryIdentifier">BirthCountryIdentifier</span> | xsd:token
-<span id="SpecifiedEmployerIdentity">SpecifiedEmployerIdentity</span> | [edi3:Identity](#Identity)
-<span id="FamilyNameText">FamilyNameText</span> | xsd:string
-<span id="LandlineTelephoneUniversalCommunication">LandlineTelephoneUniversalCommunication</span> | [edi3:Communication](#Communication)
-<span id="EmbarkationLogisticsLocation">EmbarkationLogisticsLocation</span> | [edi3:Location](#Location)
-<span id="GivenNameText">GivenNameText</span> | xsd:string
-<span id="TitleTitleCode">TitleTitleCode</span> | xsd:token
-<span id="ResidenceCountryCountryIdentifier">ResidenceCountryCountryIdentifier</span> | xsd:token
-<span id="SpecifiedPersonIdentity">SpecifiedPersonIdentity</span> | [edi3:Identity](#Identity)
-<span id="EmailURIUniversalCommunication">EmailURIUniversalCommunication</span> | [edi3:Communication](#Communication)
-<span id="DisembarkationLogisticsLocation">DisembarkationLogisticsLocation</span> | [edi3:Location](#Location)
-<span id="MobileTelephoneUniversalCommunication">MobileTelephoneUniversalCommunication</span> | [edi3:Communication](#Communication)
-<span id="TelephoneTelecommunicationCommunication">TelephoneTelecommunicationCommunication</span> | [edi3:Communication](#Communication)
-<span id="BirthDateTime">BirthDateTime</span> | xsd:dateTime
-<span id="MiddleNameText">MiddleNameText</span> | xsd:string
-<span id="GenderCode">GenderCode</span> | xsd:token
-<span id="SpecifiedBirthAddress">SpecifiedBirthAddress</span> | [edi3:Address](#Address)
-<span id="CategoryCode">CategoryCode</span> | xsd:token
-<span id="RoleCode">RoleCode</span> | xsd:token
-<span id="BirthplaceNameText">BirthplaceNameText</span> | xsd:string
-<span id="EmailURIEmailCommunication">EmailURIEmailCommunication</span> | [edi3:Communication](#Communication)
-<span id="SpecifiedTaxRegistration">SpecifiedTaxRegistration</span> | [edi3:Registration](#Registration)
-<span id="IdentificationIdentifier">IdentificationIdentifier</span> | xsd:token
-<span id="NationalityTradeCountry">NationalityTradeCountry</span> | [edi3:Country](#Country)
-<span id="NameText">NameText</span> | xsd:string
-<span id="InTransitIndicator">InTransitIndicator</span> | xsd:boolean
-<span id="TravelIdentityReferencedDocument">TravelIdentityReferencedDocument</span> | [edi3:Document](#Document)
-<span id="FaxTelecommunicationCommunication">FaxTelecommunicationCommunication</span> | [edi3:Communication](#Communication)
-<span id="SpecificCertifiedAccreditation">SpecificCertifiedAccreditation</span> | [edi3:Accreditation](#Accreditation)
-<span id="TravelVisaReferencedDocument">TravelVisaReferencedDocument</span> | [edi3:Document](#Document)
-<span id="AttainedAcademicQualification">AttainedAcademicQualification</span> | [edi3:Qualification](#Qualification)
+[DeclaredSpecifiedPersonalEffects](#DeclaredSpecifiedPersonalEffects) | [edi3:PersonalEffects](#PersonalEffects)
+[RoleText](#RoleText) | xsd:string
+[BirthCountryIdentifier](#BirthCountryIdentifier) | xsd:token
+[SpecifiedEmployerIdentity](#SpecifiedEmployerIdentity) | [edi3:Identity](#Identity)
+[FamilyNameText](#FamilyNameText) | xsd:string
+[LandlineTelephoneUniversalCommunication](#LandlineTelephoneUniversalCommunication) | [edi3:Communication](#Communication)
+[EmbarkationLogisticsLocation](#EmbarkationLogisticsLocation) | [edi3:Location](#Location)
+[GivenNameText](#GivenNameText) | xsd:string
+[TitleTitleCode](#TitleTitleCode) | xsd:token
+[ResidenceCountryCountryIdentifier](#ResidenceCountryCountryIdentifier) | xsd:token
+[SpecifiedPersonIdentity](#SpecifiedPersonIdentity) | [edi3:Identity](#Identity)
+[EmailURIUniversalCommunication](#EmailURIUniversalCommunication) | [edi3:Communication](#Communication)
+[DisembarkationLogisticsLocation](#DisembarkationLogisticsLocation) | [edi3:Location](#Location)
+[MobileTelephoneUniversalCommunication](#MobileTelephoneUniversalCommunication) | [edi3:Communication](#Communication)
+[TelephoneTelecommunicationCommunication](#TelephoneTelecommunicationCommunication) | [edi3:Communication](#Communication)
+[BirthDateTime](#BirthDateTime) | xsd:dateTime
+[MiddleNameText](#MiddleNameText) | xsd:string
+[GenderCode](#GenderCode) | xsd:token
+[SpecifiedBirthAddress](#SpecifiedBirthAddress) | [edi3:Address](#Address)
+[CategoryCode](#CategoryCode) | xsd:token
+[RoleCode](#RoleCode) | xsd:token
+[BirthplaceNameText](#BirthplaceNameText) | xsd:string
+[EmailURIEmailCommunication](#EmailURIEmailCommunication) | [edi3:Communication](#Communication)
+[SpecifiedTaxRegistration](#SpecifiedTaxRegistration) | [edi3:Registration](#Registration)
+[IdentificationIdentifier](#IdentificationIdentifier) | xsd:token
+[NationalityTradeCountry](#NationalityTradeCountry) | [edi3:Country](#Country)
+[NameText](#NameText) | xsd:string
+[InTransitIndicator](#InTransitIndicator) | xsd:boolean
+[TravelIdentityReferencedDocument](#TravelIdentityReferencedDocument) | [edi3:Document](#Document)
+[FaxTelecommunicationCommunication](#FaxTelecommunicationCommunication) | [edi3:Communication](#Communication)
+[SpecificCertifiedAccreditation](#SpecificCertifiedAccreditation) | [edi3:Accreditation](#Accreditation)
+[TravelVisaReferencedDocument](#TravelVisaReferencedDocument) | [edi3:Document](#Document)
+[AttainedAcademicQualification](#AttainedAcademicQualification) | [edi3:Qualification](#Qualification)
 
 
 <h1 id="Inventory">Inventory</h1>
@@ -1101,24 +1101,24 @@ Properties:
 
 Name | Type 
 -|-
-<span id="StockQuantity">StockQuantity</span> | xsd:decimal
-<span id="AverageDurationDateTime">AverageDurationDateTime</span> | xsd:dateTime
-<span id="DispositionReferencedDocument">DispositionReferencedDocument</span> | [edi3:Document](#Document)
-<span id="TypeCode">TypeCode</span> | xsd:token
-<span id="PlannedStockQuantity">PlannedStockQuantity</span> | xsd:decimal
-<span id="AverageDemandQuantity">AverageDemandQuantity</span> | xsd:decimal
-<span id="MinimumStockQuantity">MinimumStockQuantity</span> | xsd:decimal
-<span id="MaximumStockQuantity">MaximumStockQuantity</span> | xsd:decimal
-<span id="DescriptionText">DescriptionText</span> | xsd:string
-<span id="SequenceNumeric">SequenceNumeric</span> | xsd:decimal
-<span id="SpecifiedSupplyChainEvent">SpecifiedSupplyChainEvent</span> | [edi3:Event](#Event)
-<span id="PlannedStockCalculationDateTime">PlannedStockCalculationDateTime</span> | xsd:dateTime
-<span id="SpecifiedLogisticsLocation">SpecifiedLogisticsLocation</span> | [edi3:Location](#Location)
-<span id="CalculationDateTime">CalculationDateTime</span> | xsd:dateTime
-<span id="OnboardQuantity">OnboardQuantity</span> | xsd:decimal
-<span id="RemarkNote">RemarkNote</span> | [edi3:Note](#Note)
-<span id="MaximumStockLevelMeasure">MaximumStockLevelMeasure</span> | xsd:decimal
-<span id="MinimumStockLevelMeasure">MinimumStockLevelMeasure</span> | xsd:decimal
+[StockQuantity](#StockQuantity) | xsd:decimal
+[AverageDurationDateTime](#AverageDurationDateTime) | xsd:dateTime
+[DispositionReferencedDocument](#DispositionReferencedDocument) | [edi3:Document](#Document)
+[TypeCode](#TypeCode) | xsd:token
+[PlannedStockQuantity](#PlannedStockQuantity) | xsd:decimal
+[AverageDemandQuantity](#AverageDemandQuantity) | xsd:decimal
+[MinimumStockQuantity](#MinimumStockQuantity) | xsd:decimal
+[MaximumStockQuantity](#MaximumStockQuantity) | xsd:decimal
+[DescriptionText](#DescriptionText) | xsd:string
+[SequenceNumeric](#SequenceNumeric) | xsd:decimal
+[SpecifiedSupplyChainEvent](#SpecifiedSupplyChainEvent) | [edi3:Event](#Event)
+[PlannedStockCalculationDateTime](#PlannedStockCalculationDateTime) | xsd:dateTime
+[SpecifiedLogisticsLocation](#SpecifiedLogisticsLocation) | [edi3:Location](#Location)
+[CalculationDateTime](#CalculationDateTime) | xsd:dateTime
+[OnboardQuantity](#OnboardQuantity) | xsd:decimal
+[RemarkNote](#RemarkNote) | [edi3:Note](#Note)
+[MaximumStockLevelMeasure](#MaximumStockLevelMeasure) | xsd:decimal
+[MinimumStockLevelMeasure](#MinimumStockLevelMeasure) | xsd:decimal
 
 
 <h1 id="Cargo">Cargo</h1>
@@ -1131,9 +1131,9 @@ Properties:
 
 Name | Type 
 -|-
-<span id="TypeCargoCategoryCode">TypeCargoCategoryCode</span> | xsd:token
-<span id="IdentificationText">IdentificationText</span> | xsd:string
-<span id="StatisticalClassificationCargoCommodityCategoryCode">StatisticalClassificationCargoCommodityCategoryCode</span> | xsd:token
+[TypeCargoCategoryCode](#TypeCargoCategoryCode) | xsd:token
+[IdentificationText](#IdentificationText) | xsd:string
+[StatisticalClassificationCargoCommodityCategoryCode](#StatisticalClassificationCargoCommodityCategoryCode) | xsd:token
 
 
 <h1 id="Organization">Organization</h1>
@@ -1146,14 +1146,14 @@ Properties:
 
 Name | Type 
 -|-
-<span id="TypeCode">TypeCode</span> | xsd:token
-<span id="EstablishedDateTime">EstablishedDateTime</span> | xsd:dateTime
-<span id="TradingBusinessNameText">TradingBusinessNameText</span> | xsd:string
-<span id="IdentificationIdentifier">IdentificationIdentifier</span> | xsd:token
-<span id="NameText">NameText</span> | xsd:string
-<span id="AuthorizedLegalRegistration">AuthorizedLegalRegistration</span> | [edi3:Registration](#Registration)
-<span id="PostalTradeAddress">PostalTradeAddress</span> | [edi3:Address](#Address)
-<span id="BusinessTypeCode">BusinessTypeCode</span> | xsd:token
+[TypeCode](#TypeCode) | xsd:token
+[EstablishedDateTime](#EstablishedDateTime) | xsd:dateTime
+[TradingBusinessNameText](#TradingBusinessNameText) | xsd:string
+[IdentificationIdentifier](#IdentificationIdentifier) | xsd:token
+[NameText](#NameText) | xsd:string
+[AuthorizedLegalRegistration](#AuthorizedLegalRegistration) | [edi3:Registration](#Registration)
+[PostalTradeAddress](#PostalTradeAddress) | [edi3:Address](#Address)
+[BusinessTypeCode](#BusinessTypeCode) | xsd:token
 
 
 <h1 id="PersonalEffects">PersonalEffects</h1>
@@ -1166,9 +1166,9 @@ Properties:
 
 Name | Type 
 -|-
-<span id="DescriptionText">DescriptionText</span> | xsd:string
-<span id="SequenceNumeric">SequenceNumeric</span> | xsd:decimal
-<span id="OnboardQuantity">OnboardQuantity</span> | xsd:decimal
+[DescriptionText](#DescriptionText) | xsd:string
+[SequenceNumeric](#SequenceNumeric) | xsd:decimal
+[OnboardQuantity](#OnboardQuantity) | xsd:decimal
 
 
 <h1 id="TransportEquipment">TransportEquipment</h1>
@@ -1181,87 +1181,87 @@ Properties:
 
 Name | Type 
 -|-
-<span id="ReportingIOTDeviceCommunicationPairing">ReportingIOTDeviceCommunicationPairing</span> | [edi3:Pairing](#Pairing)
-<span id="CarrierAssignedBookingIdentificationIdentifier">CarrierAssignedBookingIdentificationIdentifier</span> | xsd:token
-<span id="NetWeightWeightUnitMeasure">NetWeightWeightUnitMeasure</span> | xsd:decimal
-<span id="DeliveryTransportEvent">DeliveryTransportEvent</span> | [edi3:Event](#Event)
-<span id="CarriedAssociatedTransportEquipment">CarriedAssociatedTransportEquipment</span> | [edi3:TransportEquipment](#TransportEquipment)
-<span id="LegalStatusTransportEquipmentLegalStatusCode">LegalStatusTransportEquipmentLegalStatusCode</span> | xsd:token
-<span id="ContainedConsignmentQuantity">ContainedConsignmentQuantity</span> | xsd:decimal
-<span id="ReleaseIdentifier">ReleaseIdentifier</span> | xsd:token
-<span id="CarrierTradeParty">CarrierTradeParty</span> | [edi3:Party](#Party)
-<span id="LoadingTransportInstructions">LoadingTransportInstructions</span> | [edi3:Instructions](#Instructions)
-<span id="UnloadingTransportEvent">UnloadingTransportEvent</span> | [edi3:Event](#Event)
-<span id="CharacteristicTransportEquipmentSizeTypeCode">CharacteristicTransportEquipmentSizeTypeCode</span> | xsd:token
-<span id="ShipperReferenceInformationText">ShipperReferenceInformationText</span> | xsd:string
-<span id="LoadingRemarkText">LoadingRemarkText</span> | xsd:string
-<span id="ApplicableLogisticsServiceCharge">ApplicableLogisticsServiceCharge</span> | [edi3:ServiceCharge](#ServiceCharge)
-<span id="QuarantineQuarantineInstructions">QuarantineQuarantineInstructions</span> | [edi3:Instructions](#Instructions)
-<span id="RequiredLaneLengthLinearUnitMeasure">RequiredLaneLengthLinearUnitMeasure</span> | xsd:decimal
-<span id="CharacteristicText">CharacteristicText</span> | xsd:string
-<span id="OperatingTradeParty">OperatingTradeParty</span> | [edi3:Party](#Party)
-<span id="ReleaseRestrictionText">ReleaseRestrictionText</span> | xsd:string
-<span id="SettingTransportSettingTemperature">SettingTransportSettingTemperature</span> | [edi3:Temperature](#Temperature)
-<span id="AdditionalTransportInstructions">AdditionalTransportInstructions</span> | [edi3:Instructions](#Instructions)
-<span id="InformationText">InformationText</span> | xsd:string
-<span id="AffixedLogisticsSeal">AffixedLogisticsSeal</span> | [edi3:Seal](#Seal)
-<span id="HaulageArrangementTransportEquipmentHaulageArrangementsCode">HaulageArrangementTransportEquipmentHaulageArrangementsCode</span> | xsd:token
-<span id="NotifiedTradeParty">NotifiedTradeParty</span> | [edi3:Party](#Party)
-<span id="UnitQuantity">UnitQuantity</span> | xsd:decimal
-<span id="ContainedAssociatedTransportEquipment">ContainedAssociatedTransportEquipment</span> | [edi3:TransportEquipment](#TransportEquipment)
-<span id="AssociatedReferencedDocument">AssociatedReferencedDocument</span> | [edi3:Document](#Document)
-<span id="HumidityPercent">HumidityPercent</span> | xsd:decimal
-<span id="LoadingTransportEvent">LoadingTransportEvent</span> | [edi3:Event](#Event)
-<span id="TransportMovementStatusTransportEquipmentMovementStatusCode">TransportMovementStatusTransportEquipmentMovementStatusCode</span> | xsd:token
-<span id="StorageTransportEvent">StorageTransportEvent</span> | [edi3:Event](#Event)
-<span id="GrossWeightWeightUnitMeasure">GrossWeightWeightUnitMeasure</span> | xsd:decimal
-<span id="ConsolidationTransportEvent">ConsolidationTransportEvent</span> | [edi3:Event](#Event)
-<span id="ReportedLogisticsStatus">ReportedLogisticsStatus</span> | [edi3:Status](#Status)
-<span id="LoadingLengthLinearUnitMeasure">LoadingLengthLinearUnitMeasure</span> | xsd:decimal
-<span id="LinearSpatialDimension">LinearSpatialDimension</span> | [edi3:Dimension](#Dimension)
-<span id="ReturnableIndicator">ReturnableIndicator</span> | xsd:boolean
-<span id="HandlingHandlingInstructions">HandlingHandlingInstructions</span> | [edi3:Instructions](#Instructions)
-<span id="RelatedCommunicationEvent">RelatedCommunicationEvent</span> | [edi3:Event](#Event)
-<span id="PositioningTransportEvent">PositioningTransportEvent</span> | [edi3:Event](#Event)
-<span id="AttachedAttachedTransportEquipment">AttachedAttachedTransportEquipment</span> | [edi3:TransportEquipment](#TransportEquipment)
-<span id="ActualTransportRoute">ActualTransportRoute</span> | [edi3:Route](#Route)
-<span id="PickUpTransportEvent">PickUpTransportEvent</span> | [edi3:Event](#Event)
-<span id="ScheduledTransportRoute">ScheduledTransportRoute</span> | [edi3:Route](#Route)
-<span id="PowerSupplyTypeText">PowerSupplyTypeText</span> | xsd:string
-<span id="ManufacturingFormattedDateTime">ManufacturingFormattedDateTime</span> | xsd:dateTime
-<span id="TareWeightWeightUnitMeasure">TareWeightWeightUnitMeasure</span> | xsd:decimal
-<span id="ManufacturerTradeParty">ManufacturerTradeParty</span> | [edi3:Party](#Party)
-<span id="StowagePositionIdentifier">StowagePositionIdentifier</span> | xsd:token
-<span id="SealedIndicator">SealedIndicator</span> | xsd:boolean
-<span id="UsedCapacityTransportEquipmentFullnessCode">UsedCapacityTransportEquipmentFullnessCode</span> | xsd:token
-<span id="DeliveryDeliveryInstructions">DeliveryDeliveryInstructions</span> | [edi3:Instructions](#Instructions)
-<span id="SequenceNumeric">SequenceNumeric</span> | xsd:decimal
-<span id="LoadingSequenceNumeric">LoadingSequenceNumeric</span> | xsd:decimal
-<span id="SpecifiedLogisticsTransportMeans">SpecifiedLogisticsTransportMeans</span> | [edi3:TransportMeans](#TransportMeans)
-<span id="UnloadingSequenceNumeric">UnloadingSequenceNumeric</span> | xsd:decimal
-<span id="AttachedMonitoringIOTDevice">AttachedMonitoringIOTDevice</span> | [edi3:IOTDevice](#IOTDevice)
-<span id="IdentificationIdentifier">IdentificationIdentifier</span> | xsd:token
-<span id="OperationalStatusTransportEquipmentOperationalStatusCode">OperationalStatusTransportEquipmentOperationalStatusCode</span> | xsd:token
-<span id="LoadedTransportDangerousGoods">LoadedTransportDangerousGoods</span> | [edi3:DangerousGoods](#DangerousGoods)
-<span id="SupplierPartyRoleTransportEquipmentSupplierPartyRoleCode">SupplierPartyRoleTransportEquipmentSupplierPartyRoleCode</span> | xsd:token
-<span id="LoadedSupplyChainConsignmentItem">LoadedSupplyChainConsignmentItem</span> | [edi3:ConsignmentItem](#ConsignmentItem)
-<span id="GrossVolumeVolumeUnitMeasure">GrossVolumeVolumeUnitMeasure</span> | xsd:decimal
-<span id="DamageRemarkText">DamageRemarkText</span> | xsd:string
-<span id="ReportingIOTDeviceTransportEvent">ReportingIOTDeviceTransportEvent</span> | [edi3:Event](#Event)
-<span id="SpecifiedLogisticsRiskAnalysisResult">SpecifiedLogisticsRiskAnalysisResult</span> | [edi3:RiskAnalysisResult](#RiskAnalysisResult)
-<span id="TransportServicesBuyerTradeParty">TransportServicesBuyerTradeParty</span> | [edi3:Party](#Party)
-<span id="ContainedSupplyChainConsignment">ContainedSupplyChainConsignment</span> | [edi3:Consignment](#Consignment)
-<span id="SealQuantity">SealQuantity</span> | xsd:decimal
-<span id="LoadingTradeParty">LoadingTradeParty</span> | [edi3:Party](#Party)
-<span id="PowerSupplyTypeCode">PowerSupplyTypeCode</span> | xsd:token
-<span id="AccompaniedIndicator">AccompaniedIndicator</span> | xsd:boolean
-<span id="UnloadingTransportInstructions">UnloadingTransportInstructions</span> | [edi3:Instructions](#Instructions)
-<span id="LoadedPackageQuantity">LoadedPackageQuantity</span> | xsd:decimal
-<span id="RequestedTransportRoute">RequestedTransportRoute</span> | [edi3:Route](#Route)
-<span id="ApplicableNote">ApplicableNote</span> | [edi3:Note](#Note)
-<span id="PowerSupplyConnectorQuantity">PowerSupplyConnectorQuantity</span> | xsd:decimal
-<span id="AirFlowAirFlowUnitMeasure">AirFlowAirFlowUnitMeasure</span> | xsd:decimal
-<span id="BondedWarehouseStorageTransportEvent">BondedWarehouseStorageTransportEvent</span> | [edi3:Event](#Event)
+[ReportingIOTDeviceCommunicationPairing](#ReportingIOTDeviceCommunicationPairing) | [edi3:Pairing](#Pairing)
+[CarrierAssignedBookingIdentificationIdentifier](#CarrierAssignedBookingIdentificationIdentifier) | xsd:token
+[NetWeightWeightUnitMeasure](#NetWeightWeightUnitMeasure) | xsd:decimal
+[DeliveryTransportEvent](#DeliveryTransportEvent) | [edi3:Event](#Event)
+[CarriedAssociatedTransportEquipment](#CarriedAssociatedTransportEquipment) | [edi3:TransportEquipment](#TransportEquipment)
+[LegalStatusTransportEquipmentLegalStatusCode](#LegalStatusTransportEquipmentLegalStatusCode) | xsd:token
+[ContainedConsignmentQuantity](#ContainedConsignmentQuantity) | xsd:decimal
+[ReleaseIdentifier](#ReleaseIdentifier) | xsd:token
+[CarrierTradeParty](#CarrierTradeParty) | [edi3:Party](#Party)
+[LoadingTransportInstructions](#LoadingTransportInstructions) | [edi3:Instructions](#Instructions)
+[UnloadingTransportEvent](#UnloadingTransportEvent) | [edi3:Event](#Event)
+[CharacteristicTransportEquipmentSizeTypeCode](#CharacteristicTransportEquipmentSizeTypeCode) | xsd:token
+[ShipperReferenceInformationText](#ShipperReferenceInformationText) | xsd:string
+[LoadingRemarkText](#LoadingRemarkText) | xsd:string
+[ApplicableLogisticsServiceCharge](#ApplicableLogisticsServiceCharge) | [edi3:ServiceCharge](#ServiceCharge)
+[QuarantineQuarantineInstructions](#QuarantineQuarantineInstructions) | [edi3:Instructions](#Instructions)
+[RequiredLaneLengthLinearUnitMeasure](#RequiredLaneLengthLinearUnitMeasure) | xsd:decimal
+[CharacteristicText](#CharacteristicText) | xsd:string
+[OperatingTradeParty](#OperatingTradeParty) | [edi3:Party](#Party)
+[ReleaseRestrictionText](#ReleaseRestrictionText) | xsd:string
+[SettingTransportSettingTemperature](#SettingTransportSettingTemperature) | [edi3:Temperature](#Temperature)
+[AdditionalTransportInstructions](#AdditionalTransportInstructions) | [edi3:Instructions](#Instructions)
+[InformationText](#InformationText) | xsd:string
+[AffixedLogisticsSeal](#AffixedLogisticsSeal) | [edi3:Seal](#Seal)
+[HaulageArrangementTransportEquipmentHaulageArrangementsCode](#HaulageArrangementTransportEquipmentHaulageArrangementsCode) | xsd:token
+[NotifiedTradeParty](#NotifiedTradeParty) | [edi3:Party](#Party)
+[UnitQuantity](#UnitQuantity) | xsd:decimal
+[ContainedAssociatedTransportEquipment](#ContainedAssociatedTransportEquipment) | [edi3:TransportEquipment](#TransportEquipment)
+[AssociatedReferencedDocument](#AssociatedReferencedDocument) | [edi3:Document](#Document)
+[HumidityPercent](#HumidityPercent) | xsd:decimal
+[LoadingTransportEvent](#LoadingTransportEvent) | [edi3:Event](#Event)
+[TransportMovementStatusTransportEquipmentMovementStatusCode](#TransportMovementStatusTransportEquipmentMovementStatusCode) | xsd:token
+[StorageTransportEvent](#StorageTransportEvent) | [edi3:Event](#Event)
+[GrossWeightWeightUnitMeasure](#GrossWeightWeightUnitMeasure) | xsd:decimal
+[ConsolidationTransportEvent](#ConsolidationTransportEvent) | [edi3:Event](#Event)
+[ReportedLogisticsStatus](#ReportedLogisticsStatus) | [edi3:Status](#Status)
+[LoadingLengthLinearUnitMeasure](#LoadingLengthLinearUnitMeasure) | xsd:decimal
+[LinearSpatialDimension](#LinearSpatialDimension) | [edi3:Dimension](#Dimension)
+[ReturnableIndicator](#ReturnableIndicator) | xsd:boolean
+[HandlingHandlingInstructions](#HandlingHandlingInstructions) | [edi3:Instructions](#Instructions)
+[RelatedCommunicationEvent](#RelatedCommunicationEvent) | [edi3:Event](#Event)
+[PositioningTransportEvent](#PositioningTransportEvent) | [edi3:Event](#Event)
+[AttachedAttachedTransportEquipment](#AttachedAttachedTransportEquipment) | [edi3:TransportEquipment](#TransportEquipment)
+[ActualTransportRoute](#ActualTransportRoute) | [edi3:Route](#Route)
+[PickUpTransportEvent](#PickUpTransportEvent) | [edi3:Event](#Event)
+[ScheduledTransportRoute](#ScheduledTransportRoute) | [edi3:Route](#Route)
+[PowerSupplyTypeText](#PowerSupplyTypeText) | xsd:string
+[ManufacturingFormattedDateTime](#ManufacturingFormattedDateTime) | xsd:dateTime
+[TareWeightWeightUnitMeasure](#TareWeightWeightUnitMeasure) | xsd:decimal
+[ManufacturerTradeParty](#ManufacturerTradeParty) | [edi3:Party](#Party)
+[StowagePositionIdentifier](#StowagePositionIdentifier) | xsd:token
+[SealedIndicator](#SealedIndicator) | xsd:boolean
+[UsedCapacityTransportEquipmentFullnessCode](#UsedCapacityTransportEquipmentFullnessCode) | xsd:token
+[DeliveryDeliveryInstructions](#DeliveryDeliveryInstructions) | [edi3:Instructions](#Instructions)
+[SequenceNumeric](#SequenceNumeric) | xsd:decimal
+[LoadingSequenceNumeric](#LoadingSequenceNumeric) | xsd:decimal
+[SpecifiedLogisticsTransportMeans](#SpecifiedLogisticsTransportMeans) | [edi3:TransportMeans](#TransportMeans)
+[UnloadingSequenceNumeric](#UnloadingSequenceNumeric) | xsd:decimal
+[AttachedMonitoringIOTDevice](#AttachedMonitoringIOTDevice) | [edi3:IOTDevice](#IOTDevice)
+[IdentificationIdentifier](#IdentificationIdentifier) | xsd:token
+[OperationalStatusTransportEquipmentOperationalStatusCode](#OperationalStatusTransportEquipmentOperationalStatusCode) | xsd:token
+[LoadedTransportDangerousGoods](#LoadedTransportDangerousGoods) | [edi3:DangerousGoods](#DangerousGoods)
+[SupplierPartyRoleTransportEquipmentSupplierPartyRoleCode](#SupplierPartyRoleTransportEquipmentSupplierPartyRoleCode) | xsd:token
+[LoadedSupplyChainConsignmentItem](#LoadedSupplyChainConsignmentItem) | [edi3:ConsignmentItem](#ConsignmentItem)
+[GrossVolumeVolumeUnitMeasure](#GrossVolumeVolumeUnitMeasure) | xsd:decimal
+[DamageRemarkText](#DamageRemarkText) | xsd:string
+[ReportingIOTDeviceTransportEvent](#ReportingIOTDeviceTransportEvent) | [edi3:Event](#Event)
+[SpecifiedLogisticsRiskAnalysisResult](#SpecifiedLogisticsRiskAnalysisResult) | [edi3:RiskAnalysisResult](#RiskAnalysisResult)
+[TransportServicesBuyerTradeParty](#TransportServicesBuyerTradeParty) | [edi3:Party](#Party)
+[ContainedSupplyChainConsignment](#ContainedSupplyChainConsignment) | [edi3:Consignment](#Consignment)
+[SealQuantity](#SealQuantity) | xsd:decimal
+[LoadingTradeParty](#LoadingTradeParty) | [edi3:Party](#Party)
+[PowerSupplyTypeCode](#PowerSupplyTypeCode) | xsd:token
+[AccompaniedIndicator](#AccompaniedIndicator) | xsd:boolean
+[UnloadingTransportInstructions](#UnloadingTransportInstructions) | [edi3:Instructions](#Instructions)
+[LoadedPackageQuantity](#LoadedPackageQuantity) | xsd:decimal
+[RequestedTransportRoute](#RequestedTransportRoute) | [edi3:Route](#Route)
+[ApplicableNote](#ApplicableNote) | [edi3:Note](#Note)
+[PowerSupplyConnectorQuantity](#PowerSupplyConnectorQuantity) | xsd:decimal
+[AirFlowAirFlowUnitMeasure](#AirFlowAirFlowUnitMeasure) | xsd:decimal
+[BondedWarehouseStorageTransportEvent](#BondedWarehouseStorageTransportEvent) | [edi3:Event](#Event)
 
 
 <h1 id="Consignment">Consignment</h1>
@@ -1274,164 +1274,164 @@ Properties:
 
 Name | Type 
 -|-
-<span id="IntermediateConsigneeTradeParty">IntermediateConsigneeTradeParty</span> | [edi3:Party](#Party)
-<span id="TransshipmentLogisticsLocation">TransshipmentLogisticsLocation</span> | [edi3:Location](#Location)
-<span id="ApplicableCrossBorderCustomsValuation">ApplicableCrossBorderCustomsValuation</span> | [edi3:CustomsValuation](#CustomsValuation)
-<span id="DemurrageInformationText">DemurrageInformationText</span> | xsd:string
-<span id="NetWeightWeightUnitMeasure">NetWeightWeightUnitMeasure</span> | xsd:decimal
-<span id="CustomsExportAgentTradeParty">CustomsExportAgentTradeParty</span> | [edi3:Party](#Party)
-<span id="DeliveryTransportEvent">DeliveryTransportEvent</span> | [edi3:Event](#Event)
-<span id="InsuranceApplicableTradeCurrencyExchange">InsuranceApplicableTradeCurrencyExchange</span> | [edi3:CurrencyExchange](#CurrencyExchange)
-<span id="ConsignorAssignedIdentifier">ConsignorAssignedIdentifier</span> | xsd:token
-<span id="DevanningTransportEvent">DevanningTransportEvent</span> | [edi3:Event](#Event)
-<span id="OriginTradeGeopoliticalRegion">OriginTradeGeopoliticalRegion</span> | [edi3:GeopoliticalRegion](#GeopoliticalRegion)
-<span id="IncludedSupplyChainConsignmentItem">IncludedSupplyChainConsignmentItem</span> | [edi3:ConsignmentItem](#ConsignmentItem)
-<span id="ShipStoresIndicator">ShipStoresIndicator</span> | xsd:boolean
-<span id="CarrierTradeParty">CarrierTradeParty</span> | [edi3:Party](#Party)
-<span id="CODAmount">CODAmount</span> | xsd:decimal
-<span id="AtDepartureLogisticsTransportMovement">AtDepartureLogisticsTransportMovement</span> | [edi3:TransportMovement](#TransportMovement)
-<span id="LoadingTransportInstructions">LoadingTransportInstructions</span> | [edi3:Instructions](#Instructions)
-<span id="ApplicableLogisticsServiceCharge">ApplicableLogisticsServiceCharge</span> | [edi3:ServiceCharge](#ServiceCharge)
-<span id="GoodsReleaseRestrictionText">GoodsReleaseRestrictionText</span> | xsd:string
-<span id="UnloadingLogisticsLocation">UnloadingLogisticsLocation</span> | [edi3:Location](#Location)
-<span id="LoadingLogisticsLocation">LoadingLogisticsLocation</span> | [edi3:Location](#Location)
-<span id="ExportExitDateTime">ExportExitDateTime</span> | xsd:dateTime
-<span id="ApplicableTradeAllowanceCharge">ApplicableTradeAllowanceCharge</span> | [edi3:AllowanceCharge](#AllowanceCharge)
-<span id="PickUpTradeParty">PickUpTradeParty</span> | [edi3:Party](#Party)
-<span id="InformationText">InformationText</span> | xsd:string
-<span id="ConsigneeAgentTradeParty">ConsigneeAgentTradeParty</span> | [edi3:Party](#Party)
-<span id="CarrierAcceptanceLogisticsLocation">CarrierAcceptanceLogisticsLocation</span> | [edi3:Location](#Location)
-<span id="BorderCrossingLogisticsTransportMovement">BorderCrossingLogisticsTransportMovement</span> | [edi3:TransportMovement](#TransportMovement)
-<span id="ApplicableTransportDangerousGoods">ApplicableTransportDangerousGoods</span> | [edi3:DangerousGoods](#DangerousGoods)
-<span id="NotifiedTradeParty">NotifiedTradeParty</span> | [edi3:Party](#Party)
-<span id="ReExportTradeCountry">ReExportTradeCountry</span> | [edi3:Country](#Country)
-<span id="TotalAllowanceChargeAmount">TotalAllowanceChargeAmount</span> | xsd:decimal
-<span id="CarrierAcceptanceFormattedDateTime">CarrierAcceptanceFormattedDateTime</span> | xsd:dateTime
-<span id="ImportTradeCountry">ImportTradeCountry</span> | [edi3:Country](#Country)
-<span id="CustomsIdentificationIdentifier">CustomsIdentificationIdentifier</span> | xsd:token
-<span id="ManifestAssociatedReferencedDocument">ManifestAssociatedReferencedDocument</span> | [edi3:Document](#Document)
-<span id="TransportEquipmentQuantity">TransportEquipmentQuantity</span> | xsd:decimal
-<span id="AssociatedReferencedDocument">AssociatedReferencedDocument</span> | [edi3:Document](#Document)
-<span id="HaulageHaulageInstructions">HaulageHaulageInstructions</span> | [edi3:Instructions](#Instructions)
-<span id="ApplicableTradeCurrencyExchange">ApplicableTradeCurrencyExchange</span> | [edi3:CurrencyExchange](#CurrencyExchange)
-<span id="StorageTransportEvent">StorageTransportEvent</span> | [edi3:Event](#Event)
-<span id="NilCustomsValueIndicator">NilCustomsValueIndicator</span> | xsd:boolean
-<span id="RelatedBookingTypeText">RelatedBookingTypeText</span> | xsd:string
-<span id="GrossWeightWeightUnitMeasure">GrossWeightWeightUnitMeasure</span> | xsd:decimal
-<span id="ExportTradeCountry">ExportTradeCountry</span> | [edi3:Country](#Country)
-<span id="TotalCollectChargeAmount">TotalCollectChargeAmount</span> | xsd:decimal
-<span id="ServiceChargeApplicableTradeCurrencyExchange">ServiceChargeApplicableTradeCurrencyExchange</span> | [edi3:CurrencyExchange](#CurrencyExchange)
-<span id="TransportSplitDescriptionText">TransportSplitDescriptionText</span> | xsd:string
-<span id="GroupingCentreTradeParty">GroupingCentreTradeParty</span> | [edi3:Party](#Party)
-<span id="UtilizedLogisticsTransportEquipment">UtilizedLogisticsTransportEquipment</span> | [edi3:TransportEquipment](#TransportEquipment)
-<span id="TransportTransportService">TransportTransportService</span> | [edi3:Service](#Service)
-<span id="DeclaredValueForCustomsAmount">DeclaredValueForCustomsAmount</span> | xsd:decimal
-<span id="ReportedLogisticsStatus">ReportedLogisticsStatus</span> | [edi3:Status](#Status)
-<span id="EstimatedApplicableLogisticsServiceCharge">EstimatedApplicableLogisticsServiceCharge</span> | [edi3:ServiceCharge](#ServiceCharge)
-<span id="LoadingLengthLinearUnitMeasure">LoadingLengthLinearUnitMeasure</span> | xsd:decimal
-<span id="ConnectingCarrierTradeParty">ConnectingCarrierTradeParty</span> | [edi3:Party](#Party)
-<span id="InsurancePremiumAmount">InsurancePremiumAmount</span> | xsd:decimal
-<span id="HandlingHandlingInstructions">HandlingHandlingInstructions</span> | [edi3:Instructions](#Instructions)
-<span id="PreviousAdministrativeReferencedDocument">PreviousAdministrativeReferencedDocument</span> | [edi3:Document](#Document)
-<span id="CustomsImportAgentTradeParty">CustomsImportAgentTradeParty</span> | [edi3:Party](#Party)
-<span id="LoadingInformationText">LoadingInformationText</span> | xsd:string
-<span id="TransportTransportEvent">TransportTransportEvent</span> | [edi3:Event](#Event)
-<span id="TransitLogisticsLocation">TransitLogisticsLocation</span> | [edi3:Location](#Location)
-<span id="ConsigneeAssignedIdentifier">ConsigneeAssignedIdentifier</span> | xsd:token
-<span id="TotalChargeAmount">TotalChargeAmount</span> | xsd:decimal
-<span id="NetVolumeVolumeUnitMeasure">NetVolumeVolumeUnitMeasure</span> | xsd:decimal
-<span id="PickUpTransportEvent">PickUpTransportEvent</span> | [edi3:Event](#Event)
-<span id="ShipToTradeParty">ShipToTradeParty</span> | [edi3:Party](#Party)
-<span id="TransportLogisticsPackage">TransportLogisticsPackage</span> | [edi3:Package](#Package)
-<span id="InsuranceValueAmount">InsuranceValueAmount</span> | xsd:decimal
-<span id="DangerousGoodsNotifierTradeParty">DangerousGoodsNotifierTradeParty</span> | [edi3:Party](#Party)
-<span id="RiskFactorCode">RiskFactorCode</span> | xsd:token
-<span id="ConsignorProvidedBorderClearanceTransportInstructions">ConsignorProvidedBorderClearanceTransportInstructions</span> | [edi3:Instructions](#Instructions)
-<span id="PreCarriageLogisticsTransportMovement">PreCarriageLogisticsTransportMovement</span> | [edi3:TransportMovement](#TransportMovement)
-<span id="FinalDestinationTradeCountry">FinalDestinationTradeCountry</span> | [edi3:Country](#Country)
-<span id="CarrierProvidedInformationText">CarrierProvidedInformationText</span> | xsd:string
-<span id="ConsignmentItemQuantity">ConsignmentItemQuantity</span> | xsd:decimal
-<span id="AtArrivalLogisticsTransportMovement">AtArrivalLogisticsTransportMovement</span> | [edi3:TransportMovement](#TransportMovement)
-<span id="PaymentArrangementTransportServicePaymentArrangementCode">PaymentArrangementTransportServicePaymentArrangementCode</span> | xsd:token
-<span id="TransportEquipmentSplitGoodsIndicator">TransportEquipmentSplitGoodsIndicator</span> | xsd:boolean
-<span id="IncludedReferencedSupplyChainConsignment">IncludedReferencedSupplyChainConsignment</span> | [edi3:Consignment](#Consignment)
-<span id="ShipFromTradeParty">ShipFromTradeParty</span> | [edi3:Party](#Party)
-<span id="FOBAmount">FOBAmount</span> | xsd:decimal
-<span id="CustomsRequiredInvoiceReferencedDocument">CustomsRequiredInvoiceReferencedDocument</span> | [edi3:Document](#Document)
-<span id="WarehouseArrivalDateTime">WarehouseArrivalDateTime</span> | xsd:dateTime
-<span id="TradedParcelIdentifier">TradedParcelIdentifier</span> | xsd:token
-<span id="ConsignorAgentTradeParty">ConsignorAgentTradeParty</span> | [edi3:Party](#Party)
-<span id="ConsigneeTradeParty">ConsigneeTradeParty</span> | [edi3:Party](#Party)
-<span id="DeliveryDeliveryInstructions">DeliveryDeliveryInstructions</span> | [edi3:Instructions](#Instructions)
-<span id="PackageQuantity">PackageQuantity</span> | xsd:decimal
-<span id="ConsolidatorTradeParty">ConsolidatorTradeParty</span> | [edi3:Party](#Party)
-<span id="NilInsuranceValueIndicator">NilInsuranceValueIndicator</span> | xsd:boolean
-<span id="InvoiceApplicableTradeCurrencyExchange">InvoiceApplicableTradeCurrencyExchange</span> | [edi3:CurrencyExchange](#CurrencyExchange)
-<span id="SequenceNumeric">SequenceNumeric</span> | xsd:decimal
-<span id="LoadingSequenceNumeric">LoadingSequenceNumeric</span> | xsd:decimal
-<span id="PackageTypeText">PackageTypeText</span> | xsd:string
-<span id="UnloadingSequenceNumeric">UnloadingSequenceNumeric</span> | xsd:decimal
-<span id="CarrierAgentTradeParty">CarrierAgentTradeParty</span> | [edi3:Party](#Party)
-<span id="TotalDisbursementAmount">TotalDisbursementAmount</span> | xsd:decimal
-<span id="DeliveryInformationText">DeliveryInformationText</span> | xsd:string
-<span id="LoadingBaseportLogisticsLocation">LoadingBaseportLogisticsLocation</span> | [edi3:Location](#Location)
-<span id="ContainerizationIndicator">ContainerizationIndicator</span> | xsd:boolean
-<span id="CargoToleranceInformationText">CargoToleranceInformationText</span> | xsd:string
-<span id="ChargeableTransportationStageQuantity">ChargeableTransportationStageQuantity</span> | xsd:decimal
-<span id="NatureIdentificationTransportCargo">NatureIdentificationTransportCargo</span> | [edi3:Cargo](#Cargo)
-<span id="CustomsTransitAgentTradeParty">CustomsTransitAgentTradeParty</span> | [edi3:Party](#Party)
-<span id="TotalPrepaidChargeAmount">TotalPrepaidChargeAmount</span> | xsd:decimal
-<span id="InvoiceeAssociatedTradeParty">InvoiceeAssociatedTradeParty</span> | [edi3:Party](#Party)
-<span id="IdentificationIdentifier">IdentificationIdentifier</span> | xsd:token
-<span id="SpecifiedLogisticsTransportMovement">SpecifiedLogisticsTransportMovement</span> | [edi3:TransportMovement](#TransportMovement)
-<span id="TotalExportExitToImportEntryChargeAmount">TotalExportExitToImportEntryChargeAmount</span> | xsd:decimal
-<span id="DeclaredForCustomsLogisticsLocation">DeclaredForCustomsLogisticsLocation</span> | [edi3:Location](#Location)
-<span id="FreightForwarderAssignedIdentifier">FreightForwarderAssignedIdentifier</span> | xsd:token
-<span id="OnCarriageLogisticsTransportMovement">OnCarriageLogisticsTransportMovement</span> | [edi3:TransportMovement](#TransportMovement)
-<span id="FinalDestinationLogisticsLocation">FinalDestinationLogisticsLocation</span> | [edi3:Location](#Location)
-<span id="GrossVolumeVolumeUnitMeasure">GrossVolumeVolumeUnitMeasure</span> | xsd:decimal
-<span id="DestinationTradeCountry">DestinationTradeCountry</span> | [edi3:Country](#Country)
-<span id="ExporterTradeParty">ExporterTradeParty</span> | [edi3:Party](#Party)
-<span id="ImporterTradeParty">ImporterTradeParty</span> | [edi3:Party](#Party)
-<span id="OriginTradeCountry">OriginTradeCountry</span> | [edi3:Country](#Country)
-<span id="ApplicableCrossBorderRegulatoryProcedure">ApplicableCrossBorderRegulatoryProcedure</span> | [edi3:RegulatoryProcedure](#RegulatoryProcedure)
-<span id="DeliveryTradeParty">DeliveryTradeParty</span> | [edi3:Party](#Party)
-<span id="ConsignorTradeParty">ConsignorTradeParty</span> | [edi3:Party](#Party)
-<span id="WarehouseStorageTransportEvent">WarehouseStorageTransportEvent</span> | [edi3:Event](#Event)
-<span id="AssociatedTradeParty">AssociatedTradeParty</span> | [edi3:Party](#Party)
-<span id="ConsignorProvidedInformationText">ConsignorProvidedInformationText</span> | xsd:string
-<span id="SpecifiedLogisticsRiskAnalysisResult">SpecifiedLogisticsRiskAnalysisResult</span> | [edi3:RiskAnalysisResult](#RiskAnalysisResult)
-<span id="TransportServicesBuyerTradeParty">TransportServicesBuyerTradeParty</span> | [edi3:Party](#Party)
-<span id="ChargeableWeightWeightUnitMeasure">ChargeableWeightWeightUnitMeasure</span> | xsd:decimal
-<span id="MainCarriageLogisticsTransportMovement">MainCarriageLogisticsTransportMovement</span> | [edi3:TransportMovement](#TransportMovement)
-<span id="CargoInsuranceInstructionsInformationText">CargoInsuranceInstructionsInformationText</span> | xsd:string
-<span id="ApplicableTransportCargoInsurance">ApplicableTransportCargoInsurance</span> | [edi3:CargoInsurance](#CargoInsurance)
-<span id="LoadingListQuantity">LoadingListQuantity</span> | xsd:decimal
-<span id="UnloadingBaseportLogisticsLocation">UnloadingBaseportLogisticsLocation</span> | [edi3:Location](#Location)
-<span id="ConsigneeReceiptLogisticsLocation">ConsigneeReceiptLogisticsLocation</span> | [edi3:Location](#Location)
-<span id="SpecifiedTradeDeliveryTerms">SpecifiedTradeDeliveryTerms</span> | [edi3:DeliveryTerms](#DeliveryTerms)
-<span id="SummaryDescriptionText">SummaryDescriptionText</span> | xsd:string
-<span id="NilCarriageValueIndicator">NilCarriageValueIndicator</span> | xsd:boolean
-<span id="AvailabilityDueDateTime">AvailabilityDueDateTime</span> | xsd:dateTime
-<span id="AssociatedInvoiceDiscountAmount">AssociatedInvoiceDiscountAmount</span> | xsd:decimal
-<span id="IncludedReferencedSupplyChainConsignmentItem">IncludedReferencedSupplyChainConsignmentItem</span> | [edi3:ConsignmentItem](#ConsignmentItem)
-<span id="PhysicalLogisticsShippingMarks">PhysicalLogisticsShippingMarks</span> | [edi3:ShippingMarks](#ShippingMarks)
-<span id="ExaminationTransportEvent">ExaminationTransportEvent</span> | [edi3:Event](#Event)
-<span id="CarrierAssignedIdentifier">CarrierAssignedIdentifier</span> | xsd:token
-<span id="TransshipmentPermissionIndicator">TransshipmentPermissionIndicator</span> | xsd:boolean
-<span id="AssociatedInvoiceAmount">AssociatedInvoiceAmount</span> | xsd:decimal
-<span id="AssociatedInvoiceDiscountPercent">AssociatedInvoiceDiscountPercent</span> | xsd:decimal
-<span id="ExportTradeGeopoliticalRegion">ExportTradeGeopoliticalRegion</span> | [edi3:GeopoliticalRegion](#GeopoliticalRegion)
-<span id="DeconsolidatorTradeParty">DeconsolidatorTradeParty</span> | [edi3:Party](#Party)
-<span id="DespatchTradeParty">DespatchTradeParty</span> | [edi3:Party](#Party)
-<span id="CarrierAcceptanceDateTime">CarrierAcceptanceDateTime</span> | xsd:dateTime
-<span id="DeclaredValueForCarriageAmount">DeclaredValueForCarriageAmount</span> | xsd:decimal
-<span id="TransitTradeCountry">TransitTradeCountry</span> | [edi3:Country](#Country)
-<span id="TransportContractReferencedDocument">TransportContractReferencedDocument</span> | [edi3:Document](#Document)
-<span id="FreightForwarderTradeParty">FreightForwarderTradeParty</span> | [edi3:Party](#Party)
-<span id="RelatedSupplyChainTradeTransaction">RelatedSupplyChainTradeTransaction</span> | [edi3:TradeTransaction](#TradeTransaction)
-<span id="BondedWarehouseStorageTransportEvent">BondedWarehouseStorageTransportEvent</span> | [edi3:Event](#Event)
-<span id="VanningTransportEvent">VanningTransportEvent</span> | [edi3:Event](#Event)
+[IntermediateConsigneeTradeParty](#IntermediateConsigneeTradeParty) | [edi3:Party](#Party)
+[TransshipmentLogisticsLocation](#TransshipmentLogisticsLocation) | [edi3:Location](#Location)
+[ApplicableCrossBorderCustomsValuation](#ApplicableCrossBorderCustomsValuation) | [edi3:CustomsValuation](#CustomsValuation)
+[DemurrageInformationText](#DemurrageInformationText) | xsd:string
+[NetWeightWeightUnitMeasure](#NetWeightWeightUnitMeasure) | xsd:decimal
+[CustomsExportAgentTradeParty](#CustomsExportAgentTradeParty) | [edi3:Party](#Party)
+[DeliveryTransportEvent](#DeliveryTransportEvent) | [edi3:Event](#Event)
+[InsuranceApplicableTradeCurrencyExchange](#InsuranceApplicableTradeCurrencyExchange) | [edi3:CurrencyExchange](#CurrencyExchange)
+[ConsignorAssignedIdentifier](#ConsignorAssignedIdentifier) | xsd:token
+[DevanningTransportEvent](#DevanningTransportEvent) | [edi3:Event](#Event)
+[OriginTradeGeopoliticalRegion](#OriginTradeGeopoliticalRegion) | [edi3:GeopoliticalRegion](#GeopoliticalRegion)
+[IncludedSupplyChainConsignmentItem](#IncludedSupplyChainConsignmentItem) | [edi3:ConsignmentItem](#ConsignmentItem)
+[ShipStoresIndicator](#ShipStoresIndicator) | xsd:boolean
+[CarrierTradeParty](#CarrierTradeParty) | [edi3:Party](#Party)
+[CODAmount](#CODAmount) | xsd:decimal
+[AtDepartureLogisticsTransportMovement](#AtDepartureLogisticsTransportMovement) | [edi3:TransportMovement](#TransportMovement)
+[LoadingTransportInstructions](#LoadingTransportInstructions) | [edi3:Instructions](#Instructions)
+[ApplicableLogisticsServiceCharge](#ApplicableLogisticsServiceCharge) | [edi3:ServiceCharge](#ServiceCharge)
+[GoodsReleaseRestrictionText](#GoodsReleaseRestrictionText) | xsd:string
+[UnloadingLogisticsLocation](#UnloadingLogisticsLocation) | [edi3:Location](#Location)
+[LoadingLogisticsLocation](#LoadingLogisticsLocation) | [edi3:Location](#Location)
+[ExportExitDateTime](#ExportExitDateTime) | xsd:dateTime
+[ApplicableTradeAllowanceCharge](#ApplicableTradeAllowanceCharge) | [edi3:AllowanceCharge](#AllowanceCharge)
+[PickUpTradeParty](#PickUpTradeParty) | [edi3:Party](#Party)
+[InformationText](#InformationText) | xsd:string
+[ConsigneeAgentTradeParty](#ConsigneeAgentTradeParty) | [edi3:Party](#Party)
+[CarrierAcceptanceLogisticsLocation](#CarrierAcceptanceLogisticsLocation) | [edi3:Location](#Location)
+[BorderCrossingLogisticsTransportMovement](#BorderCrossingLogisticsTransportMovement) | [edi3:TransportMovement](#TransportMovement)
+[ApplicableTransportDangerousGoods](#ApplicableTransportDangerousGoods) | [edi3:DangerousGoods](#DangerousGoods)
+[NotifiedTradeParty](#NotifiedTradeParty) | [edi3:Party](#Party)
+[ReExportTradeCountry](#ReExportTradeCountry) | [edi3:Country](#Country)
+[TotalAllowanceChargeAmount](#TotalAllowanceChargeAmount) | xsd:decimal
+[CarrierAcceptanceFormattedDateTime](#CarrierAcceptanceFormattedDateTime) | xsd:dateTime
+[ImportTradeCountry](#ImportTradeCountry) | [edi3:Country](#Country)
+[CustomsIdentificationIdentifier](#CustomsIdentificationIdentifier) | xsd:token
+[ManifestAssociatedReferencedDocument](#ManifestAssociatedReferencedDocument) | [edi3:Document](#Document)
+[TransportEquipmentQuantity](#TransportEquipmentQuantity) | xsd:decimal
+[AssociatedReferencedDocument](#AssociatedReferencedDocument) | [edi3:Document](#Document)
+[HaulageHaulageInstructions](#HaulageHaulageInstructions) | [edi3:Instructions](#Instructions)
+[ApplicableTradeCurrencyExchange](#ApplicableTradeCurrencyExchange) | [edi3:CurrencyExchange](#CurrencyExchange)
+[StorageTransportEvent](#StorageTransportEvent) | [edi3:Event](#Event)
+[NilCustomsValueIndicator](#NilCustomsValueIndicator) | xsd:boolean
+[RelatedBookingTypeText](#RelatedBookingTypeText) | xsd:string
+[GrossWeightWeightUnitMeasure](#GrossWeightWeightUnitMeasure) | xsd:decimal
+[ExportTradeCountry](#ExportTradeCountry) | [edi3:Country](#Country)
+[TotalCollectChargeAmount](#TotalCollectChargeAmount) | xsd:decimal
+[ServiceChargeApplicableTradeCurrencyExchange](#ServiceChargeApplicableTradeCurrencyExchange) | [edi3:CurrencyExchange](#CurrencyExchange)
+[TransportSplitDescriptionText](#TransportSplitDescriptionText) | xsd:string
+[GroupingCentreTradeParty](#GroupingCentreTradeParty) | [edi3:Party](#Party)
+[UtilizedLogisticsTransportEquipment](#UtilizedLogisticsTransportEquipment) | [edi3:TransportEquipment](#TransportEquipment)
+[TransportTransportService](#TransportTransportService) | [edi3:Service](#Service)
+[DeclaredValueForCustomsAmount](#DeclaredValueForCustomsAmount) | xsd:decimal
+[ReportedLogisticsStatus](#ReportedLogisticsStatus) | [edi3:Status](#Status)
+[EstimatedApplicableLogisticsServiceCharge](#EstimatedApplicableLogisticsServiceCharge) | [edi3:ServiceCharge](#ServiceCharge)
+[LoadingLengthLinearUnitMeasure](#LoadingLengthLinearUnitMeasure) | xsd:decimal
+[ConnectingCarrierTradeParty](#ConnectingCarrierTradeParty) | [edi3:Party](#Party)
+[InsurancePremiumAmount](#InsurancePremiumAmount) | xsd:decimal
+[HandlingHandlingInstructions](#HandlingHandlingInstructions) | [edi3:Instructions](#Instructions)
+[PreviousAdministrativeReferencedDocument](#PreviousAdministrativeReferencedDocument) | [edi3:Document](#Document)
+[CustomsImportAgentTradeParty](#CustomsImportAgentTradeParty) | [edi3:Party](#Party)
+[LoadingInformationText](#LoadingInformationText) | xsd:string
+[TransportTransportEvent](#TransportTransportEvent) | [edi3:Event](#Event)
+[TransitLogisticsLocation](#TransitLogisticsLocation) | [edi3:Location](#Location)
+[ConsigneeAssignedIdentifier](#ConsigneeAssignedIdentifier) | xsd:token
+[TotalChargeAmount](#TotalChargeAmount) | xsd:decimal
+[NetVolumeVolumeUnitMeasure](#NetVolumeVolumeUnitMeasure) | xsd:decimal
+[PickUpTransportEvent](#PickUpTransportEvent) | [edi3:Event](#Event)
+[ShipToTradeParty](#ShipToTradeParty) | [edi3:Party](#Party)
+[TransportLogisticsPackage](#TransportLogisticsPackage) | [edi3:Package](#Package)
+[InsuranceValueAmount](#InsuranceValueAmount) | xsd:decimal
+[DangerousGoodsNotifierTradeParty](#DangerousGoodsNotifierTradeParty) | [edi3:Party](#Party)
+[RiskFactorCode](#RiskFactorCode) | xsd:token
+[ConsignorProvidedBorderClearanceTransportInstructions](#ConsignorProvidedBorderClearanceTransportInstructions) | [edi3:Instructions](#Instructions)
+[PreCarriageLogisticsTransportMovement](#PreCarriageLogisticsTransportMovement) | [edi3:TransportMovement](#TransportMovement)
+[FinalDestinationTradeCountry](#FinalDestinationTradeCountry) | [edi3:Country](#Country)
+[CarrierProvidedInformationText](#CarrierProvidedInformationText) | xsd:string
+[ConsignmentItemQuantity](#ConsignmentItemQuantity) | xsd:decimal
+[AtArrivalLogisticsTransportMovement](#AtArrivalLogisticsTransportMovement) | [edi3:TransportMovement](#TransportMovement)
+[PaymentArrangementTransportServicePaymentArrangementCode](#PaymentArrangementTransportServicePaymentArrangementCode) | xsd:token
+[TransportEquipmentSplitGoodsIndicator](#TransportEquipmentSplitGoodsIndicator) | xsd:boolean
+[IncludedReferencedSupplyChainConsignment](#IncludedReferencedSupplyChainConsignment) | [edi3:Consignment](#Consignment)
+[ShipFromTradeParty](#ShipFromTradeParty) | [edi3:Party](#Party)
+[FOBAmount](#FOBAmount) | xsd:decimal
+[CustomsRequiredInvoiceReferencedDocument](#CustomsRequiredInvoiceReferencedDocument) | [edi3:Document](#Document)
+[WarehouseArrivalDateTime](#WarehouseArrivalDateTime) | xsd:dateTime
+[TradedParcelIdentifier](#TradedParcelIdentifier) | xsd:token
+[ConsignorAgentTradeParty](#ConsignorAgentTradeParty) | [edi3:Party](#Party)
+[ConsigneeTradeParty](#ConsigneeTradeParty) | [edi3:Party](#Party)
+[DeliveryDeliveryInstructions](#DeliveryDeliveryInstructions) | [edi3:Instructions](#Instructions)
+[PackageQuantity](#PackageQuantity) | xsd:decimal
+[ConsolidatorTradeParty](#ConsolidatorTradeParty) | [edi3:Party](#Party)
+[NilInsuranceValueIndicator](#NilInsuranceValueIndicator) | xsd:boolean
+[InvoiceApplicableTradeCurrencyExchange](#InvoiceApplicableTradeCurrencyExchange) | [edi3:CurrencyExchange](#CurrencyExchange)
+[SequenceNumeric](#SequenceNumeric) | xsd:decimal
+[LoadingSequenceNumeric](#LoadingSequenceNumeric) | xsd:decimal
+[PackageTypeText](#PackageTypeText) | xsd:string
+[UnloadingSequenceNumeric](#UnloadingSequenceNumeric) | xsd:decimal
+[CarrierAgentTradeParty](#CarrierAgentTradeParty) | [edi3:Party](#Party)
+[TotalDisbursementAmount](#TotalDisbursementAmount) | xsd:decimal
+[DeliveryInformationText](#DeliveryInformationText) | xsd:string
+[LoadingBaseportLogisticsLocation](#LoadingBaseportLogisticsLocation) | [edi3:Location](#Location)
+[ContainerizationIndicator](#ContainerizationIndicator) | xsd:boolean
+[CargoToleranceInformationText](#CargoToleranceInformationText) | xsd:string
+[ChargeableTransportationStageQuantity](#ChargeableTransportationStageQuantity) | xsd:decimal
+[NatureIdentificationTransportCargo](#NatureIdentificationTransportCargo) | [edi3:Cargo](#Cargo)
+[CustomsTransitAgentTradeParty](#CustomsTransitAgentTradeParty) | [edi3:Party](#Party)
+[TotalPrepaidChargeAmount](#TotalPrepaidChargeAmount) | xsd:decimal
+[InvoiceeAssociatedTradeParty](#InvoiceeAssociatedTradeParty) | [edi3:Party](#Party)
+[IdentificationIdentifier](#IdentificationIdentifier) | xsd:token
+[SpecifiedLogisticsTransportMovement](#SpecifiedLogisticsTransportMovement) | [edi3:TransportMovement](#TransportMovement)
+[TotalExportExitToImportEntryChargeAmount](#TotalExportExitToImportEntryChargeAmount) | xsd:decimal
+[DeclaredForCustomsLogisticsLocation](#DeclaredForCustomsLogisticsLocation) | [edi3:Location](#Location)
+[FreightForwarderAssignedIdentifier](#FreightForwarderAssignedIdentifier) | xsd:token
+[OnCarriageLogisticsTransportMovement](#OnCarriageLogisticsTransportMovement) | [edi3:TransportMovement](#TransportMovement)
+[FinalDestinationLogisticsLocation](#FinalDestinationLogisticsLocation) | [edi3:Location](#Location)
+[GrossVolumeVolumeUnitMeasure](#GrossVolumeVolumeUnitMeasure) | xsd:decimal
+[DestinationTradeCountry](#DestinationTradeCountry) | [edi3:Country](#Country)
+[ExporterTradeParty](#ExporterTradeParty) | [edi3:Party](#Party)
+[ImporterTradeParty](#ImporterTradeParty) | [edi3:Party](#Party)
+[OriginTradeCountry](#OriginTradeCountry) | [edi3:Country](#Country)
+[ApplicableCrossBorderRegulatoryProcedure](#ApplicableCrossBorderRegulatoryProcedure) | [edi3:RegulatoryProcedure](#RegulatoryProcedure)
+[DeliveryTradeParty](#DeliveryTradeParty) | [edi3:Party](#Party)
+[ConsignorTradeParty](#ConsignorTradeParty) | [edi3:Party](#Party)
+[WarehouseStorageTransportEvent](#WarehouseStorageTransportEvent) | [edi3:Event](#Event)
+[AssociatedTradeParty](#AssociatedTradeParty) | [edi3:Party](#Party)
+[ConsignorProvidedInformationText](#ConsignorProvidedInformationText) | xsd:string
+[SpecifiedLogisticsRiskAnalysisResult](#SpecifiedLogisticsRiskAnalysisResult) | [edi3:RiskAnalysisResult](#RiskAnalysisResult)
+[TransportServicesBuyerTradeParty](#TransportServicesBuyerTradeParty) | [edi3:Party](#Party)
+[ChargeableWeightWeightUnitMeasure](#ChargeableWeightWeightUnitMeasure) | xsd:decimal
+[MainCarriageLogisticsTransportMovement](#MainCarriageLogisticsTransportMovement) | [edi3:TransportMovement](#TransportMovement)
+[CargoInsuranceInstructionsInformationText](#CargoInsuranceInstructionsInformationText) | xsd:string
+[ApplicableTransportCargoInsurance](#ApplicableTransportCargoInsurance) | [edi3:CargoInsurance](#CargoInsurance)
+[LoadingListQuantity](#LoadingListQuantity) | xsd:decimal
+[UnloadingBaseportLogisticsLocation](#UnloadingBaseportLogisticsLocation) | [edi3:Location](#Location)
+[ConsigneeReceiptLogisticsLocation](#ConsigneeReceiptLogisticsLocation) | [edi3:Location](#Location)
+[SpecifiedTradeDeliveryTerms](#SpecifiedTradeDeliveryTerms) | [edi3:DeliveryTerms](#DeliveryTerms)
+[SummaryDescriptionText](#SummaryDescriptionText) | xsd:string
+[NilCarriageValueIndicator](#NilCarriageValueIndicator) | xsd:boolean
+[AvailabilityDueDateTime](#AvailabilityDueDateTime) | xsd:dateTime
+[AssociatedInvoiceDiscountAmount](#AssociatedInvoiceDiscountAmount) | xsd:decimal
+[IncludedReferencedSupplyChainConsignmentItem](#IncludedReferencedSupplyChainConsignmentItem) | [edi3:ConsignmentItem](#ConsignmentItem)
+[PhysicalLogisticsShippingMarks](#PhysicalLogisticsShippingMarks) | [edi3:ShippingMarks](#ShippingMarks)
+[ExaminationTransportEvent](#ExaminationTransportEvent) | [edi3:Event](#Event)
+[CarrierAssignedIdentifier](#CarrierAssignedIdentifier) | xsd:token
+[TransshipmentPermissionIndicator](#TransshipmentPermissionIndicator) | xsd:boolean
+[AssociatedInvoiceAmount](#AssociatedInvoiceAmount) | xsd:decimal
+[AssociatedInvoiceDiscountPercent](#AssociatedInvoiceDiscountPercent) | xsd:decimal
+[ExportTradeGeopoliticalRegion](#ExportTradeGeopoliticalRegion) | [edi3:GeopoliticalRegion](#GeopoliticalRegion)
+[DeconsolidatorTradeParty](#DeconsolidatorTradeParty) | [edi3:Party](#Party)
+[DespatchTradeParty](#DespatchTradeParty) | [edi3:Party](#Party)
+[CarrierAcceptanceDateTime](#CarrierAcceptanceDateTime) | xsd:dateTime
+[DeclaredValueForCarriageAmount](#DeclaredValueForCarriageAmount) | xsd:decimal
+[TransitTradeCountry](#TransitTradeCountry) | [edi3:Country](#Country)
+[TransportContractReferencedDocument](#TransportContractReferencedDocument) | [edi3:Document](#Document)
+[FreightForwarderTradeParty](#FreightForwarderTradeParty) | [edi3:Party](#Party)
+[RelatedSupplyChainTradeTransaction](#RelatedSupplyChainTradeTransaction) | [edi3:TradeTransaction](#TradeTransaction)
+[BondedWarehouseStorageTransportEvent](#BondedWarehouseStorageTransportEvent) | [edi3:Event](#Event)
+[VanningTransportEvent](#VanningTransportEvent) | [edi3:Event](#Event)
 
 
 <h1 id="MonetarySummation">MonetarySummation</h1>
@@ -1444,36 +1444,36 @@ Properties:
 
 Name | Type 
 -|-
-<span id="InsuranceChargeTotalAmount">InsuranceChargeTotalAmount</span> | xsd:decimal
-<span id="NetIncludingTaxesLineTotalAmount">NetIncludingTaxesLineTotalAmount</span> | xsd:decimal
-<span id="RoundingAmount">RoundingAmount</span> | xsd:decimal
-<span id="TotalAllowanceChargeAmount">TotalAllowanceChargeAmount</span> | xsd:decimal
-<span id="ProductValueExcludingTobaccoTaxInformationAmount">ProductValueExcludingTobaccoTaxInformationAmount</span> | xsd:decimal
-<span id="AllowanceTotalAmount">AllowanceTotalAmount</span> | xsd:decimal
-<span id="RetailValueExcludingTaxInformationAmount">RetailValueExcludingTaxInformationAmount</span> | xsd:decimal
-<span id="NetLineTotalAmount">NetLineTotalAmount</span> | xsd:decimal
-<span id="TotalDiscountAmount">TotalDiscountAmount</span> | xsd:decimal
-<span id="EquivalentTransferTotalAmount">EquivalentTransferTotalAmount</span> | xsd:decimal
-<span id="TotalRetailValueInformationAmount">TotalRetailValueInformationAmount</span> | xsd:decimal
-<span id="ExcludingTaxesLineTotalAmount">ExcludingTaxesLineTotalAmount</span> | xsd:decimal
-<span id="ApplicableHeaderBalanceOut">ApplicableHeaderBalanceOut</span> | [edi3:BalanceOut](#BalanceOut)
-<span id="TaxBasisTotalAmount">TaxBasisTotalAmount</span> | xsd:decimal
-<span id="ChargeTotalAmount">ChargeTotalAmount</span> | xsd:decimal
-<span id="TotalPrepaidAmount">TotalPrepaidAmount</span> | xsd:decimal
-<span id="PaymentTotalAmount">PaymentTotalAmount</span> | xsd:decimal
-<span id="LineTotalAmount">LineTotalAmount</span> | xsd:decimal
-<span id="DuePayableAmount">DuePayableAmount</span> | xsd:decimal
-<span id="ApplicablePaymentBalanceOut">ApplicablePaymentBalanceOut</span> | [edi3:BalanceOut](#BalanceOut)
-<span id="BalanceOutAmount">BalanceOutAmount</span> | xsd:decimal
-<span id="IncludingTaxesLineTotalAmount">IncludingTaxesLineTotalAmount</span> | xsd:decimal
-<span id="ProductWeightLossInformationAmount">ProductWeightLossInformationAmount</span> | xsd:decimal
-<span id="InformationAmount">InformationAmount</span> | xsd:decimal
-<span id="TotalDiscountBasisAmount">TotalDiscountBasisAmount</span> | xsd:decimal
-<span id="GrandTotalAmount">GrandTotalAmount</span> | xsd:decimal
-<span id="GrandTotalSpecifiedFinancialAdjustment">GrandTotalSpecifiedFinancialAdjustment</span> | [edi3:Adjustment](#Adjustment)
-<span id="AdjustedBalanceOutAmount">AdjustedBalanceOutAmount</span> | xsd:decimal
-<span id="GrossLineTotalAmount">GrossLineTotalAmount</span> | xsd:decimal
-<span id="TotalDepositFeeInformationAmount">TotalDepositFeeInformationAmount</span> | xsd:decimal
+[InsuranceChargeTotalAmount](#InsuranceChargeTotalAmount) | xsd:decimal
+[NetIncludingTaxesLineTotalAmount](#NetIncludingTaxesLineTotalAmount) | xsd:decimal
+[RoundingAmount](#RoundingAmount) | xsd:decimal
+[TotalAllowanceChargeAmount](#TotalAllowanceChargeAmount) | xsd:decimal
+[ProductValueExcludingTobaccoTaxInformationAmount](#ProductValueExcludingTobaccoTaxInformationAmount) | xsd:decimal
+[AllowanceTotalAmount](#AllowanceTotalAmount) | xsd:decimal
+[RetailValueExcludingTaxInformationAmount](#RetailValueExcludingTaxInformationAmount) | xsd:decimal
+[NetLineTotalAmount](#NetLineTotalAmount) | xsd:decimal
+[TotalDiscountAmount](#TotalDiscountAmount) | xsd:decimal
+[EquivalentTransferTotalAmount](#EquivalentTransferTotalAmount) | xsd:decimal
+[TotalRetailValueInformationAmount](#TotalRetailValueInformationAmount) | xsd:decimal
+[ExcludingTaxesLineTotalAmount](#ExcludingTaxesLineTotalAmount) | xsd:decimal
+[ApplicableHeaderBalanceOut](#ApplicableHeaderBalanceOut) | [edi3:BalanceOut](#BalanceOut)
+[TaxBasisTotalAmount](#TaxBasisTotalAmount) | xsd:decimal
+[ChargeTotalAmount](#ChargeTotalAmount) | xsd:decimal
+[TotalPrepaidAmount](#TotalPrepaidAmount) | xsd:decimal
+[PaymentTotalAmount](#PaymentTotalAmount) | xsd:decimal
+[LineTotalAmount](#LineTotalAmount) | xsd:decimal
+[DuePayableAmount](#DuePayableAmount) | xsd:decimal
+[ApplicablePaymentBalanceOut](#ApplicablePaymentBalanceOut) | [edi3:BalanceOut](#BalanceOut)
+[BalanceOutAmount](#BalanceOutAmount) | xsd:decimal
+[IncludingTaxesLineTotalAmount](#IncludingTaxesLineTotalAmount) | xsd:decimal
+[ProductWeightLossInformationAmount](#ProductWeightLossInformationAmount) | xsd:decimal
+[InformationAmount](#InformationAmount) | xsd:decimal
+[TotalDiscountBasisAmount](#TotalDiscountBasisAmount) | xsd:decimal
+[GrandTotalAmount](#GrandTotalAmount) | xsd:decimal
+[GrandTotalSpecifiedFinancialAdjustment](#GrandTotalSpecifiedFinancialAdjustment) | [edi3:Adjustment](#Adjustment)
+[AdjustedBalanceOutAmount](#AdjustedBalanceOutAmount) | xsd:decimal
+[GrossLineTotalAmount](#GrossLineTotalAmount) | xsd:decimal
+[TotalDepositFeeInformationAmount](#TotalDepositFeeInformationAmount) | xsd:decimal
 
 
 <h1 id="PaymentDiscountTerms">PaymentDiscountTerms</h1>
@@ -1486,10 +1486,10 @@ Properties:
 
 Name | Type 
 -|-
-<span id="BasisAmount">BasisAmount</span> | xsd:decimal
-<span id="CalculationPercent">CalculationPercent</span> | xsd:decimal
-<span id="BasisPeriodMeasure">BasisPeriodMeasure</span> | xsd:decimal
-<span id="BasisDateTime">BasisDateTime</span> | xsd:dateTime
+[BasisAmount](#BasisAmount) | xsd:decimal
+[CalculationPercent](#CalculationPercent) | xsd:decimal
+[BasisPeriodMeasure](#BasisPeriodMeasure) | xsd:decimal
+[BasisDateTime](#BasisDateTime) | xsd:dateTime
 
 
 <h1 id="FinancialCard">FinancialCard</h1>
@@ -1502,17 +1502,17 @@ Properties:
 
 Name | Type 
 -|-
-<span id="IssuingCompanyNameText">IssuingCompanyNameText</span> | xsd:string
-<span id="TypeCode">TypeCode</span> | xsd:token
-<span id="MicrochipIndicator">MicrochipIndicator</span> | xsd:boolean
-<span id="ValidFromDateTime">ValidFromDateTime</span> | xsd:dateTime
-<span id="DescriptionText">DescriptionText</span> | xsd:string
-<span id="CardholderNameText">CardholderNameText</span> | xsd:string
-<span id="CreditLimitAmount">CreditLimitAmount</span> | xsd:decimal
-<span id="IdentificationIdentifier">IdentificationIdentifier</span> | xsd:token
-<span id="ExpiryDate">ExpiryDate</span> | xsd:date
-<span id="InterestRatePercent">InterestRatePercent</span> | xsd:decimal
-<span id="VerificationNumeric">VerificationNumeric</span> | xsd:decimal
+[IssuingCompanyNameText](#IssuingCompanyNameText) | xsd:string
+[TypeCode](#TypeCode) | xsd:token
+[MicrochipIndicator](#MicrochipIndicator) | xsd:boolean
+[ValidFromDateTime](#ValidFromDateTime) | xsd:dateTime
+[DescriptionText](#DescriptionText) | xsd:string
+[CardholderNameText](#CardholderNameText) | xsd:string
+[CreditLimitAmount](#CreditLimitAmount) | xsd:decimal
+[IdentificationIdentifier](#IdentificationIdentifier) | xsd:token
+[ExpiryDate](#ExpiryDate) | xsd:date
+[InterestRatePercent](#InterestRatePercent) | xsd:decimal
+[VerificationNumeric](#VerificationNumeric) | xsd:decimal
 
 
 <h1 id="Party">Party</h1>
@@ -1525,47 +1525,47 @@ Properties:
 
 Name | Type 
 -|-
-<span id="RoleText">RoleText</span> | xsd:string
-<span id="ApplicableLogisticsServiceCharge">ApplicableLogisticsServiceCharge</span> | [edi3:ServiceCharge](#ServiceCharge)
-<span id="LogoAssociatedSpecifiedBinaryFile">LogoAssociatedSpecifiedBinaryFile</span> | [edi3:BinaryFile](#BinaryFile)
-<span id="SpecifiedProprietaryIdentity">SpecifiedProprietaryIdentity</span> | [edi3:Identity](#Identity)
-<span id="SpecifiedAuthoritativeSignatoryPerson">SpecifiedAuthoritativeSignatoryPerson</span> | [edi3:Person](#Person)
-<span id="BEIIdentificationIdentifier">BEIIdentificationIdentifier</span> | xsd:token
-<span id="GlobalIdentificationIdentifier">GlobalIdentificationIdentifier</span> | xsd:token
-<span id="SpecifiedLegalOrganization">SpecifiedLegalOrganization</span> | [edi3:Organization](#Organization)
-<span id="TypeCode">TypeCode</span> | xsd:token
-<span id="EndPointURIUniversalCommunication">EndPointURIUniversalCommunication</span> | [edi3:Communication](#Communication)
-<span id="SpecifiedProjectOrganization">SpecifiedProjectOrganization</span> | [edi3:Organization](#Organization)
-<span id="SpecifiedGovernmentRegistration">SpecifiedGovernmentRegistration</span> | [edi3:Registration](#Registration)
-<span id="OwnedCreditorFinancialAccount">OwnedCreditorFinancialAccount</span> | [edi3:FinancialAccount](#FinancialAccount)
-<span id="FaxUniversalCommunication">FaxUniversalCommunication</span> | [edi3:Communication](#Communication)
-<span id="DefinedTradeContact">DefinedTradeContact</span> | [edi3:Contact](#Contact)
-<span id="SpecifiedTransportPerson">SpecifiedTransportPerson</span> | [edi3:Person](#Person)
-<span id="LanguageLanguageCode">LanguageLanguageCode</span> | xsd:token
-<span id="SpecifiedProjectPerson">SpecifiedProjectPerson</span> | [edi3:Person](#Person)
-<span id="RoleCode">RoleCode</span> | xsd:token
-<span id="DescriptionText">DescriptionText</span> | xsd:string
-<span id="GLNIdentificationIdentifier">GLNIdentificationIdentifier</span> | xsd:token
-<span id="RegisteredIdentificationIdentifier">RegisteredIdentificationIdentifier</span> | xsd:token
-<span id="SpecifiedTaxRegistration">SpecifiedTaxRegistration</span> | [edi3:Registration](#Registration)
-<span id="TelephoneUniversalCommunication">TelephoneUniversalCommunication</span> | [edi3:Communication](#Communication)
-<span id="IdentificationIdentifier">IdentificationIdentifier</span> | xsd:token
-<span id="SpecifiedLogisticsLocation">SpecifiedLogisticsLocation</span> | [edi3:Location](#Location)
-<span id="URIUniversalCommunication">URIUniversalCommunication</span> | [edi3:Communication](#Communication)
-<span id="ProvidedTransportService">ProvidedTransportService</span> | [edi3:Service](#Service)
-<span id="RolePartyRoleCode">RolePartyRoleCode</span> | xsd:token
-<span id="NameText">NameText</span> | xsd:string
-<span id="AccessRightsCode">AccessRightsCode</span> | xsd:token
-<span id="AssociatedTradeParty">AssociatedTradeParty</span> | [edi3:Party](#Party)
-<span id="SpecifiedLogisticsRiskAnalysisResult">SpecifiedLogisticsRiskAnalysisResult</span> | [edi3:RiskAnalysisResult](#RiskAnalysisResult)
-<span id="CountryIdentifier">CountryIdentifier</span> | xsd:token
-<span id="SpecifiedCreditorFinancialAccount">SpecifiedCreditorFinancialAccount</span> | [edi3:FinancialAccount](#FinancialAccount)
-<span id="SpecifiedFinancialIdentity">SpecifiedFinancialIdentity</span> | [edi3:Identity](#Identity)
-<span id="PostalTradeAddress">PostalTradeAddress</span> | [edi3:Address](#Address)
-<span id="SpecifiedContactPerson">SpecifiedContactPerson</span> | [edi3:Person](#Person)
-<span id="QualityAssuranceIndicator">QualityAssuranceIndicator</span> | xsd:boolean
-<span id="DUNSIdentificationIdentifier">DUNSIdentificationIdentifier</span> | xsd:token
-<span id="LineOfCreditSpecifiedFinancingFinancialAccount">LineOfCreditSpecifiedFinancingFinancialAccount</span> | [edi3:FinancialAccount](#FinancialAccount)
+[RoleText](#RoleText) | xsd:string
+[ApplicableLogisticsServiceCharge](#ApplicableLogisticsServiceCharge) | [edi3:ServiceCharge](#ServiceCharge)
+[LogoAssociatedSpecifiedBinaryFile](#LogoAssociatedSpecifiedBinaryFile) | [edi3:BinaryFile](#BinaryFile)
+[SpecifiedProprietaryIdentity](#SpecifiedProprietaryIdentity) | [edi3:Identity](#Identity)
+[SpecifiedAuthoritativeSignatoryPerson](#SpecifiedAuthoritativeSignatoryPerson) | [edi3:Person](#Person)
+[BEIIdentificationIdentifier](#BEIIdentificationIdentifier) | xsd:token
+[GlobalIdentificationIdentifier](#GlobalIdentificationIdentifier) | xsd:token
+[SpecifiedLegalOrganization](#SpecifiedLegalOrganization) | [edi3:Organization](#Organization)
+[TypeCode](#TypeCode) | xsd:token
+[EndPointURIUniversalCommunication](#EndPointURIUniversalCommunication) | [edi3:Communication](#Communication)
+[SpecifiedProjectOrganization](#SpecifiedProjectOrganization) | [edi3:Organization](#Organization)
+[SpecifiedGovernmentRegistration](#SpecifiedGovernmentRegistration) | [edi3:Registration](#Registration)
+[OwnedCreditorFinancialAccount](#OwnedCreditorFinancialAccount) | [edi3:FinancialAccount](#FinancialAccount)
+[FaxUniversalCommunication](#FaxUniversalCommunication) | [edi3:Communication](#Communication)
+[DefinedTradeContact](#DefinedTradeContact) | [edi3:Contact](#Contact)
+[SpecifiedTransportPerson](#SpecifiedTransportPerson) | [edi3:Person](#Person)
+[LanguageLanguageCode](#LanguageLanguageCode) | xsd:token
+[SpecifiedProjectPerson](#SpecifiedProjectPerson) | [edi3:Person](#Person)
+[RoleCode](#RoleCode) | xsd:token
+[DescriptionText](#DescriptionText) | xsd:string
+[GLNIdentificationIdentifier](#GLNIdentificationIdentifier) | xsd:token
+[RegisteredIdentificationIdentifier](#RegisteredIdentificationIdentifier) | xsd:token
+[SpecifiedTaxRegistration](#SpecifiedTaxRegistration) | [edi3:Registration](#Registration)
+[TelephoneUniversalCommunication](#TelephoneUniversalCommunication) | [edi3:Communication](#Communication)
+[IdentificationIdentifier](#IdentificationIdentifier) | xsd:token
+[SpecifiedLogisticsLocation](#SpecifiedLogisticsLocation) | [edi3:Location](#Location)
+[URIUniversalCommunication](#URIUniversalCommunication) | [edi3:Communication](#Communication)
+[ProvidedTransportService](#ProvidedTransportService) | [edi3:Service](#Service)
+[RolePartyRoleCode](#RolePartyRoleCode) | xsd:token
+[NameText](#NameText) | xsd:string
+[AccessRightsCode](#AccessRightsCode) | xsd:token
+[AssociatedTradeParty](#AssociatedTradeParty) | [edi3:Party](#Party)
+[SpecifiedLogisticsRiskAnalysisResult](#SpecifiedLogisticsRiskAnalysisResult) | [edi3:RiskAnalysisResult](#RiskAnalysisResult)
+[CountryIdentifier](#CountryIdentifier) | xsd:token
+[SpecifiedCreditorFinancialAccount](#SpecifiedCreditorFinancialAccount) | [edi3:FinancialAccount](#FinancialAccount)
+[SpecifiedFinancialIdentity](#SpecifiedFinancialIdentity) | [edi3:Identity](#Identity)
+[PostalTradeAddress](#PostalTradeAddress) | [edi3:Address](#Address)
+[SpecifiedContactPerson](#SpecifiedContactPerson) | [edi3:Person](#Person)
+[QualityAssuranceIndicator](#QualityAssuranceIndicator) | xsd:boolean
+[DUNSIdentificationIdentifier](#DUNSIdentificationIdentifier) | xsd:token
+[LineOfCreditSpecifiedFinancingFinancialAccount](#LineOfCreditSpecifiedFinancingFinancialAccount) | [edi3:FinancialAccount](#FinancialAccount)
 
 
 <h1 id="MaterialComponent">MaterialComponent</h1>
@@ -1578,54 +1578,54 @@ Properties:
 
 Name | Type 
 -|-
-<span id="RemainingDeliveryTransportEvent">RemainingDeliveryTransportEvent</span> | [edi3:Event](#Event)
-<span id="MaximumDedicatedStorageCapacityVolumeUnitMeasure">MaximumDedicatedStorageCapacityVolumeUnitMeasure</span> | xsd:decimal
-<span id="RetainedVolumeUnitMeasure">RetainedVolumeUnitMeasure</span> | xsd:decimal
-<span id="PlannedDischargedVolumeUnitMeasure">PlannedDischargedVolumeUnitMeasure</span> | xsd:decimal
-<span id="DescriptionText">DescriptionText</span> | xsd:string
-<span id="EstimatedGeneratedVolumeUnitMeasure">EstimatedGeneratedVolumeUnitMeasure</span> | xsd:decimal
+[RemainingDeliveryTransportEvent](#RemainingDeliveryTransportEvent) | [edi3:Event](#Event)
+[MaximumDedicatedStorageCapacityVolumeUnitMeasure](#MaximumDedicatedStorageCapacityVolumeUnitMeasure) | xsd:decimal
+[RetainedVolumeUnitMeasure](#RetainedVolumeUnitMeasure) | xsd:decimal
+[PlannedDischargedVolumeUnitMeasure](#PlannedDischargedVolumeUnitMeasure) | xsd:decimal
+[DescriptionText](#DescriptionText) | xsd:string
+[EstimatedGeneratedVolumeUnitMeasure](#EstimatedGeneratedVolumeUnitMeasure) | xsd:decimal
 
 
 <h1 id="FinancialInstitution">FinancialInstitution</h1>
 
 Type: rdf:Class
 
-Comments: <br/>A bank, building society, credit union, stock brokerage, or similar business of the party that receives money.<br/>A bank, building society, credit union, stock brokerage, or similar business of the party that owes money.<br/>A sub-division of a bank, building society, credit union, stock brokerage, or similar business; established primarily to provide financial services and financial transactions.<br/>
+Comments: <br/>A bank, building society, credit union, stock brokerage, or similar business of the party that owes money.<br/>A bank, building society, credit union, stock brokerage, or similar business of the party that receives money.<br/>A sub-division of a bank, building society, credit union, stock brokerage, or similar business; established primarily to provide financial services and financial transactions.<br/>
 
 Properties: 
 
 Name | Type 
 -|-
-<span id="AustrianBankleitzahlIdentificationIdentifier">AustrianBankleitzahlIdentificationIdentifier</span> | xsd:token
-<span id="CanadianPaymentsAssociationIdentificationIdentifier">CanadianPaymentsAssociationIdentificationIdentifier</span> | xsd:token
-<span id="RussianCentralBankIdentificationIdentifier">RussianCentralBankIdentificationIdentifier</span> | xsd:token
-<span id="SpecifiedProprietaryIdentity">SpecifiedProprietaryIdentity</span> | [edi3:Identity](#Identity)
-<span id="UKSortCodeIdentificationIdentifier">UKSortCodeIdentificationIdentifier</span> | xsd:token
-<span id="SpanishDomesticInterbankingIdentificationIdentifier">SpanishDomesticInterbankingIdentificationIdentifier</span> | xsd:token
-<span id="SouthAfricanNCCIdentificationIdentifier">SouthAfricanNCCIdentificationIdentifier</span> | xsd:token
-<span id="CHIPSParticipantIdentificationIdentifier">CHIPSParticipantIdentificationIdentifier</span> | xsd:token
-<span id="PolishNationalClearingIdentificationIdentifier">PolishNationalClearingIdentificationIdentifier</span> | xsd:token
-<span id="NewZealandNCCIdentificationIdentifier">NewZealandNCCIdentificationIdentifier</span> | xsd:token
-<span id="SwissBCIdentificationIdentifier">SwissBCIdentificationIdentifier</span> | xsd:token
-<span id="AustralianSNIdentificationIdentifier">AustralianSNIdentificationIdentifier</span> | xsd:token
-<span id="IndianFinancialSystemIdentificationIdentifier">IndianFinancialSystemIdentificationIdentifier</span> | xsd:token
-<span id="SubDivisionBranchFinancialInstitution">SubDivisionBranchFinancialInstitution</span> | [edi3:FinancialInstitution](#FinancialInstitution)
-<span id="LocationFinancialInstitutionAddress">LocationFinancialInstitutionAddress</span> | [edi3:Address](#Address)
-<span id="ItalianDomesticIdentificationIdentifier">ItalianDomesticIdentificationIdentifier</span> | xsd:token
-<span id="CHIPSUniversalIdentificationIdentifier">CHIPSUniversalIdentificationIdentifier</span> | xsd:token
-<span id="JapanFinancialInstitutionCommonIdentificationIdentifier">JapanFinancialInstitutionCommonIdentificationIdentifier</span> | xsd:token
-<span id="ClearingSystemNameText">ClearingSystemNameText</span> | xsd:string
-<span id="HongKongBankIdentificationIdentifier">HongKongBankIdentificationIdentifier</span> | xsd:token
-<span id="HellenicBankIdentificationIdentifier">HellenicBankIdentificationIdentifier</span> | xsd:token
-<span id="PortugueseNCCIdentificationIdentifier">PortugueseNCCIdentificationIdentifier</span> | xsd:token
-<span id="AdditionalClearingSystemIdentifier">AdditionalClearingSystemIdentifier</span> | xsd:token
-<span id="BICIdentifier">BICIdentifier</span> | xsd:token
-<span id="IdentificationIdentifier">IdentificationIdentifier</span> | xsd:token
-<span id="FedwireRoutingNumberIdentificationIdentifier">FedwireRoutingNumberIdentificationIdentifier</span> | xsd:token
-<span id="NameText">NameText</span> | xsd:string
-<span id="GermanBankleitzahlIdentificationIdentifier">GermanBankleitzahlIdentificationIdentifier</span> | xsd:token
-<span id="SICIdentificationIdentifier">SICIdentificationIdentifier</span> | xsd:token
-<span id="AustralianBSBIdentificationIdentifier">AustralianBSBIdentificationIdentifier</span> | xsd:token
+[AustrianBankleitzahlIdentificationIdentifier](#AustrianBankleitzahlIdentificationIdentifier) | xsd:token
+[CanadianPaymentsAssociationIdentificationIdentifier](#CanadianPaymentsAssociationIdentificationIdentifier) | xsd:token
+[RussianCentralBankIdentificationIdentifier](#RussianCentralBankIdentificationIdentifier) | xsd:token
+[SpecifiedProprietaryIdentity](#SpecifiedProprietaryIdentity) | [edi3:Identity](#Identity)
+[UKSortCodeIdentificationIdentifier](#UKSortCodeIdentificationIdentifier) | xsd:token
+[SpanishDomesticInterbankingIdentificationIdentifier](#SpanishDomesticInterbankingIdentificationIdentifier) | xsd:token
+[SouthAfricanNCCIdentificationIdentifier](#SouthAfricanNCCIdentificationIdentifier) | xsd:token
+[CHIPSParticipantIdentificationIdentifier](#CHIPSParticipantIdentificationIdentifier) | xsd:token
+[PolishNationalClearingIdentificationIdentifier](#PolishNationalClearingIdentificationIdentifier) | xsd:token
+[NewZealandNCCIdentificationIdentifier](#NewZealandNCCIdentificationIdentifier) | xsd:token
+[SwissBCIdentificationIdentifier](#SwissBCIdentificationIdentifier) | xsd:token
+[AustralianSNIdentificationIdentifier](#AustralianSNIdentificationIdentifier) | xsd:token
+[IndianFinancialSystemIdentificationIdentifier](#IndianFinancialSystemIdentificationIdentifier) | xsd:token
+[SubDivisionBranchFinancialInstitution](#SubDivisionBranchFinancialInstitution) | [edi3:FinancialInstitution](#FinancialInstitution)
+[LocationFinancialInstitutionAddress](#LocationFinancialInstitutionAddress) | [edi3:Address](#Address)
+[ItalianDomesticIdentificationIdentifier](#ItalianDomesticIdentificationIdentifier) | xsd:token
+[CHIPSUniversalIdentificationIdentifier](#CHIPSUniversalIdentificationIdentifier) | xsd:token
+[JapanFinancialInstitutionCommonIdentificationIdentifier](#JapanFinancialInstitutionCommonIdentificationIdentifier) | xsd:token
+[ClearingSystemNameText](#ClearingSystemNameText) | xsd:string
+[HongKongBankIdentificationIdentifier](#HongKongBankIdentificationIdentifier) | xsd:token
+[HellenicBankIdentificationIdentifier](#HellenicBankIdentificationIdentifier) | xsd:token
+[PortugueseNCCIdentificationIdentifier](#PortugueseNCCIdentificationIdentifier) | xsd:token
+[AdditionalClearingSystemIdentifier](#AdditionalClearingSystemIdentifier) | xsd:token
+[BICIdentifier](#BICIdentifier) | xsd:token
+[IdentificationIdentifier](#IdentificationIdentifier) | xsd:token
+[FedwireRoutingNumberIdentificationIdentifier](#FedwireRoutingNumberIdentificationIdentifier) | xsd:token
+[NameText](#NameText) | xsd:string
+[GermanBankleitzahlIdentificationIdentifier](#GermanBankleitzahlIdentificationIdentifier) | xsd:token
+[SICIdentificationIdentifier](#SICIdentificationIdentifier) | xsd:token
+[AustralianBSBIdentificationIdentifier](#AustralianBSBIdentificationIdentifier) | xsd:token
 
 
 <h1 id="ComplexDescription">ComplexDescription</h1>
@@ -1638,11 +1638,11 @@ Properties:
 
 Name | Type 
 -|-
-<span id="SubsetWorkItemComplexDescription">SubsetWorkItemComplexDescription</span> | [edi3:ComplexDescription](#ComplexDescription)
-<span id="ContractualLanguageCode">ContractualLanguageCode</span> | xsd:token
-<span id="RequestingSpecificationQuery">RequestingSpecificationQuery</span> | [edi3:Query](#Query)
-<span id="ContentText">ContentText</span> | xsd:string
-<span id="RespondingSpecificationResponse">RespondingSpecificationResponse</span> | [edi3:Response](#Response)
+[SubsetWorkItemComplexDescription](#SubsetWorkItemComplexDescription) | [edi3:ComplexDescription](#ComplexDescription)
+[ContractualLanguageCode](#ContractualLanguageCode) | xsd:token
+[RequestingSpecificationQuery](#RequestingSpecificationQuery) | [edi3:Query](#Query)
+[ContentText](#ContentText) | xsd:string
+[RespondingSpecificationResponse](#RespondingSpecificationResponse) | [edi3:Response](#Response)
 
 
 <h1 id="GeopoliticalRegion">GeopoliticalRegion</h1>
@@ -1655,9 +1655,9 @@ Properties:
 
 Name | Type 
 -|-
-<span id="IdentificationIdentifier">IdentificationIdentifier</span> | xsd:token
-<span id="NameText">NameText</span> | xsd:string
-<span id="IncludedTradeCountry">IncludedTradeCountry</span> | [edi3:Country](#Country)
+[IdentificationIdentifier](#IdentificationIdentifier) | xsd:token
+[NameText](#NameText) | xsd:string
+[IncludedTradeCountry](#IncludedTradeCountry) | [edi3:Country](#Country)
 
 
 <h1 id="GeographicalMultiSurface">GeographicalMultiSurface</h1>
@@ -1670,7 +1670,7 @@ Properties:
 
 Name | Type 
 -|-
-<span id="AssociatedSpecifiedGeographicalObjectCharacteristic">AssociatedSpecifiedGeographicalObjectCharacteristic</span> | [edi3:GeographicalObjectCharacteristic](#GeographicalObjectCharacteristic)
+[AssociatedSpecifiedGeographicalObjectCharacteristic](#AssociatedSpecifiedGeographicalObjectCharacteristic) | [edi3:GeographicalObjectCharacteristic](#GeographicalObjectCharacteristic)
 
 
 <h1 id="Communication">Communication</h1>
@@ -1683,16 +1683,16 @@ Properties:
 
 Name | Type 
 -|-
-<span id="URIIdentifier">URIIdentifier</span> | xsd:token
-<span id="UsageSpecifiedPreference">UsageSpecifiedPreference</span> | [edi3:Preference](#Preference)
-<span id="LocalNumberText">LocalNumberText</span> | xsd:string
-<span id="SpecialDeviceTypeText">SpecialDeviceTypeText</span> | xsd:string
-<span id="ChannelCommunicationChannelCode">ChannelCommunicationChannelCode</span> | xsd:token
-<span id="CountryNumberCode">CountryNumberCode</span> | xsd:token
-<span id="UseCode">UseCode</span> | xsd:token
-<span id="CompleteNumberText">CompleteNumberText</span> | xsd:string
-<span id="InternalAccessText">InternalAccessText</span> | xsd:string
-<span id="AreaNumberCode">AreaNumberCode</span> | xsd:token
+[URIIdentifier](#URIIdentifier) | xsd:token
+[UsageSpecifiedPreference](#UsageSpecifiedPreference) | [edi3:Preference](#Preference)
+[LocalNumberText](#LocalNumberText) | xsd:string
+[SpecialDeviceTypeText](#SpecialDeviceTypeText) | xsd:string
+[ChannelCommunicationChannelCode](#ChannelCommunicationChannelCode) | xsd:token
+[CountryNumberCode](#CountryNumberCode) | xsd:token
+[UseCode](#UseCode) | xsd:token
+[CompleteNumberText](#CompleteNumberText) | xsd:string
+[InternalAccessText](#InternalAccessText) | xsd:string
+[AreaNumberCode](#AreaNumberCode) | xsd:token
 
 
 <h1 id="Context">Context</h1>
@@ -1705,16 +1705,16 @@ Properties:
 
 Name | Type 
 -|-
-<span id="SubsetSpecifiedDocumentContextParameter">SubsetSpecifiedDocumentContextParameter</span> | [edi3:Parameter](#Parameter)
-<span id="BIMSpecifiedDocumentContextParameter">BIMSpecifiedDocumentContextParameter</span> | [edi3:Parameter](#Parameter)
-<span id="ApplicationSpecifiedDocumentContextParameter">ApplicationSpecifiedDocumentContextParameter</span> | [edi3:Parameter](#Parameter)
-<span id="ProcessingTransactionDateTime">ProcessingTransactionDateTime</span> | xsd:dateTime
-<span id="GuidelineSpecifiedDocumentContextParameter">GuidelineSpecifiedDocumentContextParameter</span> | [edi3:Parameter](#Parameter)
-<span id="ScenarioSpecifiedDocumentContextParameter">ScenarioSpecifiedDocumentContextParameter</span> | [edi3:Parameter](#Parameter)
-<span id="MessageStandardSpecifiedDocumentContextParameter">MessageStandardSpecifiedDocumentContextParameter</span> | [edi3:Parameter](#Parameter)
-<span id="BusinessProcessSpecifiedDocumentContextParameter">BusinessProcessSpecifiedDocumentContextParameter</span> | [edi3:Parameter](#Parameter)
-<span id="UserSpecifiedDocumentContextParameter">UserSpecifiedDocumentContextParameter</span> | [edi3:Parameter](#Parameter)
-<span id="SpecifiedTransactionIdentifier">SpecifiedTransactionIdentifier</span> | xsd:token
+[SubsetSpecifiedDocumentContextParameter](#SubsetSpecifiedDocumentContextParameter) | [edi3:Parameter](#Parameter)
+[BIMSpecifiedDocumentContextParameter](#BIMSpecifiedDocumentContextParameter) | [edi3:Parameter](#Parameter)
+[ApplicationSpecifiedDocumentContextParameter](#ApplicationSpecifiedDocumentContextParameter) | [edi3:Parameter](#Parameter)
+[ProcessingTransactionDateTime](#ProcessingTransactionDateTime) | xsd:dateTime
+[GuidelineSpecifiedDocumentContextParameter](#GuidelineSpecifiedDocumentContextParameter) | [edi3:Parameter](#Parameter)
+[ScenarioSpecifiedDocumentContextParameter](#ScenarioSpecifiedDocumentContextParameter) | [edi3:Parameter](#Parameter)
+[MessageStandardSpecifiedDocumentContextParameter](#MessageStandardSpecifiedDocumentContextParameter) | [edi3:Parameter](#Parameter)
+[BusinessProcessSpecifiedDocumentContextParameter](#BusinessProcessSpecifiedDocumentContextParameter) | [edi3:Parameter](#Parameter)
+[UserSpecifiedDocumentContextParameter](#UserSpecifiedDocumentContextParameter) | [edi3:Parameter](#Parameter)
+[SpecifiedTransactionIdentifier](#SpecifiedTransactionIdentifier) | xsd:token
 
 
 <h1 id="CustomsValuation">CustomsValuation</h1>
@@ -1727,21 +1727,21 @@ Properties:
 
 Name | Type 
 -|-
-<span id="BuyerSellerRelationshipIndicator">BuyerSellerRelationshipIndicator</span> | xsd:boolean
-<span id="ChargeApportionMethodCode">ChargeApportionMethodCode</span> | xsd:token
-<span id="SalePriceConditionIndicator">SalePriceConditionIndicator</span> | xsd:boolean
-<span id="ApplicableTradeCurrencyExchange">ApplicableTradeCurrencyExchange</span> | [edi3:CurrencyExchange](#CurrencyExchange)
-<span id="AddedAdjustmentAmount">AddedAdjustmentAmount</span> | xsd:decimal
-<span id="TypeCode">TypeCode</span> | xsd:token
-<span id="OtherChargeAmount">OtherChargeAmount</span> | xsd:decimal
-<span id="AddedAdjustmentPercent">AddedAdjustmentPercent</span> | xsd:decimal
-<span id="WTOAdditionCode">WTOAdditionCode</span> | xsd:token
-<span id="SaleRestrictionText">SaleRestrictionText</span> | xsd:string
-<span id="MethodCode">MethodCode</span> | xsd:token
-<span id="RoyaltyLicenseFeeIndicator">RoyaltyLicenseFeeIndicator</span> | xsd:boolean
-<span id="SaleRestrictionIndicator">SaleRestrictionIndicator</span> | xsd:boolean
-<span id="BuyerSellerRelationshipPriceInfluenceIndicator">BuyerSellerRelationshipPriceInfluenceIndicator</span> | xsd:boolean
-<span id="DeductedAdjustmentPercent">DeductedAdjustmentPercent</span> | xsd:decimal
+[BuyerSellerRelationshipIndicator](#BuyerSellerRelationshipIndicator) | xsd:boolean
+[ChargeApportionMethodCode](#ChargeApportionMethodCode) | xsd:token
+[SalePriceConditionIndicator](#SalePriceConditionIndicator) | xsd:boolean
+[ApplicableTradeCurrencyExchange](#ApplicableTradeCurrencyExchange) | [edi3:CurrencyExchange](#CurrencyExchange)
+[AddedAdjustmentAmount](#AddedAdjustmentAmount) | xsd:decimal
+[TypeCode](#TypeCode) | xsd:token
+[OtherChargeAmount](#OtherChargeAmount) | xsd:decimal
+[AddedAdjustmentPercent](#AddedAdjustmentPercent) | xsd:decimal
+[WTOAdditionCode](#WTOAdditionCode) | xsd:token
+[SaleRestrictionText](#SaleRestrictionText) | xsd:string
+[MethodCode](#MethodCode) | xsd:token
+[RoyaltyLicenseFeeIndicator](#RoyaltyLicenseFeeIndicator) | xsd:boolean
+[SaleRestrictionIndicator](#SaleRestrictionIndicator) | xsd:boolean
+[BuyerSellerRelationshipPriceInfluenceIndicator](#BuyerSellerRelationshipPriceInfluenceIndicator) | xsd:boolean
+[DeductedAdjustmentPercent](#DeductedAdjustmentPercent) | xsd:decimal
 
 
 <h1 id="DeliveryTerms">DeliveryTerms</h1>
@@ -1754,11 +1754,11 @@ Properties:
 
 Name | Type 
 -|-
-<span id="DeliveryTypeDeliveryTermsCode">DeliveryTypeDeliveryTermsCode</span> | xsd:token
-<span id="DescriptionText">DescriptionText</span> | xsd:string
-<span id="PartialDeliveryAllowedIndicator">PartialDeliveryAllowedIndicator</span> | xsd:boolean
-<span id="FunctionDeliveryTermsFunctionCode">FunctionDeliveryTermsFunctionCode</span> | xsd:token
-<span id="DeliveryDiscontinuationCode">DeliveryDiscontinuationCode</span> | xsd:token
+[DeliveryTypeDeliveryTermsCode](#DeliveryTypeDeliveryTermsCode) | xsd:token
+[DescriptionText](#DescriptionText) | xsd:string
+[PartialDeliveryAllowedIndicator](#PartialDeliveryAllowedIndicator) | xsd:boolean
+[FunctionDeliveryTermsFunctionCode](#FunctionDeliveryTermsFunctionCode) | xsd:token
+[DeliveryDiscontinuationCode](#DeliveryDiscontinuationCode) | xsd:token
 
 
 <h1 id="Keyword">Keyword</h1>
@@ -1783,13 +1783,13 @@ Properties:
 
 Name | Type 
 -|-
-<span id="ConversionRateDateTime">ConversionRateDateTime</span> | xsd:dateTime
-<span id="AssociatedReferencedDocument">AssociatedReferencedDocument</span> | [edi3:Document](#Document)
-<span id="SourceUnitBasisNumeric">SourceUnitBasisNumeric</span> | xsd:decimal
-<span id="SourceCurrencyCurrencyCode">SourceCurrencyCurrencyCode</span> | xsd:token
-<span id="MarketIdentifier">MarketIdentifier</span> | xsd:token
-<span id="TargetCurrencyCurrencyCode">TargetCurrencyCurrencyCode</span> | xsd:token
-<span id="ConversionRate">ConversionRate</span> | xsd:decimal
+[ConversionRateDateTime](#ConversionRateDateTime) | xsd:dateTime
+[AssociatedReferencedDocument](#AssociatedReferencedDocument) | [edi3:Document](#Document)
+[SourceUnitBasisNumeric](#SourceUnitBasisNumeric) | xsd:decimal
+[SourceCurrencyCurrencyCode](#SourceCurrencyCurrencyCode) | xsd:token
+[MarketIdentifier](#MarketIdentifier) | xsd:token
+[TargetCurrencyCurrencyCode](#TargetCurrencyCurrencyCode) | xsd:token
+[ConversionRate](#ConversionRate) | xsd:decimal
 
 
 <h1 id="Dimension">Dimension</h1>
@@ -1802,16 +1802,16 @@ Properties:
 
 Name | Type 
 -|-
-<span id="WidthMeasure">WidthMeasure</span> | xsd:decimal
-<span id="TypeCode">TypeCode</span> | xsd:token
-<span id="DiameterLinearUnitMeasure">DiameterLinearUnitMeasure</span> | xsd:decimal
-<span id="ValueMeasure">ValueMeasure</span> | xsd:decimal
-<span id="ComponentWorkItemDimension">ComponentWorkItemDimension</span> | [edi3:Dimension](#Dimension)
-<span id="DescriptionText">DescriptionText</span> | xsd:string
-<span id="ContractualLanguageCode">ContractualLanguageCode</span> | xsd:token
-<span id="LengthMeasure">LengthMeasure</span> | xsd:decimal
-<span id="IdentificationIdentifier">IdentificationIdentifier</span> | xsd:token
-<span id="TypeDimensionTypeCode">TypeDimensionTypeCode</span> | xsd:token
+[WidthMeasure](#WidthMeasure) | xsd:decimal
+[TypeCode](#TypeCode) | xsd:token
+[DiameterLinearUnitMeasure](#DiameterLinearUnitMeasure) | xsd:decimal
+[ValueMeasure](#ValueMeasure) | xsd:decimal
+[ComponentWorkItemDimension](#ComponentWorkItemDimension) | [edi3:Dimension](#Dimension)
+[DescriptionText](#DescriptionText) | xsd:string
+[ContractualLanguageCode](#ContractualLanguageCode) | xsd:token
+[LengthMeasure](#LengthMeasure) | xsd:decimal
+[IdentificationIdentifier](#IdentificationIdentifier) | xsd:token
+[TypeDimensionTypeCode](#TypeDimensionTypeCode) | xsd:token
 
 
 <h1 id="BinaryFile">BinaryFile</h1>
@@ -1824,19 +1824,19 @@ Properties:
 
 Name | Type 
 -|-
-<span id="IncludedBinaryObject">IncludedBinaryObject</span> | xsd:base64Binary
-<span id="FileNameText">FileNameText</span> | xsd:string
-<span id="EncodingCode">EncodingCode</span> | xsd:token
-<span id="AuthorNameText">AuthorNameText</span> | xsd:string
-<span id="SizeMeasure">SizeMeasure</span> | xsd:decimal
-<span id="TitleText">TitleText</span> | xsd:string
-<span id="DescriptionText">DescriptionText</span> | xsd:string
-<span id="AccessAvailabilitySpecifiedPeriod">AccessAvailabilitySpecifiedPeriod</span> | [edi3:Period](#Period)
-<span id="AccessText">AccessText</span> | xsd:string
-<span id="IdentificationIdentifier">IdentificationIdentifier</span> | xsd:token
-<span id="VersionIdentifier">VersionIdentifier</span> | xsd:token
-<span id="CharacterSetCode">CharacterSetCode</span> | xsd:token
-<span id="MIMECode">MIMECode</span> | xsd:token
+[IncludedBinaryObject](#IncludedBinaryObject) | xsd:base64Binary
+[FileNameText](#FileNameText) | xsd:string
+[EncodingCode](#EncodingCode) | xsd:token
+[AuthorNameText](#AuthorNameText) | xsd:string
+[SizeMeasure](#SizeMeasure) | xsd:decimal
+[TitleText](#TitleText) | xsd:string
+[DescriptionText](#DescriptionText) | xsd:string
+[AccessAvailabilitySpecifiedPeriod](#AccessAvailabilitySpecifiedPeriod) | [edi3:Period](#Period)
+[AccessText](#AccessText) | xsd:string
+[IdentificationIdentifier](#IdentificationIdentifier) | xsd:token
+[VersionIdentifier](#VersionIdentifier) | xsd:token
+[CharacterSetCode](#CharacterSetCode) | xsd:token
+[MIMECode](#MIMECode) | xsd:token
 
 
 <h1 id="Section">Section</h1>
@@ -1849,8 +1849,8 @@ Properties:
 
 Name | Type 
 -|-
-<span id="IncludedSectionSegment">IncludedSectionSegment</span> | [edi3:Segment](#Segment)
-<span id="IdentificationIdentifier">IdentificationIdentifier</span> | xsd:token
+[IncludedSectionSegment](#IncludedSectionSegment) | [edi3:Segment](#Segment)
+[IdentificationIdentifier](#IdentificationIdentifier) | xsd:token
 
 
 <h1 id="GeographicalPoint">GeographicalPoint</h1>
@@ -1863,8 +1863,8 @@ Properties:
 
 Name | Type 
 -|-
-<span id="AssociatedSpecifiedGeographicalObjectCharacteristic">AssociatedSpecifiedGeographicalObjectCharacteristic</span> | [edi3:GeographicalObjectCharacteristic](#GeographicalObjectCharacteristic)
-<span id="AssociatedLogisticsLocation">AssociatedLogisticsLocation</span> | [edi3:Location](#Location)
+[AssociatedSpecifiedGeographicalObjectCharacteristic](#AssociatedSpecifiedGeographicalObjectCharacteristic) | [edi3:GeographicalObjectCharacteristic](#GeographicalObjectCharacteristic)
+[AssociatedLogisticsLocation](#AssociatedLogisticsLocation) | [edi3:Location](#Location)
 
 
 <h1 id="Marketplace">Marketplace</h1>
@@ -1877,11 +1877,11 @@ Properties:
 
 Name | Type 
 -|-
-<span id="IdentificationIdentifier">IdentificationIdentifier</span> | xsd:token
-<span id="VirtualIndicator">VirtualIndicator</span> | xsd:boolean
-<span id="OrderingAvailablePeriod">OrderingAvailablePeriod</span> | [edi3:Period](#Period)
-<span id="NameText">NameText</span> | xsd:string
-<span id="WebsiteURIIdentifier">WebsiteURIIdentifier</span> | xsd:token
+[IdentificationIdentifier](#IdentificationIdentifier) | xsd:token
+[VirtualIndicator](#VirtualIndicator) | xsd:boolean
+[OrderingAvailablePeriod](#OrderingAvailablePeriod) | [edi3:Period](#Period)
+[NameText](#NameText) | xsd:string
+[WebsiteURIIdentifier](#WebsiteURIIdentifier) | xsd:token
 
 
 <h1 id="Authentication">Authentication</h1>
@@ -1894,20 +1894,20 @@ Properties:
 
 Name | Type 
 -|-
-<span id="InformationText">InformationText</span> | xsd:string
-<span id="ProviderTradeParty">ProviderTradeParty</span> | [edi3:Party](#Party)
-<span id="RepresentationTypeCode">RepresentationTypeCode</span> | xsd:token
-<span id="StatementText">StatementText</span> | xsd:string
-<span id="SignatoryImageBinaryObject">SignatoryImageBinaryObject</span> | xsd:base64Binary
-<span id="TypeGovernmentActionCode">TypeGovernmentActionCode</span> | xsd:token
-<span id="CategoryCode">CategoryCode</span> | xsd:token
-<span id="IdentificationIdentifier">IdentificationIdentifier</span> | xsd:token
-<span id="StatementCode">StatementCode</span> | xsd:token
-<span id="IssueLogisticsLocation">IssueLogisticsLocation</span> | [edi3:Location](#Location)
-<span id="SignatoryText">SignatoryText</span> | xsd:string
-<span id="ProviderReferencedParty">ProviderReferencedParty</span> | [edi3:Party](#Party)
-<span id="IncludedDocumentClause">IncludedDocumentClause</span> | [edi3:Clause](#Clause)
-<span id="LocationProviderTradeParty">LocationProviderTradeParty</span> | [edi3:Party](#Party)
+[InformationText](#InformationText) | xsd:string
+[ProviderTradeParty](#ProviderTradeParty) | [edi3:Party](#Party)
+[RepresentationTypeCode](#RepresentationTypeCode) | xsd:token
+[StatementText](#StatementText) | xsd:string
+[SignatoryImageBinaryObject](#SignatoryImageBinaryObject) | xsd:base64Binary
+[TypeGovernmentActionCode](#TypeGovernmentActionCode) | xsd:token
+[CategoryCode](#CategoryCode) | xsd:token
+[IdentificationIdentifier](#IdentificationIdentifier) | xsd:token
+[StatementCode](#StatementCode) | xsd:token
+[IssueLogisticsLocation](#IssueLogisticsLocation) | [edi3:Location](#Location)
+[SignatoryText](#SignatoryText) | xsd:string
+[ProviderReferencedParty](#ProviderReferencedParty) | [edi3:Party](#Party)
+[IncludedDocumentClause](#IncludedDocumentClause) | [edi3:Clause](#Clause)
+[LocationProviderTradeParty](#LocationProviderTradeParty) | [edi3:Party](#Party)
 
 
 <h1 id="Parameter">Parameter</h1>
@@ -1920,17 +1920,17 @@ Properties:
 
 Name | Type 
 -|-
-<span id="DefinedSpecifiedRange">DefinedSpecifiedRange</span> | [edi3:Range](#Range)
-<span id="ValueText">ValueText</span> | xsd:string
-<span id="TypeCode">TypeCode</span> | xsd:token
-<span id="SpecifiedDocumentVersion">SpecifiedDocumentVersion</span> | [edi3:Version](#Version)
-<span id="RequestedSpecifiedRange">RequestedSpecifiedRange</span> | [edi3:Range](#Range)
-<span id="ValueMeasure">ValueMeasure</span> | xsd:decimal
-<span id="ValueAllowedIndicator">ValueAllowedIndicator</span> | xsd:boolean
-<span id="DescriptionText">DescriptionText</span> | xsd:string
-<span id="IdentificationIdentifier">IdentificationIdentifier</span> | xsd:token
-<span id="NameText">NameText</span> | xsd:string
-<span id="ChangeableIndicator">ChangeableIndicator</span> | xsd:boolean
+[DefinedSpecifiedRange](#DefinedSpecifiedRange) | [edi3:Range](#Range)
+[ValueText](#ValueText) | xsd:string
+[TypeCode](#TypeCode) | xsd:token
+[SpecifiedDocumentVersion](#SpecifiedDocumentVersion) | [edi3:Version](#Version)
+[RequestedSpecifiedRange](#RequestedSpecifiedRange) | [edi3:Range](#Range)
+[ValueMeasure](#ValueMeasure) | xsd:decimal
+[ValueAllowedIndicator](#ValueAllowedIndicator) | xsd:boolean
+[DescriptionText](#DescriptionText) | xsd:string
+[IdentificationIdentifier](#IdentificationIdentifier) | xsd:token
+[NameText](#NameText) | xsd:string
+[ChangeableIndicator](#ChangeableIndicator) | xsd:boolean
 
 
 <h1 id="PaymentPenaltyTerms">PaymentPenaltyTerms</h1>
@@ -1943,10 +1943,10 @@ Properties:
 
 Name | Type 
 -|-
-<span id="CalculationPercent">CalculationPercent</span> | xsd:decimal
-<span id="BasisPeriodMeasure">BasisPeriodMeasure</span> | xsd:decimal
-<span id="ActualPenaltyAmount">ActualPenaltyAmount</span> | xsd:decimal
-<span id="BasisDateTime">BasisDateTime</span> | xsd:dateTime
+[CalculationPercent](#CalculationPercent) | xsd:decimal
+[BasisPeriodMeasure](#BasisPeriodMeasure) | xsd:decimal
+[ActualPenaltyAmount](#ActualPenaltyAmount) | xsd:decimal
+[BasisDateTime](#BasisDateTime) | xsd:dateTime
 
 
 <h1 id="Event">Event</h1>
@@ -1959,59 +1959,59 @@ Properties:
 
 Name | Type 
 -|-
-<span id="TransportMeansStayOccurrenceSpecifiedPeriod">TransportMeansStayOccurrenceSpecifiedPeriod</span> | [edi3:Period](#Period)
-<span id="AssociatedSpecifiedGeographicalFeature">AssociatedSpecifiedGeographicalFeature</span> | [edi3:GeographicalFeature](#GeographicalFeature)
-<span id="ExpectedIndicator">ExpectedIndicator</span> | xsd:boolean
-<span id="CargoFacilityRelatedLogisticsLocation">CargoFacilityRelatedLogisticsLocation</span> | [edi3:Location](#Location)
-<span id="ReceivedFormattedDateTime">ReceivedFormattedDateTime</span> | xsd:dateTime
-<span id="UnitQuantity">UnitQuantity</span> | xsd:decimal
-<span id="OccurrenceDateTime">OccurrenceDateTime</span> | xsd:dateTime
-<span id="RequestedOccurrenceDateTime">RequestedOccurrenceDateTime</span> | xsd:dateTime
-<span id="TypeCode">TypeCode</span> | xsd:token
-<span id="StaySpecifiedReferencedTransportEvent">StaySpecifiedReferencedTransportEvent</span> | [edi3:Event](#Event)
-<span id="ScheduledArrivalRelatedDateTime">ScheduledArrivalRelatedDateTime</span> | xsd:dateTime
-<span id="ActualOccurrenceSpecifiedPeriod">ActualOccurrenceSpecifiedPeriod</span> | [edi3:Period](#Period)
-<span id="ScheduledDepartureRelatedFormattedDateTime">ScheduledDepartureRelatedFormattedDateTime</span> | xsd:dateTime
-<span id="OccurrenceLogisticsLocation">OccurrenceLogisticsLocation</span> | [edi3:Location](#Location)
-<span id="ScheduledArrivalRelatedFormattedDateTime">ScheduledArrivalRelatedFormattedDateTime</span> | xsd:dateTime
-<span id="ActualOccurrenceDateTime">ActualOccurrenceDateTime</span> | xsd:dateTime
-<span id="EstimatedTransportMeansArrivalOccurrenceDateTime">EstimatedTransportMeansArrivalOccurrenceDateTime</span> | xsd:dateTime
-<span id="SpecifiedTransportInstructions">SpecifiedTransportInstructions</span> | [edi3:Instructions](#Instructions)
-<span id="ActualArrivalRelatedDateTime">ActualArrivalRelatedDateTime</span> | xsd:dateTime
-<span id="ScheduledOccurrenceDateTime">ScheduledOccurrenceDateTime</span> | xsd:dateTime
-<span id="ValueMeasure">ValueMeasure</span> | xsd:decimal
-<span id="OccurrenceSpecifiedPeriod">OccurrenceSpecifiedPeriod</span> | [edi3:Period](#Period)
-<span id="DelaySpecifiedReferencedTransportEvent">DelaySpecifiedReferencedTransportEvent</span> | [edi3:Event](#Event)
-<span id="FrequencyCode">FrequencyCode</span> | xsd:token
-<span id="RequestedRelatedReferencedTransportService">RequestedRelatedReferencedTransportService</span> | [edi3:Service](#Service)
-<span id="ScheduledOccurrenceSpecifiedPeriod">ScheduledOccurrenceSpecifiedPeriod</span> | [edi3:Period](#Period)
-<span id="DescriptionText">DescriptionText</span> | xsd:string
-<span id="ConveyanceFacilityRelatedLogisticsLocation">ConveyanceFacilityRelatedLogisticsLocation</span> | [edi3:Location](#Location)
-<span id="AdditionalSecurityMeasuresApplicableNote">AdditionalSecurityMeasuresApplicableNote</span> | [edi3:Note](#Note)
-<span id="EarliestOccurrenceDateTime">EarliestOccurrenceDateTime</span> | xsd:dateTime
-<span id="ReportedConditionTypeLogisticsStatusCode">ReportedConditionTypeLogisticsStatusCode</span> | xsd:token
-<span id="TimeOccurrenceTimeOnlyFormattedDateTime">TimeOccurrenceTimeOnlyFormattedDateTime</span> | xsd:dateTime
-<span id="ArrivalRelatedDateTime">ArrivalRelatedDateTime</span> | xsd:dateTime
-<span id="OperationalResponsibleTradeParty">OperationalResponsibleTradeParty</span> | [edi3:Party](#Party)
-<span id="ReportingMonitoringIOTDevice">ReportingMonitoringIOTDevice</span> | [edi3:IOTDevice](#IOTDevice)
-<span id="RelatedSpecifiedObservation">RelatedSpecifiedObservation</span> | [edi3:Observation](#Observation)
-<span id="IdentificationIdentifier">IdentificationIdentifier</span> | xsd:token
-<span id="RelatedTransportRoute">RelatedTransportRoute</span> | [edi3:Route](#Route)
-<span id="SecurityLevelCode">SecurityLevelCode</span> | xsd:token
-<span id="ScheduledDepartureRelatedDateTime">ScheduledDepartureRelatedDateTime</span> | xsd:dateTime
-<span id="ValueUnitMeasure">ValueUnitMeasure</span> | xsd:decimal
-<span id="LatestOccurrenceDateTime">LatestOccurrenceDateTime</span> | xsd:dateTime
-<span id="DueDateTime">DueDateTime</span> | xsd:dateTime
-<span id="EstimatedOccurrenceDateTime">EstimatedOccurrenceDateTime</span> | xsd:dateTime
-<span id="DelayOccurrenceSpecifiedPeriod">DelayOccurrenceSpecifiedPeriod</span> | [edi3:Period](#Period)
-<span id="PreviousAssociatedSpecifiedGeographicalFeature">PreviousAssociatedSpecifiedGeographicalFeature</span> | [edi3:GeographicalFeature](#GeographicalFeature)
-<span id="ReasonTypeCode">ReasonTypeCode</span> | xsd:token
-<span id="DepartureRelatedDateTime">DepartureRelatedDateTime</span> | xsd:dateTime
-<span id="LaycanOccurrenceSpecifiedPeriod">LaycanOccurrenceSpecifiedPeriod</span> | [edi3:Period](#Period)
-<span id="CertifyingTradeParty">CertifyingTradeParty</span> | [edi3:Party](#Party)
-<span id="ReasonCode">ReasonCode</span> | xsd:token
-<span id="ApplicableNote">ApplicableNote</span> | [edi3:Note](#Note)
-<span id="DescriptionBinaryObject">DescriptionBinaryObject</span> | xsd:base64Binary
+[TransportMeansStayOccurrenceSpecifiedPeriod](#TransportMeansStayOccurrenceSpecifiedPeriod) | [edi3:Period](#Period)
+[AssociatedSpecifiedGeographicalFeature](#AssociatedSpecifiedGeographicalFeature) | [edi3:GeographicalFeature](#GeographicalFeature)
+[ExpectedIndicator](#ExpectedIndicator) | xsd:boolean
+[CargoFacilityRelatedLogisticsLocation](#CargoFacilityRelatedLogisticsLocation) | [edi3:Location](#Location)
+[ReceivedFormattedDateTime](#ReceivedFormattedDateTime) | xsd:dateTime
+[UnitQuantity](#UnitQuantity) | xsd:decimal
+[OccurrenceDateTime](#OccurrenceDateTime) | xsd:dateTime
+[RequestedOccurrenceDateTime](#RequestedOccurrenceDateTime) | xsd:dateTime
+[TypeCode](#TypeCode) | xsd:token
+[StaySpecifiedReferencedTransportEvent](#StaySpecifiedReferencedTransportEvent) | [edi3:Event](#Event)
+[ScheduledArrivalRelatedDateTime](#ScheduledArrivalRelatedDateTime) | xsd:dateTime
+[ActualOccurrenceSpecifiedPeriod](#ActualOccurrenceSpecifiedPeriod) | [edi3:Period](#Period)
+[ScheduledDepartureRelatedFormattedDateTime](#ScheduledDepartureRelatedFormattedDateTime) | xsd:dateTime
+[OccurrenceLogisticsLocation](#OccurrenceLogisticsLocation) | [edi3:Location](#Location)
+[ScheduledArrivalRelatedFormattedDateTime](#ScheduledArrivalRelatedFormattedDateTime) | xsd:dateTime
+[ActualOccurrenceDateTime](#ActualOccurrenceDateTime) | xsd:dateTime
+[EstimatedTransportMeansArrivalOccurrenceDateTime](#EstimatedTransportMeansArrivalOccurrenceDateTime) | xsd:dateTime
+[SpecifiedTransportInstructions](#SpecifiedTransportInstructions) | [edi3:Instructions](#Instructions)
+[ActualArrivalRelatedDateTime](#ActualArrivalRelatedDateTime) | xsd:dateTime
+[ScheduledOccurrenceDateTime](#ScheduledOccurrenceDateTime) | xsd:dateTime
+[ValueMeasure](#ValueMeasure) | xsd:decimal
+[OccurrenceSpecifiedPeriod](#OccurrenceSpecifiedPeriod) | [edi3:Period](#Period)
+[DelaySpecifiedReferencedTransportEvent](#DelaySpecifiedReferencedTransportEvent) | [edi3:Event](#Event)
+[FrequencyCode](#FrequencyCode) | xsd:token
+[RequestedRelatedReferencedTransportService](#RequestedRelatedReferencedTransportService) | [edi3:Service](#Service)
+[ScheduledOccurrenceSpecifiedPeriod](#ScheduledOccurrenceSpecifiedPeriod) | [edi3:Period](#Period)
+[DescriptionText](#DescriptionText) | xsd:string
+[ConveyanceFacilityRelatedLogisticsLocation](#ConveyanceFacilityRelatedLogisticsLocation) | [edi3:Location](#Location)
+[AdditionalSecurityMeasuresApplicableNote](#AdditionalSecurityMeasuresApplicableNote) | [edi3:Note](#Note)
+[EarliestOccurrenceDateTime](#EarliestOccurrenceDateTime) | xsd:dateTime
+[ReportedConditionTypeLogisticsStatusCode](#ReportedConditionTypeLogisticsStatusCode) | xsd:token
+[TimeOccurrenceTimeOnlyFormattedDateTime](#TimeOccurrenceTimeOnlyFormattedDateTime) | xsd:dateTime
+[ArrivalRelatedDateTime](#ArrivalRelatedDateTime) | xsd:dateTime
+[OperationalResponsibleTradeParty](#OperationalResponsibleTradeParty) | [edi3:Party](#Party)
+[ReportingMonitoringIOTDevice](#ReportingMonitoringIOTDevice) | [edi3:IOTDevice](#IOTDevice)
+[RelatedSpecifiedObservation](#RelatedSpecifiedObservation) | [edi3:Observation](#Observation)
+[IdentificationIdentifier](#IdentificationIdentifier) | xsd:token
+[RelatedTransportRoute](#RelatedTransportRoute) | [edi3:Route](#Route)
+[SecurityLevelCode](#SecurityLevelCode) | xsd:token
+[ScheduledDepartureRelatedDateTime](#ScheduledDepartureRelatedDateTime) | xsd:dateTime
+[ValueUnitMeasure](#ValueUnitMeasure) | xsd:decimal
+[LatestOccurrenceDateTime](#LatestOccurrenceDateTime) | xsd:dateTime
+[DueDateTime](#DueDateTime) | xsd:dateTime
+[EstimatedOccurrenceDateTime](#EstimatedOccurrenceDateTime) | xsd:dateTime
+[DelayOccurrenceSpecifiedPeriod](#DelayOccurrenceSpecifiedPeriod) | [edi3:Period](#Period)
+[PreviousAssociatedSpecifiedGeographicalFeature](#PreviousAssociatedSpecifiedGeographicalFeature) | [edi3:GeographicalFeature](#GeographicalFeature)
+[ReasonTypeCode](#ReasonTypeCode) | xsd:token
+[DepartureRelatedDateTime](#DepartureRelatedDateTime) | xsd:dateTime
+[LaycanOccurrenceSpecifiedPeriod](#LaycanOccurrenceSpecifiedPeriod) | [edi3:Period](#Period)
+[CertifyingTradeParty](#CertifyingTradeParty) | [edi3:Party](#Party)
+[ReasonCode](#ReasonCode) | xsd:token
+[ApplicableNote](#ApplicableNote) | [edi3:Note](#Note)
+[DescriptionBinaryObject](#DescriptionBinaryObject) | xsd:base64Binary
 
 
 <h1 id="GeographicalMultiCurve">GeographicalMultiCurve</h1>
@@ -2024,8 +2024,8 @@ Properties:
 
 Name | Type 
 -|-
-<span id="AssociatedSpecifiedDirectPositionList">AssociatedSpecifiedDirectPositionList</span> | [edi3:DirectPositionList](#DirectPositionList)
-<span id="AssociatedSpecifiedGeographicalObjectCharacteristic">AssociatedSpecifiedGeographicalObjectCharacteristic</span> | [edi3:GeographicalObjectCharacteristic](#GeographicalObjectCharacteristic)
+[AssociatedSpecifiedDirectPositionList](#AssociatedSpecifiedDirectPositionList) | [edi3:DirectPositionList](#DirectPositionList)
+[AssociatedSpecifiedGeographicalObjectCharacteristic](#AssociatedSpecifiedGeographicalObjectCharacteristic) | [edi3:GeographicalObjectCharacteristic](#GeographicalObjectCharacteristic)
 
 
 <h1 id="LinearRing">LinearRing</h1>
@@ -2038,9 +2038,9 @@ Properties:
 
 Name | Type 
 -|-
-<span id="SpecifiedFLUXGeographicalCoordinate">SpecifiedFLUXGeographicalCoordinate</span> | [edi3:GeographicalCoordinate](#GeographicalCoordinate)
-<span id="CoordinateText">CoordinateText</span> | xsd:string
-<span id="CoordinateSpecifiedDirectPosition">CoordinateSpecifiedDirectPosition</span> | [edi3:DirectPosition](#DirectPosition)
+[SpecifiedFLUXGeographicalCoordinate](#SpecifiedFLUXGeographicalCoordinate) | [edi3:GeographicalCoordinate](#GeographicalCoordinate)
+[CoordinateText](#CoordinateText) | xsd:string
+[CoordinateSpecifiedDirectPosition](#CoordinateSpecifiedDirectPosition) | [edi3:DirectPosition](#DirectPosition)
 
 
 <h1 id="TradeAgreement">TradeAgreement</h1>
@@ -2053,101 +2053,101 @@ Properties:
 
 Name | Type 
 -|-
-<span id="ApplicableTradePaymentTerms">ApplicableTradePaymentTerms</span> | [edi3:PaymentTerms](#PaymentTerms)
-<span id="GrossPriceProductTradePrice">GrossPriceProductTradePrice</span> | [edi3:Price](#Price)
-<span id="UltimateCustomerOrderReferencedDocument">UltimateCustomerOrderReferencedDocument</span> | [edi3:Document](#Document)
-<span id="PickUpOrderFulfilmentLeadTimeDurationUnitMeasure">PickUpOrderFulfilmentLeadTimeDurationUnitMeasure</span> | xsd:decimal
-<span id="SupplyInstructionReferencedDocument">SupplyInstructionReferencedDocument</span> | [edi3:Document](#Document)
-<span id="TargetMarketTradeCountry">TargetMarketTradeCountry</span> | [edi3:Country](#Country)
-<span id="PrimeContractSellerTradeParty">PrimeContractSellerTradeParty</span> | [edi3:Party](#Party)
-<span id="BuyerApprovedFormattedDateTime">BuyerApprovedFormattedDateTime</span> | xsd:dateTime
-<span id="BuyerReferenceText">BuyerReferenceText</span> | xsd:string
-<span id="BlanketOrderReferencedDocument">BlanketOrderReferencedDocument</span> | [edi3:Document](#Document)
-<span id="ImmediatePreviousPriceListReferencedDocument">ImmediatePreviousPriceListReferencedDocument</span> | [edi3:Document](#Document)
-<span id="IncludedSpecifiedMarketplace">IncludedSpecifiedMarketplace</span> | [edi3:Marketplace](#Marketplace)
-<span id="MinimumOrderQuantityOrderingSpecifiedPeriod">MinimumOrderQuantityOrderingSpecifiedPeriod</span> | [edi3:Period](#Period)
-<span id="DemandForecastReferencedDocument">DemandForecastReferencedDocument</span> | [edi3:Document](#Document)
-<span id="CarrierTradeParty">CarrierTradeParty</span> | [edi3:Party](#Party)
-<span id="ResaleSpecifiedPeriod">ResaleSpecifiedPeriod</span> | [edi3:Period](#Period)
-<span id="ItemSellerTradeParty">ItemSellerTradeParty</span> | [edi3:Party](#Party)
-<span id="SpecifiedProcuringProject">SpecifiedProcuringProject</span> | [edi3:Project](#Project)
-<span id="SellerAssignedAccountantTradeParty">SellerAssignedAccountantTradeParty</span> | [edi3:Party](#Party)
-<span id="ApplicableLogisticsLocation">ApplicableLogisticsLocation</span> | [edi3:Location](#Location)
-<span id="PreviousOrderReferencedDocument">PreviousOrderReferencedDocument</span> | [edi3:Document](#Document)
-<span id="BuyerRequisitionerTradeParty">BuyerRequisitionerTradeParty</span> | [edi3:Party](#Party)
-<span id="DeliveryOrderFulfilmentLeadTimeDurationUnitMeasure">DeliveryOrderFulfilmentLeadTimeDurationUnitMeasure</span> | xsd:decimal
-<span id="ProcurementTradeParty">ProcurementTradeParty</span> | [edi3:Party](#Party)
-<span id="PreviousOrderChangeReferencedDocument">PreviousOrderChangeReferencedDocument</span> | [edi3:Document](#Document)
-<span id="CatalogueInformationProviderTradeParty">CatalogueInformationProviderTradeParty</span> | [edi3:Party](#Party)
-<span id="OriginalOrderReferencedDocument">OriginalOrderReferencedDocument</span> | [edi3:Document](#Document)
-<span id="QuotationRequestResponseReferencedDocument">QuotationRequestResponseReferencedDocument</span> | [edi3:Document](#Document)
-<span id="EconomicOrderQuantity">EconomicOrderQuantity</span> | xsd:decimal
-<span id="MinimumProductOrderableQuantity">MinimumProductOrderableQuantity</span> | xsd:decimal
-<span id="CatalogueSubscriptionReferencedDocument">CatalogueSubscriptionReferencedDocument</span> | [edi3:Document](#Document)
-<span id="SellerOrderReferencedDocument">SellerOrderReferencedDocument</span> | [edi3:Document](#Document)
-<span id="SellerTaxRepresentativeTradeParty">SellerTaxRepresentativeTradeParty</span> | [edi3:Party](#Party)
-<span id="BuyerTradeParty">BuyerTradeParty</span> | [edi3:Party](#Party)
-<span id="LetterOfCreditReferencedDocument">LetterOfCreditReferencedDocument</span> | [edi3:Document](#Document)
-<span id="ResaleProductUnitMeasureCode">ResaleProductUnitMeasureCode</span> | xsd:token
-<span id="OrderPriceProductTradePrice">OrderPriceProductTradePrice</span> | [edi3:Price](#Price)
-<span id="ProgramMissionProject">ProgramMissionProject</span> | [edi3:Project](#Project)
-<span id="NetPriceProductTradePrice">NetPriceProductTradePrice</span> | [edi3:Price](#Price)
-<span id="ApplicableSupplyChainForecastTerms">ApplicableSupplyChainForecastTerms</span> | [edi3:ForecastTerms](#ForecastTerms)
-<span id="BuyerAssignedAccountantTradeParty">BuyerAssignedAccountantTradeParty</span> | [edi3:Party](#Party)
-<span id="CatalogueReferencedDocument">CatalogueReferencedDocument</span> | [edi3:Document](#Document)
-<span id="ReferenceText">ReferenceText</span> | xsd:string
-<span id="ExclusivitySpecifiedPeriod">ExclusivitySpecifiedPeriod</span> | [edi3:Period](#Period)
-<span id="PurchaseConditionsReferencedDocument">PurchaseConditionsReferencedDocument</span> | [edi3:Document](#Document)
-<span id="IncrementalProductOrderableQuantity">IncrementalProductOrderableQuantity</span> | xsd:decimal
-<span id="ApplicableTradeDeliveryTerms">ApplicableTradeDeliveryTerms</span> | [edi3:DeliveryTerms](#DeliveryTerms)
-<span id="QuotationRequestReferencedDocument">QuotationRequestReferencedDocument</span> | [edi3:Document](#Document)
-<span id="ExportLicenceReferencedDocument">ExportLicenceReferencedDocument</span> | [edi3:Document](#Document)
-<span id="ImportLicenceReferencedDocument">ImportLicenceReferencedDocument</span> | [edi3:Document](#Document)
-<span id="InformationUseRestrictionIndicator">InformationUseRestrictionIndicator</span> | xsd:boolean
-<span id="ShippingSpecifiedPeriod">ShippingSpecifiedPeriod</span> | [edi3:Period](#Period)
-<span id="SalesConditionsReferencedDocument">SalesConditionsReferencedDocument</span> | [edi3:Document](#Document)
-<span id="ContractReferencedDocument">ContractReferencedDocument</span> | [edi3:Document](#Document)
-<span id="OrderResponseReferencedDocument">OrderResponseReferencedDocument</span> | [edi3:Document](#Document)
-<span id="RequisitionerReferencedDocument">RequisitionerReferencedDocument</span> | [edi3:Document](#Document)
-<span id="RequisitionReferencedDocument">RequisitionReferencedDocument</span> | [edi3:Document](#Document)
-<span id="OrderProductUnitMeasureCode">OrderProductUnitMeasureCode</span> | xsd:token
-<span id="BuyerAgentTradeParty">BuyerAgentTradeParty</span> | [edi3:Party](#Party)
-<span id="RevisionIdentificationIdentifier">RevisionIdentificationIdentifier</span> | xsd:token
-<span id="PriceListReferencedDocument">PriceListReferencedDocument</span> | [edi3:Document](#Document)
-<span id="PreviousOrderResponseReferencedDocument">PreviousOrderResponseReferencedDocument</span> | [edi3:Document](#Document)
-<span id="BuyerOrderReferencedDocument">BuyerOrderReferencedDocument</span> | [edi3:Document](#Document)
-<span id="DeliveryPriorityPriorityDescriptionCode">DeliveryPriorityPriorityDescriptionCode</span> | xsd:token
-<span id="SalesReportReferencedDocument">SalesReportReferencedDocument</span> | [edi3:Document](#Document)
-<span id="QuotationProposalResponseReferencedDocument">QuotationProposalResponseReferencedDocument</span> | [edi3:Document](#Document)
-<span id="PromotionalDealReferencedDocument">PromotionalDealReferencedDocument</span> | [edi3:Document](#Document)
-<span id="CatalogueInformationReceiverTradeParty">CatalogueInformationReceiverTradeParty</span> | [edi3:Party](#Party)
-<span id="MaximumProductOrderableQuantity">MaximumProductOrderableQuantity</span> | xsd:decimal
-<span id="IdentificationIdentifier">IdentificationIdentifier</span> | xsd:token
-<span id="GuaranteedProductLifeSpanSpecifiedPeriod">GuaranteedProductLifeSpanSpecifiedPeriod</span> | [edi3:Period](#Period)
-<span id="ProductReorderableIndicator">ProductReorderableIndicator</span> | xsd:boolean
-<span id="RelevantTradeParty">RelevantTradeParty</span> | [edi3:Party](#Party)
-<span id="BuyerTaxRepresentativeTradeParty">BuyerTaxRepresentativeTradeParty</span> | [edi3:Party](#Party)
-<span id="ProductEndUserTradeParty">ProductEndUserTradeParty</span> | [edi3:Party](#Party)
-<span id="CatalogueRequestReferencedDocument">CatalogueRequestReferencedDocument</span> | [edi3:Document](#Document)
-<span id="ApplicableCrossBorderRegulatoryProcedure">ApplicableCrossBorderRegulatoryProcedure</span> | [edi3:RegulatoryProcedure](#RegulatoryProcedure)
-<span id="SalesAgentTradeParty">SalesAgentTradeParty</span> | [edi3:Party](#Party)
-<span id="MarketplaceOrderReferencedDocument">MarketplaceOrderReferencedDocument</span> | [edi3:Document](#Document)
-<span id="PricingBaseApplicableLogisticsLocation">PricingBaseApplicableLogisticsLocation</span> | [edi3:Location](#Location)
-<span id="AdditionalReferencedDocument">AdditionalReferencedDocument</span> | [edi3:Document](#Document)
-<span id="MaximumOrderQuantityOrderingSpecifiedPeriod">MaximumOrderQuantityOrderingSpecifiedPeriod</span> | [edi3:Period](#Period)
-<span id="ItemBuyerTradeParty">ItemBuyerTradeParty</span> | [edi3:Party](#Party)
-<span id="QuotationProposalReferencedDocument">QuotationProposalReferencedDocument</span> | [edi3:Document](#Document)
-<span id="SupportCentreTradeParty">SupportCentreTradeParty</span> | [edi3:Party](#Party)
-<span id="SellerReferenceText">SellerReferenceText</span> | xsd:string
-<span id="QuotationReferencedDocument">QuotationReferencedDocument</span> | [edi3:Document](#Document)
-<span id="ProductAvailabilityCode">ProductAvailabilityCode</span> | xsd:token
-<span id="QuoteReferencedTradeWorkflowObject">QuoteReferencedTradeWorkflowObject</span> | [edi3:WorkflowObject](#WorkflowObject)
-<span id="ImpactCode">ImpactCode</span> | xsd:token
-<span id="PriorityCode">PriorityCode</span> | xsd:token
-<span id="OrderingSpecifiedPeriod">OrderingSpecifiedPeriod</span> | [edi3:Period](#Period)
-<span id="SellerTradeParty">SellerTradeParty</span> | [edi3:Party](#Party)
-<span id="EngineeringChangeReferencedDocument">EngineeringChangeReferencedDocument</span> | [edi3:Document](#Document)
-<span id="ProductMadeToOrderIndicator">ProductMadeToOrderIndicator</span> | xsd:boolean
+[ApplicableTradePaymentTerms](#ApplicableTradePaymentTerms) | [edi3:PaymentTerms](#PaymentTerms)
+[GrossPriceProductTradePrice](#GrossPriceProductTradePrice) | [edi3:Price](#Price)
+[UltimateCustomerOrderReferencedDocument](#UltimateCustomerOrderReferencedDocument) | [edi3:Document](#Document)
+[PickUpOrderFulfilmentLeadTimeDurationUnitMeasure](#PickUpOrderFulfilmentLeadTimeDurationUnitMeasure) | xsd:decimal
+[SupplyInstructionReferencedDocument](#SupplyInstructionReferencedDocument) | [edi3:Document](#Document)
+[TargetMarketTradeCountry](#TargetMarketTradeCountry) | [edi3:Country](#Country)
+[PrimeContractSellerTradeParty](#PrimeContractSellerTradeParty) | [edi3:Party](#Party)
+[BuyerApprovedFormattedDateTime](#BuyerApprovedFormattedDateTime) | xsd:dateTime
+[BuyerReferenceText](#BuyerReferenceText) | xsd:string
+[BlanketOrderReferencedDocument](#BlanketOrderReferencedDocument) | [edi3:Document](#Document)
+[ImmediatePreviousPriceListReferencedDocument](#ImmediatePreviousPriceListReferencedDocument) | [edi3:Document](#Document)
+[IncludedSpecifiedMarketplace](#IncludedSpecifiedMarketplace) | [edi3:Marketplace](#Marketplace)
+[MinimumOrderQuantityOrderingSpecifiedPeriod](#MinimumOrderQuantityOrderingSpecifiedPeriod) | [edi3:Period](#Period)
+[DemandForecastReferencedDocument](#DemandForecastReferencedDocument) | [edi3:Document](#Document)
+[CarrierTradeParty](#CarrierTradeParty) | [edi3:Party](#Party)
+[ResaleSpecifiedPeriod](#ResaleSpecifiedPeriod) | [edi3:Period](#Period)
+[ItemSellerTradeParty](#ItemSellerTradeParty) | [edi3:Party](#Party)
+[SpecifiedProcuringProject](#SpecifiedProcuringProject) | [edi3:Project](#Project)
+[SellerAssignedAccountantTradeParty](#SellerAssignedAccountantTradeParty) | [edi3:Party](#Party)
+[ApplicableLogisticsLocation](#ApplicableLogisticsLocation) | [edi3:Location](#Location)
+[PreviousOrderReferencedDocument](#PreviousOrderReferencedDocument) | [edi3:Document](#Document)
+[BuyerRequisitionerTradeParty](#BuyerRequisitionerTradeParty) | [edi3:Party](#Party)
+[DeliveryOrderFulfilmentLeadTimeDurationUnitMeasure](#DeliveryOrderFulfilmentLeadTimeDurationUnitMeasure) | xsd:decimal
+[ProcurementTradeParty](#ProcurementTradeParty) | [edi3:Party](#Party)
+[PreviousOrderChangeReferencedDocument](#PreviousOrderChangeReferencedDocument) | [edi3:Document](#Document)
+[CatalogueInformationProviderTradeParty](#CatalogueInformationProviderTradeParty) | [edi3:Party](#Party)
+[OriginalOrderReferencedDocument](#OriginalOrderReferencedDocument) | [edi3:Document](#Document)
+[QuotationRequestResponseReferencedDocument](#QuotationRequestResponseReferencedDocument) | [edi3:Document](#Document)
+[EconomicOrderQuantity](#EconomicOrderQuantity) | xsd:decimal
+[MinimumProductOrderableQuantity](#MinimumProductOrderableQuantity) | xsd:decimal
+[CatalogueSubscriptionReferencedDocument](#CatalogueSubscriptionReferencedDocument) | [edi3:Document](#Document)
+[SellerOrderReferencedDocument](#SellerOrderReferencedDocument) | [edi3:Document](#Document)
+[SellerTaxRepresentativeTradeParty](#SellerTaxRepresentativeTradeParty) | [edi3:Party](#Party)
+[BuyerTradeParty](#BuyerTradeParty) | [edi3:Party](#Party)
+[LetterOfCreditReferencedDocument](#LetterOfCreditReferencedDocument) | [edi3:Document](#Document)
+[ResaleProductUnitMeasureCode](#ResaleProductUnitMeasureCode) | xsd:token
+[OrderPriceProductTradePrice](#OrderPriceProductTradePrice) | [edi3:Price](#Price)
+[ProgramMissionProject](#ProgramMissionProject) | [edi3:Project](#Project)
+[NetPriceProductTradePrice](#NetPriceProductTradePrice) | [edi3:Price](#Price)
+[ApplicableSupplyChainForecastTerms](#ApplicableSupplyChainForecastTerms) | [edi3:ForecastTerms](#ForecastTerms)
+[BuyerAssignedAccountantTradeParty](#BuyerAssignedAccountantTradeParty) | [edi3:Party](#Party)
+[CatalogueReferencedDocument](#CatalogueReferencedDocument) | [edi3:Document](#Document)
+[ReferenceText](#ReferenceText) | xsd:string
+[ExclusivitySpecifiedPeriod](#ExclusivitySpecifiedPeriod) | [edi3:Period](#Period)
+[PurchaseConditionsReferencedDocument](#PurchaseConditionsReferencedDocument) | [edi3:Document](#Document)
+[IncrementalProductOrderableQuantity](#IncrementalProductOrderableQuantity) | xsd:decimal
+[ApplicableTradeDeliveryTerms](#ApplicableTradeDeliveryTerms) | [edi3:DeliveryTerms](#DeliveryTerms)
+[QuotationRequestReferencedDocument](#QuotationRequestReferencedDocument) | [edi3:Document](#Document)
+[ExportLicenceReferencedDocument](#ExportLicenceReferencedDocument) | [edi3:Document](#Document)
+[ImportLicenceReferencedDocument](#ImportLicenceReferencedDocument) | [edi3:Document](#Document)
+[InformationUseRestrictionIndicator](#InformationUseRestrictionIndicator) | xsd:boolean
+[ShippingSpecifiedPeriod](#ShippingSpecifiedPeriod) | [edi3:Period](#Period)
+[SalesConditionsReferencedDocument](#SalesConditionsReferencedDocument) | [edi3:Document](#Document)
+[ContractReferencedDocument](#ContractReferencedDocument) | [edi3:Document](#Document)
+[OrderResponseReferencedDocument](#OrderResponseReferencedDocument) | [edi3:Document](#Document)
+[RequisitionerReferencedDocument](#RequisitionerReferencedDocument) | [edi3:Document](#Document)
+[RequisitionReferencedDocument](#RequisitionReferencedDocument) | [edi3:Document](#Document)
+[OrderProductUnitMeasureCode](#OrderProductUnitMeasureCode) | xsd:token
+[BuyerAgentTradeParty](#BuyerAgentTradeParty) | [edi3:Party](#Party)
+[RevisionIdentificationIdentifier](#RevisionIdentificationIdentifier) | xsd:token
+[PriceListReferencedDocument](#PriceListReferencedDocument) | [edi3:Document](#Document)
+[PreviousOrderResponseReferencedDocument](#PreviousOrderResponseReferencedDocument) | [edi3:Document](#Document)
+[BuyerOrderReferencedDocument](#BuyerOrderReferencedDocument) | [edi3:Document](#Document)
+[DeliveryPriorityPriorityDescriptionCode](#DeliveryPriorityPriorityDescriptionCode) | xsd:token
+[SalesReportReferencedDocument](#SalesReportReferencedDocument) | [edi3:Document](#Document)
+[QuotationProposalResponseReferencedDocument](#QuotationProposalResponseReferencedDocument) | [edi3:Document](#Document)
+[PromotionalDealReferencedDocument](#PromotionalDealReferencedDocument) | [edi3:Document](#Document)
+[CatalogueInformationReceiverTradeParty](#CatalogueInformationReceiverTradeParty) | [edi3:Party](#Party)
+[MaximumProductOrderableQuantity](#MaximumProductOrderableQuantity) | xsd:decimal
+[IdentificationIdentifier](#IdentificationIdentifier) | xsd:token
+[GuaranteedProductLifeSpanSpecifiedPeriod](#GuaranteedProductLifeSpanSpecifiedPeriod) | [edi3:Period](#Period)
+[ProductReorderableIndicator](#ProductReorderableIndicator) | xsd:boolean
+[RelevantTradeParty](#RelevantTradeParty) | [edi3:Party](#Party)
+[BuyerTaxRepresentativeTradeParty](#BuyerTaxRepresentativeTradeParty) | [edi3:Party](#Party)
+[ProductEndUserTradeParty](#ProductEndUserTradeParty) | [edi3:Party](#Party)
+[CatalogueRequestReferencedDocument](#CatalogueRequestReferencedDocument) | [edi3:Document](#Document)
+[ApplicableCrossBorderRegulatoryProcedure](#ApplicableCrossBorderRegulatoryProcedure) | [edi3:RegulatoryProcedure](#RegulatoryProcedure)
+[SalesAgentTradeParty](#SalesAgentTradeParty) | [edi3:Party](#Party)
+[MarketplaceOrderReferencedDocument](#MarketplaceOrderReferencedDocument) | [edi3:Document](#Document)
+[PricingBaseApplicableLogisticsLocation](#PricingBaseApplicableLogisticsLocation) | [edi3:Location](#Location)
+[AdditionalReferencedDocument](#AdditionalReferencedDocument) | [edi3:Document](#Document)
+[MaximumOrderQuantityOrderingSpecifiedPeriod](#MaximumOrderQuantityOrderingSpecifiedPeriod) | [edi3:Period](#Period)
+[ItemBuyerTradeParty](#ItemBuyerTradeParty) | [edi3:Party](#Party)
+[QuotationProposalReferencedDocument](#QuotationProposalReferencedDocument) | [edi3:Document](#Document)
+[SupportCentreTradeParty](#SupportCentreTradeParty) | [edi3:Party](#Party)
+[SellerReferenceText](#SellerReferenceText) | xsd:string
+[QuotationReferencedDocument](#QuotationReferencedDocument) | [edi3:Document](#Document)
+[ProductAvailabilityCode](#ProductAvailabilityCode) | xsd:token
+[QuoteReferencedTradeWorkflowObject](#QuoteReferencedTradeWorkflowObject) | [edi3:WorkflowObject](#WorkflowObject)
+[ImpactCode](#ImpactCode) | xsd:token
+[PriorityCode](#PriorityCode) | xsd:token
+[OrderingSpecifiedPeriod](#OrderingSpecifiedPeriod) | [edi3:Period](#Period)
+[SellerTradeParty](#SellerTradeParty) | [edi3:Party](#Party)
+[EngineeringChangeReferencedDocument](#EngineeringChangeReferencedDocument) | [edi3:Document](#Document)
+[ProductMadeToOrderIndicator](#ProductMadeToOrderIndicator) | xsd:boolean
 
 
 <h1 id="DirectPosition">DirectPosition</h1>
@@ -2160,10 +2160,10 @@ Properties:
 
 Name | Type 
 -|-
-<span id="UOMLabelListText">UOMLabelListText</span> | xsd:string
-<span id="NameText">NameText</span> | xsd:string
-<span id="AxisLabelListText">AxisLabelListText</span> | xsd:string
-<span id="CountNumeric">CountNumeric</span> | xsd:decimal
+[UOMLabelListText](#UOMLabelListText) | xsd:string
+[NameText](#NameText) | xsd:string
+[AxisLabelListText](#AxisLabelListText) | xsd:string
+[CountNumeric](#CountNumeric) | xsd:decimal
 
 
 <h1 id="AllowanceCharge">AllowanceCharge</h1>
@@ -2176,22 +2176,22 @@ Properties:
 
 Name | Type 
 -|-
-<span id="UnitBasisAmount">UnitBasisAmount</span> | xsd:decimal
-<span id="ReasonAllowanceChargeReasonCode">ReasonAllowanceChargeReasonCode</span> | xsd:token
-<span id="BasisAmount">BasisAmount</span> | xsd:decimal
-<span id="ReasonText">ReasonText</span> | xsd:string
-<span id="ChargeIndicator">ChargeIndicator</span> | xsd:boolean
-<span id="CalculationPercent">CalculationPercent</span> | xsd:decimal
-<span id="ActualTradeCurrencyExchange">ActualTradeCurrencyExchange</span> | [edi3:CurrencyExchange](#CurrencyExchange)
-<span id="ActualAmount">ActualAmount</span> | xsd:decimal
-<span id="DescriptionText">DescriptionText</span> | xsd:string
-<span id="CategoryTradeTax">CategoryTradeTax</span> | [edi3:Tax](#Tax)
-<span id="SequenceNumeric">SequenceNumeric</span> | xsd:decimal
-<span id="IdentificationIdentifier">IdentificationIdentifier</span> | xsd:token
-<span id="CategoryAppliedTax">CategoryAppliedTax</span> | [edi3:Tax](#Tax)
-<span id="TypeAllowanceChargeIdentificationCode">TypeAllowanceChargeIdentificationCode</span> | xsd:token
-<span id="ReasonCode">ReasonCode</span> | xsd:token
-<span id="PrepaidIndicator">PrepaidIndicator</span> | xsd:boolean
+[UnitBasisAmount](#UnitBasisAmount) | xsd:decimal
+[ReasonAllowanceChargeReasonCode](#ReasonAllowanceChargeReasonCode) | xsd:token
+[BasisAmount](#BasisAmount) | xsd:decimal
+[ReasonText](#ReasonText) | xsd:string
+[ChargeIndicator](#ChargeIndicator) | xsd:boolean
+[CalculationPercent](#CalculationPercent) | xsd:decimal
+[ActualTradeCurrencyExchange](#ActualTradeCurrencyExchange) | [edi3:CurrencyExchange](#CurrencyExchange)
+[ActualAmount](#ActualAmount) | xsd:decimal
+[DescriptionText](#DescriptionText) | xsd:string
+[CategoryTradeTax](#CategoryTradeTax) | [edi3:Tax](#Tax)
+[SequenceNumeric](#SequenceNumeric) | xsd:decimal
+[IdentificationIdentifier](#IdentificationIdentifier) | xsd:token
+[CategoryAppliedTax](#CategoryAppliedTax) | [edi3:Tax](#Tax)
+[TypeAllowanceChargeIdentificationCode](#TypeAllowanceChargeIdentificationCode) | xsd:token
+[ReasonCode](#ReasonCode) | xsd:token
+[PrepaidIndicator](#PrepaidIndicator) | xsd:boolean
 
 
 <h1 id="Label">Label</h1>
@@ -2204,11 +2204,11 @@ Properties:
 
 Name | Type 
 -|-
-<span id="LayoutTypeCode">LayoutTypeCode</span> | xsd:token
-<span id="IdentificationIdentifier">IdentificationIdentifier</span> | xsd:token
-<span id="SizeCode">SizeCode</span> | xsd:token
-<span id="SeriesStartIdentifier">SeriesStartIdentifier</span> | xsd:token
-<span id="IncludedLabelSection">IncludedLabelSection</span> | [edi3:Section](#Section)
+[LayoutTypeCode](#LayoutTypeCode) | xsd:token
+[IdentificationIdentifier](#IdentificationIdentifier) | xsd:token
+[SizeCode](#SizeCode) | xsd:token
+[SeriesStartIdentifier](#SeriesStartIdentifier) | xsd:token
+[IncludedLabelSection](#IncludedLabelSection) | [edi3:Section](#Section)
 
 
 <h1 id="Tax">Tax</h1>
@@ -2221,56 +2221,56 @@ Properties:
 
 Name | Type 
 -|-
-<span id="BasisQuantity">BasisQuantity</span> | xsd:decimal
-<span id="CalculationSequenceNumeric">CalculationSequenceNumeric</span> | xsd:decimal
-<span id="CategoryNameText">CategoryNameText</span> | xsd:string
-<span id="CurrencyCurrencyCode">CurrencyCurrencyCode</span> | xsd:token
-<span id="UnitBasisAmount">UnitBasisAmount</span> | xsd:decimal
-<span id="CustomsDutyIndicator">CustomsDutyIndicator</span> | xsd:boolean
-<span id="SellerPayableTaxSpecifiedTradeAccountingAccount">SellerPayableTaxSpecifiedTradeAccountingAccount</span> | [edi3:AccountingAccount](#AccountingAccount)
-<span id="SelfAssessedBasisQuantity">SelfAssessedBasisQuantity</span> | xsd:decimal
-<span id="BasisAmount">BasisAmount</span> | xsd:decimal
-<span id="CategoryTaxCategoryCode">CategoryTaxCategoryCode</span> | xsd:token
-<span id="ApplicablePercent">ApplicablePercent</span> | xsd:decimal
-<span id="TypeCode">TypeCode</span> | xsd:token
-<span id="TypeTaxTypeCode">TypeTaxTypeCode</span> | xsd:token
-<span id="TypeText">TypeText</span> | xsd:string
-<span id="PaymentMethodPaymentMethodCode">PaymentMethodPaymentMethodCode</span> | xsd:token
-<span id="GuaranteeCode">GuaranteeCode</span> | xsd:token
-<span id="JurisdictionText">JurisdictionText</span> | xsd:string
-<span id="ExemptionAuthorizationIdentificationIdentifier">ExemptionAuthorizationIdentificationIdentifier</span> | xsd:token
-<span id="ExemptionReasonCode">ExemptionReasonCode</span> | xsd:token
-<span id="BuyerRepayableTaxSpecifiedTradeAccountingAccount">BuyerRepayableTaxSpecifiedTradeAccountingAccount</span> | [edi3:AccountingAccount](#AccountingAccount)
-<span id="PlaceApplicableTradeLocation">PlaceApplicableTradeLocation</span> | [edi3:Location](#Location)
-<span id="RateApplicablePercent">RateApplicablePercent</span> | xsd:decimal
-<span id="TaxExemptionAuthorityIdentificationIdentifier">TaxExemptionAuthorityIdentificationIdentifier</span> | xsd:token
-<span id="BuyerDeductibleTaxSpecifiedTradeAccountingAccount">BuyerDeductibleTaxSpecifiedTradeAccountingAccount</span> | [edi3:AccountingAccount](#AccountingAccount)
-<span id="ServiceSupplyTradeCountry">ServiceSupplyTradeCountry</span> | [edi3:Country](#Country)
-<span id="DescriptionText">DescriptionText</span> | xsd:string
-<span id="BuyerNonDeductibleTaxSpecifiedTradeAccountingAccount">BuyerNonDeductibleTaxSpecifiedTradeAccountingAccount</span> | [edi3:AccountingAccount](#AccountingAccount)
-<span id="RefundAmount">RefundAmount</span> | xsd:decimal
-<span id="CalculationMethodCode">CalculationMethodCode</span> | xsd:token
-<span id="SellerRefundableTaxSpecifiedTradeAccountingAccount">SellerRefundableTaxSpecifiedTradeAccountingAccount</span> | [edi3:AccountingAccount](#AccountingAccount)
-<span id="CalculatedAmount">CalculatedAmount</span> | xsd:decimal
-<span id="TariffDeductionQuantity">TariffDeductionQuantity</span> | xsd:decimal
-<span id="TaxBasisAllowanceRate">TaxBasisAllowanceRate</span> | xsd:decimal
-<span id="GuaranteeText">GuaranteeText</span> | xsd:string
-<span id="AllowanceChargeBasisAmount">AllowanceChargeBasisAmount</span> | xsd:decimal
-<span id="SpecifiedTradeAccountingAccount">SpecifiedTradeAccountingAccount</span> | [edi3:AccountingAccount](#AccountingAccount)
-<span id="ExemptionIndicator">ExemptionIndicator</span> | xsd:boolean
-<span id="RegimeTypeCustomsDutyRegimeTypeCode">RegimeTypeCustomsDutyRegimeTypeCode</span> | xsd:token
-<span id="DueDateTypeTimeReferenceCode">DueDateTypeTimeReferenceCode</span> | xsd:token
-<span id="PaymentIdentifier">PaymentIdentifier</span> | xsd:token
-<span id="SelfAssessedBasisAmount">SelfAssessedBasisAmount</span> | xsd:decimal
-<span id="SelfAssessedCalculatedAmount">SelfAssessedCalculatedAmount</span> | xsd:decimal
-<span id="ExemptionReasonText">ExemptionReasonText</span> | xsd:string
-<span id="InformationAmount">InformationAmount</span> | xsd:decimal
-<span id="TaxPointDate">TaxPointDate</span> | xsd:date
-<span id="DeductionAmount">DeductionAmount</span> | xsd:decimal
-<span id="GrandTotalAmount">GrandTotalAmount</span> | xsd:decimal
-<span id="CalculatedRate">CalculatedRate</span> | xsd:decimal
-<span id="LineTotalBasisAmount">LineTotalBasisAmount</span> | xsd:decimal
-<span id="RateCode">RateCode</span> | xsd:token
+[BasisQuantity](#BasisQuantity) | xsd:decimal
+[CalculationSequenceNumeric](#CalculationSequenceNumeric) | xsd:decimal
+[CategoryNameText](#CategoryNameText) | xsd:string
+[CurrencyCurrencyCode](#CurrencyCurrencyCode) | xsd:token
+[UnitBasisAmount](#UnitBasisAmount) | xsd:decimal
+[CustomsDutyIndicator](#CustomsDutyIndicator) | xsd:boolean
+[SellerPayableTaxSpecifiedTradeAccountingAccount](#SellerPayableTaxSpecifiedTradeAccountingAccount) | [edi3:AccountingAccount](#AccountingAccount)
+[SelfAssessedBasisQuantity](#SelfAssessedBasisQuantity) | xsd:decimal
+[BasisAmount](#BasisAmount) | xsd:decimal
+[CategoryTaxCategoryCode](#CategoryTaxCategoryCode) | xsd:token
+[ApplicablePercent](#ApplicablePercent) | xsd:decimal
+[TypeCode](#TypeCode) | xsd:token
+[TypeTaxTypeCode](#TypeTaxTypeCode) | xsd:token
+[TypeText](#TypeText) | xsd:string
+[PaymentMethodPaymentMethodCode](#PaymentMethodPaymentMethodCode) | xsd:token
+[GuaranteeCode](#GuaranteeCode) | xsd:token
+[JurisdictionText](#JurisdictionText) | xsd:string
+[ExemptionAuthorizationIdentificationIdentifier](#ExemptionAuthorizationIdentificationIdentifier) | xsd:token
+[ExemptionReasonCode](#ExemptionReasonCode) | xsd:token
+[BuyerRepayableTaxSpecifiedTradeAccountingAccount](#BuyerRepayableTaxSpecifiedTradeAccountingAccount) | [edi3:AccountingAccount](#AccountingAccount)
+[PlaceApplicableTradeLocation](#PlaceApplicableTradeLocation) | [edi3:Location](#Location)
+[RateApplicablePercent](#RateApplicablePercent) | xsd:decimal
+[TaxExemptionAuthorityIdentificationIdentifier](#TaxExemptionAuthorityIdentificationIdentifier) | xsd:token
+[BuyerDeductibleTaxSpecifiedTradeAccountingAccount](#BuyerDeductibleTaxSpecifiedTradeAccountingAccount) | [edi3:AccountingAccount](#AccountingAccount)
+[ServiceSupplyTradeCountry](#ServiceSupplyTradeCountry) | [edi3:Country](#Country)
+[DescriptionText](#DescriptionText) | xsd:string
+[BuyerNonDeductibleTaxSpecifiedTradeAccountingAccount](#BuyerNonDeductibleTaxSpecifiedTradeAccountingAccount) | [edi3:AccountingAccount](#AccountingAccount)
+[RefundAmount](#RefundAmount) | xsd:decimal
+[CalculationMethodCode](#CalculationMethodCode) | xsd:token
+[SellerRefundableTaxSpecifiedTradeAccountingAccount](#SellerRefundableTaxSpecifiedTradeAccountingAccount) | [edi3:AccountingAccount](#AccountingAccount)
+[CalculatedAmount](#CalculatedAmount) | xsd:decimal
+[TariffDeductionQuantity](#TariffDeductionQuantity) | xsd:decimal
+[TaxBasisAllowanceRate](#TaxBasisAllowanceRate) | xsd:decimal
+[GuaranteeText](#GuaranteeText) | xsd:string
+[AllowanceChargeBasisAmount](#AllowanceChargeBasisAmount) | xsd:decimal
+[SpecifiedTradeAccountingAccount](#SpecifiedTradeAccountingAccount) | [edi3:AccountingAccount](#AccountingAccount)
+[ExemptionIndicator](#ExemptionIndicator) | xsd:boolean
+[RegimeTypeCustomsDutyRegimeTypeCode](#RegimeTypeCustomsDutyRegimeTypeCode) | xsd:token
+[DueDateTypeTimeReferenceCode](#DueDateTypeTimeReferenceCode) | xsd:token
+[PaymentIdentifier](#PaymentIdentifier) | xsd:token
+[SelfAssessedBasisAmount](#SelfAssessedBasisAmount) | xsd:decimal
+[SelfAssessedCalculatedAmount](#SelfAssessedCalculatedAmount) | xsd:decimal
+[ExemptionReasonText](#ExemptionReasonText) | xsd:string
+[InformationAmount](#InformationAmount) | xsd:decimal
+[TaxPointDate](#TaxPointDate) | xsd:date
+[DeductionAmount](#DeductionAmount) | xsd:decimal
+[GrandTotalAmount](#GrandTotalAmount) | xsd:decimal
+[CalculatedRate](#CalculatedRate) | xsd:decimal
+[LineTotalBasisAmount](#LineTotalBasisAmount) | xsd:decimal
+[RateCode](#RateCode) | xsd:token
 
 
 <h1 id="Process">Process</h1>
@@ -2283,10 +2283,10 @@ Properties:
 
 Name | Type 
 -|-
-<span id="CompletionSpecifiedPeriod">CompletionSpecifiedPeriod</span> | [edi3:Period](#Period)
-<span id="OperationTradeCountry">OperationTradeCountry</span> | [edi3:Country](#Country)
-<span id="OperatorTradeParty">OperatorTradeParty</span> | [edi3:Party](#Party)
-<span id="ApplicableProcessCharacteristic">ApplicableProcessCharacteristic</span> | [edi3:Characteristic](#Characteristic)
+[CompletionSpecifiedPeriod](#CompletionSpecifiedPeriod) | [edi3:Period](#Period)
+[OperationTradeCountry](#OperationTradeCountry) | [edi3:Country](#Country)
+[OperatorTradeParty](#OperatorTradeParty) | [edi3:Party](#Party)
+[ApplicableProcessCharacteristic](#ApplicableProcessCharacteristic) | [edi3:Characteristic](#Characteristic)
 
 
 <h1 id="BreakdownStatement">BreakdownStatement</h1>
@@ -2299,24 +2299,24 @@ Properties:
 
 Name | Type 
 -|-
-<span id="TypeCode">TypeCode</span> | xsd:token
-<span id="DefaultLanguageCode">DefaultLanguageCode</span> | xsd:token
-<span id="ItemBasicWorkItem">ItemBasicWorkItem</span> | [edi3:WorkItem](#WorkItem)
-<span id="CreationSpecifiedBinaryFile">CreationSpecifiedBinaryFile</span> | [edi3:BinaryFile](#BinaryFile)
-<span id="DescriptionText">DescriptionText</span> | xsd:string
-<span id="CommentText">CommentText</span> | xsd:string
-<span id="ContractualLanguageCode">ContractualLanguageCode</span> | xsd:token
-<span id="ReferencedSpecifiedBinaryFile">ReferencedSpecifiedBinaryFile</span> | [edi3:BinaryFile](#BinaryFile)
-<span id="RequestedActionCode">RequestedActionCode</span> | xsd:token
-<span id="IdentificationIdentifier">IdentificationIdentifier</span> | xsd:token
-<span id="TotalCalculatedPrice">TotalCalculatedPrice</span> | [edi3:Price](#Price)
-<span id="ChangedRecordedStatus">ChangedRecordedStatus</span> | [edi3:Status](#Status)
-<span id="MeasurementMethodIdentificationIdentifier">MeasurementMethodIdentificationIdentifier</span> | xsd:token
-<span id="NameText">NameText</span> | xsd:string
-<span id="ItemGroupedWorkItem">ItemGroupedWorkItem</span> | [edi3:WorkItem](#WorkItem)
-<span id="ReaderSpecifiedBinaryFile">ReaderSpecifiedBinaryFile</span> | [edi3:BinaryFile](#BinaryFile)
-<span id="DefaultCurrencyCurrencyCode">DefaultCurrencyCurrencyCode</span> | xsd:token
-<span id="PriceListIdentificationIdentifier">PriceListIdentificationIdentifier</span> | xsd:token
+[TypeCode](#TypeCode) | xsd:token
+[DefaultLanguageCode](#DefaultLanguageCode) | xsd:token
+[ItemBasicWorkItem](#ItemBasicWorkItem) | [edi3:WorkItem](#WorkItem)
+[CreationSpecifiedBinaryFile](#CreationSpecifiedBinaryFile) | [edi3:BinaryFile](#BinaryFile)
+[DescriptionText](#DescriptionText) | xsd:string
+[CommentText](#CommentText) | xsd:string
+[ContractualLanguageCode](#ContractualLanguageCode) | xsd:token
+[ReferencedSpecifiedBinaryFile](#ReferencedSpecifiedBinaryFile) | [edi3:BinaryFile](#BinaryFile)
+[RequestedActionCode](#RequestedActionCode) | xsd:token
+[IdentificationIdentifier](#IdentificationIdentifier) | xsd:token
+[TotalCalculatedPrice](#TotalCalculatedPrice) | [edi3:Price](#Price)
+[ChangedRecordedStatus](#ChangedRecordedStatus) | [edi3:Status](#Status)
+[MeasurementMethodIdentificationIdentifier](#MeasurementMethodIdentificationIdentifier) | xsd:token
+[NameText](#NameText) | xsd:string
+[ItemGroupedWorkItem](#ItemGroupedWorkItem) | [edi3:WorkItem](#WorkItem)
+[ReaderSpecifiedBinaryFile](#ReaderSpecifiedBinaryFile) | [edi3:BinaryFile](#BinaryFile)
+[DefaultCurrencyCurrencyCode](#DefaultCurrencyCurrencyCode) | xsd:token
+[PriceListIdentificationIdentifier](#PriceListIdentificationIdentifier) | xsd:token
 
 
 <h1 id="ForecastTerms">ForecastTerms</h1>
@@ -2329,9 +2329,9 @@ Properties:
 
 Name | Type 
 -|-
-<span id="ForecastTypeCode">ForecastTypeCode</span> | xsd:token
-<span id="FrequencyCode">FrequencyCode</span> | xsd:token
-<span id="DateTypeCode">DateTypeCode</span> | xsd:token
+[ForecastTypeCode](#ForecastTypeCode) | xsd:token
+[FrequencyCode](#FrequencyCode) | xsd:token
+[DateTypeCode](#DateTypeCode) | xsd:token
 
 
 <h1 id="GeographicalLine">GeographicalLine</h1>
@@ -2344,8 +2344,8 @@ Properties:
 
 Name | Type 
 -|-
-<span id="AssociatedSpecifiedGeographicalObjectCharacteristic">AssociatedSpecifiedGeographicalObjectCharacteristic</span> | [edi3:GeographicalObjectCharacteristic](#GeographicalObjectCharacteristic)
-<span id="AssociatedLogisticsLocation">AssociatedLogisticsLocation</span> | [edi3:Location](#Location)
+[AssociatedSpecifiedGeographicalObjectCharacteristic](#AssociatedSpecifiedGeographicalObjectCharacteristic) | [edi3:GeographicalObjectCharacteristic](#GeographicalObjectCharacteristic)
+[AssociatedLogisticsLocation](#AssociatedLogisticsLocation) | [edi3:Location](#Location)
 
 
 <h1 id="GeographicalObjectCharacteristic">GeographicalObjectCharacteristic</h1>
@@ -2358,13 +2358,13 @@ Properties:
 
 Name | Type 
 -|-
-<span id="PhysicalIndicator">PhysicalIndicator</span> | xsd:boolean
-<span id="GeometryCollectionIndicator">GeometryCollectionIndicator</span> | xsd:boolean
-<span id="ShapeTypeText">ShapeTypeText</span> | xsd:string
-<span id="DescriptionText">DescriptionText</span> | xsd:string
-<span id="IdentificationIdentifier">IdentificationIdentifier</span> | xsd:token
-<span id="NameText">NameText</span> | xsd:string
-<span id="DescriptionReferenceText">DescriptionReferenceText</span> | xsd:string
+[PhysicalIndicator](#PhysicalIndicator) | xsd:boolean
+[GeometryCollectionIndicator](#GeometryCollectionIndicator) | xsd:boolean
+[ShapeTypeText](#ShapeTypeText) | xsd:string
+[DescriptionText](#DescriptionText) | xsd:string
+[IdentificationIdentifier](#IdentificationIdentifier) | xsd:token
+[NameText](#NameText) | xsd:string
+[DescriptionReferenceText](#DescriptionReferenceText) | xsd:string
 
 
 <h1 id="Version">Version</h1>
@@ -2377,32 +2377,32 @@ Properties:
 
 Name | Type 
 -|-
-<span id="NameText">NameText</span> | xsd:string
-<span id="IssueDateTime">IssueDateTime</span> | xsd:dateTime
+[NameText](#NameText) | xsd:string
+[IssueDateTime](#IssueDateTime) | xsd:dateTime
 
 
 <h1 id="Registration">Registration</h1>
 
 Type: rdf:Class
 
-Comments: <br/>The recording of items or details for a specific legal purpose.<br/>The recording of items or details for a governmental purpose.<br/>Registration with a specific tax authority.<br/>
+Comments: <br/>The recording of items or details for a governmental purpose.<br/>The recording of items or details for a specific legal purpose.<br/>Registration with a specific tax authority.<br/>
 
 Properties: 
 
 Name | Type 
 -|-
-<span id="LastRegisteredYearDateTime">LastRegisteredYearDateTime</span> | xsd:dateTime
-<span id="ValiditySpecifiedPeriod">ValiditySpecifiedPeriod</span> | [edi3:Period](#Period)
-<span id="TypeCode">TypeCode</span> | xsd:token
-<span id="LastRegisteredYearFormattedDateTime">LastRegisteredYearFormattedDateTime</span> | xsd:dateTime
-<span id="CategoryCode">CategoryCode</span> | xsd:token
-<span id="LicenceIdentifier">LicenceIdentifier</span> | xsd:token
-<span id="AssociatedRegisteredTax">AssociatedRegisteredTax</span> | [edi3:Tax](#Tax)
-<span id="IOSSIdentificationIdentifier">IOSSIdentificationIdentifier</span> | xsd:token
-<span id="IdentificationIdentifier">IdentificationIdentifier</span> | xsd:token
-<span id="VersionIdentifier">VersionIdentifier</span> | xsd:token
-<span id="CountryIdentifier">CountryIdentifier</span> | xsd:token
-<span id="RecordedDate">RecordedDate</span> | xsd:date
+[LastRegisteredYearDateTime](#LastRegisteredYearDateTime) | xsd:dateTime
+[ValiditySpecifiedPeriod](#ValiditySpecifiedPeriod) | [edi3:Period](#Period)
+[TypeCode](#TypeCode) | xsd:token
+[LastRegisteredYearFormattedDateTime](#LastRegisteredYearFormattedDateTime) | xsd:dateTime
+[CategoryCode](#CategoryCode) | xsd:token
+[LicenceIdentifier](#LicenceIdentifier) | xsd:token
+[AssociatedRegisteredTax](#AssociatedRegisteredTax) | [edi3:Tax](#Tax)
+[IOSSIdentificationIdentifier](#IOSSIdentificationIdentifier) | xsd:token
+[IdentificationIdentifier](#IdentificationIdentifier) | xsd:token
+[VersionIdentifier](#VersionIdentifier) | xsd:token
+[CountryIdentifier](#CountryIdentifier) | xsd:token
+[RecordedDate](#RecordedDate) | xsd:date
 
 
 <h1 id="GeographicalCoordinate">GeographicalCoordinate</h1>
@@ -2415,20 +2415,20 @@ Properties:
 
 Name | Type 
 -|-
-<span id="LatitudeDirectionIndicator">LatitudeDirectionIndicator</span> | xsd:boolean
-<span id="LongitudeDirectionIndicator">LongitudeDirectionIndicator</span> | xsd:boolean
-<span id="TimeZoneText">TimeZoneText</span> | xsd:string
-<span id="AlternativeSourceSystemIdentifier">AlternativeSourceSystemIdentifier</span> | xsd:token
-<span id="AltimetricSystemIdentifier">AltimetricSystemIdentifier</span> | xsd:token
-<span id="UsedCSEngineeringCoordinateReferenceSystem">UsedCSEngineeringCoordinateReferenceSystem</span> | [edi3:CoordinateReferenceSystem](#CoordinateReferenceSystem)
-<span id="SystemIdentifier">SystemIdentifier</span> | xsd:token
-<span id="IdentificationIdentifier">IdentificationIdentifier</span> | xsd:token
-<span id="TimeZoneFormattedDateTime">TimeZoneFormattedDateTime</span> | xsd:dateTime
-<span id="LatitudeMeasure">LatitudeMeasure</span> | xsd:decimal
-<span id="AcquisitionDateTime">AcquisitionDateTime</span> | xsd:dateTime
-<span id="LongitudeMeasure">LongitudeMeasure</span> | xsd:decimal
-<span id="UsedGeographicalCoordinateSourceSystem">UsedGeographicalCoordinateSourceSystem</span> | [edi3:CoordinateSourceSystem](#CoordinateSourceSystem)
-<span id="TimeZoneCode">TimeZoneCode</span> | xsd:token
+[LatitudeDirectionIndicator](#LatitudeDirectionIndicator) | xsd:boolean
+[LongitudeDirectionIndicator](#LongitudeDirectionIndicator) | xsd:boolean
+[TimeZoneText](#TimeZoneText) | xsd:string
+[AlternativeSourceSystemIdentifier](#AlternativeSourceSystemIdentifier) | xsd:token
+[AltimetricSystemIdentifier](#AltimetricSystemIdentifier) | xsd:token
+[UsedCSEngineeringCoordinateReferenceSystem](#UsedCSEngineeringCoordinateReferenceSystem) | [edi3:CoordinateReferenceSystem](#CoordinateReferenceSystem)
+[SystemIdentifier](#SystemIdentifier) | xsd:token
+[IdentificationIdentifier](#IdentificationIdentifier) | xsd:token
+[TimeZoneFormattedDateTime](#TimeZoneFormattedDateTime) | xsd:dateTime
+[LatitudeMeasure](#LatitudeMeasure) | xsd:decimal
+[AcquisitionDateTime](#AcquisitionDateTime) | xsd:dateTime
+[LongitudeMeasure](#LongitudeMeasure) | xsd:decimal
+[UsedGeographicalCoordinateSourceSystem](#UsedGeographicalCoordinateSourceSystem) | [edi3:CoordinateSourceSystem](#CoordinateSourceSystem)
+[TimeZoneCode](#TimeZoneCode) | xsd:token
 
 
 <h1 id="Production">Production</h1>
@@ -2441,7 +2441,7 @@ Properties:
 
 Name | Type 
 -|-
-<span id="IdentificationIdentifier">IdentificationIdentifier</span> | xsd:token
+[IdentificationIdentifier](#IdentificationIdentifier) | xsd:token
 
 
 <h1 id="TransportMovement">TransportMovement</h1>
@@ -2454,89 +2454,89 @@ Properties:
 
 Name | Type 
 -|-
-<span id="InspectionTradeParty">InspectionTradeParty</span> | [edi3:Party](#Party)
-<span id="CarriedMaterialGoodsCharacteristic">CarriedMaterialGoodsCharacteristic</span> | [edi3:GoodsCharacteristic](#GoodsCharacteristic)
-<span id="PassengerNationalityTradeCountry">PassengerNationalityTradeCountry</span> | [edi3:Country](#Country)
-<span id="CarrierTradeParty">CarrierTradeParty</span> | [edi3:Party](#Party)
-<span id="ManifestRelatedReferencedDocument">ManifestRelatedReferencedDocument</span> | [edi3:Document](#Document)
-<span id="UnloadingTransportEvent">UnloadingTransportEvent</span> | [edi3:Event](#Event)
-<span id="ApplicableLogisticsServiceCharge">ApplicableLogisticsServiceCharge</span> | [edi3:ServiceCharge](#ServiceCharge)
-<span id="TransitDirectionTransportMeansDirectionCode">TransitDirectionTransportMeansDirectionCode</span> | xsd:token
-<span id="StageTransportMovementStageCode">StageTransportMovementStageCode</span> | xsd:token
-<span id="InformationText">InformationText</span> | xsd:string
-<span id="TransportMeansSecurityOfficerTransportPerson">TransportMeansSecurityOfficerTransportPerson</span> | [edi3:Person](#Person)
-<span id="NotifiedTradeParty">NotifiedTradeParty</span> | [edi3:Party](#Party)
-<span id="FirstArrivalTransportEvent">FirstArrivalTransportEvent</span> | [edi3:Event](#Event)
-<span id="TradedParcelQuantity">TradedParcelQuantity</span> | xsd:decimal
-<span id="ManifestOnboardIndicator">ManifestOnboardIndicator</span> | xsd:boolean
-<span id="PassengerQuantity">PassengerQuantity</span> | xsd:decimal
-<span id="ModeText">ModeText</span> | xsd:string
-<span id="TransportEquipmentQuantity">TransportEquipmentQuantity</span> | xsd:decimal
-<span id="LoadingTransportEvent">LoadingTransportEvent</span> | [edi3:Event](#Event)
-<span id="CargoDescriptionText">CargoDescriptionText</span> | xsd:string
-<span id="SpecialSpecifiedTransportInstructions">SpecialSpecifiedTransportInstructions</span> | [edi3:Instructions](#Instructions)
-<span id="TerminalOperatorAssignedIdentificationIdentifier">TerminalOperatorAssignedIdentificationIdentifier</span> | xsd:token
-<span id="ReportedTransportWasteMaterial">ReportedTransportWasteMaterial</span> | [edi3:Material](#Material)
-<span id="TransportContractRelatedReferencedDocument">TransportContractRelatedReferencedDocument</span> | [edi3:Document](#Document)
-<span id="TypeText">TypeText</span> | xsd:string
-<span id="PassengerListRelatedReferencedDocument">PassengerListRelatedReferencedDocument</span> | [edi3:Document](#Document)
-<span id="ServiceText">ServiceText</span> | xsd:string
-<span id="CommodityConsolidatorTradeParty">CommodityConsolidatorTradeParty</span> | [edi3:Party](#Party)
-<span id="SpecifiedCalculatedEmission">SpecifiedCalculatedEmission</span> | [edi3:Emission](#Emission)
-<span id="CycleText">CycleText</span> | xsd:string
-<span id="BorderCrossingTransportEvent">BorderCrossingTransportEvent</span> | [edi3:Event](#Event)
-<span id="CarriedInactiveReferencedTransportMeans">CarriedInactiveReferencedTransportMeans</span> | [edi3:TransportMeans](#TransportMeans)
-<span id="TradingConsolidatorAssignedIdentificationIdentifier">TradingConsolidatorAssignedIdentificationIdentifier</span> | xsd:token
-<span id="StevedoreTradeParty">StevedoreTradeParty</span> | [edi3:Party](#Party)
-<span id="ArrivalTransportEvent">ArrivalTransportEvent</span> | [edi3:Event](#Event)
-<span id="AssociatedLogisticsConvoy">AssociatedLogisticsConvoy</span> | [edi3:Convoy](#Convoy)
-<span id="ReportedSecurityInformationText">ReportedSecurityInformationText</span> | xsd:string
-<span id="CrewSpecifiedPersonalEffects">CrewSpecifiedPersonalEffects</span> | [edi3:PersonalEffects](#PersonalEffects)
-<span id="LoadingInspectionSpecifiedTransportInstructions">LoadingInspectionSpecifiedTransportInstructions</span> | [edi3:Instructions](#Instructions)
-<span id="ExcessTransportTransportService">ExcessTransportTransportService</span> | [edi3:Service](#Service)
-<span id="CommodityConsolidatorAgentTradeParty">CommodityConsolidatorAgentTradeParty</span> | [edi3:Party](#Party)
-<span id="ScheduledIdentificationIdentifier">ScheduledIdentificationIdentifier</span> | xsd:token
-<span id="PackageQuantity">PackageQuantity</span> | xsd:decimal
-<span id="ConsignmentQuantity">ConsignmentQuantity</span> | xsd:decimal
-<span id="CallTransportEvent">CallTransportEvent</span> | [edi3:Event](#Event)
-<span id="SpecifiedHandlingInstructions">SpecifiedHandlingInstructions</span> | [edi3:Instructions](#Instructions)
-<span id="CallPurposeCode">CallPurposeCode</span> | xsd:token
-<span id="CarrierAgentTradeParty">CarrierAgentTradeParty</span> | [edi3:Party](#Party)
-<span id="ShipToShipTransportEvent">ShipToShipTransportEvent</span> | [edi3:Event](#Event)
-<span id="UnloadingInspectionSpecifiedTransportInstructions">UnloadingInspectionSpecifiedTransportInstructions</span> | [edi3:Instructions](#Instructions)
-<span id="BorderCrossingDateTime">BorderCrossingDateTime</span> | xsd:dateTime
-<span id="DangerousGoodsIndicator">DangerousGoodsIndicator</span> | xsd:boolean
-<span id="CrewNationalityTradeCountry">CrewNationalityTradeCountry</span> | [edi3:Country](#Country)
-<span id="CrewTransportPerson">CrewTransportPerson</span> | [edi3:Person](#Person)
-<span id="IdentificationIdentifier">IdentificationIdentifier</span> | xsd:token
-<span id="CrewListRelatedReferencedDocument">CrewListRelatedReferencedDocument</span> | [edi3:Document](#Document)
-<span id="OnboardStoresItemInventory">OnboardStoresItemInventory</span> | [edi3:Inventory](#Inventory)
-<span id="ConsortiumCarrierTradeParty">ConsortiumCarrierTradeParty</span> | [edi3:Party](#Party)
-<span id="DocumentaryInstructionsNotifiedTradeParty">DocumentaryInstructionsNotifiedTradeParty</span> | [edi3:Party](#Party)
-<span id="UsedLogisticsTransportMeans">UsedLogisticsTransportMeans</span> | [edi3:TransportMeans](#TransportMeans)
-<span id="NVOCCCarrierTradeParty">NVOCCCarrierTradeParty</span> | [edi3:Party](#Party)
-<span id="TerminalOperatorTradeParty">TerminalOperatorTradeParty</span> | [edi3:Party](#Party)
-<span id="NameText">NameText</span> | xsd:string
-<span id="StatusStatusCode">StatusStatusCode</span> | xsd:token
-<span id="ApplicableCrossBorderRegulatoryProcedure">ApplicableCrossBorderRegulatoryProcedure</span> | [edi3:RegulatoryProcedure](#RegulatoryProcedure)
-<span id="SpecifiedLogisticsRiskAnalysisResult">SpecifiedLogisticsRiskAnalysisResult</span> | [edi3:RiskAnalysisResult](#RiskAnalysisResult)
-<span id="MasterResponsibleTransportPerson">MasterResponsibleTransportPerson</span> | [edi3:Person](#Person)
-<span id="UnloadingInspectionTradeParty">UnloadingInspectionTradeParty</span> | [edi3:Party](#Party)
-<span id="ItineraryTransportRoute">ItineraryTransportRoute</span> | [edi3:Route](#Route)
-<span id="ModeTransportModeCode">ModeTransportModeCode</span> | xsd:token
-<span id="OnboardTransportPerson">OnboardTransportPerson</span> | [edi3:Person](#Person)
-<span id="LoadingInspectionTradeParty">LoadingInspectionTradeParty</span> | [edi3:Party](#Party)
-<span id="SailingAdviceNotificationInformationText">SailingAdviceNotificationInformationText</span> | xsd:string
-<span id="PilotageExemptionIdentifier">PilotageExemptionIdentifier</span> | xsd:token
-<span id="ISPSRelatedReferencedDocument">ISPSRelatedReferencedDocument</span> | [edi3:Document](#Document)
-<span id="ServiceCode">ServiceCode</span> | xsd:token
-<span id="ClosingDateTime">ClosingDateTime</span> | xsd:dateTime
-<span id="TransshipmentIntermediateTransportEvent">TransshipmentIntermediateTransportEvent</span> | [edi3:Event](#Event)
-<span id="StayIdentifier">StayIdentifier</span> | xsd:token
-<span id="SailingAdviceNotifiedTradeParty">SailingAdviceNotifiedTradeParty</span> | [edi3:Party](#Party)
-<span id="LiftingInstructionsRelatedReferencedDocument">LiftingInstructionsRelatedReferencedDocument</span> | [edi3:Document](#Document)
-<span id="SpecifiedTransportEvent">SpecifiedTransportEvent</span> | [edi3:Event](#Event)
-<span id="DepartureTransportEvent">DepartureTransportEvent</span> | [edi3:Event](#Event)
+[InspectionTradeParty](#InspectionTradeParty) | [edi3:Party](#Party)
+[CarriedMaterialGoodsCharacteristic](#CarriedMaterialGoodsCharacteristic) | [edi3:GoodsCharacteristic](#GoodsCharacteristic)
+[PassengerNationalityTradeCountry](#PassengerNationalityTradeCountry) | [edi3:Country](#Country)
+[CarrierTradeParty](#CarrierTradeParty) | [edi3:Party](#Party)
+[ManifestRelatedReferencedDocument](#ManifestRelatedReferencedDocument) | [edi3:Document](#Document)
+[UnloadingTransportEvent](#UnloadingTransportEvent) | [edi3:Event](#Event)
+[ApplicableLogisticsServiceCharge](#ApplicableLogisticsServiceCharge) | [edi3:ServiceCharge](#ServiceCharge)
+[TransitDirectionTransportMeansDirectionCode](#TransitDirectionTransportMeansDirectionCode) | xsd:token
+[StageTransportMovementStageCode](#StageTransportMovementStageCode) | xsd:token
+[InformationText](#InformationText) | xsd:string
+[TransportMeansSecurityOfficerTransportPerson](#TransportMeansSecurityOfficerTransportPerson) | [edi3:Person](#Person)
+[NotifiedTradeParty](#NotifiedTradeParty) | [edi3:Party](#Party)
+[FirstArrivalTransportEvent](#FirstArrivalTransportEvent) | [edi3:Event](#Event)
+[TradedParcelQuantity](#TradedParcelQuantity) | xsd:decimal
+[ManifestOnboardIndicator](#ManifestOnboardIndicator) | xsd:boolean
+[PassengerQuantity](#PassengerQuantity) | xsd:decimal
+[ModeText](#ModeText) | xsd:string
+[TransportEquipmentQuantity](#TransportEquipmentQuantity) | xsd:decimal
+[LoadingTransportEvent](#LoadingTransportEvent) | [edi3:Event](#Event)
+[CargoDescriptionText](#CargoDescriptionText) | xsd:string
+[SpecialSpecifiedTransportInstructions](#SpecialSpecifiedTransportInstructions) | [edi3:Instructions](#Instructions)
+[TerminalOperatorAssignedIdentificationIdentifier](#TerminalOperatorAssignedIdentificationIdentifier) | xsd:token
+[ReportedTransportWasteMaterial](#ReportedTransportWasteMaterial) | [edi3:Material](#Material)
+[TransportContractRelatedReferencedDocument](#TransportContractRelatedReferencedDocument) | [edi3:Document](#Document)
+[TypeText](#TypeText) | xsd:string
+[PassengerListRelatedReferencedDocument](#PassengerListRelatedReferencedDocument) | [edi3:Document](#Document)
+[ServiceText](#ServiceText) | xsd:string
+[CommodityConsolidatorTradeParty](#CommodityConsolidatorTradeParty) | [edi3:Party](#Party)
+[SpecifiedCalculatedEmission](#SpecifiedCalculatedEmission) | [edi3:Emission](#Emission)
+[CycleText](#CycleText) | xsd:string
+[BorderCrossingTransportEvent](#BorderCrossingTransportEvent) | [edi3:Event](#Event)
+[CarriedInactiveReferencedTransportMeans](#CarriedInactiveReferencedTransportMeans) | [edi3:TransportMeans](#TransportMeans)
+[TradingConsolidatorAssignedIdentificationIdentifier](#TradingConsolidatorAssignedIdentificationIdentifier) | xsd:token
+[StevedoreTradeParty](#StevedoreTradeParty) | [edi3:Party](#Party)
+[ArrivalTransportEvent](#ArrivalTransportEvent) | [edi3:Event](#Event)
+[AssociatedLogisticsConvoy](#AssociatedLogisticsConvoy) | [edi3:Convoy](#Convoy)
+[ReportedSecurityInformationText](#ReportedSecurityInformationText) | xsd:string
+[CrewSpecifiedPersonalEffects](#CrewSpecifiedPersonalEffects) | [edi3:PersonalEffects](#PersonalEffects)
+[LoadingInspectionSpecifiedTransportInstructions](#LoadingInspectionSpecifiedTransportInstructions) | [edi3:Instructions](#Instructions)
+[ExcessTransportTransportService](#ExcessTransportTransportService) | [edi3:Service](#Service)
+[CommodityConsolidatorAgentTradeParty](#CommodityConsolidatorAgentTradeParty) | [edi3:Party](#Party)
+[ScheduledIdentificationIdentifier](#ScheduledIdentificationIdentifier) | xsd:token
+[PackageQuantity](#PackageQuantity) | xsd:decimal
+[ConsignmentQuantity](#ConsignmentQuantity) | xsd:decimal
+[CallTransportEvent](#CallTransportEvent) | [edi3:Event](#Event)
+[SpecifiedHandlingInstructions](#SpecifiedHandlingInstructions) | [edi3:Instructions](#Instructions)
+[CallPurposeCode](#CallPurposeCode) | xsd:token
+[CarrierAgentTradeParty](#CarrierAgentTradeParty) | [edi3:Party](#Party)
+[ShipToShipTransportEvent](#ShipToShipTransportEvent) | [edi3:Event](#Event)
+[UnloadingInspectionSpecifiedTransportInstructions](#UnloadingInspectionSpecifiedTransportInstructions) | [edi3:Instructions](#Instructions)
+[BorderCrossingDateTime](#BorderCrossingDateTime) | xsd:dateTime
+[DangerousGoodsIndicator](#DangerousGoodsIndicator) | xsd:boolean
+[CrewNationalityTradeCountry](#CrewNationalityTradeCountry) | [edi3:Country](#Country)
+[CrewTransportPerson](#CrewTransportPerson) | [edi3:Person](#Person)
+[IdentificationIdentifier](#IdentificationIdentifier) | xsd:token
+[CrewListRelatedReferencedDocument](#CrewListRelatedReferencedDocument) | [edi3:Document](#Document)
+[OnboardStoresItemInventory](#OnboardStoresItemInventory) | [edi3:Inventory](#Inventory)
+[ConsortiumCarrierTradeParty](#ConsortiumCarrierTradeParty) | [edi3:Party](#Party)
+[DocumentaryInstructionsNotifiedTradeParty](#DocumentaryInstructionsNotifiedTradeParty) | [edi3:Party](#Party)
+[UsedLogisticsTransportMeans](#UsedLogisticsTransportMeans) | [edi3:TransportMeans](#TransportMeans)
+[NVOCCCarrierTradeParty](#NVOCCCarrierTradeParty) | [edi3:Party](#Party)
+[TerminalOperatorTradeParty](#TerminalOperatorTradeParty) | [edi3:Party](#Party)
+[NameText](#NameText) | xsd:string
+[StatusStatusCode](#StatusStatusCode) | xsd:token
+[ApplicableCrossBorderRegulatoryProcedure](#ApplicableCrossBorderRegulatoryProcedure) | [edi3:RegulatoryProcedure](#RegulatoryProcedure)
+[SpecifiedLogisticsRiskAnalysisResult](#SpecifiedLogisticsRiskAnalysisResult) | [edi3:RiskAnalysisResult](#RiskAnalysisResult)
+[MasterResponsibleTransportPerson](#MasterResponsibleTransportPerson) | [edi3:Person](#Person)
+[UnloadingInspectionTradeParty](#UnloadingInspectionTradeParty) | [edi3:Party](#Party)
+[ItineraryTransportRoute](#ItineraryTransportRoute) | [edi3:Route](#Route)
+[ModeTransportModeCode](#ModeTransportModeCode) | xsd:token
+[OnboardTransportPerson](#OnboardTransportPerson) | [edi3:Person](#Person)
+[LoadingInspectionTradeParty](#LoadingInspectionTradeParty) | [edi3:Party](#Party)
+[SailingAdviceNotificationInformationText](#SailingAdviceNotificationInformationText) | xsd:string
+[PilotageExemptionIdentifier](#PilotageExemptionIdentifier) | xsd:token
+[ISPSRelatedReferencedDocument](#ISPSRelatedReferencedDocument) | [edi3:Document](#Document)
+[ServiceCode](#ServiceCode) | xsd:token
+[ClosingDateTime](#ClosingDateTime) | xsd:dateTime
+[TransshipmentIntermediateTransportEvent](#TransshipmentIntermediateTransportEvent) | [edi3:Event](#Event)
+[StayIdentifier](#StayIdentifier) | xsd:token
+[SailingAdviceNotifiedTradeParty](#SailingAdviceNotifiedTradeParty) | [edi3:Party](#Party)
+[LiftingInstructionsRelatedReferencedDocument](#LiftingInstructionsRelatedReferencedDocument) | [edi3:Document](#Document)
+[SpecifiedTransportEvent](#SpecifiedTransportEvent) | [edi3:Event](#Event)
+[DepartureTransportEvent](#DepartureTransportEvent) | [edi3:Event](#Event)
 
 
 <h1 id="Convoy">Convoy</h1>
@@ -2549,10 +2549,10 @@ Properties:
 
 Name | Type 
 -|-
-<span id="MaximumWidthLinearUnitMeasure">MaximumWidthLinearUnitMeasure</span> | xsd:decimal
-<span id="PowerActiveLogisticsTransportMeans">PowerActiveLogisticsTransportMeans</span> | [edi3:TransportMeans](#TransportMeans)
-<span id="PowerInactiveLogisticsTransportMeans">PowerInactiveLogisticsTransportMeans</span> | [edi3:TransportMeans](#TransportMeans)
-<span id="TransportMeansQuantity">TransportMeansQuantity</span> | xsd:decimal
+[MaximumWidthLinearUnitMeasure](#MaximumWidthLinearUnitMeasure) | xsd:decimal
+[PowerActiveLogisticsTransportMeans](#PowerActiveLogisticsTransportMeans) | [edi3:TransportMeans](#TransportMeans)
+[PowerInactiveLogisticsTransportMeans](#PowerInactiveLogisticsTransportMeans) | [edi3:TransportMeans](#TransportMeans)
+[TransportMeansQuantity](#TransportMeansQuantity) | xsd:decimal
 
 
 <h1 id="Polygon">Polygon</h1>
@@ -2565,9 +2565,9 @@ Properties:
 
 Name | Type 
 -|-
-<span id="AssociatedSpecifiedGeographicalObjectCharacteristic">AssociatedSpecifiedGeographicalObjectCharacteristic</span> | [edi3:GeographicalObjectCharacteristic](#GeographicalObjectCharacteristic)
-<span id="AssociatedLogisticsLocation">AssociatedLogisticsLocation</span> | [edi3:Location](#Location)
-<span id="ExteriorSpecifiedLinearRing">ExteriorSpecifiedLinearRing</span> | [edi3:LinearRing](#LinearRing)
+[AssociatedSpecifiedGeographicalObjectCharacteristic](#AssociatedSpecifiedGeographicalObjectCharacteristic) | [edi3:GeographicalObjectCharacteristic](#GeographicalObjectCharacteristic)
+[AssociatedLogisticsLocation](#AssociatedLogisticsLocation) | [edi3:Location](#Location)
+[ExteriorSpecifiedLinearRing](#ExteriorSpecifiedLinearRing) | [edi3:LinearRing](#LinearRing)
 
 
 <h1 id="BalanceOut">BalanceOut</h1>
@@ -2580,12 +2580,12 @@ Properties:
 
 Name | Type 
 -|-
-<span id="OccurrenceDateTime">OccurrenceDateTime</span> | xsd:dateTime
-<span id="DescriptionText">DescriptionText</span> | xsd:string
-<span id="ReasonDescriptionText">ReasonDescriptionText</span> | xsd:string
-<span id="CalculatedAmount">CalculatedAmount</span> | xsd:decimal
-<span id="IdentificationIdentifier">IdentificationIdentifier</span> | xsd:token
-<span id="ReasonCode">ReasonCode</span> | xsd:token
+[OccurrenceDateTime](#OccurrenceDateTime) | xsd:dateTime
+[DescriptionText](#DescriptionText) | xsd:string
+[ReasonDescriptionText](#ReasonDescriptionText) | xsd:string
+[CalculatedAmount](#CalculatedAmount) | xsd:decimal
+[IdentificationIdentifier](#IdentificationIdentifier) | xsd:token
+[ReasonCode](#ReasonCode) | xsd:token
 
 
 <h1 id="Route">Route</h1>
@@ -2598,17 +2598,17 @@ Properties:
 
 Name | Type 
 -|-
-<span id="FrequencyTypeCode">FrequencyTypeCode</span> | xsd:token
-<span id="ItineraryStopTransportEvent">ItineraryStopTransportEvent</span> | [edi3:Event](#Event)
-<span id="DescriptionText">DescriptionText</span> | xsd:string
-<span id="DeparturePointText">DeparturePointText</span> | xsd:string
-<span id="MapBinaryObject">MapBinaryObject</span> | xsd:base64Binary
-<span id="ScheduledSpecifiedPeriod">ScheduledSpecifiedPeriod</span> | [edi3:Period](#Period)
-<span id="IdentificationIdentifier">IdentificationIdentifier</span> | xsd:token
-<span id="StatusStatusCode">StatusStatusCode</span> | xsd:token
-<span id="SecurityLevelCode">SecurityLevelCode</span> | xsd:token
-<span id="TransportMeansText">TransportMeansText</span> | xsd:string
-<span id="FrequencyEffectiveSpecifiedPeriod">FrequencyEffectiveSpecifiedPeriod</span> | [edi3:Period](#Period)
+[FrequencyTypeCode](#FrequencyTypeCode) | xsd:token
+[ItineraryStopTransportEvent](#ItineraryStopTransportEvent) | [edi3:Event](#Event)
+[DescriptionText](#DescriptionText) | xsd:string
+[DeparturePointText](#DeparturePointText) | xsd:string
+[MapBinaryObject](#MapBinaryObject) | xsd:base64Binary
+[ScheduledSpecifiedPeriod](#ScheduledSpecifiedPeriod) | [edi3:Period](#Period)
+[IdentificationIdentifier](#IdentificationIdentifier) | xsd:token
+[StatusStatusCode](#StatusStatusCode) | xsd:token
+[SecurityLevelCode](#SecurityLevelCode) | xsd:token
+[TransportMeansText](#TransportMeansText) | xsd:string
+[FrequencyEffectiveSpecifiedPeriod](#FrequencyEffectiveSpecifiedPeriod) | [edi3:Period](#Period)
 
 
 <h1 id="CountrySubDivision">CountrySubDivision</h1>
@@ -2621,13 +2621,13 @@ Properties:
 
 Name | Type 
 -|-
-<span id="FunctionTypeLocationFunctionCode">FunctionTypeLocationFunctionCode</span> | xsd:token
-<span id="TypeCode">TypeCode</span> | xsd:token
-<span id="SuperordinateTradeCountrySubDivision">SuperordinateTradeCountrySubDivision</span> | [edi3:CountrySubDivision](#CountrySubDivision)
-<span id="IdentificationIdentifier">IdentificationIdentifier</span> | xsd:token
-<span id="NameText">NameText</span> | xsd:string
-<span id="ActivityAuthorizedTradeParty">ActivityAuthorizedTradeParty</span> | [edi3:Party](#Party)
-<span id="HierarchicalLevelCode">HierarchicalLevelCode</span> | xsd:token
+[FunctionTypeLocationFunctionCode](#FunctionTypeLocationFunctionCode) | xsd:token
+[TypeCode](#TypeCode) | xsd:token
+[SuperordinateTradeCountrySubDivision](#SuperordinateTradeCountrySubDivision) | [edi3:CountrySubDivision](#CountrySubDivision)
+[IdentificationIdentifier](#IdentificationIdentifier) | xsd:token
+[NameText](#NameText) | xsd:string
+[ActivityAuthorizedTradeParty](#ActivityAuthorizedTradeParty) | [edi3:Party](#Party)
+[HierarchicalLevelCode](#HierarchicalLevelCode) | xsd:token
 
 
 <h1 id="GoodsCharacteristic">GoodsCharacteristic</h1>
@@ -2640,10 +2640,10 @@ Properties:
 
 Name | Type 
 -|-
-<span id="AbsolutePresenceWeightMeasure">AbsolutePresenceWeightMeasure</span> | xsd:decimal
-<span id="TypeCode">TypeCode</span> | xsd:token
-<span id="DescriptionText">DescriptionText</span> | xsd:string
-<span id="AbsolutePresenceVolumeMeasure">AbsolutePresenceVolumeMeasure</span> | xsd:decimal
+[AbsolutePresenceWeightMeasure](#AbsolutePresenceWeightMeasure) | xsd:decimal
+[TypeCode](#TypeCode) | xsd:token
+[DescriptionText](#DescriptionText) | xsd:string
+[AbsolutePresenceVolumeMeasure](#AbsolutePresenceVolumeMeasure) | xsd:decimal
 
 
 <h1 id="Circle">Circle</h1>
@@ -2656,9 +2656,9 @@ Properties:
 
 Name | Type 
 -|-
-<span id="AssociatedSpecifiedGeographicalObjectCharacteristic">AssociatedSpecifiedGeographicalObjectCharacteristic</span> | [edi3:GeographicalObjectCharacteristic](#GeographicalObjectCharacteristic)
-<span id="AssociatedLogisticsLocation">AssociatedLogisticsLocation</span> | [edi3:Location](#Location)
-<span id="RadiusMeasure">RadiusMeasure</span> | xsd:decimal
+[AssociatedSpecifiedGeographicalObjectCharacteristic](#AssociatedSpecifiedGeographicalObjectCharacteristic) | [edi3:GeographicalObjectCharacteristic](#GeographicalObjectCharacteristic)
+[AssociatedLogisticsLocation](#AssociatedLogisticsLocation) | [edi3:Location](#Location)
+[RadiusMeasure](#RadiusMeasure) | xsd:decimal
 
 
 <h1 id="TestSpecificationReport">TestSpecificationReport</h1>
@@ -2671,8 +2671,8 @@ Properties:
 
 Name | Type 
 -|-
-<span id="ResultText">ResultText</span> | xsd:string
-<span id="StandardNameText">StandardNameText</span> | xsd:string
+[ResultText](#ResultText) | xsd:string
+[StandardNameText](#StandardNameText) | xsd:string
 
 
 <h1 id="Characteristic">Characteristic</h1>
@@ -2685,18 +2685,18 @@ Properties:
 
 Name | Type 
 -|-
-<span id="ValueText">ValueText</span> | xsd:string
-<span id="TypeCode">TypeCode</span> | xsd:token
-<span id="ApplicableProductCharacteristicCondition">ApplicableProductCharacteristicCondition</span> | [edi3:Condition](#Condition)
-<span id="MeasurementMethodCode">MeasurementMethodCode</span> | xsd:token
-<span id="ValueMeasure">ValueMeasure</span> | xsd:decimal
-<span id="ContentTypeCode">ContentTypeCode</span> | xsd:token
-<span id="DescriptionText">DescriptionText</span> | xsd:string
-<span id="ValueDateTime">ValueDateTime</span> | xsd:dateTime
-<span id="IdentificationIdentifier">IdentificationIdentifier</span> | xsd:token
-<span id="ValueCode">ValueCode</span> | xsd:token
-<span id="ValueSpecifiedBinaryFile">ValueSpecifiedBinaryFile</span> | [edi3:BinaryFile](#BinaryFile)
-<span id="ValueIndicator">ValueIndicator</span> | xsd:boolean
+[ValueText](#ValueText) | xsd:string
+[TypeCode](#TypeCode) | xsd:token
+[ApplicableProductCharacteristicCondition](#ApplicableProductCharacteristicCondition) | [edi3:Condition](#Condition)
+[MeasurementMethodCode](#MeasurementMethodCode) | xsd:token
+[ValueMeasure](#ValueMeasure) | xsd:decimal
+[ContentTypeCode](#ContentTypeCode) | xsd:token
+[DescriptionText](#DescriptionText) | xsd:string
+[ValueDateTime](#ValueDateTime) | xsd:dateTime
+[IdentificationIdentifier](#IdentificationIdentifier) | xsd:token
+[ValueCode](#ValueCode) | xsd:token
+[ValueSpecifiedBinaryFile](#ValueSpecifiedBinaryFile) | [edi3:BinaryFile](#BinaryFile)
+[ValueIndicator](#ValueIndicator) | xsd:boolean
 
 
 <h1 id="Period">Period</h1>
@@ -2709,19 +2709,19 @@ Properties:
 
 Name | Type 
 -|-
-<span id="OpenIndicator">OpenIndicator</span> | xsd:boolean
-<span id="DurationMeasure">DurationMeasure</span> | xsd:decimal
-<span id="ContinuousIndicator">ContinuousIndicator</span> | xsd:boolean
-<span id="PurposeCode">PurposeCode</span> | xsd:token
-<span id="StartDateTime">StartDateTime</span> | xsd:dateTime
-<span id="DescriptionText">DescriptionText</span> | xsd:string
-<span id="InclusiveIndicator">InclusiveIndicator</span> | xsd:boolean
-<span id="SequenceNumeric">SequenceNumeric</span> | xsd:decimal
-<span id="SeasonCode">SeasonCode</span> | xsd:token
-<span id="IdentificationIdentifier">IdentificationIdentifier</span> | xsd:token
-<span id="EndDateTime">EndDateTime</span> | xsd:dateTime
-<span id="NameText">NameText</span> | xsd:string
-<span id="StartDateFlexibilityCode">StartDateFlexibilityCode</span> | xsd:token
+[OpenIndicator](#OpenIndicator) | xsd:boolean
+[DurationMeasure](#DurationMeasure) | xsd:decimal
+[ContinuousIndicator](#ContinuousIndicator) | xsd:boolean
+[PurposeCode](#PurposeCode) | xsd:token
+[StartDateTime](#StartDateTime) | xsd:dateTime
+[DescriptionText](#DescriptionText) | xsd:string
+[InclusiveIndicator](#InclusiveIndicator) | xsd:boolean
+[SequenceNumeric](#SequenceNumeric) | xsd:decimal
+[SeasonCode](#SeasonCode) | xsd:token
+[IdentificationIdentifier](#IdentificationIdentifier) | xsd:token
+[EndDateTime](#EndDateTime) | xsd:dateTime
+[NameText](#NameText) | xsd:string
+[StartDateFlexibilityCode](#StartDateFlexibilityCode) | xsd:token
 
 
 <h1 id="TradeLineItem">TradeLineItem</h1>
@@ -2734,41 +2734,41 @@ Properties:
 
 Name | Type 
 -|-
-<span id="AdditionalIdentificationIdentifier">AdditionalIdentificationIdentifier</span> | xsd:token
-<span id="SpecifiedGoodsProduction">SpecifiedGoodsProduction</span> | [edi3:Production](#Production)
-<span id="DescriptionCode">DescriptionCode</span> | xsd:token
-<span id="RequiredApplicableReferencedProduct">RequiredApplicableReferencedProduct</span> | [edi3:Product](#Product)
-<span id="TypeExtensionCode">TypeExtensionCode</span> | xsd:token
-<span id="SpecifiedLineTradeAgreement">SpecifiedLineTradeAgreement</span> | [edi3:TradeAgreement](#TradeAgreement)
-<span id="ComplementaryApplicableReferencedProduct">ComplementaryApplicableReferencedProduct</span> | [edi3:Product](#Product)
-<span id="AdditionalApplicableReferencedProduct">AdditionalApplicableReferencedProduct</span> | [edi3:Product](#Product)
-<span id="BarcodeIdentificationIdentifier">BarcodeIdentificationIdentifier</span> | xsd:token
-<span id="InvoiceAssociatedReferencedDocument">InvoiceAssociatedReferencedDocument</span> | [edi3:Document](#Document)
-<span id="PhysicalLogisticsPackage">PhysicalLogisticsPackage</span> | [edi3:Package](#Package)
-<span id="ComponentApplicableReferencedProduct">ComponentApplicableReferencedProduct</span> | [edi3:Product](#Product)
-<span id="ReferenceReferencedDocument">ReferenceReferencedDocument</span> | [edi3:Document](#Document)
-<span id="SpecifiedSubordinateLineTradeDelivery">SpecifiedSubordinateLineTradeDelivery</span> | [edi3:TradeDelivery](#TradeDelivery)
-<span id="TypeCode">TypeCode</span> | xsd:token
-<span id="SubstitutedReferencedProduct">SubstitutedReferencedProduct</span> | [edi3:Product](#Product)
-<span id="AssociatedDocumentLineDocument">AssociatedDocumentLineDocument</span> | [edi3:Document](#Document)
-<span id="SpecifiedLineTradeSettlement">SpecifiedLineTradeSettlement</span> | [edi3:TradeSettlement](#TradeSettlement)
-<span id="SpecifiedReferencedProduct">SpecifiedReferencedProduct</span> | [edi3:Product](#Product)
-<span id="SpecifiedLineTradeDelivery">SpecifiedLineTradeDelivery</span> | [edi3:TradeDelivery](#TradeDelivery)
-<span id="PhysicalReferencedLogisticsPackage">PhysicalReferencedLogisticsPackage</span> | [edi3:Package](#Package)
-<span id="SubstituteApplicableReferencedProduct">SubstituteApplicableReferencedProduct</span> | [edi3:Product](#Product)
-<span id="AccessoryApplicableReferencedProduct">AccessoryApplicableReferencedProduct</span> | [edi3:Product](#Product)
-<span id="SpecifiedSubordinateLineTradeAgreement">SpecifiedSubordinateLineTradeAgreement</span> | [edi3:TradeAgreement](#TradeAgreement)
-<span id="AssertedDocumentAuthentication">AssertedDocumentAuthentication</span> | [edi3:Authentication](#Authentication)
-<span id="SequenceNumeric">SequenceNumeric</span> | xsd:decimal
-<span id="RequisitionerSpecifiedTradeProduct">RequisitionerSpecifiedTradeProduct</span> | [edi3:Product](#Product)
-<span id="SpecifiedSubordinateLineTradeSettlement">SpecifiedSubordinateLineTradeSettlement</span> | [edi3:TradeSettlement](#TradeSettlement)
-<span id="IdentificationIdentifier">IdentificationIdentifier</span> | xsd:token
-<span id="IncludedSubordinateTradeLineItem">IncludedSubordinateTradeLineItem</span> | [edi3:TradeLineItem](#TradeLineItem)
-<span id="ApplicableTradeProduct">ApplicableTradeProduct</span> | [edi3:Product](#Product)
-<span id="SpecifiedTradeProduct">SpecifiedTradeProduct</span> | [edi3:Product](#Product)
-<span id="AssociatedLogisticsTransportEquipment">AssociatedLogisticsTransportEquipment</span> | [edi3:TransportEquipment](#TransportEquipment)
-<span id="IncludedWithinSupplyChainConsignmentItem">IncludedWithinSupplyChainConsignmentItem</span> | [edi3:ConsignmentItem](#ConsignmentItem)
-<span id="ReferencedLogisticsPackage">ReferencedLogisticsPackage</span> | [edi3:Package](#Package)
+[AdditionalIdentificationIdentifier](#AdditionalIdentificationIdentifier) | xsd:token
+[SpecifiedGoodsProduction](#SpecifiedGoodsProduction) | [edi3:Production](#Production)
+[DescriptionCode](#DescriptionCode) | xsd:token
+[RequiredApplicableReferencedProduct](#RequiredApplicableReferencedProduct) | [edi3:Product](#Product)
+[TypeExtensionCode](#TypeExtensionCode) | xsd:token
+[SpecifiedLineTradeAgreement](#SpecifiedLineTradeAgreement) | [edi3:TradeAgreement](#TradeAgreement)
+[ComplementaryApplicableReferencedProduct](#ComplementaryApplicableReferencedProduct) | [edi3:Product](#Product)
+[AdditionalApplicableReferencedProduct](#AdditionalApplicableReferencedProduct) | [edi3:Product](#Product)
+[BarcodeIdentificationIdentifier](#BarcodeIdentificationIdentifier) | xsd:token
+[InvoiceAssociatedReferencedDocument](#InvoiceAssociatedReferencedDocument) | [edi3:Document](#Document)
+[PhysicalLogisticsPackage](#PhysicalLogisticsPackage) | [edi3:Package](#Package)
+[ComponentApplicableReferencedProduct](#ComponentApplicableReferencedProduct) | [edi3:Product](#Product)
+[ReferenceReferencedDocument](#ReferenceReferencedDocument) | [edi3:Document](#Document)
+[SpecifiedSubordinateLineTradeDelivery](#SpecifiedSubordinateLineTradeDelivery) | [edi3:TradeDelivery](#TradeDelivery)
+[TypeCode](#TypeCode) | xsd:token
+[SubstitutedReferencedProduct](#SubstitutedReferencedProduct) | [edi3:Product](#Product)
+[AssociatedDocumentLineDocument](#AssociatedDocumentLineDocument) | [edi3:Document](#Document)
+[SpecifiedLineTradeSettlement](#SpecifiedLineTradeSettlement) | [edi3:TradeSettlement](#TradeSettlement)
+[SpecifiedReferencedProduct](#SpecifiedReferencedProduct) | [edi3:Product](#Product)
+[SpecifiedLineTradeDelivery](#SpecifiedLineTradeDelivery) | [edi3:TradeDelivery](#TradeDelivery)
+[PhysicalReferencedLogisticsPackage](#PhysicalReferencedLogisticsPackage) | [edi3:Package](#Package)
+[SubstituteApplicableReferencedProduct](#SubstituteApplicableReferencedProduct) | [edi3:Product](#Product)
+[AccessoryApplicableReferencedProduct](#AccessoryApplicableReferencedProduct) | [edi3:Product](#Product)
+[SpecifiedSubordinateLineTradeAgreement](#SpecifiedSubordinateLineTradeAgreement) | [edi3:TradeAgreement](#TradeAgreement)
+[AssertedDocumentAuthentication](#AssertedDocumentAuthentication) | [edi3:Authentication](#Authentication)
+[SequenceNumeric](#SequenceNumeric) | xsd:decimal
+[RequisitionerSpecifiedTradeProduct](#RequisitionerSpecifiedTradeProduct) | [edi3:Product](#Product)
+[SpecifiedSubordinateLineTradeSettlement](#SpecifiedSubordinateLineTradeSettlement) | [edi3:TradeSettlement](#TradeSettlement)
+[IdentificationIdentifier](#IdentificationIdentifier) | xsd:token
+[IncludedSubordinateTradeLineItem](#IncludedSubordinateTradeLineItem) | [edi3:TradeLineItem](#TradeLineItem)
+[ApplicableTradeProduct](#ApplicableTradeProduct) | [edi3:Product](#Product)
+[SpecifiedTradeProduct](#SpecifiedTradeProduct) | [edi3:Product](#Product)
+[AssociatedLogisticsTransportEquipment](#AssociatedLogisticsTransportEquipment) | [edi3:TransportEquipment](#TransportEquipment)
+[IncludedWithinSupplyChainConsignmentItem](#IncludedWithinSupplyChainConsignmentItem) | [edi3:ConsignmentItem](#ConsignmentItem)
+[ReferencedLogisticsPackage](#ReferencedLogisticsPackage) | [edi3:Package](#Package)
 
 
 <h1 id="Range">Range</h1>
@@ -2781,11 +2781,11 @@ Properties:
 
 Name | Type 
 -|-
-<span id="StartIdentifier">StartIdentifier</span> | xsd:token
-<span id="EndIdentifier">EndIdentifier</span> | xsd:token
-<span id="MaximumValueMeasure">MaximumValueMeasure</span> | xsd:decimal
-<span id="TotalItemQuantity">TotalItemQuantity</span> | xsd:decimal
-<span id="MinimumValueMeasure">MinimumValueMeasure</span> | xsd:decimal
+[StartIdentifier](#StartIdentifier) | xsd:token
+[EndIdentifier](#EndIdentifier) | xsd:token
+[MaximumValueMeasure](#MaximumValueMeasure) | xsd:decimal
+[TotalItemQuantity](#TotalItemQuantity) | xsd:decimal
+[MinimumValueMeasure](#MinimumValueMeasure) | xsd:decimal
 
 
 <h1 id="Certification">Certification</h1>
@@ -2798,9 +2798,9 @@ Properties:
 
 Name | Type 
 -|-
-<span id="ResponsibleAgencyText">ResponsibleAgencyText</span> | xsd:string
-<span id="StandardText">StandardText</span> | xsd:string
-<span id="AssertionText">AssertionText</span> | xsd:string
+[ResponsibleAgencyText](#ResponsibleAgencyText) | xsd:string
+[StandardText](#StandardText) | xsd:string
+[AssertionText](#AssertionText) | xsd:string
 
 
 <h1 id="TradeSettlement">TradeSettlement</h1>
@@ -2813,97 +2813,97 @@ Properties:
 
 Name | Type 
 -|-
-<span id="InvoiceCurrencyCurrencyCode">InvoiceCurrencyCurrencyCode</span> | xsd:token
-<span id="SpecifiedAdvancePayment">SpecifiedAdvancePayment</span> | [edi3:Payment](#Payment)
-<span id="AdditionalDescriptionText">AdditionalDescriptionText</span> | xsd:string
-<span id="TotalAdjustmentAmount">TotalAdjustmentAmount</span> | xsd:decimal
-<span id="ScheduledPaymentDateTime">ScheduledPaymentDateTime</span> | xsd:dateTime
-<span id="RequestedFinancingRatePercent">RequestedFinancingRatePercent</span> | xsd:decimal
-<span id="SubtotalCalculatedTradeTax">SubtotalCalculatedTradeTax</span> | [edi3:Tax](#Tax)
-<span id="PriceApplicableTradeCurrencyExchange">PriceApplicableTradeCurrencyExchange</span> | [edi3:CurrencyExchange](#CurrencyExchange)
-<span id="RequestedFinancingAmount">RequestedFinancingAmount</span> | xsd:decimal
-<span id="SpecifiedTradeSettlementLineMonetarySummation">SpecifiedTradeSettlementLineMonetarySummation</span> | [edi3:MonetarySummation](#MonetarySummation)
-<span id="InvoiceReferencedDocument">InvoiceReferencedDocument</span> | [edi3:Document](#Document)
-<span id="ReferencedLineTradeTransaction">ReferencedLineTradeTransaction</span> | [edi3:TradeTransaction](#TradeTransaction)
-<span id="NextInvoiceDateTime">NextInvoiceDateTime</span> | xsd:dateTime
-<span id="QuotationCurrencyCurrencyCode">QuotationCurrencyCurrencyCode</span> | xsd:token
-<span id="SalesSpecifiedTradeAccountingAccount">SalesSpecifiedTradeAccountingAccount</span> | [edi3:AccountingAccount](#AccountingAccount)
-<span id="ClosingBookDueDateTime">ClosingBookDueDateTime</span> | xsd:dateTime
-<span id="ApplicableTradeTax">ApplicableTradeTax</span> | [edi3:Tax](#Tax)
-<span id="AssociatedReferencedDocument">AssociatedReferencedDocument</span> | [edi3:Document](#Document)
-<span id="SpecifiedTradeAllowanceCharge">SpecifiedTradeAllowanceCharge</span> | [edi3:AllowanceCharge](#AllowanceCharge)
-<span id="CreditorReferenceTypeText">CreditorReferenceTypeText</span> | xsd:string
-<span id="PaymentAmount">PaymentAmount</span> | xsd:decimal
-<span id="SpecifiedFinancialAdjustment">SpecifiedFinancialAdjustment</span> | [edi3:Adjustment](#Adjustment)
-<span id="SpecifiedLogisticsServiceCharge">SpecifiedLogisticsServiceCharge</span> | [edi3:ServiceCharge](#ServiceCharge)
-<span id="CreditReasonText">CreditReasonText</span> | xsd:string
-<span id="LetterOfCreditReferencedDocument">LetterOfCreditReferencedDocument</span> | [edi3:Document](#Document)
-<span id="AssociatedDocumentLineDocument">AssociatedDocumentLineDocument</span> | [edi3:Document](#Document)
-<span id="CreditNoteAmount">CreditNoteAmount</span> | xsd:decimal
-<span id="PaymentReferenceText">PaymentReferenceText</span> | xsd:string
-<span id="SpecifiedTradeSettlementPaymentMonetarySummation">SpecifiedTradeSettlementPaymentMonetarySummation</span> | [edi3:MonetarySummation](#MonetarySummation)
-<span id="ProFormaInvoiceReferencedDocument">ProFormaInvoiceReferencedDocument</span> | [edi3:Document](#Document)
-<span id="SpecifiedPaymentInstalmentPlan">SpecifiedPaymentInstalmentPlan</span> | [edi3:InstalmentPlan](#InstalmentPlan)
-<span id="ReceivableSpecifiedTradeAccountingAccount">ReceivableSpecifiedTradeAccountingAccount</span> | [edi3:AccountingAccount](#AccountingAccount)
-<span id="FactoringAgreementReferencedDocument">FactoringAgreementReferencedDocument</span> | [edi3:Document](#Document)
-<span id="BillingSpecifiedPeriod">BillingSpecifiedPeriod</span> | [edi3:Period](#Period)
-<span id="SpecifiedTradeSettlementHeaderMonetarySummation">SpecifiedTradeSettlementHeaderMonetarySummation</span> | [edi3:MonetarySummation](#MonetarySummation)
-<span id="PayerReferenceText">PayerReferenceText</span> | xsd:string
-<span id="DebitNoteAmount">DebitNoteAmount</span> | xsd:decimal
-<span id="PriceCurrencyCurrencyCode">PriceCurrencyCurrencyCode</span> | xsd:token
-<span id="InvoiceeTradeParty">InvoiceeTradeParty</span> | [edi3:Party](#Party)
-<span id="PayeeTradeParty">PayeeTradeParty</span> | [edi3:Party](#Party)
-<span id="PaymentCurrencyCurrencyCode">PaymentCurrencyCurrencyCode</span> | xsd:token
-<span id="PurchaseSpecifiedTradeAccountingAccount">PurchaseSpecifiedTradeAccountingAccount</span> | [edi3:AccountingAccount](#AccountingAccount)
-<span id="UltimatePayeeTradeParty">UltimatePayeeTradeParty</span> | [edi3:Party](#Party)
-<span id="FactoringListReferencedDocument">FactoringListReferencedDocument</span> | [edi3:Document](#Document)
-<span id="DescriptionText">DescriptionText</span> | xsd:string
-<span id="SpecifiedTradeSettlementPaymentMeans">SpecifiedTradeSettlementPaymentMeans</span> | [edi3:PaymentMeans](#PaymentMeans)
-<span id="OrderApplicableTradeCurrencyExchange">OrderApplicableTradeCurrencyExchange</span> | [edi3:CurrencyExchange](#CurrencyExchange)
-<span id="InvoiceApplicableTradeCurrencyExchange">InvoiceApplicableTradeCurrencyExchange</span> | [edi3:CurrencyExchange](#CurrencyExchange)
-<span id="OrderCurrencyCurrencyCode">OrderCurrencyCurrencyCode</span> | xsd:token
-<span id="CreditorReferenceIssuerIdentifier">CreditorReferenceIssuerIdentifier</span> | xsd:token
-<span id="InvoiceIssuerReferenceText">InvoiceIssuerReferenceText</span> | xsd:string
-<span id="PriceCurrencyCode">PriceCurrencyCode</span> | xsd:token
-<span id="PayerTradeParty">PayerTradeParty</span> | [edi3:Party](#Party)
-<span id="InvoiceDateTime">InvoiceDateTime</span> | xsd:dateTime
-<span id="DuePayableAmount">DuePayableAmount</span> | xsd:decimal
-<span id="InvoicerTradeParty">InvoicerTradeParty</span> | [edi3:Party](#Party)
-<span id="PayableSpecifiedTradeAccountingAccount">PayableSpecifiedTradeAccountingAccount</span> | [edi3:AccountingAccount](#AccountingAccount)
-<span id="PaymentApplicableTradeCurrencyExchange">PaymentApplicableTradeCurrencyExchange</span> | [edi3:CurrencyExchange](#CurrencyExchange)
-<span id="RelevantTradeParty">RelevantTradeParty</span> | [edi3:Party](#Party)
-<span id="AdditionalReferencedDocument">AdditionalReferencedDocument</span> | [edi3:Document](#Document)
-<span id="QuotationApplicableTradeCurrencyExchange">QuotationApplicableTradeCurrencyExchange</span> | [edi3:CurrencyExchange](#CurrencyExchange)
-<span id="TaxCurrencyCurrencyCode">TaxCurrencyCurrencyCode</span> | xsd:token
-<span id="CreditorReferenceIdentifier">CreditorReferenceIdentifier</span> | xsd:token
-<span id="SpecifiedTradeSettlementFinancialCard">SpecifiedTradeSettlementFinancialCard</span> | [edi3:FinancialCard](#FinancialCard)
-<span id="TotalInvoiceAmount">TotalInvoiceAmount</span> | xsd:decimal
-<span id="SpecifiedTradePaymentTerms">SpecifiedTradePaymentTerms</span> | [edi3:PaymentTerms](#PaymentTerms)
-<span id="CreditorReferenceTypeCode">CreditorReferenceTypeCode</span> | xsd:token
-<span id="DiscountIndicator">DiscountIndicator</span> | xsd:boolean
-<span id="CreditReasonCode">CreditReasonCode</span> | xsd:token
+[InvoiceCurrencyCurrencyCode](#InvoiceCurrencyCurrencyCode) | xsd:token
+[SpecifiedAdvancePayment](#SpecifiedAdvancePayment) | [edi3:Payment](#Payment)
+[AdditionalDescriptionText](#AdditionalDescriptionText) | xsd:string
+[TotalAdjustmentAmount](#TotalAdjustmentAmount) | xsd:decimal
+[ScheduledPaymentDateTime](#ScheduledPaymentDateTime) | xsd:dateTime
+[RequestedFinancingRatePercent](#RequestedFinancingRatePercent) | xsd:decimal
+[SubtotalCalculatedTradeTax](#SubtotalCalculatedTradeTax) | [edi3:Tax](#Tax)
+[PriceApplicableTradeCurrencyExchange](#PriceApplicableTradeCurrencyExchange) | [edi3:CurrencyExchange](#CurrencyExchange)
+[RequestedFinancingAmount](#RequestedFinancingAmount) | xsd:decimal
+[SpecifiedTradeSettlementLineMonetarySummation](#SpecifiedTradeSettlementLineMonetarySummation) | [edi3:MonetarySummation](#MonetarySummation)
+[InvoiceReferencedDocument](#InvoiceReferencedDocument) | [edi3:Document](#Document)
+[ReferencedLineTradeTransaction](#ReferencedLineTradeTransaction) | [edi3:TradeTransaction](#TradeTransaction)
+[NextInvoiceDateTime](#NextInvoiceDateTime) | xsd:dateTime
+[QuotationCurrencyCurrencyCode](#QuotationCurrencyCurrencyCode) | xsd:token
+[SalesSpecifiedTradeAccountingAccount](#SalesSpecifiedTradeAccountingAccount) | [edi3:AccountingAccount](#AccountingAccount)
+[ClosingBookDueDateTime](#ClosingBookDueDateTime) | xsd:dateTime
+[ApplicableTradeTax](#ApplicableTradeTax) | [edi3:Tax](#Tax)
+[AssociatedReferencedDocument](#AssociatedReferencedDocument) | [edi3:Document](#Document)
+[SpecifiedTradeAllowanceCharge](#SpecifiedTradeAllowanceCharge) | [edi3:AllowanceCharge](#AllowanceCharge)
+[CreditorReferenceTypeText](#CreditorReferenceTypeText) | xsd:string
+[PaymentAmount](#PaymentAmount) | xsd:decimal
+[SpecifiedFinancialAdjustment](#SpecifiedFinancialAdjustment) | [edi3:Adjustment](#Adjustment)
+[SpecifiedLogisticsServiceCharge](#SpecifiedLogisticsServiceCharge) | [edi3:ServiceCharge](#ServiceCharge)
+[CreditReasonText](#CreditReasonText) | xsd:string
+[LetterOfCreditReferencedDocument](#LetterOfCreditReferencedDocument) | [edi3:Document](#Document)
+[AssociatedDocumentLineDocument](#AssociatedDocumentLineDocument) | [edi3:Document](#Document)
+[CreditNoteAmount](#CreditNoteAmount) | xsd:decimal
+[PaymentReferenceText](#PaymentReferenceText) | xsd:string
+[SpecifiedTradeSettlementPaymentMonetarySummation](#SpecifiedTradeSettlementPaymentMonetarySummation) | [edi3:MonetarySummation](#MonetarySummation)
+[ProFormaInvoiceReferencedDocument](#ProFormaInvoiceReferencedDocument) | [edi3:Document](#Document)
+[SpecifiedPaymentInstalmentPlan](#SpecifiedPaymentInstalmentPlan) | [edi3:InstalmentPlan](#InstalmentPlan)
+[ReceivableSpecifiedTradeAccountingAccount](#ReceivableSpecifiedTradeAccountingAccount) | [edi3:AccountingAccount](#AccountingAccount)
+[FactoringAgreementReferencedDocument](#FactoringAgreementReferencedDocument) | [edi3:Document](#Document)
+[BillingSpecifiedPeriod](#BillingSpecifiedPeriod) | [edi3:Period](#Period)
+[SpecifiedTradeSettlementHeaderMonetarySummation](#SpecifiedTradeSettlementHeaderMonetarySummation) | [edi3:MonetarySummation](#MonetarySummation)
+[PayerReferenceText](#PayerReferenceText) | xsd:string
+[DebitNoteAmount](#DebitNoteAmount) | xsd:decimal
+[PriceCurrencyCurrencyCode](#PriceCurrencyCurrencyCode) | xsd:token
+[InvoiceeTradeParty](#InvoiceeTradeParty) | [edi3:Party](#Party)
+[PayeeTradeParty](#PayeeTradeParty) | [edi3:Party](#Party)
+[PaymentCurrencyCurrencyCode](#PaymentCurrencyCurrencyCode) | xsd:token
+[PurchaseSpecifiedTradeAccountingAccount](#PurchaseSpecifiedTradeAccountingAccount) | [edi3:AccountingAccount](#AccountingAccount)
+[UltimatePayeeTradeParty](#UltimatePayeeTradeParty) | [edi3:Party](#Party)
+[FactoringListReferencedDocument](#FactoringListReferencedDocument) | [edi3:Document](#Document)
+[DescriptionText](#DescriptionText) | xsd:string
+[SpecifiedTradeSettlementPaymentMeans](#SpecifiedTradeSettlementPaymentMeans) | [edi3:PaymentMeans](#PaymentMeans)
+[OrderApplicableTradeCurrencyExchange](#OrderApplicableTradeCurrencyExchange) | [edi3:CurrencyExchange](#CurrencyExchange)
+[InvoiceApplicableTradeCurrencyExchange](#InvoiceApplicableTradeCurrencyExchange) | [edi3:CurrencyExchange](#CurrencyExchange)
+[OrderCurrencyCurrencyCode](#OrderCurrencyCurrencyCode) | xsd:token
+[CreditorReferenceIssuerIdentifier](#CreditorReferenceIssuerIdentifier) | xsd:token
+[InvoiceIssuerReferenceText](#InvoiceIssuerReferenceText) | xsd:string
+[PriceCurrencyCode](#PriceCurrencyCode) | xsd:token
+[PayerTradeParty](#PayerTradeParty) | [edi3:Party](#Party)
+[InvoiceDateTime](#InvoiceDateTime) | xsd:dateTime
+[DuePayableAmount](#DuePayableAmount) | xsd:decimal
+[InvoicerTradeParty](#InvoicerTradeParty) | [edi3:Party](#Party)
+[PayableSpecifiedTradeAccountingAccount](#PayableSpecifiedTradeAccountingAccount) | [edi3:AccountingAccount](#AccountingAccount)
+[PaymentApplicableTradeCurrencyExchange](#PaymentApplicableTradeCurrencyExchange) | [edi3:CurrencyExchange](#CurrencyExchange)
+[RelevantTradeParty](#RelevantTradeParty) | [edi3:Party](#Party)
+[AdditionalReferencedDocument](#AdditionalReferencedDocument) | [edi3:Document](#Document)
+[QuotationApplicableTradeCurrencyExchange](#QuotationApplicableTradeCurrencyExchange) | [edi3:CurrencyExchange](#CurrencyExchange)
+[TaxCurrencyCurrencyCode](#TaxCurrencyCurrencyCode) | xsd:token
+[CreditorReferenceIdentifier](#CreditorReferenceIdentifier) | xsd:token
+[SpecifiedTradeSettlementFinancialCard](#SpecifiedTradeSettlementFinancialCard) | [edi3:FinancialCard](#FinancialCard)
+[TotalInvoiceAmount](#TotalInvoiceAmount) | xsd:decimal
+[SpecifiedTradePaymentTerms](#SpecifiedTradePaymentTerms) | [edi3:PaymentTerms](#PaymentTerms)
+[CreditorReferenceTypeCode](#CreditorReferenceTypeCode) | xsd:token
+[DiscountIndicator](#DiscountIndicator) | xsd:boolean
+[CreditReasonCode](#CreditReasonCode) | xsd:token
 
 
 <h1 id="Payment">Payment</h1>
 
 Type: rdf:Class
 
-Comments: <br/>A discharge of obligations in respect of funds or securities, transferred through one of several payments, between two or more parties.<br/>The specific discharge obligations in respect of funds or securities transferred between two or more parties as part of a trade settlement.<br/>A prepaid discharge of obligations in respect of funds or securities transferred between two or more parties.<br/>
+Comments: <br/>The specific discharge obligations in respect of funds or securities transferred between two or more parties as part of a trade settlement.<br/>A discharge of obligations in respect of funds or securities, transferred through one of several payments, between two or more parties.<br/>A prepaid discharge of obligations in respect of funds or securities transferred between two or more parties.<br/>
 
 Properties: 
 
 Name | Type 
 -|-
-<span id="InstructionIdentifier">InstructionIdentifier</span> | xsd:token
-<span id="EndToEndIdentificationIdentifier">EndToEndIdentificationIdentifier</span> | xsd:token
-<span id="ClosingBookDueDateTime">ClosingBookDueDateTime</span> | xsd:dateTime
-<span id="SpecifiedFinancingRequestResultDocument">SpecifiedFinancingRequestResultDocument</span> | [edi3:Document](#Document)
-<span id="SpecifiedPaymentTradeSettlement">SpecifiedPaymentTradeSettlement</span> | [edi3:TradeSettlement](#TradeSettlement)
-<span id="FormattedReceivedFormattedDateTime">FormattedReceivedFormattedDateTime</span> | xsd:dateTime
-<span id="IncludedTradeTax">IncludedTradeTax</span> | [edi3:Tax](#Tax)
-<span id="SequenceIdentifier">SequenceIdentifier</span> | xsd:token
-<span id="PaidAmount">PaidAmount</span> | xsd:decimal
-<span id="RequestedExecutionDateTime">RequestedExecutionDateTime</span> | xsd:dateTime
+[InstructionIdentifier](#InstructionIdentifier) | xsd:token
+[EndToEndIdentificationIdentifier](#EndToEndIdentificationIdentifier) | xsd:token
+[ClosingBookDueDateTime](#ClosingBookDueDateTime) | xsd:dateTime
+[SpecifiedFinancingRequestResultDocument](#SpecifiedFinancingRequestResultDocument) | [edi3:Document](#Document)
+[SpecifiedPaymentTradeSettlement](#SpecifiedPaymentTradeSettlement) | [edi3:TradeSettlement](#TradeSettlement)
+[FormattedReceivedFormattedDateTime](#FormattedReceivedFormattedDateTime) | xsd:dateTime
+[IncludedTradeTax](#IncludedTradeTax) | [edi3:Tax](#Tax)
+[SequenceIdentifier](#SequenceIdentifier) | xsd:token
+[PaidAmount](#PaidAmount) | xsd:decimal
+[RequestedExecutionDateTime](#RequestedExecutionDateTime) | xsd:dateTime
 
 
 <h1 id="Price">Price</h1>
@@ -2916,24 +2916,24 @@ Properties:
 
 Name | Type 
 -|-
-<span id="MinimumQuantity">MinimumQuantity</span> | xsd:decimal
-<span id="OrderUnitConversionFactorNumeric">OrderUnitConversionFactorNumeric</span> | xsd:decimal
-<span id="NetPriceIndicator">NetPriceIndicator</span> | xsd:boolean
-<span id="MaximumQuantity">MaximumQuantity</span> | xsd:decimal
-<span id="AppliedTradeAllowanceCharge">AppliedTradeAllowanceCharge</span> | [edi3:AllowanceCharge](#AllowanceCharge)
-<span id="AssociatedReferencedDocument">AssociatedReferencedDocument</span> | [edi3:Document](#Document)
-<span id="TypePriceTypeCode">TypePriceTypeCode</span> | xsd:token
-<span id="ValiditySpecifiedPeriod">ValiditySpecifiedPeriod</span> | [edi3:Period](#Period)
-<span id="TypeCode">TypeCode</span> | xsd:token
-<span id="TypeText">TypeText</span> | xsd:string
-<span id="UnitAmount">UnitAmount</span> | xsd:decimal
-<span id="ChangeReasonText">ChangeReasonText</span> | xsd:string
-<span id="ComparisonMethodCode">ComparisonMethodCode</span> | xsd:token
-<span id="IncludedTradeTax">IncludedTradeTax</span> | [edi3:Tax](#Tax)
-<span id="TradeComparisonReferencePrice">TradeComparisonReferencePrice</span> | [edi3:Price](#Price)
-<span id="RelatedAppliedAllowanceCharge">RelatedAppliedAllowanceCharge</span> | [edi3:AllowanceCharge](#AllowanceCharge)
-<span id="ChargeAmount">ChargeAmount</span> | xsd:decimal
-<span id="DeliveryTradeLocation">DeliveryTradeLocation</span> | [edi3:Location](#Location)
+[MinimumQuantity](#MinimumQuantity) | xsd:decimal
+[OrderUnitConversionFactorNumeric](#OrderUnitConversionFactorNumeric) | xsd:decimal
+[NetPriceIndicator](#NetPriceIndicator) | xsd:boolean
+[MaximumQuantity](#MaximumQuantity) | xsd:decimal
+[AppliedTradeAllowanceCharge](#AppliedTradeAllowanceCharge) | [edi3:AllowanceCharge](#AllowanceCharge)
+[AssociatedReferencedDocument](#AssociatedReferencedDocument) | [edi3:Document](#Document)
+[TypePriceTypeCode](#TypePriceTypeCode) | xsd:token
+[ValiditySpecifiedPeriod](#ValiditySpecifiedPeriod) | [edi3:Period](#Period)
+[TypeCode](#TypeCode) | xsd:token
+[TypeText](#TypeText) | xsd:string
+[UnitAmount](#UnitAmount) | xsd:decimal
+[ChangeReasonText](#ChangeReasonText) | xsd:string
+[ComparisonMethodCode](#ComparisonMethodCode) | xsd:token
+[IncludedTradeTax](#IncludedTradeTax) | [edi3:Tax](#Tax)
+[TradeComparisonReferencePrice](#TradeComparisonReferencePrice) | [edi3:Price](#Price)
+[RelatedAppliedAllowanceCharge](#RelatedAppliedAllowanceCharge) | [edi3:AllowanceCharge](#AllowanceCharge)
+[ChargeAmount](#ChargeAmount) | xsd:decimal
+[DeliveryTradeLocation](#DeliveryTradeLocation) | [edi3:Location](#Location)
 
 
 <h1 id="SupplyPlan">SupplyPlan</h1>
@@ -2946,21 +2946,21 @@ Properties:
 
 Name | Type 
 -|-
-<span id="DeliveryNoteReferencedDocument">DeliveryNoteReferencedDocument</span> | [edi3:Document](#Document)
-<span id="ActualQuantity">ActualQuantity</span> | xsd:decimal
-<span id="CommitmentLevelCode">CommitmentLevelCode</span> | xsd:token
-<span id="SynchronizationDateTime">SynchronizationDateTime</span> | xsd:dateTime
-<span id="MinusToleranceQuantity">MinusToleranceQuantity</span> | xsd:decimal
-<span id="ShipToTradeParty">ShipToTradeParty</span> | [edi3:Party](#Party)
-<span id="ApplicableSpecifiedPeriod">ApplicableSpecifiedPeriod</span> | [edi3:Period](#Period)
-<span id="PlannedQuantity">PlannedQuantity</span> | xsd:decimal
-<span id="DeliverySupplyChainEvent">DeliverySupplyChainEvent</span> | [edi3:Event](#Event)
-<span id="ContractReferencedDocument">ContractReferencedDocument</span> | [edi3:Document](#Document)
-<span id="ScheduledDeliverySupplyChainEvent">ScheduledDeliverySupplyChainEvent</span> | [edi3:Event](#Event)
-<span id="SpecifiedLogisticsLocation">SpecifiedLogisticsLocation</span> | [edi3:Location](#Location)
-<span id="PlusToleranceQuantity">PlusToleranceQuantity</span> | xsd:decimal
-<span id="ToleranceQuantity">ToleranceQuantity</span> | xsd:decimal
-<span id="ConfirmedDeliverySupplyChainEvent">ConfirmedDeliverySupplyChainEvent</span> | [edi3:Event](#Event)
+[DeliveryNoteReferencedDocument](#DeliveryNoteReferencedDocument) | [edi3:Document](#Document)
+[ActualQuantity](#ActualQuantity) | xsd:decimal
+[CommitmentLevelCode](#CommitmentLevelCode) | xsd:token
+[SynchronizationDateTime](#SynchronizationDateTime) | xsd:dateTime
+[MinusToleranceQuantity](#MinusToleranceQuantity) | xsd:decimal
+[ShipToTradeParty](#ShipToTradeParty) | [edi3:Party](#Party)
+[ApplicableSpecifiedPeriod](#ApplicableSpecifiedPeriod) | [edi3:Period](#Period)
+[PlannedQuantity](#PlannedQuantity) | xsd:decimal
+[DeliverySupplyChainEvent](#DeliverySupplyChainEvent) | [edi3:Event](#Event)
+[ContractReferencedDocument](#ContractReferencedDocument) | [edi3:Document](#Document)
+[ScheduledDeliverySupplyChainEvent](#ScheduledDeliverySupplyChainEvent) | [edi3:Event](#Event)
+[SpecifiedLogisticsLocation](#SpecifiedLogisticsLocation) | [edi3:Location](#Location)
+[PlusToleranceQuantity](#PlusToleranceQuantity) | xsd:decimal
+[ToleranceQuantity](#ToleranceQuantity) | xsd:decimal
+[ConfirmedDeliverySupplyChainEvent](#ConfirmedDeliverySupplyChainEvent) | [edi3:Event](#Event)
 
 
 <h1 id="Observation">Observation</h1>
@@ -2973,9 +2973,9 @@ Properties:
 
 Name | Type 
 -|-
-<span id="DescriptionText">DescriptionText</span> | xsd:string
-<span id="IdentificationIdentifier">IdentificationIdentifier</span> | xsd:token
-<span id="ApplicableNote">ApplicableNote</span> | [edi3:Note](#Note)
+[DescriptionText](#DescriptionText) | xsd:string
+[IdentificationIdentifier](#IdentificationIdentifier) | xsd:token
+[ApplicableNote](#ApplicableNote) | [edi3:Note](#Note)
 
 
 <h1 id="Packaging">Packaging</h1>
@@ -2988,28 +2988,28 @@ Properties:
 
 Name | Type 
 -|-
-<span id="MaximumLinearSpatialDimension">MaximumLinearSpatialDimension</span> | [edi3:Dimension](#Dimension)
-<span id="TypePackageTypeCode">TypePackageTypeCode</span> | xsd:token
-<span id="ContentLayerQuantity">ContentLayerQuantity</span> | xsd:decimal
-<span id="ApplicableDisposalInstructions">ApplicableDisposalInstructions</span> | [edi3:Instructions](#Instructions)
-<span id="AdditionalInstructionIndicator">AdditionalInstructionIndicator</span> | xsd:boolean
-<span id="TypeText">TypeText</span> | xsd:string
-<span id="MaximumStackabilityQuantity">MaximumStackabilityQuantity</span> | xsd:decimal
-<span id="TotalUnitQuantity">TotalUnitQuantity</span> | xsd:decimal
-<span id="LinearSpatialDimension">LinearSpatialDimension</span> | [edi3:Dimension](#Dimension)
-<span id="ReturnableIndicator">ReturnableIndicator</span> | xsd:boolean
-<span id="WeightMeasure">WeightMeasure</span> | xsd:decimal
-<span id="DescriptionText">DescriptionText</span> | xsd:string
-<span id="ConditionCode">ConditionCode</span> | xsd:token
-<span id="AdditionalInstructionCode">AdditionalInstructionCode</span> | xsd:token
-<span id="MinimumLinearSpatialDimension">MinimumLinearSpatialDimension</span> | [edi3:Dimension](#Dimension)
-<span id="LayerTotalUnitQuantity">LayerTotalUnitQuantity</span> | xsd:decimal
-<span id="DisposalMethodCode">DisposalMethodCode</span> | xsd:token
-<span id="MaximumStackabilityWeightMeasure">MaximumStackabilityWeightMeasure</span> | xsd:decimal
-<span id="ApplicableMaterialGoodsCharacteristic">ApplicableMaterialGoodsCharacteristic</span> | [edi3:GoodsCharacteristic](#GoodsCharacteristic)
-<span id="CustomerFacingTotalUnitQuantity">CustomerFacingTotalUnitQuantity</span> | xsd:decimal
-<span id="SpecifiedPackagingMarking">SpecifiedPackagingMarking</span> | [edi3:Marking](#Marking)
-<span id="InstructionCode">InstructionCode</span> | xsd:token
+[MaximumLinearSpatialDimension](#MaximumLinearSpatialDimension) | [edi3:Dimension](#Dimension)
+[TypePackageTypeCode](#TypePackageTypeCode) | xsd:token
+[ContentLayerQuantity](#ContentLayerQuantity) | xsd:decimal
+[ApplicableDisposalInstructions](#ApplicableDisposalInstructions) | [edi3:Instructions](#Instructions)
+[AdditionalInstructionIndicator](#AdditionalInstructionIndicator) | xsd:boolean
+[TypeText](#TypeText) | xsd:string
+[MaximumStackabilityQuantity](#MaximumStackabilityQuantity) | xsd:decimal
+[TotalUnitQuantity](#TotalUnitQuantity) | xsd:decimal
+[LinearSpatialDimension](#LinearSpatialDimension) | [edi3:Dimension](#Dimension)
+[ReturnableIndicator](#ReturnableIndicator) | xsd:boolean
+[WeightMeasure](#WeightMeasure) | xsd:decimal
+[DescriptionText](#DescriptionText) | xsd:string
+[ConditionCode](#ConditionCode) | xsd:token
+[AdditionalInstructionCode](#AdditionalInstructionCode) | xsd:token
+[MinimumLinearSpatialDimension](#MinimumLinearSpatialDimension) | [edi3:Dimension](#Dimension)
+[LayerTotalUnitQuantity](#LayerTotalUnitQuantity) | xsd:decimal
+[DisposalMethodCode](#DisposalMethodCode) | xsd:token
+[MaximumStackabilityWeightMeasure](#MaximumStackabilityWeightMeasure) | xsd:decimal
+[ApplicableMaterialGoodsCharacteristic](#ApplicableMaterialGoodsCharacteristic) | [edi3:GoodsCharacteristic](#GoodsCharacteristic)
+[CustomerFacingTotalUnitQuantity](#CustomerFacingTotalUnitQuantity) | xsd:decimal
+[SpecifiedPackagingMarking](#SpecifiedPackagingMarking) | [edi3:Marking](#Marking)
+[InstructionCode](#InstructionCode) | xsd:token
 
 
 <h1 id="Sensor">Sensor</h1>
@@ -3022,18 +3022,18 @@ Properties:
 
 Name | Type 
 -|-
-<span id="ValueMeasure">ValueMeasure</span> | xsd:decimal
-<span id="ManufacturerTradeParty">ManufacturerTradeParty</span> | [edi3:Party](#Party)
-<span id="PositionCode">PositionCode</span> | xsd:token
-<span id="DefinedControlSettingParameter">DefinedControlSettingParameter</span> | [edi3:Parameter](#Parameter)
-<span id="DefinedOperationalParameter">DefinedOperationalParameter</span> | [edi3:Parameter](#Parameter)
-<span id="IdentificationIdentifier">IdentificationIdentifier</span> | xsd:token
-<span id="OwnerTradeParty">OwnerTradeParty</span> | [edi3:Party](#Party)
-<span id="GrantedProductCertificate">GrantedProductCertificate</span> | [edi3:Certificate](#Certificate)
-<span id="ActualReportedCalibratedMeasurement">ActualReportedCalibratedMeasurement</span> | [edi3:Measurement](#Measurement)
-<span id="RemainingBatteryChargePercent">RemainingBatteryChargePercent</span> | xsd:decimal
-<span id="ScheduledReportedCalibratedMeasurement">ScheduledReportedCalibratedMeasurement</span> | [edi3:Measurement](#Measurement)
-<span id="PrecisionCalibratedMeasurement">PrecisionCalibratedMeasurement</span> | [edi3:Measurement](#Measurement)
+[ValueMeasure](#ValueMeasure) | xsd:decimal
+[ManufacturerTradeParty](#ManufacturerTradeParty) | [edi3:Party](#Party)
+[PositionCode](#PositionCode) | xsd:token
+[DefinedControlSettingParameter](#DefinedControlSettingParameter) | [edi3:Parameter](#Parameter)
+[DefinedOperationalParameter](#DefinedOperationalParameter) | [edi3:Parameter](#Parameter)
+[IdentificationIdentifier](#IdentificationIdentifier) | xsd:token
+[OwnerTradeParty](#OwnerTradeParty) | [edi3:Party](#Party)
+[GrantedProductCertificate](#GrantedProductCertificate) | [edi3:Certificate](#Certificate)
+[ActualReportedCalibratedMeasurement](#ActualReportedCalibratedMeasurement) | [edi3:Measurement](#Measurement)
+[RemainingBatteryChargePercent](#RemainingBatteryChargePercent) | xsd:decimal
+[ScheduledReportedCalibratedMeasurement](#ScheduledReportedCalibratedMeasurement) | [edi3:Measurement](#Measurement)
+[PrecisionCalibratedMeasurement](#PrecisionCalibratedMeasurement) | [edi3:Measurement](#Measurement)
 
 
 <h1 id="Certificate">Certificate</h1>
@@ -3046,16 +3046,16 @@ Properties:
 
 Name | Type 
 -|-
-<span id="TypeCode">TypeCode</span> | xsd:token
-<span id="ActualEffectiveDateTime">ActualEffectiveDateTime</span> | xsd:dateTime
-<span id="PurposeCode">PurposeCode</span> | xsd:token
-<span id="DescriptionText">DescriptionText</span> | xsd:string
-<span id="IssuingPartyIdentifier">IssuingPartyIdentifier</span> | xsd:token
-<span id="RequestedEffectiveDateTime">RequestedEffectiveDateTime</span> | xsd:dateTime
-<span id="IdentificationIdentifier">IdentificationIdentifier</span> | xsd:token
-<span id="ApplicableObjectCode">ApplicableObjectCode</span> | xsd:token
-<span id="IssueReasonCode">IssueReasonCode</span> | xsd:token
-<span id="IssueDateTime">IssueDateTime</span> | xsd:dateTime
+[TypeCode](#TypeCode) | xsd:token
+[ActualEffectiveDateTime](#ActualEffectiveDateTime) | xsd:dateTime
+[PurposeCode](#PurposeCode) | xsd:token
+[DescriptionText](#DescriptionText) | xsd:string
+[IssuingPartyIdentifier](#IssuingPartyIdentifier) | xsd:token
+[RequestedEffectiveDateTime](#RequestedEffectiveDateTime) | xsd:dateTime
+[IdentificationIdentifier](#IdentificationIdentifier) | xsd:token
+[ApplicableObjectCode](#ApplicableObjectCode) | xsd:token
+[IssueReasonCode](#IssueReasonCode) | xsd:token
+[IssueDateTime](#IssueDateTime) | xsd:dateTime
 
 
 <h1 id="IOTDevice">IOTDevice</h1>
@@ -3068,26 +3068,26 @@ Properties:
 
 Name | Type 
 -|-
-<span id="ProviderTradeParty">ProviderTradeParty</span> | [edi3:Party](#Party)
-<span id="LatestReceivedSignalDateTime">LatestReceivedSignalDateTime</span> | xsd:dateTime
-<span id="TypeCode">TypeCode</span> | xsd:token
-<span id="LatestReceivedGeographicalCoordinate">LatestReceivedGeographicalCoordinate</span> | [edi3:GeographicalCoordinate](#GeographicalCoordinate)
-<span id="RelatedCommunicationEvent">RelatedCommunicationEvent</span> | [edi3:Event](#Event)
-<span id="ManufacturerTradeParty">ManufacturerTradeParty</span> | [edi3:Party](#Party)
-<span id="PositionCode">PositionCode</span> | xsd:token
-<span id="PowerSourceTypeCode">PowerSourceTypeCode</span> | xsd:token
-<span id="ReportedTransportEvent">ReportedTransportEvent</span> | [edi3:Event](#Event)
-<span id="InterfaceOEMEquipment">InterfaceOEMEquipment</span> | [edi3:Equipment](#Equipment)
-<span id="IdentificationIdentifier">IdentificationIdentifier</span> | xsd:token
-<span id="OwnerTradeParty">OwnerTradeParty</span> | [edi3:Party](#Party)
-<span id="OperatorTradeParty">OperatorTradeParty</span> | [edi3:Party](#Party)
-<span id="GrantedProductCertificate">GrantedProductCertificate</span> | [edi3:Certificate](#Certificate)
-<span id="EmbeddedMonitoringSensor">EmbeddedMonitoringSensor</span> | [edi3:Sensor](#Sensor)
-<span id="AttachedAssetIdentificationIdentifier">AttachedAssetIdentificationIdentifier</span> | xsd:token
-<span id="ReportingSensorCommunicationPairing">ReportingSensorCommunicationPairing</span> | [edi3:Pairing](#Pairing)
-<span id="RemainingBatteryChargePercent">RemainingBatteryChargePercent</span> | xsd:decimal
-<span id="OperationalStatusCode">OperationalStatusCode</span> | xsd:token
-<span id="RemoteMonitoringSensor">RemoteMonitoringSensor</span> | [edi3:Sensor](#Sensor)
+[ProviderTradeParty](#ProviderTradeParty) | [edi3:Party](#Party)
+[LatestReceivedSignalDateTime](#LatestReceivedSignalDateTime) | xsd:dateTime
+[TypeCode](#TypeCode) | xsd:token
+[LatestReceivedGeographicalCoordinate](#LatestReceivedGeographicalCoordinate) | [edi3:GeographicalCoordinate](#GeographicalCoordinate)
+[RelatedCommunicationEvent](#RelatedCommunicationEvent) | [edi3:Event](#Event)
+[ManufacturerTradeParty](#ManufacturerTradeParty) | [edi3:Party](#Party)
+[PositionCode](#PositionCode) | xsd:token
+[PowerSourceTypeCode](#PowerSourceTypeCode) | xsd:token
+[ReportedTransportEvent](#ReportedTransportEvent) | [edi3:Event](#Event)
+[InterfaceOEMEquipment](#InterfaceOEMEquipment) | [edi3:Equipment](#Equipment)
+[IdentificationIdentifier](#IdentificationIdentifier) | xsd:token
+[OwnerTradeParty](#OwnerTradeParty) | [edi3:Party](#Party)
+[OperatorTradeParty](#OperatorTradeParty) | [edi3:Party](#Party)
+[GrantedProductCertificate](#GrantedProductCertificate) | [edi3:Certificate](#Certificate)
+[EmbeddedMonitoringSensor](#EmbeddedMonitoringSensor) | [edi3:Sensor](#Sensor)
+[AttachedAssetIdentificationIdentifier](#AttachedAssetIdentificationIdentifier) | xsd:token
+[ReportingSensorCommunicationPairing](#ReportingSensorCommunicationPairing) | [edi3:Pairing](#Pairing)
+[RemainingBatteryChargePercent](#RemainingBatteryChargePercent) | xsd:decimal
+[OperationalStatusCode](#OperationalStatusCode) | xsd:token
+[RemoteMonitoringSensor](#RemoteMonitoringSensor) | [edi3:Sensor](#Sensor)
 
 
 <h1 id="Measurement">Measurement</h1>
@@ -3100,18 +3100,18 @@ Properties:
 
 Name | Type 
 -|-
-<span id="ToleranceMeasure">ToleranceMeasure</span> | xsd:decimal
-<span id="TypeCode">TypeCode</span> | xsd:token
-<span id="ActualMeasure">ActualMeasure</span> | xsd:decimal
-<span id="MethodText">MethodText</span> | xsd:string
-<span id="ValueMeasure">ValueMeasure</span> | xsd:decimal
-<span id="DescriptionText">DescriptionText</span> | xsd:string
-<span id="IdentificationIdentifier">IdentificationIdentifier</span> | xsd:token
-<span id="ValueCode">ValueCode</span> | xsd:token
-<span id="VersionIdentifier">VersionIdentifier</span> | xsd:token
-<span id="QuantificationTypeCode">QuantificationTypeCode</span> | xsd:token
-<span id="TolerancePercent">TolerancePercent</span> | xsd:decimal
-<span id="ConditionMeasure">ConditionMeasure</span> | xsd:decimal
+[ToleranceMeasure](#ToleranceMeasure) | xsd:decimal
+[TypeCode](#TypeCode) | xsd:token
+[ActualMeasure](#ActualMeasure) | xsd:decimal
+[MethodText](#MethodText) | xsd:string
+[ValueMeasure](#ValueMeasure) | xsd:decimal
+[DescriptionText](#DescriptionText) | xsd:string
+[IdentificationIdentifier](#IdentificationIdentifier) | xsd:token
+[ValueCode](#ValueCode) | xsd:token
+[VersionIdentifier](#VersionIdentifier) | xsd:token
+[QuantificationTypeCode](#QuantificationTypeCode) | xsd:token
+[TolerancePercent](#TolerancePercent) | xsd:decimal
+[ConditionMeasure](#ConditionMeasure) | xsd:decimal
 
 
 <h1 id="Temperature">Temperature</h1>
@@ -3124,12 +3124,12 @@ Properties:
 
 Name | Type 
 -|-
-<span id="InformationTemperatureSettingInstructions">InformationTemperatureSettingInstructions</span> | [edi3:Instructions](#Instructions)
-<span id="TypeTemperatureTypeCode">TypeTemperatureTypeCode</span> | xsd:token
-<span id="ValueTemperatureUnitMeasure">ValueTemperatureUnitMeasure</span> | xsd:decimal
-<span id="MaximumValueMeasure">MaximumValueMeasure</span> | xsd:decimal
-<span id="MaximumValueTemperatureUnitMeasure">MaximumValueTemperatureUnitMeasure</span> | xsd:decimal
-<span id="MinimumValueMeasure">MinimumValueMeasure</span> | xsd:decimal
+[InformationTemperatureSettingInstructions](#InformationTemperatureSettingInstructions) | [edi3:Instructions](#Instructions)
+[TypeTemperatureTypeCode](#TypeTemperatureTypeCode) | xsd:token
+[ValueTemperatureUnitMeasure](#ValueTemperatureUnitMeasure) | xsd:decimal
+[MaximumValueMeasure](#MaximumValueMeasure) | xsd:decimal
+[MaximumValueTemperatureUnitMeasure](#MaximumValueTemperatureUnitMeasure) | xsd:decimal
+[MinimumValueMeasure](#MinimumValueMeasure) | xsd:decimal
 
 
 <h1 id="Emission">Emission</h1>
@@ -3142,9 +3142,9 @@ Properties:
 
 Name | Type 
 -|-
-<span id="PollutionMeasure">PollutionMeasure</span> | xsd:decimal
-<span id="WeightWeightUnitMeasure">WeightWeightUnitMeasure</span> | xsd:decimal
-<span id="AffectedDistanceLinearUnitMeasure">AffectedDistanceLinearUnitMeasure</span> | xsd:decimal
+[PollutionMeasure](#PollutionMeasure) | xsd:decimal
+[WeightWeightUnitMeasure](#WeightWeightUnitMeasure) | xsd:decimal
+[AffectedDistanceLinearUnitMeasure](#AffectedDistanceLinearUnitMeasure) | xsd:decimal
 
 
 <h1 id="Standard">Standard</h1>
@@ -3157,11 +3157,11 @@ Properties:
 
 Name | Type 
 -|-
-<span id="URIIdentifier">URIIdentifier</span> | xsd:token
-<span id="PartIdentificationIdentifier">PartIdentificationIdentifier</span> | xsd:token
-<span id="IdentificationIdentifier">IdentificationIdentifier</span> | xsd:token
-<span id="VersionIdentifier">VersionIdentifier</span> | xsd:token
-<span id="ElementVersionIdentifier">ElementVersionIdentifier</span> | xsd:token
+[URIIdentifier](#URIIdentifier) | xsd:token
+[PartIdentificationIdentifier](#PartIdentificationIdentifier) | xsd:token
+[IdentificationIdentifier](#IdentificationIdentifier) | xsd:token
+[VersionIdentifier](#VersionIdentifier) | xsd:token
+[ElementVersionIdentifier](#ElementVersionIdentifier) | xsd:token
 
 
 <h1 id="PaymentTerms">PaymentTerms</h1>
@@ -3174,21 +3174,21 @@ Properties:
 
 Name | Type 
 -|-
-<span id="DueFormattedDateTime">DueFormattedDateTime</span> | xsd:dateTime
-<span id="PartialPaymentAmount">PartialPaymentAmount</span> | xsd:decimal
-<span id="DirectDebitMandateIdentificationIdentifier">DirectDebitMandateIdentificationIdentifier</span> | xsd:token
-<span id="PartialPaymentPercent">PartialPaymentPercent</span> | xsd:decimal
-<span id="FromEventPaymentTermsEventTimeReferenceCode">FromEventPaymentTermsEventTimeReferenceCode</span> | xsd:token
-<span id="ApplicableTradePaymentDiscountTerms">ApplicableTradePaymentDiscountTerms</span> | [edi3:PaymentDiscountTerms](#PaymentDiscountTerms)
-<span id="PaymentMeansIdentificationIdentifier">PaymentMeansIdentificationIdentifier</span> | xsd:token
-<span id="TypePaymentTermsTypeCode">TypePaymentTermsTypeCode</span> | xsd:token
-<span id="SettlementPeriodMeasure">SettlementPeriodMeasure</span> | xsd:decimal
-<span id="PayeeTradeParty">PayeeTradeParty</span> | [edi3:Party](#Party)
-<span id="DescriptionText">DescriptionText</span> | xsd:string
-<span id="InstructionTypeCode">InstructionTypeCode</span> | xsd:token
-<span id="IdentificationPaymentTermsIdentifier">IdentificationPaymentTermsIdentifier</span> | xsd:token
-<span id="DueDateDateTime">DueDateDateTime</span> | xsd:dateTime
-<span id="InstructionCode">InstructionCode</span> | xsd:token
+[DueFormattedDateTime](#DueFormattedDateTime) | xsd:dateTime
+[PartialPaymentAmount](#PartialPaymentAmount) | xsd:decimal
+[DirectDebitMandateIdentificationIdentifier](#DirectDebitMandateIdentificationIdentifier) | xsd:token
+[PartialPaymentPercent](#PartialPaymentPercent) | xsd:decimal
+[FromEventPaymentTermsEventTimeReferenceCode](#FromEventPaymentTermsEventTimeReferenceCode) | xsd:token
+[ApplicableTradePaymentDiscountTerms](#ApplicableTradePaymentDiscountTerms) | [edi3:PaymentDiscountTerms](#PaymentDiscountTerms)
+[PaymentMeansIdentificationIdentifier](#PaymentMeansIdentificationIdentifier) | xsd:token
+[TypePaymentTermsTypeCode](#TypePaymentTermsTypeCode) | xsd:token
+[SettlementPeriodMeasure](#SettlementPeriodMeasure) | xsd:decimal
+[PayeeTradeParty](#PayeeTradeParty) | [edi3:Party](#Party)
+[DescriptionText](#DescriptionText) | xsd:string
+[InstructionTypeCode](#InstructionTypeCode) | xsd:token
+[IdentificationPaymentTermsIdentifier](#IdentificationPaymentTermsIdentifier) | xsd:token
+[DueDateDateTime](#DueDateDateTime) | xsd:dateTime
+[InstructionCode](#InstructionCode) | xsd:token
 
 
 <h1 id="GeographicalFeature">GeographicalFeature</h1>
@@ -3201,21 +3201,21 @@ Properties:
 
 Name | Type 
 -|-
-<span id="IncludedSpecifiedGeographicalPoint">IncludedSpecifiedGeographicalPoint</span> | [edi3:GeographicalPoint](#GeographicalPoint)
-<span id="IncludedSpecifiedCircle">IncludedSpecifiedCircle</span> | [edi3:Circle](#Circle)
-<span id="IncludedSpecifiedGeographicalMultiCurve">IncludedSpecifiedGeographicalMultiCurve</span> | [edi3:GeographicalMultiCurve](#GeographicalMultiCurve)
-<span id="CollectionIndicator">CollectionIndicator</span> | xsd:boolean
-<span id="IncludedSpecifiedPolygon">IncludedSpecifiedPolygon</span> | [edi3:Polygon](#Polygon)
-<span id="IncludedSpecifiedGeographicalGrid">IncludedSpecifiedGeographicalGrid</span> | [edi3:GeographicalGrid](#GeographicalGrid)
-<span id="IncludedSpecifiedGeographicalMultiSurface">IncludedSpecifiedGeographicalMultiSurface</span> | [edi3:GeographicalMultiSurface](#GeographicalMultiSurface)
-<span id="UsedCSEngineeringCoordinateReferenceSystem">UsedCSEngineeringCoordinateReferenceSystem</span> | [edi3:CoordinateReferenceSystem](#CoordinateReferenceSystem)
-<span id="DescriptionText">DescriptionText</span> | xsd:string
-<span id="IdentificationIdentifier">IdentificationIdentifier</span> | xsd:token
-<span id="NameText">NameText</span> | xsd:string
-<span id="UsedGeographicalCoordinateSourceSystem">UsedGeographicalCoordinateSourceSystem</span> | [edi3:CoordinateSourceSystem](#CoordinateSourceSystem)
-<span id="IncludedSpecifiedGeographicalMultiPoint">IncludedSpecifiedGeographicalMultiPoint</span> | [edi3:GeographicalMultiPoint](#GeographicalMultiPoint)
-<span id="CoordinateReferenceSystemIdentifier">CoordinateReferenceSystemIdentifier</span> | xsd:token
-<span id="IncludedSpecifiedGeographicalLine">IncludedSpecifiedGeographicalLine</span> | [edi3:GeographicalLine](#GeographicalLine)
+[IncludedSpecifiedGeographicalPoint](#IncludedSpecifiedGeographicalPoint) | [edi3:GeographicalPoint](#GeographicalPoint)
+[IncludedSpecifiedCircle](#IncludedSpecifiedCircle) | [edi3:Circle](#Circle)
+[IncludedSpecifiedGeographicalMultiCurve](#IncludedSpecifiedGeographicalMultiCurve) | [edi3:GeographicalMultiCurve](#GeographicalMultiCurve)
+[CollectionIndicator](#CollectionIndicator) | xsd:boolean
+[IncludedSpecifiedPolygon](#IncludedSpecifiedPolygon) | [edi3:Polygon](#Polygon)
+[IncludedSpecifiedGeographicalGrid](#IncludedSpecifiedGeographicalGrid) | [edi3:GeographicalGrid](#GeographicalGrid)
+[IncludedSpecifiedGeographicalMultiSurface](#IncludedSpecifiedGeographicalMultiSurface) | [edi3:GeographicalMultiSurface](#GeographicalMultiSurface)
+[UsedCSEngineeringCoordinateReferenceSystem](#UsedCSEngineeringCoordinateReferenceSystem) | [edi3:CoordinateReferenceSystem](#CoordinateReferenceSystem)
+[DescriptionText](#DescriptionText) | xsd:string
+[IdentificationIdentifier](#IdentificationIdentifier) | xsd:token
+[NameText](#NameText) | xsd:string
+[UsedGeographicalCoordinateSourceSystem](#UsedGeographicalCoordinateSourceSystem) | [edi3:CoordinateSourceSystem](#CoordinateSourceSystem)
+[IncludedSpecifiedGeographicalMultiPoint](#IncludedSpecifiedGeographicalMultiPoint) | [edi3:GeographicalMultiPoint](#GeographicalMultiPoint)
+[CoordinateReferenceSystemIdentifier](#CoordinateReferenceSystemIdentifier) | xsd:token
+[IncludedSpecifiedGeographicalLine](#IncludedSpecifiedGeographicalLine) | [edi3:GeographicalLine](#GeographicalLine)
 
 
 <h1 id="Segment">Segment</h1>
@@ -3228,9 +3228,9 @@ Properties:
 
 Name | Type 
 -|-
-<span id="TypeCode">TypeCode</span> | xsd:token
-<span id="ImageBinaryObject">ImageBinaryObject</span> | xsd:base64Binary
-<span id="IdentificationIdentifier">IdentificationIdentifier</span> | xsd:token
+[TypeCode](#TypeCode) | xsd:token
+[ImageBinaryObject](#ImageBinaryObject) | xsd:base64Binary
+[IdentificationIdentifier](#IdentificationIdentifier) | xsd:token
 
 
 <h1 id="ConsignmentItem">ConsignmentItem</h1>
@@ -3243,72 +3243,72 @@ Properties:
 
 Name | Type 
 -|-
-<span id="NetWeightWeightUnitMeasure">NetWeightWeightUnitMeasure</span> | xsd:decimal
-<span id="DeliveryTransportEvent">DeliveryTransportEvent</span> | [edi3:Event](#Event)
-<span id="OriginTradeGeopoliticalRegion">OriginTradeGeopoliticalRegion</span> | [edi3:GeopoliticalRegion](#GeopoliticalRegion)
-<span id="ApplicableLogisticsServiceCharge">ApplicableLogisticsServiceCharge</span> | [edi3:ServiceCharge](#ServiceCharge)
-<span id="QuarantineQuarantineInstructions">QuarantineQuarantineInstructions</span> | [edi3:Instructions](#Instructions)
-<span id="DamageRemarksText">DamageRemarksText</span> | xsd:string
-<span id="InformationText">InformationText</span> | xsd:string
-<span id="ApplicableTransportDangerousGoods">ApplicableTransportDangerousGoods</span> | [edi3:DangerousGoods](#DangerousGoods)
-<span id="TariffQuantity">TariffQuantity</span> | xsd:decimal
-<span id="GlobalIdentificationIdentifier">GlobalIdentificationIdentifier</span> | xsd:token
-<span id="SecondTypeExtensionCode">SecondTypeExtensionCode</span> | xsd:token
-<span id="AssociatedReferencedDocument">AssociatedReferencedDocument</span> | [edi3:Document](#Document)
-<span id="GrossWeightWeightUnitMeasure">GrossWeightWeightUnitMeasure</span> | xsd:decimal
-<span id="ExportTradeCountry">ExportTradeCountry</span> | [edi3:Country](#Country)
-<span id="DeclaredValueForCustomsAmount">DeclaredValueForCustomsAmount</span> | xsd:decimal
-<span id="ImportTypeCode">ImportTypeCode</span> | xsd:token
-<span id="ReportedLogisticsStatus">ReportedLogisticsStatus</span> | [edi3:Status](#Status)
-<span id="LoadingLengthLinearUnitMeasure">LoadingLengthLinearUnitMeasure</span> | xsd:decimal
-<span id="LinearSpatialDimension">LinearSpatialDimension</span> | [edi3:Dimension](#Dimension)
-<span id="HandlingHandlingInstructions">HandlingHandlingInstructions</span> | [edi3:Instructions](#Instructions)
-<span id="PreviousAdministrativeReferencedDocument">PreviousAdministrativeReferencedDocument</span> | [edi3:Document](#Document)
-<span id="SpecialInstructionsText">SpecialInstructionsText</span> | xsd:string
-<span id="TotalChargeAmount">TotalChargeAmount</span> | xsd:decimal
-<span id="NationalTypeExtensionCode">NationalTypeExtensionCode</span> | xsd:token
-<span id="TypeExtensionGoodsTypeExtensionCode">TypeExtensionGoodsTypeExtensionCode</span> | xsd:token
-<span id="PickUpTransportEvent">PickUpTransportEvent</span> | [edi3:Event](#Event)
-<span id="InvoiceAmount">InvoiceAmount</span> | xsd:decimal
-<span id="FirstTypeExtensionCode">FirstTypeExtensionCode</span> | xsd:token
-<span id="TransportLogisticsPackage">TransportLogisticsPackage</span> | [edi3:Package](#Package)
-<span id="InsuranceValueAmount">InsuranceValueAmount</span> | xsd:decimal
-<span id="AssociatedReferencedLogisticsTransportEquipment">AssociatedReferencedLogisticsTransportEquipment</span> | [edi3:TransportEquipment](#TransportEquipment)
-<span id="ManufacturerTradeParty">ManufacturerTradeParty</span> | [edi3:Party](#Party)
-<span id="FOBAmount">FOBAmount</span> | xsd:decimal
-<span id="TypeGoodsTypeCode">TypeGoodsTypeCode</span> | xsd:token
-<span id="BorderClearanceTransportInstructions">BorderClearanceTransportInstructions</span> | [edi3:Instructions](#Instructions)
-<span id="PackageQuantity">PackageQuantity</span> | xsd:decimal
-<span id="SequenceNumeric">SequenceNumeric</span> | xsd:decimal
-<span id="PackageTypeText">PackageTypeText</span> | xsd:string
-<span id="IncludedSupplyChainTradeLineItem">IncludedSupplyChainTradeLineItem</span> | [edi3:TradeLineItem](#TradeLineItem)
-<span id="ApplicableLogisticsTransportMeans">ApplicableLogisticsTransportMeans</span> | [edi3:TransportMeans](#TransportMeans)
-<span id="TradeLineItemQuantity">TradeLineItemQuantity</span> | xsd:decimal
-<span id="DeliveryInstructionsText">DeliveryInstructionsText</span> | xsd:string
-<span id="CargoToleranceInformationText">CargoToleranceInformationText</span> | xsd:string
-<span id="NatureIdentificationTransportCargo">NatureIdentificationTransportCargo</span> | [edi3:Cargo](#Cargo)
-<span id="ExportTypeCode">ExportTypeCode</span> | xsd:token
-<span id="IdentificationIdentifier">IdentificationIdentifier</span> | xsd:token
-<span id="TotalExportExitToImportEntryChargeAmount">TotalExportExitToImportEntryChargeAmount</span> | xsd:decimal
-<span id="DeclaredForCustomsLogisticsLocation">DeclaredForCustomsLogisticsLocation</span> | [edi3:Location](#Location)
-<span id="GrossVolumeVolumeUnitMeasure">GrossVolumeVolumeUnitMeasure</span> | xsd:decimal
-<span id="DestinationTradeCountry">DestinationTradeCountry</span> | [edi3:Country](#Country)
-<span id="OriginTradeCountry">OriginTradeCountry</span> | [edi3:Country](#Country)
-<span id="ApplicableCrossBorderRegulatoryProcedure">ApplicableCrossBorderRegulatoryProcedure</span> | [edi3:RegulatoryProcedure](#RegulatoryProcedure)
-<span id="DeliveryTradeParty">DeliveryTradeParty</span> | [edi3:Party](#Party)
-<span id="ChargeableWeightWeightUnitMeasure">ChargeableWeightWeightUnitMeasure</span> | xsd:decimal
-<span id="TransportTransportSettingTemperature">TransportTransportSettingTemperature</span> | [edi3:Temperature](#Temperature)
-<span id="ImportationTradeCountry">ImportationTradeCountry</span> | [edi3:Country](#Country)
-<span id="PhysicalLogisticsShippingMarks">PhysicalLogisticsShippingMarks</span> | [edi3:ShippingMarks](#ShippingMarks)
-<span id="ExaminationTransportEvent">ExaminationTransportEvent</span> | [edi3:Event](#Event)
-<span id="ExportTradeGeopoliticalRegion">ExportTradeGeopoliticalRegion</span> | [edi3:GeopoliticalRegion](#GeopoliticalRegion)
-<span id="DespatchTradeParty">DespatchTradeParty</span> | [edi3:Party](#Party)
-<span id="DeclaredValueForStatisticsAmount">DeclaredValueForStatisticsAmount</span> | xsd:decimal
-<span id="DeclaredValueForCarriageAmount">DeclaredValueForCarriageAmount</span> | xsd:decimal
-<span id="TransitTradeCountry">TransitTradeCountry</span> | [edi3:Country](#Country)
-<span id="TransportContractReferencedDocument">TransportContractReferencedDocument</span> | [edi3:Document](#Document)
-<span id="ApplicableNote">ApplicableNote</span> | [edi3:Note](#Note)
-<span id="VanningTransportEvent">VanningTransportEvent</span> | [edi3:Event](#Event)
+[NetWeightWeightUnitMeasure](#NetWeightWeightUnitMeasure) | xsd:decimal
+[DeliveryTransportEvent](#DeliveryTransportEvent) | [edi3:Event](#Event)
+[OriginTradeGeopoliticalRegion](#OriginTradeGeopoliticalRegion) | [edi3:GeopoliticalRegion](#GeopoliticalRegion)
+[ApplicableLogisticsServiceCharge](#ApplicableLogisticsServiceCharge) | [edi3:ServiceCharge](#ServiceCharge)
+[QuarantineQuarantineInstructions](#QuarantineQuarantineInstructions) | [edi3:Instructions](#Instructions)
+[DamageRemarksText](#DamageRemarksText) | xsd:string
+[InformationText](#InformationText) | xsd:string
+[ApplicableTransportDangerousGoods](#ApplicableTransportDangerousGoods) | [edi3:DangerousGoods](#DangerousGoods)
+[TariffQuantity](#TariffQuantity) | xsd:decimal
+[GlobalIdentificationIdentifier](#GlobalIdentificationIdentifier) | xsd:token
+[SecondTypeExtensionCode](#SecondTypeExtensionCode) | xsd:token
+[AssociatedReferencedDocument](#AssociatedReferencedDocument) | [edi3:Document](#Document)
+[GrossWeightWeightUnitMeasure](#GrossWeightWeightUnitMeasure) | xsd:decimal
+[ExportTradeCountry](#ExportTradeCountry) | [edi3:Country](#Country)
+[DeclaredValueForCustomsAmount](#DeclaredValueForCustomsAmount) | xsd:decimal
+[ImportTypeCode](#ImportTypeCode) | xsd:token
+[ReportedLogisticsStatus](#ReportedLogisticsStatus) | [edi3:Status](#Status)
+[LoadingLengthLinearUnitMeasure](#LoadingLengthLinearUnitMeasure) | xsd:decimal
+[LinearSpatialDimension](#LinearSpatialDimension) | [edi3:Dimension](#Dimension)
+[HandlingHandlingInstructions](#HandlingHandlingInstructions) | [edi3:Instructions](#Instructions)
+[PreviousAdministrativeReferencedDocument](#PreviousAdministrativeReferencedDocument) | [edi3:Document](#Document)
+[SpecialInstructionsText](#SpecialInstructionsText) | xsd:string
+[TotalChargeAmount](#TotalChargeAmount) | xsd:decimal
+[NationalTypeExtensionCode](#NationalTypeExtensionCode) | xsd:token
+[TypeExtensionGoodsTypeExtensionCode](#TypeExtensionGoodsTypeExtensionCode) | xsd:token
+[PickUpTransportEvent](#PickUpTransportEvent) | [edi3:Event](#Event)
+[InvoiceAmount](#InvoiceAmount) | xsd:decimal
+[FirstTypeExtensionCode](#FirstTypeExtensionCode) | xsd:token
+[TransportLogisticsPackage](#TransportLogisticsPackage) | [edi3:Package](#Package)
+[InsuranceValueAmount](#InsuranceValueAmount) | xsd:decimal
+[AssociatedReferencedLogisticsTransportEquipment](#AssociatedReferencedLogisticsTransportEquipment) | [edi3:TransportEquipment](#TransportEquipment)
+[ManufacturerTradeParty](#ManufacturerTradeParty) | [edi3:Party](#Party)
+[FOBAmount](#FOBAmount) | xsd:decimal
+[TypeGoodsTypeCode](#TypeGoodsTypeCode) | xsd:token
+[BorderClearanceTransportInstructions](#BorderClearanceTransportInstructions) | [edi3:Instructions](#Instructions)
+[PackageQuantity](#PackageQuantity) | xsd:decimal
+[SequenceNumeric](#SequenceNumeric) | xsd:decimal
+[PackageTypeText](#PackageTypeText) | xsd:string
+[IncludedSupplyChainTradeLineItem](#IncludedSupplyChainTradeLineItem) | [edi3:TradeLineItem](#TradeLineItem)
+[ApplicableLogisticsTransportMeans](#ApplicableLogisticsTransportMeans) | [edi3:TransportMeans](#TransportMeans)
+[TradeLineItemQuantity](#TradeLineItemQuantity) | xsd:decimal
+[DeliveryInstructionsText](#DeliveryInstructionsText) | xsd:string
+[CargoToleranceInformationText](#CargoToleranceInformationText) | xsd:string
+[NatureIdentificationTransportCargo](#NatureIdentificationTransportCargo) | [edi3:Cargo](#Cargo)
+[ExportTypeCode](#ExportTypeCode) | xsd:token
+[IdentificationIdentifier](#IdentificationIdentifier) | xsd:token
+[TotalExportExitToImportEntryChargeAmount](#TotalExportExitToImportEntryChargeAmount) | xsd:decimal
+[DeclaredForCustomsLogisticsLocation](#DeclaredForCustomsLogisticsLocation) | [edi3:Location](#Location)
+[GrossVolumeVolumeUnitMeasure](#GrossVolumeVolumeUnitMeasure) | xsd:decimal
+[DestinationTradeCountry](#DestinationTradeCountry) | [edi3:Country](#Country)
+[OriginTradeCountry](#OriginTradeCountry) | [edi3:Country](#Country)
+[ApplicableCrossBorderRegulatoryProcedure](#ApplicableCrossBorderRegulatoryProcedure) | [edi3:RegulatoryProcedure](#RegulatoryProcedure)
+[DeliveryTradeParty](#DeliveryTradeParty) | [edi3:Party](#Party)
+[ChargeableWeightWeightUnitMeasure](#ChargeableWeightWeightUnitMeasure) | xsd:decimal
+[TransportTransportSettingTemperature](#TransportTransportSettingTemperature) | [edi3:Temperature](#Temperature)
+[ImportationTradeCountry](#ImportationTradeCountry) | [edi3:Country](#Country)
+[PhysicalLogisticsShippingMarks](#PhysicalLogisticsShippingMarks) | [edi3:ShippingMarks](#ShippingMarks)
+[ExaminationTransportEvent](#ExaminationTransportEvent) | [edi3:Event](#Event)
+[ExportTradeGeopoliticalRegion](#ExportTradeGeopoliticalRegion) | [edi3:GeopoliticalRegion](#GeopoliticalRegion)
+[DespatchTradeParty](#DespatchTradeParty) | [edi3:Party](#Party)
+[DeclaredValueForStatisticsAmount](#DeclaredValueForStatisticsAmount) | xsd:decimal
+[DeclaredValueForCarriageAmount](#DeclaredValueForCarriageAmount) | xsd:decimal
+[TransitTradeCountry](#TransitTradeCountry) | [edi3:Country](#Country)
+[TransportContractReferencedDocument](#TransportContractReferencedDocument) | [edi3:Document](#Document)
+[ApplicableNote](#ApplicableNote) | [edi3:Note](#Note)
+[VanningTransportEvent](#VanningTransportEvent) | [edi3:Event](#Event)
 
 
 <h1 id="ServiceCharge">ServiceCharge</h1>
@@ -3321,25 +3321,25 @@ Properties:
 
 Name | Type 
 -|-
-<span id="CalculationBasisText">CalculationBasisText</span> | xsd:string
-<span id="ChargeCategoryCode">ChargeCategoryCode</span> | xsd:token
-<span id="CalculationBasisLogisticsChargeCalculationBasisCode">CalculationBasisLogisticsChargeCalculationBasisCode</span> | xsd:token
-<span id="IdentificationFreightChargeTypeIdentifier">IdentificationFreightChargeTypeIdentifier</span> | xsd:token
-<span id="AllowanceChargeText">AllowanceChargeText</span> | xsd:string
-<span id="PaymentPlaceLogisticsLocation">PaymentPlaceLogisticsLocation</span> | [edi3:Location](#Location)
-<span id="TariffClassFreightChargeTariffClassCode">TariffClassFreightChargeTariffClassCode</span> | xsd:token
-<span id="PaymentArrangementTransportServicePaymentArrangementCode">PaymentArrangementTransportServicePaymentArrangementCode</span> | xsd:token
-<span id="DescriptionText">DescriptionText</span> | xsd:string
-<span id="SpecifiedTradeSettlementPaymentMeans">SpecifiedTradeSettlementPaymentMeans</span> | [edi3:PaymentMeans](#PaymentMeans)
-<span id="AppliedFromLogisticsLocation">AppliedFromLogisticsLocation</span> | [edi3:Location](#Location)
-<span id="PayingPartyRoleChargePayingPartyRoleCode">PayingPartyRoleChargePayingPartyRoleCode</span> | xsd:token
-<span id="DisbursementAmount">DisbursementAmount</span> | xsd:decimal
-<span id="ServiceCategoryCode">ServiceCategoryCode</span> | xsd:token
-<span id="AppliedToLogisticsLocation">AppliedToLogisticsLocation</span> | [edi3:Location](#Location)
-<span id="AppliedTradeTax">AppliedTradeTax</span> | [edi3:Tax](#Tax)
-<span id="CategoryTransportServiceCategoryCode">CategoryTransportServiceCategoryCode</span> | xsd:token
-<span id="FreightInvoiceTypeCode">FreightInvoiceTypeCode</span> | xsd:token
-<span id="TransportPaymentMethodCode">TransportPaymentMethodCode</span> | xsd:token
+[CalculationBasisText](#CalculationBasisText) | xsd:string
+[ChargeCategoryCode](#ChargeCategoryCode) | xsd:token
+[CalculationBasisLogisticsChargeCalculationBasisCode](#CalculationBasisLogisticsChargeCalculationBasisCode) | xsd:token
+[IdentificationFreightChargeTypeIdentifier](#IdentificationFreightChargeTypeIdentifier) | xsd:token
+[AllowanceChargeText](#AllowanceChargeText) | xsd:string
+[PaymentPlaceLogisticsLocation](#PaymentPlaceLogisticsLocation) | [edi3:Location](#Location)
+[TariffClassFreightChargeTariffClassCode](#TariffClassFreightChargeTariffClassCode) | xsd:token
+[PaymentArrangementTransportServicePaymentArrangementCode](#PaymentArrangementTransportServicePaymentArrangementCode) | xsd:token
+[DescriptionText](#DescriptionText) | xsd:string
+[SpecifiedTradeSettlementPaymentMeans](#SpecifiedTradeSettlementPaymentMeans) | [edi3:PaymentMeans](#PaymentMeans)
+[AppliedFromLogisticsLocation](#AppliedFromLogisticsLocation) | [edi3:Location](#Location)
+[PayingPartyRoleChargePayingPartyRoleCode](#PayingPartyRoleChargePayingPartyRoleCode) | xsd:token
+[DisbursementAmount](#DisbursementAmount) | xsd:decimal
+[ServiceCategoryCode](#ServiceCategoryCode) | xsd:token
+[AppliedToLogisticsLocation](#AppliedToLogisticsLocation) | [edi3:Location](#Location)
+[AppliedTradeTax](#AppliedTradeTax) | [edi3:Tax](#Tax)
+[CategoryTransportServiceCategoryCode](#CategoryTransportServiceCategoryCode) | xsd:token
+[FreightInvoiceTypeCode](#FreightInvoiceTypeCode) | xsd:token
+[TransportPaymentMethodCode](#TransportPaymentMethodCode) | xsd:token
 
 
 <h1 id="SecurityTag">SecurityTag</h1>
@@ -3352,7 +3352,7 @@ Properties:
 
 Name | Type 
 -|-
-<span id="LocationCode">LocationCode</span> | xsd:token
+[LocationCode](#LocationCode) | xsd:token
 
 
 <h1 id="Declaration">Declaration</h1>
@@ -3365,26 +3365,26 @@ Properties:
 
 Name | Type 
 -|-
-<span id="IssueFormattedDateTime">IssueFormattedDateTime</span> | xsd:dateTime
-<span id="ApplicableCrossBorderCustomsValuation">ApplicableCrossBorderCustomsValuation</span> | [edi3:CustomsValuation](#CustomsValuation)
-<span id="DeclarantTradeParty">DeclarantTradeParty</span> | [edi3:Party](#Party)
-<span id="CustomsValueSpecifiedAmount">CustomsValueSpecifiedAmount</span> | xsd:decimal
-<span id="StatisticalValueSpecifiedAmount">StatisticalValueSpecifiedAmount</span> | xsd:decimal
-<span id="JurisdictionEntryFormattedDateTime">JurisdictionEntryFormattedDateTime</span> | xsd:dateTime
-<span id="AssociatedReferencedDocument">AssociatedReferencedDocument</span> | [edi3:Document](#Document)
-<span id="GrossWeightSpecifiedWeightUnitMeasure">GrossWeightSpecifiedWeightUnitMeasure</span> | xsd:decimal
-<span id="TotalInvoiceSpecifiedAmount">TotalInvoiceSpecifiedAmount</span> | xsd:decimal
-<span id="PrincipalAssociatedTradeParty">PrincipalAssociatedTradeParty</span> | [edi3:Party](#Party)
-<span id="ProcedureCode">ProcedureCode</span> | xsd:token
-<span id="DeclarantAgentTradeParty">DeclarantAgentTradeParty</span> | [edi3:Party](#Party)
-<span id="TypeDocumentCode">TypeDocumentCode</span> | xsd:token
-<span id="TotalPackageSpecifiedQuantity">TotalPackageSpecifiedQuantity</span> | xsd:decimal
-<span id="IdentificationIdentifier">IdentificationIdentifier</span> | xsd:token
-<span id="VersionIdentifier">VersionIdentifier</span> | xsd:token
-<span id="PreviousReferencedDocument">PreviousReferencedDocument</span> | [edi3:Document](#Document)
-<span id="SpecificCircumstanceCode">SpecificCircumstanceCode</span> | xsd:token
-<span id="CurrencyExchangeRate">CurrencyExchangeRate</span> | xsd:decimal
-<span id="SubmissionLogisticsLocation">SubmissionLogisticsLocation</span> | [edi3:Location](#Location)
+[IssueFormattedDateTime](#IssueFormattedDateTime) | xsd:dateTime
+[ApplicableCrossBorderCustomsValuation](#ApplicableCrossBorderCustomsValuation) | [edi3:CustomsValuation](#CustomsValuation)
+[DeclarantTradeParty](#DeclarantTradeParty) | [edi3:Party](#Party)
+[CustomsValueSpecifiedAmount](#CustomsValueSpecifiedAmount) | xsd:decimal
+[StatisticalValueSpecifiedAmount](#StatisticalValueSpecifiedAmount) | xsd:decimal
+[JurisdictionEntryFormattedDateTime](#JurisdictionEntryFormattedDateTime) | xsd:dateTime
+[AssociatedReferencedDocument](#AssociatedReferencedDocument) | [edi3:Document](#Document)
+[GrossWeightSpecifiedWeightUnitMeasure](#GrossWeightSpecifiedWeightUnitMeasure) | xsd:decimal
+[TotalInvoiceSpecifiedAmount](#TotalInvoiceSpecifiedAmount) | xsd:decimal
+[PrincipalAssociatedTradeParty](#PrincipalAssociatedTradeParty) | [edi3:Party](#Party)
+[ProcedureCode](#ProcedureCode) | xsd:token
+[DeclarantAgentTradeParty](#DeclarantAgentTradeParty) | [edi3:Party](#Party)
+[TypeDocumentCode](#TypeDocumentCode) | xsd:token
+[TotalPackageSpecifiedQuantity](#TotalPackageSpecifiedQuantity) | xsd:decimal
+[IdentificationIdentifier](#IdentificationIdentifier) | xsd:token
+[VersionIdentifier](#VersionIdentifier) | xsd:token
+[PreviousReferencedDocument](#PreviousReferencedDocument) | [edi3:Document](#Document)
+[SpecificCircumstanceCode](#SpecificCircumstanceCode) | xsd:token
+[CurrencyExchangeRate](#CurrencyExchangeRate) | xsd:decimal
+[SubmissionLogisticsLocation](#SubmissionLogisticsLocation) | [edi3:Location](#Location)
 
 
 <h1 id="DangerousGoods">DangerousGoods</h1>
@@ -3397,56 +3397,56 @@ Properties:
 
 Name | Type 
 -|-
-<span id="NetWeightWeightUnitMeasure">NetWeightWeightUnitMeasure</span> | xsd:decimal
-<span id="HazardTypeCode">HazardTypeCode</span> | xsd:token
-<span id="UNDGIdentificationCode">UNDGIdentificationCode</span> | xsd:token
-<span id="ReportableQuantity">ReportableQuantity</span> | xsd:decimal
-<span id="HazardClassificationIdentifier">HazardClassificationIdentifier</span> | xsd:token
-<span id="TransportExpertTradeContact">TransportExpertTradeContact</span> | [edi3:Contact](#Contact)
-<span id="InformationText">InformationText</span> | xsd:string
-<span id="ExplosiveCompatibilityGroupCode">ExplosiveCompatibilityGroupCode</span> | xsd:token
-<span id="QValueNumeric">QValueNumeric</span> | xsd:decimal
-<span id="SpecifiedLogisticsPackage">SpecifiedLogisticsPackage</span> | [edi3:Package](#Package)
-<span id="LowerPartOrangeHazardPlacardIdentifier">LowerPartOrangeHazardPlacardIdentifier</span> | xsd:token
-<span id="PackingInstructionTypeCode">PackingInstructionTypeCode</span> | xsd:token
-<span id="TechnicalNameText">TechnicalNameText</span> | xsd:string
-<span id="ProperShippingNameText">ProperShippingNameText</span> | xsd:string
-<span id="GrossWeightWeightUnitMeasure">GrossWeightWeightUnitMeasure</span> | xsd:decimal
-<span id="FlashpointTemperatureMeasurement">FlashpointTemperatureMeasurement</span> | [edi3:Measurement](#Measurement)
-<span id="AllPackedInOneInformationText">AllPackedInOneInformationText</span> | xsd:string
-<span id="HazardCategoryCode">HazardCategoryCode</span> | xsd:token
-<span id="HandlingHandlingInstructions">HandlingHandlingInstructions</span> | [edi3:Instructions](#Instructions)
-<span id="RadioactiveRadioactiveMaterial">RadioactiveRadioactiveMaterial</span> | [edi3:Material](#Material)
-<span id="ComplianceDeclarationInformationText">ComplianceDeclarationInformationText</span> | xsd:string
-<span id="EmergencyTradeContact">EmergencyTradeContact</span> | [edi3:Contact](#Contact)
-<span id="PollutantLevelCode">PollutantLevelCode</span> | xsd:token
-<span id="SupplementaryInformationText">SupplementaryInformationText</span> | xsd:string
-<span id="AssociatedReferencedLogisticsTransportEquipment">AssociatedReferencedLogisticsTransportEquipment</span> | [edi3:TransportEquipment](#TransportEquipment)
-<span id="EmergencyTemperatureMeasurement">EmergencyTemperatureMeasurement</span> | [edi3:Measurement](#Measurement)
-<span id="PackagingDangerLevelDangerousGoodsPackagingLevelCode">PackagingDangerLevelDangerousGoodsPackagingLevelCode</span> | xsd:token
-<span id="TREMIdentifier">TREMIdentifier</span> | xsd:token
-<span id="RegulationDangerousGoodsRegulationCode">RegulationDangerousGoodsRegulationCode</span> | xsd:token
-<span id="MFAGIdentifier">MFAGIdentifier</span> | xsd:token
-<span id="AuthorizationInformationText">AuthorizationInformationText</span> | xsd:string
-<span id="IMDGSegregationGroupCode">IMDGSegregationGroupCode</span> | xsd:token
-<span id="ExplosiveCargoNetWeightWeightUnitMeasure">ExplosiveCargoNetWeightWeightUnitMeasure</span> | xsd:decimal
-<span id="PackageTypePackageTypeCode">PackageTypePackageTypeCode</span> | xsd:token
-<span id="ControlTemperatureMeasurement">ControlTemperatureMeasurement</span> | [edi3:Measurement](#Measurement)
-<span id="GrossVolumeVolumeUnitMeasure">GrossVolumeVolumeUnitMeasure</span> | xsd:decimal
-<span id="TunnelRestrictionCode">TunnelRestrictionCode</span> | xsd:token
-<span id="OverpackInformationText">OverpackInformationText</span> | xsd:string
-<span id="AdditionalHazardClassificationIdentifier">AdditionalHazardClassificationIdentifier</span> | xsd:token
-<span id="EMSIdentifier">EMSIdentifier</span> | xsd:token
-<span id="ShipperDeclarationInformationText">ShipperDeclarationInformationText</span> | xsd:string
-<span id="RegulatoryAuthorityNameText">RegulatoryAuthorityNameText</span> | xsd:string
-<span id="UpperPartOrangeHazardPlacardIdentifier">UpperPartOrangeHazardPlacardIdentifier</span> | xsd:token
-<span id="MarinePollutantIndicator">MarinePollutantIndicator</span> | xsd:boolean
-<span id="HazardClassVersionIdentifier">HazardClassVersionIdentifier</span> | xsd:token
-<span id="MarkingText">MarkingText</span> | xsd:string
-<span id="SpecialProvisionIdentifier">SpecialProvisionIdentifier</span> | xsd:token
-<span id="RegulationNameText">RegulationNameText</span> | xsd:string
-<span id="LimitedQuantityCode">LimitedQuantityCode</span> | xsd:token
-<span id="AircraftLimitationInformationText">AircraftLimitationInformationText</span> | xsd:string
+[NetWeightWeightUnitMeasure](#NetWeightWeightUnitMeasure) | xsd:decimal
+[HazardTypeCode](#HazardTypeCode) | xsd:token
+[UNDGIdentificationCode](#UNDGIdentificationCode) | xsd:token
+[ReportableQuantity](#ReportableQuantity) | xsd:decimal
+[HazardClassificationIdentifier](#HazardClassificationIdentifier) | xsd:token
+[TransportExpertTradeContact](#TransportExpertTradeContact) | [edi3:Contact](#Contact)
+[InformationText](#InformationText) | xsd:string
+[ExplosiveCompatibilityGroupCode](#ExplosiveCompatibilityGroupCode) | xsd:token
+[QValueNumeric](#QValueNumeric) | xsd:decimal
+[SpecifiedLogisticsPackage](#SpecifiedLogisticsPackage) | [edi3:Package](#Package)
+[LowerPartOrangeHazardPlacardIdentifier](#LowerPartOrangeHazardPlacardIdentifier) | xsd:token
+[PackingInstructionTypeCode](#PackingInstructionTypeCode) | xsd:token
+[TechnicalNameText](#TechnicalNameText) | xsd:string
+[ProperShippingNameText](#ProperShippingNameText) | xsd:string
+[GrossWeightWeightUnitMeasure](#GrossWeightWeightUnitMeasure) | xsd:decimal
+[FlashpointTemperatureMeasurement](#FlashpointTemperatureMeasurement) | [edi3:Measurement](#Measurement)
+[AllPackedInOneInformationText](#AllPackedInOneInformationText) | xsd:string
+[HazardCategoryCode](#HazardCategoryCode) | xsd:token
+[HandlingHandlingInstructions](#HandlingHandlingInstructions) | [edi3:Instructions](#Instructions)
+[RadioactiveRadioactiveMaterial](#RadioactiveRadioactiveMaterial) | [edi3:Material](#Material)
+[ComplianceDeclarationInformationText](#ComplianceDeclarationInformationText) | xsd:string
+[EmergencyTradeContact](#EmergencyTradeContact) | [edi3:Contact](#Contact)
+[PollutantLevelCode](#PollutantLevelCode) | xsd:token
+[SupplementaryInformationText](#SupplementaryInformationText) | xsd:string
+[AssociatedReferencedLogisticsTransportEquipment](#AssociatedReferencedLogisticsTransportEquipment) | [edi3:TransportEquipment](#TransportEquipment)
+[EmergencyTemperatureMeasurement](#EmergencyTemperatureMeasurement) | [edi3:Measurement](#Measurement)
+[PackagingDangerLevelDangerousGoodsPackagingLevelCode](#PackagingDangerLevelDangerousGoodsPackagingLevelCode) | xsd:token
+[TREMIdentifier](#TREMIdentifier) | xsd:token
+[RegulationDangerousGoodsRegulationCode](#RegulationDangerousGoodsRegulationCode) | xsd:token
+[MFAGIdentifier](#MFAGIdentifier) | xsd:token
+[AuthorizationInformationText](#AuthorizationInformationText) | xsd:string
+[IMDGSegregationGroupCode](#IMDGSegregationGroupCode) | xsd:token
+[ExplosiveCargoNetWeightWeightUnitMeasure](#ExplosiveCargoNetWeightWeightUnitMeasure) | xsd:decimal
+[PackageTypePackageTypeCode](#PackageTypePackageTypeCode) | xsd:token
+[ControlTemperatureMeasurement](#ControlTemperatureMeasurement) | [edi3:Measurement](#Measurement)
+[GrossVolumeVolumeUnitMeasure](#GrossVolumeVolumeUnitMeasure) | xsd:decimal
+[TunnelRestrictionCode](#TunnelRestrictionCode) | xsd:token
+[OverpackInformationText](#OverpackInformationText) | xsd:string
+[AdditionalHazardClassificationIdentifier](#AdditionalHazardClassificationIdentifier) | xsd:token
+[EMSIdentifier](#EMSIdentifier) | xsd:token
+[ShipperDeclarationInformationText](#ShipperDeclarationInformationText) | xsd:string
+[RegulatoryAuthorityNameText](#RegulatoryAuthorityNameText) | xsd:string
+[UpperPartOrangeHazardPlacardIdentifier](#UpperPartOrangeHazardPlacardIdentifier) | xsd:token
+[MarinePollutantIndicator](#MarinePollutantIndicator) | xsd:boolean
+[HazardClassVersionIdentifier](#HazardClassVersionIdentifier) | xsd:token
+[MarkingText](#MarkingText) | xsd:string
+[SpecialProvisionIdentifier](#SpecialProvisionIdentifier) | xsd:token
+[RegulationNameText](#RegulationNameText) | xsd:string
+[LimitedQuantityCode](#LimitedQuantityCode) | xsd:token
+[AircraftLimitationInformationText](#AircraftLimitationInformationText) | xsd:string
 
 
 <h1 id="QuantityAnalysis">QuantityAnalysis</h1>
@@ -3459,17 +3459,17 @@ Properties:
 
 Name | Type 
 -|-
-<span id="ActualQuantity">ActualQuantity</span> | xsd:decimal
-<span id="TypeCode">TypeCode</span> | xsd:token
-<span id="BreakdownWorkItemQuantityAnalysis">BreakdownWorkItemQuantityAnalysis</span> | [edi3:QuantityAnalysis](#QuantityAnalysis)
-<span id="DescriptionText">DescriptionText</span> | xsd:string
-<span id="ContractualLanguageCode">ContractualLanguageCode</span> | xsd:token
-<span id="PrimaryClassificationCode">PrimaryClassificationCode</span> | xsd:token
-<span id="AlternativeClassificationCode">AlternativeClassificationCode</span> | xsd:token
-<span id="IdentificationIdentifier">IdentificationIdentifier</span> | xsd:token
-<span id="ChangedRecordedStatus">ChangedRecordedStatus</span> | [edi3:Status](#Status)
-<span id="ActualQuantityPercent">ActualQuantityPercent</span> | xsd:decimal
-<span id="ActualQuantityWorkItemDimension">ActualQuantityWorkItemDimension</span> | [edi3:Dimension](#Dimension)
+[ActualQuantity](#ActualQuantity) | xsd:decimal
+[TypeCode](#TypeCode) | xsd:token
+[BreakdownWorkItemQuantityAnalysis](#BreakdownWorkItemQuantityAnalysis) | [edi3:QuantityAnalysis](#QuantityAnalysis)
+[DescriptionText](#DescriptionText) | xsd:string
+[ContractualLanguageCode](#ContractualLanguageCode) | xsd:token
+[PrimaryClassificationCode](#PrimaryClassificationCode) | xsd:token
+[AlternativeClassificationCode](#AlternativeClassificationCode) | xsd:token
+[IdentificationIdentifier](#IdentificationIdentifier) | xsd:token
+[ChangedRecordedStatus](#ChangedRecordedStatus) | [edi3:Status](#Status)
+[ActualQuantityPercent](#ActualQuantityPercent) | xsd:decimal
+[ActualQuantityWorkItemDimension](#ActualQuantityWorkItemDimension) | [edi3:Dimension](#Dimension)
 
 
 <h1 id="Pairing">Pairing</h1>
@@ -3482,9 +3482,9 @@ Properties:
 
 Name | Type 
 -|-
-<span id="MethodCode">MethodCode</span> | xsd:token
-<span id="TargetEntityIdentifier">TargetEntityIdentifier</span> | xsd:token
-<span id="PairedIndicator">PairedIndicator</span> | xsd:boolean
+[MethodCode](#MethodCode) | xsd:token
+[TargetEntityIdentifier](#TargetEntityIdentifier) | xsd:token
+[PairedIndicator](#PairedIndicator) | xsd:boolean
 
 
 <h1 id="CoordinateSourceSystem">CoordinateSourceSystem</h1>
@@ -3497,10 +3497,10 @@ Properties:
 
 Name | Type 
 -|-
-<span id="UsedSignalSourceQuantity">UsedSignalSourceQuantity</span> | xsd:decimal
-<span id="SignalSourceAvailableQuantity">SignalSourceAvailableQuantity</span> | xsd:decimal
-<span id="SourceTypeCode">SourceTypeCode</span> | xsd:token
-<span id="IdentificationIdentifier">IdentificationIdentifier</span> | xsd:token
+[UsedSignalSourceQuantity](#UsedSignalSourceQuantity) | xsd:decimal
+[SignalSourceAvailableQuantity](#SignalSourceAvailableQuantity) | xsd:decimal
+[SourceTypeCode](#SourceTypeCode) | xsd:token
+[IdentificationIdentifier](#IdentificationIdentifier) | xsd:token
 
 
 <h1 id="Condition">Condition</h1>
@@ -3513,8 +3513,8 @@ Properties:
 
 Name | Type 
 -|-
-<span id="ValueMeasure">ValueMeasure</span> | xsd:decimal
-<span id="NameText">NameText</span> | xsd:string
+[ValueMeasure](#ValueMeasure) | xsd:decimal
+[NameText](#NameText) | xsd:string
 
 
 <h1 id="ShippingMarks">ShippingMarks</h1>
@@ -3527,10 +3527,10 @@ Properties:
 
 Name | Type 
 -|-
-<span id="VINLogisticsLabel">VINLogisticsLabel</span> | [edi3:Label](#Label)
-<span id="RFIDLogisticsLabel">RFIDLogisticsLabel</span> | [edi3:Label](#Label)
-<span id="BarcodeLogisticsLabel">BarcodeLogisticsLabel</span> | [edi3:Label](#Label)
-<span id="MarkingText">MarkingText</span> | xsd:string
+[VINLogisticsLabel](#VINLogisticsLabel) | [edi3:Label](#Label)
+[RFIDLogisticsLabel](#RFIDLogisticsLabel) | [edi3:Label](#Label)
+[BarcodeLogisticsLabel](#BarcodeLogisticsLabel) | [edi3:Label](#Label)
+[MarkingText](#MarkingText) | xsd:string
 
 
 <h1 id="Service">Service</h1>
@@ -3543,21 +3543,21 @@ Properties:
 
 Name | Type 
 -|-
-<span id="InformationText">InformationText</span> | xsd:string
-<span id="RequesterTradeParty">RequesterTradeParty</span> | [edi3:Party](#Party)
-<span id="ResponsibleTradeParty">ResponsibleTradeParty</span> | [edi3:Party](#Party)
-<span id="PaymentArrangementTransportServicePaymentArrangementCode">PaymentArrangementTransportServicePaymentArrangementCode</span> | xsd:token
-<span id="DescriptionText">DescriptionText</span> | xsd:string
-<span id="EffectiveSpecifiedPeriod">EffectiveSpecifiedPeriod</span> | [edi3:Period](#Period)
-<span id="ChargeAmount">ChargeAmount</span> | xsd:decimal
-<span id="IdentificationIdentifier">IdentificationIdentifier</span> | xsd:token
-<span id="PriorityTransportServicePriorityCode">PriorityTransportServicePriorityCode</span> | xsd:token
-<span id="URIUniversalCommunication">URIUniversalCommunication</span> | [edi3:Communication](#Communication)
-<span id="NameText">NameText</span> | xsd:string
-<span id="CategoryTypeCode">CategoryTypeCode</span> | xsd:token
-<span id="ContractIdentificationIdentifier">ContractIdentificationIdentifier</span> | xsd:token
-<span id="ServiceRequirementTransportServiceRequirementCode">ServiceRequirementTransportServiceRequirementCode</span> | xsd:token
-<span id="SpecifiedTransportRoute">SpecifiedTransportRoute</span> | [edi3:Route](#Route)
+[InformationText](#InformationText) | xsd:string
+[RequesterTradeParty](#RequesterTradeParty) | [edi3:Party](#Party)
+[ResponsibleTradeParty](#ResponsibleTradeParty) | [edi3:Party](#Party)
+[PaymentArrangementTransportServicePaymentArrangementCode](#PaymentArrangementTransportServicePaymentArrangementCode) | xsd:token
+[DescriptionText](#DescriptionText) | xsd:string
+[EffectiveSpecifiedPeriod](#EffectiveSpecifiedPeriod) | [edi3:Period](#Period)
+[ChargeAmount](#ChargeAmount) | xsd:decimal
+[IdentificationIdentifier](#IdentificationIdentifier) | xsd:token
+[PriorityTransportServicePriorityCode](#PriorityTransportServicePriorityCode) | xsd:token
+[URIUniversalCommunication](#URIUniversalCommunication) | [edi3:Communication](#Communication)
+[NameText](#NameText) | xsd:string
+[CategoryTypeCode](#CategoryTypeCode) | xsd:token
+[ContractIdentificationIdentifier](#ContractIdentificationIdentifier) | xsd:token
+[ServiceRequirementTransportServiceRequirementCode](#ServiceRequirementTransportServiceRequirementCode) | xsd:token
+[SpecifiedTransportRoute](#SpecifiedTransportRoute) | [edi3:Route](#Route)
 
 
 <h1 id="Material">Material</h1>
@@ -3570,18 +3570,18 @@ Properties:
 
 Name | Type 
 -|-
-<span id="LowDispersibleInformationText">LowDispersibleInformationText</span> | xsd:string
-<span id="CompositionDescriptionText">CompositionDescriptionText</span> | xsd:string
-<span id="TypeCode">TypeCode</span> | xsd:token
-<span id="CriticalitySafetyIndexNumeric">CriticalitySafetyIndexNumeric</span> | xsd:decimal
-<span id="CompleteDeliveryIndicator">CompleteDeliveryIndicator</span> | xsd:boolean
-<span id="NextDeliveryTransportEvent">NextDeliveryTransportEvent</span> | [edi3:Event](#Event)
-<span id="SpecialFormInformationText">SpecialFormInformationText</span> | xsd:string
-<span id="IncludedTransportWasteMaterialComponent">IncludedTransportWasteMaterialComponent</span> | [edi3:MaterialComponent](#MaterialComponent)
-<span id="RadionuclideNameText">RadionuclideNameText</span> | xsd:string
-<span id="PreviousDeliveryTransportEvent">PreviousDeliveryTransportEvent</span> | [edi3:Event](#Event)
-<span id="FissileExceptionIndicator">FissileExceptionIndicator</span> | xsd:boolean
-<span id="ReceptionFacilityTradeContact">ReceptionFacilityTradeContact</span> | [edi3:Contact](#Contact)
+[LowDispersibleInformationText](#LowDispersibleInformationText) | xsd:string
+[CompositionDescriptionText](#CompositionDescriptionText) | xsd:string
+[TypeCode](#TypeCode) | xsd:token
+[CriticalitySafetyIndexNumeric](#CriticalitySafetyIndexNumeric) | xsd:decimal
+[CompleteDeliveryIndicator](#CompleteDeliveryIndicator) | xsd:boolean
+[NextDeliveryTransportEvent](#NextDeliveryTransportEvent) | [edi3:Event](#Event)
+[SpecialFormInformationText](#SpecialFormInformationText) | xsd:string
+[IncludedTransportWasteMaterialComponent](#IncludedTransportWasteMaterialComponent) | [edi3:MaterialComponent](#MaterialComponent)
+[RadionuclideNameText](#RadionuclideNameText) | xsd:string
+[PreviousDeliveryTransportEvent](#PreviousDeliveryTransportEvent) | [edi3:Event](#Event)
+[FissileExceptionIndicator](#FissileExceptionIndicator) | xsd:boolean
+[ReceptionFacilityTradeContact](#ReceptionFacilityTradeContact) | [edi3:Contact](#Contact)
 
 
 <h1 id="CargoInsurance">CargoInsurance</h1>
@@ -3594,9 +3594,9 @@ Properties:
 
 Name | Type 
 -|-
-<span id="ContractGeneralConditionsText">ContractGeneralConditionsText</span> | xsd:string
-<span id="CoverageTradeParty">CoverageTradeParty</span> | [edi3:Party](#Party)
-<span id="CoverageDescriptionText">CoverageDescriptionText</span> | xsd:string
+[ContractGeneralConditionsText](#ContractGeneralConditionsText) | xsd:string
+[CoverageTradeParty](#CoverageTradeParty) | [edi3:Party](#Party)
+[CoverageDescriptionText](#CoverageDescriptionText) | xsd:string
 
 
 <h1 id="Marking">Marking</h1>
@@ -3609,12 +3609,12 @@ Properties:
 
 Name | Type 
 -|-
-<span id="ContentCode">ContentCode</span> | xsd:token
-<span id="ContentDateTime">ContentDateTime</span> | xsd:dateTime
-<span id="ContentText">ContentText</span> | xsd:string
-<span id="TypePackagingMarkingCode">TypePackagingMarkingCode</span> | xsd:token
-<span id="BarcodeTypeCode">BarcodeTypeCode</span> | xsd:token
-<span id="ContentAmount">ContentAmount</span> | xsd:decimal
+[ContentCode](#ContentCode) | xsd:token
+[ContentDateTime](#ContentDateTime) | xsd:dateTime
+[ContentText](#ContentText) | xsd:string
+[TypePackagingMarkingCode](#TypePackagingMarkingCode) | xsd:token
+[BarcodeTypeCode](#BarcodeTypeCode) | xsd:token
+[ContentAmount](#ContentAmount) | xsd:decimal
 
 
 <h1 id="TransportMeans">TransportMeans</h1>
@@ -3627,47 +3627,47 @@ Properties:
 
 Name | Type 
 -|-
-<span id="CompanySecurityOfficerTransportPerson">CompanySecurityOfficerTransportPerson</span> | [edi3:Person](#Person)
-<span id="ForwardDraughtLevelMeasure">ForwardDraughtLevelMeasure</span> | xsd:decimal
-<span id="DriverAccompaniedIndicator">DriverAccompaniedIndicator</span> | xsd:boolean
-<span id="ApplicableLogisticsServiceCharge">ApplicableLogisticsServiceCharge</span> | [edi3:ServiceCharge](#ServiceCharge)
-<span id="AttachedLogisticsTransportEquipment">AttachedLogisticsTransportEquipment</span> | [edi3:TransportEquipment](#TransportEquipment)
-<span id="RequiredLaneLengthLinearUnitMeasure">RequiredLaneLengthLinearUnitMeasure</span> | xsd:decimal
-<span id="TypeTransportMeansTypeCode">TypeTransportMeansTypeCode</span> | xsd:token
-<span id="OperatorNationalityTradeCountry">OperatorNationalityTradeCountry</span> | [edi3:Country](#Country)
-<span id="ConferenceCode">ConferenceCode</span> | xsd:token
-<span id="TypeText">TypeText</span> | xsd:string
-<span id="GrossWeightWeightUnitMeasure">GrossWeightWeightUnitMeasure</span> | xsd:decimal
-<span id="ServiceProviderTradeParty">ServiceProviderTradeParty</span> | [edi3:Party](#Party)
-<span id="CertifiedCalculatedEmission">CertifiedCalculatedEmission</span> | [edi3:Emission](#Emission)
-<span id="ApprovedSecurityPlanOnboardIndicator">ApprovedSecurityPlanOnboardIndicator</span> | xsd:boolean
-<span id="WasteReportingExemptionIndicator">WasteReportingExemptionIndicator</span> | xsd:boolean
-<span id="AftDraughtLevelMeasure">AftDraughtLevelMeasure</span> | xsd:decimal
-<span id="RegistrationTransportEvent">RegistrationTransportEvent</span> | [edi3:Event](#Event)
-<span id="CargoGrossWeightWeightUnitMeasure">CargoGrossWeightWeightUnitMeasure</span> | xsd:decimal
-<span id="ManufacturingFormattedDateTime">ManufacturingFormattedDateTime</span> | xsd:dateTime
-<span id="TareWeightWeightUnitMeasure">TareWeightWeightUnitMeasure</span> | xsd:decimal
-<span id="ManufacturerTradeParty">ManufacturerTradeParty</span> | [edi3:Party](#Party)
-<span id="LoadedCargoMeasure">LoadedCargoMeasure</span> | xsd:decimal
-<span id="ISSCReferencedDocument">ISSCReferencedDocument</span> | [edi3:Document](#Document)
-<span id="SequenceNumeric">SequenceNumeric</span> | xsd:decimal
-<span id="SpecifiedHandlingInstructions">SpecifiedHandlingInstructions</span> | [edi3:Instructions](#Instructions)
-<span id="OwnerAgentTradeParty">OwnerAgentTradeParty</span> | [edi3:Party](#Party)
-<span id="ISPSSecurityLevelCode">ISPSSecurityLevelCode</span> | xsd:token
-<span id="SpecifiedIdentifiedFault">SpecifiedIdentifiedFault</span> | [edi3:Fault](#Fault)
-<span id="AttachedMonitoringIOTDevice">AttachedMonitoringIOTDevice</span> | [edi3:IOTDevice](#IOTDevice)
-<span id="RequiredTransportService">RequiredTransportService</span> | [edi3:Service](#Service)
-<span id="IdentificationIdentifier">IdentificationIdentifier</span> | xsd:token
-<span id="OwnerTradeParty">OwnerTradeParty</span> | [edi3:Party](#Party)
-<span id="NameText">NameText</span> | xsd:string
-<span id="OperatorTradeParty">OperatorTradeParty</span> | [edi3:Party](#Party)
-<span id="SpecifiedSpatialDimension">SpecifiedSpatialDimension</span> | [edi3:Dimension](#Dimension)
-<span id="HelipadIndicator">HelipadIndicator</span> | xsd:boolean
-<span id="RegistrationTradeCountry">RegistrationTradeCountry</span> | [edi3:Country](#Country)
-<span id="ISSCIssuingAuthorityTradeParty">ISSCIssuingAuthorityTradeParty</span> | [edi3:Party](#Party)
-<span id="ManoeuvringSpeedMeasure">ManoeuvringSpeedMeasure</span> | xsd:decimal
-<span id="DraughtLevelMeasure">DraughtLevelMeasure</span> | xsd:decimal
-<span id="LengthLinearUnitMeasure">LengthLinearUnitMeasure</span> | xsd:decimal
+[CompanySecurityOfficerTransportPerson](#CompanySecurityOfficerTransportPerson) | [edi3:Person](#Person)
+[ForwardDraughtLevelMeasure](#ForwardDraughtLevelMeasure) | xsd:decimal
+[DriverAccompaniedIndicator](#DriverAccompaniedIndicator) | xsd:boolean
+[ApplicableLogisticsServiceCharge](#ApplicableLogisticsServiceCharge) | [edi3:ServiceCharge](#ServiceCharge)
+[AttachedLogisticsTransportEquipment](#AttachedLogisticsTransportEquipment) | [edi3:TransportEquipment](#TransportEquipment)
+[RequiredLaneLengthLinearUnitMeasure](#RequiredLaneLengthLinearUnitMeasure) | xsd:decimal
+[TypeTransportMeansTypeCode](#TypeTransportMeansTypeCode) | xsd:token
+[OperatorNationalityTradeCountry](#OperatorNationalityTradeCountry) | [edi3:Country](#Country)
+[ConferenceCode](#ConferenceCode) | xsd:token
+[TypeText](#TypeText) | xsd:string
+[GrossWeightWeightUnitMeasure](#GrossWeightWeightUnitMeasure) | xsd:decimal
+[ServiceProviderTradeParty](#ServiceProviderTradeParty) | [edi3:Party](#Party)
+[CertifiedCalculatedEmission](#CertifiedCalculatedEmission) | [edi3:Emission](#Emission)
+[ApprovedSecurityPlanOnboardIndicator](#ApprovedSecurityPlanOnboardIndicator) | xsd:boolean
+[WasteReportingExemptionIndicator](#WasteReportingExemptionIndicator) | xsd:boolean
+[AftDraughtLevelMeasure](#AftDraughtLevelMeasure) | xsd:decimal
+[RegistrationTransportEvent](#RegistrationTransportEvent) | [edi3:Event](#Event)
+[CargoGrossWeightWeightUnitMeasure](#CargoGrossWeightWeightUnitMeasure) | xsd:decimal
+[ManufacturingFormattedDateTime](#ManufacturingFormattedDateTime) | xsd:dateTime
+[TareWeightWeightUnitMeasure](#TareWeightWeightUnitMeasure) | xsd:decimal
+[ManufacturerTradeParty](#ManufacturerTradeParty) | [edi3:Party](#Party)
+[LoadedCargoMeasure](#LoadedCargoMeasure) | xsd:decimal
+[ISSCReferencedDocument](#ISSCReferencedDocument) | [edi3:Document](#Document)
+[SequenceNumeric](#SequenceNumeric) | xsd:decimal
+[SpecifiedHandlingInstructions](#SpecifiedHandlingInstructions) | [edi3:Instructions](#Instructions)
+[OwnerAgentTradeParty](#OwnerAgentTradeParty) | [edi3:Party](#Party)
+[ISPSSecurityLevelCode](#ISPSSecurityLevelCode) | xsd:token
+[SpecifiedIdentifiedFault](#SpecifiedIdentifiedFault) | [edi3:Fault](#Fault)
+[AttachedMonitoringIOTDevice](#AttachedMonitoringIOTDevice) | [edi3:IOTDevice](#IOTDevice)
+[RequiredTransportService](#RequiredTransportService) | [edi3:Service](#Service)
+[IdentificationIdentifier](#IdentificationIdentifier) | xsd:token
+[OwnerTradeParty](#OwnerTradeParty) | [edi3:Party](#Party)
+[NameText](#NameText) | xsd:string
+[OperatorTradeParty](#OperatorTradeParty) | [edi3:Party](#Party)
+[SpecifiedSpatialDimension](#SpecifiedSpatialDimension) | [edi3:Dimension](#Dimension)
+[HelipadIndicator](#HelipadIndicator) | xsd:boolean
+[RegistrationTradeCountry](#RegistrationTradeCountry) | [edi3:Country](#Country)
+[ISSCIssuingAuthorityTradeParty](#ISSCIssuingAuthorityTradeParty) | [edi3:Party](#Party)
+[ManoeuvringSpeedMeasure](#ManoeuvringSpeedMeasure) | xsd:decimal
+[DraughtLevelMeasure](#DraughtLevelMeasure) | xsd:decimal
+[LengthLinearUnitMeasure](#LengthLinearUnitMeasure) | xsd:decimal
 
 
 <h1 id="ProductInstance">ProductInstance</h1>
@@ -3680,23 +3680,23 @@ Properties:
 
 Name | Type 
 -|-
-<span id="InspectionSupplyChainEvent">InspectionSupplyChainEvent</span> | [edi3:Event](#Event)
-<span id="ActualQuantity">ActualQuantity</span> | xsd:decimal
-<span id="AppliedProductHandlingProcess">AppliedProductHandlingProcess</span> | [edi3:Process](#Process)
-<span id="PackagingSupplyChainEvent">PackagingSupplyChainEvent</span> | [edi3:Event](#Event)
-<span id="ExpiryDateTime">ExpiryDateTime</span> | xsd:dateTime
-<span id="BestBeforeDateTime">BestBeforeDateTime</span> | xsd:dateTime
-<span id="SupplierAssignedSerialIdentificationIdentifier">SupplierAssignedSerialIdentificationIdentifier</span> | xsd:token
-<span id="OriginLogisticsLocation">OriginLogisticsLocation</span> | [edi3:Location](#Location)
-<span id="ProductionSupplyChainEvent">ProductionSupplyChainEvent</span> | [edi3:Event](#Event)
-<span id="BatchIdentificationIdentifier">BatchIdentificationIdentifier</span> | xsd:token
-<span id="GlobalSerialIdentificationIdentifier">GlobalSerialIdentificationIdentifier</span> | xsd:token
-<span id="SerialIdentificationIdentifier">SerialIdentificationIdentifier</span> | xsd:token
-<span id="ApplicableProductCharacteristic">ApplicableProductCharacteristic</span> | [edi3:Characteristic](#Characteristic)
-<span id="LotIdentificationIdentifier">LotIdentificationIdentifier</span> | xsd:token
-<span id="RegistrationIdentificationIdentifier">RegistrationIdentificationIdentifier</span> | xsd:token
-<span id="ApplicableMaterialGoodsCharacteristic">ApplicableMaterialGoodsCharacteristic</span> | [edi3:GoodsCharacteristic](#GoodsCharacteristic)
-<span id="KanbanIdentificationIdentifier">KanbanIdentificationIdentifier</span> | xsd:token
+[InspectionSupplyChainEvent](#InspectionSupplyChainEvent) | [edi3:Event](#Event)
+[ActualQuantity](#ActualQuantity) | xsd:decimal
+[AppliedProductHandlingProcess](#AppliedProductHandlingProcess) | [edi3:Process](#Process)
+[PackagingSupplyChainEvent](#PackagingSupplyChainEvent) | [edi3:Event](#Event)
+[ExpiryDateTime](#ExpiryDateTime) | xsd:dateTime
+[BestBeforeDateTime](#BestBeforeDateTime) | xsd:dateTime
+[SupplierAssignedSerialIdentificationIdentifier](#SupplierAssignedSerialIdentificationIdentifier) | xsd:token
+[OriginLogisticsLocation](#OriginLogisticsLocation) | [edi3:Location](#Location)
+[ProductionSupplyChainEvent](#ProductionSupplyChainEvent) | [edi3:Event](#Event)
+[BatchIdentificationIdentifier](#BatchIdentificationIdentifier) | xsd:token
+[GlobalSerialIdentificationIdentifier](#GlobalSerialIdentificationIdentifier) | xsd:token
+[SerialIdentificationIdentifier](#SerialIdentificationIdentifier) | xsd:token
+[ApplicableProductCharacteristic](#ApplicableProductCharacteristic) | [edi3:Characteristic](#Characteristic)
+[LotIdentificationIdentifier](#LotIdentificationIdentifier) | xsd:token
+[RegistrationIdentificationIdentifier](#RegistrationIdentificationIdentifier) | xsd:token
+[ApplicableMaterialGoodsCharacteristic](#ApplicableMaterialGoodsCharacteristic) | [edi3:GoodsCharacteristic](#GoodsCharacteristic)
+[KanbanIdentificationIdentifier](#KanbanIdentificationIdentifier) | xsd:token
 
 
 <h1 id="Contact">Contact</h1>
@@ -3709,23 +3709,23 @@ Properties:
 
 Name | Type 
 -|-
-<span id="InstantMessagingUniversalCommunication">InstantMessagingUniversalCommunication</span> | [edi3:Communication](#Communication)
-<span id="EmailURIUniversalCommunication">EmailURIUniversalCommunication</span> | [edi3:Communication](#Communication)
-<span id="MobileTelephoneUniversalCommunication">MobileTelephoneUniversalCommunication</span> | [edi3:Communication](#Communication)
-<span id="TypeContactTypeCode">TypeContactTypeCode</span> | xsd:token
-<span id="FaxUniversalCommunication">FaxUniversalCommunication</span> | [edi3:Communication](#Communication)
-<span id="JobTitleText">JobTitleText</span> | xsd:string
-<span id="SpecifiedNote">SpecifiedNote</span> | [edi3:Note](#Note)
-<span id="PersonIdentificationIdentifier">PersonIdentificationIdentifier</span> | xsd:token
-<span id="TelephoneUniversalCommunication">TelephoneUniversalCommunication</span> | [edi3:Communication](#Communication)
-<span id="ResponsibilityText">ResponsibilityText</span> | xsd:string
-<span id="IdentificationIdentifier">IdentificationIdentifier</span> | xsd:token
-<span id="VOIPUniversalCommunication">VOIPUniversalCommunication</span> | [edi3:Communication](#Communication)
-<span id="AuthorizedPersonNameText">AuthorizedPersonNameText</span> | xsd:string
-<span id="DirectTelephoneUniversalCommunication">DirectTelephoneUniversalCommunication</span> | [edi3:Communication](#Communication)
-<span id="DepartmentNameText">DepartmentNameText</span> | xsd:string
-<span id="PersonNameText">PersonNameText</span> | xsd:string
-<span id="SpecifiedContactPerson">SpecifiedContactPerson</span> | [edi3:Person](#Person)
+[InstantMessagingUniversalCommunication](#InstantMessagingUniversalCommunication) | [edi3:Communication](#Communication)
+[EmailURIUniversalCommunication](#EmailURIUniversalCommunication) | [edi3:Communication](#Communication)
+[MobileTelephoneUniversalCommunication](#MobileTelephoneUniversalCommunication) | [edi3:Communication](#Communication)
+[TypeContactTypeCode](#TypeContactTypeCode) | xsd:token
+[FaxUniversalCommunication](#FaxUniversalCommunication) | [edi3:Communication](#Communication)
+[JobTitleText](#JobTitleText) | xsd:string
+[SpecifiedNote](#SpecifiedNote) | [edi3:Note](#Note)
+[PersonIdentificationIdentifier](#PersonIdentificationIdentifier) | xsd:token
+[TelephoneUniversalCommunication](#TelephoneUniversalCommunication) | [edi3:Communication](#Communication)
+[ResponsibilityText](#ResponsibilityText) | xsd:string
+[IdentificationIdentifier](#IdentificationIdentifier) | xsd:token
+[VOIPUniversalCommunication](#VOIPUniversalCommunication) | [edi3:Communication](#Communication)
+[AuthorizedPersonNameText](#AuthorizedPersonNameText) | xsd:string
+[DirectTelephoneUniversalCommunication](#DirectTelephoneUniversalCommunication) | [edi3:Communication](#Communication)
+[DepartmentNameText](#DepartmentNameText) | xsd:string
+[PersonNameText](#PersonNameText) | xsd:string
+[SpecifiedContactPerson](#SpecifiedContactPerson) | [edi3:Person](#Person)
 
 
 <h1 id="WorkflowObject">WorkflowObject</h1>
@@ -3738,8 +3738,8 @@ Properties:
 
 Name | Type 
 -|-
-<span id="IdentificationIdentifier">IdentificationIdentifier</span> | xsd:token
-<span id="PreviousStatusCode">PreviousStatusCode</span> | xsd:token
+[IdentificationIdentifier](#IdentificationIdentifier) | xsd:token
+[PreviousStatusCode](#PreviousStatusCode) | xsd:token
 
 
 <h1 id="Response">Response</h1>
@@ -3752,10 +3752,10 @@ Properties:
 
 Name | Type 
 -|-
-<span id="ContractualLanguageCode">ContractualLanguageCode</span> | xsd:token
-<span id="IdentificationIdentifier">IdentificationIdentifier</span> | xsd:token
-<span id="ContentText">ContentText</span> | xsd:string
-<span id="QueryIdentificationIdentifier">QueryIdentificationIdentifier</span> | xsd:token
+[ContractualLanguageCode](#ContractualLanguageCode) | xsd:token
+[IdentificationIdentifier](#IdentificationIdentifier) | xsd:token
+[ContentText](#ContentText) | xsd:string
+[QueryIdentificationIdentifier](#QueryIdentificationIdentifier) | xsd:token
 
 
 <h1 id="Equipment">Equipment</h1>
@@ -3768,11 +3768,11 @@ Properties:
 
 Name | Type 
 -|-
-<span id="PollingRateMeasure">PollingRateMeasure</span> | xsd:decimal
-<span id="ApplicablePhysicalCharacteristic">ApplicablePhysicalCharacteristic</span> | [edi3:Characteristic](#Characteristic)
-<span id="PollingCapabilityIndicator">PollingCapabilityIndicator</span> | xsd:boolean
-<span id="ManufacturerTradeParty">ManufacturerTradeParty</span> | [edi3:Party](#Party)
-<span id="IdentificationIdentifier">IdentificationIdentifier</span> | xsd:token
+[PollingRateMeasure](#PollingRateMeasure) | xsd:decimal
+[ApplicablePhysicalCharacteristic](#ApplicablePhysicalCharacteristic) | [edi3:Characteristic](#Characteristic)
+[PollingCapabilityIndicator](#PollingCapabilityIndicator) | xsd:boolean
+[ManufacturerTradeParty](#ManufacturerTradeParty) | [edi3:Party](#Party)
+[IdentificationIdentifier](#IdentificationIdentifier) | xsd:token
 
 
 <h1 id="DirectPositionList">DirectPositionList</h1>
@@ -3785,11 +3785,11 @@ Properties:
 
 Name | Type 
 -|-
-<span id="UOMLabelListText">UOMLabelListText</span> | xsd:string
-<span id="NameText">NameText</span> | xsd:string
-<span id="AxisLabelListText">AxisLabelListText</span> | xsd:string
-<span id="CountNumeric">CountNumeric</span> | xsd:decimal
-<span id="CoordinateText">CoordinateText</span> | xsd:string
+[UOMLabelListText](#UOMLabelListText) | xsd:string
+[NameText](#NameText) | xsd:string
+[AxisLabelListText](#AxisLabelListText) | xsd:string
+[CountNumeric](#CountNumeric) | xsd:decimal
+[CoordinateText](#CoordinateText) | xsd:string
 
 
 <h1 id="Schedule">Schedule</h1>
@@ -3802,10 +3802,10 @@ Properties:
 
 Name | Type 
 -|-
-<span id="OccurrenceDateTime">OccurrenceDateTime</span> | xsd:dateTime
-<span id="TypeCode">TypeCode</span> | xsd:token
-<span id="DescriptionText">DescriptionText</span> | xsd:string
-<span id="IdentificationIdentifier">IdentificationIdentifier</span> | xsd:token
+[OccurrenceDateTime](#OccurrenceDateTime) | xsd:dateTime
+[TypeCode](#TypeCode) | xsd:token
+[DescriptionText](#DescriptionText) | xsd:string
+[IdentificationIdentifier](#IdentificationIdentifier) | xsd:token
 
 
 <h1 id="Clause">Clause</h1>
@@ -3818,10 +3818,10 @@ Properties:
 
 Name | Type 
 -|-
-<span id="URLIdentifier">URLIdentifier</span> | xsd:token
-<span id="IdentificationIdentifier">IdentificationIdentifier</span> | xsd:token
-<span id="ContentText">ContentText</span> | xsd:string
-<span id="AssociatedSpecifiedPeriod">AssociatedSpecifiedPeriod</span> | [edi3:Period](#Period)
+[URLIdentifier](#URLIdentifier) | xsd:token
+[IdentificationIdentifier](#IdentificationIdentifier) | xsd:token
+[ContentText](#ContentText) | xsd:string
+[AssociatedSpecifiedPeriod](#AssociatedSpecifiedPeriod) | [edi3:Period](#Period)
 
 
 <h1 id="RegulatedGoods">RegulatedGoods</h1>
@@ -3846,15 +3846,15 @@ Properties:
 
 Name | Type 
 -|-
-<span id="OriginAssociatedSpecifiedDirectPositionList">OriginAssociatedSpecifiedDirectPositionList</span> | [edi3:DirectPositionList](#DirectPositionList)
-<span id="AxisNameText">AxisNameText</span> | xsd:string
-<span id="CellText">CellText</span> | xsd:string
-<span id="AssociatedSpecifiedGeographicalObjectCharacteristic">AssociatedSpecifiedGeographicalObjectCharacteristic</span> | [edi3:GeographicalObjectCharacteristic](#GeographicalObjectCharacteristic)
-<span id="IdentificationIdentifier">IdentificationIdentifier</span> | xsd:token
-<span id="LowLimitText">LowLimitText</span> | xsd:string
-<span id="AssociatedLogisticsLocation">AssociatedLogisticsLocation</span> | [edi3:Location](#Location)
-<span id="DimensionNumeric">DimensionNumeric</span> | xsd:decimal
-<span id="OffsetVectorNumeric">OffsetVectorNumeric</span> | xsd:decimal
+[OriginAssociatedSpecifiedDirectPositionList](#OriginAssociatedSpecifiedDirectPositionList) | [edi3:DirectPositionList](#DirectPositionList)
+[AxisNameText](#AxisNameText) | xsd:string
+[CellText](#CellText) | xsd:string
+[AssociatedSpecifiedGeographicalObjectCharacteristic](#AssociatedSpecifiedGeographicalObjectCharacteristic) | [edi3:GeographicalObjectCharacteristic](#GeographicalObjectCharacteristic)
+[IdentificationIdentifier](#IdentificationIdentifier) | xsd:token
+[LowLimitText](#LowLimitText) | xsd:string
+[AssociatedLogisticsLocation](#AssociatedLogisticsLocation) | [edi3:Location](#Location)
+[DimensionNumeric](#DimensionNumeric) | xsd:decimal
+[OffsetVectorNumeric](#OffsetVectorNumeric) | xsd:decimal
 
 
 <h1 id="Location">Location</h1>
@@ -3867,21 +3867,21 @@ Properties:
 
 Name | Type 
 -|-
-<span id="CountryCountryIdentifier">CountryCountryIdentifier</span> | xsd:token
-<span id="AssociatedSpecifiedGeographicalFeature">AssociatedSpecifiedGeographicalFeature</span> | [edi3:GeographicalFeature](#GeographicalFeature)
-<span id="InspectionSupplyChainEvent">InspectionSupplyChainEvent</span> | [edi3:Event](#Event)
-<span id="PhysicalGeographicalCoordinate">PhysicalGeographicalCoordinate</span> | [edi3:GeographicalCoordinate](#GeographicalCoordinate)
-<span id="StaySpecifiedPeriod">StaySpecifiedPeriod</span> | [edi3:Period](#Period)
-<span id="DescriptionText">DescriptionText</span> | xsd:string
-<span id="TypeLocationFunctionCode">TypeLocationFunctionCode</span> | xsd:token
-<span id="CountryNameText">CountryNameText</span> | xsd:string
-<span id="ServicingSpecifiedLocationParty">ServicingSpecifiedLocationParty</span> | [edi3:Party](#Party)
-<span id="IdentificationIdentifier">IdentificationIdentifier</span> | xsd:token
-<span id="NameText">NameText</span> | xsd:string
-<span id="SubordinateSubordinateLocation">SubordinateSubordinateLocation</span> | [edi3:Location](#Location)
-<span id="SubordinateSubordinateSubordinateLocation">SubordinateSubordinateSubordinateLocation</span> | [edi3:Location](#Location)
-<span id="PreviousAssociatedSpecifiedGeographicalFeature">PreviousAssociatedSpecifiedGeographicalFeature</span> | [edi3:GeographicalFeature](#GeographicalFeature)
-<span id="PostalTradeAddress">PostalTradeAddress</span> | [edi3:Address](#Address)
+[CountryCountryIdentifier](#CountryCountryIdentifier) | xsd:token
+[AssociatedSpecifiedGeographicalFeature](#AssociatedSpecifiedGeographicalFeature) | [edi3:GeographicalFeature](#GeographicalFeature)
+[InspectionSupplyChainEvent](#InspectionSupplyChainEvent) | [edi3:Event](#Event)
+[PhysicalGeographicalCoordinate](#PhysicalGeographicalCoordinate) | [edi3:GeographicalCoordinate](#GeographicalCoordinate)
+[StaySpecifiedPeriod](#StaySpecifiedPeriod) | [edi3:Period](#Period)
+[DescriptionText](#DescriptionText) | xsd:string
+[TypeLocationFunctionCode](#TypeLocationFunctionCode) | xsd:token
+[CountryNameText](#CountryNameText) | xsd:string
+[ServicingSpecifiedLocationParty](#ServicingSpecifiedLocationParty) | [edi3:Party](#Party)
+[IdentificationIdentifier](#IdentificationIdentifier) | xsd:token
+[NameText](#NameText) | xsd:string
+[SubordinateSubordinateLocation](#SubordinateSubordinateLocation) | [edi3:Location](#Location)
+[SubordinateSubordinateSubordinateLocation](#SubordinateSubordinateSubordinateLocation) | [edi3:Location](#Location)
+[PreviousAssociatedSpecifiedGeographicalFeature](#PreviousAssociatedSpecifiedGeographicalFeature) | [edi3:GeographicalFeature](#GeographicalFeature)
+[PostalTradeAddress](#PostalTradeAddress) | [edi3:Address](#Address)
 
 
 <h1 id="SizeDescriptionText">SizeDescriptionText</h1>
@@ -4358,7 +4358,7 @@ Domains:
 
 Type: rdf:Property
 
-Comments: <br/>A carrier assigned booking identifier for this piece of referenced logistics transport equipment.<br/>A carrier assigned booking identifier for this piece of logistics transport equipment.<br/>
+Comments: <br/>A carrier assigned booking identifier for this piece of logistics transport equipment.<br/>A carrier assigned booking identifier for this piece of referenced logistics transport equipment.<br/>
 
 Domains: 
 
@@ -4527,7 +4527,7 @@ Domains:
 
 Type: rdf:Property
 
-Comments: <br/>A measure of the net weight (mass) of this supply chain consignment item which excludes all packaging.<br/>A measure of the net weight (mass) of this referenced consignment which excludes the weight of packaging and the weight of any transport equipment.<br/>A measure of the net weight (mass) of this consignment which excludes the weight of packaging of this supply chain consignment and that of any transport equipment.<br/>The measure of the net weight (mass) of these transported dangerous goods.<br/>The measure of the net weight (mass) of this piece of referenced logistics transport equipment.<br/>The measure of the net weight (mass) of this logistics means of transport, such as the net tonnage of a vessel determined in accordance with the provisions of the International Convention on Tonnage Measurement of Ships, 1969.<br/>The measure of the net weight (mass) of this piece of logistics transport equipment.<br/>The measure, at line level, of the net weight (mass) of this trade delivery.<br/>The measure of the net weight (mass) of the contents of this referenced logistics package.<br/>
+Comments: <br/>A measure of the net weight (mass) of this referenced consignment which excludes the weight of packaging and the weight of any transport equipment.<br/>A measure of the net weight (mass) of this supply chain consignment item which excludes all packaging.<br/>A measure of the net weight (mass) of this consignment which excludes the weight of packaging of this supply chain consignment and that of any transport equipment.<br/>The measure of the net weight (mass) of these transported dangerous goods.<br/>The measure of the net weight (mass) of this piece of referenced logistics transport equipment.<br/>The measure of the net weight (mass) of this logistics means of transport, such as the net tonnage of a vessel determined in accordance with the provisions of the International Convention on Tonnage Measurement of Ships, 1969.<br/>The measure of the net weight (mass) of this piece of logistics transport equipment.<br/>The measure, at line level, of the net weight (mass) of this trade delivery.<br/>The measure of the net weight (mass) of the contents of this referenced logistics package.<br/>
 
 Domains: 
 
@@ -4676,14 +4676,14 @@ Domains:
 
 Type: rdf:Property
 
-Comments: <br/>The code specifying the status, at line level, for this trade delivery.<br/>The code specifying the status of this trade workflow object.<br/>A code specifying a status for this trade product.<br/>The code specifying the status of this control setting parameter.<br/>The code specifying the status, at header level, for this trade delivery.<br/>The code specifying the status of this work item quantity analysis, such as partial, approved, not approved.<br/>The code specifying the status of this operational parameter.<br/>A code specifying the status of this basic work item.<br/>The code specifying a status for this supply chain inventory.<br/>A code specifying the status of this supply chain schedule.<br/>
+Comments: <br/>The code specifying the status, at line level, for this trade delivery.<br/>The code specifying the status of this trade workflow object.<br/>The code specifying the status of this control setting parameter.<br/>A code specifying a status for this trade product.<br/>The code specifying the status, at header level, for this trade delivery.<br/>The code specifying the status of this work item quantity analysis, such as partial, approved, not approved.<br/>The code specifying the status of this operational parameter.<br/>A code specifying the status of this basic work item.<br/>The code specifying a status for this supply chain inventory.<br/>A code specifying the status of this supply chain schedule.<br/>
 
 Domains: 
 
 [edi3:Schedule](#Schedule)
 [edi3:TradeDelivery](#TradeDelivery)
-[edi3:Product](#Product)
 [edi3:Parameter](#Parameter)
+[edi3:Product](#Product)
 [edi3:QuantityAnalysis](#QuantityAnalysis)
 [edi3:WorkItem](#WorkItem)
 [edi3:Inventory](#Inventory)
@@ -4820,7 +4820,7 @@ Domains:
 
 Type: rdf:Property
 
-Comments: <br/>The code specifying the description of these haulage instructions.<br/>The code specifying a description of this supply chain trade line item.<br/>A code specifying a description of these handling instructions.<br/>The code specifying a description of these transport instructions.<br/>The code specifying a description of these temperature setting instructions.<br/>The code specifying a description of these delivery instructions.<br/>The code specifying the description of these quarantine instructions.<br/>
+Comments: <br/>The code specifying the description of these haulage instructions.<br/>The code specifying a description of this supply chain trade line item.<br/>The code specifying a description of these transport instructions.<br/>A code specifying a description of these handling instructions.<br/>The code specifying a description of these temperature setting instructions.<br/>The code specifying a description of these delivery instructions.<br/>The code specifying the description of these quarantine instructions.<br/>
 
 Domains: 
 
@@ -5287,7 +5287,7 @@ Domains:
 
 Type: rdf:Property
 
-Comments: <br/>The actual date, time, date time, or other date time value of this financial adjustment.<br/>The actual date, time, date time, or other date time value of this delivery adjustment.<br/>The actual date, time, date time, or other date time value of this document authentication.<br/>
+Comments: <br/>The actual date, time, date time, or other date time value of this delivery adjustment.<br/>The actual date, time, date time, or other date time value of this financial adjustment.<br/>The actual date, time, date time, or other date time value of this document authentication.<br/>
 
 Domains: 
 
@@ -5567,7 +5567,7 @@ Domains:
 
 Type: rdf:Property
 
-Comments: <br/>The geopolitical region of origin for this supply chain consignment item.<br/>The geopolitical region of origin for this supply chain consignment.<br/>
+Comments: <br/>The geopolitical region of origin for this supply chain consignment.<br/>The geopolitical region of origin for this supply chain consignment item.<br/>
 
 Domains: 
 
@@ -5822,7 +5822,7 @@ Domains:
 
 Type: rdf:Property
 
-Comments: <br/>A carrier party for this piece of logistics transport equipment.<br/>A carrier party for this line trade agreement.<br/>A carrier party for this logistics transport movement.<br/>The carrier party, at header level, for this trade agreement.<br/>The carrier party for this supply chain consignment.<br/>The carrier party for this referenced supply chain consignment.<br/>
+Comments: <br/>A carrier party for this line trade agreement.<br/>A carrier party for this piece of logistics transport equipment.<br/>A carrier party for this logistics transport movement.<br/>The carrier party for this supply chain consignment.<br/>The carrier party, at header level, for this trade agreement.<br/>The carrier party for this referenced supply chain consignment.<br/>
 
 Domains: 
 
@@ -6415,7 +6415,7 @@ Domains:
 
 Type: rdf:Property
 
-Comments: <br/>A code specifying the type of logistics package.<br/>The code specifying the type of supply chain packaging.<br/>The code specifying the type of referenced logistics package.<br/>
+Comments: <br/>The code specifying the type of supply chain packaging.<br/>A code specifying the type of logistics package.<br/>The code specifying the type of referenced logistics package.<br/>
 
 Domains: 
 
@@ -7015,14 +7015,14 @@ Domains:
 
 Type: rdf:Property
 
-Comments: <br/>Information, expressed as text, for this trade settlement payment means.<br/>Information, expressed as text, for this document status.<br/>Information, expressed as text, for this exchanged document.<br/>Information, expressed as text, for this supply chain consignment item.<br/>Information, expressed as text, for this referenced document.<br/>Information, expressed as text, for this referenced logistics package.<br/>Information, expressed as text, for this logistics transport movement.<br/>Information, expressed as text, concerning the transport of these dangerous goods.<br/>Information, expressed as text, for this document authentication.<br/>Information, expressed as text, for this supply chain consignment.<br/>Information, expressed as text, for this logistics package.<br/>Information, expressed as text, in this section segment.<br/>Information, expressed as text, for this piece of logistics transport equipment.<br/>Information, expressed as text, for this transport service.<br/>Information, expressed as text, for this supply chain trade transaction.<br/>
+Comments: <br/>Information, expressed as text, for this trade settlement payment means.<br/>Information, expressed as text, for this document status.<br/>Information, expressed as text, for this exchanged document.<br/>Information, expressed as text, for this supply chain consignment item.<br/>Information, expressed as text, for this referenced document.<br/>Information, expressed as text, for this referenced logistics package.<br/>Information, expressed as text, for this logistics transport movement.<br/>Information, expressed as text, concerning the transport of these dangerous goods.<br/>Information, expressed as text, for this supply chain consignment.<br/>Information, expressed as text, for this document authentication.<br/>Information, expressed as text, for this logistics package.<br/>Information, expressed as text, in this section segment.<br/>Information, expressed as text, for this piece of logistics transport equipment.<br/>Information, expressed as text, for this transport service.<br/>Information, expressed as text, for this supply chain trade transaction.<br/>
 
 Domains: 
 
 [edi3:Status](#Status)
 [edi3:TransportEquipment](#TransportEquipment)
-[edi3:Service](#Service)
 [edi3:Consignment](#Consignment)
+[edi3:Service](#Service)
 [edi3:Document](#Document)
 [edi3:Segment](#Segment)
 [edi3:PaymentMeans](#PaymentMeans)
@@ -7082,7 +7082,7 @@ Domains:
 
 Type: rdf:Property
 
-Comments: <br/>A subordinate country sub-division within this trade country sub-division.<br/>A trade country sub-division that is subordinate to this trade country, such as a state, a county, a canton, a province.<br/>
+Comments: <br/>A trade country sub-division that is subordinate to this trade country, such as a state, a county, a canton, a province.<br/>A subordinate country sub-division within this trade country sub-division.<br/>
 
 Domains: 
 
@@ -7374,7 +7374,7 @@ Domains:
 
 Type: rdf:Property
 
-Comments: <br/>The transport dangerous goods details, at line level, applicable to this trade delivery.<br/>Dangerous goods transport details applicable to this referenced supply chain consignment item.<br/>Transport dangerous goods information applicable to these logistics regulated goods.<br/>Dangerous goods applicable to the transport of this supply chain consignment.<br/>Dangerous goods transport details applicable to this supply chain consignment item.<br/>Transport dangerous goods information applicable for this trade product.<br/>
+Comments: <br/>The transport dangerous goods details, at line level, applicable to this trade delivery.<br/>Dangerous goods transport details applicable to this referenced supply chain consignment item.<br/>Dangerous goods applicable to the transport of this supply chain consignment.<br/>Transport dangerous goods information applicable to these logistics regulated goods.<br/>Dangerous goods transport details applicable to this supply chain consignment item.<br/>Transport dangerous goods information applicable for this trade product.<br/>
 
 Domains: 
 
@@ -7400,7 +7400,7 @@ Domains:
 
 Type: rdf:Property
 
-Comments: <br/>The actual quantity for this work item quantity analysis.<br/>The actual quantity of items in this trade product instance.<br/>The actual quantity added or subtracted as a result of this financial adjustment.<br/>The actual quantity in this supply chain supply plan.<br/>The actual quantity added or subtracted as a result of this delivery adjustment.<br/>
+Comments: <br/>The actual quantity for this work item quantity analysis.<br/>The actual quantity of items in this trade product instance.<br/>The actual quantity added or subtracted as a result of this financial adjustment.<br/>The actual quantity added or subtracted as a result of this delivery adjustment.<br/>The actual quantity in this supply chain supply plan.<br/>
 
 Domains: 
 
@@ -7918,7 +7918,7 @@ Domains:
 
 Type: rdf:Property
 
-Comments: <br/>The unique global identifier for this exchanged document.<br/>A unique global identifier for this referenced product.<br/>The unique global identifier for this logistics package.<br/>A globally unique identifier of this trade party.<br/>A unique global identifier for this referenced document.<br/>The global identifier for this referenced logistics package.<br/>A unique global identifier for this trade product.<br/>A global identifier for this supply chain consignment item.<br/>
+Comments: <br/>The unique global identifier for this exchanged document.<br/>A unique global identifier for this referenced product.<br/>The unique global identifier for this logistics package.<br/>A globally unique identifier of this trade party.<br/>A unique global identifier for this referenced document.<br/>The global identifier for this referenced logistics package.<br/>A global identifier for this supply chain consignment item.<br/>A unique global identifier for this trade product.<br/>
 
 Domains: 
 
@@ -8387,13 +8387,13 @@ Domains:
 
 Type: rdf:Property
 
-Comments: <br/>An associated document referenced for this trade price.<br/>A referenced document associated with this supply chain trade transaction, such as the purchase order, invoice or packing list.<br/>A referenced document associated with this supply chain consignment, such as the certificate of origin or dangerous goods note.<br/>A referenced document associated with this piece of logistics transport equipment.<br/>A document associated with this line trade settlement.<br/>A referenced document associated with this referenced supply chain consignment item.<br/>An associated document referenced for this trade related currency exchange.<br/>A referenced document associated with this exchanged declaration.<br/>A referenced document associated with this supply chain consignment item.<br/>
+Comments: <br/>An associated document referenced for this trade price.<br/>A referenced document associated with this supply chain trade transaction, such as the purchase order, invoice or packing list.<br/>A referenced document associated with this piece of logistics transport equipment.<br/>A referenced document associated with this supply chain consignment, such as the certificate of origin or dangerous goods note.<br/>A document associated with this line trade settlement.<br/>A referenced document associated with this referenced supply chain consignment item.<br/>An associated document referenced for this trade related currency exchange.<br/>A referenced document associated with this exchanged declaration.<br/>A referenced document associated with this supply chain consignment item.<br/>
 
 Domains: 
 
 [edi3:TradeTransaction](#TradeTransaction)
-[edi3:ConsignmentItem](#ConsignmentItem)
 [edi3:TradeSettlement](#TradeSettlement)
+[edi3:ConsignmentItem](#ConsignmentItem)
 [edi3:Price](#Price)
 [edi3:TransportEquipment](#TransportEquipment)
 [edi3:Consignment](#Consignment)
@@ -8475,8 +8475,8 @@ Comments: <br/>The referenced standard that is applicable to this product classi
 
 Domains: 
 
-[edi3:Classification](#Classification)
 [edi3:Characteristic](#Characteristic)
+[edi3:Classification](#Classification)
 
 
 <h1 id="CategoryTaxCategoryCode">CategoryTaxCategoryCode</h1>
@@ -8930,7 +8930,7 @@ Domains:
 
 Type: rdf:Property
 
-Comments: <br/>The value, expressed as text, of this document context parameter.<br/>The value, expressed as text, of this control setting parameter.<br/>The value, expressed as text, of this operational parameter.<br/>A value, expressed as text, for this product characteristic.<br/>
+Comments: <br/>The value, expressed as text, of this document context parameter.<br/>The value, expressed as text, of this operational parameter.<br/>The value, expressed as text, of this control setting parameter.<br/>A value, expressed as text, for this product characteristic.<br/>
 
 Domains: 
 
@@ -9041,22 +9041,22 @@ Domains:
 
 Type: rdf:Property
 
-Comments: <br/>The code specifying the type of product characteristic condition.<br/>The code specifying the type of requesting party.<br/>The code specifying the type of this radioactive material.<br/>The code specifying the type of trade geopolitical region.<br/>A code specifying the type of valuation breakdown statement.<br/>The code specifying the type of procuring project, such as goods, works and service.<br/>A code specifying the type of supply chain event.<br/>A code specifying a type of measurement.<br/>The code specifying a type of parameter for this control setting parameter.<br/>A code specifying the type of stores inventory item.<br/>The code specifying the type of this specification response.<br/>A code specifying a type of specified personal effects.<br/>A code specifying the type of basic work item.<br/>The code specifying the type of this calculated emission.<br/>A code specifying the type of this legal registration.<br/>The code specifying the type of section segment.<br/>The code specifying the type of this product security tag.<br/>The code specifying the type of communication event.<br/>The code specifying the applied tax type such as VAT.<br/>A code specifying the type of trade party that is independent of its role.<br/>A code specifying a type of cross-border regulatory procedure.<br/>A code specifying the type of trade product.<br/>The code specifying a type of monitoring sensor.<br/>The code specifying the type of creditor financial account.<br/>The code specifying the type of debtor financial account.<br/>The code specifying the type of distinct chemical.<br/>A code specifying the type of supply chain schedule.<br/>A code specifying a type of OEM equipment.<br/>The code specifying the type of trade product feature.<br/>The code specifying the type of this operational parameter.<br/>The code specifying the type of specification query.<br/>The code specifying the type of financial institution address.<br/>The code specifying the type of work item quantity analysis.<br/>The code specifying a type of this specified range.<br/>A code specifying the type of calculated price.<br/>The code specifying the type of supply chain trade line item.<br/>The code specifying the type of transport event.<br/>A code specifying a type of government registration.<br/>A code specifying the type of this work item group.<br/>The code specifying the type of monitoring IOT device.<br/>The code specifying the type of this certified accreditation, such as a type of driving license.<br/>A code specifying a type of country sub-division for trade purposes.<br/>The code specifying the type of cross-border customs valuation.<br/>The code specifying the type of supply chain trade transaction.<br/>A code specifying a type of product characteristic.<br/>The code specifying the type of this trade settlement financial card, such as debit or credit.<br/>A code specifying the type of product certificate.<br/>The code specifying the type of this work item dimension.<br/>The code specifying the type of material goods characteristic.<br/>A code specifying a type of legally set up organization.<br/>A code specifying a type of transport waste material component.<br/>The code specifying the type of registered tax.<br/>
+Comments: <br/>The code specifying the type of product characteristic condition.<br/>The code specifying the type of requesting party.<br/>The code specifying the type of this radioactive material.<br/>The code specifying the type of trade geopolitical region.<br/>A code specifying the type of valuation breakdown statement.<br/>The code specifying the type of procuring project, such as goods, works and service.<br/>A code specifying the type of supply chain event.<br/>A code specifying a type of measurement.<br/>A code specifying the type of stores inventory item.<br/>The code specifying a type of parameter for this control setting parameter.<br/>The code specifying the type of this specification response.<br/>A code specifying a type of specified personal effects.<br/>A code specifying the type of basic work item.<br/>The code specifying the type of this calculated emission.<br/>A code specifying the type of this legal registration.<br/>The code specifying the type of section segment.<br/>The code specifying the type of this product security tag.<br/>The code specifying the type of communication event.<br/>The code specifying the applied tax type such as VAT.<br/>A code specifying the type of trade party that is independent of its role.<br/>A code specifying a type of cross-border regulatory procedure.<br/>A code specifying the type of trade product.<br/>The code specifying a type of monitoring sensor.<br/>The code specifying the type of creditor financial account.<br/>The code specifying the type of distinct chemical.<br/>The code specifying the type of debtor financial account.<br/>A code specifying the type of supply chain schedule.<br/>A code specifying a type of OEM equipment.<br/>The code specifying the type of this operational parameter.<br/>The code specifying the type of trade product feature.<br/>The code specifying the type of specification query.<br/>The code specifying the type of work item quantity analysis.<br/>The code specifying the type of financial institution address.<br/>The code specifying a type of this specified range.<br/>A code specifying the type of calculated price.<br/>The code specifying the type of transport event.<br/>The code specifying the type of supply chain trade line item.<br/>A code specifying a type of government registration.<br/>A code specifying the type of this work item group.<br/>The code specifying the type of monitoring IOT device.<br/>The code specifying the type of this certified accreditation, such as a type of driving license.<br/>A code specifying a type of country sub-division for trade purposes.<br/>The code specifying the type of cross-border customs valuation.<br/>A code specifying a type of product characteristic.<br/>The code specifying the type of supply chain trade transaction.<br/>The code specifying the type of this trade settlement financial card, such as debit or credit.<br/>A code specifying the type of product certificate.<br/>The code specifying the type of this work item dimension.<br/>The code specifying the type of material goods characteristic.<br/>A code specifying a type of transport waste material component.<br/>A code specifying a type of legally set up organization.<br/>The code specifying the type of registered tax.<br/>
 
 Domains: 
 
 [edi3:Measurement](#Measurement)
 [edi3:Organization](#Organization)
+[edi3:PersonalEffects](#PersonalEffects)
 [edi3:Query](#Query)
 [edi3:Address](#Address)
-[edi3:PersonalEffects](#PersonalEffects)
 [edi3:Emission](#Emission)
 [edi3:Product](#Product)
 [edi3:Tax](#Tax)
 [edi3:WorkItem](#WorkItem)
 [edi3:Feature](#Feature)
-[edi3:BreakdownStatement](#BreakdownStatement)
 [edi3:Segment](#Segment)
+[edi3:BreakdownStatement](#BreakdownStatement)
 [edi3:TradeTransaction](#TradeTransaction)
 [edi3:FinancialCard](#FinancialCard)
 [edi3:Party](#Party)
@@ -9067,11 +9067,11 @@ Domains:
 [edi3:QuantityAnalysis](#QuantityAnalysis)
 [edi3:GeopoliticalRegion](#GeopoliticalRegion)
 [edi3:CountrySubDivision](#CountrySubDivision)
-[edi3:GoodsCharacteristic](#GoodsCharacteristic)
 [edi3:Condition](#Condition)
+[edi3:GoodsCharacteristic](#GoodsCharacteristic)
 [edi3:CustomsValuation](#CustomsValuation)
-[edi3:RegulatoryProcedure](#RegulatoryProcedure)
 [edi3:Characteristic](#Characteristic)
+[edi3:RegulatoryProcedure](#RegulatoryProcedure)
 [edi3:Material](#Material)
 [edi3:Dimension](#Dimension)
 [edi3:TradeLineItem](#TradeLineItem)
@@ -9461,14 +9461,14 @@ Domains:
 
 Type: rdf:Property
 
-Comments: <br/>A type, expressed as text for this transport route.<br/>The type, expressed as text, of this trade related tax, levy or duty.<br/>The type, expressed as text, of supply chain packaging.<br/>A type, expressed as text, of this referenced logistics package.<br/>The type, expressed as text, of this referenced transport means.<br/>The type, expressed as text, of this logistics means of transport.<br/>A type, expressed as text, for this trade price.<br/>The type, as expressed as text, of the logistics transport movement.<br/>A type, expressed as text, of this logistics package.<br/>
+Comments: <br/>A type, expressed as text for this transport route.<br/>The type, expressed as text, of this trade related tax, levy or duty.<br/>The type, expressed as text, of supply chain packaging.<br/>The type, expressed as text, of this referenced transport means.<br/>The type, expressed as text, of this logistics means of transport.<br/>A type, expressed as text, of this referenced logistics package.<br/>A type, expressed as text, for this trade price.<br/>The type, as expressed as text, of the logistics transport movement.<br/>A type, expressed as text, of this logistics package.<br/>
 
 Domains: 
 
 [edi3:Price](#Price)
 [edi3:Packaging](#Packaging)
-[edi3:Tax](#Tax)
 [edi3:TransportMovement](#TransportMovement)
+[edi3:Tax](#Tax)
 [edi3:Package](#Package)
 [edi3:TransportMeans](#TransportMeans)
 [edi3:Route](#Route)
@@ -9500,7 +9500,7 @@ Domains:
 
 Type: rdf:Property
 
-Comments: <br/>A measure of the gross weight (mass) of this supply chain consignment item which includes packaging but excludes any transport equipment.<br/>The measure of the gross weight (mass) of this piece of logistics transport equipment which is the weight (mass) including loaded goods, packing and transport equipment.<br/>The measure of the gross weight (mass) of this piece of referenced logistics transport equipment which is the weight (mass) including loaded goods, packing and transport equipment.<br/>The measure, at line level, of the gross weight (mass) of this line trade delivery.<br/>The measure of the gross weight (mass) of this referenced logistics package and its contents.<br/>The measure of the weight (mass) of these transported dangerous goods including packaging but excluding the transport equipment.<br/>The measure of the gross weight (mass) of this logistics means of transport including cargo, such as the measure of the overall size of a vessel determined in accordance with the provisions of the International Convention on Tonnage Measurement of Ships, 1969.<br/>A measure of the gross weight (mass) of this supply chain consignment which includes the weight of packaging but which excludes the weight of any transport equipment.<br/>A measure of the gross weight (mass) of this referenced supply chain consignment which includes the weight of packaging but which excludes the weight of any transport equipment.<br/>
+Comments: <br/>A measure of the gross weight (mass) of this supply chain consignment item which includes packaging but excludes any transport equipment.<br/>The measure of the gross weight (mass) of this piece of logistics transport equipment which is the weight (mass) including loaded goods, packing and transport equipment.<br/>The measure, at line level, of the gross weight (mass) of this line trade delivery.<br/>The measure of the gross weight (mass) of this piece of referenced logistics transport equipment which is the weight (mass) including loaded goods, packing and transport equipment.<br/>The measure of the gross weight (mass) of this referenced logistics package and its contents.<br/>The measure of the weight (mass) of these transported dangerous goods including packaging but excluding the transport equipment.<br/>The measure of the gross weight (mass) of this logistics means of transport including cargo, such as the measure of the overall size of a vessel determined in accordance with the provisions of the International Convention on Tonnage Measurement of Ships, 1969.<br/>A measure of the gross weight (mass) of this supply chain consignment which includes the weight of packaging but which excludes the weight of any transport equipment.<br/>A measure of the gross weight (mass) of this referenced supply chain consignment which includes the weight of packaging but which excludes the weight of any transport equipment.<br/>
 
 Domains: 
 
@@ -9660,7 +9660,7 @@ Domains:
 
 Type: rdf:Property
 
-Comments: <br/>A reason, expressed as text, for this financial adjustment.<br/>The reason, expressed as text, for this trade allowance charge.<br/>A reason, expressed as text, for this financing status.<br/>A reason, expressed as text, for this validation status.<br/>A reason, expressed as text, for this document status.<br/>A reason, expressed as text, for this delivery adjustment.<br/>A reason, expressed as text, for this cancellation status.<br/>A reason, expressed as text, for this logistics status.<br/>
+Comments: <br/>A reason, expressed as text, for this financial adjustment.<br/>A reason, expressed as text, for this financing status.<br/>The reason, expressed as text, for this trade allowance charge.<br/>A reason, expressed as text, for this validation status.<br/>A reason, expressed as text, for this document status.<br/>A reason, expressed as text, for this delivery adjustment.<br/>A reason, expressed as text, for this cancellation status.<br/>A reason, expressed as text, for this logistics status.<br/>
 
 Domains: 
 
@@ -10549,7 +10549,7 @@ Domains:
 
 Type: rdf:Property
 
-Comments: <br/>A logistics status reported for this supply chain consignment item.<br/>A logistics status reported for this cross-border regulatory procedure.<br/>A logistics status reported for this supply chain consignment.<br/>A status reported for this piece of logistics transport equipment.<br/>
+Comments: <br/>A logistics status reported for this supply chain consignment item.<br/>A logistics status reported for this cross-border regulatory procedure.<br/>A status reported for this piece of logistics transport equipment.<br/>A logistics status reported for this supply chain consignment.<br/>
 
 Domains: 
 
@@ -10885,7 +10885,7 @@ Domains:
 
 Type: rdf:Property
 
-Comments: <br/>The linear spatial dimensions of this piece of logistics transport equipment.<br/>Linear spatial dimensions of this trade product.<br/>The linear spatial dimensions of this logistics package.<br/>The linear spatial dimensions of this supply chain packaging.<br/>The linear spatial dimensions of this supply chain consignment item.<br/>
+Comments: <br/>Linear spatial dimensions of this trade product.<br/>The linear spatial dimensions of this logistics package.<br/>The linear spatial dimensions of this piece of logistics transport equipment.<br/>The linear spatial dimensions of this supply chain packaging.<br/>The linear spatial dimensions of this supply chain consignment item.<br/>
 
 Domains: 
 
@@ -10990,7 +10990,7 @@ Domains:
 
 Type: rdf:Property
 
-Comments: <br/>A net product price in this subordinate line trade agreement.<br/>A net product price in this line trade agreement.<br/>
+Comments: <br/>A net product price in this line trade agreement.<br/>A net product price in this subordinate line trade agreement.<br/>
 
 Domains: 
 
@@ -12500,7 +12500,7 @@ Domains:
 
 Type: rdf:Property
 
-Comments: <br/>A consignment, at line level, related to this line trade delivery.<br/>A consignment, at header level, related to this trade delivery.<br/>
+Comments: <br/>A consignment, at header level, related to this trade delivery.<br/>A consignment, at line level, related to this line trade delivery.<br/>
 
 Domains: 
 
@@ -12600,7 +12600,7 @@ Domains:
 
 Type: rdf:Property
 
-Comments: <br/>The date, time, date time, or other date time value, at line level, of the buyer order for this trade delivery.<br/>The date, time, date time, or other date time value, at header level, of the buyer order for this trade delivery.<br/>
+Comments: <br/>The date, time, date time, or other date time value, at header level, of the buyer order for this trade delivery.<br/>The date, time, date time, or other date time value, at line level, of the buyer order for this trade delivery.<br/>
 
 Domains: 
 
@@ -12735,7 +12735,7 @@ Domains:
 
 Type: rdf:Property
 
-Comments: <br/>A monetary value which constitutes the total retail value stated for information purposes in this trade settlement header monetary summation.<br/>A monetary value which constitutes the total retail value stated for information purposes in this trade settlement line monetary summation.<br/>
+Comments: <br/>A monetary value which constitutes the total retail value stated for information purposes in this trade settlement line monetary summation.<br/>A monetary value which constitutes the total retail value stated for information purposes in this trade settlement header monetary summation.<br/>
 
 Domains: 
 
@@ -12969,13 +12969,13 @@ Domains:
 
 Type: rdf:Property
 
-Comments: <br/>A code specifying a category for this transport person, such as a member of crew or passenger.<br/>The code specifying a category for this exchanged document.<br/>The code specifying the category of this referenced document.<br/>A code specifying a category for this cross-border regulatory procedure, such as the appendices of the CITES Convention.<br/>The code specifying the category for this logistics risk analysis result.<br/>A code specifying a category for this document authentication.<br/>The code specifying the category of this certified accreditation, such as driving or academic.<br/>A code specifying a category of this government registration.<br/>
+Comments: <br/>A code specifying a category for this transport person, such as a member of crew or passenger.<br/>The code specifying a category for this exchanged document.<br/>The code specifying the category of this referenced document.<br/>A code specifying a category for this cross-border regulatory procedure, such as the appendices of the CITES Convention.<br/>A code specifying a category for this document authentication.<br/>The code specifying the category for this logistics risk analysis result.<br/>The code specifying the category of this certified accreditation, such as driving or academic.<br/>A code specifying a category of this government registration.<br/>
 
 Domains: 
 
 [edi3:RiskAnalysisResult](#RiskAnalysisResult)
-[edi3:Registration](#Registration)
 [edi3:Authentication](#Authentication)
+[edi3:Registration](#Registration)
 [edi3:RegulatoryProcedure](#RegulatoryProcedure)
 [edi3:Accreditation](#Accreditation)
 [edi3:Document](#Document)
@@ -13008,7 +13008,7 @@ Domains:
 
 Type: rdf:Property
 
-Comments: <br/>Transport packages for this supply chain consignment.<br/>Transport packages for this referenced supply chain consignment.<br/>A transport package for this referenced supply chain consignment item.<br/>A transport package for this supply chain consignment item.<br/>
+Comments: <br/>Transport packages for this referenced supply chain consignment.<br/>Transport packages for this supply chain consignment.<br/>A transport package for this referenced supply chain consignment item.<br/>A transport package for this supply chain consignment item.<br/>
 
 Domains: 
 
@@ -13378,15 +13378,15 @@ Domains:
 
 Type: rdf:Property
 
-Comments: <br/>The measure of the value of this spatial dimension.<br/>The measure value for this control setting parameter.<br/>The measure of the value for this monitoring sensor.<br/>The measured value for this work item dimension.<br/>The value of a measure for this calibrated measurement.<br/>The measure value for this operational parameter.<br/>A measure of a value for this product characteristic.<br/>The measure of a value for this communication event.<br/>The measure of the value for this product characteristic condition.<br/>
+Comments: <br/>The measure value for this control setting parameter.<br/>The measure of the value of this spatial dimension.<br/>The measure of the value for this monitoring sensor.<br/>The measured value for this work item dimension.<br/>The value of a measure for this calibrated measurement.<br/>The measure value for this operational parameter.<br/>A measure of a value for this product characteristic.<br/>The measure of a value for this communication event.<br/>The measure of the value for this product characteristic condition.<br/>
 
 Domains: 
 
-[edi3:Measurement](#Measurement)
 [edi3:Condition](#Condition)
+[edi3:Measurement](#Measurement)
 [edi3:Characteristic](#Characteristic)
-[edi3:Event](#Event)
 [edi3:Parameter](#Parameter)
+[edi3:Event](#Event)
 [edi3:Dimension](#Dimension)
 [edi3:Sensor](#Sensor)
 
@@ -13439,7 +13439,7 @@ Domains:
 
 Type: rdf:Property
 
-Comments: <br/>The code specifying the type of exchanged document.<br/>The code specifying the type of referenced document.<br/>The code specifying the type of this exchanged declaration.<br/>A code specifying a type of acknowledgement document.<br/>
+Comments: <br/>The code specifying the type of exchanged document.<br/>The code specifying the type of referenced document.<br/>A code specifying a type of acknowledgement document.<br/>The code specifying the type of this exchanged declaration.<br/>
 
 Domains: 
 
@@ -13640,7 +13640,7 @@ Domains:
 
 Type: rdf:Property
 
-Comments: <br/>A specified period of time for the occurrence of this referenced transport event.<br/>A specified period of time during which this supply chain event occurs.<br/>A specified period of time during which this transport event occurs.<br/>
+Comments: <br/>A specified period of time for the occurrence of this referenced transport event.<br/>A specified period of time during which this transport event occurs.<br/>A specified period of time during which this supply chain event occurs.<br/>
 
 Domains: 
 
@@ -14035,8 +14035,8 @@ Comments: <br/>The code specifying the payment arrangement for this logistics se
 Domains: 
 
 [edi3:ServiceCharge](#ServiceCharge)
-[edi3:Consignment](#Consignment)
 [edi3:Service](#Service)
+[edi3:Consignment](#Consignment)
 
 
 <h1 id="TotalPackageSpecifiedQuantity">TotalPackageSpecifiedQuantity</h1>
@@ -14264,7 +14264,7 @@ Domains:
 
 Type: rdf:Property
 
-Comments: <br/>The manufacturer party for this OEM equipment.<br/>The manufacturer party of this monitoring IOT device.<br/>A manufacturer party for this trade product.<br/>The manufacturer party for this monitoring sensor.<br/>The party which manufactured this supply chain consignment item.<br/>The manufacturer party specified for this piece of logistics transport equipment.<br/>The manufacturer party for this logistics means of transport.<br/>
+Comments: <br/>The manufacturer party for this OEM equipment.<br/>The manufacturer party of this monitoring IOT device.<br/>The manufacturer party for this monitoring sensor.<br/>A manufacturer party for this trade product.<br/>The party which manufactured this supply chain consignment item.<br/>The manufacturer party for this logistics means of transport.<br/>The manufacturer party specified for this piece of logistics transport equipment.<br/>
 
 Domains: 
 
@@ -14848,7 +14848,7 @@ Domains:
 
 Type: rdf:Property
 
-Comments: <br/>The textual description of these quarantine instructions.<br/>A textual description of this specified binary file.<br/>A textual description of this header balance out.<br/>A textual description of this referenced logistics package.<br/>A textual description of this logistics service charge.<br/>A textual description of this logistics related location.<br/>The textual description of this procuring project.<br/>A textual description of these trade payment terms.<br/>A textual description of this identified fault.<br/>The textual description of this transport service.<br/>A textual description of this registered tax.<br/>A textual description of this product certificate.<br/>A textual description of this logistics package.<br/>A textual description of this payment balance out.<br/>A textual description of these trade delivery terms.<br/>A textual description of this specified period of time.<br/>A textual description of this supply chain schedule.<br/>A textual description of these transport instructions.<br/>A textual description of these disposal instructions.<br/>The textual description of this available period.<br/>The textual description for this specified observation.<br/>A textual description of this valuation breakdown statement.<br/>The textual description of this work item dimension.<br/>The textual description of this trade settlement financial card.<br/>A textual description of this trade party.<br/>A textual description for this referenced product.<br/>A textual description of this operational parameter.<br/>A textual description of this product characteristic.<br/>The textual description of this transport event.<br/>A textual description of this stores inventory item.<br/>The textual description of the applied allowance charge.<br/>A textual description of these temperature setting instructions.<br/>A textual description of this spatial dimension.<br/>A textual description of this header trade settlement.<br/>A textual description of this measurement.<br/>A textual description of this supply chain packaging.<br/>A textual description of these delivery instructions.<br/>The textual description of this logistics risk analysis result.<br/>A textual description of this supply chain event.<br/>The textual description of this logistics status.<br/>A textual description of these handling instructions.<br/>A textual description of these specified personal effects.<br/>The textual description of this specified geographical feature.<br/>A textual description of this control setting parameter.<br/>A textual description for this transport waste material component.<br/>The textual description of this transport route.<br/>The textual description of this document status.<br/>A textual description of this material goods characteristic.<br/>A textual description for this trade product.<br/>A textual description of this trade product feature.<br/>The textual description of this work item quantity analysis.<br/>The textual description of this requesting party.<br/>The textual description of this certified accreditation.<br/>A textual description of this communication event.<br/>The textual description of these haulage instructions.<br/>A textual description of this exchanged document.<br/>The textual description for this geographical object characteristic.<br/>
+Comments: <br/>The textual description of these quarantine instructions.<br/>A textual description of this specified binary file.<br/>A textual description of this header balance out.<br/>A textual description of this referenced logistics package.<br/>A textual description of this logistics service charge.<br/>A textual description of this logistics related location.<br/>The textual description of this procuring project.<br/>A textual description of these trade payment terms.<br/>A textual description of this identified fault.<br/>The textual description of this transport service.<br/>A textual description of this registered tax.<br/>A textual description of this product certificate.<br/>A textual description of this logistics package.<br/>A textual description of this payment balance out.<br/>A textual description of these trade delivery terms.<br/>A textual description of this specified period of time.<br/>A textual description of this supply chain schedule.<br/>A textual description of these transport instructions.<br/>A textual description of these disposal instructions.<br/>The textual description of this available period.<br/>The textual description for this specified observation.<br/>A textual description of this valuation breakdown statement.<br/>The textual description of this work item dimension.<br/>The textual description of this trade settlement financial card.<br/>A textual description of this trade party.<br/>A textual description for this referenced product.<br/>A textual description of this operational parameter.<br/>A textual description of this product characteristic.<br/>The textual description of this transport event.<br/>A textual description of this stores inventory item.<br/>The textual description of the applied allowance charge.<br/>A textual description of these temperature setting instructions.<br/>A textual description of this spatial dimension.<br/>A textual description of this measurement.<br/>A textual description of this header trade settlement.<br/>A textual description of this supply chain packaging.<br/>A textual description of these delivery instructions.<br/>The textual description of this logistics risk analysis result.<br/>The textual description of this logistics status.<br/>A textual description of this supply chain event.<br/>A textual description of these handling instructions.<br/>A textual description of these specified personal effects.<br/>The textual description of this specified geographical feature.<br/>A textual description of this control setting parameter.<br/>A textual description for this transport waste material component.<br/>The textual description of this transport route.<br/>A textual description of this material goods characteristic.<br/>The textual description of this document status.<br/>A textual description of this trade product feature.<br/>A textual description for this trade product.<br/>The textual description of this work item quantity analysis.<br/>The textual description of this requesting party.<br/>The textual description of this certified accreditation.<br/>A textual description of this communication event.<br/>The textual description of these haulage instructions.<br/>A textual description of this exchanged document.<br/>The textual description for this geographical object characteristic.<br/>
 
 Domains: 
 
@@ -14856,8 +14856,8 @@ Domains:
 [edi3:PersonalEffects](#PersonalEffects)
 [edi3:AllowanceCharge](#AllowanceCharge)
 [edi3:Product](#Product)
-[edi3:Fault](#Fault)
 [edi3:Tax](#Tax)
+[edi3:Fault](#Fault)
 [edi3:PaymentTerms](#PaymentTerms)
 [edi3:GeographicalFeature](#GeographicalFeature)
 [edi3:Document](#Document)
@@ -14865,10 +14865,10 @@ Domains:
 [edi3:BreakdownStatement](#BreakdownStatement)
 [edi3:RiskAnalysisResult](#RiskAnalysisResult)
 [edi3:FinancialCard](#FinancialCard)
-[edi3:Party](#Party)
 [edi3:ServiceCharge](#ServiceCharge)
-[edi3:MaterialComponent](#MaterialComponent)
+[edi3:Party](#Party)
 [edi3:GeographicalObjectCharacteristic](#GeographicalObjectCharacteristic)
+[edi3:MaterialComponent](#MaterialComponent)
 [edi3:Accreditation](#Accreditation)
 [edi3:QuantityAnalysis](#QuantityAnalysis)
 [edi3:BalanceOut](#BalanceOut)
@@ -14885,14 +14885,14 @@ Domains:
 [edi3:Project](#Project)
 [edi3:TradeSettlement](#TradeSettlement)
 [edi3:Schedule](#Schedule)
-[edi3:Packaging](#Packaging)
 [edi3:Observation](#Observation)
+[edi3:Packaging](#Packaging)
 [edi3:Event](#Event)
 [edi3:Parameter](#Parameter)
 [edi3:Package](#Package)
 [edi3:Inventory](#Inventory)
-[edi3:Location](#Location)
 [edi3:Certificate](#Certificate)
+[edi3:Location](#Location)
 
 
 <h1 id="SpecifiedTradeSettlementPaymentMeans">SpecifiedTradeSettlementPaymentMeans</h1>
@@ -15210,7 +15210,7 @@ Domains:
 
 Type: rdf:Property
 
-Comments: <br/>The code specifying the contractual language for this work item quantity analysis.<br/>The code specifying the contractual language for this work item complex description.<br/>The code specifying the contractual language for this basic work item.<br/>The code specifying the contractual language for this grouped work item.<br/>The code specifying the contractual language for this work item dimension.<br/>The code specifying the contractual language for this specification response.<br/>The code specifying the contractual language for this valuation breakdown statement.<br/>The code specifying the contractual language for this specification query.<br/>
+Comments: <br/>The code specifying the contractual language for this work item quantity analysis.<br/>The code specifying the contractual language for this basic work item.<br/>The code specifying the contractual language for this work item complex description.<br/>The code specifying the contractual language for this grouped work item.<br/>The code specifying the contractual language for this work item dimension.<br/>The code specifying the contractual language for this specification response.<br/>The code specifying the contractual language for this specification query.<br/>The code specifying the contractual language for this valuation breakdown statement.<br/>
 
 Domains: 
 
@@ -15227,7 +15227,7 @@ Domains:
 
 Type: rdf:Property
 
-Comments: <br/>The consumption report document, at header level, referenced for this trade delivery.<br/>The consumption report document, at line level, referenced from this trade delivery.<br/>
+Comments: <br/>The consumption report document, at line level, referenced from this trade delivery.<br/>The consumption report document, at header level, referenced for this trade delivery.<br/>
 
 Domains: 
 
@@ -15404,7 +15404,7 @@ Domains:
 
 Type: rdf:Property
 
-Comments: <br/>A code specifying the condition of this supply chain packaging.<br/>The code specifying the condition for this recorded status.<br/>
+Comments: <br/>The code specifying the condition for this recorded status.<br/>A code specifying the condition of this supply chain packaging.<br/>
 
 Domains: 
 
@@ -15662,7 +15662,7 @@ Domains:
 
 Type: rdf:Property
 
-Comments: <br/>The number of packages within this supply chain consignment.<br/>The number of packages in this logistics transport movement.<br/>The package quantity for this supply chain consignment item.<br/>The number of packages in this subordinate line trade delivery.<br/>The number of packages, at line level, in this trade delivery.<br/>
+Comments: <br/>The number of packages within this supply chain consignment.<br/>The number of packages in this logistics transport movement.<br/>The package quantity for this supply chain consignment item.<br/>The number of packages, at line level, in this trade delivery.<br/>The number of packages in this subordinate line trade delivery.<br/>
 
 Domains: 
 
@@ -15709,16 +15709,16 @@ Domains:
 
 Type: rdf:Property
 
-Comments: <br/>The geographical object characteristic associated with this geographical multi-surface.<br/>The geographical object characteristic associated with this specified polygon.<br/>The geographical object characteristic associated with this specified circle.<br/>The geographical object characteristic associated with this geographical surface.<br/>The geographical object characteristic associated with this geographical multi-curve.<br/>The geographical object characteristic associated with this geographical grid.<br/>The geographical object characteristic associated with this linear ring.<br/>The geographical object characteristic associated with this geographical multi-point.<br/>The geographical object characteristic associated with this geographical point.<br/>The geographical object characteristic associated with this geographical line.<br/>
+Comments: <br/>The geographical object characteristic associated with this geographical multi-surface.<br/>The geographical object characteristic associated with this specified polygon.<br/>The geographical object characteristic associated with this specified circle.<br/>The geographical object characteristic associated with this geographical surface.<br/>The geographical object characteristic associated with this geographical multi-curve.<br/>The geographical object characteristic associated with this linear ring.<br/>The geographical object characteristic associated with this geographical grid.<br/>The geographical object characteristic associated with this geographical multi-point.<br/>The geographical object characteristic associated with this geographical point.<br/>The geographical object characteristic associated with this geographical line.<br/>
 
 Domains: 
 
 [edi3:GeographicalPoint](#GeographicalPoint)
 [edi3:Circle](#Circle)
 [edi3:GeographicalMultiCurve](#GeographicalMultiCurve)
-[edi3:Polygon](#Polygon)
-[edi3:LinearRing](#LinearRing)
 [edi3:GeographicalSurface](#GeographicalSurface)
+[edi3:LinearRing](#LinearRing)
+[edi3:Polygon](#Polygon)
 [edi3:GeographicalMultiSurface](#GeographicalMultiSurface)
 [edi3:GeographicalMultiPoint](#GeographicalMultiPoint)
 [edi3:GeographicalGrid](#GeographicalGrid)
@@ -15852,7 +15852,7 @@ Domains:
 
 Type: rdf:Property
 
-Comments: <br/>The sequence number for this supply chain consignment item.<br/>The sequence number of this logistics status, such as within a status report.<br/>A sequence number for this supply chain consignment.<br/>The sequence number of this logistics package.<br/>A sequence number for this stores inventory item.<br/>The sequence number differentiating this logistics transport means from others.<br/>The sequence number for this referenced supply chain consignment.<br/>The sequence number of this referenced logistics package.<br/>A sequence number for this specified period.<br/>A sequence number for this supply chain trade line item.<br/>The sequence number for this referenced supply chain consignment item.<br/>The sequence number for applying this trade allowance charge.<br/>A sequence number for these specified personal effects.<br/>The sequence number differentiating this piece of logistics transport equipment from others in a set of transport equipment.<br/>
+Comments: <br/>The sequence number for this supply chain consignment item.<br/>The sequence number of this logistics status, such as within a status report.<br/>The sequence number of this logistics package.<br/>A sequence number for this supply chain consignment.<br/>A sequence number for this stores inventory item.<br/>The sequence number differentiating this logistics transport means from others.<br/>The sequence number for this referenced supply chain consignment.<br/>The sequence number of this referenced logistics package.<br/>A sequence number for this specified period.<br/>A sequence number for this supply chain trade line item.<br/>The sequence number for this referenced supply chain consignment item.<br/>The sequence number for applying this trade allowance charge.<br/>A sequence number for these specified personal effects.<br/>The sequence number differentiating this piece of logistics transport equipment from others in a set of transport equipment.<br/>
 
 Domains: 
 
@@ -16174,7 +16174,7 @@ Domains:
 
 Type: rdf:Property
 
-Comments: <br/>Handling instructions, at header level, specified for this trade delivery.<br/>Handling instructions specified for this logistics means of transport.<br/>Handling instructions specified for this logistics transport movement.<br/>Handling instructions, at line level, specified for this trade delivery.<br/>
+Comments: <br/>Handling instructions, at header level, specified for this trade delivery.<br/>Handling instructions specified for this logistics means of transport.<br/>Handling instructions, at line level, specified for this trade delivery.<br/>Handling instructions specified for this logistics transport movement.<br/>
 
 Domains: 
 
@@ -16413,8 +16413,8 @@ Comments: <br/>The code specifying the season for this specified period.<br/>A c
 
 Domains: 
 
-[edi3:Product](#Product)
 [edi3:Period](#Period)
+[edi3:Product](#Product)
 
 
 <h1 id="DriversLicenceIdentificationIdentifier">DriversLicenceIdentificationIdentifier</h1>
@@ -16499,7 +16499,7 @@ Domains:
 
 Type: rdf:Property
 
-Comments: <br/>A signatory authentication for this referenced document.<br/>A signatory document authentication for this exchanged document.<br/>
+Comments: <br/>A signatory document authentication for this exchanged document.<br/>A signatory authentication for this referenced document.<br/>
 
 Domains: 
 
@@ -17459,7 +17459,7 @@ Domains:
 
 Type: rdf:Property
 
-Comments: <br/>The number of product units in this subordinate line trade delivery.<br/>The number of product units, at line level, in this trade delivery.<br/>
+Comments: <br/>The number of product units, at line level, in this trade delivery.<br/>The number of product units in this subordinate line trade delivery.<br/>
 
 Domains: 
 
@@ -18091,23 +18091,23 @@ Domains:
 
 Type: rdf:Property
 
-Comments: <br/>The unique identifier for this supply chain trade line item.<br/>A unique identifier for this subordinate trade line item.<br/>The unique identifier for this branch of a financial institution.<br/>An identifier of this referenced transport service.<br/>The identifier for this referenced logistics package.<br/>An identifier of this referenced transport means, such as the International Maritime Organization number for a vessel.<br/>The unique identifier of this acknowledgement document.<br/>A unique identifier for this logistics related location, such as a United Nations Location Code (UNLOCODE) or GS1 Global Location Number (GLN).<br/>The identifier for this product certificate.<br/>An identifier for this trade settlement payment means.<br/>The unique identifier for this specification response.<br/>A unique identifier for this trade address.<br/>The unique identifier of this exchanged document.<br/>A unique identifier for this supply chain trade transaction.<br/>The identifier for this specified geographical feature.<br/>The identifier of this operational parameter.<br/>The unique identifier for this transport event.<br/>The identifier for this production of goods.<br/>The unique identifier for this trade country sub-division.<br/>An identifier for this transport service location, such as a United Nations Location Code (UNLOCODE) or GS1 Global Location Number (GLN).<br/>A unique identifier for this note.<br/>An identifier for this monitoring IOT device.<br/>A unique identifier of this piece of attached transport equipment.<br/>The unique identifier for this supply chain event.<br/>The unique identifier of this specified period.<br/>The identifier for this specified marketplace.<br/>The unique identifier for this location used or referenced in trade.<br/>The unique identifier for this logistics package.<br/>The unique identifier for this requesting party.<br/>An identifier for this line trade agreement.<br/>The unique identifier for this document version.<br/>A unique identifier of this location party.<br/>The unique identifier for this transport person.<br/>A unique identifier for this logistics seal.<br/>An identifier for this government registration.<br/>An identifier of this logistics means of transport, such as the International Maritime Organization number of a vessel.<br/>A unique identifier for this supply chain consignment item.<br/>The unique identifier for this valuation breakdown statement.<br/>The identifier of this label section.<br/>The unique identifier for this employer identity.<br/>The unique identifier for this geographical coordinate.<br/>A unique identifier for this legal registration.<br/>The identifier, at header level, for this trade delivery.<br/>The unique identifier for this trade accounting account.<br/>The unique identifier for this tax registration.<br/>A unique identifier for this referenced supply chain consignment.<br/>The unique identifier for this specification query.<br/>A unique identifier for this product characteristic.<br/>A unique identifier for this supply chain consignment.<br/>An identifier of this supply chain schedule.<br/>The unique identifier for this trade product feature.<br/>The identifier of this control setting parameter.<br/>The unique identifier for this basic work item.<br/>An identifier of this monitoring sensor.<br/>The unique identifier for this logistics transport movement, such as a voyage number, flight number, or trip number.<br/>The unique identifier of this spatial dimension.<br/>An identifier of this OEM equipment.<br/>The identifier for this specified observation.<br/>The unique identifier of this piece of logistics transport equipment.<br/>The identifier for this calibrated measurement.<br/>The identifier for this payment balance out.<br/>An identifier for this header trade agreement.<br/>A unique identifier for this document authentication.<br/>The unique identifier of this document context parameter.<br/>The unique identifier for this subordinate location, such as a United Nations Location Code (UNLOCODE) or GS1 Global Location Number (GLN).<br/>The unique identifier of this logistics label.<br/>An identifier for this exchanged declaration.<br/>An identifier for this certified accreditation.<br/>The identifier of this handling instructions.<br/>The unique identifier for this work item dimension.<br/>The unique identifier of this procuring project.<br/>An identifier for this geographical grid.<br/>The unique identifier for this trade geopolitical region.<br/>The unique identifier for this work item group.<br/>The identifier for this geographical object characteristic.<br/>The identifier for this communication event.<br/>The unique identifier of this transport route.<br/>A unique identifier for this referenced product.<br/>The unique identifier of this document clause.<br/>The unique identifier for this subordinate of a subordinate location, such as a United Nations Location Code (UNLOCODE) or GS1 Global Location Number (GLN).<br/>A unique identifier for this legally set up organization.<br/>The identifier of this document line document.<br/>The identifier of this trade workflow object.<br/>The identifier of this section segment.<br/>A unique identifier for this specified binary file.<br/>The identifier for this geographical coordinate source system.<br/>A unique identifier of this trade party.<br/>A proprietary identifier.<br/>An identifier for this trade product group.<br/>The unique identifier for this trade allowance charge.<br/>The unique identifier for this referenced piece of logistics transport equipment, such as a number, mark or name.<br/>The unique identifier of this transport service.<br/>A unique identifier for this referenced document.<br/>The identifier of this referenced standard.<br/>The unique identifier, commonly known as the card number, of this trade settlement financial card.<br/>An identifier, at line level, for this trade delivery.<br/>A unique identifier for this trade product.<br/>The identifier for this header balance out.<br/>The unique identifier for this trade contact.<br/>The unique identifier for this work item quantity analysis.<br/>A unique number, mark or name which identifies this associated piece of transport equipment.<br/>
+Comments: <br/>A unique identifier for this subordinate trade line item.<br/>The unique identifier for this supply chain trade line item.<br/>The unique identifier for this branch of a financial institution.<br/>An identifier of this referenced transport service.<br/>The identifier for this referenced logistics package.<br/>An identifier of this referenced transport means, such as the International Maritime Organization number for a vessel.<br/>The unique identifier of this acknowledgement document.<br/>A unique identifier for this logistics related location, such as a United Nations Location Code (UNLOCODE) or GS1 Global Location Number (GLN).<br/>The identifier for this product certificate.<br/>An identifier for this trade settlement payment means.<br/>The unique identifier for this specification response.<br/>A unique identifier for this trade address.<br/>The unique identifier of this exchanged document.<br/>A unique identifier for this supply chain trade transaction.<br/>The identifier for this specified geographical feature.<br/>The identifier of this operational parameter.<br/>The unique identifier for this transport event.<br/>The identifier for this production of goods.<br/>An identifier for this transport service location, such as a United Nations Location Code (UNLOCODE) or GS1 Global Location Number (GLN).<br/>The unique identifier for this trade country sub-division.<br/>A unique identifier for this note.<br/>An identifier for this monitoring IOT device.<br/>A unique identifier of this piece of attached transport equipment.<br/>The unique identifier for this supply chain event.<br/>The unique identifier of this specified period.<br/>The unique identifier for this location used or referenced in trade.<br/>The identifier for this specified marketplace.<br/>The unique identifier for this logistics package.<br/>An identifier for this line trade agreement.<br/>The unique identifier for this requesting party.<br/>The unique identifier for this document version.<br/>A unique identifier of this location party.<br/>The unique identifier for this transport person.<br/>A unique identifier for this logistics seal.<br/>An identifier for this government registration.<br/>An identifier of this logistics means of transport, such as the International Maritime Organization number of a vessel.<br/>A unique identifier for this supply chain consignment item.<br/>The unique identifier for this valuation breakdown statement.<br/>The identifier of this label section.<br/>The unique identifier for this employer identity.<br/>The unique identifier for this geographical coordinate.<br/>The identifier, at header level, for this trade delivery.<br/>A unique identifier for this legal registration.<br/>The unique identifier for this trade accounting account.<br/>The unique identifier for this tax registration.<br/>A unique identifier for this referenced supply chain consignment.<br/>The unique identifier for this specification query.<br/>A unique identifier for this product characteristic.<br/>A unique identifier for this supply chain consignment.<br/>An identifier of this supply chain schedule.<br/>The unique identifier for this trade product feature.<br/>The identifier of this control setting parameter.<br/>The unique identifier for this basic work item.<br/>The unique identifier for this logistics transport movement, such as a voyage number, flight number, or trip number.<br/>An identifier of this monitoring sensor.<br/>The unique identifier of this spatial dimension.<br/>An identifier of this OEM equipment.<br/>The identifier for this specified observation.<br/>The identifier for this calibrated measurement.<br/>The unique identifier of this piece of logistics transport equipment.<br/>The identifier for this payment balance out.<br/>An identifier for this header trade agreement.<br/>A unique identifier for this document authentication.<br/>The unique identifier of this document context parameter.<br/>The unique identifier for this subordinate location, such as a United Nations Location Code (UNLOCODE) or GS1 Global Location Number (GLN).<br/>The unique identifier of this logistics label.<br/>An identifier for this exchanged declaration.<br/>An identifier for this certified accreditation.<br/>The identifier of this handling instructions.<br/>The unique identifier for this work item dimension.<br/>An identifier for this geographical grid.<br/>The unique identifier of this procuring project.<br/>The unique identifier for this trade geopolitical region.<br/>The unique identifier for this work item group.<br/>The identifier for this geographical object characteristic.<br/>A unique identifier for this referenced product.<br/>The unique identifier of this transport route.<br/>The identifier for this communication event.<br/>A unique identifier for this legally set up organization.<br/>The unique identifier for this subordinate of a subordinate location, such as a United Nations Location Code (UNLOCODE) or GS1 Global Location Number (GLN).<br/>The unique identifier of this document clause.<br/>The identifier of this document line document.<br/>The identifier of this trade workflow object.<br/>The identifier of this section segment.<br/>A unique identifier for this specified binary file.<br/>The identifier for this geographical coordinate source system.<br/>A unique identifier of this trade party.<br/>A proprietary identifier.<br/>An identifier for this trade product group.<br/>The unique identifier for this trade allowance charge.<br/>The unique identifier for this referenced piece of logistics transport equipment, such as a number, mark or name.<br/>The unique identifier of this transport service.<br/>A unique identifier for this referenced document.<br/>The identifier of this referenced standard.<br/>The unique identifier, commonly known as the card number, of this trade settlement financial card.<br/>An identifier, at line level, for this trade delivery.<br/>A unique identifier for this trade product.<br/>The identifier for this header balance out.<br/>The unique identifier for this trade contact.<br/>The unique identifier for this work item quantity analysis.<br/>A unique number, mark or name which identifies this associated piece of transport equipment.<br/>
 
 Domains: 
 
 [edi3:ProductGroup](#ProductGroup)
 [edi3:Address](#Address)
 [edi3:Query](#Query)
-[edi3:AllowanceCharge](#AllowanceCharge)
 [edi3:Label](#Label)
+[edi3:AllowanceCharge](#AllowanceCharge)
 [edi3:Product](#Product)
 [edi3:Document](#Document)
-[edi3:WorkItem](#WorkItem)
 [edi3:Feature](#Feature)
+[edi3:WorkItem](#WorkItem)
 [edi3:BreakdownStatement](#BreakdownStatement)
 [edi3:TradeTransaction](#TradeTransaction)
-[edi3:GeographicalObjectCharacteristic](#GeographicalObjectCharacteristic)
 [edi3:Version](#Version)
+[edi3:GeographicalObjectCharacteristic](#GeographicalObjectCharacteristic)
 [edi3:Registration](#Registration)
 [edi3:GeographicalCoordinate](#GeographicalCoordinate)
 [edi3:Production](#Production)
@@ -18130,9 +18130,9 @@ Domains:
 [edi3:Seal](#Seal)
 [edi3:Package](#Package)
 [edi3:Person](#Person)
-[edi3:IOTDevice](#IOTDevice)
-[edi3:Sensor](#Sensor)
 [edi3:Certificate](#Certificate)
+[edi3:Sensor](#Sensor)
+[edi3:IOTDevice](#IOTDevice)
 [edi3:Measurement](#Measurement)
 [edi3:Organization](#Organization)
 [edi3:TransportEquipment](#TransportEquipment)
@@ -18150,22 +18150,22 @@ Domains:
 [edi3:GeopoliticalRegion](#GeopoliticalRegion)
 [edi3:Service](#Service)
 [edi3:Dimension](#Dimension)
-[edi3:TransportMeans](#TransportMeans)
 [edi3:BinaryFile](#BinaryFile)
+[edi3:TransportMeans](#TransportMeans)
 [edi3:Section](#Section)
-[edi3:Contact](#Contact)
 [edi3:WorkflowObject](#WorkflowObject)
+[edi3:Contact](#Contact)
 [edi3:Response](#Response)
 [edi3:Marketplace](#Marketplace)
 [edi3:Equipment](#Equipment)
 [edi3:Authentication](#Authentication)
 [edi3:Schedule](#Schedule)
-[edi3:Event](#Event)
 [edi3:Parameter](#Parameter)
+[edi3:Event](#Event)
 [edi3:Clause](#Clause)
+[edi3:TradeAgreement](#TradeAgreement)
 [edi3:GeographicalGrid](#GeographicalGrid)
 [edi3:Location](#Location)
-[edi3:TradeAgreement](#TradeAgreement)
 
 
 <h1 id="ValueCode">ValueCode</h1>
@@ -18810,7 +18810,7 @@ Domains:
 
 Type: rdf:Property
 
-Comments: <br/>The Uniform Resource Identifier (URI) communication for this transport service, such as its website or email address.<br/>Uniform Resource Identifier (URI) communication information for this location party, such as a web or email address.<br/>A Uniform Resource Identifier (URI) communication for this trade party, such as a web or email address.<br/>
+Comments: <br/>Uniform Resource Identifier (URI) communication information for this location party, such as a web or email address.<br/>The Uniform Resource Identifier (URI) communication for this transport service, such as its website or email address.<br/>A Uniform Resource Identifier (URI) communication for this trade party, such as a web or email address.<br/>
 
 Domains: 
 
@@ -18921,7 +18921,7 @@ Domains:
 
 Type: rdf:Property
 
-Comments: <br/>The measure of the gross volume of this piece of referenced logistics transport equipment.<br/>The measure, at line level, of the gross volume of this trade delivery.<br/>The measure of the gross volume of this piece of logistics transport equipment.<br/>A measure of the gross volume, normally calculated by multiplying the maximum length, width and height, of this referenced supply chain consignment.<br/>The measure of the gross volume of this referenced logistics package.<br/>The measure of the gross volume, normally calculated by multiplying the maximum length, width and height dimensions of these transported dangerous goods.<br/>A measure of the gross volume, normally calculated by multiplying the maximum length, width and height of this supply chain consignment.<br/>A measure of the gross volume, normally calculated by multiplying the maximum length, width and height of this supply chain consignment item.<br/>
+Comments: <br/>The measure, at line level, of the gross volume of this trade delivery.<br/>The measure of the gross volume of this piece of referenced logistics transport equipment.<br/>The measure of the gross volume of this piece of logistics transport equipment.<br/>The measure of the gross volume of this referenced logistics package.<br/>A measure of the gross volume, normally calculated by multiplying the maximum length, width and height, of this referenced supply chain consignment.<br/>The measure of the gross volume, normally calculated by multiplying the maximum length, width and height dimensions of these transported dangerous goods.<br/>A measure of the gross volume, normally calculated by multiplying the maximum length, width and height of this supply chain consignment.<br/>A measure of the gross volume, normally calculated by multiplying the maximum length, width and height of this supply chain consignment item.<br/>
 
 Domains: 
 
@@ -19186,12 +19186,12 @@ Domains:
 
 Type: rdf:Property
 
-Comments: <br/>The name, expressed as text, of this referenced transport means, such as the vessel name.<br/>A name, expressed as text, of this academic qualification.<br/>The name, expressed as text, for this requesting party.<br/>A name, expressed as text, for this trade product.<br/>The name, expressed as text, for this branch of a financial institution.<br/>A name, expressed as text, of this legally set up organization.<br/>The name, expressed as text, for this logistics transport movement.<br/>The name, expressed as text, for this specified marketplace.<br/>The name, expressed as text, for this valuation breakdown statement.<br/>The name, expressed as text, of this location used or referenced in trade.<br/>A name, expressed as text, of this applied chemical treatment.<br/>The name, expressed as text, of this operational parameter.<br/>The name, expressed as text, of this trade geopolitical region.<br/>The name, expressed as text, of this procuring project.<br/>A name, expressed as text, of this exchanged document.<br/>The name, expressed as text, of this control setting parameter.<br/>The name, expressed as text, of this trade accounting account.<br/>A name, expressed as text, for this location party.<br/>A name, expressed as text, of this transport service location.<br/>The name, expressed as text, of this specified geographical feature.<br/>The name, expressed as text, of this logistics means of transport.<br/>The name, expressed as text, of this subordinate of a subordinate location.<br/>A name, expressed as text, of this specified period.<br/>A name, expressed as text, for this referenced document.<br/>The name, expressed as text, for this geographical object characteristic.<br/>A name, expressed as text, for this product characteristic condition.<br/>The name, expressed as text, of this document version.<br/>A name, expressed as text, for this keyword.<br/>The name or set of names, expressed as text, by which this transport person is known.<br/>The name, expressed as text, of this transport service.<br/>The name, expressed as text, for this debtor financial institution.<br/>A name, expressed as text, of this logistics related location.<br/>The name, expressed as text, for this trade product group.<br/>The name, expressed as text, of this specified direct position list.<br/>A name, expressed as text, of this trade country sub-division.<br/>The name, expressed as text, of this authoritative signatory person.<br/>A name, expressed as text, for this referenced product.<br/>The name, expressed as text, of this subordinate location.<br/>The name, expressed as text, of the reference for this specified direct position.<br/>The name, expressed as text, for this creditor financial institution.<br/>The name, expressed as text, for this trade party.<br/>The name, expressed as text, for this acknowledgement document.<br/>A name, expressed as text, of this trade country.<br/>A name, expressed as text, for this trade product feature.<br/>
+Comments: <br/>The name, expressed as text, of this referenced transport means, such as the vessel name.<br/>A name, expressed as text, for this trade product.<br/>The name, expressed as text, for this requesting party.<br/>A name, expressed as text, of this academic qualification.<br/>The name, expressed as text, for this branch of a financial institution.<br/>A name, expressed as text, of this legally set up organization.<br/>The name, expressed as text, for this logistics transport movement.<br/>The name, expressed as text, for this valuation breakdown statement.<br/>The name, expressed as text, for this specified marketplace.<br/>A name, expressed as text, of this applied chemical treatment.<br/>The name, expressed as text, of this location used or referenced in trade.<br/>The name, expressed as text, of this operational parameter.<br/>The name, expressed as text, of this trade geopolitical region.<br/>The name, expressed as text, of this procuring project.<br/>A name, expressed as text, of this exchanged document.<br/>The name, expressed as text, of this control setting parameter.<br/>The name, expressed as text, of this trade accounting account.<br/>A name, expressed as text, of this transport service location.<br/>A name, expressed as text, for this location party.<br/>The name, expressed as text, of this specified geographical feature.<br/>The name, expressed as text, of this logistics means of transport.<br/>The name, expressed as text, of this subordinate of a subordinate location.<br/>A name, expressed as text, of this specified period.<br/>A name, expressed as text, for this referenced document.<br/>The name, expressed as text, for this geographical object characteristic.<br/>A name, expressed as text, for this product characteristic condition.<br/>The name, expressed as text, of this document version.<br/>A name, expressed as text, for this keyword.<br/>The name or set of names, expressed as text, by which this transport person is known.<br/>The name, expressed as text, for this debtor financial institution.<br/>A name, expressed as text, of this logistics related location.<br/>The name, expressed as text, of this transport service.<br/>The name, expressed as text, for this trade product group.<br/>The name, expressed as text, of this specified direct position list.<br/>A name, expressed as text, of this trade country sub-division.<br/>The name, expressed as text, of this authoritative signatory person.<br/>A name, expressed as text, for this referenced product.<br/>The name, expressed as text, of this subordinate location.<br/>The name, expressed as text, of the reference for this specified direct position.<br/>The name, expressed as text, for this creditor financial institution.<br/>The name, expressed as text, for this acknowledgement document.<br/>The name, expressed as text, for this trade party.<br/>A name, expressed as text, of this trade country.<br/>A name, expressed as text, for this trade product feature.<br/>
 
 Domains: 
 
-[edi3:DirectPosition](#DirectPosition)
 [edi3:ProductGroup](#ProductGroup)
+[edi3:DirectPosition](#DirectPosition)
 [edi3:Organization](#Organization)
 [edi3:Product](#Product)
 [edi3:GeographicalFeature](#GeographicalFeature)
@@ -19200,24 +19200,24 @@ Domains:
 [edi3:BreakdownStatement](#BreakdownStatement)
 [edi3:ChemicalTreatment](#ChemicalTreatment)
 [edi3:Party](#Party)
-[edi3:GeographicalObjectCharacteristic](#GeographicalObjectCharacteristic)
 [edi3:Version](#Version)
+[edi3:GeographicalObjectCharacteristic](#GeographicalObjectCharacteristic)
 [edi3:FinancialInstitution](#FinancialInstitution)
 [edi3:TransportMovement](#TransportMovement)
 [edi3:GeopoliticalRegion](#GeopoliticalRegion)
-[edi3:Condition](#Condition)
 [edi3:CountrySubDivision](#CountrySubDivision)
+[edi3:Condition](#Condition)
 [edi3:Keyword](#Keyword)
-[edi3:Service](#Service)
 [edi3:Period](#Period)
+[edi3:Service](#Service)
 [edi3:AccountingAccount](#AccountingAccount)
 [edi3:TransportMeans](#TransportMeans)
 [edi3:Project](#Project)
-[edi3:Qualification](#Qualification)
 [edi3:Marketplace](#Marketplace)
+[edi3:Qualification](#Qualification)
 [edi3:DirectPositionList](#DirectPositionList)
-[edi3:Parameter](#Parameter)
 [edi3:Country](#Country)
+[edi3:Parameter](#Parameter)
 [edi3:Person](#Person)
 [edi3:Location](#Location)
 
@@ -19438,28 +19438,28 @@ Domains:
 
 Type: rdf:Property
 
-Comments: <br/>A country of origin for this supply chain consignment.<br/>A country of origin for this trade product.<br/>The country of origin where this supply chain consignment item has been produced.<br/>
+Comments: <br/>A country of origin for this trade product.<br/>A country of origin for this supply chain consignment.<br/>The country of origin where this supply chain consignment item has been produced.<br/>
 
 Domains: 
 
 [edi3:ConsignmentItem](#ConsignmentItem)
-[edi3:Consignment](#Consignment)
 [edi3:Product](#Product)
+[edi3:Consignment](#Consignment)
 
 
 <h1 id="AssociatedLogisticsLocation">AssociatedLogisticsLocation</h1>
 
 Type: rdf:Property
 
-Comments: <br/>A logistics location associated with this specified geographical point.<br/>A logistics location associated with this specified geographical line.<br/>A logistics location associated with this specified geographical grid.<br/>A logistics location associated with this specified circle.<br/>A logistics location associated with this specified polygon.<br/>
+Comments: <br/>A logistics location associated with this specified geographical point.<br/>A logistics location associated with this specified geographical grid.<br/>A logistics location associated with this specified geographical line.<br/>A logistics location associated with this specified circle.<br/>A logistics location associated with this specified polygon.<br/>
 
 Domains: 
 
 [edi3:GeographicalPoint](#GeographicalPoint)
 [edi3:Circle](#Circle)
 [edi3:Polygon](#Polygon)
-[edi3:GeographicalLine](#GeographicalLine)
 [edi3:GeographicalGrid](#GeographicalGrid)
+[edi3:GeographicalLine](#GeographicalLine)
 
 
 <h1 id="RadiusMeasure">RadiusMeasure</h1>
@@ -19625,7 +19625,7 @@ Domains:
 
 Type: rdf:Property
 
-Comments: <br/>The party to whom this referenced supply chain consignment will be or has been delivered.<br/>The party to whom this supply chain consignment item will be or has been delivered.<br/>The party to whom this supply chain consignment will be, or has been, delivered.<br/>
+Comments: <br/>The party to whom this supply chain consignment item will be or has been delivered.<br/>The party to whom this referenced supply chain consignment will be or has been delivered.<br/>The party to whom this supply chain consignment will be, or has been, delivered.<br/>
 
 Domains: 
 
@@ -20175,8 +20175,8 @@ Comments: <br/>A product certificate granted for this monitoring IOT device.<br/
 
 Domains: 
 
-[edi3:Sensor](#Sensor)
 [edi3:IOTDevice](#IOTDevice)
+[edi3:Sensor](#Sensor)
 
 
 <h1 id="PaymentIdentifier">PaymentIdentifier</h1>
@@ -20627,7 +20627,7 @@ Domains:
 
 Type: rdf:Property
 
-Comments: <br/>A financial card specified in this header trade settlement.<br/>A financial card specified in this line trade settlement.<br/>
+Comments: <br/>A financial card specified in this line trade settlement.<br/>A financial card specified in this header trade settlement.<br/>
 
 Domains: 
 
@@ -20780,8 +20780,8 @@ Domains:
 [edi3:Query](#Query)
 [edi3:Note](#Note)
 [edi3:ComplexDescription](#ComplexDescription)
-[edi3:Marking](#Marking)
 [edi3:Clause](#Clause)
+[edi3:Marking](#Marking)
 
 
 <h1 id="SpecifiedTransactionIdentifier">SpecifiedTransactionIdentifier</h1>
@@ -23798,7 +23798,7 @@ Domains:
 
 Type: rdf:Property
 
-Comments: <br/>A monetary value of the total of all line amounts, excluding line level allowances and charges and taxes, being reported in this trade settlement header monetary summation.<br/>A monetary value of the total of all line amounts, excluding line level allowances and charges and taxes, being reported in this trade settlement line monetary summation.<br/>
+Comments: <br/>A monetary value of the total of all line amounts, excluding line level allowances and charges and taxes, being reported in this trade settlement line monetary summation.<br/>A monetary value of the total of all line amounts, excluding line level allowances and charges and taxes, being reported in this trade settlement header monetary summation.<br/>
 
 Domains: 
 
@@ -23820,7 +23820,7 @@ Domains:
 
 Type: rdf:Property
 
-Comments: <br/>A code specifying a reason for this document status.<br/>The code specifying the reason for this payment balance out.<br/>A code specifying a reason for this financial adjustment.<br/>The code specifying a reason for this communication event.<br/>The code specifying the reason for this validation status.<br/>The code specifying the reason for this applied allowance charge.<br/>The code specifying the reason for this cancellation status.<br/>The code specifying the reason for this header balance out.<br/>
+Comments: <br/>A code specifying a reason for this document status.<br/>A code specifying a reason for this financial adjustment.<br/>The code specifying the reason for this payment balance out.<br/>The code specifying a reason for this communication event.<br/>The code specifying the reason for this validation status.<br/>The code specifying the reason for this applied allowance charge.<br/>The code specifying the reason for this cancellation status.<br/>The code specifying the reason for this header balance out.<br/>
 
 Domains: 
 
@@ -23879,7 +23879,7 @@ Domains:
 
 Type: rdf:Property
 
-Comments: <br/>A note providing information applicable to this supply chain consignment item.<br/>A note providing information applicable to this transport event.<br/>A note providing information applicable to this piece of logistics transport equipment.<br/>A note providing information applicable to this specified observation.<br/>
+Comments: <br/>A note providing information applicable to this supply chain consignment item.<br/>A note providing information applicable to this transport event.<br/>A note providing information applicable to this specified observation.<br/>A note providing information applicable to this piece of logistics transport equipment.<br/>
 
 Domains: 
 
@@ -23915,7 +23915,7 @@ Domains:
 
 Type: rdf:Property
 
-Comments: <br/>The measure of the minimum value for this specified range.<br/>The measure of the minimum value of this instructed temperature.<br/>
+Comments: <br/>The measure of the minimum value of this instructed temperature.<br/>The measure of the minimum value for this specified range.<br/>
 
 Domains: 
 
@@ -24050,7 +24050,7 @@ Domains:
 
 Type: rdf:Property
 
-Comments: <br/>The indication whether or not this operational parameter is changeable.<br/>The indication whether or not this control setting parameter is changeable.<br/>
+Comments: <br/>The indication whether or not this control setting parameter is changeable.<br/>The indication whether or not this operational parameter is changeable.<br/>
 
 Domains: 
 
@@ -24150,7 +24150,7 @@ Domains:
 
 Type: rdf:Property
 
-Comments: <br/>A bonded warehouse storage event for this supply chain consignment.<br/>A bonded warehouse storage event specifying when and where this piece of logistics transport equipment will be, or has been, stored.<br/>
+Comments: <br/>A bonded warehouse storage event specifying when and where this piece of logistics transport equipment will be, or has been, stored.<br/>A bonded warehouse storage event for this supply chain consignment.<br/>
 
 Domains: 
 
