@@ -2015,11 +2015,11 @@ Type: rdf:Class
 
 Cefact Element Metadata: 
 
-@id | <span id="Trade_Address.Details">cefact:Trade_Address.Details</span>
+@id | <span id="Birth_Address.Details">cefact:Birth_Address.Details</span>
 @type | edi3:AggregateBIE
-edi3:cefactUNId | cefact:UN01004533
-rdfs:comment | The location at which a particular trade related organization or person may be found or reached.
-edi3:cefactBusinessProcess | Buy-Ship-Pay
+edi3:cefactUNId | cefact:UN01003169
+rdfs:comment | The place of birth.
+edi3:cefactBusinessProcess | Customer to bank payment initiation
 
 @id | <span id="FinancialInstitution_Address.Details">cefact:FinancialInstitution_Address.Details</span>
 @type | edi3:AggregateBIE
@@ -2027,11 +2027,11 @@ edi3:cefactUNId | cefact:UN01003173
 rdfs:comment | The location at which a financial institution may be found or reached.
 edi3:cefactBusinessProcess | Customer to bank payment initiation
 
-@id | <span id="Birth_Address.Details">cefact:Birth_Address.Details</span>
+@id | <span id="Trade_Address.Details">cefact:Trade_Address.Details</span>
 @type | edi3:AggregateBIE
-edi3:cefactUNId | cefact:UN01003169
-rdfs:comment | The place of birth.
-edi3:cefactBusinessProcess | Customer to bank payment initiation
+edi3:cefactUNId | cefact:UN01004533
+rdfs:comment | The location at which a particular trade related organization or person may be found or reached.
+edi3:cefactBusinessProcess | Buy-Ship-Pay
 
 Range for: 
 
@@ -2075,17 +2075,17 @@ Type: rdf:Class
 
 Cefact Element Metadata: 
 
-@id | <span id="Financial_Adjustment.Details">cefact:Financial_Adjustment.Details</span>
-@type | edi3:AggregateBIE
-edi3:cefactUNId | cefact:UN01003594
-rdfs:comment | A correction or modification to reflect actual financial conditions.
-edi3:cefactBusinessProcess | In All Contexts
-
 @id | <span id="Delivery_Adjustment.Details">cefact:Delivery_Adjustment.Details</span>
 @type | edi3:AggregateBIE
 edi3:cefactUNId | cefact:UN01003498
 rdfs:comment | A correction or modification to reflect actual delivery conditions.
 edi3:cefactBusinessProcess | Buy-Ship-Pay
+
+@id | <span id="Financial_Adjustment.Details">cefact:Financial_Adjustment.Details</span>
+@type | edi3:AggregateBIE
+edi3:cefactUNId | cefact:UN01003594
+rdfs:comment | A correction or modification to reflect actual financial conditions.
+edi3:cefactBusinessProcess | In All Contexts
 
 Range for: 
 
@@ -2213,16 +2213,16 @@ Type: rdf:Class
 
 Cefact Element Metadata: 
 
-@id | <span id="Payment_BalanceOut.Details">cefact:Payment_BalanceOut.Details</span>
-@type | edi3:AggregateBIE
-edi3:cefactUNId | cefact:UN01011829
-rdfs:comment | Offset information to ensure that debits and credits are equal for a transaction.
-edi3:cefactBusinessProcess | Buy-Ship-Pay
-
 @id | <span id="Header_BalanceOut.Details">cefact:Header_BalanceOut.Details</span>
 @type | edi3:AggregateBIE
 edi3:cefactUNId | cefact:UN01011539
 rdfs:comment | Offset header information to ensure that debits and credits are equal for a transaction.
+edi3:cefactBusinessProcess | Buy-Ship-Pay
+
+@id | <span id="Payment_BalanceOut.Details">cefact:Payment_BalanceOut.Details</span>
+@type | edi3:AggregateBIE
+edi3:cefactUNId | cefact:UN01011829
+rdfs:comment | Offset information to ensure that debits and credits are equal for a transaction.
 edi3:cefactBusinessProcess | Buy-Ship-Pay
 
 Range for: 
@@ -2621,6 +2621,12 @@ Type: rdf:Class
 
 Cefact Element Metadata: 
 
+@id | <span id="Telecommunication_Communication.Details">cefact:Telecommunication_Communication.Details</span>
+@type | edi3:AggregateBIE
+edi3:cefactUNId | cefact:UN01002043
+rdfs:comment | Information necessary to establish an electronic telecommunication connection for the purpose of a telephone or facsimile exchange.
+edi3:cefactBusinessProcess | Project Management
+
 @id | <span id="Universal_Communication.Details">cefact:Universal_Communication.Details</span>
 @type | edi3:AggregateBIE
 edi3:cefactUNId | cefact:UN01001252
@@ -2632,12 +2638,6 @@ edi3:cefactBusinessProcess | In All Contexts
 edi3:cefactUNId | cefact:UN01002838
 rdfs:comment | An address for the delivery of electronic mail.
 edi3:cefactBusinessProcess | In All Contexts
-
-@id | <span id="Telecommunication_Communication.Details">cefact:Telecommunication_Communication.Details</span>
-@type | edi3:AggregateBIE
-edi3:cefactUNId | cefact:UN01002043
-rdfs:comment | Information necessary to establish an electronic telecommunication connection for the purpose of a telephone or facsimile exchange.
-edi3:cefactBusinessProcess | Project Management
 
 Range for: 
 
@@ -2921,16 +2921,16 @@ Type: rdf:Class
 
 Cefact Element Metadata: 
 
-@id | <span id="SupplyChain_ConsignmentItem.Details">cefact:SupplyChain_ConsignmentItem.Details</span>
-@type | edi3:AggregateBIE
-edi3:cefactUNId | cefact:UN01004103
-rdfs:comment | An item within a supply chain consignment of goods separately identified for transport and customs purposes.
-edi3:cefactBusinessProcess | Buy-Ship-Pay
-
 @id | <span id="Referenced_SupplyChain_ConsignmentItem.Details">cefact:Referenced_SupplyChain_ConsignmentItem.Details</span>
 @type | edi3:AggregateBIE
 edi3:cefactUNId | cefact:UN01004035
 rdfs:comment | A reference to an item within a supply chain consignment of goods separately identified for transport and customs purposes.
+edi3:cefactBusinessProcess | Buy-Ship-Pay
+
+@id | <span id="SupplyChain_ConsignmentItem.Details">cefact:SupplyChain_ConsignmentItem.Details</span>
+@type | edi3:AggregateBIE
+edi3:cefactUNId | cefact:UN01004103
+rdfs:comment | An item within a supply chain consignment of goods separately identified for transport and customs purposes.
 edi3:cefactBusinessProcess | Buy-Ship-Pay
 
 Range for: 
@@ -3437,16 +3437,16 @@ Type: rdf:Class
 
 Cefact Element Metadata: 
 
-@id | <span id="Spatial_Dimension.Details">cefact:Spatial_Dimension.Details</span>
-@type | edi3:AggregateBIE
-edi3:cefactUNId | cefact:UN01004075
-rdfs:comment | A measure of spatial extent of an object, such as the length, breadth or height of a shipping container.
-edi3:cefactBusinessProcess | In All Contexts
-
 @id | <span id="WorkItem_Dimension.Details">cefact:WorkItem_Dimension.Details</span>
 @type | edi3:AggregateBIE
 edi3:cefactUNId | cefact:UN01000056
 rdfs:comment | A measure of spatial extent associated with this work item, such as length, breadth, or height.
+edi3:cefactBusinessProcess | In All Contexts
+
+@id | <span id="Spatial_Dimension.Details">cefact:Spatial_Dimension.Details</span>
+@type | edi3:AggregateBIE
+edi3:cefactUNId | cefact:UN01004075
+rdfs:comment | A measure of spatial extent of an object, such as the length, breadth or height of a shipping container.
 edi3:cefactBusinessProcess | In All Contexts
 
 Range for: 
@@ -3530,36 +3530,6 @@ Type: rdf:Class
 
 Cefact Element Metadata: 
 
-@id | <span id="FinancingRequest_Document.Details">cefact:FinancingRequest_Document.Details</span>
-@type | edi3:AggregateBIE
-edi3:cefactUNId | cefact:UN01013228
-rdfs:comment | The set of characteristics shared by all individual transactions grouped for this financing request document.
-edi3:cefactBusinessProcess | Buy-Ship-Pay
-
-@id | <span id="Exchanged_Document.Details">cefact:Exchanged_Document.Details</span>
-@type | edi3:AggregateBIE
-edi3:cefactUNId | cefact:UN01002487
-rdfs:comment | A collection of data for a piece of written, printed or electronic matter that is exchanged between two or more parties.
-edi3:cefactBusinessProcess | In All Contexts
-
-@id | <span id="FinancingRequestResult_Document.Details">cefact:FinancingRequestResult_Document.Details</span>
-@type | edi3:AggregateBIE
-edi3:cefactUNId | cefact:UN01013224
-rdfs:comment | A collection of data that reports the result of a financing request.
-edi3:cefactBusinessProcess | Buy-Ship-Pay
-
-@id | <span id="Acknowledgement_Document.Details">cefact:Acknowledgement_Document.Details</span>
-@type | edi3:AggregateBIE
-edi3:cefactUNId | cefact:UN01002071
-rdfs:comment | A document exchanged between parties for a business application level acknowledgement of the receipt of information.
-edi3:cefactBusinessProcess | In All Contexts
-
-@id | <span id="DocumentLine_Document.Details">cefact:DocumentLine_Document.Details</span>
-@type | edi3:AggregateBIE
-edi3:cefactUNId | cefact:UN01003513
-rdfs:comment | A collection of data for a line on a piece of written, printed or electronic matter that provides information or evidence.
-edi3:cefactBusinessProcess | In All Contexts
-
 @id | <span id="FinancingSummary_Document.Details">cefact:FinancingSummary_Document.Details</span>
 @type | edi3:AggregateBIE
 edi3:cefactUNId | cefact:UN01013245
@@ -3571,6 +3541,36 @@ edi3:cefactBusinessProcess | Buy-Ship-Pay
 edi3:cefactUNId | cefact:UN01001569
 rdfs:comment | Written, printed or electronic matter that is referenced.
 edi3:cefactBusinessProcess | Trade
+
+@id | <span id="FinancingRequestResult_Document.Details">cefact:FinancingRequestResult_Document.Details</span>
+@type | edi3:AggregateBIE
+edi3:cefactUNId | cefact:UN01013224
+rdfs:comment | A collection of data that reports the result of a financing request.
+edi3:cefactBusinessProcess | Buy-Ship-Pay
+
+@id | <span id="DocumentLine_Document.Details">cefact:DocumentLine_Document.Details</span>
+@type | edi3:AggregateBIE
+edi3:cefactUNId | cefact:UN01003513
+rdfs:comment | A collection of data for a line on a piece of written, printed or electronic matter that provides information or evidence.
+edi3:cefactBusinessProcess | In All Contexts
+
+@id | <span id="Acknowledgement_Document.Details">cefact:Acknowledgement_Document.Details</span>
+@type | edi3:AggregateBIE
+edi3:cefactUNId | cefact:UN01002071
+rdfs:comment | A document exchanged between parties for a business application level acknowledgement of the receipt of information.
+edi3:cefactBusinessProcess | In All Contexts
+
+@id | <span id="FinancingRequest_Document.Details">cefact:FinancingRequest_Document.Details</span>
+@type | edi3:AggregateBIE
+edi3:cefactUNId | cefact:UN01013228
+rdfs:comment | The set of characteristics shared by all individual transactions grouped for this financing request document.
+edi3:cefactBusinessProcess | Buy-Ship-Pay
+
+@id | <span id="Exchanged_Document.Details">cefact:Exchanged_Document.Details</span>
+@type | edi3:AggregateBIE
+edi3:cefactUNId | cefact:UN01002487
+rdfs:comment | A collection of data for a piece of written, printed or electronic matter that is exchanged between two or more parties.
+edi3:cefactBusinessProcess | In All Contexts
 
 Range for: 
 
@@ -3835,6 +3835,12 @@ Type: rdf:Class
 
 Cefact Element Metadata: 
 
+@id | <span id="Transport_Event.Details">cefact:Transport_Event.Details</span>
+@type | edi3:AggregateBIE
+edi3:cefactUNId | cefact:UN01004791
+rdfs:comment | A significant occurrence or happening during transport.
+edi3:cefactBusinessProcess | In All Contexts
+
 @id | <span id="SupplyChain_Event.Details">cefact:SupplyChain_Event.Details</span>
 @type | edi3:AggregateBIE
 edi3:cefactUNId | cefact:UN01004291
@@ -3845,12 +3851,6 @@ edi3:cefactBusinessProcess | Buy-Ship-Pay
 @type | edi3:AggregateBIE
 edi3:cefactUNId | cefact:UN01013560
 rdfs:comment | A significant occurrence or happening communicated by means of sending or receiving information, such as transmitting digital data by using the internet.
-edi3:cefactBusinessProcess | In All Contexts
-
-@id | <span id="Transport_Event.Details">cefact:Transport_Event.Details</span>
-@type | edi3:AggregateBIE
-edi3:cefactUNId | cefact:UN01004791
-rdfs:comment | A significant occurrence or happening during transport.
 edi3:cefactBusinessProcess | In All Contexts
 
 @id | <span id="Referenced_Transport_Event.Details">cefact:Referenced_Transport_Event.Details</span>
@@ -4038,16 +4038,16 @@ Type: rdf:Class
 
 Cefact Element Metadata: 
 
-@id | <span id="Debtor_FinancialAccount.Details">cefact:Debtor_FinancialAccount.Details</span>
-@type | edi3:AggregateBIE
-edi3:cefactUNId | cefact:UN01003284
-rdfs:comment | A specific business arrangement whereby debits arising from transactions are recorded.
-edi3:cefactBusinessProcess | Customer to bank payment initiation
-
 @id | <span id="Creditor_FinancialAccount.Details">cefact:Creditor_FinancialAccount.Details</span>
 @type | edi3:AggregateBIE
 edi3:cefactUNId | cefact:UN01003347
 rdfs:comment | A specific business arrangement whereby credits arising from transactions are recorded.
+edi3:cefactBusinessProcess | Customer to bank payment initiation
+
+@id | <span id="Debtor_FinancialAccount.Details">cefact:Debtor_FinancialAccount.Details</span>
+@type | edi3:AggregateBIE
+edi3:cefactUNId | cefact:UN01003284
+rdfs:comment | A specific business arrangement whereby debits arising from transactions are recorded.
 edi3:cefactBusinessProcess | Customer to bank payment initiation
 
 @id | <span id="Financing_FinancialAccount.Details">cefact:Financing_FinancialAccount.Details</span>
@@ -4127,16 +4127,16 @@ edi3:cefactUNId | cefact:UN01002840
 rdfs:comment | A bank, building society, credit union, stock brokerage, or similar business of the party that owes money.
 edi3:cefactBusinessProcess | Customer to bank payment initiation
 
-@id | <span id="Creditor_FinancialInstitution.Details">cefact:Creditor_FinancialInstitution.Details</span>
-@type | edi3:AggregateBIE
-edi3:cefactUNId | cefact:UN01002975
-rdfs:comment | A bank, building society, credit union, stock brokerage, or similar business of the party that receives money.
-edi3:cefactBusinessProcess | Customer to bank payment initiation
-
 @id | <span id="Branch_FinancialInstitution.Details">cefact:Branch_FinancialInstitution.Details</span>
 @type | edi3:AggregateBIE
 edi3:cefactUNId | cefact:UN01003138
 rdfs:comment | A sub-division of a bank, building society, credit union, stock brokerage, or similar business; established primarily to provide financial services and financial transactions.
+edi3:cefactBusinessProcess | Customer to bank payment initiation
+
+@id | <span id="Creditor_FinancialInstitution.Details">cefact:Creditor_FinancialInstitution.Details</span>
+@type | edi3:AggregateBIE
+edi3:cefactUNId | cefact:UN01002975
+rdfs:comment | A bank, building society, credit union, stock brokerage, or similar business of the party that receives money.
 edi3:cefactBusinessProcess | Customer to bank payment initiation
 
 Range for: 
@@ -4585,10 +4585,16 @@ Type: rdf:Class
 
 Cefact Element Metadata: 
 
-@id | <span id="Proprietary_Identity.Details">cefact:Proprietary_Identity.Details</span>
+@id | <span id="Employer_Identity.Details">cefact:Employer_Identity.Details</span>
 @type | edi3:AggregateBIE
-edi3:cefactUNId | cefact:UN01013286
-rdfs:comment | Proprietary information which uniquely identifies a person or organization.
+edi3:cefactUNId | cefact:UN01003023
+rdfs:comment | Identification of a party who pays someone to do work on a regular or contractual basis.
+edi3:cefactBusinessProcess | In All Contexts
+
+@id | <span id="Person_Identity.Details">cefact:Person_Identity.Details</span>
+@type | edi3:AggregateBIE
+edi3:cefactUNId | cefact:UN01013279
+rdfs:comment | Identification of a person.
 edi3:cefactBusinessProcess | Buy-Ship-Pay
 
 @id | <span id="Financial_Identity.Details">cefact:Financial_Identity.Details</span>
@@ -4597,17 +4603,11 @@ edi3:cefactUNId | cefact:UN01013217
 rdfs:comment | A financial identification for an organization.
 edi3:cefactBusinessProcess | Buy-Ship-Pay
 
-@id | <span id="Person_Identity.Details">cefact:Person_Identity.Details</span>
+@id | <span id="Proprietary_Identity.Details">cefact:Proprietary_Identity.Details</span>
 @type | edi3:AggregateBIE
-edi3:cefactUNId | cefact:UN01013279
-rdfs:comment | Identification of a person.
+edi3:cefactUNId | cefact:UN01013286
+rdfs:comment | Proprietary information which uniquely identifies a person or organization.
 edi3:cefactBusinessProcess | Buy-Ship-Pay
-
-@id | <span id="Employer_Identity.Details">cefact:Employer_Identity.Details</span>
-@type | edi3:AggregateBIE
-edi3:cefactUNId | cefact:UN01003023
-rdfs:comment | Identification of a party who pays someone to do work on a regular or contractual basis.
-edi3:cefactBusinessProcess | In All Contexts
 
 Range for: 
 
@@ -4654,46 +4654,10 @@ Type: rdf:Class
 
 Cefact Element Metadata: 
 
-@id | <span id="Disposal_Instructions.Details">cefact:Disposal_Instructions.Details</span>
-@type | edi3:AggregateBIE
-edi3:cefactUNId | cefact:UN01002451
-rdfs:comment | A set of instructions detailing how to properly dispose of a material.
-edi3:cefactBusinessProcess | MSDS Reporting
-
 @id | <span id="TemperatureSetting_Instructions.Details">cefact:TemperatureSetting_Instructions.Details</span>
 @type | edi3:AggregateBIE
 edi3:cefactUNId | cefact:UN01004489
 rdfs:comment | Temperature setting related information of an instructive nature.
-edi3:cefactBusinessProcess | In All Contexts
-
-@id | <span id="Quarantine_Instructions.Details">cefact:Quarantine_Instructions.Details</span>
-@type | edi3:AggregateBIE
-edi3:cefactUNId | cefact:UN01003988
-rdfs:comment | Instructions for a period of imposed isolation or detention.
-edi3:cefactBusinessProcess | Buy-Ship-Pay
-
-@id | <span id="Delivery_Instructions.Details">cefact:Delivery_Instructions.Details</span>
-@type | edi3:AggregateBIE
-edi3:cefactUNId | cefact:UN01003504
-rdfs:comment | Delivery information of an instructive nature.
-edi3:cefactBusinessProcess | Buy-Ship-Pay
-
-@id | <span id="ReturnableAsset_Instructions.Details">cefact:ReturnableAsset_Instructions.Details</span>
-@type | edi3:AggregateBIE
-edi3:cefactUNId | cefact:UN01008860
-rdfs:comment | The procedures to follow for returnable assets, such as reusable packaging (pallets, crates).
-edi3:cefactBusinessProcess | Supply Chain
-
-@id | <span id="Transport_Instructions.Details">cefact:Transport_Instructions.Details</span>
-@type | edi3:AggregateBIE
-edi3:cefactUNId | cefact:UN01004811
-rdfs:comment | Transport information of an instructive nature.
-edi3:cefactBusinessProcess | In All Contexts
-
-@id | <span id="Haulage_Instructions.Details">cefact:Haulage_Instructions.Details</span>
-@type | edi3:AggregateBIE
-edi3:cefactUNId | cefact:UN01003634
-rdfs:comment | Instructions related to the action or process of conveyance.
 edi3:cefactBusinessProcess | In All Contexts
 
 @id | <span id="Handling_Instructions.Details">cefact:Handling_Instructions.Details</span>
@@ -4701,6 +4665,42 @@ edi3:cefactBusinessProcess | In All Contexts
 edi3:cefactUNId | cefact:UN01003625
 rdfs:comment | Handling information of an instructive nature.
 edi3:cefactBusinessProcess | In All Contexts
+
+@id | <span id="Delivery_Instructions.Details">cefact:Delivery_Instructions.Details</span>
+@type | edi3:AggregateBIE
+edi3:cefactUNId | cefact:UN01003504
+rdfs:comment | Delivery information of an instructive nature.
+edi3:cefactBusinessProcess | Buy-Ship-Pay
+
+@id | <span id="Haulage_Instructions.Details">cefact:Haulage_Instructions.Details</span>
+@type | edi3:AggregateBIE
+edi3:cefactUNId | cefact:UN01003634
+rdfs:comment | Instructions related to the action or process of conveyance.
+edi3:cefactBusinessProcess | In All Contexts
+
+@id | <span id="ReturnableAsset_Instructions.Details">cefact:ReturnableAsset_Instructions.Details</span>
+@type | edi3:AggregateBIE
+edi3:cefactUNId | cefact:UN01008860
+rdfs:comment | The procedures to follow for returnable assets, such as reusable packaging (pallets, crates).
+edi3:cefactBusinessProcess | Supply Chain
+
+@id | <span id="Disposal_Instructions.Details">cefact:Disposal_Instructions.Details</span>
+@type | edi3:AggregateBIE
+edi3:cefactUNId | cefact:UN01002451
+rdfs:comment | A set of instructions detailing how to properly dispose of a material.
+edi3:cefactBusinessProcess | MSDS Reporting
+
+@id | <span id="Transport_Instructions.Details">cefact:Transport_Instructions.Details</span>
+@type | edi3:AggregateBIE
+edi3:cefactUNId | cefact:UN01004811
+rdfs:comment | Transport information of an instructive nature.
+edi3:cefactBusinessProcess | In All Contexts
+
+@id | <span id="Quarantine_Instructions.Details">cefact:Quarantine_Instructions.Details</span>
+@type | edi3:AggregateBIE
+edi3:cefactUNId | cefact:UN01003988
+rdfs:comment | Instructions for a period of imposed isolation or detention.
+edi3:cefactBusinessProcess | Buy-Ship-Pay
 
 Range for: 
 
@@ -4758,16 +4758,16 @@ Type: rdf:Class
 
 Cefact Element Metadata: 
 
-@id | <span id="StoresItem_Inventory.Details">cefact:StoresItem_Inventory.Details</span>
-@type | edi3:AggregateBIE
-edi3:cefactUNId | cefact:UN01013189
-rdfs:comment | A stores item, such as for onboard use during a journey.
-edi3:cefactBusinessProcess | Buy-Ship-Pay
-
 @id | <span id="SupplyChain_Inventory.Details">cefact:SupplyChain_Inventory.Details</span>
 @type | edi3:AggregateBIE
 edi3:cefactUNId | cefact:UN01004305
 rdfs:comment | Supply chain goods and materials held in stock.
+edi3:cefactBusinessProcess | Buy-Ship-Pay
+
+@id | <span id="StoresItem_Inventory.Details">cefact:StoresItem_Inventory.Details</span>
+@type | edi3:AggregateBIE
+edi3:cefactUNId | cefact:UN01013189
+rdfs:comment | A stores item, such as for onboard use during a journey.
 edi3:cefactBusinessProcess | Buy-Ship-Pay
 
 Range for: 
@@ -4877,11 +4877,11 @@ Type: rdf:Class
 
 Cefact Element Metadata: 
 
-@id | <span id="Subordinate_Location.Details">cefact:Subordinate_Location.Details</span>
+@id | <span id="Logistics_Location.Details">cefact:Logistics_Location.Details</span>
 @type | edi3:AggregateBIE
-edi3:cefactUNId | cefact:UN01004092
-rdfs:comment | A physical location or place which is a subordinate location of a location.
-edi3:cefactBusinessProcess | In All Contexts
+edi3:cefactUNId | cefact:UN01003679
+rdfs:comment | A logistics related physical location or place.
+edi3:cefactBusinessProcess | Buy-Ship-Pay
 
 @id | <span id="TransportService_Location.Details">cefact:TransportService_Location.Details</span>
 @type | edi3:AggregateBIE
@@ -4889,23 +4889,23 @@ edi3:cefactUNId | cefact:UN01010086
 rdfs:comment | A location where a transport service takes place.
 edi3:cefactBusinessProcess | Transport
 
-@id | <span id="Trade_Location.Details">cefact:Trade_Location.Details</span>
-@type | edi3:AggregateBIE
-edi3:cefactUNId | cefact:UN01001658
-rdfs:comment | A physical location or place used or referenced for trade purposes.
-edi3:cefactBusinessProcess | Trade
-
-@id | <span id="Logistics_Location.Details">cefact:Logistics_Location.Details</span>
-@type | edi3:AggregateBIE
-edi3:cefactUNId | cefact:UN01003679
-rdfs:comment | A logistics related physical location or place.
-edi3:cefactBusinessProcess | Buy-Ship-Pay
-
 @id | <span id="SubordinateSubordinate_Location.Details">cefact:SubordinateSubordinate_Location.Details</span>
 @type | edi3:AggregateBIE
 edi3:cefactUNId | cefact:UN01004087
 rdfs:comment | A physical location or place which is a subordinate location of a subordinate location.
 edi3:cefactBusinessProcess | In All Contexts
+
+@id | <span id="Subordinate_Location.Details">cefact:Subordinate_Location.Details</span>
+@type | edi3:AggregateBIE
+edi3:cefactUNId | cefact:UN01004092
+rdfs:comment | A physical location or place which is a subordinate location of a location.
+edi3:cefactBusinessProcess | In All Contexts
+
+@id | <span id="Trade_Location.Details">cefact:Trade_Location.Details</span>
+@type | edi3:AggregateBIE
+edi3:cefactUNId | cefact:UN01001658
+rdfs:comment | A physical location or place used or referenced for trade purposes.
+edi3:cefactBusinessProcess | Trade
 
 Range for: 
 
@@ -5028,17 +5028,17 @@ Type: rdf:Class
 
 Cefact Element Metadata: 
 
-@id | <span id="Radioactive_Material.Details">cefact:Radioactive_Material.Details</span>
-@type | edi3:AggregateBIE
-edi3:cefactUNId | cefact:UN01006194
-rdfs:comment | Material capable of undergoing spontaneous nuclear decay involving emission of ionizing radiation in the form of particles or gamma rays.
-edi3:cefactBusinessProcess | Cross-Border
-
 @id | <span id="TransportWaste_Material.Details">cefact:TransportWaste_Material.Details</span>
 @type | edi3:AggregateBIE
 edi3:cefactUNId | cefact:UN01013160
 rdfs:comment | Any materials unused and rejected as unwanted during a transport movement.
 edi3:cefactBusinessProcess | Transport
+
+@id | <span id="Radioactive_Material.Details">cefact:Radioactive_Material.Details</span>
+@type | edi3:AggregateBIE
+edi3:cefactUNId | cefact:UN01006194
+rdfs:comment | Material capable of undergoing spontaneous nuclear decay involving emission of ionizing radiation in the form of particles or gamma rays.
+edi3:cefactBusinessProcess | Cross-Border
 
 Range for: 
 
@@ -5142,12 +5142,6 @@ Type: rdf:Class
 
 Cefact Element Metadata: 
 
-@id | <span id="TradeSettlementHeader_MonetarySummation.Details">cefact:TradeSettlementHeader_MonetarySummation.Details</span>
-@type | edi3:AggregateBIE
-edi3:cefactUNId | cefact:UN01011871
-rdfs:comment | A collection of monetary amount totals, specified at header level, for a trade settlement.
-edi3:cefactBusinessProcess | Buy-Ship-Pay
-
 @id | <span id="TradeSettlementPayment_MonetarySummation.Details">cefact:TradeSettlementPayment_MonetarySummation.Details</span>
 @type | edi3:AggregateBIE
 edi3:cefactUNId | cefact:UN01011912
@@ -5158,6 +5152,12 @@ edi3:cefactBusinessProcess | Buy-Ship-Pay
 @type | edi3:AggregateBIE
 edi3:cefactUNId | cefact:UN01011896
 rdfs:comment | A collection of monetary amount totals, specified at line level, for a trade settlement.
+edi3:cefactBusinessProcess | Buy-Ship-Pay
+
+@id | <span id="TradeSettlementHeader_MonetarySummation.Details">cefact:TradeSettlementHeader_MonetarySummation.Details</span>
+@type | edi3:AggregateBIE
+edi3:cefactUNId | cefact:UN01011871
+rdfs:comment | A collection of monetary amount totals, specified at header level, for a trade settlement.
 edi3:cefactBusinessProcess | Buy-Ship-Pay
 
 Range for: 
@@ -5504,12 +5504,6 @@ Type: rdf:Class
 
 Cefact Element Metadata: 
 
-@id | <span id="Location_Party.Details">cefact:Location_Party.Details</span>
-@type | edi3:AggregateBIE
-edi3:cefactUNId | cefact:UN01003661
-rdfs:comment | An individual, a group, or a body having a role related to a location.
-edi3:cefactBusinessProcess | In All Contexts
-
 @id | <span id="Trade_Party.Details">cefact:Trade_Party.Details</span>
 @type | edi3:AggregateBIE
 edi3:cefactUNId | cefact:UN01004594
@@ -5521,6 +5515,12 @@ edi3:cefactBusinessProcess | Buy-Ship-Pay
 edi3:cefactUNId | cefact:UN01002017
 rdfs:comment | An individual, a group, or a body having a role as a requestor.
 edi3:cefactBusinessProcess | Project Management
+
+@id | <span id="Location_Party.Details">cefact:Location_Party.Details</span>
+@type | edi3:AggregateBIE
+edi3:cefactUNId | cefact:UN01003661
+rdfs:comment | An individual, a group, or a body having a role related to a location.
+edi3:cefactBusinessProcess | In All Contexts
 
 Range for: 
 
@@ -5678,12 +5678,6 @@ Type: rdf:Class
 
 Cefact Element Metadata: 
 
-@id | <span id="Advance_Payment.Details">cefact:Advance_Payment.Details</span>
-@type | edi3:AggregateBIE
-edi3:cefactUNId | cefact:UN01001295
-rdfs:comment | A prepaid discharge of obligations in respect of funds or securities transferred between two or more parties.
-edi3:cefactBusinessProcess | Trade
-
 @id | <span id="TradeSettlement_Payment.Details">cefact:TradeSettlement_Payment.Details</span>
 @type | edi3:AggregateBIE
 edi3:cefactUNId | cefact:UN01008866
@@ -5695,6 +5689,12 @@ edi3:cefactBusinessProcess | Trade
 edi3:cefactUNId | cefact:UN01013272
 rdfs:comment | A discharge of obligations in respect of funds or securities, transferred through one of several payments, between two or more parties.
 edi3:cefactBusinessProcess | Buy-Ship-Pay
+
+@id | <span id="Advance_Payment.Details">cefact:Advance_Payment.Details</span>
+@type | edi3:AggregateBIE
+edi3:cefactUNId | cefact:UN01001295
+rdfs:comment | A prepaid discharge of obligations in respect of funds or securities transferred between two or more parties.
+edi3:cefactBusinessProcess | Trade
 
 Range for: 
 
@@ -5913,16 +5913,16 @@ Type: rdf:Class
 
 Cefact Element Metadata: 
 
-@id | <span id="Contact_Person.Details">cefact:Contact_Person.Details</span>
-@type | edi3:AggregateBIE
-edi3:cefactUNId | cefact:UN01005145
-rdfs:comment | An individual human being in a position to give assistance or information.
-edi3:cefactBusinessProcess | In All Contexts
-
 @id | <span id="Transport_Person.Details">cefact:Transport_Person.Details</span>
 @type | edi3:AggregateBIE
 edi3:cefactUNId | cefact:UN01004815
 rdfs:comment | A transport related person, such as a member of a crew or a passenger.
+edi3:cefactBusinessProcess | In All Contexts
+
+@id | <span id="Contact_Person.Details">cefact:Contact_Person.Details</span>
+@type | edi3:AggregateBIE
+edi3:cefactUNId | cefact:UN01005145
+rdfs:comment | An individual human being in a position to give assistance or information.
 edi3:cefactBusinessProcess | In All Contexts
 
 @id | <span id="AuthoritativeSignatory_Person.Details">cefact:AuthoritativeSignatory_Person.Details</span>
@@ -6119,17 +6119,17 @@ Type: rdf:Class
 
 Cefact Element Metadata: 
 
-@id | <span id="Trade_Product.Details">cefact:Trade_Product.Details</span>
-@type | edi3:AggregateBIE
-edi3:cefactUNId | cefact:UN01004679
-rdfs:comment | Any tangible output or service produced by human or mechanical effort or by a natural process for trade purposes.
-edi3:cefactBusinessProcess | Buy-Ship-Pay
-
 @id | <span id="Referenced_Product.Details">cefact:Referenced_Product.Details</span>
 @type | edi3:AggregateBIE
 edi3:cefactUNId | cefact:UN01004027
 rdfs:comment | A reference to a product or service produced by human or mechanical effort or by a natural process for trading purposes.
 edi3:cefactBusinessProcess | In All Contexts
+
+@id | <span id="Trade_Product.Details">cefact:Trade_Product.Details</span>
+@type | edi3:AggregateBIE
+edi3:cefactUNId | cefact:UN01004679
+rdfs:comment | Any tangible output or service produced by human or mechanical effort or by a natural process for trade purposes.
+edi3:cefactBusinessProcess | Buy-Ship-Pay
 
 Range for: 
 
@@ -6485,17 +6485,17 @@ Type: rdf:Class
 
 Cefact Element Metadata: 
 
-@id | <span id="Government_Registration.Details">cefact:Government_Registration.Details</span>
-@type | edi3:AggregateBIE
-edi3:cefactUNId | cefact:UN01011028
-rdfs:comment | The recording of items or details for a governmental purpose.
-edi3:cefactBusinessProcess | Buy-Ship-Pay
-
 @id | <span id="Legal_Registration.Details">cefact:Legal_Registration.Details</span>
 @type | edi3:AggregateBIE
 edi3:cefactUNId | cefact:UN01003648
 rdfs:comment | The recording of items or details for a specific legal purpose.
 edi3:cefactBusinessProcess | In All Contexts
+
+@id | <span id="Government_Registration.Details">cefact:Government_Registration.Details</span>
+@type | edi3:AggregateBIE
+edi3:cefactUNId | cefact:UN01011028
+rdfs:comment | The recording of items or details for a governmental purpose.
+edi3:cefactBusinessProcess | Buy-Ship-Pay
 
 @id | <span id="Tax_Registration.Details">cefact:Tax_Registration.Details</span>
 @type | edi3:AggregateBIE
@@ -6882,17 +6882,17 @@ Type: rdf:Class
 
 Cefact Element Metadata: 
 
-@id | <span id="ReferencedTransport_Service.Details">cefact:ReferencedTransport_Service.Details</span>
-@type | edi3:AggregateBIE
-edi3:cefactUNId | cefact:UN01010074
-rdfs:comment | A referenced service associated with a specified event during transport movement.
-edi3:cefactBusinessProcess | Transport
-
 @id | <span id="Transport_Service.Details">cefact:Transport_Service.Details</span>
 @type | edi3:AggregateBIE
 edi3:cefactUNId | cefact:UN01004837
 rdfs:comment | A service associated with a transport movement.
 edi3:cefactBusinessProcess | In All Contexts
+
+@id | <span id="ReferencedTransport_Service.Details">cefact:ReferencedTransport_Service.Details</span>
+@type | edi3:AggregateBIE
+edi3:cefactUNId | cefact:UN01010074
+rdfs:comment | A referenced service associated with a specified event during transport movement.
+edi3:cefactBusinessProcess | Transport
 
 Range for: 
 
@@ -7028,12 +7028,6 @@ Type: rdf:Class
 
 Cefact Element Metadata: 
 
-@id | <span id="Logistics_Status.Details">cefact:Logistics_Status.Details</span>
-@type | edi3:AggregateBIE
-edi3:cefactUNId | cefact:UN01003747
-rdfs:comment | The information relevant to a condition or a position related to logistics.
-edi3:cefactBusinessProcess | Buy-Ship-Pay
-
 @id | <span id="Recorded_Status.Details">cefact:Recorded_Status.Details</span>
 @type | edi3:AggregateBIE
 edi3:cefactUNId | cefact:UN01007516
@@ -7046,6 +7040,18 @@ edi3:cefactUNId | cefact:UN01013196
 rdfs:comment | Information relevant to a condition of a cancellation.
 edi3:cefactBusinessProcess | Buy-Ship-Pay
 
+@id | <span id="Logistics_Status.Details">cefact:Logistics_Status.Details</span>
+@type | edi3:AggregateBIE
+edi3:cefactUNId | cefact:UN01003747
+rdfs:comment | The information relevant to a condition or a position related to logistics.
+edi3:cefactBusinessProcess | Buy-Ship-Pay
+
+@id | <span id="Document_Status.Details">cefact:Document_Status.Details</span>
+@type | edi3:AggregateBIE
+edi3:cefactUNId | cefact:UN01013122
+rdfs:comment | The information relevant to a condition related to a document.
+edi3:cefactBusinessProcess | In All Contexts
+
 @id | <span id="Validation_Status.Details">cefact:Validation_Status.Details</span>
 @type | edi3:AggregateBIE
 edi3:cefactUNId | cefact:UN01013305
@@ -7057,12 +7063,6 @@ edi3:cefactBusinessProcess | Buy-Ship-Pay
 edi3:cefactUNId | cefact:UN01013262
 rdfs:comment | Information relevant to a condition of financing.
 edi3:cefactBusinessProcess | Buy-Ship-Pay
-
-@id | <span id="Document_Status.Details">cefact:Document_Status.Details</span>
-@type | edi3:AggregateBIE
-edi3:cefactUNId | cefact:UN01013122
-rdfs:comment | The information relevant to a condition related to a document.
-edi3:cefactBusinessProcess | In All Contexts
 
 Range for: 
 
@@ -7148,11 +7148,11 @@ Type: rdf:Class
 
 Cefact Element Metadata: 
 
-@id | <span id="Applied_Tax.Details">cefact:Applied_Tax.Details</span>
+@id | <span id="Trade_Tax.Details">cefact:Trade_Tax.Details</span>
 @type | edi3:AggregateBIE
-edi3:cefactUNId | cefact:UN01000183
-rdfs:comment | A total levy or payment for the support of a government that is required of persons, groups, or businesses within the domain of that government.
-edi3:cefactBusinessProcess | In All Contexts
+edi3:cefactUNId | cefact:UN01004709
+rdfs:comment | A trade related fiscal levy or duty.
+edi3:cefactBusinessProcess | Buy-Ship-Pay
 
 @id | <span id="Registered_Tax.Details">cefact:Registered_Tax.Details</span>
 @type | edi3:AggregateBIE
@@ -7160,11 +7160,11 @@ edi3:cefactUNId | cefact:UN01004057
 rdfs:comment | A registered tax or duty system pertaining to an authority.
 edi3:cefactBusinessProcess | In All Contexts
 
-@id | <span id="Trade_Tax.Details">cefact:Trade_Tax.Details</span>
+@id | <span id="Applied_Tax.Details">cefact:Applied_Tax.Details</span>
 @type | edi3:AggregateBIE
-edi3:cefactUNId | cefact:UN01004709
-rdfs:comment | A trade related fiscal levy or duty.
-edi3:cefactBusinessProcess | Buy-Ship-Pay
+edi3:cefactUNId | cefact:UN01000183
+rdfs:comment | A total levy or payment for the support of a government that is required of persons, groups, or businesses within the domain of that government.
+edi3:cefactBusinessProcess | In All Contexts
 
 Range for: 
 
@@ -7241,11 +7241,11 @@ Type: rdf:Class
 
 Cefact Element Metadata: 
 
-@id | <span id="Instructed_Temperature.Details">cefact:Instructed_Temperature.Details</span>
+@id | <span id="TransportSetting_Temperature.Details">cefact:TransportSetting_Temperature.Details</span>
 @type | edi3:AggregateBIE
-edi3:cefactUNId | cefact:UN01008871
-rdfs:comment | Temperature settings instructed for storage or movement of goods.
-edi3:cefactBusinessProcess | Supply Chain
+edi3:cefactUNId | cefact:UN01004746
+rdfs:comment | Temperature settings for a transport movement, such as a required storage temperature range.
+edi3:cefactBusinessProcess | In All Contexts
 
 @id | <span id="Specified_Temperature.Details">cefact:Specified_Temperature.Details</span>
 @type | edi3:AggregateBIE
@@ -7253,11 +7253,11 @@ edi3:cefactUNId | cefact:UN01009043
 rdfs:comment | A specified temperature value or range of values.
 edi3:cefactBusinessProcess | In All Contexts
 
-@id | <span id="TransportSetting_Temperature.Details">cefact:TransportSetting_Temperature.Details</span>
+@id | <span id="Instructed_Temperature.Details">cefact:Instructed_Temperature.Details</span>
 @type | edi3:AggregateBIE
-edi3:cefactUNId | cefact:UN01004746
-rdfs:comment | Temperature settings for a transport movement, such as a required storage temperature range.
-edi3:cefactBusinessProcess | In All Contexts
+edi3:cefactUNId | cefact:UN01008871
+rdfs:comment | Temperature settings instructed for storage or movement of goods.
+edi3:cefactBusinessProcess | Supply Chain
 
 Range for: 
 
@@ -7307,16 +7307,16 @@ Type: rdf:Class
 
 Cefact Element Metadata: 
 
-@id | <span id="SubordinateLine_TradeAgreement.Details">cefact:SubordinateLine_TradeAgreement.Details</span>
-@type | edi3:AggregateBIE
-edi3:cefactUNId | cefact:UN01011843
-rdfs:comment | The contractual terms of a subordinate line trade agreement.
-edi3:cefactBusinessProcess | Buy-Ship-Pay
-
 @id | <span id="Header_TradeAgreement.Details">cefact:Header_TradeAgreement.Details</span>
 @type | edi3:AggregateBIE
 edi3:cefactUNId | cefact:UN01011547
 rdfs:comment | The contractual terms of a header trade agreement.
+edi3:cefactBusinessProcess | Buy-Ship-Pay
+
+@id | <span id="SubordinateLine_TradeAgreement.Details">cefact:SubordinateLine_TradeAgreement.Details</span>
+@type | edi3:AggregateBIE
+edi3:cefactUNId | cefact:UN01011843
+rdfs:comment | The contractual terms of a subordinate line trade agreement.
 edi3:cefactBusinessProcess | Buy-Ship-Pay
 
 @id | <span id="Line_TradeAgreement.Details">cefact:Line_TradeAgreement.Details</span>
@@ -7448,16 +7448,16 @@ edi3:cefactUNId | cefact:UN01011849
 rdfs:comment | Supply chain shipping arrangements and movement of products and or services including despatch and delivery.
 edi3:cefactBusinessProcess | Buy-Ship-Pay
 
-@id | <span id="Line_TradeDelivery.Details">cefact:Line_TradeDelivery.Details</span>
-@type | edi3:AggregateBIE
-edi3:cefactUNId | cefact:UN01011755
-rdfs:comment | Shipping arrangements and movement of products and or services including despatch and delivery at a line level.
-edi3:cefactBusinessProcess | Buy-Ship-Pay
-
 @id | <span id="Header_TradeDelivery.Details">cefact:Header_TradeDelivery.Details</span>
 @type | edi3:AggregateBIE
 edi3:cefactUNId | cefact:UN01011603
 rdfs:comment | Shipping arrangements and movement of products and or services including despatch and delivery at a header level.
+edi3:cefactBusinessProcess | Buy-Ship-Pay
+
+@id | <span id="Line_TradeDelivery.Details">cefact:Line_TradeDelivery.Details</span>
+@type | edi3:AggregateBIE
+edi3:cefactUNId | cefact:UN01011755
+rdfs:comment | Shipping arrangements and movement of products and or services including despatch and delivery at a line level.
 edi3:cefactBusinessProcess | Buy-Ship-Pay
 
 Range for: 
@@ -7594,16 +7594,16 @@ Type: rdf:Class
 
 Cefact Element Metadata: 
 
-@id | <span id="SupplyChain_TradeLineItem.Details">cefact:SupplyChain_TradeLineItem.Details</span>
-@type | edi3:AggregateBIE
-edi3:cefactUNId | cefact:UN01004417
-rdfs:comment | A collection of information specific to an item being used or reported on for supply chain trade purposes.
-edi3:cefactBusinessProcess | Buy-Ship-Pay
-
 @id | <span id="Subordinate_TradeLineItem.Details">cefact:Subordinate_TradeLineItem.Details</span>
 @type | edi3:AggregateBIE
 edi3:cefactUNId | cefact:UN01004098
 rdfs:comment | A collection of information specific to a subordinate item being used or reported on for trade purposes.
+edi3:cefactBusinessProcess | Buy-Ship-Pay
+
+@id | <span id="SupplyChain_TradeLineItem.Details">cefact:SupplyChain_TradeLineItem.Details</span>
+@type | edi3:AggregateBIE
+edi3:cefactUNId | cefact:UN01004417
+rdfs:comment | A collection of information specific to an item being used or reported on for supply chain trade purposes.
 edi3:cefactBusinessProcess | Buy-Ship-Pay
 
 Range for: 
@@ -7661,6 +7661,18 @@ Type: rdf:Class
 
 Cefact Element Metadata: 
 
+@id | <span id="SubordinateLine_TradeSettlement.Details">cefact:SubordinateLine_TradeSettlement.Details</span>
+@type | edi3:AggregateBIE
+edi3:cefactUNId | cefact:UN01011854
+rdfs:comment | The information, at a subordinate line level, that enables the reconciliation of a financial transaction with the item(s) that the financial transaction is intended to settle, for example a commercial invoice.
+edi3:cefactBusinessProcess | Buy-Ship-Pay
+
+@id | <span id="Line_TradeSettlement.Details">cefact:Line_TradeSettlement.Details</span>
+@type | edi3:AggregateBIE
+edi3:cefactUNId | cefact:UN01011800
+rdfs:comment | The information, at a line level, that enables the reconciliation of a financial transaction with the item(s) that the financial transaction is intended to settle, for example a commercial invoice.
+edi3:cefactBusinessProcess | Buy-Ship-Pay
+
 @id | <span id="Payment_TradeSettlement.Details">cefact:Payment_TradeSettlement.Details</span>
 @type | edi3:AggregateBIE
 edi3:cefactUNId | cefact:UN01003261
@@ -7671,18 +7683,6 @@ edi3:cefactBusinessProcess | Customer to bank payment initiation
 @type | edi3:AggregateBIE
 edi3:cefactUNId | cefact:UN01011643
 rdfs:comment | The information, at a header level, that enables the reconciliation of a financial transaction, with the item(s) that the financial transaction is intended to settle, such as a commercial invoice.
-edi3:cefactBusinessProcess | Buy-Ship-Pay
-
-@id | <span id="Line_TradeSettlement.Details">cefact:Line_TradeSettlement.Details</span>
-@type | edi3:AggregateBIE
-edi3:cefactUNId | cefact:UN01011800
-rdfs:comment | The information, at a line level, that enables the reconciliation of a financial transaction with the item(s) that the financial transaction is intended to settle, for example a commercial invoice.
-edi3:cefactBusinessProcess | Buy-Ship-Pay
-
-@id | <span id="SubordinateLine_TradeSettlement.Details">cefact:SubordinateLine_TradeSettlement.Details</span>
-@type | edi3:AggregateBIE
-edi3:cefactUNId | cefact:UN01011854
-rdfs:comment | The information, at a subordinate line level, that enables the reconciliation of a financial transaction with the item(s) that the financial transaction is intended to settle, for example a commercial invoice.
 edi3:cefactBusinessProcess | Buy-Ship-Pay
 
 Range for: 
@@ -7776,16 +7776,16 @@ Type: rdf:Class
 
 Cefact Element Metadata: 
 
-@id | <span id="Line_TradeTransaction.Details">cefact:Line_TradeTransaction.Details</span>
-@type | edi3:AggregateBIE
-edi3:cefactUNId | cefact:UN01011824
-rdfs:comment | A group of trade line items, trade line agreement, trade line delivery and trade line settlement details.
-edi3:cefactBusinessProcess | Buy-Ship-Pay
-
 @id | <span id="SupplyChain_TradeTransaction.Details">cefact:SupplyChain_TradeTransaction.Details</span>
 @type | edi3:AggregateBIE
 edi3:cefactUNId | cefact:UN01004475
 rdfs:comment | A group of supply chain trade line items, trade agreement, trade delivery and trade settlement details.
+edi3:cefactBusinessProcess | Buy-Ship-Pay
+
+@id | <span id="Line_TradeTransaction.Details">cefact:Line_TradeTransaction.Details</span>
+@type | edi3:AggregateBIE
+edi3:cefactUNId | cefact:UN01011824
+rdfs:comment | A group of trade line items, trade line agreement, trade line delivery and trade line settlement details.
 edi3:cefactBusinessProcess | Buy-Ship-Pay
 
 Range for: 
@@ -7828,16 +7828,16 @@ Type: rdf:Class
 
 Cefact Element Metadata: 
 
+@id | <span id="Logistics_TransportEquipment.Details">cefact:Logistics_TransportEquipment.Details</span>
+@type | edi3:AggregateBIE
+edi3:cefactUNId | cefact:UN01003757
+rdfs:comment | A piece of equipment used to hold, protect or secure cargo for logistics purposes.
+edi3:cefactBusinessProcess | Buy-Ship-Pay
+
 @id | <span id="Associated_TransportEquipment.Details">cefact:Associated_TransportEquipment.Details</span>
 @type | edi3:AggregateBIE
 edi3:cefactUNId | cefact:UN01004883
 rdfs:comment | A piece of transport equipment that is associated with another piece of transport equipment, such as a maritime container placed on a rail wagon for transportation.
-edi3:cefactBusinessProcess | Buy-Ship-Pay
-
-@id | <span id="Attached_TransportEquipment.Details">cefact:Attached_TransportEquipment.Details</span>
-@type | edi3:AggregateBIE
-edi3:cefactUNId | cefact:UN01003416
-rdfs:comment | A piece of attached transport equipment, such as a chain or a tarpaulin.
 edi3:cefactBusinessProcess | Buy-Ship-Pay
 
 @id | <span id="Referenced_Logistics_TransportEquipment.Details">cefact:Referenced_Logistics_TransportEquipment.Details</span>
@@ -7846,10 +7846,10 @@ edi3:cefactUNId | cefact:UN01004022
 rdfs:comment | A referenced piece of equipment used to hold, protect or secure cargo for logistics purposes.
 edi3:cefactBusinessProcess | Buy-Ship-Pay
 
-@id | <span id="Logistics_TransportEquipment.Details">cefact:Logistics_TransportEquipment.Details</span>
+@id | <span id="Attached_TransportEquipment.Details">cefact:Attached_TransportEquipment.Details</span>
 @type | edi3:AggregateBIE
-edi3:cefactUNId | cefact:UN01003757
-rdfs:comment | A piece of equipment used to hold, protect or secure cargo for logistics purposes.
+edi3:cefactUNId | cefact:UN01003416
+rdfs:comment | A piece of attached transport equipment, such as a chain or a tarpaulin.
 edi3:cefactBusinessProcess | Buy-Ship-Pay
 
 Range for: 
@@ -8171,16 +8171,16 @@ Type: rdf:Class
 
 Cefact Element Metadata: 
 
-@id | <span id="Basic_WorkItem.Details">cefact:Basic_WorkItem.Details</span>
-@type | edi3:AggregateBIE
-edi3:cefactUNId | cefact:UN01000026
-rdfs:comment | A basic item of work.
-edi3:cefactBusinessProcess | In All Contexts
-
 @id | <span id="Grouped_WorkItem.Details">cefact:Grouped_WorkItem.Details</span>
 @type | edi3:AggregateBIE
 edi3:cefactUNId | cefact:UN01000043
 rdfs:comment | A grouping of related work items.
+edi3:cefactBusinessProcess | In All Contexts
+
+@id | <span id="Basic_WorkItem.Details">cefact:Basic_WorkItem.Details</span>
+@type | edi3:AggregateBIE
+edi3:cefactUNId | cefact:UN01000026
+rdfs:comment | A basic item of work.
 edi3:cefactBusinessProcess | In All Contexts
 
 Range for: 
@@ -8365,18 +8365,18 @@ Domains:
 
 Cefact Element Metadata: 
 
-@id | cefact:Referenced_Document.Acceptance.DateTime
-@type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01004001
-rdfs:comment | The date, time, date time, or other date time value of the acceptance of this referenced document.
-edi3:cefactBieDomainClass | [cefact:Referenced_Document.Details](#Referenced_Document.Details)
-edi3:cefactBusinessProcess | In All Contexts
-
 @id | cefact:Exchanged_Document.Acceptance.DateTime
 @type | edi3:BasicBIE
 edi3:cefactUNId | cefact:UN01003556
 rdfs:comment | The date, time, date time, or other date time value for the acceptance of this exchanged document.
 edi3:cefactBieDomainClass | [cefact:Exchanged_Document.Details](#Exchanged_Document.Details)
+edi3:cefactBusinessProcess | In All Contexts
+
+@id | cefact:Referenced_Document.Acceptance.DateTime
+@type | edi3:BasicBIE
+edi3:cefactUNId | cefact:UN01004001
+rdfs:comment | The date, time, date time, or other date time value of the acceptance of this referenced document.
+edi3:cefactBieDomainClass | [cefact:Referenced_Document.Details](#Referenced_Document.Details)
 edi3:cefactBusinessProcess | In All Contexts
 
 
@@ -8562,19 +8562,19 @@ rdfs:comment | The account name, expressed as text, of this debtor financial acc
 edi3:cefactBieDomainClass | [cefact:Debtor_FinancialAccount.Details](#Debtor_FinancialAccount.Details)
 edi3:cefactBusinessProcess | Customer to bank payment initiation
 
-@id | cefact:Creditor_FinancialAccount.AccountName.Text
-@type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01003355
-rdfs:comment | The account name, expressed as text, of this creditor financial account.
-edi3:cefactBieDomainClass | [cefact:Creditor_FinancialAccount.Details](#Creditor_FinancialAccount.Details)
-edi3:cefactBusinessProcess | Customer to bank payment initiation
-
 @id | cefact:Financing_FinancialAccount.AccountName.Text
 @type | edi3:BasicBIE
 edi3:cefactUNId | cefact:UN01013260
 rdfs:comment | The account name, expressed as text, of this financing financial account.
 edi3:cefactBieDomainClass | [cefact:Financing_FinancialAccount.Details](#Financing_FinancialAccount.Details)
 edi3:cefactBusinessProcess | Buy-Ship-Pay
+
+@id | cefact:Creditor_FinancialAccount.AccountName.Text
+@type | edi3:BasicBIE
+edi3:cefactUNId | cefact:UN01003355
+rdfs:comment | The account name, expressed as text, of this creditor financial account.
+edi3:cefactBieDomainClass | [cefact:Creditor_FinancialAccount.Details](#Creditor_FinancialAccount.Details)
+edi3:cefactBusinessProcess | Customer to bank payment initiation
 
 
 
@@ -8688,13 +8688,6 @@ Domains:
 
 Cefact Element Metadata: 
 
-@id | cefact:Delivery_Adjustment.Actual.Amount
-@type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01003501
-rdfs:comment | An actual monetary value added or subtracted as a result of this delivery adjustment.
-edi3:cefactBieDomainClass | [cefact:Delivery_Adjustment.Details](#Delivery_Adjustment.Details)
-edi3:cefactBusinessProcess | Buy-Ship-Pay
-
 @id | cefact:Applied_AllowanceCharge.Actual.Amount
 @type | edi3:BasicBIE
 edi3:cefactUNId | cefact:UN01000189
@@ -8702,12 +8695,12 @@ rdfs:comment | The actual monetary value of the applied allowance charge.
 edi3:cefactBieDomainClass | [cefact:Applied_AllowanceCharge.Details](#Applied_AllowanceCharge.Details)
 edi3:cefactBusinessProcess | Pricing
 
-@id | cefact:Trade_AllowanceCharge.Actual.Amount
+@id | cefact:Delivery_Adjustment.Actual.Amount
 @type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01002069
-rdfs:comment | An actual monetary value of the trade allowance charge.
-edi3:cefactBieDomainClass | [cefact:Trade_AllowanceCharge.Details](#Trade_AllowanceCharge.Details)
-edi3:cefactBusinessProcess | Trade
+edi3:cefactUNId | cefact:UN01003501
+rdfs:comment | An actual monetary value added or subtracted as a result of this delivery adjustment.
+edi3:cefactBieDomainClass | [cefact:Delivery_Adjustment.Details](#Delivery_Adjustment.Details)
+edi3:cefactBusinessProcess | Buy-Ship-Pay
 
 @id | cefact:Financial_Adjustment.Actual.Amount
 @type | edi3:BasicBIE
@@ -8715,6 +8708,13 @@ edi3:cefactUNId | cefact:UN01003597
 rdfs:comment | An actual monetary value added or subtracted as a result of this financial adjustment.
 edi3:cefactBieDomainClass | [cefact:Financial_Adjustment.Details](#Financial_Adjustment.Details)
 edi3:cefactBusinessProcess | In All Contexts
+
+@id | cefact:Trade_AllowanceCharge.Actual.Amount
+@type | edi3:BasicBIE
+edi3:cefactUNId | cefact:UN01002069
+rdfs:comment | An actual monetary value of the trade allowance charge.
+edi3:cefactBieDomainClass | [cefact:Trade_AllowanceCharge.Details](#Trade_AllowanceCharge.Details)
+edi3:cefactBusinessProcess | Trade
 
 
 
@@ -8761,18 +8761,18 @@ rdfs:comment | The actual date, time, date time, or other date time value of thi
 edi3:cefactBieDomainClass | [cefact:Delivery_Adjustment.Details](#Delivery_Adjustment.Details)
 edi3:cefactBusinessProcess | Buy-Ship-Pay
 
-@id | cefact:Financial_Adjustment.Actual.DateTime
-@type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01003599
-rdfs:comment | The actual date, time, date time, or other date time value of this financial adjustment.
-edi3:cefactBieDomainClass | [cefact:Financial_Adjustment.Details](#Financial_Adjustment.Details)
-edi3:cefactBusinessProcess | In All Contexts
-
 @id | cefact:Document_Authentication.Actual.DateTime
 @type | edi3:BasicBIE
 edi3:cefactUNId | cefact:UN01002641
 rdfs:comment | The actual date, time, date time, or other date time value of this document authentication.
 edi3:cefactBieDomainClass | [cefact:Document_Authentication.Details](#Document_Authentication.Details)
+edi3:cefactBusinessProcess | In All Contexts
+
+@id | cefact:Financial_Adjustment.Actual.DateTime
+@type | edi3:BasicBIE
+edi3:cefactUNId | cefact:UN01003599
+rdfs:comment | The actual date, time, date time, or other date time value of this financial adjustment.
+edi3:cefactBieDomainClass | [cefact:Financial_Adjustment.Details](#Financial_Adjustment.Details)
 edi3:cefactBusinessProcess | In All Contexts
 
 
@@ -9053,18 +9053,18 @@ Domains:
 
 Cefact Element Metadata: 
 
-@id | cefact:Header_TradeDelivery.Actual_Pick-Up.SupplyChain_Event
-@type | edi3:AssociationBIE
-edi3:cefactUNId | cefact:UN01011624
-rdfs:comment | The actual pick-up event, at header level, for this trade delivery.
-edi3:cefactBieDomainClass | [cefact:Header_TradeDelivery.Details](#Header_TradeDelivery.Details)
-edi3:cefactBusinessProcess | Buy-Ship-Pay
-
 @id | cefact:Line_TradeDelivery.Actual_Pick-Up.SupplyChain_Event
 @type | edi3:AssociationBIE
 edi3:cefactUNId | cefact:UN01011787
 rdfs:comment | The actual pick-up event, at line level, for this trade delivery.
 edi3:cefactBieDomainClass | [cefact:Line_TradeDelivery.Details](#Line_TradeDelivery.Details)
+edi3:cefactBusinessProcess | Buy-Ship-Pay
+
+@id | cefact:Header_TradeDelivery.Actual_Pick-Up.SupplyChain_Event
+@type | edi3:AssociationBIE
+edi3:cefactUNId | cefact:UN01011624
+rdfs:comment | The actual pick-up event, at header level, for this trade delivery.
+edi3:cefactBieDomainClass | [cefact:Header_TradeDelivery.Details](#Header_TradeDelivery.Details)
 edi3:cefactBusinessProcess | Buy-Ship-Pay
 
 
@@ -9085,19 +9085,12 @@ Domains:
 
 Cefact Element Metadata: 
 
-@id | cefact:Delivery_Adjustment.Actual.Quantity
+@id | cefact:WorkItem_QuantityAnalysis.Actual.Quantity
 @type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01003502
-rdfs:comment | The actual quantity added or subtracted as a result of this delivery adjustment.
-edi3:cefactBieDomainClass | [cefact:Delivery_Adjustment.Details](#Delivery_Adjustment.Details)
-edi3:cefactBusinessProcess | Buy-Ship-Pay
-
-@id | cefact:SupplyChain_SupplyPlan.Actual.Quantity
-@type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01004327
-rdfs:comment | The actual quantity in this supply chain supply plan.
-edi3:cefactBieDomainClass | [cefact:Supply Chain_SupplyPlan.Details](#Supply Chain_SupplyPlan.Details)
-edi3:cefactBusinessProcess | Buy-Ship-Pay
+edi3:cefactUNId | cefact:UN01000017
+rdfs:comment | The actual quantity for this work item quantity analysis.
+edi3:cefactBieDomainClass | [cefact:Work Item_QuantityAnalysis.Details](#Work Item_QuantityAnalysis.Details)
+edi3:cefactBusinessProcess | In All Contexts
 
 @id | cefact:Financial_Adjustment.Actual.Quantity
 @type | edi3:BasicBIE
@@ -9106,12 +9099,19 @@ rdfs:comment | The actual quantity added or subtracted as a result of this finan
 edi3:cefactBieDomainClass | [cefact:Financial_Adjustment.Details](#Financial_Adjustment.Details)
 edi3:cefactBusinessProcess | In All Contexts
 
-@id | cefact:WorkItem_QuantityAnalysis.Actual.Quantity
+@id | cefact:SupplyChain_SupplyPlan.Actual.Quantity
 @type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01000017
-rdfs:comment | The actual quantity for this work item quantity analysis.
-edi3:cefactBieDomainClass | [cefact:Work Item_QuantityAnalysis.Details](#Work Item_QuantityAnalysis.Details)
-edi3:cefactBusinessProcess | In All Contexts
+edi3:cefactUNId | cefact:UN01004327
+rdfs:comment | The actual quantity in this supply chain supply plan.
+edi3:cefactBieDomainClass | [cefact:Supply Chain_SupplyPlan.Details](#Supply Chain_SupplyPlan.Details)
+edi3:cefactBusinessProcess | Buy-Ship-Pay
+
+@id | cefact:Delivery_Adjustment.Actual.Quantity
+@type | edi3:BasicBIE
+edi3:cefactUNId | cefact:UN01003502
+rdfs:comment | The actual quantity added or subtracted as a result of this delivery adjustment.
+edi3:cefactBieDomainClass | [cefact:Delivery_Adjustment.Details](#Delivery_Adjustment.Details)
+edi3:cefactBusinessProcess | Buy-Ship-Pay
 
 @id | cefact:Trade_ProductInstance.Actual.Quantity
 @type | edi3:BasicBIE
@@ -9274,18 +9274,18 @@ Domains:
 
 Cefact Element Metadata: 
 
-@id | cefact:Header_TradeDelivery.Actual_Unloading.SupplyChain_Event
-@type | edi3:AssociationBIE
-edi3:cefactUNId | cefact:UN01013430
-rdfs:comment | The actual unloading event, at header level, for this trade delivery.
-edi3:cefactBieDomainClass | [cefact:Header_TradeDelivery.Details](#Header_TradeDelivery.Details)
-edi3:cefactBusinessProcess | Buy-Ship-Pay
-
 @id | cefact:Line_TradeDelivery.Actual_Unloading.SupplyChain_Event
 @type | edi3:AssociationBIE
 edi3:cefactUNId | cefact:UN01013457
 rdfs:comment | The actual unloading event, at line level, for this trade delivery.
 edi3:cefactBieDomainClass | [cefact:Line_TradeDelivery.Details](#Line_TradeDelivery.Details)
+edi3:cefactBusinessProcess | Buy-Ship-Pay
+
+@id | cefact:Header_TradeDelivery.Actual_Unloading.SupplyChain_Event
+@type | edi3:AssociationBIE
+edi3:cefactUNId | cefact:UN01013430
+rdfs:comment | The actual unloading event, at header level, for this trade delivery.
+edi3:cefactBieDomainClass | [cefact:Header_TradeDelivery.Details](#Header_TradeDelivery.Details)
 edi3:cefactBusinessProcess | Buy-Ship-Pay
 
 
@@ -9421,19 +9421,19 @@ Domains:
 
 Cefact Element Metadata: 
 
-@id | cefact:Trade_Product.Additional_Description.Text
-@type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01007253
-rdfs:comment | An additional textual description for this trade product.
-edi3:cefactBieDomainClass | [cefact:Trade_Product.Details](#Trade_Product.Details)
-edi3:cefactBusinessProcess | Buy-Ship-Pay
-
 @id | cefact:Payment_TradeSettlement.Additional_Description.Text
 @type | edi3:BasicBIE
 edi3:cefactUNId | cefact:UN01003272
 rdfs:comment | The description, expressed as text, of additional information supplied to enable the matching of an entry with the items that the payment is intended to settle.
 edi3:cefactBieDomainClass | [cefact:Payment_TradeSettlement.Details](#Payment_TradeSettlement.Details)
 edi3:cefactBusinessProcess | Customer to bank payment initiation
+
+@id | cefact:Trade_Product.Additional_Description.Text
+@type | edi3:BasicBIE
+edi3:cefactUNId | cefact:UN01007253
+rdfs:comment | An additional textual description for this trade product.
+edi3:cefactBieDomainClass | [cefact:Trade_Product.Details](#Trade_Product.Details)
+edi3:cefactBusinessProcess | Buy-Ship-Pay
 
 
 
@@ -9628,13 +9628,6 @@ Domains:
 
 Cefact Element Metadata: 
 
-@id | cefact:Header_TradeAgreement.Additional.Referenced_Document
-@type | edi3:AssociationBIE
-edi3:cefactUNId | cefact:UN01011575
-rdfs:comment | An additional document referenced in this header trade agreement.
-edi3:cefactBieDomainClass | [cefact:Header_TradeAgreement.Details](#Header_TradeAgreement.Details)
-edi3:cefactBusinessProcess | Trade
-
 @id | cefact:Header_TradeDelivery.Additional.Referenced_Document
 @type | edi3:AssociationBIE
 edi3:cefactUNId | cefact:UN01011631
@@ -9654,6 +9647,13 @@ edi3:cefactBusinessProcess | Trade
 edi3:cefactUNId | cefact:UN01011815
 rdfs:comment | An additional document referenced in this line trade settlement.
 edi3:cefactBieDomainClass | [cefact:Line_TradeSettlement.Details](#Line_TradeSettlement.Details)
+edi3:cefactBusinessProcess | Trade
+
+@id | cefact:Header_TradeAgreement.Additional.Referenced_Document
+@type | edi3:AssociationBIE
+edi3:cefactUNId | cefact:UN01011575
+rdfs:comment | An additional document referenced in this header trade agreement.
+edi3:cefactBieDomainClass | [cefact:Header_TradeAgreement.Details](#Header_TradeAgreement.Details)
 edi3:cefactBusinessProcess | Trade
 
 @id | cefact:SubordinateLine_TradeAgreement.Additional.Referenced_Document
@@ -9773,18 +9773,18 @@ Domains:
 
 Cefact Element Metadata: 
 
-@id | cefact:TradeSettlementPayment_MonetarySummation.Adjusted_BalanceOut.Amount
-@type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01011916
-rdfs:comment | A monetary value that is an adjusted amount balanced out for this trade settlement payment monetary summation.
-edi3:cefactBieDomainClass | [cefact:Trade Settlement Payment_MonetarySummation.Details](#Trade Settlement Payment_MonetarySummation.Details)
-edi3:cefactBusinessProcess | Buy-Ship-Pay
-
 @id | cefact:TradeSettlementHeader_MonetarySummation.Adjusted_BalanceOut.Amount
 @type | edi3:BasicBIE
 edi3:cefactUNId | cefact:UN01011894
 rdfs:comment | A monetary value that is an adjusted amount balanced out for this trade settlement header monetary summation.
 edi3:cefactBieDomainClass | [cefact:Trade Settlement Header_MonetarySummation.Details](#Trade Settlement Header_MonetarySummation.Details)
+edi3:cefactBusinessProcess | Buy-Ship-Pay
+
+@id | cefact:TradeSettlementPayment_MonetarySummation.Adjusted_BalanceOut.Amount
+@type | edi3:BasicBIE
+edi3:cefactUNId | cefact:UN01011916
+rdfs:comment | A monetary value that is an adjusted amount balanced out for this trade settlement payment monetary summation.
+edi3:cefactBieDomainClass | [cefact:Trade Settlement Payment_MonetarySummation.Details](#Trade Settlement Payment_MonetarySummation.Details)
 edi3:cefactBusinessProcess | Buy-Ship-Pay
 
 
@@ -10154,6 +10154,13 @@ Domains:
 
 Cefact Element Metadata: 
 
+@id | cefact:Basic_WorkItem.Alternative_Classification.Code
+@type | edi3:BasicBIE
+edi3:cefactUNId | cefact:UN01000030
+rdfs:comment | A code specifying an alternative classification for this basic work item.
+edi3:cefactBieDomainClass | [cefact:Basic_WorkItem.Details](#Basic_WorkItem.Details)
+edi3:cefactBusinessProcess | In All Contexts
+
 @id | cefact:Grouped_WorkItem.Alternative_Classification.Code
 @type | edi3:BasicBIE
 edi3:cefactUNId | cefact:UN01000046
@@ -10166,13 +10173,6 @@ edi3:cefactBusinessProcess | In All Contexts
 edi3:cefactUNId | cefact:UN01000023
 rdfs:comment | A code specifying an alternative classification value for this work item quantity analysis.
 edi3:cefactBieDomainClass | [cefact:Work Item_QuantityAnalysis.Details](#Work Item_QuantityAnalysis.Details)
-edi3:cefactBusinessProcess | In All Contexts
-
-@id | cefact:Basic_WorkItem.Alternative_Classification.Code
-@type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01000030
-rdfs:comment | A code specifying an alternative classification for this basic work item.
-edi3:cefactBieDomainClass | [cefact:Basic_WorkItem.Details](#Basic_WorkItem.Details)
 edi3:cefactBusinessProcess | In All Contexts
 
 
@@ -10234,18 +10234,18 @@ Domains:
 
 Cefact Element Metadata: 
 
-@id | cefact:Specified_GeographicalCoordinate.Altitude.Measure
-@type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01002027
-rdfs:comment | The measure of the altitude that reflects the vertical elevation of an object above a surface for this specified geographical coordinate (Reference ISO 6709).
-edi3:cefactBieDomainClass | [cefact:Specified_GeographicalCoordinate.Details](#Specified_GeographicalCoordinate.Details)
-edi3:cefactBusinessProcess | In All Contexts
-
 @id | cefact:GeographicalCoordinate.Altitude.Measure
 @type | edi3:BasicBIE
 edi3:cefactUNId | cefact:UN01003617
 rdfs:comment | The measure of the altitude that reflects the vertical elevation of an object above a surface for this geographical coordinate (Reference ISO 6709).
 edi3:cefactBieDomainClass | [cefact:GeographicalCoordinate.Details](#GeographicalCoordinate.Details)
+edi3:cefactBusinessProcess | In All Contexts
+
+@id | cefact:Specified_GeographicalCoordinate.Altitude.Measure
+@type | edi3:BasicBIE
+edi3:cefactUNId | cefact:UN01002027
+rdfs:comment | The measure of the altitude that reflects the vertical elevation of an object above a surface for this specified geographical coordinate (Reference ISO 6709).
+edi3:cefactBieDomainClass | [cefact:Specified_GeographicalCoordinate.Details](#Specified_GeographicalCoordinate.Details)
 edi3:cefactBusinessProcess | In All Contexts
 
 
@@ -10353,13 +10353,6 @@ Domains:
 
 Cefact Element Metadata: 
 
-@id | cefact:SupplyChain_ConsignmentItem.Applicable.Cross-Border_CustomsValuation
-@type | edi3:AssociationBIE
-edi3:cefactUNId | cefact:UN01008998
-rdfs:comment | A customs valuation applicable to this supply chain consignment item.
-edi3:cefactBieDomainClass | [cefact:Supply Chain_ConsignmentItem.Details](#Supply Chain_ConsignmentItem.Details)
-edi3:cefactBusinessProcess | Buy-Ship-Pay
-
 @id | cefact:Exchanged_Declaration.Applicable.Cross-Border_CustomsValuation
 @type | edi3:AssociationBIE
 edi3:cefactUNId | cefact:UN01011023
@@ -10373,6 +10366,13 @@ edi3:cefactUNId | cefact:UN01009002
 rdfs:comment | A cross-border customs valuation applicable to this supply chain consignment.
 edi3:cefactBieDomainClass | [cefact:Supply Chain_Consignment.Details](#Supply Chain_Consignment.Details)
 edi3:cefactBusinessProcess | Cross-Border
+
+@id | cefact:SupplyChain_ConsignmentItem.Applicable.Cross-Border_CustomsValuation
+@type | edi3:AssociationBIE
+edi3:cefactUNId | cefact:UN01008998
+rdfs:comment | A customs valuation applicable to this supply chain consignment item.
+edi3:cefactBieDomainClass | [cefact:Supply Chain_ConsignmentItem.Details](#Supply Chain_ConsignmentItem.Details)
+edi3:cefactBusinessProcess | Buy-Ship-Pay
 
 
 
@@ -10392,26 +10392,19 @@ Domains:
 
 Cefact Element Metadata: 
 
-@id | cefact:Logistics_TransportMovement.Applicable.Cross-Border_RegulatoryProcedure
-@type | edi3:AssociationBIE
-edi3:cefactUNId | cefact:UN01006187
-rdfs:comment | A cross-border regulatory procedure applicable to this logistics transport movement.
-edi3:cefactBieDomainClass | [cefact:Logistics_TransportMovement.Details](#Logistics_TransportMovement.Details)
-edi3:cefactBusinessProcess | Buy-Ship-Pay
-
-@id | cefact:SupplyChain_Consignment.Applicable.Cross-Border_RegulatoryProcedure
-@type | edi3:AssociationBIE
-edi3:cefactUNId | cefact:UN01006189
-rdfs:comment | A cross-border regulatory procedure applicable to this supply chain consignment.
-edi3:cefactBieDomainClass | [cefact:Supply Chain_Consignment.Details](#Supply Chain_Consignment.Details)
-edi3:cefactBusinessProcess | Buy-Ship-Pay
-
 @id | cefact:Header_TradeAgreement.Applicable.Cross-Border_RegulatoryProcedure
 @type | edi3:AssociationBIE
 edi3:cefactUNId | cefact:UN01012123
 rdfs:comment | A cross-border regulatory procedure applicable to this header trade agreement.
 edi3:cefactBieDomainClass | [cefact:Header_TradeAgreement.Details](#Header_TradeAgreement.Details)
 edi3:cefactBusinessProcess | Trade
+
+@id | cefact:Logistics_TransportMovement.Applicable.Cross-Border_RegulatoryProcedure
+@type | edi3:AssociationBIE
+edi3:cefactUNId | cefact:UN01006187
+rdfs:comment | A cross-border regulatory procedure applicable to this logistics transport movement.
+edi3:cefactBieDomainClass | [cefact:Logistics_TransportMovement.Details](#Logistics_TransportMovement.Details)
+edi3:cefactBusinessProcess | Buy-Ship-Pay
 
 @id | cefact:Referenced_SupplyChain_Consignment.Applicable.Cross-Border_RegulatoryProcedure
 @type | edi3:AssociationBIE
@@ -10425,6 +10418,13 @@ edi3:cefactBusinessProcess | Buy-Ship-Pay
 edi3:cefactUNId | cefact:UN01006188
 rdfs:comment | A cross-border regulatory procedure applicable to this supply chain consignment item.
 edi3:cefactBieDomainClass | [cefact:Supply Chain_ConsignmentItem.Details](#Supply Chain_ConsignmentItem.Details)
+edi3:cefactBusinessProcess | Buy-Ship-Pay
+
+@id | cefact:SupplyChain_Consignment.Applicable.Cross-Border_RegulatoryProcedure
+@type | edi3:AssociationBIE
+edi3:cefactUNId | cefact:UN01006189
+rdfs:comment | A cross-border regulatory procedure applicable to this supply chain consignment.
+edi3:cefactBieDomainClass | [cefact:Supply Chain_Consignment.Details](#Supply Chain_Consignment.Details)
 edi3:cefactBusinessProcess | Buy-Ship-Pay
 
 
@@ -10653,20 +10653,6 @@ Domains:
 
 Cefact Element Metadata: 
 
-@id | cefact:Logistics_TransportMeans.Applicable.Logistics_ServiceCharge
-@type | edi3:AssociationBIE
-edi3:cefactUNId | cefact:UN01003832
-rdfs:comment | A service charge, such as a freight charge, applicable to this logistics means of transport.
-edi3:cefactBieDomainClass | [cefact:Logistics_TransportMeans.Details](#Logistics_TransportMeans.Details)
-edi3:cefactBusinessProcess | Buy-Ship-Pay
-
-@id | cefact:SupplyChain_ConsignmentItem.Applicable.Logistics_ServiceCharge
-@type | edi3:AssociationBIE
-edi3:cefactUNId | cefact:UN01004154
-rdfs:comment | A logistics service charge applicable to this supply chain consignment item.
-edi3:cefactBieDomainClass | [cefact:Supply Chain_ConsignmentItem.Details](#Supply Chain_ConsignmentItem.Details)
-edi3:cefactBusinessProcess | Buy-Ship-Pay
-
 @id | cefact:Logistics_TransportEquipment.Applicable.Logistics_ServiceCharge
 @type | edi3:AssociationBIE
 edi3:cefactUNId | cefact:UN01003801
@@ -10674,11 +10660,11 @@ rdfs:comment | A service charge applicable to this piece of logistics transport 
 edi3:cefactBieDomainClass | [cefact:Logistics_TransportEquipment.Details](#Logistics_TransportEquipment.Details)
 edi3:cefactBusinessProcess | Buy-Ship-Pay
 
-@id | cefact:Trade_Party.Applicable.Logistics_ServiceCharge
+@id | cefact:Logistics_TransportMeans.Applicable.Logistics_ServiceCharge
 @type | edi3:AssociationBIE
-edi3:cefactUNId | cefact:UN01009008
-rdfs:comment | A logistics service charge applicable to this trade party.
-edi3:cefactBieDomainClass | [cefact:Trade_Party.Details](#Trade_Party.Details)
+edi3:cefactUNId | cefact:UN01003832
+rdfs:comment | A service charge, such as a freight charge, applicable to this logistics means of transport.
+edi3:cefactBieDomainClass | [cefact:Logistics_TransportMeans.Details](#Logistics_TransportMeans.Details)
 edi3:cefactBusinessProcess | Buy-Ship-Pay
 
 @id | cefact:Logistics_TransportMovement.Applicable.Logistics_ServiceCharge
@@ -10688,11 +10674,25 @@ rdfs:comment | A service charge, such as a freight charge, applicable to this lo
 edi3:cefactBieDomainClass | [cefact:Logistics_TransportMovement.Details](#Logistics_TransportMovement.Details)
 edi3:cefactBusinessProcess | Buy-Ship-Pay
 
+@id | cefact:Trade_Party.Applicable.Logistics_ServiceCharge
+@type | edi3:AssociationBIE
+edi3:cefactUNId | cefact:UN01009008
+rdfs:comment | A logistics service charge applicable to this trade party.
+edi3:cefactBieDomainClass | [cefact:Trade_Party.Details](#Trade_Party.Details)
+edi3:cefactBusinessProcess | Buy-Ship-Pay
+
 @id | cefact:SupplyChain_Consignment.Applicable.Logistics_ServiceCharge
 @type | edi3:AssociationBIE
 edi3:cefactUNId | cefact:UN01004285
 rdfs:comment | A logistics service charge applicable to this supply chain consignment, such as freight or insurance charges.
 edi3:cefactBieDomainClass | [cefact:Supply Chain_Consignment.Details](#Supply Chain_Consignment.Details)
+edi3:cefactBusinessProcess | Buy-Ship-Pay
+
+@id | cefact:SupplyChain_ConsignmentItem.Applicable.Logistics_ServiceCharge
+@type | edi3:AssociationBIE
+edi3:cefactUNId | cefact:UN01004154
+rdfs:comment | A logistics service charge applicable to this supply chain consignment item.
+edi3:cefactBieDomainClass | [cefact:Supply Chain_ConsignmentItem.Details](#Supply Chain_ConsignmentItem.Details)
 edi3:cefactBusinessProcess | Buy-Ship-Pay
 
 
@@ -10773,20 +10773,6 @@ Domains:
 
 Cefact Element Metadata: 
 
-@id | cefact:SupplyChain_ConsignmentItem.Applicable.Note
-@type | edi3:AssociationBIE
-edi3:cefactUNId | cefact:UN01012577
-rdfs:comment | A note providing information applicable to this supply chain consignment item.
-edi3:cefactBieDomainClass | [cefact:Supply Chain_ConsignmentItem.Details](#Supply Chain_ConsignmentItem.Details)
-edi3:cefactBusinessProcess | Buy-Ship-Pay
-
-@id | cefact:Specified_Observation.Applicable.Note
-@type | edi3:AssociationBIE
-edi3:cefactUNId | cefact:UN01012574
-rdfs:comment | A note providing information applicable to this specified observation.
-edi3:cefactBieDomainClass | [cefact:Specified_Observation.Details](#Specified_Observation.Details)
-edi3:cefactBusinessProcess | In All Contexts
-
 @id | cefact:Transport_Event.Applicable.Note
 @type | edi3:AssociationBIE
 edi3:cefactUNId | cefact:UN01012582
@@ -10799,6 +10785,20 @@ edi3:cefactBusinessProcess | Buy-Ship-Pay
 edi3:cefactUNId | cefact:UN01012568
 rdfs:comment | A note providing information applicable to this piece of logistics transport equipment.
 edi3:cefactBieDomainClass | [cefact:Logistics_TransportEquipment.Details](#Logistics_TransportEquipment.Details)
+edi3:cefactBusinessProcess | Buy-Ship-Pay
+
+@id | cefact:Specified_Observation.Applicable.Note
+@type | edi3:AssociationBIE
+edi3:cefactUNId | cefact:UN01012574
+rdfs:comment | A note providing information applicable to this specified observation.
+edi3:cefactBieDomainClass | [cefact:Specified_Observation.Details](#Specified_Observation.Details)
+edi3:cefactBusinessProcess | In All Contexts
+
+@id | cefact:SupplyChain_ConsignmentItem.Applicable.Note
+@type | edi3:AssociationBIE
+edi3:cefactUNId | cefact:UN01012577
+rdfs:comment | A note providing information applicable to this supply chain consignment item.
+edi3:cefactBieDomainClass | [cefact:Supply Chain_ConsignmentItem.Details](#Supply Chain_ConsignmentItem.Details)
 edi3:cefactBusinessProcess | Buy-Ship-Pay
 
 
@@ -11031,19 +11031,19 @@ Domains:
 
 Cefact Element Metadata: 
 
-@id | cefact:SupplyChain_SupplyPlan.Applicable.Specified_Period
-@type | edi3:AssociationBIE
-edi3:cefactUNId | cefact:UN01011859
-rdfs:comment | The period applicable for this supply chain supply plan.
-edi3:cefactBieDomainClass | [cefact:Supply Chain_SupplyPlan.Details](#Supply Chain_SupplyPlan.Details)
-edi3:cefactBusinessProcess | Trade
-
 @id | cefact:Cross-Border_RegulatoryProcedure.Applicable.Specified_Period
 @type | edi3:AssociationBIE
 edi3:cefactUNId | cefact:UN01008967
 rdfs:comment | A period applicable to this cross-border regulatory procedure.
 edi3:cefactBieDomainClass | [cefact:Cross-Border_RegulatoryProcedure.Details](#Cross-Border_RegulatoryProcedure.Details)
 edi3:cefactBusinessProcess | Buy-Ship-Pay
+
+@id | cefact:SupplyChain_SupplyPlan.Applicable.Specified_Period
+@type | edi3:AssociationBIE
+edi3:cefactUNId | cefact:UN01011859
+rdfs:comment | The period applicable for this supply chain supply plan.
+edi3:cefactBieDomainClass | [cefact:Supply Chain_SupplyPlan.Details](#Supply Chain_SupplyPlan.Details)
+edi3:cefactBusinessProcess | Trade
 
 
 
@@ -11082,18 +11082,18 @@ Domains:
 
 Cefact Element Metadata: 
 
-@id | cefact:Header_TradeAgreement.Applicable.SupplyChain_ForecastTerms
-@type | edi3:AssociationBIE
-edi3:cefactUNId | cefact:UN01011562
-rdfs:comment | The supply chain forecast terms applicable to this header trade agreement.
-edi3:cefactBieDomainClass | [cefact:Header_TradeAgreement.Details](#Header_TradeAgreement.Details)
-edi3:cefactBusinessProcess | Buy-Ship-Pay
-
 @id | cefact:Line_TradeAgreement.Applicable.SupplyChain_ForecastTerms
 @type | edi3:AssociationBIE
 edi3:cefactUNId | cefact:UN01012562
 rdfs:comment | The supply chain forecast terms applicable to this line trade agreement.
 edi3:cefactBieDomainClass | [cefact:Line_TradeAgreement.Details](#Line_TradeAgreement.Details)
+edi3:cefactBusinessProcess | Buy-Ship-Pay
+
+@id | cefact:Header_TradeAgreement.Applicable.SupplyChain_ForecastTerms
+@type | edi3:AssociationBIE
+edi3:cefactUNId | cefact:UN01011562
+rdfs:comment | The supply chain forecast terms applicable to this header trade agreement.
+edi3:cefactBieDomainClass | [cefact:Header_TradeAgreement.Details](#Header_TradeAgreement.Details)
 edi3:cefactBusinessProcess | Buy-Ship-Pay
 
 
@@ -11157,11 +11157,11 @@ Domains:
 
 Cefact Element Metadata: 
 
-@id | cefact:Cross-Border_CustomsValuation.Applicable.Trade_CurrencyExchange
+@id | cefact:SupplyChain_Consignment.Applicable.Trade_CurrencyExchange
 @type | edi3:AssociationBIE
-edi3:cefactUNId | cefact:UN01003497
-rdfs:comment | The trade related currency exchange applicable to this cross-border customs valuation.
-edi3:cefactBieDomainClass | [cefact:Cross-Border_CustomsValuation.Details](#Cross-Border_CustomsValuation.Details)
+edi3:cefactUNId | cefact:UN01004279
+rdfs:comment | A currency exchange applicable to this supply chain consignment.
+edi3:cefactBieDomainClass | [cefact:Supply Chain_Consignment.Details](#Supply Chain_Consignment.Details)
 edi3:cefactBusinessProcess | Buy-Ship-Pay
 
 @id | cefact:Cross-Border_RegulatoryProcedure.Applicable.Trade_CurrencyExchange
@@ -11171,11 +11171,11 @@ rdfs:comment | The applicable currency exchange for this cross-border regulatory
 edi3:cefactBieDomainClass | [cefact:Cross-Border_RegulatoryProcedure.Details](#Cross-Border_RegulatoryProcedure.Details)
 edi3:cefactBusinessProcess | Buy-Ship-Pay
 
-@id | cefact:SupplyChain_Consignment.Applicable.Trade_CurrencyExchange
+@id | cefact:Cross-Border_CustomsValuation.Applicable.Trade_CurrencyExchange
 @type | edi3:AssociationBIE
-edi3:cefactUNId | cefact:UN01004279
-rdfs:comment | A currency exchange applicable to this supply chain consignment.
-edi3:cefactBieDomainClass | [cefact:Supply Chain_Consignment.Details](#Supply Chain_Consignment.Details)
+edi3:cefactUNId | cefact:UN01003497
+rdfs:comment | The trade related currency exchange applicable to this cross-border customs valuation.
+edi3:cefactBieDomainClass | [cefact:Cross-Border_CustomsValuation.Details](#Cross-Border_CustomsValuation.Details)
 edi3:cefactBusinessProcess | Buy-Ship-Pay
 
 
@@ -11355,6 +11355,13 @@ Domains:
 
 Cefact Element Metadata: 
 
+@id | cefact:Line_TradeSettlement.Applicable.Trade_Tax
+@type | edi3:AssociationBIE
+edi3:cefactUNId | cefact:UN01011806
+rdfs:comment | A tax applicable to this line trade settlement.
+edi3:cefactBieDomainClass | [cefact:Line_TradeSettlement.Details](#Line_TradeSettlement.Details)
+edi3:cefactBusinessProcess | Buy-Ship-Pay
+
 @id | cefact:Payment_TradeSettlement.Applicable.Trade_Tax
 @type | edi3:AssociationBIE
 edi3:cefactUNId | cefact:UN01011842
@@ -11374,13 +11381,6 @@ edi3:cefactBusinessProcess | Buy-Ship-Pay
 edi3:cefactUNId | cefact:UN01006177
 rdfs:comment | A tax, levy or duty applicable to this cross-border regulatory procedure.
 edi3:cefactBieDomainClass | [cefact:Cross-Border_RegulatoryProcedure.Details](#Cross-Border_RegulatoryProcedure.Details)
-edi3:cefactBusinessProcess | Buy-Ship-Pay
-
-@id | cefact:Line_TradeSettlement.Applicable.Trade_Tax
-@type | edi3:AssociationBIE
-edi3:cefactUNId | cefact:UN01011806
-rdfs:comment | A tax applicable to this line trade settlement.
-edi3:cefactBieDomainClass | [cefact:Line_TradeSettlement.Details](#Line_TradeSettlement.Details)
 edi3:cefactBusinessProcess | Buy-Ship-Pay
 
 @id | cefact:Header_TradeSettlement.Applicable.Trade_Tax
@@ -11425,18 +11425,18 @@ Domains:
 
 [edi3:ConsignmentItem](#ConsignmentItem)
 [edi3:TradeDelivery](#TradeDelivery)
-[edi3:Consignment](#Consignment)
 [edi3:Product](#Product)
+[edi3:Consignment](#Consignment)
 [edi3:RegulatedGoods](#RegulatedGoods)
 
 Cefact Element Metadata: 
 
-@id | cefact:SupplyChain_ConsignmentItem.Applicable.Transport_DangerousGoods
+@id | cefact:Referenced_SupplyChain_ConsignmentItem.Applicable.Transport_DangerousGoods
 @type | edi3:AssociationBIE
-edi3:cefactUNId | cefact:UN01004131
-rdfs:comment | Dangerous goods transport details applicable to this supply chain consignment item.
-edi3:cefactBieDomainClass | [cefact:Supply Chain_ConsignmentItem.Details](#Supply Chain_ConsignmentItem.Details)
-edi3:cefactBusinessProcess | Buy-Ship-Pay
+edi3:cefactUNId | cefact:UN01011531
+rdfs:comment | Dangerous goods transport details applicable to this referenced supply chain consignment item.
+edi3:cefactBieDomainClass | [cefact:Referenced_ Supply Chain_ConsignmentItem.Details](#Referenced_ Supply Chain_ConsignmentItem.Details)
+edi3:cefactBusinessProcess | In All Contexts
 
 @id | cefact:Line_TradeDelivery.Applicable.Transport_DangerousGoods
 @type | edi3:AssociationBIE
@@ -11444,13 +11444,6 @@ edi3:cefactUNId | cefact:UN01011798
 rdfs:comment | The transport dangerous goods details, at line level, applicable to this trade delivery.
 edi3:cefactBieDomainClass | [cefact:Line_TradeDelivery.Details](#Line_TradeDelivery.Details)
 edi3:cefactBusinessProcess | Supply Chain
-
-@id | cefact:SupplyChain_Consignment.Applicable.Transport_DangerousGoods
-@type | edi3:AssociationBIE
-edi3:cefactUNId | cefact:UN01006205
-rdfs:comment | Dangerous goods applicable to the transport of this supply chain consignment.
-edi3:cefactBieDomainClass | [cefact:Supply Chain_Consignment.Details](#Supply Chain_Consignment.Details)
-edi3:cefactBusinessProcess | Cross-Border
 
 @id | cefact:Trade_Product.Applicable.Transport_DangerousGoods
 @type | edi3:AssociationBIE
@@ -11466,12 +11459,19 @@ rdfs:comment | Transport dangerous goods information applicable to these logisti
 edi3:cefactBieDomainClass | [cefact:Logistics_RegulatedGoods.Details](#Logistics_RegulatedGoods.Details)
 edi3:cefactBusinessProcess | Buy-Ship-Pay
 
-@id | cefact:Referenced_SupplyChain_ConsignmentItem.Applicable.Transport_DangerousGoods
+@id | cefact:SupplyChain_ConsignmentItem.Applicable.Transport_DangerousGoods
 @type | edi3:AssociationBIE
-edi3:cefactUNId | cefact:UN01011531
-rdfs:comment | Dangerous goods transport details applicable to this referenced supply chain consignment item.
-edi3:cefactBieDomainClass | [cefact:Referenced_ Supply Chain_ConsignmentItem.Details](#Referenced_ Supply Chain_ConsignmentItem.Details)
-edi3:cefactBusinessProcess | In All Contexts
+edi3:cefactUNId | cefact:UN01004131
+rdfs:comment | Dangerous goods transport details applicable to this supply chain consignment item.
+edi3:cefactBieDomainClass | [cefact:Supply Chain_ConsignmentItem.Details](#Supply Chain_ConsignmentItem.Details)
+edi3:cefactBusinessProcess | Buy-Ship-Pay
+
+@id | cefact:SupplyChain_Consignment.Applicable.Transport_DangerousGoods
+@type | edi3:AssociationBIE
+edi3:cefactUNId | cefact:UN01006205
+rdfs:comment | Dangerous goods applicable to the transport of this supply chain consignment.
+edi3:cefactBieDomainClass | [cefact:Supply Chain_Consignment.Details](#Supply Chain_Consignment.Details)
+edi3:cefactBusinessProcess | Cross-Border
 
 
 
@@ -11908,19 +11908,19 @@ Domains:
 
 Cefact Element Metadata: 
 
-@id | cefact:SupplyChain_TradeTransaction.Associated.DocumentLine_Document
-@type | edi3:AssociationBIE
-edi3:cefactUNId | cefact:UN01008819
-rdfs:comment | The document line associated with this supply chain trade transaction.
-edi3:cefactBieDomainClass | [cefact:Supply Chain_TradeTransaction.Details](#Supply Chain_TradeTransaction.Details)
-edi3:cefactBusinessProcess | Supply Chain
-
 @id | cefact:Line_TradeSettlement.Associated.DocumentLine_Document
 @type | edi3:AssociationBIE
 edi3:cefactUNId | cefact:UN01011821
 rdfs:comment | A document line associated with this line trade settlement.
 edi3:cefactBieDomainClass | [cefact:Line_TradeSettlement.Details](#Line_TradeSettlement.Details)
 edi3:cefactBusinessProcess | Trade
+
+@id | cefact:SupplyChain_TradeTransaction.Associated.DocumentLine_Document
+@type | edi3:AssociationBIE
+edi3:cefactUNId | cefact:UN01008819
+rdfs:comment | The document line associated with this supply chain trade transaction.
+edi3:cefactBieDomainClass | [cefact:Supply Chain_TradeTransaction.Details](#Supply Chain_TradeTransaction.Details)
+edi3:cefactBusinessProcess | Supply Chain
 
 @id | cefact:SupplyChain_TradeLineItem.Associated.DocumentLine_Document
 @type | edi3:AssociationBIE
@@ -12058,11 +12058,11 @@ Domains:
 
 Cefact Element Metadata: 
 
-@id | cefact:Specified_Circle.Associated.Logistics_Location
+@id | cefact:Specified_GeographicalGrid.Associated.Logistics_Location
 @type | edi3:AssociationBIE
-edi3:cefactUNId | cefact:UN01013581
-rdfs:comment | A logistics location associated with this specified circle.
-edi3:cefactBieDomainClass | [cefact:Specified_Circle.Details](#Specified_Circle.Details)
+edi3:cefactUNId | cefact:UN01013624
+rdfs:comment | A logistics location associated with this specified geographical grid.
+edi3:cefactBieDomainClass | [cefact:Specified_GeographicalGrid.Details](#Specified_GeographicalGrid.Details)
 edi3:cefactBusinessProcess | In All Contexts
 
 @id | cefact:Specified_Polygon.Associated.Logistics_Location
@@ -12072,18 +12072,18 @@ rdfs:comment | A logistics location associated with this specified polygon.
 edi3:cefactBieDomainClass | [cefact:Specified_Polygon.Details](#Specified_Polygon.Details)
 edi3:cefactBusinessProcess | In All Contexts
 
-@id | cefact:Specified_GeographicalGrid.Associated.Logistics_Location
-@type | edi3:AssociationBIE
-edi3:cefactUNId | cefact:UN01013624
-rdfs:comment | A logistics location associated with this specified geographical grid.
-edi3:cefactBieDomainClass | [cefact:Specified_GeographicalGrid.Details](#Specified_GeographicalGrid.Details)
-edi3:cefactBusinessProcess | In All Contexts
-
 @id | cefact:Specified_GeographicalPoint.Associated.Logistics_Location
 @type | edi3:AssociationBIE
 edi3:cefactUNId | cefact:UN01013626
 rdfs:comment | A logistics location associated with this specified geographical point.
 edi3:cefactBieDomainClass | [cefact:Specified_GeographicalPoint.Details](#Specified_GeographicalPoint.Details)
+edi3:cefactBusinessProcess | In All Contexts
+
+@id | cefact:Specified_Circle.Associated.Logistics_Location
+@type | edi3:AssociationBIE
+edi3:cefactUNId | cefact:UN01013581
+rdfs:comment | A logistics location associated with this specified circle.
+edi3:cefactBieDomainClass | [cefact:Specified_Circle.Details](#Specified_Circle.Details)
 edi3:cefactBusinessProcess | In All Contexts
 
 @id | cefact:Specified_GeographicalLine.Associated.Logistics_Location
@@ -12149,8 +12149,8 @@ Range: [edi3:Document](#Document)
 Domains: 
 
 [edi3:TradeTransaction](#TradeTransaction)
-[edi3:ConsignmentItem](#ConsignmentItem)
 [edi3:TradeSettlement](#TradeSettlement)
+[edi3:ConsignmentItem](#ConsignmentItem)
 [edi3:Price](#Price)
 [edi3:TransportEquipment](#TransportEquipment)
 [edi3:Consignment](#Consignment)
@@ -12159,32 +12159,25 @@ Domains:
 
 Cefact Element Metadata: 
 
+@id | cefact:Line_TradeSettlement.Associated.Referenced_Document
+@type | edi3:AssociationBIE
+edi3:cefactUNId | cefact:UN01011822
+rdfs:comment | A document associated with this line trade settlement.
+edi3:cefactBieDomainClass | [cefact:Line_TradeSettlement.Details](#Line_TradeSettlement.Details)
+edi3:cefactBusinessProcess | Trade
+
+@id | cefact:Trade_Price.Associated.Referenced_Document
+@type | edi3:AssociationBIE
+edi3:cefactUNId | cefact:UN01011921
+rdfs:comment | An associated document referenced for this trade price.
+edi3:cefactBieDomainClass | [cefact:Trade_Price.Details](#Trade_Price.Details)
+edi3:cefactBusinessProcess | Trade
+
 @id | cefact:SupplyChain_Consignment.Associated.Referenced_Document
 @type | edi3:AssociationBIE
 edi3:cefactUNId | cefact:UN01004245
 rdfs:comment | A referenced document associated with this supply chain consignment, such as the certificate of origin or dangerous goods note.
 edi3:cefactBieDomainClass | [cefact:Supply Chain_Consignment.Details](#Supply Chain_Consignment.Details)
-edi3:cefactBusinessProcess | Buy-Ship-Pay
-
-@id | cefact:SupplyChain_ConsignmentItem.Associated.Referenced_Document
-@type | edi3:AssociationBIE
-edi3:cefactUNId | cefact:UN01004149
-rdfs:comment | A referenced document associated with this supply chain consignment item.
-edi3:cefactBieDomainClass | [cefact:Supply Chain_ConsignmentItem.Details](#Supply Chain_ConsignmentItem.Details)
-edi3:cefactBusinessProcess | Buy-Ship-Pay
-
-@id | cefact:SupplyChain_TradeTransaction.Associated.Referenced_Document
-@type | edi3:AssociationBIE
-edi3:cefactUNId | cefact:UN01004481
-rdfs:comment | A referenced document associated with this supply chain trade transaction, such as the purchase order, invoice or packing list.
-edi3:cefactBieDomainClass | [cefact:Supply Chain_TradeTransaction.Details](#Supply Chain_TradeTransaction.Details)
-edi3:cefactBusinessProcess | Buy-Ship-Pay
-
-@id | cefact:Referenced_SupplyChain_ConsignmentItem.Associated.Referenced_Document
-@type | edi3:AssociationBIE
-edi3:cefactUNId | cefact:UN01004039
-rdfs:comment | A referenced document associated with this referenced supply chain consignment item.
-edi3:cefactBieDomainClass | [cefact:Referenced_ Supply Chain_ConsignmentItem.Details](#Referenced_ Supply Chain_ConsignmentItem.Details)
 edi3:cefactBusinessProcess | Buy-Ship-Pay
 
 @id | cefact:Trade_CurrencyExchange.Associated.Referenced_Document
@@ -12194,12 +12187,12 @@ rdfs:comment | An associated document referenced for this trade related currency
 edi3:cefactBieDomainClass | [cefact:Trade_CurrencyExchange.Details](#Trade_CurrencyExchange.Details)
 edi3:cefactBusinessProcess | Trade
 
-@id | cefact:Line_TradeSettlement.Associated.Referenced_Document
+@id | cefact:SupplyChain_ConsignmentItem.Associated.Referenced_Document
 @type | edi3:AssociationBIE
-edi3:cefactUNId | cefact:UN01011822
-rdfs:comment | A document associated with this line trade settlement.
-edi3:cefactBieDomainClass | [cefact:Line_TradeSettlement.Details](#Line_TradeSettlement.Details)
-edi3:cefactBusinessProcess | Trade
+edi3:cefactUNId | cefact:UN01004149
+rdfs:comment | A referenced document associated with this supply chain consignment item.
+edi3:cefactBieDomainClass | [cefact:Supply Chain_ConsignmentItem.Details](#Supply Chain_ConsignmentItem.Details)
+edi3:cefactBusinessProcess | Buy-Ship-Pay
 
 @id | cefact:Logistics_TransportEquipment.Associated.Referenced_Document
 @type | edi3:AssociationBIE
@@ -12215,12 +12208,19 @@ rdfs:comment | A referenced document associated with this exchanged declaration.
 edi3:cefactBieDomainClass | [cefact:Exchanged_Declaration.Details](#Exchanged_Declaration.Details)
 edi3:cefactBusinessProcess | Buy-Ship-Pay
 
-@id | cefact:Trade_Price.Associated.Referenced_Document
+@id | cefact:Referenced_SupplyChain_ConsignmentItem.Associated.Referenced_Document
 @type | edi3:AssociationBIE
-edi3:cefactUNId | cefact:UN01011921
-rdfs:comment | An associated document referenced for this trade price.
-edi3:cefactBieDomainClass | [cefact:Trade_Price.Details](#Trade_Price.Details)
-edi3:cefactBusinessProcess | Trade
+edi3:cefactUNId | cefact:UN01004039
+rdfs:comment | A referenced document associated with this referenced supply chain consignment item.
+edi3:cefactBieDomainClass | [cefact:Referenced_ Supply Chain_ConsignmentItem.Details](#Referenced_ Supply Chain_ConsignmentItem.Details)
+edi3:cefactBusinessProcess | Buy-Ship-Pay
+
+@id | cefact:SupplyChain_TradeTransaction.Associated.Referenced_Document
+@type | edi3:AssociationBIE
+edi3:cefactUNId | cefact:UN01004481
+rdfs:comment | A referenced document associated with this supply chain trade transaction, such as the purchase order, invoice or packing list.
+edi3:cefactBieDomainClass | [cefact:Supply Chain_TradeTransaction.Details](#Supply Chain_TradeTransaction.Details)
+edi3:cefactBusinessProcess | Buy-Ship-Pay
 
 
 
@@ -12299,6 +12299,13 @@ Domains:
 
 Cefact Element Metadata: 
 
+@id | cefact:Specified_GeographicalMulti-Curve.Associated.Specified_DirectPositionList
+@type | edi3:AssociationBIE
+edi3:cefactUNId | cefact:UN01012191
+rdfs:comment | The direct position list associated with this geographical multi-curve.
+edi3:cefactBieDomainClass | [cefact:Specified_GeographicalMultiCurve.Details](#Specified_GeographicalMultiCurve.Details)
+edi3:cefactBusinessProcess | Agricultural
+
 @id | cefact:Specified_GeographicalLine.Associated.Specified_DirectPositionList
 @type | edi3:AssociationBIE
 edi3:cefactUNId | cefact:UN01012188
@@ -12311,13 +12318,6 @@ edi3:cefactBusinessProcess | Agricultural
 edi3:cefactUNId | cefact:UN01012184
 rdfs:comment | The direct position list associated with this geographical multi-point.
 edi3:cefactBieDomainClass | [cefact:Specified_GeographicalMultiPoint.Details](#Specified_GeographicalMultiPoint.Details)
-edi3:cefactBusinessProcess | Agricultural
-
-@id | cefact:Specified_GeographicalMulti-Curve.Associated.Specified_DirectPositionList
-@type | edi3:AssociationBIE
-edi3:cefactUNId | cefact:UN01012191
-rdfs:comment | The direct position list associated with this geographical multi-curve.
-edi3:cefactBieDomainClass | [cefact:Specified_GeographicalMultiCurve.Details](#Specified_GeographicalMultiCurve.Details)
 edi3:cefactBusinessProcess | Agricultural
 
 @id | cefact:Specified_GeographicalPoint.Associated.Specified_DirectPositionList
@@ -12343,6 +12343,13 @@ Domains:
 
 Cefact Element Metadata: 
 
+@id | cefact:Transport_Event.Associated.Specified_GeographicalFeature
+@type | edi3:AssociationBIE
+edi3:cefactUNId | cefact:UN01013587
+rdfs:comment | A geographical feature associated with this transport event.
+edi3:cefactBieDomainClass | [cefact:Transport_Event.Details](#Transport_Event.Details)
+edi3:cefactBusinessProcess | Buy-Ship-Pay
+
 @id | cefact:Logistics_Location.Associated.Specified_GeographicalFeature
 @type | edi3:AssociationBIE
 edi3:cefactUNId | cefact:UN01013608
@@ -12356,13 +12363,6 @@ edi3:cefactUNId | cefact:UN01013570
 rdfs:comment | A geographical feature associated with this communication event.
 edi3:cefactBieDomainClass | [cefact:Communication_Event.Details](#Communication_Event.Details)
 edi3:cefactBusinessProcess | In All Contexts
-
-@id | cefact:Transport_Event.Associated.Specified_GeographicalFeature
-@type | edi3:AssociationBIE
-edi3:cefactUNId | cefact:UN01013587
-rdfs:comment | A geographical feature associated with this transport event.
-edi3:cefactBieDomainClass | [cefact:Transport_Event.Details](#Transport_Event.Details)
-edi3:cefactBusinessProcess | Buy-Ship-Pay
 
 
 
@@ -12378,21 +12378,63 @@ Domains:
 [edi3:GeographicalPoint](#GeographicalPoint)
 [edi3:Circle](#Circle)
 [edi3:GeographicalMultiCurve](#GeographicalMultiCurve)
+[edi3:LinearRing](#LinearRing)
 [edi3:Polygon](#Polygon)
 [edi3:GeographicalSurface](#GeographicalSurface)
-[edi3:LinearRing](#LinearRing)
 [edi3:GeographicalMultiSurface](#GeographicalMultiSurface)
 [edi3:GeographicalMultiPoint](#GeographicalMultiPoint)
-[edi3:GeographicalGrid](#GeographicalGrid)
 [edi3:GeographicalLine](#GeographicalLine)
+[edi3:GeographicalGrid](#GeographicalGrid)
 
 Cefact Element Metadata: 
 
-@id | cefact:Specified_GeographicalGrid.Associated.Specified_GeographicalObjectCharacteristic
+@id | cefact:Specified_LinearRing.Associated.Specified_GeographicalObjectCharacteristic
 @type | edi3:AssociationBIE
-edi3:cefactUNId | cefact:UN01012211
-rdfs:comment | The geographical object characteristic associated with this geographical grid.
-edi3:cefactBieDomainClass | [cefact:Specified_GeographicalGrid.Details](#Specified_GeographicalGrid.Details)
+edi3:cefactUNId | cefact:UN01012194
+rdfs:comment | The geographical object characteristic associated with this linear ring.
+edi3:cefactBieDomainClass | [cefact:Specified_LinearRing.Details](#Specified_LinearRing.Details)
+edi3:cefactBusinessProcess | Agricultural
+
+@id | cefact:Specified_GeographicalLine.Associated.Specified_GeographicalObjectCharacteristic
+@type | edi3:AssociationBIE
+edi3:cefactUNId | cefact:UN01012189
+rdfs:comment | The geographical object characteristic associated with this geographical line.
+edi3:cefactBieDomainClass | [cefact:Specified_GeographicalLine.Details](#Specified_GeographicalLine.Details)
+edi3:cefactBusinessProcess | Agricultural
+
+@id | cefact:Specified_Circle.Associated.Specified_GeographicalObjectCharacteristic
+@type | edi3:AssociationBIE
+edi3:cefactUNId | cefact:UN01013580
+rdfs:comment | The geographical object characteristic associated with this specified circle.
+edi3:cefactBieDomainClass | [cefact:Specified_Circle.Details](#Specified_Circle.Details)
+edi3:cefactBusinessProcess | In All Contexts
+
+@id | cefact:Specified_Polygon.Associated.Specified_GeographicalObjectCharacteristic
+@type | edi3:AssociationBIE
+edi3:cefactUNId | cefact:UN01012195
+rdfs:comment | The geographical object characteristic associated with this specified polygon.
+edi3:cefactBieDomainClass | [cefact:Specified_Polygon.Details](#Specified_Polygon.Details)
+edi3:cefactBusinessProcess | Agricultural
+
+@id | cefact:Specified_GeographicalSurface.Associated.Specified_GeographicalObjectCharacteristic
+@type | edi3:AssociationBIE
+edi3:cefactUNId | cefact:UN01012200
+rdfs:comment | The geographical object characteristic associated with this geographical surface.
+edi3:cefactBieDomainClass | [cefact:Specified_GeographicalSurface.Details](#Specified_GeographicalSurface.Details)
+edi3:cefactBusinessProcess | Agricultural
+
+@id | cefact:Specified_GeographicalMulti-Point.Associated.Specified_GeographicalObjectCharacteristic
+@type | edi3:AssociationBIE
+edi3:cefactUNId | cefact:UN01012185
+rdfs:comment | The geographical object characteristic associated with this geographical multi-point.
+edi3:cefactBieDomainClass | [cefact:Specified_GeographicalMultiPoint.Details](#Specified_GeographicalMultiPoint.Details)
+edi3:cefactBusinessProcess | Agricultural
+
+@id | cefact:Specified_GeographicalMulti-Curve.Associated.Specified_GeographicalObjectCharacteristic
+@type | edi3:AssociationBIE
+edi3:cefactUNId | cefact:UN01012192
+rdfs:comment | The geographical object characteristic associated with this geographical multi-curve.
+edi3:cefactBieDomainClass | [cefact:Specified_GeographicalMultiCurve.Details](#Specified_GeographicalMultiCurve.Details)
 edi3:cefactBusinessProcess | Agricultural
 
 @id | cefact:Specified_GeographicalPoint.Associated.Specified_GeographicalObjectCharacteristic
@@ -12409,53 +12451,11 @@ rdfs:comment | The geographical object characteristic associated with this geogr
 edi3:cefactBieDomainClass | [cefact:Specified_GeographicalMultiSurface.Details](#Specified_GeographicalMultiSurface.Details)
 edi3:cefactBusinessProcess | Agricultural
 
-@id | cefact:Specified_Circle.Associated.Specified_GeographicalObjectCharacteristic
+@id | cefact:Specified_GeographicalGrid.Associated.Specified_GeographicalObjectCharacteristic
 @type | edi3:AssociationBIE
-edi3:cefactUNId | cefact:UN01013580
-rdfs:comment | The geographical object characteristic associated with this specified circle.
-edi3:cefactBieDomainClass | [cefact:Specified_Circle.Details](#Specified_Circle.Details)
-edi3:cefactBusinessProcess | In All Contexts
-
-@id | cefact:Specified_GeographicalMulti-Point.Associated.Specified_GeographicalObjectCharacteristic
-@type | edi3:AssociationBIE
-edi3:cefactUNId | cefact:UN01012185
-rdfs:comment | The geographical object characteristic associated with this geographical multi-point.
-edi3:cefactBieDomainClass | [cefact:Specified_GeographicalMultiPoint.Details](#Specified_GeographicalMultiPoint.Details)
-edi3:cefactBusinessProcess | Agricultural
-
-@id | cefact:Specified_Polygon.Associated.Specified_GeographicalObjectCharacteristic
-@type | edi3:AssociationBIE
-edi3:cefactUNId | cefact:UN01012195
-rdfs:comment | The geographical object characteristic associated with this specified polygon.
-edi3:cefactBieDomainClass | [cefact:Specified_Polygon.Details](#Specified_Polygon.Details)
-edi3:cefactBusinessProcess | Agricultural
-
-@id | cefact:Specified_GeographicalMulti-Curve.Associated.Specified_GeographicalObjectCharacteristic
-@type | edi3:AssociationBIE
-edi3:cefactUNId | cefact:UN01012192
-rdfs:comment | The geographical object characteristic associated with this geographical multi-curve.
-edi3:cefactBieDomainClass | [cefact:Specified_GeographicalMultiCurve.Details](#Specified_GeographicalMultiCurve.Details)
-edi3:cefactBusinessProcess | Agricultural
-
-@id | cefact:Specified_GeographicalSurface.Associated.Specified_GeographicalObjectCharacteristic
-@type | edi3:AssociationBIE
-edi3:cefactUNId | cefact:UN01012200
-rdfs:comment | The geographical object characteristic associated with this geographical surface.
-edi3:cefactBieDomainClass | [cefact:Specified_GeographicalSurface.Details](#Specified_GeographicalSurface.Details)
-edi3:cefactBusinessProcess | Agricultural
-
-@id | cefact:Specified_LinearRing.Associated.Specified_GeographicalObjectCharacteristic
-@type | edi3:AssociationBIE
-edi3:cefactUNId | cefact:UN01012194
-rdfs:comment | The geographical object characteristic associated with this linear ring.
-edi3:cefactBieDomainClass | [cefact:Specified_LinearRing.Details](#Specified_LinearRing.Details)
-edi3:cefactBusinessProcess | Agricultural
-
-@id | cefact:Specified_GeographicalLine.Associated.Specified_GeographicalObjectCharacteristic
-@type | edi3:AssociationBIE
-edi3:cefactUNId | cefact:UN01012189
-rdfs:comment | The geographical object characteristic associated with this geographical line.
-edi3:cefactBieDomainClass | [cefact:Specified_GeographicalLine.Details](#Specified_GeographicalLine.Details)
+edi3:cefactUNId | cefact:UN01012211
+rdfs:comment | The geographical object characteristic associated with this geographical grid.
+edi3:cefactBieDomainClass | [cefact:Specified_GeographicalGrid.Details](#Specified_GeographicalGrid.Details)
 edi3:cefactBusinessProcess | Agricultural
 
 
@@ -12496,19 +12496,19 @@ Domains:
 
 Cefact Element Metadata: 
 
-@id | cefact:Trade_Party.Associated.Trade_Party
-@type | edi3:AssociationBIE
-edi3:cefactUNId | cefact:UN01004609
-rdfs:comment | A party associated with this trade party, such as a local agent of a shipping line.
-edi3:cefactBieDomainClass | [cefact:Trade_Party.Details](#Trade_Party.Details)
-edi3:cefactBusinessProcess | Buy-Ship-Pay
-
 @id | cefact:SupplyChain_Consignment.Associated.Trade_Party
 @type | edi3:AssociationBIE
 edi3:cefactUNId | cefact:UN01004901
 rdfs:comment | A trade party associated with this supply chain consignment.
 edi3:cefactBieDomainClass | [cefact:Supply Chain_Consignment.Details](#Supply Chain_Consignment.Details)
 edi3:cefactBusinessProcess | Cross-Border
+
+@id | cefact:Trade_Party.Associated.Trade_Party
+@type | edi3:AssociationBIE
+edi3:cefactUNId | cefact:UN01004609
+rdfs:comment | A party associated with this trade party, such as a local agent of a shipping line.
+edi3:cefactBieDomainClass | [cefact:Trade_Party.Details](#Trade_Party.Details)
+edi3:cefactBusinessProcess | Buy-Ship-Pay
 
 
 
@@ -12687,18 +12687,18 @@ Domains:
 
 Cefact Element Metadata: 
 
-@id | cefact:Referenced_Document.Attached.Specified_BinaryFile
-@type | edi3:AssociationBIE
-edi3:cefactUNId | cefact:UN01006029
-rdfs:comment | A specified binary file attached to this referenced document.
-edi3:cefactBieDomainClass | [cefact:Referenced_Document.Details](#Referenced_Document.Details)
-edi3:cefactBusinessProcess | In All Contexts
-
 @id | cefact:Exchanged_Document.Attached.Specified_BinaryFile
 @type | edi3:AssociationBIE
 edi3:cefactUNId | cefact:UN01006747
 rdfs:comment | A binary file attached to this exchanged document.
 edi3:cefactBieDomainClass | [cefact:Exchanged_Document.Details](#Exchanged_Document.Details)
+edi3:cefactBusinessProcess | In All Contexts
+
+@id | cefact:Referenced_Document.Attached.Specified_BinaryFile
+@type | edi3:AssociationBIE
+edi3:cefactUNId | cefact:UN01006029
+rdfs:comment | A specified binary file attached to this referenced document.
+edi3:cefactBieDomainClass | [cefact:Referenced_Document.Details](#Referenced_Document.Details)
 edi3:cefactBusinessProcess | In All Contexts
 
 
@@ -12738,18 +12738,18 @@ Domains:
 
 Cefact Element Metadata: 
 
-@id | cefact:AuthoritativeSignatory_Person.Attained.Academic_Qualification
-@type | edi3:AssociationBIE
-edi3:cefactUNId | cefact:UN01002515
-rdfs:comment | An academic qualification attained by this authoritative signatory person.
-edi3:cefactBieDomainClass | [cefact:Authoritative Signatory_Person.Details](#Authoritative Signatory_Person.Details)
-edi3:cefactBusinessProcess | In All Contexts
-
 @id | cefact:Transport_Person.Attained.Academic_Qualification
 @type | edi3:AssociationBIE
 edi3:cefactUNId | cefact:UN01013142
 rdfs:comment | An academic qualification attained by this transport person.
 edi3:cefactBieDomainClass | [cefact:Transport_Person.Details](#Transport_Person.Details)
+edi3:cefactBusinessProcess | In All Contexts
+
+@id | cefact:AuthoritativeSignatory_Person.Attained.Academic_Qualification
+@type | edi3:AssociationBIE
+edi3:cefactUNId | cefact:UN01002515
+rdfs:comment | An academic qualification attained by this authoritative signatory person.
+edi3:cefactBieDomainClass | [cefact:Authoritative Signatory_Person.Details](#Authoritative Signatory_Person.Details)
 edi3:cefactBusinessProcess | In All Contexts
 
 
@@ -12840,18 +12840,18 @@ Domains:
 
 Cefact Element Metadata: 
 
-@id | cefact:Debtor_FinancialInstitution.AustrianBankleitzahl_Identification.Identifier
-@type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01002853
-rdfs:comment | The unique Austrian Bankleitzahl identifier for this debtor financial institution.
-edi3:cefactBieDomainClass | [cefact:Debtor_FinancialInstitution.Details](#Debtor_FinancialInstitution.Details)
-edi3:cefactBusinessProcess | Customer to bank payment initiation
-
 @id | cefact:Creditor_FinancialInstitution.AustrianBankleitzahl_Identification.Identifier
 @type | edi3:BasicBIE
 edi3:cefactUNId | cefact:UN01002988
 rdfs:comment | The unique Austrian Bankleitzahl identifier for this creditor financial institution.
 edi3:cefactBieDomainClass | [cefact:Creditor_FinancialInstitution.Details](#Creditor_FinancialInstitution.Details)
+edi3:cefactBusinessProcess | Customer to bank payment initiation
+
+@id | cefact:Debtor_FinancialInstitution.AustrianBankleitzahl_Identification.Identifier
+@type | edi3:BasicBIE
+edi3:cefactUNId | cefact:UN01002853
+rdfs:comment | The unique Austrian Bankleitzahl identifier for this debtor financial institution.
+edi3:cefactBieDomainClass | [cefact:Debtor_FinancialInstitution.Details](#Debtor_FinancialInstitution.Details)
 edi3:cefactBusinessProcess | Customer to bank payment initiation
 
 
@@ -13156,19 +13156,19 @@ Domains:
 
 Cefact Element Metadata: 
 
-@id | cefact:Specified_DirectPositionList.Axis_LabelList.Text
-@type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01012475
-rdfs:comment | An ordered list of axis labels, expressed as text, for this specified direct position list.
-edi3:cefactBieDomainClass | [cefact:Specified_DirectPositionList.Details](#Specified_DirectPositionList.Details)
-edi3:cefactBusinessProcess | Agricultural
-
 @id | cefact:Specified_DirectPosition.Axis_LabelList.Text
 @type | edi3:BasicBIE
 edi3:cefactUNId | cefact:UN01010469
 rdfs:comment | An ordered list of axis labels, expressed as text, for this specified direct position.
 edi3:cefactBieDomainClass | [cefact:Specified_DirectPosition.Details](#Specified_DirectPosition.Details)
 edi3:cefactBusinessProcess | Laboratory Observation
+
+@id | cefact:Specified_DirectPositionList.Axis_LabelList.Text
+@type | edi3:BasicBIE
+edi3:cefactUNId | cefact:UN01012475
+rdfs:comment | An ordered list of axis labels, expressed as text, for this specified direct position list.
+edi3:cefactBieDomainClass | [cefact:Specified_DirectPositionList.Details](#Specified_DirectPositionList.Details)
+edi3:cefactBusinessProcess | Agricultural
 
 
 
@@ -13207,13 +13207,6 @@ Domains:
 
 Cefact Element Metadata: 
 
-@id | cefact:Creditor_FinancialAccount.BBAN_Identification.Identifier
-@type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01003349
-rdfs:comment | The unique Basic Bank Account Number (BBAN) identifier used as part of a National Account Numbering Scheme(s) for this creditor financial account.
-edi3:cefactBieDomainClass | [cefact:Creditor_FinancialAccount.Details](#Creditor_FinancialAccount.Details)
-edi3:cefactBusinessProcess | Customer to bank payment initiation
-
 @id | cefact:Debtor_FinancialAccount.BBAN_Identification.Identifier
 @type | edi3:BasicBIE
 edi3:cefactUNId | cefact:UN01003286
@@ -13227,6 +13220,13 @@ edi3:cefactUNId | cefact:UN01013255
 rdfs:comment | The unique Basic Bank Account Number (BBAN) identifier used as part of a National Account Numbering Scheme for this financing financial account.
 edi3:cefactBieDomainClass | [cefact:Financing_FinancialAccount.Details](#Financing_FinancialAccount.Details)
 edi3:cefactBusinessProcess | Buy-Ship-Pay
+
+@id | cefact:Creditor_FinancialAccount.BBAN_Identification.Identifier
+@type | edi3:BasicBIE
+edi3:cefactUNId | cefact:UN01003349
+rdfs:comment | The unique Basic Bank Account Number (BBAN) identifier used as part of a National Account Numbering Scheme(s) for this creditor financial account.
+edi3:cefactBieDomainClass | [cefact:Creditor_FinancialAccount.Details](#Creditor_FinancialAccount.Details)
+edi3:cefactBusinessProcess | Customer to bank payment initiation
 
 
 
@@ -13244,18 +13244,18 @@ Domains:
 
 Cefact Element Metadata: 
 
-@id | cefact:Financial_Identity.BEI_Identification.Identifier
-@type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01013220
-rdfs:comment | The Business Entity Identifier (BEI) as defined by ISO 9362 (Banking telecommunication messages, Bank Identifier Codes) for this financial identity.
-edi3:cefactBieDomainClass | [cefact:Financial_Identity.Details](#Financial_Identity.Details)
-edi3:cefactBusinessProcess | Buy-Ship-Pay
-
 @id | cefact:Requesting_Party.BEI_Identification.Identifier
 @type | edi3:BasicBIE
 edi3:cefactUNId | cefact:UN01013291
 rdfs:comment | The unique Business Entity Identifier (BEI) as defined by ISO 9362 (Banking telecommunication messages, Bank Identifier Codes) for this requesting party.
 edi3:cefactBieDomainClass | [cefact:Requesting_Party.Details](#Requesting_Party.Details)
+edi3:cefactBusinessProcess | Buy-Ship-Pay
+
+@id | cefact:Financial_Identity.BEI_Identification.Identifier
+@type | edi3:BasicBIE
+edi3:cefactUNId | cefact:UN01013220
+rdfs:comment | The Business Entity Identifier (BEI) as defined by ISO 9362 (Banking telecommunication messages, Bank Identifier Codes) for this financial identity.
+edi3:cefactBieDomainClass | [cefact:Financial_Identity.Details](#Financial_Identity.Details)
 edi3:cefactBusinessProcess | Buy-Ship-Pay
 
 
@@ -13346,18 +13346,18 @@ Domains:
 
 Cefact Element Metadata: 
 
-@id | cefact:TradeSettlementPayment_MonetarySummation.BalanceOut.Amount
-@type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01011915
-rdfs:comment | A monetary value that is an amount balanced out for this trade settlement payment monetary summation.
-edi3:cefactBieDomainClass | [cefact:Trade Settlement Payment_MonetarySummation.Details](#Trade Settlement Payment_MonetarySummation.Details)
-edi3:cefactBusinessProcess | Buy-Ship-Pay
-
 @id | cefact:TradeSettlementHeader_MonetarySummation.BalanceOut.Amount
 @type | edi3:BasicBIE
 edi3:cefactUNId | cefact:UN01011893
 rdfs:comment | A monetary value that is an amount balanced out for this trade settlement header monetary summation.
 edi3:cefactBieDomainClass | [cefact:Trade Settlement Header_MonetarySummation.Details](#Trade Settlement Header_MonetarySummation.Details)
+edi3:cefactBusinessProcess | Buy-Ship-Pay
+
+@id | cefact:TradeSettlementPayment_MonetarySummation.BalanceOut.Amount
+@type | edi3:BasicBIE
+edi3:cefactUNId | cefact:UN01011915
+rdfs:comment | A monetary value that is an amount balanced out for this trade settlement payment monetary summation.
+edi3:cefactBieDomainClass | [cefact:Trade Settlement Payment_MonetarySummation.Details](#Trade Settlement Payment_MonetarySummation.Details)
 edi3:cefactBusinessProcess | Buy-Ship-Pay
 
 
@@ -13466,18 +13466,18 @@ Domains:
 
 Cefact Element Metadata: 
 
-@id | cefact:Trade_AllowanceCharge.Basis.Amount
+@id | cefact:Trade_PaymentDiscountTerms.Basis.Amount
 @type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01001636
-rdfs:comment | The monetary value that is the basis on which this trade allowance charge is calculated.
-edi3:cefactBieDomainClass | [cefact:Trade_AllowanceCharge.Details](#Trade_AllowanceCharge.Details)
-edi3:cefactBusinessProcess | Trade
+edi3:cefactUNId | cefact:UN01004620
+rdfs:comment | A monetary value used as a basis to calculate the discount in these trade payment discount terms.
+edi3:cefactBieDomainClass | [cefact:Trade_PaymentDiscountTerms.Details](#Trade_PaymentDiscountTerms.Details)
+edi3:cefactBusinessProcess | Buy-Ship-Pay
 
-@id | cefact:Trade_PaymentPenaltyTerms.Basis.Amount
+@id | cefact:Trade_Tax.Basis.Amount
 @type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01004629
-rdfs:comment | A monetary value used as a basis to calculate these trade payment penalty terms.
-edi3:cefactBieDomainClass | [cefact:Trade_PaymentPenaltyTerms.Details](#Trade_PaymentPenaltyTerms.Details)
+edi3:cefactUNId | cefact:UN01004717
+rdfs:comment | A monetary value used as the basis on which this trade related tax, levy or duty is calculated.
+edi3:cefactBieDomainClass | [cefact:Trade_Tax.Details](#Trade_Tax.Details)
 edi3:cefactBusinessProcess | Buy-Ship-Pay
 
 @id | cefact:Applied_Tax.Basis.Amount
@@ -13487,12 +13487,19 @@ rdfs:comment | The monetary value used as the basis in calculating the applied t
 edi3:cefactBieDomainClass | [cefact:Applied_Tax.Details](#Applied_Tax.Details)
 edi3:cefactBusinessProcess | In All Contexts
 
-@id | cefact:Trade_PaymentDiscountTerms.Basis.Amount
+@id | cefact:Trade_PaymentPenaltyTerms.Basis.Amount
 @type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01004620
-rdfs:comment | A monetary value used as a basis to calculate the discount in these trade payment discount terms.
-edi3:cefactBieDomainClass | [cefact:Trade_PaymentDiscountTerms.Details](#Trade_PaymentDiscountTerms.Details)
+edi3:cefactUNId | cefact:UN01004629
+rdfs:comment | A monetary value used as a basis to calculate these trade payment penalty terms.
+edi3:cefactBieDomainClass | [cefact:Trade_PaymentPenaltyTerms.Details](#Trade_PaymentPenaltyTerms.Details)
 edi3:cefactBusinessProcess | Buy-Ship-Pay
+
+@id | cefact:Trade_AllowanceCharge.Basis.Amount
+@type | edi3:BasicBIE
+edi3:cefactUNId | cefact:UN01001636
+rdfs:comment | The monetary value that is the basis on which this trade allowance charge is calculated.
+edi3:cefactBieDomainClass | [cefact:Trade_AllowanceCharge.Details](#Trade_AllowanceCharge.Details)
+edi3:cefactBusinessProcess | Trade
 
 @id | cefact:Applied_AllowanceCharge.Basis.Amount
 @type | edi3:BasicBIE
@@ -13500,13 +13507,6 @@ edi3:cefactUNId | cefact:UN01000193
 rdfs:comment | The monetary value that is the basis on which the applied allowance charge is calculated.
 edi3:cefactBieDomainClass | [cefact:Applied_AllowanceCharge.Details](#Applied_AllowanceCharge.Details)
 edi3:cefactBusinessProcess | Pricing
-
-@id | cefact:Trade_Tax.Basis.Amount
-@type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01004717
-rdfs:comment | A monetary value used as the basis on which this trade related tax, levy or duty is calculated.
-edi3:cefactBieDomainClass | [cefact:Trade_Tax.Details](#Trade_Tax.Details)
-edi3:cefactBusinessProcess | Buy-Ship-Pay
 
 
 
@@ -13524,18 +13524,18 @@ Domains:
 
 Cefact Element Metadata: 
 
-@id | cefact:Trade_PaymentDiscountTerms.Basis.DateTime
-@type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01004618
-rdfs:comment | The date, time, date time, or other date time value used as the basis to calculate the discount in the trade payment discount terms.
-edi3:cefactBieDomainClass | [cefact:Trade_PaymentDiscountTerms.Details](#Trade_PaymentDiscountTerms.Details)
-edi3:cefactBusinessProcess | Buy-Ship-Pay
-
 @id | cefact:Trade_PaymentPenaltyTerms.Basis.DateTime
 @type | edi3:BasicBIE
 edi3:cefactUNId | cefact:UN01004627
 rdfs:comment | The date, time, date time, or other date time value used as the basis to calculate these trade payment penalty terms.
 edi3:cefactBieDomainClass | [cefact:Trade_PaymentPenaltyTerms.Details](#Trade_PaymentPenaltyTerms.Details)
+edi3:cefactBusinessProcess | Buy-Ship-Pay
+
+@id | cefact:Trade_PaymentDiscountTerms.Basis.DateTime
+@type | edi3:BasicBIE
+edi3:cefactUNId | cefact:UN01004618
+rdfs:comment | The date, time, date time, or other date time value used as the basis to calculate the discount in the trade payment discount terms.
+edi3:cefactBieDomainClass | [cefact:Trade_PaymentDiscountTerms.Details](#Trade_PaymentDiscountTerms.Details)
 edi3:cefactBusinessProcess | Buy-Ship-Pay
 
 
@@ -13585,13 +13585,6 @@ Domains:
 
 Cefact Element Metadata: 
 
-@id | cefact:Trade_Price.Basis.Quantity
-@type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01001680
-rdfs:comment | The quantity on which the trade price is based.
-edi3:cefactBieDomainClass | [cefact:Trade_Price.Details](#Trade_Price.Details)
-edi3:cefactBusinessProcess | Trade
-
 @id | cefact:Trade_AllowanceCharge.Basis.Quantity
 @type | edi3:BasicBIE
 edi3:cefactUNId | cefact:UN01001637
@@ -13599,18 +13592,25 @@ rdfs:comment | The quantity on which this trade allowance charge is based.
 edi3:cefactBieDomainClass | [cefact:Trade_AllowanceCharge.Details](#Trade_AllowanceCharge.Details)
 edi3:cefactBusinessProcess | Trade
 
-@id | cefact:Trade_Tax.Basis.Quantity
+@id | cefact:Trade_Price.Basis.Quantity
 @type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01004716
-rdfs:comment | The quantity used as the basis for calculating the amount of this trade related tax, levy or duty.
-edi3:cefactBieDomainClass | [cefact:Trade_Tax.Details](#Trade_Tax.Details)
-edi3:cefactBusinessProcess | Buy-Ship-Pay
+edi3:cefactUNId | cefact:UN01001680
+rdfs:comment | The quantity on which the trade price is based.
+edi3:cefactBieDomainClass | [cefact:Trade_Price.Details](#Trade_Price.Details)
+edi3:cefactBusinessProcess | Trade
 
 @id | cefact:Reference_Price.Basis.Quantity
 @type | edi3:BasicBIE
 edi3:cefactUNId | cefact:UN01007306
 rdfs:comment | A quantity on which the reference price is based.
 edi3:cefactBieDomainClass | [cefact:Reference_Price.Details](#Reference_Price.Details)
+edi3:cefactBusinessProcess | Buy-Ship-Pay
+
+@id | cefact:Trade_Tax.Basis.Quantity
+@type | edi3:BasicBIE
+edi3:cefactUNId | cefact:UN01004716
+rdfs:comment | The quantity used as the basis for calculating the amount of this trade related tax, levy or duty.
+edi3:cefactBieDomainClass | [cefact:Trade_Tax.Details](#Trade_Tax.Details)
 edi3:cefactBusinessProcess | Buy-Ship-Pay
 
 
@@ -13629,18 +13629,18 @@ Domains:
 
 Cefact Element Metadata: 
 
-@id | cefact:Trade_ProductInstance.Batch_Identification.Identifier
-@type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01004656
-rdfs:comment | The unique batch identifier for this trade product instance.
-edi3:cefactBieDomainClass | [cefact:Trade_ProductInstance.Details](#Trade_ProductInstance.Details)
-edi3:cefactBusinessProcess | Buy-Ship-Pay
-
 @id | cefact:Trade_Product.Batch_Identification.Identifier
 @type | edi3:BasicBIE
 edi3:cefactUNId | cefact:UN01007243
 rdfs:comment | A batch identifier for this trade product.
 edi3:cefactBieDomainClass | [cefact:Trade_Product.Details](#Trade_Product.Details)
+edi3:cefactBusinessProcess | Buy-Ship-Pay
+
+@id | cefact:Trade_ProductInstance.Batch_Identification.Identifier
+@type | edi3:BasicBIE
+edi3:cefactUNId | cefact:UN01004656
+rdfs:comment | The unique batch identifier for this trade product instance.
+edi3:cefactBieDomainClass | [cefact:Trade_ProductInstance.Details](#Trade_ProductInstance.Details)
 edi3:cefactBusinessProcess | Buy-Ship-Pay
 
 
@@ -13804,18 +13804,18 @@ Domains:
 
 Cefact Element Metadata: 
 
-@id | cefact:Header_TradeAgreement.BlanketOrder.Referenced_Document
-@type | edi3:AssociationBIE
-edi3:cefactUNId | cefact:UN01011590
-rdfs:comment | The blanket order document referenced in this header trade agreement.
-edi3:cefactBieDomainClass | [cefact:Header_TradeAgreement.Details](#Header_TradeAgreement.Details)
-edi3:cefactBusinessProcess | Trade
-
 @id | cefact:Line_TradeAgreement.BlanketOrder.Referenced_Document
 @type | edi3:AssociationBIE
 edi3:cefactUNId | cefact:UN01011740
 rdfs:comment | The blanket order document referenced in this line trade agreement.
 edi3:cefactBieDomainClass | [cefact:Line_TradeAgreement.Details](#Line_TradeAgreement.Details)
+edi3:cefactBusinessProcess | Trade
+
+@id | cefact:Header_TradeAgreement.BlanketOrder.Referenced_Document
+@type | edi3:AssociationBIE
+edi3:cefactUNId | cefact:UN01011590
+rdfs:comment | The blanket order document referenced in this header trade agreement.
+edi3:cefactBieDomainClass | [cefact:Header_TradeAgreement.Details](#Header_TradeAgreement.Details)
 edi3:cefactBusinessProcess | Trade
 
 
@@ -13834,18 +13834,18 @@ Domains:
 
 Cefact Element Metadata: 
 
-@id | cefact:SupplyChain_Consignment.BondedWarehouse_Storage.Transport_Event
-@type | edi3:AssociationBIE
-edi3:cefactUNId | cefact:UN01004256
-rdfs:comment | A bonded warehouse storage event for this supply chain consignment.
-edi3:cefactBieDomainClass | [cefact:Supply Chain_Consignment.Details](#Supply Chain_Consignment.Details)
-edi3:cefactBusinessProcess | Buy-Ship-Pay
-
 @id | cefact:Logistics_TransportEquipment.BondedWarehouse_Storage.Transport_Event
 @type | edi3:AssociationBIE
 edi3:cefactUNId | cefact:UN01003805
 rdfs:comment | A bonded warehouse storage event specifying when and where this piece of logistics transport equipment will be, or has been, stored.
 edi3:cefactBieDomainClass | [cefact:Logistics_TransportEquipment.Details](#Logistics_TransportEquipment.Details)
+edi3:cefactBusinessProcess | Buy-Ship-Pay
+
+@id | cefact:SupplyChain_Consignment.BondedWarehouse_Storage.Transport_Event
+@type | edi3:AssociationBIE
+edi3:cefactUNId | cefact:UN01004256
+rdfs:comment | A bonded warehouse storage event for this supply chain consignment.
+edi3:cefactBieDomainClass | [cefact:Supply Chain_Consignment.Details](#Supply Chain_Consignment.Details)
 edi3:cefactBusinessProcess | Buy-Ship-Pay
 
 
@@ -14091,19 +14091,19 @@ Domains:
 
 Cefact Element Metadata: 
 
-@id | cefact:FinancialInstitution_Address.BuildingNumber.Text
-@type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01003181
-rdfs:comment | The number, expressed as text, of the building on a street for this financial institution address.
-edi3:cefactBieDomainClass | [cefact:Financial Institution_Address.Details](#Financial Institution_Address.Details)
-edi3:cefactBusinessProcess | Customer to bank payment initiation
-
 @id | cefact:Trade_Address.BuildingNumber.Text
 @type | edi3:BasicBIE
 edi3:cefactUNId | cefact:UN01006053
 rdfs:comment | The building number, expressed as text, in this trade address.
 edi3:cefactBieDomainClass | [cefact:Trade_Address.Details](#Trade_Address.Details)
 edi3:cefactBusinessProcess | Buy-Ship-Pay
+
+@id | cefact:FinancialInstitution_Address.BuildingNumber.Text
+@type | edi3:BasicBIE
+edi3:cefactUNId | cefact:UN01003181
+rdfs:comment | The number, expressed as text, of the building on a street for this financial institution address.
+edi3:cefactBieDomainClass | [cefact:Financial Institution_Address.Details](#Financial Institution_Address.Details)
+edi3:cefactBusinessProcess | Customer to bank payment initiation
 
 
 
@@ -14186,18 +14186,18 @@ Domains:
 
 Cefact Element Metadata: 
 
-@id | cefact:Line_TradeAgreement.Buyer_Approved.DateTime
-@type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01013414
-rdfs:comment | The date, time, date time, or other date time value of approval by the buyer for this line trade agreement.
-edi3:cefactBieDomainClass | [cefact:Line_TradeAgreement.Details](#Line_TradeAgreement.Details)
-edi3:cefactBusinessProcess | Buy-Ship-Pay
-
 @id | cefact:Header_TradeAgreement.Buyer_Approved.DateTime
 @type | edi3:BasicBIE
 edi3:cefactUNId | cefact:UN01013410
 rdfs:comment | The date, time, date time, or other date time value of approval by the buyer for this header trade agreement.
 edi3:cefactBieDomainClass | [cefact:Header_TradeAgreement.Details](#Header_TradeAgreement.Details)
+edi3:cefactBusinessProcess | Buy-Ship-Pay
+
+@id | cefact:Line_TradeAgreement.Buyer_Approved.DateTime
+@type | edi3:BasicBIE
+edi3:cefactUNId | cefact:UN01013414
+rdfs:comment | The date, time, date time, or other date time value of approval by the buyer for this line trade agreement.
+edi3:cefactBieDomainClass | [cefact:Line_TradeAgreement.Details](#Line_TradeAgreement.Details)
 edi3:cefactBusinessProcess | Buy-Ship-Pay
 
 
@@ -14332,18 +14332,18 @@ Domains:
 
 Cefact Element Metadata: 
 
-@id | cefact:Line_TradeDelivery.Buyer_Order.DateTime
-@type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01013453
-rdfs:comment | The date, time, date time, or other date time value, at line level, of the buyer order for this trade delivery.
-edi3:cefactBieDomainClass | [cefact:Line_TradeDelivery.Details](#Line_TradeDelivery.Details)
-edi3:cefactBusinessProcess | Buy-Ship-Pay
-
 @id | cefact:Header_TradeDelivery.Buyer_Order.DateTime
 @type | edi3:BasicBIE
 edi3:cefactUNId | cefact:UN01013437
 rdfs:comment | The date, time, date time, or other date time value, at header level, of the buyer order for this trade delivery.
 edi3:cefactBieDomainClass | [cefact:Header_TradeDelivery.Details](#Header_TradeDelivery.Details)
+edi3:cefactBusinessProcess | Buy-Ship-Pay
+
+@id | cefact:Line_TradeDelivery.Buyer_Order.DateTime
+@type | edi3:BasicBIE
+edi3:cefactUNId | cefact:UN01013453
+rdfs:comment | The date, time, date time, or other date time value, at line level, of the buyer order for this trade delivery.
+edi3:cefactBieDomainClass | [cefact:Line_TradeDelivery.Details](#Line_TradeDelivery.Details)
 edi3:cefactBusinessProcess | Buy-Ship-Pay
 
 
@@ -14361,19 +14361,19 @@ Domains:
 
 Cefact Element Metadata: 
 
-@id | cefact:SubordinateLine_TradeAgreement.Buyer_Order.Referenced_Document
-@type | edi3:AssociationBIE
-edi3:cefactUNId | cefact:UN01011845
-rdfs:comment | A buyer generated order document referenced in this subordinate line trade agreement.
-edi3:cefactBieDomainClass | [cefact:Subordinate Line_TradeAgreement.Details](#Subordinate Line_TradeAgreement.Details)
-edi3:cefactBusinessProcess | Trade
-
 @id | cefact:Header_TradeAgreement.Buyer_Order.Referenced_Document
 @type | edi3:AssociationBIE
 edi3:cefactUNId | cefact:UN01011564
 rdfs:comment | The buyer generated order document referenced in this header trade agreement.
 edi3:cefactBieDomainClass | [cefact:Header_TradeAgreement.Details](#Header_TradeAgreement.Details)
 edi3:cefactBusinessProcess | Buy-Ship-Pay
+
+@id | cefact:SubordinateLine_TradeAgreement.Buyer_Order.Referenced_Document
+@type | edi3:AssociationBIE
+edi3:cefactUNId | cefact:UN01011845
+rdfs:comment | A buyer generated order document referenced in this subordinate line trade agreement.
+edi3:cefactBieDomainClass | [cefact:Subordinate Line_TradeAgreement.Details](#Subordinate Line_TradeAgreement.Details)
+edi3:cefactBusinessProcess | Trade
 
 @id | cefact:Line_TradeAgreement.Buyer_Order.Referenced_Document
 @type | edi3:AssociationBIE
@@ -14397,18 +14397,18 @@ Domains:
 
 Cefact Element Metadata: 
 
-@id | cefact:Line_TradeAgreement.Buyer_Reference.Text
-@type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01011695
-rdfs:comment | A buyer reference, expressed as text, for this line trade agreement.
-edi3:cefactBieDomainClass | [cefact:Line_TradeAgreement.Details](#Line_TradeAgreement.Details)
-edi3:cefactBusinessProcess | Buy-Ship-Pay
-
 @id | cefact:Header_TradeAgreement.Buyer_Reference.Text
 @type | edi3:BasicBIE
 edi3:cefactUNId | cefact:UN01011549
 rdfs:comment | A buyer reference, expressed as text, for this header trade agreement.
 edi3:cefactBieDomainClass | [cefact:Header_TradeAgreement.Details](#Header_TradeAgreement.Details)
+edi3:cefactBusinessProcess | Buy-Ship-Pay
+
+@id | cefact:Line_TradeAgreement.Buyer_Reference.Text
+@type | edi3:BasicBIE
+edi3:cefactUNId | cefact:UN01011695
+rdfs:comment | A buyer reference, expressed as text, for this line trade agreement.
+edi3:cefactBieDomainClass | [cefact:Line_TradeAgreement.Details](#Line_TradeAgreement.Details)
 edi3:cefactBusinessProcess | Buy-Ship-Pay
 
 
@@ -14448,18 +14448,18 @@ Domains:
 
 Cefact Element Metadata: 
 
-@id | cefact:Line_TradeAgreement.Buyer_Requisitioner.Trade_Party
-@type | edi3:AssociationBIE
-edi3:cefactUNId | cefact:UN01011709
-rdfs:comment | A party who is a buyer requisitioner in this line trade agreement.
-edi3:cefactBieDomainClass | [cefact:Line_TradeAgreement.Details](#Line_TradeAgreement.Details)
-edi3:cefactBusinessProcess | Buy-Ship-Pay
-
 @id | cefact:Header_TradeAgreement.Buyer_Requisitioner.Trade_Party
 @type | edi3:AssociationBIE
 edi3:cefactUNId | cefact:UN01011554
 rdfs:comment | A party who is a buyer requisitioner in this header trade agreement.
 edi3:cefactBieDomainClass | [cefact:Header_TradeAgreement.Details](#Header_TradeAgreement.Details)
+edi3:cefactBusinessProcess | Buy-Ship-Pay
+
+@id | cefact:Line_TradeAgreement.Buyer_Requisitioner.Trade_Party
+@type | edi3:AssociationBIE
+edi3:cefactUNId | cefact:UN01011709
+rdfs:comment | A party who is a buyer requisitioner in this line trade agreement.
+edi3:cefactBieDomainClass | [cefact:Line_TradeAgreement.Details](#Line_TradeAgreement.Details)
 edi3:cefactBusinessProcess | Buy-Ship-Pay
 
 
@@ -14616,18 +14616,18 @@ Domains:
 
 Cefact Element Metadata: 
 
-@id | cefact:Debtor_FinancialInstitution.CHIPSParticipant_Identification.Identifier
-@type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01002847
-rdfs:comment | The unique (United States) Clearing House Interbank Payment System (CHIPS) Participant Identifier (ID) as assigned by the New York Clearing House for this debtor financial institution.
-edi3:cefactBieDomainClass | [cefact:Debtor_FinancialInstitution.Details](#Debtor_FinancialInstitution.Details)
-edi3:cefactBusinessProcess | Customer to bank payment initiation
-
 @id | cefact:Creditor_FinancialInstitution.CHIPSParticipant_Identification.Identifier
 @type | edi3:BasicBIE
 edi3:cefactUNId | cefact:UN01002982
 rdfs:comment | The unique (United States) Clearing House Interbank Payment System (CHIPS) Participant Identifier (ID) as assigned by the New York Clearing House for this creditor financial institution.
 edi3:cefactBieDomainClass | [cefact:Creditor_FinancialInstitution.Details](#Creditor_FinancialInstitution.Details)
+edi3:cefactBusinessProcess | Customer to bank payment initiation
+
+@id | cefact:Debtor_FinancialInstitution.CHIPSParticipant_Identification.Identifier
+@type | edi3:BasicBIE
+edi3:cefactUNId | cefact:UN01002847
+rdfs:comment | The unique (United States) Clearing House Interbank Payment System (CHIPS) Participant Identifier (ID) as assigned by the New York Clearing House for this debtor financial institution.
+edi3:cefactBieDomainClass | [cefact:Debtor_FinancialInstitution.Details](#Debtor_FinancialInstitution.Details)
 edi3:cefactBusinessProcess | Customer to bank payment initiation
 
 
@@ -14646,6 +14646,13 @@ Domains:
 
 Cefact Element Metadata: 
 
+@id | cefact:Financial_Identity.CHIPSUniversal_Identification.Identifier
+@type | edi3:BasicBIE
+edi3:cefactUNId | cefact:UN01013221
+rdfs:comment | The (United States) Clearing House Interbank Payments System (CHIPS) Universal Identification (UID) as assigned by the New York Clearing House for this financial identity.
+edi3:cefactBieDomainClass | [cefact:Financial_Identity.Details](#Financial_Identity.Details)
+edi3:cefactBusinessProcess | Buy-Ship-Pay
+
 @id | cefact:Creditor_FinancialInstitution.CHIPSUniversal_Identification.Identifier
 @type | edi3:BasicBIE
 edi3:cefactUNId | cefact:UN01002978
@@ -14659,13 +14666,6 @@ edi3:cefactUNId | cefact:UN01002843
 rdfs:comment | The unique (United States) Clearing House Interbank Payments System (CHIPS) Universal Identification (UID) as assigned by the New York Clearing House for this debtor financial institution.
 edi3:cefactBieDomainClass | [cefact:Debtor_FinancialInstitution.Details](#Debtor_FinancialInstitution.Details)
 edi3:cefactBusinessProcess | Customer to bank payment initiation
-
-@id | cefact:Financial_Identity.CHIPSUniversal_Identification.Identifier
-@type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01013221
-rdfs:comment | The (United States) Clearing House Interbank Payments System (CHIPS) Universal Identification (UID) as assigned by the New York Clearing House for this financial identity.
-edi3:cefactBieDomainClass | [cefact:Financial_Identity.Details](#Financial_Identity.Details)
-edi3:cefactBusinessProcess | Buy-Ship-Pay
 
 
 
@@ -14705,13 +14705,6 @@ Domains:
 
 Cefact Element Metadata: 
 
-@id | cefact:Applied_Tax.Calculated.Amount
-@type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01000184
-rdfs:comment | The monetary value resulting from the calculation of the applied tax.
-edi3:cefactBieDomainClass | [cefact:Applied_Tax.Details](#Applied_Tax.Details)
-edi3:cefactBusinessProcess | In All Contexts
-
 @id | cefact:Trade_Tax.Calculated.Amount
 @type | edi3:BasicBIE
 edi3:cefactUNId | cefact:UN01004711
@@ -14719,18 +14712,25 @@ rdfs:comment | A monetary value resulting from the calculation of this trade rel
 edi3:cefactBieDomainClass | [cefact:Trade_Tax.Details](#Trade_Tax.Details)
 edi3:cefactBusinessProcess | Buy-Ship-Pay
 
-@id | cefact:Header_BalanceOut.Calculated.Amount
-@type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01011545
-rdfs:comment | A monetary value calculated for this header balance out.
-edi3:cefactBieDomainClass | [cefact:Header_BalanceOut.Details](#Header_BalanceOut.Details)
-edi3:cefactBusinessProcess | Buy-Ship-Pay
-
 @id | cefact:Payment_BalanceOut.Calculated.Amount
 @type | edi3:BasicBIE
 edi3:cefactUNId | cefact:UN01011835
 rdfs:comment | A monetary value calculated for this payment balance out.
 edi3:cefactBieDomainClass | [cefact:Payment_BalanceOut.Details](#Payment_BalanceOut.Details)
+edi3:cefactBusinessProcess | Buy-Ship-Pay
+
+@id | cefact:Applied_Tax.Calculated.Amount
+@type | edi3:BasicBIE
+edi3:cefactUNId | cefact:UN01000184
+rdfs:comment | The monetary value resulting from the calculation of the applied tax.
+edi3:cefactBieDomainClass | [cefact:Applied_Tax.Details](#Applied_Tax.Details)
+edi3:cefactBusinessProcess | In All Contexts
+
+@id | cefact:Header_BalanceOut.Calculated.Amount
+@type | edi3:BasicBIE
+edi3:cefactUNId | cefact:UN01011545
+rdfs:comment | A monetary value calculated for this header balance out.
+edi3:cefactBieDomainClass | [cefact:Header_BalanceOut.Details](#Header_BalanceOut.Details)
 edi3:cefactBusinessProcess | Buy-Ship-Pay
 
 
@@ -14867,6 +14867,13 @@ Domains:
 
 Cefact Element Metadata: 
 
+@id | cefact:Trade_PaymentPenaltyTerms.Calculation.Percent
+@type | edi3:BasicBIE
+edi3:cefactUNId | cefact:UN01004630
+rdfs:comment | The percent applied to calculate these trade payment penalty terms.
+edi3:cefactBieDomainClass | [cefact:Trade_PaymentPenaltyTerms.Details](#Trade_PaymentPenaltyTerms.Details)
+edi3:cefactBusinessProcess | Buy-Ship-Pay
+
 @id | cefact:Applied_AllowanceCharge.Calculation.Percent
 @type | edi3:BasicBIE
 edi3:cefactUNId | cefact:UN01000192
@@ -14880,13 +14887,6 @@ edi3:cefactUNId | cefact:UN01001635
 rdfs:comment | The percentage applied to calculate this trade allowance charge.
 edi3:cefactBieDomainClass | [cefact:Trade_AllowanceCharge.Details](#Trade_AllowanceCharge.Details)
 edi3:cefactBusinessProcess | Trade
-
-@id | cefact:Trade_PaymentPenaltyTerms.Calculation.Percent
-@type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01004630
-rdfs:comment | The percent applied to calculate these trade payment penalty terms.
-edi3:cefactBieDomainClass | [cefact:Trade_PaymentPenaltyTerms.Details](#Trade_PaymentPenaltyTerms.Details)
-edi3:cefactBusinessProcess | Buy-Ship-Pay
 
 @id | cefact:Trade_PaymentDiscountTerms.Calculation.Percent
 @type | edi3:BasicBIE
@@ -14976,18 +14976,18 @@ Domains:
 
 Cefact Element Metadata: 
 
-@id | cefact:Debtor_FinancialInstitution.CanadianPaymentsAssociation_Identification.Identifier
-@type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01002854
-rdfs:comment | The unique Canadian Payments Association Routing Number identifier for this debtor financial institution.
-edi3:cefactBieDomainClass | [cefact:Debtor_FinancialInstitution.Details](#Debtor_FinancialInstitution.Details)
-edi3:cefactBusinessProcess | Customer to bank payment initiation
-
 @id | cefact:Creditor_FinancialInstitution.CanadianPaymentsAssociation_Identification.Identifier
 @type | edi3:BasicBIE
 edi3:cefactUNId | cefact:UN01002989
 rdfs:comment | The unique Canadian Payments Association Routing Number identifier for this creditor financial institution.
 edi3:cefactBieDomainClass | [cefact:Creditor_FinancialInstitution.Details](#Creditor_FinancialInstitution.Details)
+edi3:cefactBusinessProcess | Customer to bank payment initiation
+
+@id | cefact:Debtor_FinancialInstitution.CanadianPaymentsAssociation_Identification.Identifier
+@type | edi3:BasicBIE
+edi3:cefactUNId | cefact:UN01002854
+rdfs:comment | The unique Canadian Payments Association Routing Number identifier for this debtor financial institution.
+edi3:cefactBieDomainClass | [cefact:Debtor_FinancialInstitution.Details](#Debtor_FinancialInstitution.Details)
 edi3:cefactBusinessProcess | Customer to bank payment initiation
 
 
@@ -15204,18 +15204,18 @@ Domains:
 
 Cefact Element Metadata: 
 
-@id | cefact:SupplyChain_ConsignmentItem.CargoTolerance_Information.Text
-@type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01004129
-rdfs:comment | Cargo tolerance information, expressed as text, for this supply chain consignment item.
-edi3:cefactBieDomainClass | [cefact:Supply Chain_ConsignmentItem.Details](#Supply Chain_ConsignmentItem.Details)
-edi3:cefactBusinessProcess | Buy-Ship-Pay
-
 @id | cefact:SupplyChain_Consignment.CargoTolerance_Information.Text
 @type | edi3:BasicBIE
 edi3:cefactUNId | cefact:UN01004205
 rdfs:comment | Cargo tolerance information, expressed as text, for this supply chain consignment.
 edi3:cefactBieDomainClass | [cefact:Supply Chain_Consignment.Details](#Supply Chain_Consignment.Details)
+edi3:cefactBusinessProcess | Buy-Ship-Pay
+
+@id | cefact:SupplyChain_ConsignmentItem.CargoTolerance_Information.Text
+@type | edi3:BasicBIE
+edi3:cefactUNId | cefact:UN01004129
+rdfs:comment | Cargo tolerance information, expressed as text, for this supply chain consignment item.
+edi3:cefactBieDomainClass | [cefact:Supply Chain_ConsignmentItem.Details](#Supply Chain_ConsignmentItem.Details)
 edi3:cefactBusinessProcess | Buy-Ship-Pay
 
 
@@ -15431,18 +15431,18 @@ Domains:
 
 Cefact Element Metadata: 
 
-@id | cefact:Referenced_SupplyChain_Consignment.CarrierAssigned.Identifier
-@type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01004044
-rdfs:comment | The unique identifier assigned by the carrier to this referenced supply chain consignment, such as a booking reference number when cargo space is reserved prior to loading.
-edi3:cefactBieDomainClass | [cefact:Referenced_ Supply Chain_Consignment.Details](#Referenced_ Supply Chain_Consignment.Details)
-edi3:cefactBusinessProcess | Buy-Ship-Pay
-
 @id | cefact:SupplyChain_Consignment.CarrierAssigned.Identifier
 @type | edi3:BasicBIE
 edi3:cefactUNId | cefact:UN01004164
 rdfs:comment | The unique identifier assigned by the carrier to this supply chain consignment, such as a booking reference number when cargo space is reserved prior to loading.
 edi3:cefactBieDomainClass | [cefact:Supply Chain_Consignment.Details](#Supply Chain_Consignment.Details)
+edi3:cefactBusinessProcess | Buy-Ship-Pay
+
+@id | cefact:Referenced_SupplyChain_Consignment.CarrierAssigned.Identifier
+@type | edi3:BasicBIE
+edi3:cefactUNId | cefact:UN01004044
+rdfs:comment | The unique identifier assigned by the carrier to this referenced supply chain consignment, such as a booking reference number when cargo space is reserved prior to loading.
+edi3:cefactBieDomainClass | [cefact:Referenced_ Supply Chain_Consignment.Details](#Referenced_ Supply Chain_Consignment.Details)
 edi3:cefactBusinessProcess | Buy-Ship-Pay
 
 
@@ -15485,32 +15485,11 @@ Domains:
 
 Cefact Element Metadata: 
 
-@id | cefact:Logistics_TransportMovement.Carrier.Trade_Party
+@id | cefact:Header_TradeAgreement.Carrier.Trade_Party
 @type | edi3:AssociationBIE
-edi3:cefactUNId | cefact:UN01003863
-rdfs:comment | A carrier party for this logistics transport movement.
-edi3:cefactBieDomainClass | [cefact:Logistics_TransportMovement.Details](#Logistics_TransportMovement.Details)
-edi3:cefactBusinessProcess | Buy-Ship-Pay
-
-@id | cefact:Logistics_TransportEquipment.Carrier.Trade_Party
-@type | edi3:AssociationBIE
-edi3:cefactUNId | cefact:UN01003812
-rdfs:comment | A carrier party for this piece of logistics transport equipment.
-edi3:cefactBieDomainClass | [cefact:Logistics_TransportEquipment.Details](#Logistics_TransportEquipment.Details)
-edi3:cefactBusinessProcess | Buy-Ship-Pay
-
-@id | cefact:Referenced_SupplyChain_Consignment.Carrier.Trade_Party
-@type | edi3:AssociationBIE
-edi3:cefactUNId | cefact:UN01011059
-rdfs:comment | The carrier party for this referenced supply chain consignment.
-edi3:cefactBieDomainClass | [cefact:Referenced_ Supply Chain_Consignment.Details](#Referenced_ Supply Chain_Consignment.Details)
-edi3:cefactBusinessProcess | Buy-Ship-Pay
-
-@id | cefact:Line_TradeAgreement.Carrier.Trade_Party
-@type | edi3:AssociationBIE
-edi3:cefactUNId | cefact:UN01011731
-rdfs:comment | A carrier party for this line trade agreement.
-edi3:cefactBieDomainClass | [cefact:Line_TradeAgreement.Details](#Line_TradeAgreement.Details)
+edi3:cefactUNId | cefact:UN01013407
+rdfs:comment | The carrier party, at header level, for this trade agreement.
+edi3:cefactBieDomainClass | [cefact:Header_TradeAgreement.Details](#Header_TradeAgreement.Details)
 edi3:cefactBusinessProcess | Buy-Ship-Pay
 
 @id | cefact:SupplyChain_Consignment.Carrier.Trade_Party
@@ -15520,11 +15499,32 @@ rdfs:comment | The carrier party for this supply chain consignment.
 edi3:cefactBieDomainClass | [cefact:Supply Chain_Consignment.Details](#Supply Chain_Consignment.Details)
 edi3:cefactBusinessProcess | Buy-Ship-Pay
 
-@id | cefact:Header_TradeAgreement.Carrier.Trade_Party
+@id | cefact:Logistics_TransportMovement.Carrier.Trade_Party
 @type | edi3:AssociationBIE
-edi3:cefactUNId | cefact:UN01013407
-rdfs:comment | The carrier party, at header level, for this trade agreement.
-edi3:cefactBieDomainClass | [cefact:Header_TradeAgreement.Details](#Header_TradeAgreement.Details)
+edi3:cefactUNId | cefact:UN01003863
+rdfs:comment | A carrier party for this logistics transport movement.
+edi3:cefactBieDomainClass | [cefact:Logistics_TransportMovement.Details](#Logistics_TransportMovement.Details)
+edi3:cefactBusinessProcess | Buy-Ship-Pay
+
+@id | cefact:Line_TradeAgreement.Carrier.Trade_Party
+@type | edi3:AssociationBIE
+edi3:cefactUNId | cefact:UN01011731
+rdfs:comment | A carrier party for this line trade agreement.
+edi3:cefactBieDomainClass | [cefact:Line_TradeAgreement.Details](#Line_TradeAgreement.Details)
+edi3:cefactBusinessProcess | Buy-Ship-Pay
+
+@id | cefact:Referenced_SupplyChain_Consignment.Carrier.Trade_Party
+@type | edi3:AssociationBIE
+edi3:cefactUNId | cefact:UN01011059
+rdfs:comment | The carrier party for this referenced supply chain consignment.
+edi3:cefactBieDomainClass | [cefact:Referenced_ Supply Chain_Consignment.Details](#Referenced_ Supply Chain_Consignment.Details)
+edi3:cefactBusinessProcess | Buy-Ship-Pay
+
+@id | cefact:Logistics_TransportEquipment.Carrier.Trade_Party
+@type | edi3:AssociationBIE
+edi3:cefactUNId | cefact:UN01003812
+rdfs:comment | A carrier party for this piece of logistics transport equipment.
+edi3:cefactBieDomainClass | [cefact:Logistics_TransportEquipment.Details](#Logistics_TransportEquipment.Details)
 edi3:cefactBusinessProcess | Buy-Ship-Pay
 
 
@@ -15542,18 +15542,18 @@ Domains:
 
 Cefact Element Metadata: 
 
-@id | cefact:Header_TradeAgreement.Catalogue_InformationProvider.Trade_Party
-@type | edi3:AssociationBIE
-edi3:cefactUNId | cefact:UN01011581
-rdfs:comment | The party that provides catalogue information for this header trade agreement.
-edi3:cefactBieDomainClass | [cefact:Header_TradeAgreement.Details](#Header_TradeAgreement.Details)
-edi3:cefactBusinessProcess | Buy-Ship-Pay
-
 @id | cefact:Line_TradeAgreement.Catalogue_InformationProvider.Trade_Party
 @type | edi3:AssociationBIE
 edi3:cefactUNId | cefact:UN01011728
 rdfs:comment | The party that provides catalogue information for this line trade agreement.
 edi3:cefactBieDomainClass | [cefact:Line_TradeAgreement.Details](#Line_TradeAgreement.Details)
+edi3:cefactBusinessProcess | Buy-Ship-Pay
+
+@id | cefact:Header_TradeAgreement.Catalogue_InformationProvider.Trade_Party
+@type | edi3:AssociationBIE
+edi3:cefactUNId | cefact:UN01011581
+rdfs:comment | The party that provides catalogue information for this header trade agreement.
+edi3:cefactBieDomainClass | [cefact:Header_TradeAgreement.Details](#Header_TradeAgreement.Details)
 edi3:cefactBusinessProcess | Buy-Ship-Pay
 
 
@@ -15694,6 +15694,34 @@ Domains:
 
 Cefact Element Metadata: 
 
+@id | cefact:Referenced_Document.Category.Code
+@type | edi3:BasicBIE
+edi3:cefactUNId | cefact:UN01004013
+rdfs:comment | The code specifying the category of this referenced document.
+edi3:cefactBieDomainClass | [cefact:Referenced_Document.Details](#Referenced_Document.Details)
+edi3:cefactBusinessProcess | In All Contexts
+
+@id | cefact:Transport_Person.Category.Code
+@type | edi3:BasicBIE
+edi3:cefactUNId | cefact:UN01013135
+rdfs:comment | A code specifying a category for this transport person, such as a member of crew or passenger.
+edi3:cefactBieDomainClass | [cefact:Transport_Person.Details](#Transport_Person.Details)
+edi3:cefactBusinessProcess | In All Contexts
+
+@id | cefact:Government_Registration.Category.Code
+@type | edi3:BasicBIE
+edi3:cefactUNId | cefact:UN01011032
+rdfs:comment | A code specifying a category of this government registration.
+edi3:cefactBieDomainClass | [cefact:Government_Registration.Details](#Government_Registration.Details)
+edi3:cefactBusinessProcess | Buy-Ship-Pay
+
+@id | cefact:Cross-Border_RegulatoryProcedure.Category.Code
+@type | edi3:BasicBIE
+edi3:cefactUNId | cefact:UN01006171
+rdfs:comment | A code specifying a category for this cross-border regulatory procedure, such as the appendices of the CITES Convention.
+edi3:cefactBieDomainClass | [cefact:Cross-Border_RegulatoryProcedure.Details](#Cross-Border_RegulatoryProcedure.Details)
+edi3:cefactBusinessProcess | Buy-Ship-Pay
+
 @id | cefact:Certified_Accreditation.Category.Code
 @type | edi3:BasicBIE
 edi3:cefactUNId | cefact:UN01010057
@@ -15701,11 +15729,11 @@ rdfs:comment | The code specifying the category of this certified accreditation,
 edi3:cefactBieDomainClass | [cefact:Certified_Accreditation.Details](#Certified_Accreditation.Details)
 edi3:cefactBusinessProcess | Transport
 
-@id | cefact:Referenced_Document.Category.Code
+@id | cefact:Document_Authentication.Category.Code
 @type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01004013
-rdfs:comment | The code specifying the category of this referenced document.
-edi3:cefactBieDomainClass | [cefact:Referenced_Document.Details](#Referenced_Document.Details)
+edi3:cefactUNId | cefact:UN01012809
+rdfs:comment | A code specifying a category for this document authentication.
+edi3:cefactBieDomainClass | [cefact:Document_Authentication.Details](#Document_Authentication.Details)
 edi3:cefactBusinessProcess | In All Contexts
 
 @id | cefact:Exchanged_Document.Category.Code
@@ -15715,40 +15743,12 @@ rdfs:comment | The code specifying a category for this exchanged document.
 edi3:cefactBieDomainClass | [cefact:Exchanged_Document.Details](#Exchanged_Document.Details)
 edi3:cefactBusinessProcess | In All Contexts
 
-@id | cefact:Cross-Border_RegulatoryProcedure.Category.Code
-@type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01006171
-rdfs:comment | A code specifying a category for this cross-border regulatory procedure, such as the appendices of the CITES Convention.
-edi3:cefactBieDomainClass | [cefact:Cross-Border_RegulatoryProcedure.Details](#Cross-Border_RegulatoryProcedure.Details)
-edi3:cefactBusinessProcess | Buy-Ship-Pay
-
-@id | cefact:Government_Registration.Category.Code
-@type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01011032
-rdfs:comment | A code specifying a category of this government registration.
-edi3:cefactBieDomainClass | [cefact:Government_Registration.Details](#Government_Registration.Details)
-edi3:cefactBusinessProcess | Buy-Ship-Pay
-
 @id | cefact:Logistics_RiskAnalysisResult.Category.Code
 @type | edi3:BasicBIE
 edi3:cefactUNId | cefact:UN01013044
 rdfs:comment | The code specifying the category for this logistics risk analysis result.
 edi3:cefactBieDomainClass | [cefact:Logistics_RiskAnalysisResult.Details](#Logistics_RiskAnalysisResult.Details)
 edi3:cefactBusinessProcess | Buy-Ship-Pay
-
-@id | cefact:Document_Authentication.Category.Code
-@type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01012809
-rdfs:comment | A code specifying a category for this document authentication.
-edi3:cefactBieDomainClass | [cefact:Document_Authentication.Details](#Document_Authentication.Details)
-edi3:cefactBusinessProcess | In All Contexts
-
-@id | cefact:Transport_Person.Category.Code
-@type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01013135
-rdfs:comment | A code specifying a category for this transport person, such as a member of crew or passenger.
-edi3:cefactBieDomainClass | [cefact:Transport_Person.Details](#Transport_Person.Details)
-edi3:cefactBusinessProcess | In All Contexts
 
 
 
@@ -15831,6 +15831,13 @@ Domains:
 
 Cefact Element Metadata: 
 
+@id | cefact:Attached_TransportEquipment.Category.Code
+@type | edi3:BasicBIE
+edi3:cefactUNId | cefact:UN01003418
+rdfs:comment | A code specifying a category of this piece of attached transport equipment.
+edi3:cefactBieDomainClass | [cefact:Attached_TransportEquipment.Details](#Attached_TransportEquipment.Details)
+edi3:cefactBusinessProcess | Buy-Ship-Pay
+
 @id | cefact:Referenced_Logistics_TransportEquipment.Category.Code
 @type | edi3:BasicBIE
 edi3:cefactUNId | cefact:UN01004024
@@ -15843,13 +15850,6 @@ edi3:cefactBusinessProcess | Buy-Ship-Pay
 edi3:cefactUNId | cefact:UN01003767
 rdfs:comment | The code specifying the category for this piece of logistics transport equipment, such as container or trailer.
 edi3:cefactBieDomainClass | [cefact:Logistics_TransportEquipment.Details](#Logistics_TransportEquipment.Details)
-edi3:cefactBusinessProcess | Buy-Ship-Pay
-
-@id | cefact:Attached_TransportEquipment.Category.Code
-@type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01003418
-rdfs:comment | A code specifying a category of this piece of attached transport equipment.
-edi3:cefactBieDomainClass | [cefact:Attached_TransportEquipment.Details](#Attached_TransportEquipment.Details)
 edi3:cefactBusinessProcess | Buy-Ship-Pay
 
 
@@ -15889,19 +15889,19 @@ Domains:
 
 Cefact Element Metadata: 
 
-@id | cefact:ReferencedTransport_Service.Category_Type.Code
-@type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01010077
-rdfs:comment | A code specifying the category type of this referenced transport service.
-edi3:cefactBieDomainClass | [cefact:Referenced Transport_Service.Details](#Referenced Transport_Service.Details)
-edi3:cefactBusinessProcess | Transport
-
 @id | cefact:Transport_Service.Category_Type.Code
 @type | edi3:BasicBIE
 edi3:cefactUNId | cefact:UN01004843
 rdfs:comment | A code specifying a type of category for this transport service.
 edi3:cefactBieDomainClass | [cefact:Transport_Service.Details](#Transport_Service.Details)
 edi3:cefactBusinessProcess | In All Contexts
+
+@id | cefact:ReferencedTransport_Service.Category_Type.Code
+@type | edi3:BasicBIE
+edi3:cefactUNId | cefact:UN01010077
+rdfs:comment | A code specifying the category type of this referenced transport service.
+edi3:cefactBieDomainClass | [cefact:Referenced Transport_Service.Details](#Referenced Transport_Service.Details)
+edi3:cefactBusinessProcess | Transport
 
 
 
@@ -16125,19 +16125,19 @@ Domains:
 
 Cefact Element Metadata: 
 
+@id | cefact:WorkItem_QuantityAnalysis.Changed.Recorded_Status
+@type | edi3:AssociationBIE
+edi3:cefactUNId | cefact:UN01007544
+rdfs:comment | A changed recorded status for this work item quantity analysis.
+edi3:cefactBieDomainClass | [cefact:Work Item_QuantityAnalysis.Details](#Work Item_QuantityAnalysis.Details)
+edi3:cefactBusinessProcess | In All Contexts
+
 @id | cefact:Grouped_WorkItem.Changed.Recorded_Status
 @type | edi3:AssociationBIE
 edi3:cefactUNId | cefact:UN01007513
 rdfs:comment | A changed recorded status for this grouped work item.
 edi3:cefactBieDomainClass | [cefact:Grouped_WorkItem.Details](#Grouped_WorkItem.Details)
 edi3:cefactBusinessProcess | In All Contexts
-
-@id | cefact:Valuation_BreakdownStatement.Changed.Recorded_Status
-@type | edi3:AssociationBIE
-edi3:cefactUNId | cefact:UN01007563
-rdfs:comment | A changed recorded status for this valuation breakdown statement.
-edi3:cefactBieDomainClass | [cefact:Valuation_BreakdownStatement.Details](#Valuation_BreakdownStatement.Details)
-edi3:cefactBusinessProcess | Invoicing
 
 @id | cefact:Basic_WorkItem.Changed.Recorded_Status
 @type | edi3:AssociationBIE
@@ -16146,12 +16146,12 @@ rdfs:comment | A changed recorded status for this basic work item.
 edi3:cefactBieDomainClass | [cefact:Basic_WorkItem.Details](#Basic_WorkItem.Details)
 edi3:cefactBusinessProcess | In All Contexts
 
-@id | cefact:WorkItem_QuantityAnalysis.Changed.Recorded_Status
+@id | cefact:Valuation_BreakdownStatement.Changed.Recorded_Status
 @type | edi3:AssociationBIE
-edi3:cefactUNId | cefact:UN01007544
-rdfs:comment | A changed recorded status for this work item quantity analysis.
-edi3:cefactBieDomainClass | [cefact:Work Item_QuantityAnalysis.Details](#Work Item_QuantityAnalysis.Details)
-edi3:cefactBusinessProcess | In All Contexts
+edi3:cefactUNId | cefact:UN01007563
+rdfs:comment | A changed recorded status for this valuation breakdown statement.
+edi3:cefactBieDomainClass | [cefact:Valuation_BreakdownStatement.Details](#Valuation_BreakdownStatement.Details)
+edi3:cefactBusinessProcess | Invoicing
 
 
 
@@ -16234,13 +16234,6 @@ Domains:
 
 Cefact Element Metadata: 
 
-@id | cefact:Referenced_Logistics_TransportEquipment.Characteristic.Text
-@type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01004026
-rdfs:comment | The characteristics, expressed as text, of a referenced piece of logistics transport equipment, such as size and type.
-edi3:cefactBieDomainClass | [cefact:Referenced_ Logistics_TransportEquipment.Details](#Referenced_ Logistics_TransportEquipment.Details)
-edi3:cefactBusinessProcess | Buy-Ship-Pay
-
 @id | cefact:Associated_TransportEquipment.Characteristic.Text
 @type | edi3:BasicBIE
 edi3:cefactUNId | cefact:UN01003415
@@ -16248,18 +16241,25 @@ rdfs:comment | The textual description of the characteristics, i.e. size and typ
 edi3:cefactBieDomainClass | [cefact:Associated_TransportEquipment.Details](#Associated_TransportEquipment.Details)
 edi3:cefactBusinessProcess | Buy-Ship-Pay
 
-@id | cefact:Logistics_TransportEquipment.Characteristic.Text
-@type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01003769
-rdfs:comment | The characteristic or characteristics, expressed as text, of a piece of logistics transport equipment, such as its size and type.
-edi3:cefactBieDomainClass | [cefact:Logistics_TransportEquipment.Details](#Logistics_TransportEquipment.Details)
-edi3:cefactBusinessProcess | Buy-Ship-Pay
-
 @id | cefact:Attached_TransportEquipment.Characteristic.Text
 @type | edi3:BasicBIE
 edi3:cefactUNId | cefact:UN01003420
 rdfs:comment | The textual description of the characteristics, i.e. size and type, of this piece of attached transport equipment.
 edi3:cefactBieDomainClass | [cefact:Attached_TransportEquipment.Details](#Attached_TransportEquipment.Details)
+edi3:cefactBusinessProcess | Buy-Ship-Pay
+
+@id | cefact:Referenced_Logistics_TransportEquipment.Characteristic.Text
+@type | edi3:BasicBIE
+edi3:cefactUNId | cefact:UN01004026
+rdfs:comment | The characteristics, expressed as text, of a referenced piece of logistics transport equipment, such as size and type.
+edi3:cefactBieDomainClass | [cefact:Referenced_ Logistics_TransportEquipment.Details](#Referenced_ Logistics_TransportEquipment.Details)
+edi3:cefactBusinessProcess | Buy-Ship-Pay
+
+@id | cefact:Logistics_TransportEquipment.Characteristic.Text
+@type | edi3:BasicBIE
+edi3:cefactUNId | cefact:UN01003769
+rdfs:comment | The characteristic or characteristics, expressed as text, of a piece of logistics transport equipment, such as its size and type.
+edi3:cefactBieDomainClass | [cefact:Logistics_TransportEquipment.Details](#Logistics_TransportEquipment.Details)
 edi3:cefactBusinessProcess | Buy-Ship-Pay
 
 
@@ -16277,13 +16277,6 @@ Domains:
 
 Cefact Element Metadata: 
 
-@id | cefact:Logistics_TransportEquipment.Characteristic.Code
-@type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01003768
-rdfs:comment | The code specifying the characteristic or characteristics of this piece of logistics transport equipment, such as the ISO 6346 transport equipment size and type code.
-edi3:cefactBieDomainClass | [cefact:Logistics_TransportEquipment.Details](#Logistics_TransportEquipment.Details)
-edi3:cefactBusinessProcess | Buy-Ship-Pay
-
 @id | cefact:Attached_TransportEquipment.Characteristic.Code
 @type | edi3:BasicBIE
 edi3:cefactUNId | cefact:UN01003419
@@ -16296,6 +16289,13 @@ edi3:cefactBusinessProcess | Buy-Ship-Pay
 edi3:cefactUNId | cefact:UN01004025
 rdfs:comment | The code specifying the characteristics, such as size and type, of this referenced piece of logistics transport equipment.
 edi3:cefactBieDomainClass | [cefact:Referenced_ Logistics_TransportEquipment.Details](#Referenced_ Logistics_TransportEquipment.Details)
+edi3:cefactBusinessProcess | Buy-Ship-Pay
+
+@id | cefact:Logistics_TransportEquipment.Characteristic.Code
+@type | edi3:BasicBIE
+edi3:cefactUNId | cefact:UN01003768
+rdfs:comment | The code specifying the characteristic or characteristics of this piece of logistics transport equipment, such as the ISO 6346 transport equipment size and type code.
+edi3:cefactBieDomainClass | [cefact:Logistics_TransportEquipment.Details](#Logistics_TransportEquipment.Details)
 edi3:cefactBusinessProcess | Buy-Ship-Pay
 
 
@@ -16321,6 +16321,13 @@ rdfs:comment | The monetary value of a charged reference price.
 edi3:cefactBieDomainClass | [cefact:Reference_Price.Details](#Reference_Price.Details)
 edi3:cefactBusinessProcess | Buy-Ship-Pay
 
+@id | cefact:Calculated_Price.Charge.Amount
+@type | edi3:BasicBIE
+edi3:cefactUNId | cefact:UN01000181
+rdfs:comment | A monetary value of the calculated price to be charged.
+edi3:cefactBieDomainClass | [cefact:Calculated_Price.Details](#Calculated_Price.Details)
+edi3:cefactBusinessProcess | In All Contexts
+
 @id | cefact:Transport_Service.Charge.Amount
 @type | edi3:BasicBIE
 edi3:cefactUNId | cefact:UN01004841
@@ -16334,13 +16341,6 @@ edi3:cefactUNId | cefact:UN01001679
 rdfs:comment | A monetary value of the trade price charge.
 edi3:cefactBieDomainClass | [cefact:Trade_Price.Details](#Trade_Price.Details)
 edi3:cefactBusinessProcess | Trade
-
-@id | cefact:Calculated_Price.Charge.Amount
-@type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01000181
-rdfs:comment | A monetary value of the calculated price to be charged.
-edi3:cefactBieDomainClass | [cefact:Calculated_Price.Details](#Calculated_Price.Details)
-edi3:cefactBusinessProcess | In All Contexts
 
 
 
@@ -16505,13 +16505,6 @@ Domains:
 
 Cefact Element Metadata: 
 
-@id | cefact:SupplyChain_ConsignmentItem.ChargeableWeight.Measure
-@type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01004123
-rdfs:comment | A measure of the supply chain consignment item weight on which charges are to be based.
-edi3:cefactBieDomainClass | [cefact:Supply Chain_ConsignmentItem.Details](#Supply Chain_ConsignmentItem.Details)
-edi3:cefactBusinessProcess | Buy-Ship-Pay
-
 @id | cefact:SupplyChain_Consignment.ChargeableWeight.Measure
 @type | edi3:BasicBIE
 edi3:cefactUNId | cefact:UN01004177
@@ -16524,6 +16517,13 @@ edi3:cefactBusinessProcess | Buy-Ship-Pay
 edi3:cefactUNId | cefact:UN01012997
 rdfs:comment | The measure of the chargeable weight, at line level, for this trade delivery.
 edi3:cefactBieDomainClass | [cefact:Line_TradeDelivery.Details](#Line_TradeDelivery.Details)
+edi3:cefactBusinessProcess | Buy-Ship-Pay
+
+@id | cefact:SupplyChain_ConsignmentItem.ChargeableWeight.Measure
+@type | edi3:BasicBIE
+edi3:cefactUNId | cefact:UN01004123
+rdfs:comment | A measure of the supply chain consignment item weight on which charges are to be based.
+edi3:cefactBieDomainClass | [cefact:Supply Chain_ConsignmentItem.Details](#Supply Chain_ConsignmentItem.Details)
 edi3:cefactBusinessProcess | Buy-Ship-Pay
 
 
@@ -16563,19 +16563,19 @@ Domains:
 
 Cefact Element Metadata: 
 
-@id | cefact:FinancialInstitution_Address.City.Identifier
-@type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01004893
-rdfs:comment | The unique identifier of the city for this financial institution address, such as United Nations Location Code (UNLOCODE).
-edi3:cefactBieDomainClass | [cefact:Financial Institution_Address.Details](#Financial Institution_Address.Details)
-edi3:cefactBusinessProcess | Customer to bank payment initiation
-
 @id | cefact:Trade_Address.City.Identifier
 @type | edi3:BasicBIE
 edi3:cefactUNId | cefact:UN01013130
 rdfs:comment | The identifier of the city for this trade address, such as United Nations Location Code (UNLOCODE).
 edi3:cefactBieDomainClass | [cefact:Trade_Address.Details](#Trade_Address.Details)
 edi3:cefactBusinessProcess | Buy-Ship-Pay
+
+@id | cefact:FinancialInstitution_Address.City.Identifier
+@type | edi3:BasicBIE
+edi3:cefactUNId | cefact:UN01004893
+rdfs:comment | The unique identifier of the city for this financial institution address, such as United Nations Location Code (UNLOCODE).
+edi3:cefactBieDomainClass | [cefact:Financial Institution_Address.Details](#Financial Institution_Address.Details)
+edi3:cefactBusinessProcess | Customer to bank payment initiation
 
 
 
@@ -16592,19 +16592,19 @@ Domains:
 
 Cefact Element Metadata: 
 
-@id | cefact:Birth_Address.CityName.Text
-@type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01003171
-rdfs:comment | The name, expressed as text, of the city, town or village of this birth address.
-edi3:cefactBieDomainClass | [cefact:Birth_Address.Details](#Birth_Address.Details)
-edi3:cefactBusinessProcess | Customer to bank payment initiation
-
 @id | cefact:Trade_Address.CityName.Text
 @type | edi3:BasicBIE
 edi3:cefactUNId | cefact:UN01004544
 rdfs:comment | The name, expressed as text, of the city, town or village of this trade address.
 edi3:cefactBieDomainClass | [cefact:Trade_Address.Details](#Trade_Address.Details)
 edi3:cefactBusinessProcess | Buy-Ship-Pay
+
+@id | cefact:Birth_Address.CityName.Text
+@type | edi3:BasicBIE
+edi3:cefactUNId | cefact:UN01003171
+rdfs:comment | The name, expressed as text, of the city, town or village of this birth address.
+edi3:cefactBieDomainClass | [cefact:Birth_Address.Details](#Birth_Address.Details)
+edi3:cefactBusinessProcess | Customer to bank payment initiation
 
 @id | cefact:FinancialInstitution_Address.CityName.Text
 @type | edi3:BasicBIE
@@ -16738,18 +16738,18 @@ Domains:
 
 Cefact Element Metadata: 
 
-@id | cefact:Debtor_FinancialInstitution.ClearingSystemName.Text
-@type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01002842
-rdfs:comment | The clearing system name, expressed as text, for this debtor financial institution.
-edi3:cefactBieDomainClass | [cefact:Debtor_FinancialInstitution.Details](#Debtor_FinancialInstitution.Details)
-edi3:cefactBusinessProcess | Customer to bank payment initiation
-
 @id | cefact:Creditor_FinancialInstitution.ClearingSystemName.Text
 @type | edi3:BasicBIE
 edi3:cefactUNId | cefact:UN01002977
 rdfs:comment | The clearing system name, expressed as text, for this creditor financial institution.
 edi3:cefactBieDomainClass | [cefact:Creditor_FinancialInstitution.Details](#Creditor_FinancialInstitution.Details)
+edi3:cefactBusinessProcess | Customer to bank payment initiation
+
+@id | cefact:Debtor_FinancialInstitution.ClearingSystemName.Text
+@type | edi3:BasicBIE
+edi3:cefactUNId | cefact:UN01002842
+rdfs:comment | The clearing system name, expressed as text, for this debtor financial institution.
+edi3:cefactBieDomainClass | [cefact:Debtor_FinancialInstitution.Details](#Debtor_FinancialInstitution.Details)
 edi3:cefactBusinessProcess | Customer to bank payment initiation
 
 
@@ -16763,17 +16763,10 @@ Range: xsd:dateTime
 
 Domains: 
 
-[edi3:Payment](#Payment)
 [edi3:TradeSettlement](#TradeSettlement)
+[edi3:Payment](#Payment)
 
 Cefact Element Metadata: 
-
-@id | cefact:TradeSettlement_Payment.ClosingBook_Due.DateTime
-@type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01011125
-rdfs:comment | A date, time, date time or other date time value of a closing book due date for this trade settlement payment.
-edi3:cefactBieDomainClass | [cefact:Trade Settlement_Payment.Details](#Trade Settlement_Payment.Details)
-edi3:cefactBusinessProcess | Trade
 
 @id | cefact:Header_TradeSettlement.ClosingBook_Due.DateTime
 @type | edi3:BasicBIE
@@ -16781,6 +16774,13 @@ edi3:cefactUNId | cefact:UN01012135
 rdfs:comment | The date, time, date time or other date time value when the book closing is due for this header trade settlement.
 edi3:cefactBieDomainClass | [cefact:Header_TradeSettlement.Details](#Header_TradeSettlement.Details)
 edi3:cefactBusinessProcess | Buy-Ship-Pay
+
+@id | cefact:TradeSettlement_Payment.ClosingBook_Due.DateTime
+@type | edi3:BasicBIE
+edi3:cefactUNId | cefact:UN01011125
+rdfs:comment | A date, time, date time or other date time value of a closing book due date for this trade settlement payment.
+edi3:cefactBieDomainClass | [cefact:Trade Settlement_Payment.Details](#Trade Settlement_Payment.Details)
+edi3:cefactBusinessProcess | Trade
 
 
 
@@ -16842,18 +16842,18 @@ Domains:
 
 Cefact Element Metadata: 
 
-@id | cefact:Referenced_Logistics_Package.Colour.Code
-@type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01012741
-rdfs:comment | The code specifying the colour of this referenced logistics package.
-edi3:cefactBieDomainClass | [cefact:Referenced_ Logistics_Package.Details](#Referenced_ Logistics_Package.Details)
-edi3:cefactBusinessProcess | Buy-Ship-Pay
-
 @id | cefact:Trade_Product.Colour.Code
 @type | edi3:BasicBIE
 edi3:cefactUNId | cefact:UN01007262
 rdfs:comment | The code specifying the colour for this trade product.
 edi3:cefactBieDomainClass | [cefact:Trade_Product.Details](#Trade_Product.Details)
+edi3:cefactBusinessProcess | Buy-Ship-Pay
+
+@id | cefact:Referenced_Logistics_Package.Colour.Code
+@type | edi3:BasicBIE
+edi3:cefactUNId | cefact:UN01012741
+rdfs:comment | The code specifying the colour of this referenced logistics package.
+edi3:cefactBieDomainClass | [cefact:Referenced_ Logistics_Package.Details](#Referenced_ Logistics_Package.Details)
 edi3:cefactBusinessProcess | Buy-Ship-Pay
 
 @id | cefact:Logistics_Package.Colour.Code
@@ -16908,18 +16908,18 @@ rdfs:comment | A comment, expressed as text, for this valuation breakdown statem
 edi3:cefactBieDomainClass | [cefact:Valuation_BreakdownStatement.Details](#Valuation_BreakdownStatement.Details)
 edi3:cefactBusinessProcess | Invoicing
 
-@id | cefact:Basic_WorkItem.Comment.Text
-@type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01000032
-rdfs:comment | A comment, expressed as text, for this basic work item.
-edi3:cefactBieDomainClass | [cefact:Basic_WorkItem.Details](#Basic_WorkItem.Details)
-edi3:cefactBusinessProcess | In All Contexts
-
 @id | cefact:Grouped_WorkItem.Comment.Text
 @type | edi3:BasicBIE
 edi3:cefactUNId | cefact:UN01000049
 rdfs:comment | A comment, expressed as text, for this work item group.
 edi3:cefactBieDomainClass | [cefact:Grouped_WorkItem.Details](#Grouped_WorkItem.Details)
+edi3:cefactBusinessProcess | In All Contexts
+
+@id | cefact:Basic_WorkItem.Comment.Text
+@type | edi3:BasicBIE
+edi3:cefactUNId | cefact:UN01000032
+rdfs:comment | A comment, expressed as text, for this basic work item.
+edi3:cefactBieDomainClass | [cefact:Basic_WorkItem.Details](#Basic_WorkItem.Details)
 edi3:cefactBusinessProcess | In All Contexts
 
 
@@ -17012,19 +17012,19 @@ Domains:
 
 Cefact Element Metadata: 
 
-@id | cefact:Trade_Product.Common_Name.Text
-@type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01006143
-rdfs:comment | A common name, expressed as text, for this trade product.
-edi3:cefactBieDomainClass | [cefact:Trade_Product.Details](#Trade_Product.Details)
-edi3:cefactBusinessProcess | Buy-Ship-Pay
-
 @id | cefact:Distinct_Chemical.Common_Name.Text
 @type | edi3:BasicBIE
 edi3:cefactUNId | cefact:UN01002174
 rdfs:comment | A common name, expressed as text, for this distinct chemical.
 edi3:cefactBieDomainClass | [cefact:Distinct_Chemical.Details](#Distinct_Chemical.Details)
 edi3:cefactBusinessProcess | MSDS Reporting
+
+@id | cefact:Trade_Product.Common_Name.Text
+@type | edi3:BasicBIE
+edi3:cefactUNId | cefact:UN01006143
+rdfs:comment | A common name, expressed as text, for this trade product.
+edi3:cefactBieDomainClass | [cefact:Trade_Product.Details](#Trade_Product.Details)
+edi3:cefactBusinessProcess | Buy-Ship-Pay
 
 
 
@@ -17195,19 +17195,19 @@ Domains:
 
 Cefact Element Metadata: 
 
-@id | cefact:Universal_Communication.CompleteNumber.Text
-@type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01001256
-rdfs:comment | The text string of characters that make up the complete number for this universal communication.
-edi3:cefactBieDomainClass | [cefact:Universal_Communication.Details](#Universal_Communication.Details)
-edi3:cefactBusinessProcess | In All Contexts
-
 @id | cefact:Telecommunication_Communication.CompleteNumber.Text
 @type | edi3:BasicBIE
 edi3:cefactUNId | cefact:UN01002045
 rdfs:comment | The text string of characters that make up the complete number for this telecommunication.
 edi3:cefactBieDomainClass | [cefact:Telecommunication_Communication.Details](#Telecommunication_Communication.Details)
 edi3:cefactBusinessProcess | Project Management
+
+@id | cefact:Universal_Communication.CompleteNumber.Text
+@type | edi3:BasicBIE
+edi3:cefactUNId | cefact:UN01001256
+rdfs:comment | The text string of characters that make up the complete number for this universal communication.
+edi3:cefactBieDomainClass | [cefact:Universal_Communication.Details](#Universal_Communication.Details)
+edi3:cefactBusinessProcess | In All Contexts
 
 
 
@@ -17694,18 +17694,18 @@ Domains:
 
 Cefact Element Metadata: 
 
-@id | cefact:Line_TradeDelivery.Confirmed_Release.SupplyChain_Event
-@type | edi3:AssociationBIE
-edi3:cefactUNId | cefact:UN01013458
-rdfs:comment | The release event, at line level, confirmed for this trade delivery.
-edi3:cefactBieDomainClass | [cefact:Line_TradeDelivery.Details](#Line_TradeDelivery.Details)
-edi3:cefactBusinessProcess | Buy-Ship-Pay
-
 @id | cefact:Header_TradeDelivery.Confirmed_Release.SupplyChain_Event
 @type | edi3:AssociationBIE
 edi3:cefactUNId | cefact:UN01011639
 rdfs:comment | The confirmed release event, at header level, for this trade delivery.
 edi3:cefactBieDomainClass | [cefact:Header_TradeDelivery.Details](#Header_TradeDelivery.Details)
+edi3:cefactBusinessProcess | Buy-Ship-Pay
+
+@id | cefact:Line_TradeDelivery.Confirmed_Release.SupplyChain_Event
+@type | edi3:AssociationBIE
+edi3:cefactUNId | cefact:UN01013458
+rdfs:comment | The release event, at line level, confirmed for this trade delivery.
+edi3:cefactBieDomainClass | [cefact:Line_TradeDelivery.Details](#Line_TradeDelivery.Details)
 edi3:cefactBusinessProcess | Buy-Ship-Pay
 
 
@@ -17767,18 +17767,18 @@ Domains:
 
 Cefact Element Metadata: 
 
-@id | cefact:SupplyChain_Consignment.ConsigneeAssigned.Identifier
-@type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01004162
-rdfs:comment | The unique identifier assigned by the consignee to this supply chain consignment.
-edi3:cefactBieDomainClass | [cefact:Supply Chain_Consignment.Details](#Supply Chain_Consignment.Details)
-edi3:cefactBusinessProcess | Buy-Ship-Pay
-
 @id | cefact:Referenced_SupplyChain_Consignment.ConsigneeAssigned.Identifier
 @type | edi3:BasicBIE
 edi3:cefactUNId | cefact:UN01004043
 rdfs:comment | The unique identifier assigned by the consignee to this referenced supply chain consignment.
 edi3:cefactBieDomainClass | [cefact:Referenced_ Supply Chain_Consignment.Details](#Referenced_ Supply Chain_Consignment.Details)
+edi3:cefactBusinessProcess | Buy-Ship-Pay
+
+@id | cefact:SupplyChain_Consignment.ConsigneeAssigned.Identifier
+@type | edi3:BasicBIE
+edi3:cefactUNId | cefact:UN01004162
+rdfs:comment | The unique identifier assigned by the consignee to this supply chain consignment.
+edi3:cefactBieDomainClass | [cefact:Supply Chain_Consignment.Details](#Supply Chain_Consignment.Details)
 edi3:cefactBusinessProcess | Buy-Ship-Pay
 
 
@@ -17986,18 +17986,18 @@ Domains:
 
 Cefact Element Metadata: 
 
-@id | cefact:Referenced_SupplyChain_Consignment.ConsignorAssigned.Identifier
-@type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01004042
-rdfs:comment | The unique identifier assigned by the consignor to this referenced supply chain consignment.
-edi3:cefactBieDomainClass | [cefact:Referenced_ Supply Chain_Consignment.Details](#Referenced_ Supply Chain_Consignment.Details)
-edi3:cefactBusinessProcess | Buy-Ship-Pay
-
 @id | cefact:SupplyChain_Consignment.ConsignorAssigned.Identifier
 @type | edi3:BasicBIE
 edi3:cefactUNId | cefact:UN01004161
 rdfs:comment | The unique identifier assigned by the consignor to this supply chain consignment.
 edi3:cefactBieDomainClass | [cefact:Supply Chain_Consignment.Details](#Supply Chain_Consignment.Details)
+edi3:cefactBusinessProcess | Buy-Ship-Pay
+
+@id | cefact:Referenced_SupplyChain_Consignment.ConsignorAssigned.Identifier
+@type | edi3:BasicBIE
+edi3:cefactUNId | cefact:UN01004042
+rdfs:comment | The unique identifier assigned by the consignor to this referenced supply chain consignment.
+edi3:cefactBieDomainClass | [cefact:Referenced_ Supply Chain_Consignment.Details](#Referenced_ Supply Chain_Consignment.Details)
 edi3:cefactBusinessProcess | Buy-Ship-Pay
 
 
@@ -18059,18 +18059,18 @@ Domains:
 
 Cefact Element Metadata: 
 
-@id | cefact:Referenced_SupplyChain_Consignment.Consignor.Trade_Party
-@type | edi3:AssociationBIE
-edi3:cefactUNId | cefact:UN01011054
-rdfs:comment | The consignor party for this referenced supply chain consignment.
-edi3:cefactBieDomainClass | [cefact:Referenced_ Supply Chain_Consignment.Details](#Referenced_ Supply Chain_Consignment.Details)
-edi3:cefactBusinessProcess | Buy-Ship-Pay
-
 @id | cefact:SupplyChain_Consignment.Consignor.Trade_Party
 @type | edi3:AssociationBIE
 edi3:cefactUNId | cefact:UN01004212
 rdfs:comment | The consignor party for this supply chain consignment.
 edi3:cefactBieDomainClass | [cefact:Supply Chain_Consignment.Details](#Supply Chain_Consignment.Details)
+edi3:cefactBusinessProcess | Buy-Ship-Pay
+
+@id | cefact:Referenced_SupplyChain_Consignment.Consignor.Trade_Party
+@type | edi3:AssociationBIE
+edi3:cefactUNId | cefact:UN01011054
+rdfs:comment | The consignor party for this referenced supply chain consignment.
+edi3:cefactBieDomainClass | [cefact:Referenced_ Supply Chain_Consignment.Details](#Referenced_ Supply Chain_Consignment.Details)
 edi3:cefactBusinessProcess | Buy-Ship-Pay
 
 
@@ -18220,18 +18220,18 @@ Domains:
 
 Cefact Element Metadata: 
 
-@id | cefact:Line_TradeDelivery.ConsumptionReport.Referenced_Document
-@type | edi3:AssociationBIE
-edi3:cefactUNId | cefact:UN01011799
-rdfs:comment | The consumption report document, at line level, referenced from this trade delivery.
-edi3:cefactBieDomainClass | [cefact:Line_TradeDelivery.Details](#Line_TradeDelivery.Details)
-edi3:cefactBusinessProcess | Trade
-
 @id | cefact:Header_TradeDelivery.ConsumptionReport.Referenced_Document
 @type | edi3:AssociationBIE
 edi3:cefactUNId | cefact:UN01011641
 rdfs:comment | The consumption report document, at header level, referenced for this trade delivery.
 edi3:cefactBieDomainClass | [cefact:Header_TradeDelivery.Details](#Header_TradeDelivery.Details)
+edi3:cefactBusinessProcess | Trade
+
+@id | cefact:Line_TradeDelivery.ConsumptionReport.Referenced_Document
+@type | edi3:AssociationBIE
+edi3:cefactUNId | cefact:UN01011799
+rdfs:comment | The consumption report document, at line level, referenced from this trade delivery.
+edi3:cefactBieDomainClass | [cefact:Line_TradeDelivery.Details](#Line_TradeDelivery.Details)
 edi3:cefactBusinessProcess | Trade
 
 
@@ -18460,11 +18460,32 @@ Domains:
 
 Cefact Element Metadata: 
 
+@id | cefact:Specification_Query.Content.Text
+@type | edi3:BasicBIE
+edi3:cefactUNId | cefact:UN01000076
+rdfs:comment | The content, expressed as text, of this specification query.
+edi3:cefactBieDomainClass | [cefact:Specification_Query.Details](#Specification_Query.Details)
+edi3:cefactBusinessProcess | In All Contexts
+
+@id | cefact:Specification_Response.Content.Text
+@type | edi3:BasicBIE
+edi3:cefactUNId | cefact:UN01000081
+rdfs:comment | The content, expressed as text, of this specification response.
+edi3:cefactBieDomainClass | [cefact:Specification_Response.Details](#Specification_Response.Details)
+edi3:cefactBusinessProcess | In All Contexts
+
 @id | cefact:Packaging_Marking.Content.Text
 @type | edi3:BasicBIE
 edi3:cefactUNId | cefact:UN01003921
 rdfs:comment | Content, expressed as text, of this packaging marking.
 edi3:cefactBieDomainClass | [cefact:Packaging_Marking.Details](#Packaging_Marking.Details)
+edi3:cefactBusinessProcess | In All Contexts
+
+@id | cefact:Document_Clause.Content.Text
+@type | edi3:BasicBIE
+edi3:cefactUNId | cefact:UN01002648
+rdfs:comment | Content, expressed as text, of this document clause.
+edi3:cefactBieDomainClass | [cefact:Document_Clause.Details](#Document_Clause.Details)
 edi3:cefactBusinessProcess | In All Contexts
 
 @id | cefact:Note.Content.Text
@@ -18479,27 +18500,6 @@ edi3:cefactBusinessProcess | In All Contexts
 edi3:cefactUNId | cefact:UN01000069
 rdfs:comment | Content, expressed as text, for this work item complex description.
 edi3:cefactBieDomainClass | [cefact:Work Item_ComplexDescription.Details](#Work Item_ComplexDescription.Details)
-edi3:cefactBusinessProcess | In All Contexts
-
-@id | cefact:Document_Clause.Content.Text
-@type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01002648
-rdfs:comment | Content, expressed as text, of this document clause.
-edi3:cefactBieDomainClass | [cefact:Document_Clause.Details](#Document_Clause.Details)
-edi3:cefactBusinessProcess | In All Contexts
-
-@id | cefact:Specification_Response.Content.Text
-@type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01000081
-rdfs:comment | The content, expressed as text, of this specification response.
-edi3:cefactBieDomainClass | [cefact:Specification_Response.Details](#Specification_Response.Details)
-edi3:cefactBusinessProcess | In All Contexts
-
-@id | cefact:Specification_Query.Content.Text
-@type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01000076
-rdfs:comment | The content, expressed as text, of this specification query.
-edi3:cefactBieDomainClass | [cefact:Specification_Query.Details](#Specification_Query.Details)
 edi3:cefactBusinessProcess | In All Contexts
 
 
@@ -18650,18 +18650,18 @@ Domains:
 
 Cefact Element Metadata: 
 
-@id | cefact:Header_TradeAgreement.Contract.Referenced_Document
-@type | edi3:AssociationBIE
-edi3:cefactUNId | cefact:UN01011569
-rdfs:comment | A contract document referenced in this header trade agreement.
-edi3:cefactBieDomainClass | [cefact:Header_TradeAgreement.Details](#Header_TradeAgreement.Details)
-edi3:cefactBusinessProcess | Trade
-
 @id | cefact:SupplyChain_SupplyPlan.Contract.Referenced_Document
 @type | edi3:AssociationBIE
 edi3:cefactUNId | cefact:UN01011860
 rdfs:comment | A referenced contract document for this supply chain supply plan.
 edi3:cefactBieDomainClass | [cefact:Supply Chain_SupplyPlan.Details](#Supply Chain_SupplyPlan.Details)
+edi3:cefactBusinessProcess | Trade
+
+@id | cefact:Header_TradeAgreement.Contract.Referenced_Document
+@type | edi3:AssociationBIE
+edi3:cefactUNId | cefact:UN01011569
+rdfs:comment | A contract document referenced in this header trade agreement.
+edi3:cefactBieDomainClass | [cefact:Header_TradeAgreement.Details](#Header_TradeAgreement.Details)
 edi3:cefactBusinessProcess | Trade
 
 @id | cefact:Line_TradeAgreement.Contract.Referenced_Document
@@ -18728,11 +18728,18 @@ Domains:
 
 Cefact Element Metadata: 
 
-@id | cefact:Grouped_WorkItem.ContractualLanguage.Code
+@id | cefact:WorkItem_ComplexDescription.ContractualLanguage.Code
 @type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01007512
-rdfs:comment | The code specifying the contractual language for this grouped work item.
-edi3:cefactBieDomainClass | [cefact:Grouped_WorkItem.Details](#Grouped_WorkItem.Details)
+edi3:cefactUNId | cefact:UN01007542
+rdfs:comment | The code specifying the contractual language for this work item complex description.
+edi3:cefactBieDomainClass | [cefact:Work Item_ComplexDescription.Details](#Work Item_ComplexDescription.Details)
+edi3:cefactBusinessProcess | In All Contexts
+
+@id | cefact:Specification_Query.ContractualLanguage.Code
+@type | edi3:BasicBIE
+edi3:cefactUNId | cefact:UN01007520
+rdfs:comment | The code specifying the contractual language for this specification query.
+edi3:cefactBieDomainClass | [cefact:Specification_Query.Details](#Specification_Query.Details)
 edi3:cefactBusinessProcess | In All Contexts
 
 @id | cefact:Specification_Response.ContractualLanguage.Code
@@ -18742,11 +18749,11 @@ rdfs:comment | The code specifying the contractual language for this specificati
 edi3:cefactBieDomainClass | [cefact:Specification_Response.Details](#Specification_Response.Details)
 edi3:cefactBusinessProcess | In All Contexts
 
-@id | cefact:Specification_Query.ContractualLanguage.Code
+@id | cefact:WorkItem_QuantityAnalysis.ContractualLanguage.Code
 @type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01007520
-rdfs:comment | The code specifying the contractual language for this specification query.
-edi3:cefactBieDomainClass | [cefact:Specification_Query.Details](#Specification_Query.Details)
+edi3:cefactUNId | cefact:UN01007570
+rdfs:comment | The code specifying the contractual language for this work item quantity analysis.
+edi3:cefactBieDomainClass | [cefact:Work Item_QuantityAnalysis.Details](#Work Item_QuantityAnalysis.Details)
 edi3:cefactBusinessProcess | In All Contexts
 
 @id | cefact:Basic_WorkItem.ContractualLanguage.Code
@@ -18763,13 +18770,6 @@ rdfs:comment | The code specifying the contractual language for this valuation b
 edi3:cefactBieDomainClass | [cefact:Valuation_BreakdownStatement.Details](#Valuation_BreakdownStatement.Details)
 edi3:cefactBusinessProcess | Invoicing
 
-@id | cefact:WorkItem_QuantityAnalysis.ContractualLanguage.Code
-@type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01007570
-rdfs:comment | The code specifying the contractual language for this work item quantity analysis.
-edi3:cefactBieDomainClass | [cefact:Work Item_QuantityAnalysis.Details](#Work Item_QuantityAnalysis.Details)
-edi3:cefactBusinessProcess | In All Contexts
-
 @id | cefact:WorkItem_Dimension.ContractualLanguage.Code
 @type | edi3:BasicBIE
 edi3:cefactUNId | cefact:UN01007543
@@ -18777,11 +18777,11 @@ rdfs:comment | The code specifying the contractual language for this work item d
 edi3:cefactBieDomainClass | [cefact:Work Item_Dimension.Details](#Work Item_Dimension.Details)
 edi3:cefactBusinessProcess | In All Contexts
 
-@id | cefact:WorkItem_ComplexDescription.ContractualLanguage.Code
+@id | cefact:Grouped_WorkItem.ContractualLanguage.Code
 @type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01007542
-rdfs:comment | The code specifying the contractual language for this work item complex description.
-edi3:cefactBieDomainClass | [cefact:Work Item_ComplexDescription.Details](#Work Item_ComplexDescription.Details)
+edi3:cefactUNId | cefact:UN01007512
+rdfs:comment | The code specifying the contractual language for this grouped work item.
+edi3:cefactBieDomainClass | [cefact:Grouped_WorkItem.Details](#Grouped_WorkItem.Details)
 edi3:cefactBusinessProcess | In All Contexts
 
 
@@ -18800,19 +18800,19 @@ Domains:
 
 Cefact Element Metadata: 
 
-@id | cefact:Exchanged_Document.ControlRequirement.Indicator
-@type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01003550
-rdfs:comment | The indication of whether or not this exchanged document has specific control requirements.
-edi3:cefactBieDomainClass | [cefact:Exchanged_Document.Details](#Exchanged_Document.Details)
-edi3:cefactBusinessProcess | In All Contexts
-
 @id | cefact:Cross-Border_RegulatoryProcedure.ControlRequirement.Indicator
 @type | edi3:BasicBIE
 edi3:cefactUNId | cefact:UN01006161
 rdfs:comment | The indication of whether or not a control is required for this cross-border regulatory procedure.
 edi3:cefactBieDomainClass | [cefact:Cross-Border_RegulatoryProcedure.Details](#Cross-Border_RegulatoryProcedure.Details)
 edi3:cefactBusinessProcess | Buy-Ship-Pay
+
+@id | cefact:Exchanged_Document.ControlRequirement.Indicator
+@type | edi3:BasicBIE
+edi3:cefactUNId | cefact:UN01003550
+rdfs:comment | The indication of whether or not this exchanged document has specific control requirements.
+edi3:cefactBieDomainClass | [cefact:Exchanged_Document.Details](#Exchanged_Document.Details)
+edi3:cefactBusinessProcess | In All Contexts
 
 @id | cefact:Acknowledgement_Document.ControlRequirement.Indicator
 @type | edi3:BasicBIE
@@ -18969,19 +18969,19 @@ Domains:
 
 Cefact Element Metadata: 
 
-@id | cefact:Specified_DirectPosition.CoordinateReferenceDimension.Text
-@type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01010468
-rdfs:comment | A coordinate reference dimension, expressed as text, for this specified direct position.
-edi3:cefactBieDomainClass | [cefact:Specified_DirectPosition.Details](#Specified_DirectPosition.Details)
-edi3:cefactBusinessProcess | Laboratory Observation
-
 @id | cefact:Specified_DirectPositionList.CoordinateReferenceDimension.Text
 @type | edi3:BasicBIE
 edi3:cefactUNId | cefact:UN01012474
 rdfs:comment | A coordinate reference dimension, expressed as text, for this specified direct position list.
 edi3:cefactBieDomainClass | [cefact:Specified_DirectPositionList.Details](#Specified_DirectPositionList.Details)
 edi3:cefactBusinessProcess | Agricultural
+
+@id | cefact:Specified_DirectPosition.CoordinateReferenceDimension.Text
+@type | edi3:BasicBIE
+edi3:cefactUNId | cefact:UN01010468
+rdfs:comment | A coordinate reference dimension, expressed as text, for this specified direct position.
+edi3:cefactBieDomainClass | [cefact:Specified_DirectPosition.Details](#Specified_DirectPosition.Details)
+edi3:cefactBusinessProcess | Laboratory Observation
 
 
 
@@ -19043,19 +19043,19 @@ Domains:
 
 Cefact Element Metadata: 
 
-@id | cefact:Specified_DirectPositionList.Coordinate.Text
-@type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01012472
-rdfs:comment | The coordinate, expressed as text, for this specified direct position list.
-edi3:cefactBieDomainClass | [cefact:Specified_DirectPositionList.Details](#Specified_DirectPositionList.Details)
-edi3:cefactBusinessProcess | Agricultural
-
 @id | cefact:Specified_LinearRing.Coordinate.Text
 @type | edi3:BasicBIE
 edi3:cefactUNId | cefact:UN01010473
 rdfs:comment | A coordinate, expressed as text, for this specified linear ring.
 edi3:cefactBieDomainClass | [cefact:Specified_LinearRing.Details](#Specified_LinearRing.Details)
 edi3:cefactBusinessProcess | In All Contexts
+
+@id | cefact:Specified_DirectPositionList.Coordinate.Text
+@type | edi3:BasicBIE
+edi3:cefactUNId | cefact:UN01012472
+rdfs:comment | The coordinate, expressed as text, for this specified direct position list.
+edi3:cefactBieDomainClass | [cefact:Specified_DirectPositionList.Details](#Specified_DirectPositionList.Details)
+edi3:cefactBusinessProcess | Agricultural
 
 
 
@@ -19072,13 +19072,6 @@ Domains:
 
 Cefact Element Metadata: 
 
-@id | cefact:Referenced_Document.Copy.Indicator
-@type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01001574
-rdfs:comment | The indication of whether or not the referenced document is a copy.
-edi3:cefactBieDomainClass | [cefact:Referenced_Document.Details](#Referenced_Document.Details)
-edi3:cefactBusinessProcess | Trade
-
 @id | cefact:FinancingRequest_Document.Copy.Indicator
 @type | edi3:BasicBIE
 edi3:cefactUNId | cefact:UN01013233
@@ -19092,6 +19085,13 @@ edi3:cefactUNId | cefact:UN01002494
 rdfs:comment | The indication of whether or not this exchanged document is a copy.
 edi3:cefactBieDomainClass | [cefact:Exchanged_Document.Details](#Exchanged_Document.Details)
 edi3:cefactBusinessProcess | In All Contexts
+
+@id | cefact:Referenced_Document.Copy.Indicator
+@type | edi3:BasicBIE
+edi3:cefactUNId | cefact:UN01001574
+rdfs:comment | The indication of whether or not the referenced document is a copy.
+edi3:cefactBieDomainClass | [cefact:Referenced_Document.Details](#Referenced_Document.Details)
+edi3:cefactBusinessProcess | Trade
 
 
 
@@ -19205,12 +19205,12 @@ Domains:
 
 Cefact Element Metadata: 
 
-@id | cefact:Trade_Location.Country.Identifier
+@id | cefact:Birth_Address.Country.Identifier
 @type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01001659
-rdfs:comment | The unique identifier of a country location used or referenced in trade.
-edi3:cefactBieDomainClass | [cefact:Trade_Location.Details](#Trade_Location.Details)
-edi3:cefactBusinessProcess | Trade
+edi3:cefactUNId | cefact:UN01003172
+rdfs:comment | The identifier of a country for this birth address.
+edi3:cefactBieDomainClass | [cefact:Birth_Address.Details](#Birth_Address.Details)
+edi3:cefactBusinessProcess | Buy-Ship-Pay
 
 @id | cefact:Trade_Address.Country.Identifier
 @type | edi3:BasicBIE
@@ -19226,12 +19226,12 @@ rdfs:comment | The unique identifier of a country for this logistics location.
 edi3:cefactBieDomainClass | [cefact:Logistics_Location.Details](#Logistics_Location.Details)
 edi3:cefactBusinessProcess | Cross-Border
 
-@id | cefact:Birth_Address.Country.Identifier
+@id | cefact:Trade_Location.Country.Identifier
 @type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01003172
-rdfs:comment | The identifier of a country for this birth address.
-edi3:cefactBieDomainClass | [cefact:Birth_Address.Details](#Birth_Address.Details)
-edi3:cefactBusinessProcess | Buy-Ship-Pay
+edi3:cefactUNId | cefact:UN01001659
+rdfs:comment | The unique identifier of a country location used or referenced in trade.
+edi3:cefactBieDomainClass | [cefact:Trade_Location.Details](#Trade_Location.Details)
+edi3:cefactBusinessProcess | Trade
 
 
 
@@ -19250,13 +19250,6 @@ Domains:
 
 Cefact Element Metadata: 
 
-@id | cefact:Government_Registration.Country.Identifier
-@type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01011036
-rdfs:comment | The identifier of the country for this government registration.
-edi3:cefactBieDomainClass | [cefact:Government_Registration.Details](#Government_Registration.Details)
-edi3:cefactBusinessProcess | Buy-Ship-Pay
-
 @id | cefact:Legal_Registration.Country.Identifier
 @type | edi3:BasicBIE
 edi3:cefactUNId | cefact:UN01003654
@@ -19264,19 +19257,26 @@ rdfs:comment | An identifier of the country in which this legal registration is 
 edi3:cefactBieDomainClass | [cefact:Legal_Registration.Details](#Legal_Registration.Details)
 edi3:cefactBusinessProcess | In All Contexts
 
-@id | cefact:FinancialInstitution_Address.Country.Identifier
-@type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01003185
-rdfs:comment | The unique identifier of a country for this financial institution address (Reference ISO 3166 and UN/ECE Rec 3).
-edi3:cefactBieDomainClass | [cefact:Financial Institution_Address.Details](#Financial Institution_Address.Details)
-edi3:cefactBusinessProcess | Customer to bank payment initiation
-
 @id | cefact:Location_Party.Country.Identifier
 @type | edi3:BasicBIE
 edi3:cefactUNId | cefact:UN01003667
 rdfs:comment | A unique country identifier for this location party.
 edi3:cefactBieDomainClass | [cefact:Location_Party.Details](#Location_Party.Details)
 edi3:cefactBusinessProcess | In All Contexts
+
+@id | cefact:Government_Registration.Country.Identifier
+@type | edi3:BasicBIE
+edi3:cefactUNId | cefact:UN01011036
+rdfs:comment | The identifier of the country for this government registration.
+edi3:cefactBieDomainClass | [cefact:Government_Registration.Details](#Government_Registration.Details)
+edi3:cefactBusinessProcess | Buy-Ship-Pay
+
+@id | cefact:FinancialInstitution_Address.Country.Identifier
+@type | edi3:BasicBIE
+edi3:cefactUNId | cefact:UN01003185
+rdfs:comment | The unique identifier of a country for this financial institution address (Reference ISO 3166 and UN/ECE Rec 3).
+edi3:cefactBieDomainClass | [cefact:Financial Institution_Address.Details](#Financial Institution_Address.Details)
+edi3:cefactBusinessProcess | Customer to bank payment initiation
 
 
 
@@ -19294,19 +19294,19 @@ Domains:
 
 Cefact Element Metadata: 
 
+@id | cefact:Logistics_Location.CountryName.Text
+@type | edi3:BasicBIE
+edi3:cefactUNId | cefact:UN01004896
+rdfs:comment | The country name, expressed as text, of this logistics location.
+edi3:cefactBieDomainClass | [cefact:Logistics_Location.Details](#Logistics_Location.Details)
+edi3:cefactBusinessProcess | Cross-Border
+
 @id | cefact:Trade_Address.CountryName.Text
 @type | edi3:BasicBIE
 edi3:cefactUNId | cefact:UN01004547
 rdfs:comment | A name, expressed as text, of the country for this trade address.
 edi3:cefactBieDomainClass | [cefact:Trade_Address.Details](#Trade_Address.Details)
 edi3:cefactBusinessProcess | Buy-Ship-Pay
-
-@id | cefact:FinancialInstitution_Address.CountryName.Text
-@type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01004895
-rdfs:comment | The name, expressed as text, of the country within this financial institution address.
-edi3:cefactBieDomainClass | [cefact:Financial Institution_Address.Details](#Financial Institution_Address.Details)
-edi3:cefactBusinessProcess | Customer to bank payment initiation
 
 @id | cefact:Trade_Location.CountryName.Text
 @type | edi3:BasicBIE
@@ -19315,12 +19315,12 @@ rdfs:comment | The name, expressed as text, of a country location used or refere
 edi3:cefactBieDomainClass | [cefact:Trade_Location.Details](#Trade_Location.Details)
 edi3:cefactBusinessProcess | Trade
 
-@id | cefact:Logistics_Location.CountryName.Text
+@id | cefact:FinancialInstitution_Address.CountryName.Text
 @type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01004896
-rdfs:comment | The country name, expressed as text, of this logistics location.
-edi3:cefactBieDomainClass | [cefact:Logistics_Location.Details](#Logistics_Location.Details)
-edi3:cefactBusinessProcess | Cross-Border
+edi3:cefactUNId | cefact:UN01004895
+rdfs:comment | The name, expressed as text, of the country within this financial institution address.
+edi3:cefactBieDomainClass | [cefact:Financial Institution_Address.Details](#Financial Institution_Address.Details)
+edi3:cefactBusinessProcess | Customer to bank payment initiation
 
 
 
@@ -19361,19 +19361,19 @@ Domains:
 
 Cefact Element Metadata: 
 
-@id | cefact:Government_Registration.CountrySub-Division.Identifier
-@type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01011037
-rdfs:comment | The identifier of the country sub-division for this registration.
-edi3:cefactBieDomainClass | [cefact:Government_Registration.Details](#Government_Registration.Details)
-edi3:cefactBusinessProcess | Buy-Ship-Pay
-
 @id | cefact:FinancialInstitution_Address.CountrySub-Division.Identifier
 @type | edi3:BasicBIE
 edi3:cefactUNId | cefact:UN01003184
 rdfs:comment | The unique identifier of a country sub-division for this financial institution address (Reference ISO 3166 and UN/ECE Rec 3).
 edi3:cefactBieDomainClass | [cefact:Financial Institution_Address.Details](#Financial Institution_Address.Details)
 edi3:cefactBusinessProcess | Customer to bank payment initiation
+
+@id | cefact:Government_Registration.CountrySub-Division.Identifier
+@type | edi3:BasicBIE
+edi3:cefactUNId | cefact:UN01011037
+rdfs:comment | The identifier of the country sub-division for this registration.
+edi3:cefactBieDomainClass | [cefact:Government_Registration.Details](#Government_Registration.Details)
+edi3:cefactBusinessProcess | Buy-Ship-Pay
 
 @id | cefact:Logistics_Location.CountrySub-Division.Identifier
 @type | edi3:BasicBIE
@@ -19404,13 +19404,6 @@ Domains:
 
 Cefact Element Metadata: 
 
-@id | cefact:Trade_Address.CountrySub-DivisionName.Text
-@type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01004549
-rdfs:comment | A name, expressed as text, of the sub-division of a country for this trade address.
-edi3:cefactBieDomainClass | [cefact:Trade_Address.Details](#Trade_Address.Details)
-edi3:cefactBusinessProcess | Buy-Ship-Pay
-
 @id | cefact:Birth_Address.CountrySub-DivisionName.Text
 @type | edi3:BasicBIE
 edi3:cefactUNId | cefact:UN01003170
@@ -19424,6 +19417,13 @@ edi3:cefactUNId | cefact:UN01004894
 rdfs:comment | The name, expressed as text, of a country sub-division within this financial institution address.
 edi3:cefactBieDomainClass | [cefact:Financial Institution_Address.Details](#Financial Institution_Address.Details)
 edi3:cefactBusinessProcess | Customer to bank payment initiation
+
+@id | cefact:Trade_Address.CountrySub-DivisionName.Text
+@type | edi3:BasicBIE
+edi3:cefactUNId | cefact:UN01004549
+rdfs:comment | A name, expressed as text, of the sub-division of a country for this trade address.
+edi3:cefactBieDomainClass | [cefact:Trade_Address.Details](#Trade_Address.Details)
+edi3:cefactBusinessProcess | Buy-Ship-Pay
 
 
 
@@ -19940,12 +19940,12 @@ Domains:
 
 Cefact Element Metadata: 
 
-@id | cefact:Registered_Tax.Currency.Code
+@id | cefact:Debtor_FinancialAccount.Currency.Code
 @type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01004061
-rdfs:comment | The code specifying the currency for this registered tax.
-edi3:cefactBieDomainClass | [cefact:Registered_Tax.Details](#Registered_Tax.Details)
-edi3:cefactBusinessProcess | In All Contexts
+edi3:cefactUNId | cefact:UN01003291
+rdfs:comment | The code specifying the currency of this debtor financial account (Reference ISO 4217 codes).
+edi3:cefactBieDomainClass | [cefact:Debtor_FinancialAccount.Details](#Debtor_FinancialAccount.Details)
+edi3:cefactBusinessProcess | Customer to bank payment initiation
 
 @id | cefact:Creditor_FinancialAccount.Currency.Code
 @type | edi3:BasicBIE
@@ -19954,12 +19954,12 @@ rdfs:comment | The code specifying the currency of this creditor financial accou
 edi3:cefactBieDomainClass | [cefact:Creditor_FinancialAccount.Details](#Creditor_FinancialAccount.Details)
 edi3:cefactBusinessProcess | Customer to bank payment initiation
 
-@id | cefact:Debtor_FinancialAccount.Currency.Code
+@id | cefact:Registered_Tax.Currency.Code
 @type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01003291
-rdfs:comment | The code specifying the currency of this debtor financial account (Reference ISO 4217 codes).
-edi3:cefactBieDomainClass | [cefact:Debtor_FinancialAccount.Details](#Debtor_FinancialAccount.Details)
-edi3:cefactBusinessProcess | Customer to bank payment initiation
+edi3:cefactUNId | cefact:UN01004061
+rdfs:comment | The code specifying the currency for this registered tax.
+edi3:cefactBieDomainClass | [cefact:Registered_Tax.Details](#Registered_Tax.Details)
+edi3:cefactBusinessProcess | In All Contexts
 
 
 
@@ -19985,18 +19985,18 @@ rdfs:comment | The code specifying the currency of this financing financial acco
 edi3:cefactBieDomainClass | [cefact:Financing_FinancialAccount.Details](#Financing_FinancialAccount.Details)
 edi3:cefactBusinessProcess | Buy-Ship-Pay
 
-@id | cefact:FinancingRequest_Document.Currency.Code
-@type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01013236
-rdfs:comment | The code specifying the currency in this financing request document.
-edi3:cefactBieDomainClass | [cefact:Financing Request_Document.Details](#Financing Request_Document.Details)
-edi3:cefactBusinessProcess | Buy-Ship-Pay
-
 @id | cefact:Trade_Tax.Currency.Code
 @type | edi3:BasicBIE
 edi3:cefactUNId | cefact:UN01004720
 rdfs:comment | The code specifying the currency for this trade related tax, levy or duty [UNCL 6345].
 edi3:cefactBieDomainClass | [cefact:Trade_Tax.Details](#Trade_Tax.Details)
+edi3:cefactBusinessProcess | Buy-Ship-Pay
+
+@id | cefact:FinancingRequest_Document.Currency.Code
+@type | edi3:BasicBIE
+edi3:cefactUNId | cefact:UN01013236
+rdfs:comment | The code specifying the currency in this financing request document.
+edi3:cefactBieDomainClass | [cefact:Financing Request_Document.Details](#Financing Request_Document.Details)
 edi3:cefactBusinessProcess | Buy-Ship-Pay
 
 
@@ -20102,19 +20102,19 @@ Domains:
 
 Cefact Element Metadata: 
 
-@id | cefact:Registered_Tax.CustomsDuty.Indicator
-@type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01004064
-rdfs:comment | The indication of whether or not this registered tax is a customs duty.
-edi3:cefactBieDomainClass | [cefact:Registered_Tax.Details](#Registered_Tax.Details)
-edi3:cefactBusinessProcess | In All Contexts
-
 @id | cefact:Trade_Tax.CustomsDuty.Indicator
 @type | edi3:BasicBIE
 edi3:cefactUNId | cefact:UN01004722
 rdfs:comment | The indication of whether or not this trade related tax, levy or duty is a customs duty.
 edi3:cefactBieDomainClass | [cefact:Trade_Tax.Details](#Trade_Tax.Details)
 edi3:cefactBusinessProcess | Buy-Ship-Pay
+
+@id | cefact:Registered_Tax.CustomsDuty.Indicator
+@type | edi3:BasicBIE
+edi3:cefactUNId | cefact:UN01004064
+rdfs:comment | The indication of whether or not this registered tax is a customs duty.
+edi3:cefactBieDomainClass | [cefact:Registered_Tax.Details](#Registered_Tax.Details)
+edi3:cefactBusinessProcess | In All Contexts
 
 
 
@@ -20154,13 +20154,6 @@ Domains:
 
 Cefact Element Metadata: 
 
-@id | cefact:Exchanged_Document.Customs_Identification.Identifier
-@type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01003572
-rdfs:comment | A unique identifier, for customs purposes, for this exchanged document.
-edi3:cefactBieDomainClass | [cefact:Exchanged_Document.Details](#Exchanged_Document.Details)
-edi3:cefactBusinessProcess | In All Contexts
-
 @id | cefact:SupplyChain_Consignment.Customs_Identification.Identifier
 @type | edi3:BasicBIE
 edi3:cefactUNId | cefact:UN01004163
@@ -20174,6 +20167,13 @@ edi3:cefactUNId | cefact:UN01011053
 rdfs:comment | The identifier, for customs purposes, for this referenced supply chain consignment.
 edi3:cefactBieDomainClass | [cefact:Referenced_ Supply Chain_Consignment.Details](#Referenced_ Supply Chain_Consignment.Details)
 edi3:cefactBusinessProcess | Buy-Ship-Pay
+
+@id | cefact:Exchanged_Document.Customs_Identification.Identifier
+@type | edi3:BasicBIE
+edi3:cefactUNId | cefact:UN01003572
+rdfs:comment | A unique identifier, for customs purposes, for this exchanged document.
+edi3:cefactBieDomainClass | [cefact:Exchanged_Document.Details](#Exchanged_Document.Details)
+edi3:cefactBusinessProcess | In All Contexts
 
 
 
@@ -20565,18 +20565,18 @@ Domains:
 
 Cefact Element Metadata: 
 
-@id | cefact:SupplyChain_Consignment.DeclaredForCustoms.Logistics_Location
-@type | edi3:AssociationBIE
-edi3:cefactUNId | cefact:UN01004241
-rdfs:comment | The location of this supply chain consignment as declared for customs.
-edi3:cefactBieDomainClass | [cefact:Supply Chain_Consignment.Details](#Supply Chain_Consignment.Details)
-edi3:cefactBusinessProcess | Buy-Ship-Pay
-
 @id | cefact:SupplyChain_ConsignmentItem.DeclaredForCustoms.Logistics_Location
 @type | edi3:AssociationBIE
 edi3:cefactUNId | cefact:UN01004144
 rdfs:comment | The location of this supply chain consignment item as declared for customs.
 edi3:cefactBieDomainClass | [cefact:Supply Chain_ConsignmentItem.Details](#Supply Chain_ConsignmentItem.Details)
+edi3:cefactBusinessProcess | Buy-Ship-Pay
+
+@id | cefact:SupplyChain_Consignment.DeclaredForCustoms.Logistics_Location
+@type | edi3:AssociationBIE
+edi3:cefactUNId | cefact:UN01004241
+rdfs:comment | The location of this supply chain consignment as declared for customs.
+edi3:cefactBieDomainClass | [cefact:Supply Chain_Consignment.Details](#Supply Chain_Consignment.Details)
 edi3:cefactBusinessProcess | Buy-Ship-Pay
 
 
@@ -20647,18 +20647,18 @@ Domains:
 
 Cefact Element Metadata: 
 
-@id | cefact:SupplyChain_ConsignmentItem.DeclaredValueForCustoms.Amount
-@type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01004113
-rdfs:comment | The monetary value of this supply chain consignment item as declared for customs purposes.
-edi3:cefactBieDomainClass | [cefact:Supply Chain_ConsignmentItem.Details](#Supply Chain_ConsignmentItem.Details)
-edi3:cefactBusinessProcess | Buy-Ship-Pay
-
 @id | cefact:SupplyChain_Consignment.DeclaredValueForCustoms.Amount
 @type | edi3:BasicBIE
 edi3:cefactUNId | cefact:UN01004188
 rdfs:comment | The monetary value declared for customs purposes for this supply chain consignment.
 edi3:cefactBieDomainClass | [cefact:Supply Chain_Consignment.Details](#Supply Chain_Consignment.Details)
+edi3:cefactBusinessProcess | Buy-Ship-Pay
+
+@id | cefact:SupplyChain_ConsignmentItem.DeclaredValueForCustoms.Amount
+@type | edi3:BasicBIE
+edi3:cefactUNId | cefact:UN01004113
+rdfs:comment | The monetary value of this supply chain consignment item as declared for customs purposes.
+edi3:cefactBieDomainClass | [cefact:Supply Chain_ConsignmentItem.Details](#Supply Chain_ConsignmentItem.Details)
 edi3:cefactBusinessProcess | Buy-Ship-Pay
 
 
@@ -20940,19 +20940,19 @@ Domains:
 
 Cefact Element Metadata: 
 
-@id | cefact:Location_Party.Defined.Trade_Contact
-@type | edi3:AssociationBIE
-edi3:cefactUNId | cefact:UN01003669
-rdfs:comment | A trade contact defined for this location party.
-edi3:cefactBieDomainClass | [cefact:Location_Party.Details](#Location_Party.Details)
-edi3:cefactBusinessProcess | In All Contexts
-
 @id | cefact:Trade_Party.Defined.Trade_Contact
 @type | edi3:AssociationBIE
 edi3:cefactUNId | cefact:UN01004602
 rdfs:comment | A trade contact defined for this trade party.
 edi3:cefactBieDomainClass | [cefact:Trade_Party.Details](#Trade_Party.Details)
 edi3:cefactBusinessProcess | Buy-Ship-Pay
+
+@id | cefact:Location_Party.Defined.Trade_Contact
+@type | edi3:AssociationBIE
+edi3:cefactUNId | cefact:UN01003669
+rdfs:comment | A trade contact defined for this location party.
+edi3:cefactBieDomainClass | [cefact:Location_Party.Details](#Location_Party.Details)
+edi3:cefactBusinessProcess | In All Contexts
 
 
 
@@ -21036,19 +21036,19 @@ Domains:
 
 Cefact Element Metadata: 
 
-@id | cefact:SupplyChain_Consignment.Delivery.Delivery_Instructions
-@type | edi3:AssociationBIE
-edi3:cefactUNId | cefact:UN01009004
-rdfs:comment | Delivery instructions for this supply chain consignment.
-edi3:cefactBieDomainClass | [cefact:Supply Chain_Consignment.Details](#Supply Chain_Consignment.Details)
-edi3:cefactBusinessProcess | Cross-Border
-
 @id | cefact:Logistics_TransportEquipment.Delivery.Delivery_Instructions
 @type | edi3:AssociationBIE
 edi3:cefactUNId | cefact:UN01003790
 rdfs:comment | Delivery instructions for this piece of logistics transport equipment.
 edi3:cefactBieDomainClass | [cefact:Logistics_TransportEquipment.Details](#Logistics_TransportEquipment.Details)
 edi3:cefactBusinessProcess | Buy-Ship-Pay
+
+@id | cefact:SupplyChain_Consignment.Delivery.Delivery_Instructions
+@type | edi3:AssociationBIE
+edi3:cefactUNId | cefact:UN01009004
+rdfs:comment | Delivery instructions for this supply chain consignment.
+edi3:cefactBieDomainClass | [cefact:Supply Chain_Consignment.Details](#Supply Chain_Consignment.Details)
+edi3:cefactBusinessProcess | Cross-Border
 
 
 
@@ -21132,13 +21132,6 @@ Domains:
 
 Cefact Element Metadata: 
 
-@id | cefact:SupplyChain_SupplyPlan.DeliveryNote.Referenced_Document
-@type | edi3:AssociationBIE
-edi3:cefactUNId | cefact:UN01011861
-rdfs:comment | A delivery note document referenced by this supply chain supply plan.
-edi3:cefactBieDomainClass | [cefact:Supply Chain_SupplyPlan.Details](#Supply Chain_SupplyPlan.Details)
-edi3:cefactBusinessProcess | Trade
-
 @id | cefact:Line_TradeDelivery.DeliveryNote.Referenced_Document
 @type | edi3:AssociationBIE
 edi3:cefactUNId | cefact:UN01011795
@@ -21151,6 +21144,13 @@ edi3:cefactBusinessProcess | Trade
 edi3:cefactUNId | cefact:UN01011634
 rdfs:comment | The delivery note document, at header level, referenced for this trade delivery.
 edi3:cefactBieDomainClass | [cefact:Header_TradeDelivery.Details](#Header_TradeDelivery.Details)
+edi3:cefactBusinessProcess | Trade
+
+@id | cefact:SupplyChain_SupplyPlan.DeliveryNote.Referenced_Document
+@type | edi3:AssociationBIE
+edi3:cefactUNId | cefact:UN01011861
+rdfs:comment | A delivery note document referenced by this supply chain supply plan.
+edi3:cefactBieDomainClass | [cefact:Supply Chain_SupplyPlan.Details](#Supply Chain_SupplyPlan.Details)
 edi3:cefactBusinessProcess | Trade
 
 
@@ -21190,19 +21190,19 @@ Domains:
 
 Cefact Element Metadata: 
 
-@id | cefact:Line_TradeAgreement.Delivery_Priority.Code
-@type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01012560
-rdfs:comment | The code specifying the delivery priority for this line trade agreement.
-edi3:cefactBieDomainClass | [cefact:Line_TradeAgreement.Details](#Line_TradeAgreement.Details)
-edi3:cefactBusinessProcess | Buy-Ship-Pay
-
 @id | cefact:Header_TradeAgreement.Delivery_Priority.Code
 @type | edi3:BasicBIE
 edi3:cefactUNId | cefact:UN01011550
 rdfs:comment | The code specifying the delivery priority for this header trade agreement.
 edi3:cefactBieDomainClass | [cefact:Header_TradeAgreement.Details](#Header_TradeAgreement.Details)
 edi3:cefactBusinessProcess | Supply Chain
+
+@id | cefact:Line_TradeAgreement.Delivery_Priority.Code
+@type | edi3:BasicBIE
+edi3:cefactUNId | cefact:UN01012560
+rdfs:comment | The code specifying the delivery priority for this line trade agreement.
+edi3:cefactBieDomainClass | [cefact:Line_TradeAgreement.Details](#Line_TradeAgreement.Details)
+edi3:cefactBusinessProcess | Buy-Ship-Pay
 
 
 
@@ -21286,11 +21286,11 @@ Domains:
 
 Cefact Element Metadata: 
 
-@id | cefact:SupplyChain_Consignment.Delivery.Trade_Party
+@id | cefact:Referenced_SupplyChain_Consignment.Delivery.Trade_Party
 @type | edi3:AssociationBIE
-edi3:cefactUNId | cefact:UN01004220
-rdfs:comment | The party to whom this supply chain consignment will be, or has been, delivered.
-edi3:cefactBieDomainClass | [cefact:Supply Chain_Consignment.Details](#Supply Chain_Consignment.Details)
+edi3:cefactUNId | cefact:UN01011057
+rdfs:comment | The party to whom this referenced supply chain consignment will be or has been delivered.
+edi3:cefactBieDomainClass | [cefact:Referenced_ Supply Chain_Consignment.Details](#Referenced_ Supply Chain_Consignment.Details)
 edi3:cefactBusinessProcess | Buy-Ship-Pay
 
 @id | cefact:SupplyChain_ConsignmentItem.Delivery.Trade_Party
@@ -21300,11 +21300,11 @@ rdfs:comment | The party to whom this supply chain consignment item will be or h
 edi3:cefactBieDomainClass | [cefact:Supply Chain_ConsignmentItem.Details](#Supply Chain_ConsignmentItem.Details)
 edi3:cefactBusinessProcess | Buy-Ship-Pay
 
-@id | cefact:Referenced_SupplyChain_Consignment.Delivery.Trade_Party
+@id | cefact:SupplyChain_Consignment.Delivery.Trade_Party
 @type | edi3:AssociationBIE
-edi3:cefactUNId | cefact:UN01011057
-rdfs:comment | The party to whom this referenced supply chain consignment will be or has been delivered.
-edi3:cefactBieDomainClass | [cefact:Referenced_ Supply Chain_Consignment.Details](#Referenced_ Supply Chain_Consignment.Details)
+edi3:cefactUNId | cefact:UN01004220
+rdfs:comment | The party to whom this supply chain consignment will be, or has been, delivered.
+edi3:cefactBieDomainClass | [cefact:Supply Chain_Consignment.Details](#Supply Chain_Consignment.Details)
 edi3:cefactBusinessProcess | Buy-Ship-Pay
 
 
@@ -21331,19 +21331,19 @@ rdfs:comment | The delivery event for this supply chain consignment.
 edi3:cefactBieDomainClass | [cefact:Supply Chain_Consignment.Details](#Supply Chain_Consignment.Details)
 edi3:cefactBusinessProcess | Buy-Ship-Pay
 
-@id | cefact:SupplyChain_ConsignmentItem.Delivery.Transport_Event
-@type | edi3:AssociationBIE
-edi3:cefactUNId | cefact:UN01004156
-rdfs:comment | The delivery event for this supply chain consignment item.
-edi3:cefactBieDomainClass | [cefact:Supply Chain_ConsignmentItem.Details](#Supply Chain_ConsignmentItem.Details)
-edi3:cefactBusinessProcess | Buy-Ship-Pay
-
 @id | cefact:Logistics_TransportEquipment.Delivery.Transport_Event
 @type | edi3:AssociationBIE
 edi3:cefactUNId | cefact:UN01010100
 rdfs:comment | A delivery event for this piece of logistics transport equipment.
 edi3:cefactBieDomainClass | [cefact:Logistics_TransportEquipment.Details](#Logistics_TransportEquipment.Details)
 edi3:cefactBusinessProcess | Transport
+
+@id | cefact:SupplyChain_ConsignmentItem.Delivery.Transport_Event
+@type | edi3:AssociationBIE
+edi3:cefactUNId | cefact:UN01004156
+rdfs:comment | The delivery event for this supply chain consignment item.
+edi3:cefactBieDomainClass | [cefact:Supply Chain_ConsignmentItem.Details](#Supply Chain_ConsignmentItem.Details)
+edi3:cefactBusinessProcess | Buy-Ship-Pay
 
 
 
@@ -21434,12 +21434,12 @@ Domains:
 
 Cefact Element Metadata: 
 
-@id | cefact:Trade_Address.DepartmentName.Text
+@id | cefact:FinancialInstitution_Address.DepartmentName.Text
 @type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01006206
-rdfs:comment | The name, expressed as text, of a department for this trade address.
-edi3:cefactBieDomainClass | [cefact:Trade_Address.Details](#Trade_Address.Details)
-edi3:cefactBusinessProcess | Cross-Border
+edi3:cefactUNId | cefact:UN01004891
+rdfs:comment | The name, expressed as text, of a department within this financial institution address.
+edi3:cefactBieDomainClass | [cefact:Financial Institution_Address.Details](#Financial Institution_Address.Details)
+edi3:cefactBusinessProcess | Customer to bank payment initiation
 
 @id | cefact:Trade_Contact.DepartmentName.Text
 @type | edi3:BasicBIE
@@ -21448,12 +21448,12 @@ rdfs:comment | The name, expressed as text, of the department to which this trad
 edi3:cefactBieDomainClass | [cefact:Trade_Contact.Details](#Trade_Contact.Details)
 edi3:cefactBusinessProcess | Trade
 
-@id | cefact:FinancialInstitution_Address.DepartmentName.Text
+@id | cefact:Trade_Address.DepartmentName.Text
 @type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01004891
-rdfs:comment | The name, expressed as text, of a department within this financial institution address.
-edi3:cefactBieDomainClass | [cefact:Financial Institution_Address.Details](#Financial Institution_Address.Details)
-edi3:cefactBusinessProcess | Customer to bank payment initiation
+edi3:cefactUNId | cefact:UN01006206
+rdfs:comment | The name, expressed as text, of a department for this trade address.
+edi3:cefactBieDomainClass | [cefact:Trade_Address.Details](#Trade_Address.Details)
+edi3:cefactBusinessProcess | Cross-Border
 
 
 
@@ -21625,13 +21625,6 @@ Domains:
 
 Cefact Element Metadata: 
 
-@id | cefact:SupplyChain_TradeLineItem.Description.Code
-@type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01011941
-rdfs:comment | The code specifying a description of this supply chain trade line item.
-edi3:cefactBieDomainClass | [cefact:Supply Chain_TradeLineItem.Details](#Supply Chain_TradeLineItem.Details)
-edi3:cefactBusinessProcess | Buy-Ship-Pay
-
 @id | cefact:Quarantine_Instructions.Description.Code
 @type | edi3:BasicBIE
 edi3:cefactUNId | cefact:UN01003990
@@ -21639,25 +21632,11 @@ rdfs:comment | The code specifying the description of these quarantine instructi
 edi3:cefactBieDomainClass | [cefact:Quarantine_Instructions.Details](#Quarantine_Instructions.Details)
 edi3:cefactBusinessProcess | Buy-Ship-Pay
 
-@id | cefact:Transport_Instructions.Description.Code
+@id | cefact:Handling_Instructions.Description.Code
 @type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01004814
-rdfs:comment | The code specifying a description of these transport instructions.
-edi3:cefactBieDomainClass | [cefact:Transport_Instructions.Details](#Transport_Instructions.Details)
-edi3:cefactBusinessProcess | In All Contexts
-
-@id | cefact:Haulage_Instructions.Description.Code
-@type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01003636
-rdfs:comment | The code specifying the description of these haulage instructions.
-edi3:cefactBieDomainClass | [cefact:Haulage_Instructions.Details](#Haulage_Instructions.Details)
-edi3:cefactBusinessProcess | In All Contexts
-
-@id | cefact:TemperatureSetting_Instructions.Description.Code
-@type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01004492
-rdfs:comment | The code specifying a description of these temperature setting instructions.
-edi3:cefactBieDomainClass | [cefact:Temperature Setting_Instructions.Details](#Temperature Setting_Instructions.Details)
+edi3:cefactUNId | cefact:UN01003633
+rdfs:comment | A code specifying a description of these handling instructions.
+edi3:cefactBieDomainClass | [cefact:Handling_Instructions.Details](#Handling_Instructions.Details)
 edi3:cefactBusinessProcess | In All Contexts
 
 @id | cefact:Delivery_Instructions.Description.Code
@@ -21667,12 +21646,33 @@ rdfs:comment | The code specifying a description of these delivery instructions.
 edi3:cefactBieDomainClass | [cefact:Delivery_Instructions.Details](#Delivery_Instructions.Details)
 edi3:cefactBusinessProcess | Buy-Ship-Pay
 
-@id | cefact:Handling_Instructions.Description.Code
+@id | cefact:Transport_Instructions.Description.Code
 @type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01003633
-rdfs:comment | A code specifying a description of these handling instructions.
-edi3:cefactBieDomainClass | [cefact:Handling_Instructions.Details](#Handling_Instructions.Details)
+edi3:cefactUNId | cefact:UN01004814
+rdfs:comment | The code specifying a description of these transport instructions.
+edi3:cefactBieDomainClass | [cefact:Transport_Instructions.Details](#Transport_Instructions.Details)
 edi3:cefactBusinessProcess | In All Contexts
+
+@id | cefact:TemperatureSetting_Instructions.Description.Code
+@type | edi3:BasicBIE
+edi3:cefactUNId | cefact:UN01004492
+rdfs:comment | The code specifying a description of these temperature setting instructions.
+edi3:cefactBieDomainClass | [cefact:Temperature Setting_Instructions.Details](#Temperature Setting_Instructions.Details)
+edi3:cefactBusinessProcess | In All Contexts
+
+@id | cefact:Haulage_Instructions.Description.Code
+@type | edi3:BasicBIE
+edi3:cefactUNId | cefact:UN01003636
+rdfs:comment | The code specifying the description of these haulage instructions.
+edi3:cefactBieDomainClass | [cefact:Haulage_Instructions.Details](#Haulage_Instructions.Details)
+edi3:cefactBusinessProcess | In All Contexts
+
+@id | cefact:SupplyChain_TradeLineItem.Description.Code
+@type | edi3:BasicBIE
+edi3:cefactUNId | cefact:UN01011941
+rdfs:comment | The code specifying a description of this supply chain trade line item.
+edi3:cefactBieDomainClass | [cefact:Supply Chain_TradeLineItem.Details](#Supply Chain_TradeLineItem.Details)
+edi3:cefactBusinessProcess | Buy-Ship-Pay
 
 
 
@@ -21720,10 +21720,10 @@ Domains:
 [edi3:BreakdownStatement](#BreakdownStatement)
 [edi3:RiskAnalysisResult](#RiskAnalysisResult)
 [edi3:FinancialCard](#FinancialCard)
-[edi3:Party](#Party)
 [edi3:ServiceCharge](#ServiceCharge)
-[edi3:GeographicalObjectCharacteristic](#GeographicalObjectCharacteristic)
+[edi3:Party](#Party)
 [edi3:MaterialComponent](#MaterialComponent)
+[edi3:GeographicalObjectCharacteristic](#GeographicalObjectCharacteristic)
 [edi3:Accreditation](#Accreditation)
 [edi3:QuantityAnalysis](#QuantityAnalysis)
 [edi3:BalanceOut](#BalanceOut)
@@ -21742,8 +21742,8 @@ Domains:
 [edi3:Schedule](#Schedule)
 [edi3:Packaging](#Packaging)
 [edi3:Observation](#Observation)
-[edi3:Event](#Event)
 [edi3:Parameter](#Parameter)
+[edi3:Event](#Event)
 [edi3:Package](#Package)
 [edi3:Inventory](#Inventory)
 [edi3:Certificate](#Certificate)
@@ -21751,11 +21751,11 @@ Domains:
 
 Cefact Element Metadata: 
 
-@id | cefact:Measurement.Description.Text
+@id | cefact:Document_Status.Description.Text
 @type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01003896
-rdfs:comment | A textual description of this measurement.
-edi3:cefactBieDomainClass | [cefact:Measurement.Details](#Measurement.Details)
+edi3:cefactUNId | cefact:UN01013123
+rdfs:comment | The textual description of this document status.
+edi3:cefactBieDomainClass | [cefact:Document_Status.Details](#Document_Status.Details)
 edi3:cefactBusinessProcess | In All Contexts
 
 @id | cefact:Product_Characteristic.Description.Text
@@ -21765,137 +21765,11 @@ rdfs:comment | A textual description of this product characteristic.
 edi3:cefactBieDomainClass | [cefact:Product_Characteristic.Details](#Product_Characteristic.Details)
 edi3:cefactBusinessProcess | In All Contexts
 
-@id | cefact:Available_Period.Description.Text
+@id | cefact:Specified_BinaryFile.Description.Text
 @type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01005111
-rdfs:comment | The textual description of this available period.
-edi3:cefactBieDomainClass | [cefact:Available_Period.Details](#Available_Period.Details)
-edi3:cefactBusinessProcess | In All Contexts
-
-@id | cefact:Logistics_Status.Description.Text
-@type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01003750
-rdfs:comment | The textual description of this logistics status.
-edi3:cefactBieDomainClass | [cefact:Logistics_Status.Details](#Logistics_Status.Details)
-edi3:cefactBusinessProcess | Buy-Ship-Pay
-
-@id | cefact:WorkItem_Dimension.Description.Text
-@type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01000059
-rdfs:comment | The textual description of this work item dimension.
-edi3:cefactBieDomainClass | [cefact:Work Item_Dimension.Details](#Work Item_Dimension.Details)
-edi3:cefactBusinessProcess | In All Contexts
-
-@id | cefact:Referenced_Product.Description.Text
-@type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01007189
-rdfs:comment | A textual description for this referenced product.
-edi3:cefactBieDomainClass | [cefact:Referenced_Product.Details](#Referenced_Product.Details)
-edi3:cefactBusinessProcess | In All Contexts
-
-@id | cefact:Transport_Event.Description.Text
-@type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01004794
-rdfs:comment | The textual description of this transport event.
-edi3:cefactBieDomainClass | [cefact:Transport_Event.Details](#Transport_Event.Details)
-edi3:cefactBusinessProcess | In All Contexts
-
-@id | cefact:SupplyChain_Event.Description.Text
-@type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01004295
-rdfs:comment | A textual description of this supply chain event.
-edi3:cefactBieDomainClass | [cefact:Supply Chain_Event.Details](#Supply Chain_Event.Details)
-edi3:cefactBusinessProcess | Buy-Ship-Pay
-
-@id | cefact:Exchanged_Document.Description.Text
-@type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01002490
-rdfs:comment | A textual description of this exchanged document.
-edi3:cefactBieDomainClass | [cefact:Exchanged_Document.Details](#Exchanged_Document.Details)
-edi3:cefactBusinessProcess | In All Contexts
-
-@id | cefact:Product_Certificate.Description.Text
-@type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01012491
-rdfs:comment | A textual description of this product certificate.
-edi3:cefactBieDomainClass | [cefact:Product_Certificate.Details](#Product_Certificate.Details)
-edi3:cefactBusinessProcess | Traceability
-
-@id | cefact:TradeProduct_Feature.Description.Text
-@type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01007472
-rdfs:comment | A textual description of this trade product feature.
-edi3:cefactBieDomainClass | [cefact:Trade Product_Feature.Details](#Trade Product_Feature.Details)
-edi3:cefactBusinessProcess | Buy-Ship-Pay
-
-@id | cefact:ControlSetting_Parameter.Description.Text
-@type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01013506
-rdfs:comment | A textual description of this control setting parameter.
-edi3:cefactBieDomainClass | [cefact:Control Setting_Parameter.Details](#Control Setting_Parameter.Details)
-edi3:cefactBusinessProcess | In All Contexts
-
-@id | cefact:TemperatureSetting_Instructions.Description.Text
-@type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01004491
-rdfs:comment | A textual description of these temperature setting instructions.
-edi3:cefactBieDomainClass | [cefact:Temperature Setting_Instructions.Details](#Temperature Setting_Instructions.Details)
-edi3:cefactBusinessProcess | In All Contexts
-
-@id | cefact:SupplyChain_Packaging.Description.Text
-@type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01004315
-rdfs:comment | A textual description of this supply chain packaging.
-edi3:cefactBieDomainClass | [cefact:Supply Chain_Packaging.Details](#Supply Chain_Packaging.Details)
-edi3:cefactBusinessProcess | Buy-Ship-Pay
-
-@id | cefact:TradeSettlement_FinancialCard.Description.Text
-@type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01009967
-rdfs:comment | The textual description of this trade settlement financial card.
-edi3:cefactBieDomainClass | [cefact:Trade Settlement_FinancialCard.Details](#Trade Settlement_FinancialCard.Details)
-edi3:cefactBusinessProcess | In All Contexts
-
-@id | cefact:Logistics_Package.Description.Text
-@type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01003703
-rdfs:comment | A textual description of this logistics package.
-edi3:cefactBieDomainClass | [cefact:Logistics_Package.Details](#Logistics_Package.Details)
-edi3:cefactBusinessProcess | Buy-Ship-Pay
-
-@id | cefact:Identified_Fault.Description.Text
-@type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01010066
-rdfs:comment | A textual description of this identified fault.
-edi3:cefactBieDomainClass | [cefact:Identified_Fault.Details](#Identified_Fault.Details)
-edi3:cefactBusinessProcess | Transport
-
-@id | cefact:Handling_Instructions.Description.Text
-@type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01003632
-rdfs:comment | A textual description of these handling instructions.
-edi3:cefactBieDomainClass | [cefact:Handling_Instructions.Details](#Handling_Instructions.Details)
-edi3:cefactBusinessProcess | In All Contexts
-
-@id | cefact:WorkItem_QuantityAnalysis.Description.Text
-@type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01000018
-rdfs:comment | The textual description of this work item quantity analysis.
-edi3:cefactBieDomainClass | [cefact:Work Item_QuantityAnalysis.Details](#Work Item_QuantityAnalysis.Details)
-edi3:cefactBusinessProcess | In All Contexts
-
-@id | cefact:Communication_Event.Description.Text
-@type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01013564
-rdfs:comment | A textual description of this communication event.
-edi3:cefactBieDomainClass | [cefact:Communication_Event.Details](#Communication_Event.Details)
-edi3:cefactBusinessProcess | In All Contexts
-
-@id | cefact:Specified_PersonalEffects.Description.Text
-@type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01013186
-rdfs:comment | A textual description of these specified personal effects.
-edi3:cefactBieDomainClass | [cefact:Specified_PersonalEffects.Details](#Specified_PersonalEffects.Details)
+edi3:cefactUNId | cefact:UN01006026
+rdfs:comment | A textual description of this specified binary file.
+edi3:cefactBieDomainClass | [cefact:Specified_BinaryFile.Details](#Specified_BinaryFile.Details)
 edi3:cefactBusinessProcess | In All Contexts
 
 @id | cefact:Referenced_Logistics_Package.Description.Text
@@ -21905,124 +21779,12 @@ rdfs:comment | A textual description of this referenced logistics package.
 edi3:cefactBieDomainClass | [cefact:Referenced_ Logistics_Package.Details](#Referenced_ Logistics_Package.Details)
 edi3:cefactBusinessProcess | Buy-Ship-Pay
 
-@id | cefact:Payment_BalanceOut.Description.Text
+@id | cefact:TransportWaste_MaterialComponent.Description.Text
 @type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01011831
-rdfs:comment | A textual description of this payment balance out.
-edi3:cefactBieDomainClass | [cefact:Payment_BalanceOut.Details](#Payment_BalanceOut.Details)
-edi3:cefactBusinessProcess | Buy-Ship-Pay
-
-@id | cefact:Header_TradeSettlement.Description.Text
-@type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01012991
-rdfs:comment | A textual description of this header trade settlement.
-edi3:cefactBieDomainClass | [cefact:Header_TradeSettlement.Details](#Header_TradeSettlement.Details)
-edi3:cefactBusinessProcess | Buy-Ship-Pay
-
-@id | cefact:Specified_Period.Description.Text
-@type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01001273
-rdfs:comment | A textual description of this specified period of time.
-edi3:cefactBieDomainClass | [cefact:Specified_Period.Details](#Specified_Period.Details)
-edi3:cefactBusinessProcess | In All Contexts
-
-@id | cefact:Requesting_Party.Description.Text
-@type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01002021
-rdfs:comment | The textual description of this requesting party.
-edi3:cefactBieDomainClass | [cefact:Requesting_Party.Details](#Requesting_Party.Details)
-edi3:cefactBusinessProcess | Project Management
-
-@id | cefact:Specified_BinaryFile.Description.Text
-@type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01006026
-rdfs:comment | A textual description of this specified binary file.
-edi3:cefactBieDomainClass | [cefact:Specified_BinaryFile.Details](#Specified_BinaryFile.Details)
-edi3:cefactBusinessProcess | In All Contexts
-
-@id | cefact:Operational_Parameter.Description.Text
-@type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01013517
-rdfs:comment | A textual description of this operational parameter.
-edi3:cefactBieDomainClass | [cefact:Operational_Parameter.Details](#Operational_Parameter.Details)
-edi3:cefactBusinessProcess | In All Contexts
-
-@id | cefact:Specified_GeographicalObjectCharacteristic.Description.Text
-@type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01012370
-rdfs:comment | The textual description for this geographical object characteristic.
-edi3:cefactBieDomainClass | [cefact:Specified_GeographicalObjectCharacteristic.Details](#Specified_GeographicalObjectCharacteristic.Details)
-edi3:cefactBusinessProcess | Agricultural
-
-@id | cefact:Document_Status.Description.Text
-@type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01013123
-rdfs:comment | The textual description of this document status.
-edi3:cefactBieDomainClass | [cefact:Document_Status.Details](#Document_Status.Details)
-edi3:cefactBusinessProcess | In All Contexts
-
-@id | cefact:Valuation_BreakdownStatement.Description.Text
-@type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01007548
-rdfs:comment | A textual description of this valuation breakdown statement.
-edi3:cefactBieDomainClass | [cefact:Valuation_BreakdownStatement.Details](#Valuation_BreakdownStatement.Details)
-edi3:cefactBusinessProcess | Invoicing
-
-@id | cefact:Trade_Party.Description.Text
-@type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01010146
-rdfs:comment | A textual description of this trade party.
-edi3:cefactBieDomainClass | [cefact:Trade_Party.Details](#Trade_Party.Details)
+edi3:cefactUNId | cefact:UN01013154
+rdfs:comment | A textual description for this transport waste material component.
+edi3:cefactBieDomainClass | [cefact:Transport Waste_MaterialComponent.Details](#Transport Waste_MaterialComponent.Details)
 edi3:cefactBusinessProcess | Transport
-
-@id | cefact:Transport_Instructions.Description.Text
-@type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01004813
-rdfs:comment | A textual description of these transport instructions.
-edi3:cefactBieDomainClass | [cefact:Transport_Instructions.Details](#Transport_Instructions.Details)
-edi3:cefactBusinessProcess | In All Contexts
-
-@id | cefact:Transport_Service.Description.Text
-@type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01004839
-rdfs:comment | The textual description of this transport service.
-edi3:cefactBieDomainClass | [cefact:Transport_Service.Details](#Transport_Service.Details)
-edi3:cefactBusinessProcess | In All Contexts
-
-@id | cefact:Logistics_ServiceCharge.Description.Text
-@type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01003723
-rdfs:comment | A textual description of this logistics service charge.
-edi3:cefactBieDomainClass | [cefact:Logistics_ServiceCharge.Details](#Logistics_ServiceCharge.Details)
-edi3:cefactBusinessProcess | Buy-Ship-Pay
-
-@id | cefact:Haulage_Instructions.Description.Text
-@type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01003635
-rdfs:comment | The textual description of these haulage instructions.
-edi3:cefactBieDomainClass | [cefact:Haulage_Instructions.Details](#Haulage_Instructions.Details)
-edi3:cefactBusinessProcess | In All Contexts
-
-@id | cefact:Quarantine_Instructions.Description.Text
-@type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01003989
-rdfs:comment | The textual description of these quarantine instructions.
-edi3:cefactBieDomainClass | [cefact:Quarantine_Instructions.Details](#Quarantine_Instructions.Details)
-edi3:cefactBusinessProcess | Buy-Ship-Pay
-
-@id | cefact:Header_BalanceOut.Description.Text
-@type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01011541
-rdfs:comment | A textual description of this header balance out.
-edi3:cefactBieDomainClass | [cefact:Header_BalanceOut.Details](#Header_BalanceOut.Details)
-edi3:cefactBusinessProcess | Buy-Ship-Pay
-
-@id | cefact:Spatial_Dimension.Description.Text
-@type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01004078
-rdfs:comment | A textual description of this spatial dimension.
-edi3:cefactBieDomainClass | [cefact:Spatial_Dimension.Details](#Spatial_Dimension.Details)
-edi3:cefactBusinessProcess | In All Contexts
 
 @id | cefact:Transport_Route.Description.Text
 @type | edi3:BasicBIE
@@ -22031,74 +21793,11 @@ rdfs:comment | The textual description of this transport route.
 edi3:cefactBieDomainClass | [cefact:Transport_Route.Details](#Transport_Route.Details)
 edi3:cefactBusinessProcess | In All Contexts
 
-@id | cefact:Logistics_RiskAnalysisResult.Description.Text
+@id | cefact:ControlSetting_Parameter.Description.Text
 @type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01013049
-rdfs:comment | The textual description of this logistics risk analysis result.
-edi3:cefactBieDomainClass | [cefact:Logistics_RiskAnalysisResult.Details](#Logistics_RiskAnalysisResult.Details)
-edi3:cefactBusinessProcess | Buy-Ship-Pay
-
-@id | cefact:SupplyChain_Schedule.Description.Text
-@type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01012979
-rdfs:comment | A textual description of this supply chain schedule.
-edi3:cefactBieDomainClass | [cefact:Supply Chain_Schedule.Details](#Supply Chain_Schedule.Details)
-edi3:cefactBusinessProcess | Supply Chain
-
-@id | cefact:Trade_DeliveryTerms.Description.Text
-@type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01001656
-rdfs:comment | A textual description of these trade delivery terms.
-edi3:cefactBieDomainClass | [cefact:Trade_DeliveryTerms.Details](#Trade_DeliveryTerms.Details)
-edi3:cefactBusinessProcess | Trade
-
-@id | cefact:TransportWaste_MaterialComponent.Description.Text
-@type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01013154
-rdfs:comment | A textual description for this transport waste material component.
-edi3:cefactBieDomainClass | [cefact:Transport Waste_MaterialComponent.Details](#Transport Waste_MaterialComponent.Details)
-edi3:cefactBusinessProcess | Transport
-
-@id | cefact:Certified_Accreditation.Description.Text
-@type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01010061
-rdfs:comment | The textual description of this certified accreditation.
-edi3:cefactBieDomainClass | [cefact:Certified_Accreditation.Details](#Certified_Accreditation.Details)
-edi3:cefactBusinessProcess | Transport
-
-@id | cefact:Registered_Tax.Description.Text
-@type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01004063
-rdfs:comment | A textual description of this registered tax.
-edi3:cefactBieDomainClass | [cefact:Registered_Tax.Details](#Registered_Tax.Details)
-edi3:cefactBusinessProcess | In All Contexts
-
-@id | cefact:Applied_AllowanceCharge.Description.Text
-@type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01000190
-rdfs:comment | The textual description of the applied allowance charge.
-edi3:cefactBieDomainClass | [cefact:Applied_AllowanceCharge.Details](#Applied_AllowanceCharge.Details)
-edi3:cefactBusinessProcess | Pricing
-
-@id | cefact:Logistics_Location.Description.Text
-@type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01003683
-rdfs:comment | A textual description of this logistics related location.
-edi3:cefactBieDomainClass | [cefact:Logistics_Location.Details](#Logistics_Location.Details)
-edi3:cefactBusinessProcess | Buy-Ship-Pay
-
-@id | cefact:Trade_PaymentTerms.Description.Text
-@type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01004631
-rdfs:comment | A textual description of these trade payment terms.
-edi3:cefactBieDomainClass | [cefact:Trade_PaymentTerms.Details](#Trade_PaymentTerms.Details)
-edi3:cefactBusinessProcess | Buy-Ship-Pay
-
-@id | cefact:Specified_Observation.Description.Text
-@type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01012572
-rdfs:comment | The textual description for this specified observation.
-edi3:cefactBieDomainClass | [cefact:Specified_Observation.Details](#Specified_Observation.Details)
+edi3:cefactUNId | cefact:UN01013506
+rdfs:comment | A textual description of this control setting parameter.
+edi3:cefactBieDomainClass | [cefact:Control Setting_Parameter.Details](#Control Setting_Parameter.Details)
 edi3:cefactBusinessProcess | In All Contexts
 
 @id | cefact:Material_GoodsCharacteristic.Description.Text
@@ -22108,18 +21807,60 @@ rdfs:comment | A textual description of this material goods characteristic.
 edi3:cefactBieDomainClass | [cefact:Material_GoodsCharacteristic.Details](#Material_GoodsCharacteristic.Details)
 edi3:cefactBusinessProcess | In All Contexts
 
-@id | cefact:StoresItem_Inventory.Description.Text
+@id | cefact:Trade_Product.Description.Text
 @type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01013192
-rdfs:comment | A textual description of this stores inventory item.
-edi3:cefactBieDomainClass | [cefact:Stores Item_Inventory.Details](#Stores Item_Inventory.Details)
+edi3:cefactUNId | cefact:UN01004689
+rdfs:comment | A textual description for this trade product.
+edi3:cefactBieDomainClass | [cefact:Trade_Product.Details](#Trade_Product.Details)
 edi3:cefactBusinessProcess | Buy-Ship-Pay
 
-@id | cefact:Specified_GeographicalFeature.Description.Text
+@id | cefact:WorkItem_QuantityAnalysis.Description.Text
 @type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01012169
-rdfs:comment | The textual description of this specified geographical feature.
-edi3:cefactBieDomainClass | [cefact:Specified_GeographicalFeature.Details](#Specified_GeographicalFeature.Details)
+edi3:cefactUNId | cefact:UN01000018
+rdfs:comment | The textual description of this work item quantity analysis.
+edi3:cefactBieDomainClass | [cefact:Work Item_QuantityAnalysis.Details](#Work Item_QuantityAnalysis.Details)
+edi3:cefactBusinessProcess | In All Contexts
+
+@id | cefact:Delivery_Instructions.Description.Text
+@type | edi3:BasicBIE
+edi3:cefactUNId | cefact:UN01003511
+rdfs:comment | A textual description of these delivery instructions.
+edi3:cefactBieDomainClass | [cefact:Delivery_Instructions.Details](#Delivery_Instructions.Details)
+edi3:cefactBusinessProcess | Buy-Ship-Pay
+
+@id | cefact:Header_BalanceOut.Description.Text
+@type | edi3:BasicBIE
+edi3:cefactUNId | cefact:UN01011541
+rdfs:comment | A textual description of this header balance out.
+edi3:cefactBieDomainClass | [cefact:Header_BalanceOut.Details](#Header_BalanceOut.Details)
+edi3:cefactBusinessProcess | Buy-Ship-Pay
+
+@id | cefact:Trade_PaymentTerms.Description.Text
+@type | edi3:BasicBIE
+edi3:cefactUNId | cefact:UN01004631
+rdfs:comment | A textual description of these trade payment terms.
+edi3:cefactBieDomainClass | [cefact:Trade_PaymentTerms.Details](#Trade_PaymentTerms.Details)
+edi3:cefactBusinessProcess | Buy-Ship-Pay
+
+@id | cefact:Logistics_Package.Description.Text
+@type | edi3:BasicBIE
+edi3:cefactUNId | cefact:UN01003703
+rdfs:comment | A textual description of this logistics package.
+edi3:cefactBieDomainClass | [cefact:Logistics_Package.Details](#Logistics_Package.Details)
+edi3:cefactBusinessProcess | Buy-Ship-Pay
+
+@id | cefact:Certified_Accreditation.Description.Text
+@type | edi3:BasicBIE
+edi3:cefactUNId | cefact:UN01010061
+rdfs:comment | The textual description of this certified accreditation.
+edi3:cefactBieDomainClass | [cefact:Certified_Accreditation.Details](#Certified_Accreditation.Details)
+edi3:cefactBusinessProcess | Transport
+
+@id | cefact:Specified_GeographicalObjectCharacteristic.Description.Text
+@type | edi3:BasicBIE
+edi3:cefactUNId | cefact:UN01012370
+rdfs:comment | The textual description for this geographical object characteristic.
+edi3:cefactBieDomainClass | [cefact:Specified_GeographicalObjectCharacteristic.Details](#Specified_GeographicalObjectCharacteristic.Details)
 edi3:cefactBusinessProcess | Agricultural
 
 @id | cefact:Disposal_Instructions.Description.Text
@@ -22129,19 +21870,82 @@ rdfs:comment | A textual description of these disposal instructions.
 edi3:cefactBieDomainClass | [cefact:Disposal_Instructions.Details](#Disposal_Instructions.Details)
 edi3:cefactBusinessProcess | Supply Chain
 
-@id | cefact:Trade_Product.Description.Text
+@id | cefact:Logistics_ServiceCharge.Description.Text
 @type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01004689
-rdfs:comment | A textual description for this trade product.
-edi3:cefactBieDomainClass | [cefact:Trade_Product.Details](#Trade_Product.Details)
+edi3:cefactUNId | cefact:UN01003723
+rdfs:comment | A textual description of this logistics service charge.
+edi3:cefactBieDomainClass | [cefact:Logistics_ServiceCharge.Details](#Logistics_ServiceCharge.Details)
 edi3:cefactBusinessProcess | Buy-Ship-Pay
 
-@id | cefact:Delivery_Instructions.Description.Text
+@id | cefact:Specified_GeographicalFeature.Description.Text
 @type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01003511
-rdfs:comment | A textual description of these delivery instructions.
-edi3:cefactBieDomainClass | [cefact:Delivery_Instructions.Details](#Delivery_Instructions.Details)
+edi3:cefactUNId | cefact:UN01012169
+rdfs:comment | The textual description of this specified geographical feature.
+edi3:cefactBieDomainClass | [cefact:Specified_GeographicalFeature.Details](#Specified_GeographicalFeature.Details)
+edi3:cefactBusinessProcess | Agricultural
+
+@id | cefact:Applied_AllowanceCharge.Description.Text
+@type | edi3:BasicBIE
+edi3:cefactUNId | cefact:UN01000190
+rdfs:comment | The textual description of the applied allowance charge.
+edi3:cefactBieDomainClass | [cefact:Applied_AllowanceCharge.Details](#Applied_AllowanceCharge.Details)
+edi3:cefactBusinessProcess | Pricing
+
+@id | cefact:Trade_DeliveryTerms.Description.Text
+@type | edi3:BasicBIE
+edi3:cefactUNId | cefact:UN01001656
+rdfs:comment | A textual description of these trade delivery terms.
+edi3:cefactBieDomainClass | [cefact:Trade_DeliveryTerms.Details](#Trade_DeliveryTerms.Details)
+edi3:cefactBusinessProcess | Trade
+
+@id | cefact:Transport_Instructions.Description.Text
+@type | edi3:BasicBIE
+edi3:cefactUNId | cefact:UN01004813
+rdfs:comment | A textual description of these transport instructions.
+edi3:cefactBieDomainClass | [cefact:Transport_Instructions.Details](#Transport_Instructions.Details)
+edi3:cefactBusinessProcess | In All Contexts
+
+@id | cefact:Identified_Fault.Description.Text
+@type | edi3:BasicBIE
+edi3:cefactUNId | cefact:UN01010066
+rdfs:comment | A textual description of this identified fault.
+edi3:cefactBieDomainClass | [cefact:Identified_Fault.Details](#Identified_Fault.Details)
+edi3:cefactBusinessProcess | Transport
+
+@id | cefact:Product_Certificate.Description.Text
+@type | edi3:BasicBIE
+edi3:cefactUNId | cefact:UN01012491
+rdfs:comment | A textual description of this product certificate.
+edi3:cefactBieDomainClass | [cefact:Product_Certificate.Details](#Product_Certificate.Details)
+edi3:cefactBusinessProcess | Traceability
+
+@id | cefact:Spatial_Dimension.Description.Text
+@type | edi3:BasicBIE
+edi3:cefactUNId | cefact:UN01004078
+rdfs:comment | A textual description of this spatial dimension.
+edi3:cefactBieDomainClass | [cefact:Spatial_Dimension.Details](#Spatial_Dimension.Details)
+edi3:cefactBusinessProcess | In All Contexts
+
+@id | cefact:SupplyChain_Packaging.Description.Text
+@type | edi3:BasicBIE
+edi3:cefactUNId | cefact:UN01004315
+rdfs:comment | A textual description of this supply chain packaging.
+edi3:cefactBieDomainClass | [cefact:Supply Chain_Packaging.Details](#Supply Chain_Packaging.Details)
 edi3:cefactBusinessProcess | Buy-Ship-Pay
+
+@id | cefact:Header_TradeSettlement.Description.Text
+@type | edi3:BasicBIE
+edi3:cefactUNId | cefact:UN01012991
+rdfs:comment | A textual description of this header trade settlement.
+edi3:cefactBieDomainClass | [cefact:Header_TradeSettlement.Details](#Header_TradeSettlement.Details)
+edi3:cefactBusinessProcess | Buy-Ship-Pay
+
+@id | cefact:Specified_Observation.Description.Text
+@type | edi3:BasicBIE
+edi3:cefactUNId | cefact:UN01012572
+rdfs:comment | The textual description for this specified observation.
+edi3:cefactBieDomainClass | [cefact:Specified_Observation.Details](#Specified_Observation.Details)
+edi3:cefactBusinessProcess | In All Contexts
 
 @id | cefact:Procuring_Project.Description.Text
 @type | edi3:BasicBIE
@@ -22149,6 +21953,202 @@ edi3:cefactUNId | cefact:UN01000373
 rdfs:comment | The textual description of this procuring project.
 edi3:cefactBieDomainClass | [cefact:Procuring_Project.Details](#Procuring_Project.Details)
 edi3:cefactBusinessProcess | In All Contexts
+
+@id | cefact:Measurement.Description.Text
+@type | edi3:BasicBIE
+edi3:cefactUNId | cefact:UN01003896
+rdfs:comment | A textual description of this measurement.
+edi3:cefactBieDomainClass | [cefact:Measurement.Details](#Measurement.Details)
+edi3:cefactBusinessProcess | In All Contexts
+
+@id | cefact:Logistics_RiskAnalysisResult.Description.Text
+@type | edi3:BasicBIE
+edi3:cefactUNId | cefact:UN01013049
+rdfs:comment | The textual description of this logistics risk analysis result.
+edi3:cefactBieDomainClass | [cefact:Logistics_RiskAnalysisResult.Details](#Logistics_RiskAnalysisResult.Details)
+edi3:cefactBusinessProcess | Buy-Ship-Pay
+
+@id | cefact:Registered_Tax.Description.Text
+@type | edi3:BasicBIE
+edi3:cefactUNId | cefact:UN01004063
+rdfs:comment | A textual description of this registered tax.
+edi3:cefactBieDomainClass | [cefact:Registered_Tax.Details](#Registered_Tax.Details)
+edi3:cefactBusinessProcess | In All Contexts
+
+@id | cefact:Specified_Period.Description.Text
+@type | edi3:BasicBIE
+edi3:cefactUNId | cefact:UN01001273
+rdfs:comment | A textual description of this specified period of time.
+edi3:cefactBieDomainClass | [cefact:Specified_Period.Details](#Specified_Period.Details)
+edi3:cefactBusinessProcess | In All Contexts
+
+@id | cefact:Payment_BalanceOut.Description.Text
+@type | edi3:BasicBIE
+edi3:cefactUNId | cefact:UN01011831
+rdfs:comment | A textual description of this payment balance out.
+edi3:cefactBieDomainClass | [cefact:Payment_BalanceOut.Details](#Payment_BalanceOut.Details)
+edi3:cefactBusinessProcess | Buy-Ship-Pay
+
+@id | cefact:Specified_PersonalEffects.Description.Text
+@type | edi3:BasicBIE
+edi3:cefactUNId | cefact:UN01013186
+rdfs:comment | A textual description of these specified personal effects.
+edi3:cefactBieDomainClass | [cefact:Specified_PersonalEffects.Details](#Specified_PersonalEffects.Details)
+edi3:cefactBusinessProcess | In All Contexts
+
+@id | cefact:Available_Period.Description.Text
+@type | edi3:BasicBIE
+edi3:cefactUNId | cefact:UN01005111
+rdfs:comment | The textual description of this available period.
+edi3:cefactBieDomainClass | [cefact:Available_Period.Details](#Available_Period.Details)
+edi3:cefactBusinessProcess | In All Contexts
+
+@id | cefact:Transport_Event.Description.Text
+@type | edi3:BasicBIE
+edi3:cefactUNId | cefact:UN01004794
+rdfs:comment | The textual description of this transport event.
+edi3:cefactBieDomainClass | [cefact:Transport_Event.Details](#Transport_Event.Details)
+edi3:cefactBusinessProcess | In All Contexts
+
+@id | cefact:Exchanged_Document.Description.Text
+@type | edi3:BasicBIE
+edi3:cefactUNId | cefact:UN01002490
+rdfs:comment | A textual description of this exchanged document.
+edi3:cefactBieDomainClass | [cefact:Exchanged_Document.Details](#Exchanged_Document.Details)
+edi3:cefactBusinessProcess | In All Contexts
+
+@id | cefact:Valuation_BreakdownStatement.Description.Text
+@type | edi3:BasicBIE
+edi3:cefactUNId | cefact:UN01007548
+rdfs:comment | A textual description of this valuation breakdown statement.
+edi3:cefactBieDomainClass | [cefact:Valuation_BreakdownStatement.Details](#Valuation_BreakdownStatement.Details)
+edi3:cefactBusinessProcess | Invoicing
+
+@id | cefact:WorkItem_Dimension.Description.Text
+@type | edi3:BasicBIE
+edi3:cefactUNId | cefact:UN01000059
+rdfs:comment | The textual description of this work item dimension.
+edi3:cefactBieDomainClass | [cefact:Work Item_Dimension.Details](#Work Item_Dimension.Details)
+edi3:cefactBusinessProcess | In All Contexts
+
+@id | cefact:Haulage_Instructions.Description.Text
+@type | edi3:BasicBIE
+edi3:cefactUNId | cefact:UN01003635
+rdfs:comment | The textual description of these haulage instructions.
+edi3:cefactBieDomainClass | [cefact:Haulage_Instructions.Details](#Haulage_Instructions.Details)
+edi3:cefactBusinessProcess | In All Contexts
+
+@id | cefact:Communication_Event.Description.Text
+@type | edi3:BasicBIE
+edi3:cefactUNId | cefact:UN01013564
+rdfs:comment | A textual description of this communication event.
+edi3:cefactBieDomainClass | [cefact:Communication_Event.Details](#Communication_Event.Details)
+edi3:cefactBusinessProcess | In All Contexts
+
+@id | cefact:Requesting_Party.Description.Text
+@type | edi3:BasicBIE
+edi3:cefactUNId | cefact:UN01002021
+rdfs:comment | The textual description of this requesting party.
+edi3:cefactBieDomainClass | [cefact:Requesting_Party.Details](#Requesting_Party.Details)
+edi3:cefactBusinessProcess | Project Management
+
+@id | cefact:StoresItem_Inventory.Description.Text
+@type | edi3:BasicBIE
+edi3:cefactUNId | cefact:UN01013192
+rdfs:comment | A textual description of this stores inventory item.
+edi3:cefactBieDomainClass | [cefact:Stores Item_Inventory.Details](#Stores Item_Inventory.Details)
+edi3:cefactBusinessProcess | Buy-Ship-Pay
+
+@id | cefact:Handling_Instructions.Description.Text
+@type | edi3:BasicBIE
+edi3:cefactUNId | cefact:UN01003632
+rdfs:comment | A textual description of these handling instructions.
+edi3:cefactBieDomainClass | [cefact:Handling_Instructions.Details](#Handling_Instructions.Details)
+edi3:cefactBusinessProcess | In All Contexts
+
+@id | cefact:Logistics_Location.Description.Text
+@type | edi3:BasicBIE
+edi3:cefactUNId | cefact:UN01003683
+rdfs:comment | A textual description of this logistics related location.
+edi3:cefactBieDomainClass | [cefact:Logistics_Location.Details](#Logistics_Location.Details)
+edi3:cefactBusinessProcess | Buy-Ship-Pay
+
+@id | cefact:Transport_Service.Description.Text
+@type | edi3:BasicBIE
+edi3:cefactUNId | cefact:UN01004839
+rdfs:comment | The textual description of this transport service.
+edi3:cefactBieDomainClass | [cefact:Transport_Service.Details](#Transport_Service.Details)
+edi3:cefactBusinessProcess | In All Contexts
+
+@id | cefact:TradeSettlement_FinancialCard.Description.Text
+@type | edi3:BasicBIE
+edi3:cefactUNId | cefact:UN01009967
+rdfs:comment | The textual description of this trade settlement financial card.
+edi3:cefactBieDomainClass | [cefact:Trade Settlement_FinancialCard.Details](#Trade Settlement_FinancialCard.Details)
+edi3:cefactBusinessProcess | In All Contexts
+
+@id | cefact:TemperatureSetting_Instructions.Description.Text
+@type | edi3:BasicBIE
+edi3:cefactUNId | cefact:UN01004491
+rdfs:comment | A textual description of these temperature setting instructions.
+edi3:cefactBieDomainClass | [cefact:Temperature Setting_Instructions.Details](#Temperature Setting_Instructions.Details)
+edi3:cefactBusinessProcess | In All Contexts
+
+@id | cefact:SupplyChain_Schedule.Description.Text
+@type | edi3:BasicBIE
+edi3:cefactUNId | cefact:UN01012979
+rdfs:comment | A textual description of this supply chain schedule.
+edi3:cefactBieDomainClass | [cefact:Supply Chain_Schedule.Details](#Supply Chain_Schedule.Details)
+edi3:cefactBusinessProcess | Supply Chain
+
+@id | cefact:Trade_Party.Description.Text
+@type | edi3:BasicBIE
+edi3:cefactUNId | cefact:UN01010146
+rdfs:comment | A textual description of this trade party.
+edi3:cefactBieDomainClass | [cefact:Trade_Party.Details](#Trade_Party.Details)
+edi3:cefactBusinessProcess | Transport
+
+@id | cefact:TradeProduct_Feature.Description.Text
+@type | edi3:BasicBIE
+edi3:cefactUNId | cefact:UN01007472
+rdfs:comment | A textual description of this trade product feature.
+edi3:cefactBieDomainClass | [cefact:Trade Product_Feature.Details](#Trade Product_Feature.Details)
+edi3:cefactBusinessProcess | Buy-Ship-Pay
+
+@id | cefact:Logistics_Status.Description.Text
+@type | edi3:BasicBIE
+edi3:cefactUNId | cefact:UN01003750
+rdfs:comment | The textual description of this logistics status.
+edi3:cefactBieDomainClass | [cefact:Logistics_Status.Details](#Logistics_Status.Details)
+edi3:cefactBusinessProcess | Buy-Ship-Pay
+
+@id | cefact:SupplyChain_Event.Description.Text
+@type | edi3:BasicBIE
+edi3:cefactUNId | cefact:UN01004295
+rdfs:comment | A textual description of this supply chain event.
+edi3:cefactBieDomainClass | [cefact:Supply Chain_Event.Details](#Supply Chain_Event.Details)
+edi3:cefactBusinessProcess | Buy-Ship-Pay
+
+@id | cefact:Operational_Parameter.Description.Text
+@type | edi3:BasicBIE
+edi3:cefactUNId | cefact:UN01013517
+rdfs:comment | A textual description of this operational parameter.
+edi3:cefactBieDomainClass | [cefact:Operational_Parameter.Details](#Operational_Parameter.Details)
+edi3:cefactBusinessProcess | In All Contexts
+
+@id | cefact:Referenced_Product.Description.Text
+@type | edi3:BasicBIE
+edi3:cefactUNId | cefact:UN01007189
+rdfs:comment | A textual description for this referenced product.
+edi3:cefactBieDomainClass | [cefact:Referenced_Product.Details](#Referenced_Product.Details)
+edi3:cefactBusinessProcess | In All Contexts
+
+@id | cefact:Quarantine_Instructions.Description.Text
+@type | edi3:BasicBIE
+edi3:cefactUNId | cefact:UN01003989
+rdfs:comment | The textual description of these quarantine instructions.
+edi3:cefactBieDomainClass | [cefact:Quarantine_Instructions.Details](#Quarantine_Instructions.Details)
+edi3:cefactBusinessProcess | Buy-Ship-Pay
 
 
 
@@ -22283,18 +22283,18 @@ Domains:
 
 Cefact Element Metadata: 
 
-@id | cefact:SupplyChain_ConsignmentItem.Despatch.Trade_Party
-@type | edi3:AssociationBIE
-edi3:cefactUNId | cefact:UN01004147
-rdfs:comment | The party from whom this supply chain consignment item will be or has been despatched.
-edi3:cefactBieDomainClass | [cefact:Supply Chain_ConsignmentItem.Details](#Supply Chain_ConsignmentItem.Details)
-edi3:cefactBusinessProcess | Buy-Ship-Pay
-
 @id | cefact:Referenced_SupplyChain_Consignment.Despatch.Trade_Party
 @type | edi3:AssociationBIE
 edi3:cefactUNId | cefact:UN01011056
 rdfs:comment | The party from whom this referenced supply chain consignment will be or has been despatched.
 edi3:cefactBieDomainClass | [cefact:Referenced_ Supply Chain_Consignment.Details](#Referenced_ Supply Chain_Consignment.Details)
+edi3:cefactBusinessProcess | Buy-Ship-Pay
+
+@id | cefact:SupplyChain_ConsignmentItem.Despatch.Trade_Party
+@type | edi3:AssociationBIE
+edi3:cefactUNId | cefact:UN01004147
+rdfs:comment | The party from whom this supply chain consignment item will be or has been despatched.
+edi3:cefactBieDomainClass | [cefact:Supply Chain_ConsignmentItem.Details](#Supply Chain_ConsignmentItem.Details)
 edi3:cefactBusinessProcess | Buy-Ship-Pay
 
 @id | cefact:SupplyChain_Consignment.Despatch.Trade_Party
@@ -22634,18 +22634,18 @@ Domains:
 
 Cefact Element Metadata: 
 
-@id | cefact:Header_TradeDelivery.Disposal.Trade_Party
-@type | edi3:AssociationBIE
-edi3:cefactUNId | cefact:UN01013429
-rdfs:comment | A disposal party, at header level, for this trade delivery.
-edi3:cefactBieDomainClass | [cefact:Header_TradeDelivery.Details](#Header_TradeDelivery.Details)
-edi3:cefactBusinessProcess | Buy-Ship-Pay
-
 @id | cefact:Line_TradeDelivery.Disposal.Trade_Party
 @type | edi3:AssociationBIE
 edi3:cefactUNId | cefact:UN01013455
 rdfs:comment | A disposal party, at line level, for this trade delivery.
 edi3:cefactBieDomainClass | [cefact:Line_TradeDelivery.Details](#Line_TradeDelivery.Details)
+edi3:cefactBusinessProcess | Buy-Ship-Pay
+
+@id | cefact:Header_TradeDelivery.Disposal.Trade_Party
+@type | edi3:AssociationBIE
+edi3:cefactUNId | cefact:UN01013429
+rdfs:comment | A disposal party, at header level, for this trade delivery.
+edi3:cefactBieDomainClass | [cefact:Header_TradeDelivery.Details](#Header_TradeDelivery.Details)
 edi3:cefactBusinessProcess | Buy-Ship-Pay
 
 
@@ -22773,18 +22773,18 @@ Domains:
 
 Cefact Element Metadata: 
 
-@id | cefact:Logistics_TransportMeans.DriverAccompanied.Indicator
-@type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01010102
-rdfs:comment | The indication of whether or not this logistics means of transport is accompanied by a driver.
-edi3:cefactBieDomainClass | [cefact:Logistics_TransportMeans.Details](#Logistics_TransportMeans.Details)
-edi3:cefactBusinessProcess | Transport
-
 @id | cefact:Referenced_TransportMeans.DriverAccompanied.Indicator
 @type | edi3:BasicBIE
 edi3:cefactUNId | cefact:UN01010138
 rdfs:comment | The indication of whether or not this referenced means of transport is accompanied by a driver.
 edi3:cefactBieDomainClass | [cefact:Referenced_TransportMeans.Details](#Referenced_TransportMeans.Details)
+edi3:cefactBusinessProcess | Transport
+
+@id | cefact:Logistics_TransportMeans.DriverAccompanied.Indicator
+@type | edi3:BasicBIE
+edi3:cefactUNId | cefact:UN01010102
+rdfs:comment | The indication of whether or not this logistics means of transport is accompanied by a driver.
+edi3:cefactBieDomainClass | [cefact:Logistics_TransportMeans.Details](#Logistics_TransportMeans.Details)
 edi3:cefactBusinessProcess | Transport
 
 
@@ -22920,19 +22920,19 @@ Domains:
 
 Cefact Element Metadata: 
 
-@id | cefact:Line_TradeDelivery.DueIn_Available.Quantity
-@type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01012999
-rdfs:comment | The due in available quantity, at line level, for this trade delivery.
-edi3:cefactBieDomainClass | [cefact:Line_TradeDelivery.Details](#Line_TradeDelivery.Details)
-edi3:cefactBusinessProcess | Buy-Ship-Pay
-
 @id | cefact:Header_TradeDelivery.DueIn_Available.Quantity
 @type | edi3:BasicBIE
 edi3:cefactUNId | cefact:UN01011612
 rdfs:comment | The due in available quantity, at header level, for this trade delivery.
 edi3:cefactBieDomainClass | [cefact:Header_TradeDelivery.Details](#Header_TradeDelivery.Details)
 edi3:cefactBusinessProcess | In All Contexts
+
+@id | cefact:Line_TradeDelivery.DueIn_Available.Quantity
+@type | edi3:BasicBIE
+edi3:cefactUNId | cefact:UN01012999
+rdfs:comment | The due in available quantity, at line level, for this trade delivery.
+edi3:cefactBieDomainClass | [cefact:Line_TradeDelivery.Details](#Line_TradeDelivery.Details)
+edi3:cefactBusinessProcess | Buy-Ship-Pay
 
 
 
@@ -22949,19 +22949,19 @@ Domains:
 
 Cefact Element Metadata: 
 
-@id | cefact:Line_TradeDelivery.DueIn_Forecasted.Quantity
-@type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01013000
-rdfs:comment | The due in forecasted quantity, at line level, for this trade delivery.
-edi3:cefactBieDomainClass | [cefact:Line_TradeDelivery.Details](#Line_TradeDelivery.Details)
-edi3:cefactBusinessProcess | Buy-Ship-Pay
-
 @id | cefact:Header_TradeDelivery.DueIn_Forecasted.Quantity
 @type | edi3:BasicBIE
 edi3:cefactUNId | cefact:UN01011613
 rdfs:comment | The due in forecasted quantity, at header level, for this trade delivery.
 edi3:cefactBieDomainClass | [cefact:Header_TradeDelivery.Details](#Header_TradeDelivery.Details)
 edi3:cefactBusinessProcess | In All Contexts
+
+@id | cefact:Line_TradeDelivery.DueIn_Forecasted.Quantity
+@type | edi3:BasicBIE
+edi3:cefactUNId | cefact:UN01013000
+rdfs:comment | The due in forecasted quantity, at line level, for this trade delivery.
+edi3:cefactBieDomainClass | [cefact:Line_TradeDelivery.Details](#Line_TradeDelivery.Details)
+edi3:cefactBusinessProcess | Buy-Ship-Pay
 
 
 
@@ -23030,13 +23030,6 @@ Domains:
 
 Cefact Element Metadata: 
 
-@id | cefact:TradeSettlementHeader_MonetarySummation.DuePayable.Amount
-@type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01011883
-rdfs:comment | A monetary value that is an amount due and payable for this trade settlement header monetary summation, such as the amount due to the creditor.
-edi3:cefactBieDomainClass | [cefact:Trade Settlement Header_MonetarySummation.Details](#Trade Settlement Header_MonetarySummation.Details)
-edi3:cefactBusinessProcess | Supply Chain
-
 @id | cefact:Header_TradeSettlement.DuePayable.Amount
 @type | edi3:BasicBIE
 edi3:cefactUNId | cefact:UN01011644
@@ -23049,6 +23042,13 @@ edi3:cefactBusinessProcess | Buy-Ship-Pay
 edi3:cefactUNId | cefact:UN01011905
 rdfs:comment | A monetary value that is an amount due and payable for this trade settlement line monetary summation, such as the amount due to the creditor.
 edi3:cefactBieDomainClass | [cefact:Trade Settlement Line_MonetarySummation.Details](#Trade Settlement Line_MonetarySummation.Details)
+edi3:cefactBusinessProcess | Supply Chain
+
+@id | cefact:TradeSettlementHeader_MonetarySummation.DuePayable.Amount
+@type | edi3:BasicBIE
+edi3:cefactUNId | cefact:UN01011883
+rdfs:comment | A monetary value that is an amount due and payable for this trade settlement header monetary summation, such as the amount due to the creditor.
+edi3:cefactBieDomainClass | [cefact:Trade Settlement Header_MonetarySummation.Details](#Trade Settlement Header_MonetarySummation.Details)
 edi3:cefactBusinessProcess | Supply Chain
 
 
@@ -23163,20 +23163,6 @@ Domains:
 
 Cefact Element Metadata: 
 
-@id | cefact:Exchanged_Document.Effective.Specified_Period
-@type | edi3:AssociationBIE
-edi3:cefactUNId | cefact:UN01003578
-rdfs:comment | The specified period within which this exchanged document is effective.
-edi3:cefactBieDomainClass | [cefact:Exchanged_Document.Details](#Exchanged_Document.Details)
-edi3:cefactBusinessProcess | In All Contexts
-
-@id | cefact:Transport_Service.Effective.Specified_Period
-@type | edi3:AssociationBIE
-edi3:cefactUNId | cefact:UN01004848
-rdfs:comment | The specified period during which this transport service is effective.
-edi3:cefactBieDomainClass | [cefact:Transport_Service.Details](#Transport_Service.Details)
-edi3:cefactBusinessProcess | In All Contexts
-
 @id | cefact:DocumentLine_Document.Effective.Specified_Period
 @type | edi3:AssociationBIE
 edi3:cefactUNId | cefact:UN01007177
@@ -23184,11 +23170,25 @@ rdfs:comment | The period within which this document line is effective.
 edi3:cefactBieDomainClass | [cefact:Document Line_Document.Details](#Document Line_Document.Details)
 edi3:cefactBusinessProcess | In All Contexts
 
+@id | cefact:Exchanged_Document.Effective.Specified_Period
+@type | edi3:AssociationBIE
+edi3:cefactUNId | cefact:UN01003578
+rdfs:comment | The specified period within which this exchanged document is effective.
+edi3:cefactBieDomainClass | [cefact:Exchanged_Document.Details](#Exchanged_Document.Details)
+edi3:cefactBusinessProcess | In All Contexts
+
 @id | cefact:Referenced_Document.Effective.Specified_Period
 @type | edi3:AssociationBIE
 edi3:cefactUNId | cefact:UN01004014
 rdfs:comment | The specified period within which this referenced document is effective.
 edi3:cefactBieDomainClass | [cefact:Referenced_Document.Details](#Referenced_Document.Details)
+edi3:cefactBusinessProcess | In All Contexts
+
+@id | cefact:Transport_Service.Effective.Specified_Period
+@type | edi3:AssociationBIE
+edi3:cefactUNId | cefact:UN01004848
+rdfs:comment | The specified period during which this transport service is effective.
+edi3:cefactBieDomainClass | [cefact:Transport_Service.Details](#Transport_Service.Details)
 edi3:cefactBusinessProcess | In All Contexts
 
 
@@ -23412,18 +23412,18 @@ Domains:
 
 Cefact Element Metadata: 
 
-@id | cefact:Specified_Period.End.DateTime
-@type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01001275
-rdfs:comment | The date, time, date time or other date time value for the end of this specified period of time.
-edi3:cefactBieDomainClass | [cefact:Specified_Period.Details](#Specified_Period.Details)
-edi3:cefactBusinessProcess | In All Contexts
-
 @id | cefact:Available_Period.End.DateTime
 @type | edi3:BasicBIE
 edi3:cefactUNId | cefact:UN01005110
 rdfs:comment | The date, time, date time or other date time value for the end of this available period of time.
 edi3:cefactBieDomainClass | [cefact:Available_Period.Details](#Available_Period.Details)
+edi3:cefactBusinessProcess | In All Contexts
+
+@id | cefact:Specified_Period.End.DateTime
+@type | edi3:BasicBIE
+edi3:cefactUNId | cefact:UN01001275
+rdfs:comment | The date, time, date time or other date time value for the end of this specified period of time.
+edi3:cefactBieDomainClass | [cefact:Specified_Period.Details](#Specified_Period.Details)
 edi3:cefactBusinessProcess | In All Contexts
 
 
@@ -23736,11 +23736,11 @@ Domains:
 
 Cefact Element Metadata: 
 
-@id | cefact:Cross-Border_RegulatoryProcedure.Examination.Transport_Event
+@id | cefact:SupplyChain_ConsignmentItem.Examination.Transport_Event
 @type | edi3:AssociationBIE
-edi3:cefactUNId | cefact:UN01008969
-rdfs:comment | An examination event for this cross-border regulatory procedure.
-edi3:cefactBieDomainClass | [cefact:Cross-Border_RegulatoryProcedure.Details](#Cross-Border_RegulatoryProcedure.Details)
+edi3:cefactUNId | cefact:UN01004157
+rdfs:comment | An examination event for this supply chain consignment item.
+edi3:cefactBieDomainClass | [cefact:Supply Chain_ConsignmentItem.Details](#Supply Chain_ConsignmentItem.Details)
 edi3:cefactBusinessProcess | Buy-Ship-Pay
 
 @id | cefact:SupplyChain_Consignment.Examination.Transport_Event
@@ -23750,11 +23750,11 @@ rdfs:comment | An examination event for this supply chain consignment.
 edi3:cefactBieDomainClass | [cefact:Supply Chain_Consignment.Details](#Supply Chain_Consignment.Details)
 edi3:cefactBusinessProcess | Buy-Ship-Pay
 
-@id | cefact:SupplyChain_ConsignmentItem.Examination.Transport_Event
+@id | cefact:Cross-Border_RegulatoryProcedure.Examination.Transport_Event
 @type | edi3:AssociationBIE
-edi3:cefactUNId | cefact:UN01004157
-rdfs:comment | An examination event for this supply chain consignment item.
-edi3:cefactBieDomainClass | [cefact:Supply Chain_ConsignmentItem.Details](#Supply Chain_ConsignmentItem.Details)
+edi3:cefactUNId | cefact:UN01008969
+rdfs:comment | An examination event for this cross-border regulatory procedure.
+edi3:cefactBieDomainClass | [cefact:Cross-Border_RegulatoryProcedure.Details](#Cross-Border_RegulatoryProcedure.Details)
 edi3:cefactBusinessProcess | Buy-Ship-Pay
 
 
@@ -24029,19 +24029,19 @@ Domains:
 
 Cefact Element Metadata: 
 
-@id | cefact:Trade_ProductInstance.Expiry.DateTime
-@type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01004663
-rdfs:comment | The date, time, date time, or other date time value of expiry of the items contained in the trade product instance.
-edi3:cefactBieDomainClass | [cefact:Trade_ProductInstance.Details](#Trade_ProductInstance.Details)
-edi3:cefactBusinessProcess | Buy-Ship-Pay
-
 @id | cefact:Product_Certificate.Expiry.DateTime
 @type | edi3:BasicBIE
 edi3:cefactUNId | cefact:UN01012486
 rdfs:comment | The date, time, date time, or other date time value when this product certificate expires.
 edi3:cefactBieDomainClass | [cefact:Product_Certificate.Details](#Product_Certificate.Details)
 edi3:cefactBusinessProcess | Traceability
+
+@id | cefact:Trade_ProductInstance.Expiry.DateTime
+@type | edi3:BasicBIE
+edi3:cefactUNId | cefact:UN01004663
+rdfs:comment | The date, time, date time, or other date time value of expiry of the items contained in the trade product instance.
+edi3:cefactBieDomainClass | [cefact:Trade_ProductInstance.Details](#Trade_ProductInstance.Details)
+edi3:cefactBusinessProcess | Buy-Ship-Pay
 
 
 
@@ -24272,18 +24272,18 @@ Domains:
 
 Cefact Element Metadata: 
 
-@id | cefact:SupplyChain_ConsignmentItem.Export.Trade_GeopoliticalRegion
-@type | edi3:AssociationBIE
-edi3:cefactUNId | cefact:UN01004138
-rdfs:comment | The geopolitical region of export for this supply chain consignment item.
-edi3:cefactBieDomainClass | [cefact:Supply Chain_ConsignmentItem.Details](#Supply Chain_ConsignmentItem.Details)
-edi3:cefactBusinessProcess | Buy-Ship-Pay
-
 @id | cefact:SupplyChain_Consignment.Export.Trade_GeopoliticalRegion
 @type | edi3:AssociationBIE
 edi3:cefactUNId | cefact:UN01004276
 rdfs:comment | The geopolitical region of export for this supply chain consignment.
 edi3:cefactBieDomainClass | [cefact:Supply Chain_Consignment.Details](#Supply Chain_Consignment.Details)
+edi3:cefactBusinessProcess | Buy-Ship-Pay
+
+@id | cefact:SupplyChain_ConsignmentItem.Export.Trade_GeopoliticalRegion
+@type | edi3:AssociationBIE
+edi3:cefactUNId | cefact:UN01004138
+rdfs:comment | The geopolitical region of export for this supply chain consignment item.
+edi3:cefactBieDomainClass | [cefact:Supply Chain_ConsignmentItem.Details](#Supply Chain_ConsignmentItem.Details)
 edi3:cefactBusinessProcess | Buy-Ship-Pay
 
 
@@ -24390,18 +24390,18 @@ Domains:
 
 Cefact Element Metadata: 
 
-@id | cefact:SupplyChain_Consignment.FOB.Amount
-@type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01004178
-rdfs:comment | The monetary value that has to be, or has been, paid for this supply chain consignment as calculated under FOB (Free on Board) delivery terms.
-edi3:cefactBieDomainClass | [cefact:Supply Chain_Consignment.Details](#Supply Chain_Consignment.Details)
-edi3:cefactBusinessProcess | Buy-Ship-Pay
-
 @id | cefact:SupplyChain_ConsignmentItem.FOB.Amount
 @type | edi3:BasicBIE
 edi3:cefactUNId | cefact:UN01004116
 rdfs:comment | The monetary value for this supply chain consignment item as calculated under FOB (Free On Board) delivery terms.
 edi3:cefactBieDomainClass | [cefact:Supply Chain_ConsignmentItem.Details](#Supply Chain_ConsignmentItem.Details)
+edi3:cefactBusinessProcess | Buy-Ship-Pay
+
+@id | cefact:SupplyChain_Consignment.FOB.Amount
+@type | edi3:BasicBIE
+edi3:cefactUNId | cefact:UN01004178
+rdfs:comment | The monetary value that has to be, or has been, paid for this supply chain consignment as calculated under FOB (Free on Board) delivery terms.
+edi3:cefactBieDomainClass | [cefact:Supply Chain_Consignment.Details](#Supply Chain_Consignment.Details)
 edi3:cefactBusinessProcess | Buy-Ship-Pay
 
 
@@ -24471,18 +24471,18 @@ rdfs:comment | The family name expressed as text for this distinct chemical.
 edi3:cefactBieDomainClass | [cefact:Distinct_Chemical.Details](#Distinct_Chemical.Details)
 edi3:cefactBusinessProcess | MSDS Reporting
 
-@id | cefact:Transport_Person.FamilyName.Text
-@type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01013138
-rdfs:comment | A family name, expressed as text, for this transport person.
-edi3:cefactBieDomainClass | [cefact:Transport_Person.Details](#Transport_Person.Details)
-edi3:cefactBusinessProcess | In All Contexts
-
 @id | cefact:Contact_Person.FamilyName.Text
 @type | edi3:BasicBIE
 edi3:cefactUNId | cefact:UN01005150
 rdfs:comment | The name, expressed as text, that this contact person shares with members of his/her family.
 edi3:cefactBieDomainClass | [cefact:Contact_Person.Details](#Contact_Person.Details)
+edi3:cefactBusinessProcess | In All Contexts
+
+@id | cefact:Transport_Person.FamilyName.Text
+@type | edi3:BasicBIE
+edi3:cefactUNId | cefact:UN01013138
+rdfs:comment | A family name, expressed as text, for this transport person.
+edi3:cefactBieDomainClass | [cefact:Transport_Person.Details](#Transport_Person.Details)
 edi3:cefactBusinessProcess | In All Contexts
 
 
@@ -24552,18 +24552,18 @@ Domains:
 
 Cefact Element Metadata: 
 
-@id | cefact:Creditor_FinancialInstitution.FedwireRoutingNumber_Identification.Identifier
-@type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01002984
-rdfs:comment | The unique Fedwire Routing Number identifier as assigned by the American Bankers Association (ABA) for this creditor financial institution.
-edi3:cefactBieDomainClass | [cefact:Creditor_FinancialInstitution.Details](#Creditor_FinancialInstitution.Details)
-edi3:cefactBusinessProcess | Customer to bank payment initiation
-
 @id | cefact:Debtor_FinancialInstitution.FedwireRoutingNumber_Identification.Identifier
 @type | edi3:BasicBIE
 edi3:cefactUNId | cefact:UN01002849
 rdfs:comment | The unique Fedwire Routing Number identifier as assigned by the American Bankers Association (ABA) for this debtor financial institution.
 edi3:cefactBieDomainClass | [cefact:Debtor_FinancialInstitution.Details](#Debtor_FinancialInstitution.Details)
+edi3:cefactBusinessProcess | Customer to bank payment initiation
+
+@id | cefact:Creditor_FinancialInstitution.FedwireRoutingNumber_Identification.Identifier
+@type | edi3:BasicBIE
+edi3:cefactUNId | cefact:UN01002984
+rdfs:comment | The unique Fedwire Routing Number identifier as assigned by the American Bankers Association (ABA) for this creditor financial institution.
+edi3:cefactBieDomainClass | [cefact:Creditor_FinancialInstitution.Details](#Creditor_FinancialInstitution.Details)
 edi3:cefactBusinessProcess | Customer to bank payment initiation
 
 
@@ -24625,18 +24625,18 @@ Domains:
 
 Cefact Element Metadata: 
 
-@id | cefact:Header_TradeDelivery.FinalDelivery.Indicator
-@type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01011606
-rdfs:comment | The indication, at header level, of whether or not this trade delivery is the final delivery.
-edi3:cefactBieDomainClass | [cefact:Header_TradeDelivery.Details](#Header_TradeDelivery.Details)
-edi3:cefactBusinessProcess | Buy-Ship-Pay
-
 @id | cefact:Line_TradeDelivery.FinalDelivery.Indicator
 @type | edi3:BasicBIE
 edi3:cefactUNId | cefact:UN01011757
 rdfs:comment | The indication, at line level, of whether or not this trade delivery is the final delivery.
 edi3:cefactBieDomainClass | [cefact:Line_TradeDelivery.Details](#Line_TradeDelivery.Details)
+edi3:cefactBusinessProcess | Buy-Ship-Pay
+
+@id | cefact:Header_TradeDelivery.FinalDelivery.Indicator
+@type | edi3:BasicBIE
+edi3:cefactUNId | cefact:UN01011606
+rdfs:comment | The indication, at header level, of whether or not this trade delivery is the final delivery.
+edi3:cefactBieDomainClass | [cefact:Header_TradeDelivery.Details](#Header_TradeDelivery.Details)
 edi3:cefactBusinessProcess | Buy-Ship-Pay
 
 
@@ -24757,18 +24757,18 @@ Domains:
 
 Cefact Element Metadata: 
 
-@id | cefact:FinancingRequestResult_Document.Financed_Total.Amount
-@type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01013225
-rdfs:comment | A monetary value of the financed total amount in this financing request result document.
-edi3:cefactBieDomainClass | [cefact:Financing Request Result_Document.Details](#Financing Request Result_Document.Details)
-edi3:cefactBusinessProcess | Buy-Ship-Pay
-
 @id | cefact:FinancingSummary_Document.Financed_Total.Amount
 @type | edi3:BasicBIE
 edi3:cefactUNId | cefact:UN01013248
 rdfs:comment | A financed total monetary value in this financing summary document.
 edi3:cefactBieDomainClass | [cefact:Financing Summary_Document.Details](#Financing Summary_Document.Details)
+edi3:cefactBusinessProcess | Buy-Ship-Pay
+
+@id | cefact:FinancingRequestResult_Document.Financed_Total.Amount
+@type | edi3:BasicBIE
+edi3:cefactUNId | cefact:UN01013225
+rdfs:comment | A monetary value of the financed total amount in this financing request result document.
+edi3:cefactBieDomainClass | [cefact:Financing Request Result_Document.Details](#Financing Request Result_Document.Details)
 edi3:cefactBusinessProcess | Buy-Ship-Pay
 
 
@@ -25182,18 +25182,18 @@ Domains:
 
 Cefact Element Metadata: 
 
-@id | cefact:Referenced_SupplyChain_Consignment.FreightForwarderAssigned.Identifier
-@type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01004045
-rdfs:comment | The unique identifier assigned by the freight forwarder to this referenced supply chain consignment.
-edi3:cefactBieDomainClass | [cefact:Referenced_ Supply Chain_Consignment.Details](#Referenced_ Supply Chain_Consignment.Details)
-edi3:cefactBusinessProcess | Buy-Ship-Pay
-
 @id | cefact:SupplyChain_Consignment.FreightForwarderAssigned.Identifier
 @type | edi3:BasicBIE
 edi3:cefactUNId | cefact:UN01004165
 rdfs:comment | The unique identifier assigned by the freight forwarder to this supply chain consignment.
 edi3:cefactBieDomainClass | [cefact:Supply Chain_Consignment.Details](#Supply Chain_Consignment.Details)
+edi3:cefactBusinessProcess | Buy-Ship-Pay
+
+@id | cefact:Referenced_SupplyChain_Consignment.FreightForwarderAssigned.Identifier
+@type | edi3:BasicBIE
+edi3:cefactUNId | cefact:UN01004045
+rdfs:comment | The unique identifier assigned by the freight forwarder to this referenced supply chain consignment.
+edi3:cefactBieDomainClass | [cefact:Referenced_ Supply Chain_Consignment.Details](#Referenced_ Supply Chain_Consignment.Details)
 edi3:cefactBusinessProcess | Buy-Ship-Pay
 
 
@@ -25256,19 +25256,19 @@ Domains:
 
 Cefact Element Metadata: 
 
-@id | cefact:SupplyChain_Event.Frequency.Code
-@type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01005303
-rdfs:comment | The code specifying a frequency for this supply chain event.
-edi3:cefactBieDomainClass | [cefact:Supply Chain_Event.Details](#Supply Chain_Event.Details)
-edi3:cefactBusinessProcess | In All Contexts
-
 @id | cefact:SupplyChain_ForecastTerms.Frequency.Code
 @type | edi3:BasicBIE
 edi3:cefactUNId | cefact:UN01004302
 rdfs:comment | A code specifying a frequency in these supply chain forecast terms.
 edi3:cefactBieDomainClass | [cefact:Supply Chain_ForecastTerms.Details](#Supply Chain_ForecastTerms.Details)
 edi3:cefactBusinessProcess | Buy-Ship-Pay
+
+@id | cefact:SupplyChain_Event.Frequency.Code
+@type | edi3:BasicBIE
+edi3:cefactUNId | cefact:UN01005303
+rdfs:comment | The code specifying a frequency for this supply chain event.
+edi3:cefactBieDomainClass | [cefact:Supply Chain_Event.Details](#Supply Chain_Event.Details)
+edi3:cefactBusinessProcess | In All Contexts
 
 
 
@@ -25644,18 +25644,18 @@ Domains:
 
 Cefact Element Metadata: 
 
-@id | cefact:Debtor_FinancialInstitution.GermanBankleitzahl_Identification.Identifier
-@type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01002856
-rdfs:comment | The unique German Bankleitzahl identifier for this debtor financial institution.
-edi3:cefactBieDomainClass | [cefact:Debtor_FinancialInstitution.Details](#Debtor_FinancialInstitution.Details)
-edi3:cefactBusinessProcess | Customer to bank payment initiation
-
 @id | cefact:Creditor_FinancialInstitution.GermanBankleitzahl_Identification.Identifier
 @type | edi3:BasicBIE
 edi3:cefactUNId | cefact:UN01002991
 rdfs:comment | The unique German Bankleitzahl identifier for this creditor financial institution.
 edi3:cefactBieDomainClass | [cefact:Creditor_FinancialInstitution.Details](#Creditor_FinancialInstitution.Details)
+edi3:cefactBusinessProcess | Customer to bank payment initiation
+
+@id | cefact:Debtor_FinancialInstitution.GermanBankleitzahl_Identification.Identifier
+@type | edi3:BasicBIE
+edi3:cefactUNId | cefact:UN01002856
+rdfs:comment | The unique German Bankleitzahl identifier for this debtor financial institution.
+edi3:cefactBieDomainClass | [cefact:Debtor_FinancialInstitution.Details](#Debtor_FinancialInstitution.Details)
 edi3:cefactBusinessProcess | Customer to bank payment initiation
 
 
@@ -25735,12 +25735,19 @@ rdfs:comment | A globally unique identifier of this trade party.
 edi3:cefactBieDomainClass | [cefact:Trade_Party.Details](#Trade_Party.Details)
 edi3:cefactBusinessProcess | Buy-Ship-Pay
 
-@id | cefact:Referenced_Logistics_Package.Global_Identification.Identifier
+@id | cefact:Logistics_Package.Global_Identification.Identifier
 @type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01006796
-rdfs:comment | The global identifier for this referenced logistics package.
-edi3:cefactBieDomainClass | [cefact:Referenced_ Logistics_Package.Details](#Referenced_ Logistics_Package.Details)
+edi3:cefactUNId | cefact:UN01003701
+rdfs:comment | The unique global identifier for this logistics package.
+edi3:cefactBieDomainClass | [cefact:Logistics_Package.Details](#Logistics_Package.Details)
 edi3:cefactBusinessProcess | Buy-Ship-Pay
+
+@id | cefact:Exchanged_Document.Global_Identification.Identifier
+@type | edi3:BasicBIE
+edi3:cefactUNId | cefact:UN01003574
+rdfs:comment | The unique global identifier for this exchanged document.
+edi3:cefactBieDomainClass | [cefact:Exchanged_Document.Details](#Exchanged_Document.Details)
+edi3:cefactBusinessProcess | In All Contexts
 
 @id | cefact:Referenced_Document.Global_Identification.Identifier
 @type | edi3:BasicBIE
@@ -25749,18 +25756,11 @@ rdfs:comment | A unique global identifier for this referenced document.
 edi3:cefactBieDomainClass | [cefact:Referenced_Document.Details](#Referenced_Document.Details)
 edi3:cefactBusinessProcess | In All Contexts
 
-@id | cefact:Trade_Product.Global_Identification.Identifier
+@id | cefact:Referenced_Logistics_Package.Global_Identification.Identifier
 @type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01004681
-rdfs:comment | A unique global identifier for this trade product.
-edi3:cefactBieDomainClass | [cefact:Trade_Product.Details](#Trade_Product.Details)
-edi3:cefactBusinessProcess | Buy-Ship-Pay
-
-@id | cefact:Logistics_Package.Global_Identification.Identifier
-@type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01003701
-rdfs:comment | The unique global identifier for this logistics package.
-edi3:cefactBieDomainClass | [cefact:Logistics_Package.Details](#Logistics_Package.Details)
+edi3:cefactUNId | cefact:UN01006796
+rdfs:comment | The global identifier for this referenced logistics package.
+edi3:cefactBieDomainClass | [cefact:Referenced_ Logistics_Package.Details](#Referenced_ Logistics_Package.Details)
 edi3:cefactBusinessProcess | Buy-Ship-Pay
 
 @id | cefact:SupplyChain_ConsignmentItem.Global_Identification.Identifier
@@ -25777,12 +25777,12 @@ rdfs:comment | A unique global identifier for this referenced product.
 edi3:cefactBieDomainClass | [cefact:Referenced_Product.Details](#Referenced_Product.Details)
 edi3:cefactBusinessProcess | Buy-Ship-Pay
 
-@id | cefact:Exchanged_Document.Global_Identification.Identifier
+@id | cefact:Trade_Product.Global_Identification.Identifier
 @type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01003574
-rdfs:comment | The unique global identifier for this exchanged document.
-edi3:cefactBieDomainClass | [cefact:Exchanged_Document.Details](#Exchanged_Document.Details)
-edi3:cefactBusinessProcess | In All Contexts
+edi3:cefactUNId | cefact:UN01004681
+rdfs:comment | A unique global identifier for this trade product.
+edi3:cefactBieDomainClass | [cefact:Trade_Product.Details](#Trade_Product.Details)
+edi3:cefactBusinessProcess | Buy-Ship-Pay
 
 
 
@@ -25821,18 +25821,18 @@ Domains:
 
 Cefact Element Metadata: 
 
-@id | cefact:Line_TradeDelivery.GoodsOwnershipChange.DateTime
-@type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01013454
-rdfs:comment | The date, time, date time, or other date time value for the goods ownership change, at line level, for this trade delivery.
-edi3:cefactBieDomainClass | [cefact:Line_TradeDelivery.Details](#Line_TradeDelivery.Details)
-edi3:cefactBusinessProcess | Buy-Ship-Pay
-
 @id | cefact:Header_TradeDelivery.GoodsOwnershipChange.DateTime
 @type | edi3:BasicBIE
 edi3:cefactUNId | cefact:UN01013423
 rdfs:comment | The date, time, date time, or other date time value, at header level, when the goods ownership of this trade delivery changed.
 edi3:cefactBieDomainClass | [cefact:Header_TradeDelivery.Details](#Header_TradeDelivery.Details)
+edi3:cefactBusinessProcess | Buy-Ship-Pay
+
+@id | cefact:Line_TradeDelivery.GoodsOwnershipChange.DateTime
+@type | edi3:BasicBIE
+edi3:cefactUNId | cefact:UN01013454
+rdfs:comment | The date, time, date time, or other date time value for the goods ownership change, at line level, for this trade delivery.
+edi3:cefactBieDomainClass | [cefact:Line_TradeDelivery.Details](#Line_TradeDelivery.Details)
 edi3:cefactBusinessProcess | Buy-Ship-Pay
 
 
@@ -25938,18 +25938,18 @@ Domains:
 
 Cefact Element Metadata: 
 
-@id | cefact:Line_TradeDelivery.GoodsReceiptNote.Referenced_Document
-@type | edi3:AssociationBIE
-edi3:cefactUNId | cefact:UN01013462
-rdfs:comment | The goods receipt note document, at line level, referenced for this trade delivery.
-edi3:cefactBieDomainClass | [cefact:Line_TradeDelivery.Details](#Line_TradeDelivery.Details)
-edi3:cefactBusinessProcess | Buy-Ship-Pay
-
 @id | cefact:Header_TradeDelivery.GoodsReceiptNote.Referenced_Document
 @type | edi3:AssociationBIE
 edi3:cefactUNId | cefact:UN01013433
 rdfs:comment | A goods receipt note document, at header level, referenced for this trade delivery.
 edi3:cefactBieDomainClass | [cefact:Header_TradeDelivery.Details](#Header_TradeDelivery.Details)
+edi3:cefactBusinessProcess | Buy-Ship-Pay
+
+@id | cefact:Line_TradeDelivery.GoodsReceiptNote.Referenced_Document
+@type | edi3:AssociationBIE
+edi3:cefactUNId | cefact:UN01013462
+rdfs:comment | The goods receipt note document, at line level, referenced for this trade delivery.
+edi3:cefactBieDomainClass | [cefact:Line_TradeDelivery.Details](#Line_TradeDelivery.Details)
 edi3:cefactBusinessProcess | Buy-Ship-Pay
 
 
@@ -26019,6 +26019,13 @@ rdfs:comment | A monetary value of a grand total reported in this trade settleme
 edi3:cefactBieDomainClass | [cefact:Trade Settlement Payment_MonetarySummation.Details](#Trade Settlement Payment_MonetarySummation.Details)
 edi3:cefactBusinessProcess | In All Contexts
 
+@id | cefact:TradeSettlementHeader_MonetarySummation.GrandTotal.Amount
+@type | edi3:BasicBIE
+edi3:cefactUNId | cefact:UN01011878
+rdfs:comment | A monetary value of the grand total of this trade settlement header monetary summation, to include addition and subtraction of individual summation amounts.
+edi3:cefactBieDomainClass | [cefact:Trade Settlement Header_MonetarySummation.Details](#Trade Settlement Header_MonetarySummation.Details)
+edi3:cefactBusinessProcess | Buy-Ship-Pay
+
 @id | cefact:TradeSettlementLine_MonetarySummation.GrandTotal.Amount
 @type | edi3:BasicBIE
 edi3:cefactUNId | cefact:UN01011902
@@ -26031,13 +26038,6 @@ edi3:cefactBusinessProcess | Trade
 edi3:cefactUNId | cefact:UN01013042
 rdfs:comment | A monetary value of the grand total of the basis plus tax for this trade tax.
 edi3:cefactBieDomainClass | [cefact:Trade_Tax.Details](#Trade_Tax.Details)
-edi3:cefactBusinessProcess | Buy-Ship-Pay
-
-@id | cefact:TradeSettlementHeader_MonetarySummation.GrandTotal.Amount
-@type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01011878
-rdfs:comment | A monetary value of the grand total of this trade settlement header monetary summation, to include addition and subtraction of individual summation amounts.
-edi3:cefactBieDomainClass | [cefact:Trade Settlement Header_MonetarySummation.Details](#Trade Settlement Header_MonetarySummation.Details)
 edi3:cefactBusinessProcess | Buy-Ship-Pay
 
 
@@ -26073,23 +26073,23 @@ Range: [edi3:Certificate](#Certificate)
 
 Domains: 
 
-[edi3:Sensor](#Sensor)
 [edi3:IOTDevice](#IOTDevice)
+[edi3:Sensor](#Sensor)
 
 Cefact Element Metadata: 
-
-@id | cefact:Monitoring_Sensor.Granted.Product_Certificate
-@type | edi3:AssociationBIE
-edi3:cefactUNId | cefact:UN01013549
-rdfs:comment | A product certificate granted for this monitoring sensor.
-edi3:cefactBieDomainClass | [cefact:Monitoring_Sensor.Details](#Monitoring_Sensor.Details)
-edi3:cefactBusinessProcess | Buy-Ship-Pay
 
 @id | cefact:Monitoring_IOTDevice.Granted.Product_Certificate
 @type | edi3:AssociationBIE
 edi3:cefactUNId | cefact:UN01013485
 rdfs:comment | A product certificate granted for this monitoring IOT device.
 edi3:cefactBieDomainClass | [cefact:Monitoring_IOTDevice.Details](#Monitoring_IOTDevice.Details)
+edi3:cefactBusinessProcess | Buy-Ship-Pay
+
+@id | cefact:Monitoring_Sensor.Granted.Product_Certificate
+@type | edi3:AssociationBIE
+edi3:cefactUNId | cefact:UN01013549
+rdfs:comment | A product certificate granted for this monitoring sensor.
+edi3:cefactBieDomainClass | [cefact:Monitoring_Sensor.Details](#Monitoring_Sensor.Details)
 edi3:cefactBusinessProcess | Buy-Ship-Pay
 
 
@@ -26107,18 +26107,18 @@ Domains:
 
 Cefact Element Metadata: 
 
-@id | cefact:TradeSettlementHeader_MonetarySummation.Gross_LineTotal.Amount
-@type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01011890
-rdfs:comment | A monetary value of the total of all line amounts, excluding line level allowances and charges and taxes, being reported in this trade settlement header monetary summation.
-edi3:cefactBieDomainClass | [cefact:Trade Settlement Header_MonetarySummation.Details](#Trade Settlement Header_MonetarySummation.Details)
-edi3:cefactBusinessProcess | Buy-Ship-Pay
-
 @id | cefact:TradeSettlementLine_MonetarySummation.Gross_LineTotal.Amount
 @type | edi3:BasicBIE
 edi3:cefactUNId | cefact:UN01011908
 rdfs:comment | A monetary value of the total of all line amounts, excluding line level allowances and charges and taxes, being reported in this trade settlement line monetary summation.
 edi3:cefactBieDomainClass | [cefact:Trade Settlement Line_MonetarySummation.Details](#Trade Settlement Line_MonetarySummation.Details)
+edi3:cefactBusinessProcess | Buy-Ship-Pay
+
+@id | cefact:TradeSettlementHeader_MonetarySummation.Gross_LineTotal.Amount
+@type | edi3:BasicBIE
+edi3:cefactUNId | cefact:UN01011890
+rdfs:comment | A monetary value of the total of all line amounts, excluding line level allowances and charges and taxes, being reported in this trade settlement header monetary summation.
+edi3:cefactBieDomainClass | [cefact:Trade Settlement Header_MonetarySummation.Details](#Trade Settlement Header_MonetarySummation.Details)
 edi3:cefactBusinessProcess | Buy-Ship-Pay
 
 
@@ -26136,18 +26136,18 @@ Domains:
 
 Cefact Element Metadata: 
 
-@id | cefact:SubordinateLine_TradeAgreement.GrossPrice_Product.Trade_Price
-@type | edi3:AssociationBIE
-edi3:cefactUNId | cefact:UN01011847
-rdfs:comment | A gross product price in this subordinate line trade agreement.
-edi3:cefactBieDomainClass | [cefact:Subordinate Line_TradeAgreement.Details](#Subordinate Line_TradeAgreement.Details)
-edi3:cefactBusinessProcess | Buy-Ship-Pay
-
 @id | cefact:Line_TradeAgreement.GrossPrice_Product.Trade_Price
 @type | edi3:AssociationBIE
 edi3:cefactUNId | cefact:UN01011723
 rdfs:comment | A gross product price in this line trade agreement.
 edi3:cefactBieDomainClass | [cefact:Line_TradeAgreement.Details](#Line_TradeAgreement.Details)
+edi3:cefactBusinessProcess | Buy-Ship-Pay
+
+@id | cefact:SubordinateLine_TradeAgreement.GrossPrice_Product.Trade_Price
+@type | edi3:AssociationBIE
+edi3:cefactUNId | cefact:UN01011847
+rdfs:comment | A gross product price in this subordinate line trade agreement.
+edi3:cefactBieDomainClass | [cefact:Subordinate Line_TradeAgreement.Details](#Subordinate Line_TradeAgreement.Details)
 edi3:cefactBusinessProcess | Buy-Ship-Pay
 
 
@@ -26166,19 +26166,19 @@ Domains:
 
 Cefact Element Metadata: 
 
-@id | cefact:Trade_Product.GrossVolume.Measure
-@type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01005382
-rdfs:comment | A measure of the gross volume for this trade product.
-edi3:cefactBieDomainClass | [cefact:Trade_Product.Details](#Trade_Product.Details)
-edi3:cefactBusinessProcess | In All Contexts
-
 @id | cefact:Logistics_Package.GrossVolume.Measure
 @type | edi3:BasicBIE
 edi3:cefactUNId | cefact:UN01003694
 rdfs:comment | The measure of the gross volume of this logistics package.
 edi3:cefactBieDomainClass | [cefact:Logistics_Package.Details](#Logistics_Package.Details)
 edi3:cefactBusinessProcess | Buy-Ship-Pay
+
+@id | cefact:Trade_Product.GrossVolume.Measure
+@type | edi3:BasicBIE
+edi3:cefactUNId | cefact:UN01005382
+rdfs:comment | A measure of the gross volume for this trade product.
+edi3:cefactBieDomainClass | [cefact:Trade_Product.Details](#Trade_Product.Details)
+edi3:cefactBusinessProcess | In All Contexts
 
 
 
@@ -26200,13 +26200,6 @@ Domains:
 
 Cefact Element Metadata: 
 
-@id | cefact:Referenced_Logistics_Package.GrossVolume.Measure
-@type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01013102
-rdfs:comment | The measure of the gross volume of this referenced logistics package.
-edi3:cefactBieDomainClass | [cefact:Referenced_ Logistics_Package.Details](#Referenced_ Logistics_Package.Details)
-edi3:cefactBusinessProcess | Buy-Ship-Pay
-
 @id | cefact:Line_TradeDelivery.GrossVolume.Measure
 @type | edi3:BasicBIE
 edi3:cefactUNId | cefact:UN01011771
@@ -26221,18 +26214,18 @@ rdfs:comment | The measure of the gross volume of this piece of logistics transp
 edi3:cefactBieDomainClass | [cefact:Logistics_TransportEquipment.Details](#Logistics_TransportEquipment.Details)
 edi3:cefactBusinessProcess | Buy-Ship-Pay
 
-@id | cefact:Referenced_SupplyChain_Consignment.GrossVolume.Measure
+@id | cefact:Referenced_Logistics_Package.GrossVolume.Measure
 @type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01011050
-rdfs:comment | A measure of the gross volume, normally calculated by multiplying the maximum length, width and height, of this referenced supply chain consignment.
-edi3:cefactBieDomainClass | [cefact:Referenced_ Supply Chain_Consignment.Details](#Referenced_ Supply Chain_Consignment.Details)
+edi3:cefactUNId | cefact:UN01013102
+rdfs:comment | The measure of the gross volume of this referenced logistics package.
+edi3:cefactBieDomainClass | [cefact:Referenced_ Logistics_Package.Details](#Referenced_ Logistics_Package.Details)
 edi3:cefactBusinessProcess | Buy-Ship-Pay
 
-@id | cefact:Referenced_Logistics_TransportEquipment.GrossVolume.Measure
+@id | cefact:SupplyChain_ConsignmentItem.GrossVolume.Measure
 @type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01009016
-rdfs:comment | The measure of the gross volume of this piece of referenced logistics transport equipment.
-edi3:cefactBieDomainClass | [cefact:Referenced_ Logistics_TransportEquipment.Details](#Referenced_ Logistics_TransportEquipment.Details)
+edi3:cefactUNId | cefact:UN01004124
+rdfs:comment | A measure of the gross volume, normally calculated by multiplying the maximum length, width and height of this supply chain consignment item.
+edi3:cefactBieDomainClass | [cefact:Supply Chain_ConsignmentItem.Details](#Supply Chain_ConsignmentItem.Details)
 edi3:cefactBusinessProcess | Buy-Ship-Pay
 
 @id | cefact:Transport_DangerousGoods.GrossVolume.Measure
@@ -26242,6 +26235,13 @@ rdfs:comment | The measure of the gross volume, normally calculated by multiplyi
 edi3:cefactBieDomainClass | [cefact:Transport_DangerousGoods.Details](#Transport_DangerousGoods.Details)
 edi3:cefactBusinessProcess | In All Contexts
 
+@id | cefact:Referenced_Logistics_TransportEquipment.GrossVolume.Measure
+@type | edi3:BasicBIE
+edi3:cefactUNId | cefact:UN01009016
+rdfs:comment | The measure of the gross volume of this piece of referenced logistics transport equipment.
+edi3:cefactBieDomainClass | [cefact:Referenced_ Logistics_TransportEquipment.Details](#Referenced_ Logistics_TransportEquipment.Details)
+edi3:cefactBusinessProcess | Buy-Ship-Pay
+
 @id | cefact:SupplyChain_Consignment.GrossVolume.Measure
 @type | edi3:BasicBIE
 edi3:cefactUNId | cefact:UN01004175
@@ -26249,11 +26249,11 @@ rdfs:comment | A measure of the gross volume, normally calculated by multiplying
 edi3:cefactBieDomainClass | [cefact:Supply Chain_Consignment.Details](#Supply Chain_Consignment.Details)
 edi3:cefactBusinessProcess | Buy-Ship-Pay
 
-@id | cefact:SupplyChain_ConsignmentItem.GrossVolume.Measure
+@id | cefact:Referenced_SupplyChain_Consignment.GrossVolume.Measure
 @type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01004124
-rdfs:comment | A measure of the gross volume, normally calculated by multiplying the maximum length, width and height of this supply chain consignment item.
-edi3:cefactBieDomainClass | [cefact:Supply Chain_ConsignmentItem.Details](#Supply Chain_ConsignmentItem.Details)
+edi3:cefactUNId | cefact:UN01011050
+rdfs:comment | A measure of the gross volume, normally calculated by multiplying the maximum length, width and height, of this referenced supply chain consignment.
+edi3:cefactBieDomainClass | [cefact:Referenced_ Supply Chain_Consignment.Details](#Referenced_ Supply Chain_Consignment.Details)
 edi3:cefactBusinessProcess | Buy-Ship-Pay
 
 
@@ -26324,52 +26324,10 @@ Domains:
 [edi3:TradeDelivery](#TradeDelivery)
 [edi3:Consignment](#Consignment)
 [edi3:Package](#Package)
-[edi3:DangerousGoods](#DangerousGoods)
 [edi3:TransportMeans](#TransportMeans)
+[edi3:DangerousGoods](#DangerousGoods)
 
 Cefact Element Metadata: 
-
-@id | cefact:SupplyChain_Consignment.GrossWeight.Measure
-@type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01004173
-rdfs:comment | A measure of the gross weight (mass) of this supply chain consignment which includes the weight of packaging but which excludes the weight of any transport equipment.
-edi3:cefactBieDomainClass | [cefact:Supply Chain_Consignment.Details](#Supply Chain_Consignment.Details)
-edi3:cefactBusinessProcess | Buy-Ship-Pay
-
-@id | cefact:Referenced_Logistics_Package.GrossWeight.Measure
-@type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01013099
-rdfs:comment | The measure of the gross weight (mass) of this referenced logistics package and its contents.
-edi3:cefactBieDomainClass | [cefact:Referenced_ Logistics_Package.Details](#Referenced_ Logistics_Package.Details)
-edi3:cefactBusinessProcess | Buy-Ship-Pay
-
-@id | cefact:Line_TradeDelivery.GrossWeight.Measure
-@type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01011768
-rdfs:comment | The measure, at line level, of the gross weight (mass) of this line trade delivery.
-edi3:cefactBieDomainClass | [cefact:Line_TradeDelivery.Details](#Line_TradeDelivery.Details)
-edi3:cefactBusinessProcess | Buy-Ship-Pay
-
-@id | cefact:Transport_DangerousGoods.GrossWeight.Measure
-@type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01004778
-rdfs:comment | The measure of the weight (mass) of these transported dangerous goods including packaging but excluding the transport equipment.
-edi3:cefactBieDomainClass | [cefact:Transport_DangerousGoods.Details](#Transport_DangerousGoods.Details)
-edi3:cefactBusinessProcess | In All Contexts
-
-@id | cefact:Logistics_TransportEquipment.GrossWeight.Measure
-@type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01003759
-rdfs:comment | The measure of the gross weight (mass) of this piece of logistics transport equipment which is the weight (mass) including loaded goods, packing and transport equipment.
-edi3:cefactBieDomainClass | [cefact:Logistics_TransportEquipment.Details](#Logistics_TransportEquipment.Details)
-edi3:cefactBusinessProcess | Buy-Ship-Pay
-
-@id | cefact:Logistics_TransportMeans.GrossWeight.Measure
-@type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01003824
-rdfs:comment | The measure of the gross weight (mass) of this logistics means of transport including cargo, such as the measure of the overall size of a vessel determined in accordance with the provisions of the International Convention on Tonnage Measurement of Ships, 1969.
-edi3:cefactBieDomainClass | [cefact:Logistics_TransportMeans.Details](#Logistics_TransportMeans.Details)
-edi3:cefactBusinessProcess | Buy-Ship-Pay
 
 @id | cefact:Referenced_Logistics_TransportEquipment.GrossWeight.Measure
 @type | edi3:BasicBIE
@@ -26385,12 +26343,54 @@ rdfs:comment | A measure of the gross weight (mass) of this supply chain consign
 edi3:cefactBieDomainClass | [cefact:Supply Chain_ConsignmentItem.Details](#Supply Chain_ConsignmentItem.Details)
 edi3:cefactBusinessProcess | Buy-Ship-Pay
 
+@id | cefact:SupplyChain_Consignment.GrossWeight.Measure
+@type | edi3:BasicBIE
+edi3:cefactUNId | cefact:UN01004173
+rdfs:comment | A measure of the gross weight (mass) of this supply chain consignment which includes the weight of packaging but which excludes the weight of any transport equipment.
+edi3:cefactBieDomainClass | [cefact:Supply Chain_Consignment.Details](#Supply Chain_Consignment.Details)
+edi3:cefactBusinessProcess | Buy-Ship-Pay
+
+@id | cefact:Line_TradeDelivery.GrossWeight.Measure
+@type | edi3:BasicBIE
+edi3:cefactUNId | cefact:UN01011768
+rdfs:comment | The measure, at line level, of the gross weight (mass) of this line trade delivery.
+edi3:cefactBieDomainClass | [cefact:Line_TradeDelivery.Details](#Line_TradeDelivery.Details)
+edi3:cefactBusinessProcess | Buy-Ship-Pay
+
 @id | cefact:Referenced_SupplyChain_Consignment.GrossWeight.Measure
 @type | edi3:BasicBIE
 edi3:cefactUNId | cefact:UN01011048
 rdfs:comment | A measure of the gross weight (mass) of this referenced supply chain consignment which includes the weight of packaging but which excludes the weight of any transport equipment.
 edi3:cefactBieDomainClass | [cefact:Referenced_ Supply Chain_Consignment.Details](#Referenced_ Supply Chain_Consignment.Details)
 edi3:cefactBusinessProcess | Buy-Ship-Pay
+
+@id | cefact:Referenced_Logistics_Package.GrossWeight.Measure
+@type | edi3:BasicBIE
+edi3:cefactUNId | cefact:UN01013099
+rdfs:comment | The measure of the gross weight (mass) of this referenced logistics package and its contents.
+edi3:cefactBieDomainClass | [cefact:Referenced_ Logistics_Package.Details](#Referenced_ Logistics_Package.Details)
+edi3:cefactBusinessProcess | Buy-Ship-Pay
+
+@id | cefact:Logistics_TransportEquipment.GrossWeight.Measure
+@type | edi3:BasicBIE
+edi3:cefactUNId | cefact:UN01003759
+rdfs:comment | The measure of the gross weight (mass) of this piece of logistics transport equipment which is the weight (mass) including loaded goods, packing and transport equipment.
+edi3:cefactBieDomainClass | [cefact:Logistics_TransportEquipment.Details](#Logistics_TransportEquipment.Details)
+edi3:cefactBusinessProcess | Buy-Ship-Pay
+
+@id | cefact:Logistics_TransportMeans.GrossWeight.Measure
+@type | edi3:BasicBIE
+edi3:cefactUNId | cefact:UN01003824
+rdfs:comment | The measure of the gross weight (mass) of this logistics means of transport including cargo, such as the measure of the overall size of a vessel determined in accordance with the provisions of the International Convention on Tonnage Measurement of Ships, 1969.
+edi3:cefactBieDomainClass | [cefact:Logistics_TransportMeans.Details](#Logistics_TransportMeans.Details)
+edi3:cefactBusinessProcess | Buy-Ship-Pay
+
+@id | cefact:Transport_DangerousGoods.GrossWeight.Measure
+@type | edi3:BasicBIE
+edi3:cefactUNId | cefact:UN01004778
+rdfs:comment | The measure of the weight (mass) of these transported dangerous goods including packaging but excluding the transport equipment.
+edi3:cefactBieDomainClass | [cefact:Transport_DangerousGoods.Details](#Transport_DangerousGoods.Details)
+edi3:cefactBusinessProcess | In All Contexts
 
 
 
@@ -26496,18 +26496,18 @@ Domains:
 
 Cefact Element Metadata: 
 
-@id | cefact:Trade_Tax.Guarantee.Code
-@type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01004738
-rdfs:comment | The code specifying an undertaking given in cash, bond or as a written guarantee to ensure that an obligation will be fulfilled for this trade related tax, levy or duty.
-edi3:cefactBieDomainClass | [cefact:Trade_Tax.Details](#Trade_Tax.Details)
-edi3:cefactBusinessProcess | Buy-Ship-Pay
-
 @id | cefact:Cross-Border_RegulatoryProcedure.Guarantee.Code
 @type | edi3:BasicBIE
 edi3:cefactUNId | cefact:UN01006151
 rdfs:comment | The code specifying an undertaking given in cash, bond or as a written guarantee to ensure that an obligation will be fulfilled for this cross-border regulatory procedure.
 edi3:cefactBieDomainClass | [cefact:Cross-Border_RegulatoryProcedure.Details](#Cross-Border_RegulatoryProcedure.Details)
+edi3:cefactBusinessProcess | Buy-Ship-Pay
+
+@id | cefact:Trade_Tax.Guarantee.Code
+@type | edi3:BasicBIE
+edi3:cefactUNId | cefact:UN01004738
+rdfs:comment | The code specifying an undertaking given in cash, bond or as a written guarantee to ensure that an obligation will be fulfilled for this trade related tax, levy or duty.
+edi3:cefactBieDomainClass | [cefact:Trade_Tax.Details](#Trade_Tax.Details)
 edi3:cefactBusinessProcess | Buy-Ship-Pay
 
 
@@ -26548,18 +26548,18 @@ Domains:
 
 Cefact Element Metadata: 
 
-@id | cefact:Trade_Tax.Guarantee.Text
-@type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01004739
-rdfs:comment | The undertaking, expressed as text, given in cash, bond or as a written guarantee to ensure that an obligation will be fulfilled for this trade related tax, levy or duty.
-edi3:cefactBieDomainClass | [cefact:Trade_Tax.Details](#Trade_Tax.Details)
-edi3:cefactBusinessProcess | Buy-Ship-Pay
-
 @id | cefact:Cross-Border_RegulatoryProcedure.Guarantee.Text
 @type | edi3:BasicBIE
 edi3:cefactUNId | cefact:UN01006152
 rdfs:comment | The undertaking, expressed as text, given in cash, bond or as a written guarantee to ensure that an obligation will be fulfilled for this cross-border regulatory procedure.
 edi3:cefactBieDomainClass | [cefact:Cross-Border_RegulatoryProcedure.Details](#Cross-Border_RegulatoryProcedure.Details)
+edi3:cefactBusinessProcess | Buy-Ship-Pay
+
+@id | cefact:Trade_Tax.Guarantee.Text
+@type | edi3:BasicBIE
+edi3:cefactUNId | cefact:UN01004739
+rdfs:comment | The undertaking, expressed as text, given in cash, bond or as a written guarantee to ensure that an obligation will be fulfilled for this trade related tax, levy or duty.
+edi3:cefactBieDomainClass | [cefact:Trade_Tax.Details](#Trade_Tax.Details)
 edi3:cefactBusinessProcess | Buy-Ship-Pay
 
 
@@ -26653,18 +26653,18 @@ Domains:
 
 Cefact Element Metadata: 
 
-@id | cefact:SupplyChain_Consignment.Handling.Handling_Instructions
-@type | edi3:AssociationBIE
-edi3:cefactUNId | cefact:UN01004248
-rdfs:comment | Handling instructions for this supply chain consignment, such as where or how specified packages or containers are to be loaded on a means of transport.
-edi3:cefactBieDomainClass | [cefact:Supply Chain_Consignment.Details](#Supply Chain_Consignment.Details)
-edi3:cefactBusinessProcess | Buy-Ship-Pay
-
 @id | cefact:Logistics_TransportEquipment.Handling.Handling_Instructions
 @type | edi3:AssociationBIE
 edi3:cefactUNId | cefact:UN01003789
 rdfs:comment | Handling instructions for this piece of logistics transport equipment.
 edi3:cefactBieDomainClass | [cefact:Logistics_TransportEquipment.Details](#Logistics_TransportEquipment.Details)
+edi3:cefactBusinessProcess | Buy-Ship-Pay
+
+@id | cefact:SupplyChain_Consignment.Handling.Handling_Instructions
+@type | edi3:AssociationBIE
+edi3:cefactUNId | cefact:UN01004248
+rdfs:comment | Handling instructions for this supply chain consignment, such as where or how specified packages or containers are to be loaded on a means of transport.
+edi3:cefactBieDomainClass | [cefact:Supply Chain_Consignment.Details](#Supply Chain_Consignment.Details)
 edi3:cefactBusinessProcess | Buy-Ship-Pay
 
 @id | cefact:SupplyChain_ConsignmentItem.Handling.Handling_Instructions
@@ -26967,18 +26967,18 @@ Domains:
 
 Cefact Element Metadata: 
 
-@id | cefact:Debtor_FinancialInstitution.HongKongBank_Identification.Identifier
-@type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01002859
-rdfs:comment | The unique Hong Kong Bank Code identifier for this debtor financial institution.
-edi3:cefactBieDomainClass | [cefact:Debtor_FinancialInstitution.Details](#Debtor_FinancialInstitution.Details)
-edi3:cefactBusinessProcess | Customer to bank payment initiation
-
 @id | cefact:Creditor_FinancialInstitution.HongKongBank_Identification.Identifier
 @type | edi3:BasicBIE
 edi3:cefactUNId | cefact:UN01002994
 rdfs:comment | The unique Hong Kong Bank Code identifier for this creditor financial institution.
 edi3:cefactBieDomainClass | [cefact:Creditor_FinancialInstitution.Details](#Creditor_FinancialInstitution.Details)
+edi3:cefactBusinessProcess | Customer to bank payment initiation
+
+@id | cefact:Debtor_FinancialInstitution.HongKongBank_Identification.Identifier
+@type | edi3:BasicBIE
+edi3:cefactUNId | cefact:UN01002859
+rdfs:comment | The unique Hong Kong Bank Code identifier for this debtor financial institution.
+edi3:cefactBieDomainClass | [cefact:Debtor_FinancialInstitution.Details](#Debtor_FinancialInstitution.Details)
 edi3:cefactBusinessProcess | Customer to bank payment initiation
 
 
@@ -27018,6 +27018,13 @@ Domains:
 
 Cefact Element Metadata: 
 
+@id | cefact:Debtor_FinancialAccount.IBAN_Identification.Identifier
+@type | edi3:BasicBIE
+edi3:cefactUNId | cefact:UN01003285
+rdfs:comment | The unique International Bank Account Number (IBAN) identifier for this debtor financial account.
+edi3:cefactBieDomainClass | [cefact:Debtor_FinancialAccount.Details](#Debtor_FinancialAccount.Details)
+edi3:cefactBusinessProcess | Customer to bank payment initiation
+
 @id | cefact:Financing_FinancialAccount.IBAN_Identification.Identifier
 @type | edi3:BasicBIE
 edi3:cefactUNId | cefact:UN01013254
@@ -27030,13 +27037,6 @@ edi3:cefactBusinessProcess | Buy-Ship-Pay
 edi3:cefactUNId | cefact:UN01003348
 rdfs:comment | The unique International Bank Account Number (IBAN) identifier for this creditor financial account.
 edi3:cefactBieDomainClass | [cefact:Creditor_FinancialAccount.Details](#Creditor_FinancialAccount.Details)
-edi3:cefactBusinessProcess | Customer to bank payment initiation
-
-@id | cefact:Debtor_FinancialAccount.IBAN_Identification.Identifier
-@type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01003285
-rdfs:comment | The unique International Bank Account Number (IBAN) identifier for this debtor financial account.
-edi3:cefactBieDomainClass | [cefact:Debtor_FinancialAccount.Details](#Debtor_FinancialAccount.Details)
 edi3:cefactBusinessProcess | Customer to bank payment initiation
 
 
@@ -27273,12 +27273,12 @@ Domains:
 [edi3:ProductGroup](#ProductGroup)
 [edi3:Query](#Query)
 [edi3:Address](#Address)
-[edi3:Label](#Label)
 [edi3:AllowanceCharge](#AllowanceCharge)
+[edi3:Label](#Label)
 [edi3:Product](#Product)
 [edi3:Document](#Document)
-[edi3:WorkItem](#WorkItem)
 [edi3:Feature](#Feature)
+[edi3:WorkItem](#WorkItem)
 [edi3:BreakdownStatement](#BreakdownStatement)
 [edi3:TradeTransaction](#TradeTransaction)
 [edi3:Version](#Version)
@@ -27286,28 +27286,28 @@ Domains:
 [edi3:Registration](#Registration)
 [edi3:GeographicalCoordinate](#GeographicalCoordinate)
 [edi3:Production](#Production)
-[edi3:Accreditation](#Accreditation)
 [edi3:TransportMovement](#TransportMovement)
+[edi3:Accreditation](#Accreditation)
 [edi3:Identity](#Identity)
 [edi3:BalanceOut](#BalanceOut)
 [edi3:Route](#Route)
 [edi3:CountrySubDivision](#CountrySubDivision)
 [edi3:Characteristic](#Characteristic)
 [edi3:Period](#Period)
-[edi3:AccountingAccount](#AccountingAccount)
 [edi3:Instructions](#Instructions)
+[edi3:AccountingAccount](#AccountingAccount)
 [edi3:TradeLineItem](#TradeLineItem)
 [edi3:PaymentMeans](#PaymentMeans)
 [edi3:Project](#Project)
 [edi3:Note](#Note)
-[edi3:TradeDelivery](#TradeDelivery)
 [edi3:Observation](#Observation)
+[edi3:TradeDelivery](#TradeDelivery)
 [edi3:Seal](#Seal)
 [edi3:Package](#Package)
 [edi3:Person](#Person)
 [edi3:IOTDevice](#IOTDevice)
-[edi3:Sensor](#Sensor)
 [edi3:Certificate](#Certificate)
+[edi3:Sensor](#Sensor)
 [edi3:Measurement](#Measurement)
 [edi3:Organization](#Organization)
 [edi3:TransportEquipment](#TransportEquipment)
@@ -27328,15 +27328,15 @@ Domains:
 [edi3:TransportMeans](#TransportMeans)
 [edi3:BinaryFile](#BinaryFile)
 [edi3:Section](#Section)
-[edi3:WorkflowObject](#WorkflowObject)
 [edi3:Contact](#Contact)
+[edi3:WorkflowObject](#WorkflowObject)
 [edi3:Response](#Response)
 [edi3:Marketplace](#Marketplace)
 [edi3:Equipment](#Equipment)
 [edi3:Authentication](#Authentication)
 [edi3:Schedule](#Schedule)
-[edi3:Event](#Event)
 [edi3:Parameter](#Parameter)
+[edi3:Event](#Event)
 [edi3:Clause](#Clause)
 [edi3:TradeAgreement](#TradeAgreement)
 [edi3:Location](#Location)
@@ -27344,89 +27344,47 @@ Domains:
 
 Cefact Element Metadata: 
 
-@id | cefact:Logistics_Package.Identification.Identifier
+@id | cefact:TradeProduct_Feature.Identification.Identifier
 @type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01003700
-rdfs:comment | The unique identifier for this logistics package.
-edi3:cefactBieDomainClass | [cefact:Logistics_Package.Details](#Logistics_Package.Details)
+edi3:cefactUNId | cefact:UN01007471
+rdfs:comment | The unique identifier for this trade product feature.
+edi3:cefactBieDomainClass | [cefact:Trade Product_Feature.Details](#Trade Product_Feature.Details)
 edi3:cefactBusinessProcess | Buy-Ship-Pay
 
-@id | cefact:Exchanged_Document.Identification.Identifier
+@id | cefact:Trade_GeopoliticalRegion.Identification.Identifier
 @type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01002488
-rdfs:comment | The unique identifier of this exchanged document.
-edi3:cefactBieDomainClass | [cefact:Exchanged_Document.Details](#Exchanged_Document.Details)
-edi3:cefactBusinessProcess | In All Contexts
-
-@id | cefact:Monitoring_IOTDevice.Identification.Identifier
-@type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01013476
-rdfs:comment | An identifier for this monitoring IOT device.
-edi3:cefactBieDomainClass | [cefact:Monitoring_IOTDevice.Details](#Monitoring_IOTDevice.Details)
+edi3:cefactUNId | cefact:UN01004588
+rdfs:comment | The unique identifier for this trade geopolitical region.
+edi3:cefactBieDomainClass | [cefact:Trade_GeopoliticalRegion.Details](#Trade_GeopoliticalRegion.Details)
 edi3:cefactBusinessProcess | Buy-Ship-Pay
 
-@id | cefact:TradeSettlement_PaymentMeans.Identification.Identifier
+@id | cefact:Trade_Contact.Identification.Identifier
 @type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01006055
-rdfs:comment | An identifier for this trade settlement payment means.
-edi3:cefactBieDomainClass | [cefact:Trade Settlement_PaymentMeans.Details](#Trade Settlement_PaymentMeans.Details)
-edi3:cefactBusinessProcess | Buy-Ship-Pay
-
-@id | cefact:Transport_Service.Identification.Identifier
-@type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01004838
-rdfs:comment | The unique identifier of this transport service.
-edi3:cefactBieDomainClass | [cefact:Transport_Service.Details](#Transport_Service.Details)
-edi3:cefactBusinessProcess | In All Contexts
-
-@id | cefact:Payment_BalanceOut.Identification.Identifier
-@type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01011830
-rdfs:comment | The identifier for this payment balance out.
-edi3:cefactBieDomainClass | [cefact:Payment_BalanceOut.Details](#Payment_BalanceOut.Details)
-edi3:cefactBusinessProcess | Buy-Ship-Pay
-
-@id | cefact:Transport_Event.Identification.Identifier
-@type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01004792
-rdfs:comment | The unique identifier for this transport event.
-edi3:cefactBieDomainClass | [cefact:Transport_Event.Details](#Transport_Event.Details)
-edi3:cefactBusinessProcess | In All Contexts
-
-@id | cefact:Line_TradeDelivery.Identification.Identifier
-@type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01013438
-rdfs:comment | An identifier, at line level, for this trade delivery.
-edi3:cefactBieDomainClass | [cefact:Line_TradeDelivery.Details](#Line_TradeDelivery.Details)
-edi3:cefactBusinessProcess | Buy-Ship-Pay
-
-@id | cefact:Line_TradeAgreement.Identification.Identifier
-@type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01013412
-rdfs:comment | An identifier for this line trade agreement.
-edi3:cefactBieDomainClass | [cefact:Line_TradeAgreement.Details](#Line_TradeAgreement.Details)
-edi3:cefactBusinessProcess | Buy-Ship-Pay
-
-@id | cefact:Referenced_Product.Identification.Identifier
-@type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01004028
-rdfs:comment | A unique identifier for this referenced product.
-edi3:cefactBieDomainClass | [cefact:Referenced_Product.Details](#Referenced_Product.Details)
-edi3:cefactBusinessProcess | In All Contexts
-
-@id | cefact:ReferencedTransport_Service.Identification.Identifier
-@type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01010075
-rdfs:comment | An identifier of this referenced transport service.
-edi3:cefactBieDomainClass | [cefact:Referenced Transport_Service.Details](#Referenced Transport_Service.Details)
-edi3:cefactBusinessProcess | Transport
-
-@id | cefact:Trade_Location.Identification.Identifier
-@type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01001661
-rdfs:comment | The unique identifier for this location used or referenced in trade.
-edi3:cefactBieDomainClass | [cefact:Trade_Location.Details](#Trade_Location.Details)
+edi3:cefactUNId | cefact:UN01001641
+rdfs:comment | The unique identifier for this trade contact.
+edi3:cefactBieDomainClass | [cefact:Trade_Contact.Details](#Trade_Contact.Details)
 edi3:cefactBusinessProcess | Trade
+
+@id | cefact:Section_Segment.Identification.Identifier
+@type | edi3:BasicBIE
+edi3:cefactUNId | cefact:UN01012736
+rdfs:comment | The identifier of this section segment.
+edi3:cefactBieDomainClass | [cefact:Section_Segment.Details](#Section_Segment.Details)
+edi3:cefactBusinessProcess | Cross Industry Trade
+
+@id | cefact:Header_TradeAgreement.Identification.Identifier
+@type | edi3:BasicBIE
+edi3:cefactUNId | cefact:UN01013408
+rdfs:comment | An identifier for this header trade agreement.
+edi3:cefactBieDomainClass | [cefact:Header_TradeAgreement.Details](#Header_TradeAgreement.Details)
+edi3:cefactBusinessProcess | Buy-Ship-Pay
+
+@id | cefact:SupplyChain_ConsignmentItem.Identification.Identifier
+@type | edi3:BasicBIE
+edi3:cefactUNId | cefact:UN01004104
+rdfs:comment | A unique identifier for this supply chain consignment item.
+edi3:cefactBieDomainClass | [cefact:Supply Chain_ConsignmentItem.Details](#Supply Chain_ConsignmentItem.Details)
+edi3:cefactBusinessProcess | Buy-Ship-Pay
 
 @id | cefact:Specified_Marketplace.Identification.Identifier
 @type | edi3:BasicBIE
@@ -27435,12 +27393,19 @@ rdfs:comment | The identifier for this specified marketplace.
 edi3:cefactBieDomainClass | [cefact:Specified_Marketplace.Details](#Specified_Marketplace.Details)
 edi3:cefactBusinessProcess | Invoicing
 
-@id | cefact:Document_Version.Identification.Identifier
+@id | cefact:Trade_Party.Identification.Identifier
 @type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01003591
-rdfs:comment | The unique identifier for this document version.
-edi3:cefactBieDomainClass | [cefact:Document_Version.Details](#Document_Version.Details)
-edi3:cefactBusinessProcess | In All Contexts
+edi3:cefactUNId | cefact:UN01004595
+rdfs:comment | A unique identifier of this trade party.
+edi3:cefactBieDomainClass | [cefact:Trade_Party.Details](#Trade_Party.Details)
+edi3:cefactBusinessProcess | Buy-Ship-Pay
+
+@id | cefact:Logistics_Package.Identification.Identifier
+@type | edi3:BasicBIE
+edi3:cefactUNId | cefact:UN01003700
+rdfs:comment | The unique identifier for this logistics package.
+edi3:cefactBieDomainClass | [cefact:Logistics_Package.Details](#Logistics_Package.Details)
+edi3:cefactBusinessProcess | Buy-Ship-Pay
 
 @id | cefact:Grouped_WorkItem.Identification.Identifier
 @type | edi3:BasicBIE
@@ -27449,18 +27414,123 @@ rdfs:comment | The unique identifier for this work item group.
 edi3:cefactBieDomainClass | [cefact:Grouped_WorkItem.Details](#Grouped_WorkItem.Details)
 edi3:cefactBusinessProcess | In All Contexts
 
-@id | cefact:Goods_Production.Identification.Identifier
+@id | cefact:Logistics_TransportMovement.Identification.Identifier
 @type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01012677
-rdfs:comment | The identifier for this production of goods.
-edi3:cefactBieDomainClass | [cefact:Goods_Production.Details](#Goods_Production.Details)
-edi3:cefactBusinessProcess | Cross Industry
+edi3:cefactUNId | cefact:UN01003841
+rdfs:comment | The unique identifier for this logistics transport movement, such as a voyage number, flight number, or trip number.
+edi3:cefactBieDomainClass | [cefact:Logistics_TransportMovement.Details](#Logistics_TransportMovement.Details)
+edi3:cefactBusinessProcess | Buy-Ship-Pay
 
-@id | cefact:Header_BalanceOut.Identification.Identifier
+@id | cefact:Monitoring_IOTDevice.Identification.Identifier
 @type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01011540
-rdfs:comment | The identifier for this header balance out.
-edi3:cefactBieDomainClass | [cefact:Header_BalanceOut.Details](#Header_BalanceOut.Details)
+edi3:cefactUNId | cefact:UN01013476
+rdfs:comment | An identifier for this monitoring IOT device.
+edi3:cefactBieDomainClass | [cefact:Monitoring_IOTDevice.Details](#Monitoring_IOTDevice.Details)
+edi3:cefactBusinessProcess | Buy-Ship-Pay
+
+@id | cefact:Subordinate_Location.Identification.Identifier
+@type | edi3:BasicBIE
+edi3:cefactUNId | cefact:UN01004093
+rdfs:comment | The unique identifier for this subordinate location, such as a United Nations Location Code (UNLOCODE) or GS1 Global Location Number (GLN).
+edi3:cefactBieDomainClass | [cefact:Subordinate_Location.Details](#Subordinate_Location.Details)
+edi3:cefactBusinessProcess | In All Contexts
+
+@id | cefact:WorkItem_Dimension.Identification.Identifier
+@type | edi3:BasicBIE
+edi3:cefactUNId | cefact:UN01000057
+rdfs:comment | The unique identifier for this work item dimension.
+edi3:cefactBieDomainClass | [cefact:Work Item_Dimension.Details](#Work Item_Dimension.Details)
+edi3:cefactBusinessProcess | In All Contexts
+
+@id | cefact:Transport_Route.Identification.Identifier
+@type | edi3:BasicBIE
+edi3:cefactUNId | cefact:UN01004823
+rdfs:comment | The unique identifier of this transport route.
+edi3:cefactBieDomainClass | [cefact:Transport_Route.Details](#Transport_Route.Details)
+edi3:cefactBusinessProcess | In All Contexts
+
+@id | cefact:Specified_GeographicalGrid.Identification.Identifier
+@type | edi3:BasicBIE
+edi3:cefactUNId | cefact:UN01012204
+rdfs:comment | An identifier for this geographical grid.
+edi3:cefactBieDomainClass | [cefact:Specified_GeographicalGrid.Details](#Specified_GeographicalGrid.Details)
+edi3:cefactBusinessProcess | Agricultural
+
+@id | cefact:Logistics_Seal.Identification.Identifier
+@type | edi3:BasicBIE
+edi3:cefactUNId | cefact:UN01003714
+rdfs:comment | A unique identifier for this logistics seal.
+edi3:cefactBieDomainClass | [cefact:Logistics_Seal.Details](#Logistics_Seal.Details)
+edi3:cefactBusinessProcess | Buy-Ship-Pay
+
+@id | cefact:Government_Registration.Identification.Identifier
+@type | edi3:BasicBIE
+edi3:cefactUNId | cefact:UN01011029
+rdfs:comment | An identifier for this government registration.
+edi3:cefactBieDomainClass | [cefact:Government_Registration.Details](#Government_Registration.Details)
+edi3:cefactBusinessProcess | Buy-Ship-Pay
+
+@id | cefact:OEM_Equipment.Identification.Identifier
+@type | edi3:BasicBIE
+edi3:cefactUNId | cefact:UN01013554
+rdfs:comment | An identifier of this OEM equipment.
+edi3:cefactBieDomainClass | [cefact:OEM_Equipment.Details](#OEM_Equipment.Details)
+edi3:cefactBusinessProcess | In All Contexts
+
+@id | cefact:ControlSetting_Parameter.Identification.Identifier
+@type | edi3:BasicBIE
+edi3:cefactUNId | cefact:UN01013503
+rdfs:comment | The identifier of this control setting parameter.
+edi3:cefactBieDomainClass | [cefact:Control Setting_Parameter.Details](#Control Setting_Parameter.Details)
+edi3:cefactBusinessProcess | In All Contexts
+
+@id | cefact:Trade_CountrySub-Division.Identification.Identifier
+@type | edi3:BasicBIE
+edi3:cefactUNId | cefact:UN01002562
+rdfs:comment | The unique identifier for this trade country sub-division.
+edi3:cefactBieDomainClass | [cefact:Trade_CountrySubDivision.Details](#Trade_CountrySubDivision.Details)
+edi3:cefactBusinessProcess | In All Contexts
+
+@id | cefact:Handling_Instructions.Identification.Identifier
+@type | edi3:BasicBIE
+edi3:cefactUNId | cefact:UN01012760
+rdfs:comment | The identifier of this handling instructions.
+edi3:cefactBieDomainClass | [cefact:Handling_Instructions.Details](#Handling_Instructions.Details)
+edi3:cefactBusinessProcess | In All Contexts
+
+@id | cefact:Legal_Organization.Identification.Identifier
+@type | edi3:BasicBIE
+edi3:cefactUNId | cefact:UN01003641
+rdfs:comment | A unique identifier for this legally set up organization.
+edi3:cefactBieDomainClass | [cefact:Legal_Organization.Details](#Legal_Organization.Details)
+edi3:cefactBusinessProcess | In All Contexts
+
+@id | cefact:DocumentLine_Document.Identification.Identifier
+@type | edi3:BasicBIE
+edi3:cefactUNId | cefact:UN01011477
+rdfs:comment | The identifier of this document line document.
+edi3:cefactBieDomainClass | [cefact:Document Line_Document.Details](#Document Line_Document.Details)
+edi3:cefactBusinessProcess | Supply Chain
+
+@id | cefact:Document_Version.Identification.Identifier
+@type | edi3:BasicBIE
+edi3:cefactUNId | cefact:UN01003591
+rdfs:comment | The unique identifier for this document version.
+edi3:cefactBieDomainClass | [cefact:Document_Version.Details](#Document_Version.Details)
+edi3:cefactBusinessProcess | In All Contexts
+
+@id | cefact:Branch_FinancialInstitution.Identification.Identifier
+@type | edi3:BasicBIE
+edi3:cefactUNId | cefact:UN01003139
+rdfs:comment | The unique identifier for this branch of a financial institution.
+edi3:cefactBieDomainClass | [cefact:Branch_FinancialInstitution.Details](#Branch_FinancialInstitution.Details)
+edi3:cefactBusinessProcess | Customer to bank payment initiation
+
+@id | cefact:Exchanged_Declaration.Identification.Identifier
+@type | edi3:BasicBIE
+edi3:cefactUNId | cefact:UN01011007
+rdfs:comment | An identifier for this exchanged declaration.
+edi3:cefactBieDomainClass | [cefact:Exchanged_Declaration.Details](#Exchanged_Declaration.Details)
 edi3:cefactBusinessProcess | Buy-Ship-Pay
 
 @id | cefact:Trade_WorkflowObject.Identification.Identifier
@@ -27477,81 +27547,11 @@ rdfs:comment | A unique identifier for this logistics related location, such as 
 edi3:cefactBieDomainClass | [cefact:Logistics_Location.Details](#Logistics_Location.Details)
 edi3:cefactBusinessProcess | Buy-Ship-Pay
 
-@id | cefact:Referenced_Logistics_TransportEquipment.Identification.Identifier
-@type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01004023
-rdfs:comment | The unique identifier for this referenced piece of logistics transport equipment, such as a number, mark or name.
-edi3:cefactBieDomainClass | [cefact:Referenced_ Logistics_TransportEquipment.Details](#Referenced_ Logistics_TransportEquipment.Details)
-edi3:cefactBusinessProcess | Buy-Ship-Pay
-
-@id | cefact:Location_Party.Identification.Identifier
-@type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01003662
-rdfs:comment | A unique identifier of this location party.
-edi3:cefactBieDomainClass | [cefact:Location_Party.Details](#Location_Party.Details)
-edi3:cefactBusinessProcess | In All Contexts
-
-@id | cefact:Operational_Parameter.Identification.Identifier
-@type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01013514
-rdfs:comment | The identifier of this operational parameter.
-edi3:cefactBieDomainClass | [cefact:Operational_Parameter.Details](#Operational_Parameter.Details)
-edi3:cefactBusinessProcess | In All Contexts
-
-@id | cefact:Specification_Query.Identification.Identifier
-@type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01000074
-rdfs:comment | The unique identifier for this specification query.
-edi3:cefactBieDomainClass | [cefact:Specification_Query.Details](#Specification_Query.Details)
-edi3:cefactBusinessProcess | In All Contexts
-
-@id | cefact:Logistics_Label.Identification.Identifier
-@type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01003676
-rdfs:comment | The unique identifier of this logistics label.
-edi3:cefactBieDomainClass | [cefact:Logistics_Label.Details](#Logistics_Label.Details)
-edi3:cefactBusinessProcess | Buy-Ship-Pay
-
-@id | cefact:Specified_Period.Identification.Identifier
-@type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01001279
-rdfs:comment | The unique identifier of this specified period.
-edi3:cefactBieDomainClass | [cefact:Specified_Period.Details](#Specified_Period.Details)
-edi3:cefactBusinessProcess | In All Contexts
-
-@id | cefact:Trade_Product.Identification.Identifier
-@type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01004680
-rdfs:comment | A unique identifier for this trade product.
-edi3:cefactBieDomainClass | [cefact:Trade_Product.Details](#Trade_Product.Details)
-edi3:cefactBusinessProcess | Buy-Ship-Pay
-
-@id | cefact:Section_Segment.Identification.Identifier
-@type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01012736
-rdfs:comment | The identifier of this section segment.
-edi3:cefactBieDomainClass | [cefact:Section_Segment.Details](#Section_Segment.Details)
-edi3:cefactBusinessProcess | Cross Industry Trade
-
-@id | cefact:WorkItem_QuantityAnalysis.Identification.Identifier
-@type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01000016
-rdfs:comment | The unique identifier for this work item quantity analysis.
-edi3:cefactBieDomainClass | [cefact:Work Item_QuantityAnalysis.Details](#Work Item_QuantityAnalysis.Details)
-edi3:cefactBusinessProcess | In All Contexts
-
 @id | cefact:Basic_WorkItem.Identification.Identifier
 @type | edi3:BasicBIE
 edi3:cefactUNId | cefact:UN01000027
 rdfs:comment | The unique identifier for this basic work item.
 edi3:cefactBieDomainClass | [cefact:Basic_WorkItem.Details](#Basic_WorkItem.Details)
-edi3:cefactBusinessProcess | In All Contexts
-
-@id | cefact:Document_Authentication.Identification.Identifier
-@type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01003520
-rdfs:comment | A unique identifier for this document authentication.
-edi3:cefactBieDomainClass | [cefact:Document_Authentication.Details](#Document_Authentication.Details)
 edi3:cefactBusinessProcess | In All Contexts
 
 @id | cefact:Proprietary_Identity.Identification.Identifier
@@ -27561,102 +27561,60 @@ rdfs:comment | A proprietary identifier.
 edi3:cefactBieDomainClass | [cefact:Proprietary_Identity.Details](#Proprietary_Identity.Details)
 edi3:cefactBusinessProcess | Buy-Ship-Pay
 
-@id | cefact:Tax_Registration.Identification.Identifier
+@id | cefact:Referenced_Logistics_Package.Identification.Identifier
 @type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01004487
-rdfs:comment | The unique identifier for this tax registration.
-edi3:cefactBieDomainClass | [cefact:Tax_Registration.Details](#Tax_Registration.Details)
-edi3:cefactBusinessProcess | In All Contexts
-
-@id | cefact:SupplyChain_Event.Identification.Identifier
-@type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01004292
-rdfs:comment | The unique identifier for this supply chain event.
-edi3:cefactBieDomainClass | [cefact:Supply Chain_Event.Details](#Supply Chain_Event.Details)
+edi3:cefactUNId | cefact:UN01006795
+rdfs:comment | The identifier for this referenced logistics package.
+edi3:cefactBieDomainClass | [cefact:Referenced_ Logistics_Package.Details](#Referenced_ Logistics_Package.Details)
 edi3:cefactBusinessProcess | Buy-Ship-Pay
 
-@id | cefact:TransportService_Location.Identification.Identifier
+@id | cefact:Product_Certificate.Identification.Identifier
 @type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01010087
-rdfs:comment | An identifier for this transport service location, such as a United Nations Location Code (UNLOCODE) or GS1 Global Location Number (GLN).
-edi3:cefactBieDomainClass | [cefact:Transport Service_Location.Details](#Transport Service_Location.Details)
-edi3:cefactBusinessProcess | Transport
+edi3:cefactUNId | cefact:UN01012484
+rdfs:comment | The identifier for this product certificate.
+edi3:cefactBieDomainClass | [cefact:Product_Certificate.Details](#Product_Certificate.Details)
+edi3:cefactBusinessProcess | Traceability
 
-@id | cefact:Transport_Person.Identification.Identifier
+@id | cefact:Specified_Observation.Identification.Identifier
 @type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01004816
-rdfs:comment | The unique identifier for this transport person.
-edi3:cefactBieDomainClass | [cefact:Transport_Person.Details](#Transport_Person.Details)
+edi3:cefactUNId | cefact:UN01012571
+rdfs:comment | The identifier for this specified observation.
+edi3:cefactBieDomainClass | [cefact:Specified_Observation.Details](#Specified_Observation.Details)
 edi3:cefactBusinessProcess | In All Contexts
 
-@id | cefact:Specification_Response.Identification.Identifier
+@id | cefact:Specified_Period.Identification.Identifier
 @type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01000078
-rdfs:comment | The unique identifier for this specification response.
-edi3:cefactBieDomainClass | [cefact:Specification_Response.Details](#Specification_Response.Details)
+edi3:cefactUNId | cefact:UN01001279
+rdfs:comment | The unique identifier of this specified period.
+edi3:cefactBieDomainClass | [cefact:Specified_Period.Details](#Specified_Period.Details)
 edi3:cefactBusinessProcess | In All Contexts
 
-@id | cefact:Trade_CountrySub-Division.Identification.Identifier
+@id | cefact:WorkItem_QuantityAnalysis.Identification.Identifier
 @type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01002562
-rdfs:comment | The unique identifier for this trade country sub-division.
-edi3:cefactBieDomainClass | [cefact:Trade_CountrySubDivision.Details](#Trade_CountrySubDivision.Details)
+edi3:cefactUNId | cefact:UN01000016
+rdfs:comment | The unique identifier for this work item quantity analysis.
+edi3:cefactBieDomainClass | [cefact:Work Item_QuantityAnalysis.Details](#Work Item_QuantityAnalysis.Details)
 edi3:cefactBusinessProcess | In All Contexts
 
-@id | cefact:Logistics_Seal.Identification.Identifier
+@id | cefact:Transport_Event.Identification.Identifier
 @type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01003714
-rdfs:comment | A unique identifier for this logistics seal.
-edi3:cefactBieDomainClass | [cefact:Logistics_Seal.Details](#Logistics_Seal.Details)
-edi3:cefactBusinessProcess | Buy-Ship-Pay
-
-@id | cefact:Trade_GeopoliticalRegion.Identification.Identifier
-@type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01004588
-rdfs:comment | The unique identifier for this trade geopolitical region.
-edi3:cefactBieDomainClass | [cefact:Trade_GeopoliticalRegion.Details](#Trade_GeopoliticalRegion.Details)
-edi3:cefactBusinessProcess | Buy-Ship-Pay
-
-@id | cefact:Valuation_BreakdownStatement.Identification.Identifier
-@type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01007546
-rdfs:comment | The unique identifier for this valuation breakdown statement.
-edi3:cefactBieDomainClass | [cefact:Valuation_BreakdownStatement.Details](#Valuation_BreakdownStatement.Details)
-edi3:cefactBusinessProcess | Invoicing
-
-@id | cefact:Specified_GeographicalObjectCharacteristic.Identification.Identifier
-@type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01012369
-rdfs:comment | The identifier for this geographical object characteristic.
-edi3:cefactBieDomainClass | [cefact:Specified_GeographicalObjectCharacteristic.Details](#Specified_GeographicalObjectCharacteristic.Details)
-edi3:cefactBusinessProcess | Agricultural
-
-@id | cefact:WorkItem_Dimension.Identification.Identifier
-@type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01000057
-rdfs:comment | The unique identifier for this work item dimension.
-edi3:cefactBieDomainClass | [cefact:Work Item_Dimension.Details](#Work Item_Dimension.Details)
+edi3:cefactUNId | cefact:UN01004792
+rdfs:comment | The unique identifier for this transport event.
+edi3:cefactBieDomainClass | [cefact:Transport_Event.Details](#Transport_Event.Details)
 edi3:cefactBusinessProcess | In All Contexts
 
-@id | cefact:Transport_Route.Identification.Identifier
+@id | cefact:Referenced_Document.Identification.Identifier
 @type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01004823
-rdfs:comment | The unique identifier of this transport route.
-edi3:cefactBieDomainClass | [cefact:Transport_Route.Details](#Transport_Route.Details)
+edi3:cefactUNId | cefact:UN01003991
+rdfs:comment | A unique identifier for this referenced document.
+edi3:cefactBieDomainClass | [cefact:Referenced_Document.Details](#Referenced_Document.Details)
 edi3:cefactBusinessProcess | In All Contexts
 
-@id | cefact:Employer_Identity.Identification.Identifier
+@id | cefact:Trade_Product.Identification.Identifier
 @type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01003024
-rdfs:comment | The unique identifier for this employer identity.
-edi3:cefactBieDomainClass | [cefact:Employer_Identity.Details](#Employer_Identity.Details)
-edi3:cefactBusinessProcess | In All Contexts
-
-@id | cefact:Trade_Party.Identification.Identifier
-@type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01004595
-rdfs:comment | A unique identifier of this trade party.
-edi3:cefactBieDomainClass | [cefact:Trade_Party.Details](#Trade_Party.Details)
+edi3:cefactUNId | cefact:UN01004680
+rdfs:comment | A unique identifier for this trade product.
+edi3:cefactBieDomainClass | [cefact:Trade_Product.Details](#Trade_Product.Details)
 edi3:cefactBusinessProcess | Buy-Ship-Pay
 
 @id | cefact:Referenced_SupplyChain_Consignment.Identification.Identifier
@@ -27666,158 +27624,11 @@ rdfs:comment | A unique identifier for this referenced supply chain consignment.
 edi3:cefactBieDomainClass | [cefact:Referenced_ Supply Chain_Consignment.Details](#Referenced_ Supply Chain_Consignment.Details)
 edi3:cefactBusinessProcess | Buy-Ship-Pay
 
-@id | cefact:ControlSetting_Parameter.Identification.Identifier
-@type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01013503
-rdfs:comment | The identifier of this control setting parameter.
-edi3:cefactBieDomainClass | [cefact:Control Setting_Parameter.Details](#Control Setting_Parameter.Details)
-edi3:cefactBusinessProcess | In All Contexts
-
-@id | cefact:Trade_AccountingAccount.Identification.Identifier
-@type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01004523
-rdfs:comment | The unique identifier for this trade accounting account.
-edi3:cefactBieDomainClass | [cefact:Trade_AccountingAccount.Details](#Trade_AccountingAccount.Details)
-edi3:cefactBusinessProcess | Buy-Ship-Pay
-
-@id | cefact:Subordinate_Location.Identification.Identifier
-@type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01004093
-rdfs:comment | The unique identifier for this subordinate location, such as a United Nations Location Code (UNLOCODE) or GS1 Global Location Number (GLN).
-edi3:cefactBieDomainClass | [cefact:Subordinate_Location.Details](#Subordinate_Location.Details)
-edi3:cefactBusinessProcess | In All Contexts
-
-@id | cefact:Monitoring_Sensor.Identification.Identifier
-@type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01013540
-rdfs:comment | An identifier of this monitoring sensor.
-edi3:cefactBieDomainClass | [cefact:Monitoring_Sensor.Details](#Monitoring_Sensor.Details)
-edi3:cefactBusinessProcess | Buy-Ship-Pay
-
-@id | cefact:Procuring_Project.Identification.Identifier
-@type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01000372
-rdfs:comment | The unique identifier of this procuring project.
-edi3:cefactBieDomainClass | [cefact:Procuring_Project.Details](#Procuring_Project.Details)
-edi3:cefactBusinessProcess | In All Contexts
-
-@id | cefact:Trade_AllowanceCharge.Identification.Identifier
-@type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01001633
-rdfs:comment | The unique identifier for this trade allowance charge.
-edi3:cefactBieDomainClass | [cefact:Trade_AllowanceCharge.Details](#Trade_AllowanceCharge.Details)
-edi3:cefactBusinessProcess | Trade
-
-@id | cefact:Trade_Contact.Identification.Identifier
-@type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01001641
-rdfs:comment | The unique identifier for this trade contact.
-edi3:cefactBieDomainClass | [cefact:Trade_Contact.Details](#Trade_Contact.Details)
-edi3:cefactBusinessProcess | Trade
-
 @id | cefact:Product_Characteristic.Identification.Identifier
 @type | edi3:BasicBIE
 edi3:cefactUNId | cefact:UN01003972
 rdfs:comment | A unique identifier for this product characteristic.
 edi3:cefactBieDomainClass | [cefact:Product_Characteristic.Details](#Product_Characteristic.Details)
-edi3:cefactBusinessProcess | In All Contexts
-
-@id | cefact:DocumentContext_Parameter.Identification.Identifier
-@type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01004853
-rdfs:comment | The unique identifier of this document context parameter.
-edi3:cefactBieDomainClass | [cefact:Document Context_Parameter.Details](#Document Context_Parameter.Details)
-edi3:cefactBusinessProcess | In All Contexts
-
-@id | cefact:Referenced_TransportMeans.Identification.Identifier
-@type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01004052
-rdfs:comment | An identifier of this referenced transport means, such as the International Maritime Organization number for a vessel.
-edi3:cefactBieDomainClass | [cefact:Referenced_TransportMeans.Details](#Referenced_TransportMeans.Details)
-edi3:cefactBusinessProcess | In All Contexts
-
-@id | cefact:Spatial_Dimension.Identification.Identifier
-@type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01004082
-rdfs:comment | The unique identifier of this spatial dimension.
-edi3:cefactBieDomainClass | [cefact:Spatial_Dimension.Details](#Spatial_Dimension.Details)
-edi3:cefactBusinessProcess | In All Contexts
-
-@id | cefact:Referenced_Logistics_Package.Identification.Identifier
-@type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01006795
-rdfs:comment | The identifier for this referenced logistics package.
-edi3:cefactBieDomainClass | [cefact:Referenced_ Logistics_Package.Details](#Referenced_ Logistics_Package.Details)
-edi3:cefactBusinessProcess | Buy-Ship-Pay
-
-@id | cefact:Requesting_Party.Identification.Identifier
-@type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01002018
-rdfs:comment | The unique identifier for this requesting party.
-edi3:cefactBieDomainClass | [cefact:Requesting_Party.Details](#Requesting_Party.Details)
-edi3:cefactBusinessProcess | Project Management
-
-@id | cefact:SupplyChain_Consignment.Identification.Identifier
-@type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01004160
-rdfs:comment | A unique identifier for this supply chain consignment.
-edi3:cefactBieDomainClass | [cefact:Supply Chain_Consignment.Details](#Supply Chain_Consignment.Details)
-edi3:cefactBusinessProcess | Buy-Ship-Pay
-
-@id | cefact:Certified_Accreditation.Identification.Identifier
-@type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01010062
-rdfs:comment | An identifier for this certified accreditation.
-edi3:cefactBieDomainClass | [cefact:Certified_Accreditation.Details](#Certified_Accreditation.Details)
-edi3:cefactBusinessProcess | Transport
-
-@id | cefact:Government_Registration.Identification.Identifier
-@type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01011029
-rdfs:comment | An identifier for this government registration.
-edi3:cefactBieDomainClass | [cefact:Government_Registration.Details](#Government_Registration.Details)
-edi3:cefactBusinessProcess | Buy-Ship-Pay
-
-@id | cefact:Header_TradeAgreement.Identification.Identifier
-@type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01013408
-rdfs:comment | An identifier for this header trade agreement.
-edi3:cefactBieDomainClass | [cefact:Header_TradeAgreement.Details](#Header_TradeAgreement.Details)
-edi3:cefactBusinessProcess | Buy-Ship-Pay
-
-@id | cefact:DocumentLine_Document.Identification.Identifier
-@type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01011477
-rdfs:comment | The identifier of this document line document.
-edi3:cefactBieDomainClass | [cefact:Document Line_Document.Details](#Document Line_Document.Details)
-edi3:cefactBusinessProcess | Supply Chain
-
-@id | cefact:Trade_Address.Identification.Identifier
-@type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01004534
-rdfs:comment | A unique identifier for this trade address.
-edi3:cefactBieDomainClass | [cefact:Trade_Address.Details](#Trade_Address.Details)
-edi3:cefactBusinessProcess | Buy-Ship-Pay
-
-@id | cefact:Specified_GeographicalGrid.Identification.Identifier
-@type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01012204
-rdfs:comment | An identifier for this geographical grid.
-edi3:cefactBieDomainClass | [cefact:Specified_GeographicalGrid.Details](#Specified_GeographicalGrid.Details)
-edi3:cefactBusinessProcess | Agricultural
-
-@id | cefact:Logistics_TransportMeans.Identification.Identifier
-@type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01003822
-rdfs:comment | An identifier of this logistics means of transport, such as the International Maritime Organization number of a vessel.
-edi3:cefactBieDomainClass | [cefact:Logistics_TransportMeans.Details](#Logistics_TransportMeans.Details)
-edi3:cefactBusinessProcess | Buy-Ship-Pay
-
-@id | cefact:Communication_Event.Identification.Identifier
-@type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01013561
-rdfs:comment | The identifier for this communication event.
-edi3:cefactBieDomainClass | [cefact:Communication_Event.Details](#Communication_Event.Details)
 edi3:cefactBusinessProcess | In All Contexts
 
 @id | cefact:Logistics_TransportEquipment.Identification.Identifier
@@ -27834,69 +27645,6 @@ rdfs:comment | The identifier for this specified geographical feature.
 edi3:cefactBieDomainClass | [cefact:Specified_GeographicalFeature.Details](#Specified_GeographicalFeature.Details)
 edi3:cefactBusinessProcess | In All Contexts
 
-@id | cefact:GeographicalCoordinate.Identification.Identifier
-@type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01003623
-rdfs:comment | The unique identifier for this geographical coordinate.
-edi3:cefactBieDomainClass | [cefact:GeographicalCoordinate.Details](#GeographicalCoordinate.Details)
-edi3:cefactBusinessProcess | In All Contexts
-
-@id | cefact:Trade_ProductGroup.Identification.Identifier
-@type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01011923
-rdfs:comment | An identifier for this trade product group.
-edi3:cefactBieDomainClass | [cefact:Trade_ProductGroup.Details](#Trade_ProductGroup.Details)
-edi3:cefactBusinessProcess | Trade
-
-@id | cefact:Specified_Observation.Identification.Identifier
-@type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01012571
-rdfs:comment | The identifier for this specified observation.
-edi3:cefactBieDomainClass | [cefact:Specified_Observation.Details](#Specified_Observation.Details)
-edi3:cefactBusinessProcess | In All Contexts
-
-@id | cefact:OEM_Equipment.Identification.Identifier
-@type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01013554
-rdfs:comment | An identifier of this OEM equipment.
-edi3:cefactBieDomainClass | [cefact:OEM_Equipment.Details](#OEM_Equipment.Details)
-edi3:cefactBusinessProcess | In All Contexts
-
-@id | cefact:Legal_Organization.Identification.Identifier
-@type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01003641
-rdfs:comment | A unique identifier for this legally set up organization.
-edi3:cefactBieDomainClass | [cefact:Legal_Organization.Details](#Legal_Organization.Details)
-edi3:cefactBusinessProcess | In All Contexts
-
-@id | cefact:Exchanged_Declaration.Identification.Identifier
-@type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01011007
-rdfs:comment | An identifier for this exchanged declaration.
-edi3:cefactBieDomainClass | [cefact:Exchanged_Declaration.Details](#Exchanged_Declaration.Details)
-edi3:cefactBusinessProcess | Buy-Ship-Pay
-
-@id | cefact:Document_Clause.Identification.Identifier
-@type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01002647
-rdfs:comment | The unique identifier of this document clause.
-edi3:cefactBieDomainClass | [cefact:Document_Clause.Details](#Document_Clause.Details)
-edi3:cefactBusinessProcess | In All Contexts
-
-@id | cefact:SupplyChain_ConsignmentItem.Identification.Identifier
-@type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01004104
-rdfs:comment | A unique identifier for this supply chain consignment item.
-edi3:cefactBieDomainClass | [cefact:Supply Chain_ConsignmentItem.Details](#Supply Chain_ConsignmentItem.Details)
-edi3:cefactBusinessProcess | Buy-Ship-Pay
-
-@id | cefact:Branch_FinancialInstitution.Identification.Identifier
-@type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01003139
-rdfs:comment | The unique identifier for this branch of a financial institution.
-edi3:cefactBieDomainClass | [cefact:Branch_FinancialInstitution.Details](#Branch_FinancialInstitution.Details)
-edi3:cefactBusinessProcess | Customer to bank payment initiation
-
 @id | cefact:SupplyChain_TradeLineItem.Identification.Identifier
 @type | edi3:BasicBIE
 edi3:cefactUNId | cefact:UN01004418
@@ -27904,11 +27652,74 @@ rdfs:comment | The unique identifier for this supply chain trade line item.
 edi3:cefactBieDomainClass | [cefact:Supply Chain_TradeLineItem.Details](#Supply Chain_TradeLineItem.Details)
 edi3:cefactBusinessProcess | Buy-Ship-Pay
 
-@id | cefact:TradeSettlement_FinancialCard.Identification.Identifier
+@id | cefact:Operational_Parameter.Identification.Identifier
 @type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01004495
-rdfs:comment | The unique identifier, commonly known as the card number, of this trade settlement financial card.
-edi3:cefactBieDomainClass | [cefact:Trade Settlement_FinancialCard.Details](#Trade Settlement_FinancialCard.Details)
+edi3:cefactUNId | cefact:UN01013514
+rdfs:comment | The identifier of this operational parameter.
+edi3:cefactBieDomainClass | [cefact:Operational_Parameter.Details](#Operational_Parameter.Details)
+edi3:cefactBusinessProcess | In All Contexts
+
+@id | cefact:Referenced_Standard.Identification.Identifier
+@type | edi3:BasicBIE
+edi3:cefactUNId | cefact:UN01008541
+rdfs:comment | The identifier of this referenced standard.
+edi3:cefactBieDomainClass | [cefact:Referenced_Standard.Details](#Referenced_Standard.Details)
+edi3:cefactBusinessProcess | Supply Chain
+
+@id | cefact:Requesting_Party.Identification.Identifier
+@type | edi3:BasicBIE
+edi3:cefactUNId | cefact:UN01002018
+rdfs:comment | The unique identifier for this requesting party.
+edi3:cefactBieDomainClass | [cefact:Requesting_Party.Details](#Requesting_Party.Details)
+edi3:cefactBusinessProcess | Project Management
+
+@id | cefact:SupplyChain_Schedule.Identification.Identifier
+@type | edi3:BasicBIE
+edi3:cefactUNId | cefact:UN01012980
+rdfs:comment | An identifier of this supply chain schedule.
+edi3:cefactBieDomainClass | [cefact:Supply Chain_Schedule.Details](#Supply Chain_Schedule.Details)
+edi3:cefactBusinessProcess | Supply Chain
+
+@id | cefact:Valuation_BreakdownStatement.Identification.Identifier
+@type | edi3:BasicBIE
+edi3:cefactUNId | cefact:UN01007546
+rdfs:comment | The unique identifier for this valuation breakdown statement.
+edi3:cefactBieDomainClass | [cefact:Valuation_BreakdownStatement.Details](#Valuation_BreakdownStatement.Details)
+edi3:cefactBusinessProcess | Invoicing
+
+@id | cefact:Procuring_Project.Identification.Identifier
+@type | edi3:BasicBIE
+edi3:cefactUNId | cefact:UN01000372
+rdfs:comment | The unique identifier of this procuring project.
+edi3:cefactBieDomainClass | [cefact:Procuring_Project.Details](#Procuring_Project.Details)
+edi3:cefactBusinessProcess | In All Contexts
+
+@id | cefact:Header_TradeDelivery.Identification.Identifier
+@type | edi3:BasicBIE
+edi3:cefactUNId | cefact:UN01011604
+rdfs:comment | The identifier, at header level, for this trade delivery.
+edi3:cefactBieDomainClass | [cefact:Header_TradeDelivery.Details](#Header_TradeDelivery.Details)
+edi3:cefactBusinessProcess | Trade
+
+@id | cefact:Payment_BalanceOut.Identification.Identifier
+@type | edi3:BasicBIE
+edi3:cefactUNId | cefact:UN01011830
+rdfs:comment | The identifier for this payment balance out.
+edi3:cefactBieDomainClass | [cefact:Payment_BalanceOut.Details](#Payment_BalanceOut.Details)
+edi3:cefactBusinessProcess | Buy-Ship-Pay
+
+@id | cefact:Subordinate_TradeLineItem.Identification.Identifier
+@type | edi3:BasicBIE
+edi3:cefactUNId | cefact:UN01004099
+rdfs:comment | A unique identifier for this subordinate trade line item.
+edi3:cefactBieDomainClass | [cefact:Subordinate_TradeLineItem.Details](#Subordinate_TradeLineItem.Details)
+edi3:cefactBusinessProcess | Buy-Ship-Pay
+
+@id | cefact:SupplyChain_Consignment.Identification.Identifier
+@type | edi3:BasicBIE
+edi3:cefactUNId | cefact:UN01004160
+rdfs:comment | A unique identifier for this supply chain consignment.
+edi3:cefactBieDomainClass | [cefact:Supply Chain_Consignment.Details](#Supply Chain_Consignment.Details)
 edi3:cefactBusinessProcess | Buy-Ship-Pay
 
 @id | cefact:SubordinateSubordinate_Location.Identification.Identifier
@@ -27918,25 +27729,81 @@ rdfs:comment | The unique identifier for this subordinate of a subordinate locat
 edi3:cefactBieDomainClass | [cefact:Subordinate Subordinate_Location.Details](#Subordinate Subordinate_Location.Details)
 edi3:cefactBusinessProcess | In All Contexts
 
-@id | cefact:Attached_TransportEquipment.Identification.Identifier
+@id | cefact:Document_Clause.Identification.Identifier
 @type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01003417
-rdfs:comment | A unique identifier of this piece of attached transport equipment.
-edi3:cefactBieDomainClass | [cefact:Attached_TransportEquipment.Details](#Attached_TransportEquipment.Details)
-edi3:cefactBusinessProcess | Buy-Ship-Pay
-
-@id | cefact:Specified_BinaryFile.Identification.Identifier
-@type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01006015
-rdfs:comment | A unique identifier for this specified binary file.
-edi3:cefactBieDomainClass | [cefact:Specified_BinaryFile.Details](#Specified_BinaryFile.Details)
+edi3:cefactUNId | cefact:UN01002647
+rdfs:comment | The unique identifier of this document clause.
+edi3:cefactBieDomainClass | [cefact:Document_Clause.Details](#Document_Clause.Details)
 edi3:cefactBusinessProcess | In All Contexts
 
-@id | cefact:Handling_Instructions.Identification.Identifier
+@id | cefact:Line_TradeDelivery.Identification.Identifier
 @type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01012760
-rdfs:comment | The identifier of this handling instructions.
-edi3:cefactBieDomainClass | [cefact:Handling_Instructions.Details](#Handling_Instructions.Details)
+edi3:cefactUNId | cefact:UN01013438
+rdfs:comment | An identifier, at line level, for this trade delivery.
+edi3:cefactBieDomainClass | [cefact:Line_TradeDelivery.Details](#Line_TradeDelivery.Details)
+edi3:cefactBusinessProcess | Buy-Ship-Pay
+
+@id | cefact:Trade_AccountingAccount.Identification.Identifier
+@type | edi3:BasicBIE
+edi3:cefactUNId | cefact:UN01004523
+rdfs:comment | The unique identifier for this trade accounting account.
+edi3:cefactBieDomainClass | [cefact:Trade_AccountingAccount.Details](#Trade_AccountingAccount.Details)
+edi3:cefactBusinessProcess | Buy-Ship-Pay
+
+@id | cefact:Acknowledgement_Document.Identification.Identifier
+@type | edi3:BasicBIE
+edi3:cefactUNId | cefact:UN01002073
+rdfs:comment | The unique identifier of this acknowledgement document.
+edi3:cefactBieDomainClass | [cefact:Acknowledgement_Document.Details](#Acknowledgement_Document.Details)
+edi3:cefactBusinessProcess | In All Contexts
+
+@id | cefact:Referenced_TransportMeans.Identification.Identifier
+@type | edi3:BasicBIE
+edi3:cefactUNId | cefact:UN01004052
+rdfs:comment | An identifier of this referenced transport means, such as the International Maritime Organization number for a vessel.
+edi3:cefactBieDomainClass | [cefact:Referenced_TransportMeans.Details](#Referenced_TransportMeans.Details)
+edi3:cefactBusinessProcess | In All Contexts
+
+@id | cefact:Specification_Query.Identification.Identifier
+@type | edi3:BasicBIE
+edi3:cefactUNId | cefact:UN01000074
+rdfs:comment | The unique identifier for this specification query.
+edi3:cefactBieDomainClass | [cefact:Specification_Query.Details](#Specification_Query.Details)
+edi3:cefactBusinessProcess | In All Contexts
+
+@id | cefact:DocumentContext_Parameter.Identification.Identifier
+@type | edi3:BasicBIE
+edi3:cefactUNId | cefact:UN01004853
+rdfs:comment | The unique identifier of this document context parameter.
+edi3:cefactBieDomainClass | [cefact:Document Context_Parameter.Details](#Document Context_Parameter.Details)
+edi3:cefactBusinessProcess | In All Contexts
+
+@id | cefact:TradeSettlement_PaymentMeans.Identification.Identifier
+@type | edi3:BasicBIE
+edi3:cefactUNId | cefact:UN01006055
+rdfs:comment | An identifier for this trade settlement payment means.
+edi3:cefactBieDomainClass | [cefact:Trade Settlement_PaymentMeans.Details](#Trade Settlement_PaymentMeans.Details)
+edi3:cefactBusinessProcess | Buy-Ship-Pay
+
+@id | cefact:Header_BalanceOut.Identification.Identifier
+@type | edi3:BasicBIE
+edi3:cefactUNId | cefact:UN01011540
+rdfs:comment | The identifier for this header balance out.
+edi3:cefactBieDomainClass | [cefact:Header_BalanceOut.Details](#Header_BalanceOut.Details)
+edi3:cefactBusinessProcess | Buy-Ship-Pay
+
+@id | cefact:Trade_Address.Identification.Identifier
+@type | edi3:BasicBIE
+edi3:cefactUNId | cefact:UN01004534
+rdfs:comment | A unique identifier for this trade address.
+edi3:cefactBieDomainClass | [cefact:Trade_Address.Details](#Trade_Address.Details)
+edi3:cefactBusinessProcess | Buy-Ship-Pay
+
+@id | cefact:Spatial_Dimension.Identification.Identifier
+@type | edi3:BasicBIE
+edi3:cefactUNId | cefact:UN01004082
+rdfs:comment | The unique identifier of this spatial dimension.
+edi3:cefactBieDomainClass | [cefact:Spatial_Dimension.Details](#Spatial_Dimension.Details)
 edi3:cefactBusinessProcess | In All Contexts
 
 @id | cefact:Geographical_CoordinateSourceSystem.Identification.Identifier
@@ -27946,33 +27813,12 @@ rdfs:comment | The identifier for this geographical coordinate source system.
 edi3:cefactBieDomainClass | [cefact:Geographical_CoordinateSourceSystem.Details](#Geographical_CoordinateSourceSystem.Details)
 edi3:cefactBusinessProcess | In All Contexts
 
-@id | cefact:Calibrated_Measurement.Identification.Identifier
+@id | cefact:Employer_Identity.Identification.Identifier
 @type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01013532
-rdfs:comment | The identifier for this calibrated measurement.
-edi3:cefactBieDomainClass | [cefact:Calibrated_Measurement.Details](#Calibrated_Measurement.Details)
+edi3:cefactUNId | cefact:UN01003024
+rdfs:comment | The unique identifier for this employer identity.
+edi3:cefactBieDomainClass | [cefact:Employer_Identity.Details](#Employer_Identity.Details)
 edi3:cefactBusinessProcess | In All Contexts
-
-@id | cefact:Subordinate_TradeLineItem.Identification.Identifier
-@type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01004099
-rdfs:comment | A unique identifier for this subordinate trade line item.
-edi3:cefactBieDomainClass | [cefact:Subordinate_TradeLineItem.Details](#Subordinate_TradeLineItem.Details)
-edi3:cefactBusinessProcess | Buy-Ship-Pay
-
-@id | cefact:TradeProduct_Feature.Identification.Identifier
-@type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01007471
-rdfs:comment | The unique identifier for this trade product feature.
-edi3:cefactBieDomainClass | [cefact:Trade Product_Feature.Details](#Trade Product_Feature.Details)
-edi3:cefactBusinessProcess | Buy-Ship-Pay
-
-@id | cefact:SupplyChain_Schedule.Identification.Identifier
-@type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01012980
-rdfs:comment | An identifier of this supply chain schedule.
-edi3:cefactBieDomainClass | [cefact:Supply Chain_Schedule.Details](#Supply Chain_Schedule.Details)
-edi3:cefactBusinessProcess | Supply Chain
 
 @id | cefact:Legal_Registration.Identification.Identifier
 @type | edi3:BasicBIE
@@ -27981,46 +27827,53 @@ rdfs:comment | A unique identifier for this legal registration.
 edi3:cefactBieDomainClass | [cefact:Legal_Registration.Details](#Legal_Registration.Details)
 edi3:cefactBusinessProcess | In All Contexts
 
-@id | cefact:Product_Certificate.Identification.Identifier
+@id | cefact:Transport_Service.Identification.Identifier
 @type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01012484
-rdfs:comment | The identifier for this product certificate.
-edi3:cefactBieDomainClass | [cefact:Product_Certificate.Details](#Product_Certificate.Details)
-edi3:cefactBusinessProcess | Traceability
+edi3:cefactUNId | cefact:UN01004838
+rdfs:comment | The unique identifier of this transport service.
+edi3:cefactBieDomainClass | [cefact:Transport_Service.Details](#Transport_Service.Details)
+edi3:cefactBusinessProcess | In All Contexts
 
-@id | cefact:Header_TradeDelivery.Identification.Identifier
+@id | cefact:ReferencedTransport_Service.Identification.Identifier
 @type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01011604
-rdfs:comment | The identifier, at header level, for this trade delivery.
-edi3:cefactBieDomainClass | [cefact:Header_TradeDelivery.Details](#Header_TradeDelivery.Details)
-edi3:cefactBusinessProcess | Trade
+edi3:cefactUNId | cefact:UN01010075
+rdfs:comment | An identifier of this referenced transport service.
+edi3:cefactBieDomainClass | [cefact:Referenced Transport_Service.Details](#Referenced Transport_Service.Details)
+edi3:cefactBusinessProcess | Transport
 
-@id | cefact:Logistics_TransportMovement.Identification.Identifier
+@id | cefact:TradeSettlement_FinancialCard.Identification.Identifier
 @type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01003841
-rdfs:comment | The unique identifier for this logistics transport movement, such as a voyage number, flight number, or trip number.
-edi3:cefactBieDomainClass | [cefact:Logistics_TransportMovement.Details](#Logistics_TransportMovement.Details)
+edi3:cefactUNId | cefact:UN01004495
+rdfs:comment | The unique identifier, commonly known as the card number, of this trade settlement financial card.
+edi3:cefactBieDomainClass | [cefact:Trade Settlement_FinancialCard.Details](#Trade Settlement_FinancialCard.Details)
 edi3:cefactBusinessProcess | Buy-Ship-Pay
 
-@id | cefact:SupplyChain_TradeTransaction.Identification.Identifier
+@id | cefact:Specified_GeographicalObjectCharacteristic.Identification.Identifier
 @type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01004476
-rdfs:comment | A unique identifier for this supply chain trade transaction.
-edi3:cefactBieDomainClass | [cefact:Supply Chain_TradeTransaction.Details](#Supply Chain_TradeTransaction.Details)
-edi3:cefactBusinessProcess | Buy-Ship-Pay
+edi3:cefactUNId | cefact:UN01012369
+rdfs:comment | The identifier for this geographical object characteristic.
+edi3:cefactBieDomainClass | [cefact:Specified_GeographicalObjectCharacteristic.Details](#Specified_GeographicalObjectCharacteristic.Details)
+edi3:cefactBusinessProcess | Agricultural
 
-@id | cefact:Referenced_Standard.Identification.Identifier
+@id | cefact:Document_Authentication.Identification.Identifier
 @type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01008541
-rdfs:comment | The identifier of this referenced standard.
-edi3:cefactBieDomainClass | [cefact:Referenced_Standard.Details](#Referenced_Standard.Details)
-edi3:cefactBusinessProcess | Supply Chain
+edi3:cefactUNId | cefact:UN01003520
+rdfs:comment | A unique identifier for this document authentication.
+edi3:cefactBieDomainClass | [cefact:Document_Authentication.Details](#Document_Authentication.Details)
+edi3:cefactBusinessProcess | In All Contexts
 
 @id | cefact:Note.Identification.Identifier
 @type | edi3:BasicBIE
 edi3:cefactUNId | cefact:UN01002524
 rdfs:comment | A unique identifier for this note.
 edi3:cefactBieDomainClass | [cefact:Note.Details](#Note.Details)
+edi3:cefactBusinessProcess | In All Contexts
+
+@id | cefact:Tax_Registration.Identification.Identifier
+@type | edi3:BasicBIE
+edi3:cefactUNId | cefact:UN01004487
+rdfs:comment | The unique identifier for this tax registration.
+edi3:cefactBieDomainClass | [cefact:Tax_Registration.Details](#Tax_Registration.Details)
 edi3:cefactBusinessProcess | In All Contexts
 
 @id | cefact:Label_Section.Identification.Identifier
@@ -28030,18 +27883,53 @@ rdfs:comment | The identifier of this label section.
 edi3:cefactBieDomainClass | [cefact:Label_Section.Details](#Label_Section.Details)
 edi3:cefactBusinessProcess | Cross Industry Trade
 
-@id | cefact:Referenced_Document.Identification.Identifier
+@id | cefact:Trade_AllowanceCharge.Identification.Identifier
 @type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01003991
-rdfs:comment | A unique identifier for this referenced document.
-edi3:cefactBieDomainClass | [cefact:Referenced_Document.Details](#Referenced_Document.Details)
+edi3:cefactUNId | cefact:UN01001633
+rdfs:comment | The unique identifier for this trade allowance charge.
+edi3:cefactBieDomainClass | [cefact:Trade_AllowanceCharge.Details](#Trade_AllowanceCharge.Details)
+edi3:cefactBusinessProcess | Trade
+
+@id | cefact:Logistics_Label.Identification.Identifier
+@type | edi3:BasicBIE
+edi3:cefactUNId | cefact:UN01003676
+rdfs:comment | The unique identifier of this logistics label.
+edi3:cefactBieDomainClass | [cefact:Logistics_Label.Details](#Logistics_Label.Details)
+edi3:cefactBusinessProcess | Buy-Ship-Pay
+
+@id | cefact:Referenced_Product.Identification.Identifier
+@type | edi3:BasicBIE
+edi3:cefactUNId | cefact:UN01004028
+rdfs:comment | A unique identifier for this referenced product.
+edi3:cefactBieDomainClass | [cefact:Referenced_Product.Details](#Referenced_Product.Details)
 edi3:cefactBusinessProcess | In All Contexts
 
-@id | cefact:Acknowledgement_Document.Identification.Identifier
+@id | cefact:SupplyChain_TradeTransaction.Identification.Identifier
 @type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01002073
-rdfs:comment | The unique identifier of this acknowledgement document.
-edi3:cefactBieDomainClass | [cefact:Acknowledgement_Document.Details](#Acknowledgement_Document.Details)
+edi3:cefactUNId | cefact:UN01004476
+rdfs:comment | A unique identifier for this supply chain trade transaction.
+edi3:cefactBieDomainClass | [cefact:Supply Chain_TradeTransaction.Details](#Supply Chain_TradeTransaction.Details)
+edi3:cefactBusinessProcess | Buy-Ship-Pay
+
+@id | cefact:Location_Party.Identification.Identifier
+@type | edi3:BasicBIE
+edi3:cefactUNId | cefact:UN01003662
+rdfs:comment | A unique identifier of this location party.
+edi3:cefactBieDomainClass | [cefact:Location_Party.Details](#Location_Party.Details)
+edi3:cefactBusinessProcess | In All Contexts
+
+@id | cefact:SupplyChain_Event.Identification.Identifier
+@type | edi3:BasicBIE
+edi3:cefactUNId | cefact:UN01004292
+rdfs:comment | The unique identifier for this supply chain event.
+edi3:cefactBieDomainClass | [cefact:Supply Chain_Event.Details](#Supply Chain_Event.Details)
+edi3:cefactBusinessProcess | Buy-Ship-Pay
+
+@id | cefact:Transport_Person.Identification.Identifier
+@type | edi3:BasicBIE
+edi3:cefactUNId | cefact:UN01004816
+rdfs:comment | The unique identifier for this transport person.
+edi3:cefactBieDomainClass | [cefact:Transport_Person.Details](#Transport_Person.Details)
 edi3:cefactBusinessProcess | In All Contexts
 
 @id | cefact:Associated_TransportEquipment.Identification.Identifier
@@ -28050,6 +27938,118 @@ edi3:cefactUNId | cefact:UN01004884
 rdfs:comment | A unique number, mark or name which identifies this associated piece of transport equipment.
 edi3:cefactBieDomainClass | [cefact:Associated_TransportEquipment.Details](#Associated_TransportEquipment.Details)
 edi3:cefactBusinessProcess | Buy-Ship-Pay
+
+@id | cefact:Line_TradeAgreement.Identification.Identifier
+@type | edi3:BasicBIE
+edi3:cefactUNId | cefact:UN01013412
+rdfs:comment | An identifier for this line trade agreement.
+edi3:cefactBieDomainClass | [cefact:Line_TradeAgreement.Details](#Line_TradeAgreement.Details)
+edi3:cefactBusinessProcess | Buy-Ship-Pay
+
+@id | cefact:Exchanged_Document.Identification.Identifier
+@type | edi3:BasicBIE
+edi3:cefactUNId | cefact:UN01002488
+rdfs:comment | The unique identifier of this exchanged document.
+edi3:cefactBieDomainClass | [cefact:Exchanged_Document.Details](#Exchanged_Document.Details)
+edi3:cefactBusinessProcess | In All Contexts
+
+@id | cefact:Monitoring_Sensor.Identification.Identifier
+@type | edi3:BasicBIE
+edi3:cefactUNId | cefact:UN01013540
+rdfs:comment | An identifier of this monitoring sensor.
+edi3:cefactBieDomainClass | [cefact:Monitoring_Sensor.Details](#Monitoring_Sensor.Details)
+edi3:cefactBusinessProcess | Buy-Ship-Pay
+
+@id | cefact:Logistics_TransportMeans.Identification.Identifier
+@type | edi3:BasicBIE
+edi3:cefactUNId | cefact:UN01003822
+rdfs:comment | An identifier of this logistics means of transport, such as the International Maritime Organization number of a vessel.
+edi3:cefactBieDomainClass | [cefact:Logistics_TransportMeans.Details](#Logistics_TransportMeans.Details)
+edi3:cefactBusinessProcess | Buy-Ship-Pay
+
+@id | cefact:Certified_Accreditation.Identification.Identifier
+@type | edi3:BasicBIE
+edi3:cefactUNId | cefact:UN01010062
+rdfs:comment | An identifier for this certified accreditation.
+edi3:cefactBieDomainClass | [cefact:Certified_Accreditation.Details](#Certified_Accreditation.Details)
+edi3:cefactBusinessProcess | Transport
+
+@id | cefact:Communication_Event.Identification.Identifier
+@type | edi3:BasicBIE
+edi3:cefactUNId | cefact:UN01013561
+rdfs:comment | The identifier for this communication event.
+edi3:cefactBieDomainClass | [cefact:Communication_Event.Details](#Communication_Event.Details)
+edi3:cefactBusinessProcess | In All Contexts
+
+@id | cefact:Attached_TransportEquipment.Identification.Identifier
+@type | edi3:BasicBIE
+edi3:cefactUNId | cefact:UN01003417
+rdfs:comment | A unique identifier of this piece of attached transport equipment.
+edi3:cefactBieDomainClass | [cefact:Attached_TransportEquipment.Details](#Attached_TransportEquipment.Details)
+edi3:cefactBusinessProcess | Buy-Ship-Pay
+
+@id | cefact:Referenced_Logistics_TransportEquipment.Identification.Identifier
+@type | edi3:BasicBIE
+edi3:cefactUNId | cefact:UN01004023
+rdfs:comment | The unique identifier for this referenced piece of logistics transport equipment, such as a number, mark or name.
+edi3:cefactBieDomainClass | [cefact:Referenced_ Logistics_TransportEquipment.Details](#Referenced_ Logistics_TransportEquipment.Details)
+edi3:cefactBusinessProcess | Buy-Ship-Pay
+
+@id | cefact:TransportService_Location.Identification.Identifier
+@type | edi3:BasicBIE
+edi3:cefactUNId | cefact:UN01010087
+rdfs:comment | An identifier for this transport service location, such as a United Nations Location Code (UNLOCODE) or GS1 Global Location Number (GLN).
+edi3:cefactBieDomainClass | [cefact:Transport Service_Location.Details](#Transport Service_Location.Details)
+edi3:cefactBusinessProcess | Transport
+
+@id | cefact:Goods_Production.Identification.Identifier
+@type | edi3:BasicBIE
+edi3:cefactUNId | cefact:UN01012677
+rdfs:comment | The identifier for this production of goods.
+edi3:cefactBieDomainClass | [cefact:Goods_Production.Details](#Goods_Production.Details)
+edi3:cefactBusinessProcess | Cross Industry
+
+@id | cefact:Specification_Response.Identification.Identifier
+@type | edi3:BasicBIE
+edi3:cefactUNId | cefact:UN01000078
+rdfs:comment | The unique identifier for this specification response.
+edi3:cefactBieDomainClass | [cefact:Specification_Response.Details](#Specification_Response.Details)
+edi3:cefactBusinessProcess | In All Contexts
+
+@id | cefact:Trade_ProductGroup.Identification.Identifier
+@type | edi3:BasicBIE
+edi3:cefactUNId | cefact:UN01011923
+rdfs:comment | An identifier for this trade product group.
+edi3:cefactBieDomainClass | [cefact:Trade_ProductGroup.Details](#Trade_ProductGroup.Details)
+edi3:cefactBusinessProcess | Trade
+
+@id | cefact:GeographicalCoordinate.Identification.Identifier
+@type | edi3:BasicBIE
+edi3:cefactUNId | cefact:UN01003623
+rdfs:comment | The unique identifier for this geographical coordinate.
+edi3:cefactBieDomainClass | [cefact:GeographicalCoordinate.Details](#GeographicalCoordinate.Details)
+edi3:cefactBusinessProcess | In All Contexts
+
+@id | cefact:Trade_Location.Identification.Identifier
+@type | edi3:BasicBIE
+edi3:cefactUNId | cefact:UN01001661
+rdfs:comment | The unique identifier for this location used or referenced in trade.
+edi3:cefactBieDomainClass | [cefact:Trade_Location.Details](#Trade_Location.Details)
+edi3:cefactBusinessProcess | Trade
+
+@id | cefact:Specified_BinaryFile.Identification.Identifier
+@type | edi3:BasicBIE
+edi3:cefactUNId | cefact:UN01006015
+rdfs:comment | A unique identifier for this specified binary file.
+edi3:cefactBieDomainClass | [cefact:Specified_BinaryFile.Details](#Specified_BinaryFile.Details)
+edi3:cefactBusinessProcess | In All Contexts
+
+@id | cefact:Calibrated_Measurement.Identification.Identifier
+@type | edi3:BasicBIE
+edi3:cefactUNId | cefact:UN01013532
+rdfs:comment | The identifier for this calibrated measurement.
+edi3:cefactBieDomainClass | [cefact:Calibrated_Measurement.Details](#Calibrated_Measurement.Details)
+edi3:cefactBusinessProcess | In All Contexts
 
 
 
@@ -28220,18 +28220,18 @@ Domains:
 
 Cefact Element Metadata: 
 
-@id | cefact:Line_TradeAgreement.Impact.Code
-@type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01012988
-rdfs:comment | The code specifying the impact for this line trade agreement.
-edi3:cefactBieDomainClass | [cefact:Line_TradeAgreement.Details](#Line_TradeAgreement.Details)
-edi3:cefactBusinessProcess | Buy-Ship-Pay
-
 @id | cefact:Header_TradeAgreement.Impact.Code
 @type | edi3:BasicBIE
 edi3:cefactUNId | cefact:UN01013024
 rdfs:comment | The code specifying the impact for this header trade agreement.
 edi3:cefactBieDomainClass | [cefact:Header_TradeAgreement.Details](#Header_TradeAgreement.Details)
+edi3:cefactBusinessProcess | Buy-Ship-Pay
+
+@id | cefact:Line_TradeAgreement.Impact.Code
+@type | edi3:BasicBIE
+edi3:cefactUNId | cefact:UN01012988
+rdfs:comment | The code specifying the impact for this line trade agreement.
+edi3:cefactBieDomainClass | [cefact:Line_TradeAgreement.Details](#Line_TradeAgreement.Details)
 edi3:cefactBusinessProcess | Buy-Ship-Pay
 
 
@@ -28498,18 +28498,18 @@ Domains:
 
 Cefact Element Metadata: 
 
-@id | cefact:DocumentLine_Document.Included.Note
-@type | edi3:AssociationBIE
-edi3:cefactUNId | cefact:UN01003519
-rdfs:comment | A note included in this document line.
-edi3:cefactBieDomainClass | [cefact:Document Line_Document.Details](#Document Line_Document.Details)
-edi3:cefactBusinessProcess | In All Contexts
-
 @id | cefact:Referenced_Document.Included.Note
 @type | edi3:AssociationBIE
 edi3:cefactUNId | cefact:UN01012756
 rdfs:comment | A note included in this referenced document.
 edi3:cefactBieDomainClass | [cefact:Referenced_Document.Details](#Referenced_Document.Details)
+edi3:cefactBusinessProcess | In All Contexts
+
+@id | cefact:DocumentLine_Document.Included.Note
+@type | edi3:AssociationBIE
+edi3:cefactUNId | cefact:UN01003519
+rdfs:comment | A note included in this document line.
+edi3:cefactBieDomainClass | [cefact:Document Line_Document.Details](#Document Line_Document.Details)
 edi3:cefactBusinessProcess | In All Contexts
 
 @id | cefact:Exchanged_Document.Included.Note
@@ -28866,6 +28866,13 @@ Domains:
 
 Cefact Element Metadata: 
 
+@id | cefact:Specified_GeographicalFeature.Included.Specified_Polygon
+@type | edi3:AssociationBIE
+edi3:cefactUNId | cefact:UN01012178
+rdfs:comment | The polygon included in this geographical feature.
+edi3:cefactBieDomainClass | [cefact:Specified_GeographicalFeature.Details](#Specified_GeographicalFeature.Details)
+edi3:cefactBusinessProcess | Agricultural
+
 @id | cefact:Specified_GeographicalMulti-Surface.Included.Specified_Polygon
 @type | edi3:AssociationBIE
 edi3:cefactUNId | cefact:UN01012198
@@ -28878,13 +28885,6 @@ edi3:cefactBusinessProcess | Agricultural
 edi3:cefactUNId | cefact:UN01012201
 rdfs:comment | The polygon included in this geographical surface.
 edi3:cefactBieDomainClass | [cefact:Specified_GeographicalSurface.Details](#Specified_GeographicalSurface.Details)
-edi3:cefactBusinessProcess | Agricultural
-
-@id | cefact:Specified_GeographicalFeature.Included.Specified_Polygon
-@type | edi3:AssociationBIE
-edi3:cefactUNId | cefact:UN01012178
-rdfs:comment | The polygon included in this geographical feature.
-edi3:cefactBieDomainClass | [cefact:Specified_GeographicalFeature.Details](#Specified_GeographicalFeature.Details)
 edi3:cefactBusinessProcess | Agricultural
 
 
@@ -28946,18 +28946,18 @@ Domains:
 
 Cefact Element Metadata: 
 
-@id | cefact:Header_TradeDelivery.Included.SupplyChain_Packaging
-@type | edi3:AssociationBIE
-edi3:cefactUNId | cefact:UN01011616
-rdfs:comment | Packaging, at header level, included in this trade delivery.
-edi3:cefactBieDomainClass | [cefact:Header_TradeDelivery.Details](#Header_TradeDelivery.Details)
-edi3:cefactBusinessProcess | Buy-Ship-Pay
-
 @id | cefact:Line_TradeDelivery.Included.SupplyChain_Packaging
 @type | edi3:AssociationBIE
 edi3:cefactUNId | cefact:UN01011776
 rdfs:comment | Packaging included, at line level, in this trade delivery.
 edi3:cefactBieDomainClass | [cefact:Line_TradeDelivery.Details](#Line_TradeDelivery.Details)
+edi3:cefactBusinessProcess | Buy-Ship-Pay
+
+@id | cefact:Header_TradeDelivery.Included.SupplyChain_Packaging
+@type | edi3:AssociationBIE
+edi3:cefactUNId | cefact:UN01011616
+rdfs:comment | Packaging, at header level, included in this trade delivery.
+edi3:cefactBieDomainClass | [cefact:Header_TradeDelivery.Details](#Header_TradeDelivery.Details)
 edi3:cefactBusinessProcess | Buy-Ship-Pay
 
 @id | cefact:SubordinateLine_TradeDelivery.Included.SupplyChain_Packaging
@@ -28985,13 +28985,6 @@ Domains:
 
 Cefact Element Metadata: 
 
-@id | cefact:SupplyChain_TradeTransaction.Included.SupplyChain_TradeLineItem
-@type | edi3:AssociationBIE
-edi3:cefactUNId | cefact:UN01004480
-rdfs:comment | A trade line item included in this supply chain trade transaction.
-edi3:cefactBieDomainClass | [cefact:Supply Chain_TradeTransaction.Details](#Supply Chain_TradeTransaction.Details)
-edi3:cefactBusinessProcess | Buy-Ship-Pay
-
 @id | cefact:Logistics_Package.Included.SupplyChain_TradeLineItem
 @type | edi3:AssociationBIE
 edi3:cefactUNId | cefact:UN01003706
@@ -29004,6 +28997,13 @@ edi3:cefactBusinessProcess | Buy-Ship-Pay
 edi3:cefactUNId | cefact:UN01004153
 rdfs:comment | A trade line item included in this supply chain consignment item.
 edi3:cefactBieDomainClass | [cefact:Supply Chain_ConsignmentItem.Details](#Supply Chain_ConsignmentItem.Details)
+edi3:cefactBusinessProcess | Buy-Ship-Pay
+
+@id | cefact:SupplyChain_TradeTransaction.Included.SupplyChain_TradeLineItem
+@type | edi3:AssociationBIE
+edi3:cefactUNId | cefact:UN01004480
+rdfs:comment | A trade line item included in this supply chain trade transaction.
+edi3:cefactBieDomainClass | [cefact:Supply Chain_TradeTransaction.Details](#Supply Chain_TradeTransaction.Details)
 edi3:cefactBusinessProcess | Buy-Ship-Pay
 
 @id | cefact:Referenced_SupplyChain_ConsignmentItem.Included.SupplyChain_TradeLineItem
@@ -29175,6 +29175,13 @@ Domains:
 
 Cefact Element Metadata: 
 
+@id | cefact:TradeSettlementLine_MonetarySummation.IncludingTaxes_LineTotal.Amount
+@type | edi3:BasicBIE
+edi3:cefactUNId | cefact:UN01013109
+rdfs:comment | A monetary value of the line total, including taxes, being reported in this trade settlement line monetary summation.
+edi3:cefactBieDomainClass | [cefact:Trade Settlement Line_MonetarySummation.Details](#Trade Settlement Line_MonetarySummation.Details)
+edi3:cefactBusinessProcess | Buy-Ship-Pay
+
 @id | cefact:TradeSettlementHeader_MonetarySummation.IncludingTaxes_LineTotal.Amount
 @type | edi3:BasicBIE
 edi3:cefactUNId | cefact:UN01012996
@@ -29187,13 +29194,6 @@ edi3:cefactBusinessProcess | Buy-Ship-Pay
 edi3:cefactUNId | cefact:UN01013110
 rdfs:comment | A monetary value of the line total, including taxes, being reported in this trade settlement payment monetary summation.
 edi3:cefactBieDomainClass | [cefact:Trade Settlement Payment_MonetarySummation.Details](#Trade Settlement Payment_MonetarySummation.Details)
-edi3:cefactBusinessProcess | Buy-Ship-Pay
-
-@id | cefact:TradeSettlementLine_MonetarySummation.IncludingTaxes_LineTotal.Amount
-@type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01013109
-rdfs:comment | A monetary value of the line total, including taxes, being reported in this trade settlement line monetary summation.
-edi3:cefactBieDomainClass | [cefact:Trade Settlement Line_MonetarySummation.Details](#Trade Settlement Line_MonetarySummation.Details)
 edi3:cefactBusinessProcess | Buy-Ship-Pay
 
 
@@ -29306,18 +29306,18 @@ Domains:
 
 Cefact Element Metadata: 
 
-@id | cefact:Debtor_FinancialInstitution.IndianFinancialSystem_Identification.Identifier
-@type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01002861
-rdfs:comment | The unique Indian Financial System Code identifier for this debtor financial institution.
-edi3:cefactBieDomainClass | [cefact:Debtor_FinancialInstitution.Details](#Debtor_FinancialInstitution.Details)
-edi3:cefactBusinessProcess | Customer to bank payment initiation
-
 @id | cefact:Creditor_FinancialInstitution.IndianFinancialSystem_Identification.Identifier
 @type | edi3:BasicBIE
 edi3:cefactUNId | cefact:UN01002996
 rdfs:comment | The unique Indian Financial System Code identifier for this creditor financial institution.
 edi3:cefactBieDomainClass | [cefact:Creditor_FinancialInstitution.Details](#Creditor_FinancialInstitution.Details)
+edi3:cefactBusinessProcess | Customer to bank payment initiation
+
+@id | cefact:Debtor_FinancialInstitution.IndianFinancialSystem_Identification.Identifier
+@type | edi3:BasicBIE
+edi3:cefactUNId | cefact:UN01002861
+rdfs:comment | The unique Indian Financial System Code identifier for this debtor financial institution.
+edi3:cefactBieDomainClass | [cefact:Debtor_FinancialInstitution.Details](#Debtor_FinancialInstitution.Details)
 edi3:cefactBusinessProcess | Customer to bank payment initiation
 
 
@@ -29379,18 +29379,18 @@ Domains:
 
 Cefact Element Metadata: 
 
-@id | cefact:Trade_Product.IndustryAssigned_Identification.Identifier
-@type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01004685
-rdfs:comment | A unique industry assigned identifier for this product.
-edi3:cefactBieDomainClass | [cefact:Trade_Product.Details](#Trade_Product.Details)
-edi3:cefactBusinessProcess | Buy-Ship-Pay
-
 @id | cefact:Referenced_Product.IndustryAssigned_Identification.Identifier
 @type | edi3:BasicBIE
 edi3:cefactUNId | cefact:UN01004033
 rdfs:comment | A unique industry assigned identifier for this referenced product.
 edi3:cefactBieDomainClass | [cefact:Referenced_Product.Details](#Referenced_Product.Details)
+edi3:cefactBusinessProcess | Buy-Ship-Pay
+
+@id | cefact:Trade_Product.IndustryAssigned_Identification.Identifier
+@type | edi3:BasicBIE
+edi3:cefactUNId | cefact:UN01004685
+rdfs:comment | A unique industry assigned identifier for this product.
+edi3:cefactBieDomainClass | [cefact:Trade_Product.Details](#Trade_Product.Details)
 edi3:cefactBusinessProcess | Buy-Ship-Pay
 
 
@@ -29409,6 +29409,13 @@ Domains:
 
 Cefact Element Metadata: 
 
+@id | cefact:TradeSettlementHeader_MonetarySummation.Information.Amount
+@type | edi3:BasicBIE
+edi3:cefactUNId | cefact:UN01011879
+rdfs:comment | A monetary value of an amount being reported for information in this trade settlement header monetary summation.
+edi3:cefactBieDomainClass | [cefact:Trade Settlement Header_MonetarySummation.Details](#Trade Settlement Header_MonetarySummation.Details)
+edi3:cefactBusinessProcess | Buy-Ship-Pay
+
 @id | cefact:Trade_Tax.Information.Amount
 @type | edi3:BasicBIE
 edi3:cefactUNId | cefact:UN01004741
@@ -29421,13 +29428,6 @@ edi3:cefactBusinessProcess | Buy-Ship-Pay
 edi3:cefactUNId | cefact:UN01011903
 rdfs:comment | A monetary value of an amount being reported for information in this trade settlement monetary summation.
 edi3:cefactBieDomainClass | [cefact:Trade Settlement Line_MonetarySummation.Details](#Trade Settlement Line_MonetarySummation.Details)
-edi3:cefactBusinessProcess | Buy-Ship-Pay
-
-@id | cefact:TradeSettlementHeader_MonetarySummation.Information.Amount
-@type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01011879
-rdfs:comment | A monetary value of an amount being reported for information in this trade settlement header monetary summation.
-edi3:cefactBieDomainClass | [cefact:Trade Settlement Header_MonetarySummation.Details](#Trade Settlement Header_MonetarySummation.Details)
 edi3:cefactBusinessProcess | Buy-Ship-Pay
 
 
@@ -29453,18 +29453,18 @@ rdfs:comment | An information note for this trade product.
 edi3:cefactBieDomainClass | [cefact:Trade_Product.Details](#Trade_Product.Details)
 edi3:cefactBusinessProcess | Buy-Ship-Pay
 
-@id | cefact:Line_TradeDelivery.Information.Note
-@type | edi3:AssociationBIE
-edi3:cefactUNId | cefact:UN01013012
-rdfs:comment | A note with information, at line level, for this trade delivery.
-edi3:cefactBieDomainClass | [cefact:Line_TradeDelivery.Details](#Line_TradeDelivery.Details)
-edi3:cefactBusinessProcess | Buy-Ship-Pay
-
 @id | cefact:Header_TradeDelivery.Information.Note
 @type | edi3:AssociationBIE
 edi3:cefactUNId | cefact:UN01011636
 rdfs:comment | A note with information, at header level, for this trade delivery.
 edi3:cefactBieDomainClass | [cefact:Header_TradeDelivery.Details](#Header_TradeDelivery.Details)
+edi3:cefactBusinessProcess | Buy-Ship-Pay
+
+@id | cefact:Line_TradeDelivery.Information.Note
+@type | edi3:AssociationBIE
+edi3:cefactUNId | cefact:UN01013012
+rdfs:comment | A note with information, at line level, for this trade delivery.
+edi3:cefactBieDomainClass | [cefact:Line_TradeDelivery.Details](#Line_TradeDelivery.Details)
 edi3:cefactBusinessProcess | Buy-Ship-Pay
 
 
@@ -29516,11 +29516,18 @@ Domains:
 
 Cefact Element Metadata: 
 
-@id | cefact:Transport_DangerousGoods.Information.Text
+@id | cefact:SupplyChain_ConsignmentItem.Information.Text
 @type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01004768
-rdfs:comment | Information, expressed as text, concerning the transport of these dangerous goods.
-edi3:cefactBieDomainClass | [cefact:Transport_DangerousGoods.Details](#Transport_DangerousGoods.Details)
+edi3:cefactUNId | cefact:UN01004128
+rdfs:comment | Information, expressed as text, for this supply chain consignment item.
+edi3:cefactBieDomainClass | [cefact:Supply Chain_ConsignmentItem.Details](#Supply Chain_ConsignmentItem.Details)
+edi3:cefactBusinessProcess | Buy-Ship-Pay
+
+@id | cefact:Document_Status.Information.Text
+@type | edi3:BasicBIE
+edi3:cefactUNId | cefact:UN01013128
+rdfs:comment | Information, expressed as text, for this document status.
+edi3:cefactBieDomainClass | [cefact:Document_Status.Details](#Document_Status.Details)
 edi3:cefactBusinessProcess | In All Contexts
 
 @id | cefact:TradeSettlement_PaymentMeans.Information.Text
@@ -29530,32 +29537,18 @@ rdfs:comment | Information, expressed as text, for this trade settlement payment
 edi3:cefactBieDomainClass | [cefact:Trade Settlement_PaymentMeans.Details](#Trade Settlement_PaymentMeans.Details)
 edi3:cefactBusinessProcess | Cross-Border
 
-@id | cefact:Logistics_TransportMovement.Information.Text
+@id | cefact:Transport_DangerousGoods.Information.Text
 @type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01006193
-rdfs:comment | Information, expressed as text, for this logistics transport movement.
-edi3:cefactBieDomainClass | [cefact:Logistics_TransportMovement.Details](#Logistics_TransportMovement.Details)
-edi3:cefactBusinessProcess | Cross-Border
-
-@id | cefact:Transport_Service.Information.Text
-@type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01004846
-rdfs:comment | Information, expressed as text, for this transport service.
-edi3:cefactBieDomainClass | [cefact:Transport_Service.Details](#Transport_Service.Details)
+edi3:cefactUNId | cefact:UN01004768
+rdfs:comment | Information, expressed as text, concerning the transport of these dangerous goods.
+edi3:cefactBieDomainClass | [cefact:Transport_DangerousGoods.Details](#Transport_DangerousGoods.Details)
 edi3:cefactBusinessProcess | In All Contexts
 
-@id | cefact:Document_Status.Information.Text
+@id | cefact:Exchanged_Document.Information.Text
 @type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01013128
-rdfs:comment | Information, expressed as text, for this document status.
-edi3:cefactBieDomainClass | [cefact:Document_Status.Details](#Document_Status.Details)
-edi3:cefactBusinessProcess | In All Contexts
-
-@id | cefact:Document_Authentication.Information.Text
-@type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01003522
-rdfs:comment | Information, expressed as text, for this document authentication.
-edi3:cefactBieDomainClass | [cefact:Document_Authentication.Details](#Document_Authentication.Details)
+edi3:cefactUNId | cefact:UN01003563
+rdfs:comment | Information, expressed as text, for this exchanged document.
+edi3:cefactBieDomainClass | [cefact:Exchanged_Document.Details](#Exchanged_Document.Details)
 edi3:cefactBusinessProcess | In All Contexts
 
 @id | cefact:Referenced_Document.Information.Text
@@ -29565,11 +29558,18 @@ rdfs:comment | Information, expressed as text, for this referenced document.
 edi3:cefactBieDomainClass | [cefact:Referenced_Document.Details](#Referenced_Document.Details)
 edi3:cefactBusinessProcess | In All Contexts
 
-@id | cefact:SupplyChain_Consignment.Information.Text
+@id | cefact:Logistics_TransportMovement.Information.Text
 @type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01004203
-rdfs:comment | Information, expressed as text, for this supply chain consignment.
-edi3:cefactBieDomainClass | [cefact:Supply Chain_Consignment.Details](#Supply Chain_Consignment.Details)
+edi3:cefactUNId | cefact:UN01006193
+rdfs:comment | Information, expressed as text, for this logistics transport movement.
+edi3:cefactBieDomainClass | [cefact:Logistics_TransportMovement.Details](#Logistics_TransportMovement.Details)
+edi3:cefactBusinessProcess | Cross-Border
+
+@id | cefact:SupplyChain_TradeTransaction.Information.Text
+@type | edi3:BasicBIE
+edi3:cefactUNId | cefact:UN01004479
+rdfs:comment | Information, expressed as text, for this supply chain trade transaction.
+edi3:cefactBieDomainClass | [cefact:Supply Chain_TradeTransaction.Details](#Supply Chain_TradeTransaction.Details)
 edi3:cefactBusinessProcess | Buy-Ship-Pay
 
 @id | cefact:Section_Segment.Information.Text
@@ -29579,27 +29579,6 @@ rdfs:comment | Information, expressed as text, in this section segment.
 edi3:cefactBieDomainClass | [cefact:Section_Segment.Details](#Section_Segment.Details)
 edi3:cefactBusinessProcess | Cross Industry Trade
 
-@id | cefact:Logistics_Package.Information.Text
-@type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01003704
-rdfs:comment | Information, expressed as text, for this logistics package.
-edi3:cefactBieDomainClass | [cefact:Logistics_Package.Details](#Logistics_Package.Details)
-edi3:cefactBusinessProcess | Buy-Ship-Pay
-
-@id | cefact:Exchanged_Document.Information.Text
-@type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01003563
-rdfs:comment | Information, expressed as text, for this exchanged document.
-edi3:cefactBieDomainClass | [cefact:Exchanged_Document.Details](#Exchanged_Document.Details)
-edi3:cefactBusinessProcess | In All Contexts
-
-@id | cefact:SupplyChain_ConsignmentItem.Information.Text
-@type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01004128
-rdfs:comment | Information, expressed as text, for this supply chain consignment item.
-edi3:cefactBieDomainClass | [cefact:Supply Chain_ConsignmentItem.Details](#Supply Chain_ConsignmentItem.Details)
-edi3:cefactBusinessProcess | Buy-Ship-Pay
-
 @id | cefact:Logistics_TransportEquipment.Information.Text
 @type | edi3:BasicBIE
 edi3:cefactUNId | cefact:UN01003778
@@ -29607,11 +29586,18 @@ rdfs:comment | Information, expressed as text, for this piece of logistics trans
 edi3:cefactBieDomainClass | [cefact:Logistics_TransportEquipment.Details](#Logistics_TransportEquipment.Details)
 edi3:cefactBusinessProcess | Buy-Ship-Pay
 
-@id | cefact:SupplyChain_TradeTransaction.Information.Text
+@id | cefact:Transport_Service.Information.Text
 @type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01004479
-rdfs:comment | Information, expressed as text, for this supply chain trade transaction.
-edi3:cefactBieDomainClass | [cefact:Supply Chain_TradeTransaction.Details](#Supply Chain_TradeTransaction.Details)
+edi3:cefactUNId | cefact:UN01004846
+rdfs:comment | Information, expressed as text, for this transport service.
+edi3:cefactBieDomainClass | [cefact:Transport_Service.Details](#Transport_Service.Details)
+edi3:cefactBusinessProcess | In All Contexts
+
+@id | cefact:SupplyChain_Consignment.Information.Text
+@type | edi3:BasicBIE
+edi3:cefactUNId | cefact:UN01004203
+rdfs:comment | Information, expressed as text, for this supply chain consignment.
+edi3:cefactBieDomainClass | [cefact:Supply Chain_Consignment.Details](#Supply Chain_Consignment.Details)
 edi3:cefactBusinessProcess | Buy-Ship-Pay
 
 @id | cefact:Referenced_Logistics_Package.Information.Text
@@ -29619,6 +29605,20 @@ edi3:cefactBusinessProcess | Buy-Ship-Pay
 edi3:cefactUNId | cefact:UN01013105
 rdfs:comment | Information, expressed as text, for this referenced logistics package.
 edi3:cefactBieDomainClass | [cefact:Referenced_ Logistics_Package.Details](#Referenced_ Logistics_Package.Details)
+edi3:cefactBusinessProcess | Buy-Ship-Pay
+
+@id | cefact:Document_Authentication.Information.Text
+@type | edi3:BasicBIE
+edi3:cefactUNId | cefact:UN01003522
+rdfs:comment | Information, expressed as text, for this document authentication.
+edi3:cefactBieDomainClass | [cefact:Document_Authentication.Details](#Document_Authentication.Details)
+edi3:cefactBusinessProcess | In All Contexts
+
+@id | cefact:Logistics_Package.Information.Text
+@type | edi3:BasicBIE
+edi3:cefactUNId | cefact:UN01003704
+rdfs:comment | Information, expressed as text, for this logistics package.
+edi3:cefactBieDomainClass | [cefact:Logistics_Package.Details](#Logistics_Package.Details)
 edi3:cefactBusinessProcess | Buy-Ship-Pay
 
 
@@ -29725,18 +29725,18 @@ Domains:
 
 Cefact Element Metadata: 
 
-@id | cefact:Logistics_Location.Inspection.SupplyChain_Event
-@type | edi3:AssociationBIE
-edi3:cefactUNId | cefact:UN01013121
-rdfs:comment | A supply chain inspection event at this logistics location.
-edi3:cefactBieDomainClass | [cefact:Logistics_Location.Details](#Logistics_Location.Details)
-edi3:cefactBusinessProcess | Buy-Ship-Pay
-
 @id | cefact:Trade_ProductInstance.Inspection.SupplyChain_Event
 @type | edi3:AssociationBIE
 edi3:cefactUNId | cefact:UN01004676
 rdfs:comment | The inspection event for this trade product instance.
 edi3:cefactBieDomainClass | [cefact:Trade_ProductInstance.Details](#Trade_ProductInstance.Details)
+edi3:cefactBusinessProcess | Buy-Ship-Pay
+
+@id | cefact:Logistics_Location.Inspection.SupplyChain_Event
+@type | edi3:AssociationBIE
+edi3:cefactUNId | cefact:UN01013121
+rdfs:comment | A supply chain inspection event at this logistics location.
+edi3:cefactBieDomainClass | [cefact:Logistics_Location.Details](#Logistics_Location.Details)
 edi3:cefactBusinessProcess | Buy-Ship-Pay
 
 
@@ -30122,19 +30122,19 @@ Domains:
 
 Cefact Element Metadata: 
 
-@id | cefact:Header_TradeDelivery.InventoryManager.Trade_Party
-@type | edi3:AssociationBIE
-edi3:cefactUNId | cefact:UN01011635
-rdfs:comment | An inventory manager party, at header level, for this trade delivery.
-edi3:cefactBieDomainClass | [cefact:Header_TradeDelivery.Details](#Header_TradeDelivery.Details)
-edi3:cefactBusinessProcess | In All Contexts
-
 @id | cefact:Line_TradeDelivery.InventoryManager.Trade_Party
 @type | edi3:AssociationBIE
 edi3:cefactUNId | cefact:UN01013016
 rdfs:comment | An inventory manager party, at line level, for this trade delivery.
 edi3:cefactBieDomainClass | [cefact:Line_TradeDelivery.Details](#Line_TradeDelivery.Details)
 edi3:cefactBusinessProcess | Buy-Ship-Pay
+
+@id | cefact:Header_TradeDelivery.InventoryManager.Trade_Party
+@type | edi3:AssociationBIE
+edi3:cefactUNId | cefact:UN01011635
+rdfs:comment | An inventory manager party, at header level, for this trade delivery.
+edi3:cefactBieDomainClass | [cefact:Header_TradeDelivery.Details](#Header_TradeDelivery.Details)
+edi3:cefactBusinessProcess | In All Contexts
 
 
 
@@ -30247,19 +30247,19 @@ Domains:
 
 Cefact Element Metadata: 
 
-@id | cefact:Header_TradeSettlement.Invoice.DateTime
-@type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01011658
-rdfs:comment | The date, time, date time or other date time value of the invoice in this header trade settlement.
-edi3:cefactBieDomainClass | [cefact:Header_TradeSettlement.Details](#Header_TradeSettlement.Details)
-edi3:cefactBusinessProcess | Supply Chain
-
 @id | cefact:Line_TradeSettlement.Invoice.DateTime
 @type | edi3:BasicBIE
 edi3:cefactUNId | cefact:UN01013111
 rdfs:comment | The date, time, date time or other date time value of the invoice in this line trade settlement.
 edi3:cefactBieDomainClass | [cefact:Line_TradeSettlement.Details](#Line_TradeSettlement.Details)
 edi3:cefactBusinessProcess | Buy-Ship-Pay
+
+@id | cefact:Header_TradeSettlement.Invoice.DateTime
+@type | edi3:BasicBIE
+edi3:cefactUNId | cefact:UN01011658
+rdfs:comment | The date, time, date time or other date time value of the invoice in this header trade settlement.
+edi3:cefactBieDomainClass | [cefact:Header_TradeSettlement.Details](#Header_TradeSettlement.Details)
+edi3:cefactBusinessProcess | Supply Chain
 
 
 
@@ -30378,18 +30378,18 @@ Domains:
 
 Cefact Element Metadata: 
 
-@id | cefact:Line_TradeSettlement.Invoicee.Trade_Party
-@type | edi3:AssociationBIE
-edi3:cefactUNId | cefact:UN01011804
-rdfs:comment | The party to whom an invoice is issued for this line trade settlement.
-edi3:cefactBieDomainClass | [cefact:Line_TradeSettlement.Details](#Line_TradeSettlement.Details)
-edi3:cefactBusinessProcess | Buy-Ship-Pay
-
 @id | cefact:Header_TradeSettlement.Invoicee.Trade_Party
 @type | edi3:AssociationBIE
 edi3:cefactUNId | cefact:UN01011663
 rdfs:comment | The party to whom an invoice is issued for this header trade settlement.
 edi3:cefactBieDomainClass | [cefact:Header_TradeSettlement.Details](#Header_TradeSettlement.Details)
+edi3:cefactBusinessProcess | Buy-Ship-Pay
+
+@id | cefact:Line_TradeSettlement.Invoicee.Trade_Party
+@type | edi3:AssociationBIE
+edi3:cefactUNId | cefact:UN01011804
+rdfs:comment | The party to whom an invoice is issued for this line trade settlement.
+edi3:cefactBieDomainClass | [cefact:Line_TradeSettlement.Details](#Line_TradeSettlement.Details)
 edi3:cefactBusinessProcess | Buy-Ship-Pay
 
 
@@ -30429,18 +30429,18 @@ Domains:
 
 Cefact Element Metadata: 
 
-@id | cefact:Creditor_FinancialInstitution.IrishNSC_Identification.Identifier
-@type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01002980
-rdfs:comment | The unique Irish National Sorting Code (NSC) identifier as assigned by the Irish Payments Services Organisation (IPSO) for this creditor financial institution.
-edi3:cefactBieDomainClass | [cefact:Creditor_FinancialInstitution.Details](#Creditor_FinancialInstitution.Details)
-edi3:cefactBusinessProcess | Customer to bank payment initiation
-
 @id | cefact:Debtor_FinancialInstitution.IrishNSC_Identification.Identifier
 @type | edi3:BasicBIE
 edi3:cefactUNId | cefact:UN01002845
 rdfs:comment | The unique Irish National Sorting Code (NSC) identifier as assigned by the Irish Payments Services Organisation (IPSO) for this debtor financial institution.
 edi3:cefactBieDomainClass | [cefact:Debtor_FinancialInstitution.Details](#Debtor_FinancialInstitution.Details)
+edi3:cefactBusinessProcess | Customer to bank payment initiation
+
+@id | cefact:Creditor_FinancialInstitution.IrishNSC_Identification.Identifier
+@type | edi3:BasicBIE
+edi3:cefactUNId | cefact:UN01002980
+rdfs:comment | The unique Irish National Sorting Code (NSC) identifier as assigned by the Irish Payments Services Organisation (IPSO) for this creditor financial institution.
+edi3:cefactBieDomainClass | [cefact:Creditor_FinancialInstitution.Details](#Creditor_FinancialInstitution.Details)
 edi3:cefactBusinessProcess | Customer to bank payment initiation
 
 
@@ -30467,13 +30467,6 @@ rdfs:comment | The date, time, date time, or other date time value for the issua
 edi3:cefactBieDomainClass | [cefact:Document Line_Document.Details](#Document Line_Document.Details)
 edi3:cefactBusinessProcess | Supply Chain
 
-@id | cefact:Product_Certificate.Issue.DateTime
-@type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01012485
-rdfs:comment | The date, time, date time, or other date time value when this product certificate was issued.
-edi3:cefactBieDomainClass | [cefact:Product_Certificate.Details](#Product_Certificate.Details)
-edi3:cefactBusinessProcess | Traceability
-
 @id | cefact:Acknowledgement_Document.Issue.DateTime
 @type | edi3:BasicBIE
 edi3:cefactUNId | cefact:UN01002107
@@ -30481,18 +30474,25 @@ rdfs:comment | The date, time, date time or other date time value for the issuan
 edi3:cefactBieDomainClass | [cefact:Acknowledgement_Document.Details](#Acknowledgement_Document.Details)
 edi3:cefactBusinessProcess | In All Contexts
 
-@id | cefact:Exchanged_Document.Issue.DateTime
-@type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01002493
-rdfs:comment | The date, time, date time or other date time value for the issuance of this exchanged document.
-edi3:cefactBieDomainClass | [cefact:Exchanged_Document.Details](#Exchanged_Document.Details)
-edi3:cefactBusinessProcess | In All Contexts
-
 @id | cefact:Document_Version.Issue.DateTime
 @type | edi3:BasicBIE
 edi3:cefactUNId | cefact:UN01003593
 rdfs:comment | The date, time, date and time or other date time value of issue of this document version.
 edi3:cefactBieDomainClass | [cefact:Document_Version.Details](#Document_Version.Details)
+edi3:cefactBusinessProcess | In All Contexts
+
+@id | cefact:Product_Certificate.Issue.DateTime
+@type | edi3:BasicBIE
+edi3:cefactUNId | cefact:UN01012485
+rdfs:comment | The date, time, date time, or other date time value when this product certificate was issued.
+edi3:cefactBieDomainClass | [cefact:Product_Certificate.Details](#Product_Certificate.Details)
+edi3:cefactBusinessProcess | Traceability
+
+@id | cefact:Exchanged_Document.Issue.DateTime
+@type | edi3:BasicBIE
+edi3:cefactUNId | cefact:UN01002493
+rdfs:comment | The date, time, date time or other date time value for the issuance of this exchanged document.
+edi3:cefactBieDomainClass | [cefact:Exchanged_Document.Details](#Exchanged_Document.Details)
 edi3:cefactBusinessProcess | In All Contexts
 
 
@@ -30548,18 +30548,18 @@ rdfs:comment | The issue location for this document authentication.
 edi3:cefactBieDomainClass | [cefact:Document_Authentication.Details](#Document_Authentication.Details)
 edi3:cefactBusinessProcess | Buy-Ship-Pay
 
-@id | cefact:Exchanged_Document.Issue.Logistics_Location
-@type | edi3:AssociationBIE
-edi3:cefactUNId | cefact:UN01003580
-rdfs:comment | The location where this exchanged document has been issued.
-edi3:cefactBieDomainClass | [cefact:Exchanged_Document.Details](#Exchanged_Document.Details)
-edi3:cefactBusinessProcess | In All Contexts
-
 @id | cefact:Referenced_Document.Issue.Logistics_Location
 @type | edi3:AssociationBIE
 edi3:cefactUNId | cefact:UN01004018
 rdfs:comment | The logistics related location where this referenced document has been issued.
 edi3:cefactBieDomainClass | [cefact:Referenced_Document.Details](#Referenced_Document.Details)
+edi3:cefactBusinessProcess | In All Contexts
+
+@id | cefact:Exchanged_Document.Issue.Logistics_Location
+@type | edi3:AssociationBIE
+edi3:cefactUNId | cefact:UN01003580
+rdfs:comment | The location where this exchanged document has been issued.
+edi3:cefactBieDomainClass | [cefact:Exchanged_Document.Details](#Exchanged_Document.Details)
 edi3:cefactBusinessProcess | In All Contexts
 
 
@@ -30746,11 +30746,11 @@ Domains:
 
 Cefact Element Metadata: 
 
-@id | cefact:Grouped_WorkItem.Item.Basic_WorkItem
+@id | cefact:Basic_WorkItem.Item.Basic_WorkItem
 @type | edi3:AssociationBIE
-edi3:cefactUNId | cefact:UN01007569
-rdfs:comment | A basic work item within this grouped work item.
-edi3:cefactBieDomainClass | [cefact:Grouped_WorkItem.Details](#Grouped_WorkItem.Details)
+edi3:cefactUNId | cefact:UN01007567
+rdfs:comment | A basic work item in this basic work item.
+edi3:cefactBieDomainClass | [cefact:Basic_WorkItem.Details](#Basic_WorkItem.Details)
 edi3:cefactBusinessProcess | In All Contexts
 
 @id | cefact:Valuation_BreakdownStatement.Item.Basic_WorkItem
@@ -30760,11 +30760,11 @@ rdfs:comment | A basic work item in this valuation breakdown statement.
 edi3:cefactBieDomainClass | [cefact:Valuation_BreakdownStatement.Details](#Valuation_BreakdownStatement.Details)
 edi3:cefactBusinessProcess | Invoicing
 
-@id | cefact:Basic_WorkItem.Item.Basic_WorkItem
+@id | cefact:Grouped_WorkItem.Item.Basic_WorkItem
 @type | edi3:AssociationBIE
-edi3:cefactUNId | cefact:UN01007567
-rdfs:comment | A basic work item in this basic work item.
-edi3:cefactBieDomainClass | [cefact:Basic_WorkItem.Details](#Basic_WorkItem.Details)
+edi3:cefactUNId | cefact:UN01007569
+rdfs:comment | A basic work item within this grouped work item.
+edi3:cefactBieDomainClass | [cefact:Grouped_WorkItem.Details](#Grouped_WorkItem.Details)
 edi3:cefactBusinessProcess | In All Contexts
 
 
@@ -30951,18 +30951,18 @@ Domains:
 
 Cefact Element Metadata: 
 
-@id | cefact:Debtor_FinancialInstitution.JapanFinancialInstitutionCommon_Identification.Identifier
-@type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01011473
-rdfs:comment | The Japan Financial Institution Common identifier as assigned by the Japanese Bankers Association for this debtor financial institution.
-edi3:cefactBieDomainClass | [cefact:Debtor_FinancialInstitution.Details](#Debtor_FinancialInstitution.Details)
-edi3:cefactBusinessProcess | Customer to bank payment initiation
-
 @id | cefact:Creditor_FinancialInstitution.JapanFinancialInstitutionCommon_Identification.Identifier
 @type | edi3:BasicBIE
 edi3:cefactUNId | cefact:UN01011472
 rdfs:comment | The Japan Financial Institution Common identifier as assigned by the Japanese Bankers Association for this creditor financial institution.
 edi3:cefactBieDomainClass | [cefact:Creditor_FinancialInstitution.Details](#Creditor_FinancialInstitution.Details)
+edi3:cefactBusinessProcess | Customer to bank payment initiation
+
+@id | cefact:Debtor_FinancialInstitution.JapanFinancialInstitutionCommon_Identification.Identifier
+@type | edi3:BasicBIE
+edi3:cefactUNId | cefact:UN01011473
+rdfs:comment | The Japan Financial Institution Common identifier as assigned by the Japanese Bankers Association for this debtor financial institution.
+edi3:cefactBieDomainClass | [cefact:Debtor_FinancialInstitution.Details](#Debtor_FinancialInstitution.Details)
 edi3:cefactBusinessProcess | Customer to bank payment initiation
 
 
@@ -31164,18 +31164,18 @@ Domains:
 
 Cefact Element Metadata: 
 
-@id | cefact:Referenced_Document.Language.Identifier
-@type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01008989
-rdfs:comment | An identifier for a language used in this referenced document.
-edi3:cefactBieDomainClass | [cefact:Referenced_Document.Details](#Referenced_Document.Details)
-edi3:cefactBusinessProcess | In All Contexts
-
 @id | cefact:Transport_Person.Language.Identifier
 @type | edi3:BasicBIE
 edi3:cefactUNId | cefact:UN01004819
 rdfs:comment | A unique identifier of a language related to this transport person, such as their spoken or correspondence language.
 edi3:cefactBieDomainClass | [cefact:Transport_Person.Details](#Transport_Person.Details)
+edi3:cefactBusinessProcess | In All Contexts
+
+@id | cefact:Referenced_Document.Language.Identifier
+@type | edi3:BasicBIE
+edi3:cefactUNId | cefact:UN01008989
+rdfs:comment | An identifier for a language used in this referenced document.
+edi3:cefactBieDomainClass | [cefact:Referenced_Document.Details](#Referenced_Document.Details)
 edi3:cefactBusinessProcess | In All Contexts
 
 
@@ -31347,18 +31347,18 @@ Domains:
 
 Cefact Element Metadata: 
 
-@id | cefact:Specified_GeographicalCoordinate.LatitudeDirection.Indicator
-@type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01002030
-rdfs:comment | The indication of whether the latitude compass direction from the Equator meridian to the meridian of a specific place for this specified geographical coordinate is North (+) or South (-).  (Reference ISO 6709).
-edi3:cefactBieDomainClass | [cefact:Specified_GeographicalCoordinate.Details](#Specified_GeographicalCoordinate.Details)
-edi3:cefactBusinessProcess | In All Contexts
-
 @id | cefact:GeographicalCoordinate.LatitudeDirection.Indicator
 @type | edi3:BasicBIE
 edi3:cefactUNId | cefact:UN01003620
 rdfs:comment | The indication of whether the latitude compass direction from the Equator meridian to the meridian of a specific place is North (+) or South (-)  (Reference ISO 6709).
 edi3:cefactBieDomainClass | [cefact:GeographicalCoordinate.Details](#GeographicalCoordinate.Details)
+edi3:cefactBusinessProcess | In All Contexts
+
+@id | cefact:Specified_GeographicalCoordinate.LatitudeDirection.Indicator
+@type | edi3:BasicBIE
+edi3:cefactUNId | cefact:UN01002030
+rdfs:comment | The indication of whether the latitude compass direction from the Equator meridian to the meridian of a specific place for this specified geographical coordinate is North (+) or South (-).  (Reference ISO 6709).
+edi3:cefactBieDomainClass | [cefact:Specified_GeographicalCoordinate.Details](#Specified_GeographicalCoordinate.Details)
 edi3:cefactBusinessProcess | In All Contexts
 
 
@@ -31582,13 +31582,6 @@ Domains:
 
 Cefact Element Metadata: 
 
-@id | cefact:Header_TradeSettlement.LetterOfCredit.Referenced_Document
-@type | edi3:AssociationBIE
-edi3:cefactUNId | cefact:UN01011682
-rdfs:comment | The letter of credit document referenced in this header trade settlement.
-edi3:cefactBieDomainClass | [cefact:Header_TradeSettlement.Details](#Header_TradeSettlement.Details)
-edi3:cefactBusinessProcess | Trade
-
 @id | cefact:Line_TradeAgreement.LetterOfCredit.Referenced_Document
 @type | edi3:AssociationBIE
 edi3:cefactUNId | cefact:UN01011744
@@ -31601,6 +31594,13 @@ edi3:cefactBusinessProcess | Trade
 edi3:cefactUNId | cefact:UN01011596
 rdfs:comment | The letter of credit document referenced in this header trade agreement.
 edi3:cefactBieDomainClass | [cefact:Header_TradeAgreement.Details](#Header_TradeAgreement.Details)
+edi3:cefactBusinessProcess | Trade
+
+@id | cefact:Header_TradeSettlement.LetterOfCredit.Referenced_Document
+@type | edi3:AssociationBIE
+edi3:cefactUNId | cefact:UN01011682
+rdfs:comment | The letter of credit document referenced in this header trade settlement.
+edi3:cefactBieDomainClass | [cefact:Header_TradeSettlement.Details](#Header_TradeSettlement.Details)
 edi3:cefactBusinessProcess | Trade
 
 
@@ -31815,19 +31815,19 @@ Domains:
 
 Cefact Element Metadata: 
 
-@id | cefact:Referenced_Document.Line.Identifier
-@type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01001575
-rdfs:comment | The unique identifier of a line in this referenced document.
-edi3:cefactBieDomainClass | [cefact:Referenced_Document.Details](#Referenced_Document.Details)
-edi3:cefactBusinessProcess | Trade
-
 @id | cefact:DocumentLine_Document.Line.Identifier
 @type | edi3:BasicBIE
 edi3:cefactUNId | cefact:UN01003514
 rdfs:comment | The unique identifier of this document line.
 edi3:cefactBieDomainClass | [cefact:Document Line_Document.Details](#Document Line_Document.Details)
 edi3:cefactBusinessProcess | In All Contexts
+
+@id | cefact:Referenced_Document.Line.Identifier
+@type | edi3:BasicBIE
+edi3:cefactUNId | cefact:UN01001575
+rdfs:comment | The unique identifier of a line in this referenced document.
+edi3:cefactBieDomainClass | [cefact:Referenced_Document.Details](#Referenced_Document.Details)
+edi3:cefactBusinessProcess | Trade
 
 
 
@@ -31845,19 +31845,19 @@ Domains:
 
 Cefact Element Metadata: 
 
-@id | cefact:Exchanged_Document.Line_Item.Quantity
-@type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01003568
-rdfs:comment | The number of line items in this exchanged document.
-edi3:cefactBieDomainClass | [cefact:Exchanged_Document.Details](#Exchanged_Document.Details)
-edi3:cefactBusinessProcess | In All Contexts
-
 @id | cefact:SupplyChain_TradeTransaction.LineItem.Quantity
 @type | edi3:BasicBIE
 edi3:cefactUNId | cefact:UN01004902
 rdfs:comment | The number of line items for this supply chain trade transaction.
 edi3:cefactBieDomainClass | [cefact:Supply Chain_TradeTransaction.Details](#Supply Chain_TradeTransaction.Details)
 edi3:cefactBusinessProcess | Cross-Border
+
+@id | cefact:Exchanged_Document.Line_Item.Quantity
+@type | edi3:BasicBIE
+edi3:cefactUNId | cefact:UN01003568
+rdfs:comment | The number of line items in this exchanged document.
+edi3:cefactBieDomainClass | [cefact:Exchanged_Document.Details](#Exchanged_Document.Details)
+edi3:cefactBusinessProcess | In All Contexts
 
 
 
@@ -31875,18 +31875,18 @@ Domains:
 
 Cefact Element Metadata: 
 
-@id | cefact:Requesting_Party.LineOfCredit_Specified.Financing_FinancialAccount
-@type | edi3:AssociationBIE
-edi3:cefactUNId | cefact:UN01013293
-rdfs:comment | The financing financial account, used for managing the line of credit, specified for this requesting party.
-edi3:cefactBieDomainClass | [cefact:Requesting_Party.Details](#Requesting_Party.Details)
-edi3:cefactBusinessProcess | Buy-Ship-Pay
-
 @id | cefact:FinancingSummary_Document.LineOfCredit_Specified.Financing_FinancialAccount
 @type | edi3:AssociationBIE
 edi3:cefactUNId | cefact:UN01013251
 rdfs:comment | The financing financial account, used for managing the line of credit, specified for this financing summary document.
 edi3:cefactBieDomainClass | [cefact:Financing Summary_Document.Details](#Financing Summary_Document.Details)
+edi3:cefactBusinessProcess | Buy-Ship-Pay
+
+@id | cefact:Requesting_Party.LineOfCredit_Specified.Financing_FinancialAccount
+@type | edi3:AssociationBIE
+edi3:cefactUNId | cefact:UN01013293
+rdfs:comment | The financing financial account, used for managing the line of credit, specified for this requesting party.
+edi3:cefactBieDomainClass | [cefact:Requesting_Party.Details](#Requesting_Party.Details)
 edi3:cefactBusinessProcess | Buy-Ship-Pay
 
 
@@ -31904,19 +31904,19 @@ Domains:
 
 Cefact Element Metadata: 
 
-@id | cefact:FinancialInstitution_Address.LineOne.Text
-@type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01003175
-rdfs:comment | The first free form line, expressed as text, of this financial institution address.
-edi3:cefactBieDomainClass | [cefact:Financial Institution_Address.Details](#Financial Institution_Address.Details)
-edi3:cefactBusinessProcess | Customer to bank payment initiation
-
 @id | cefact:Trade_Address.LineOne.Text
 @type | edi3:BasicBIE
 edi3:cefactUNId | cefact:UN01004538
 rdfs:comment | The first free form line, expressed as text, of this trade address.
 edi3:cefactBieDomainClass | [cefact:Trade_Address.Details](#Trade_Address.Details)
 edi3:cefactBusinessProcess | Buy-Ship-Pay
+
+@id | cefact:FinancialInstitution_Address.LineOne.Text
+@type | edi3:BasicBIE
+edi3:cefactUNId | cefact:UN01003175
+rdfs:comment | The first free form line, expressed as text, of this financial institution address.
+edi3:cefactBieDomainClass | [cefact:Financial Institution_Address.Details](#Financial Institution_Address.Details)
+edi3:cefactBusinessProcess | Customer to bank payment initiation
 
 
 
@@ -32079,19 +32079,19 @@ Domains:
 
 Cefact Element Metadata: 
 
-@id | cefact:Trade_Address.LineTwo.Text
-@type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01004539
-rdfs:comment | The second free form line, expressed as text, of this trade address.
-edi3:cefactBieDomainClass | [cefact:Trade_Address.Details](#Trade_Address.Details)
-edi3:cefactBusinessProcess | Buy-Ship-Pay
-
 @id | cefact:FinancialInstitution_Address.LineTwo.Text
 @type | edi3:BasicBIE
 edi3:cefactUNId | cefact:UN01003176
 rdfs:comment | The second free form line, expressed as text, of this financial institution address.
 edi3:cefactBieDomainClass | [cefact:Financial Institution_Address.Details](#Financial Institution_Address.Details)
 edi3:cefactBusinessProcess | Customer to bank payment initiation
+
+@id | cefact:Trade_Address.LineTwo.Text
+@type | edi3:BasicBIE
+edi3:cefactUNId | cefact:UN01004539
+rdfs:comment | The second free form line, expressed as text, of this trade address.
+edi3:cefactBieDomainClass | [cefact:Trade_Address.Details](#Trade_Address.Details)
+edi3:cefactBusinessProcess | Buy-Ship-Pay
 
 
 
@@ -32112,11 +32112,25 @@ Domains:
 
 Cefact Element Metadata: 
 
+@id | cefact:Logistics_TransportEquipment.Linear.Spatial_Dimension
+@type | edi3:AssociationBIE
+edi3:cefactUNId | cefact:UN01003796
+rdfs:comment | The linear spatial dimensions of this piece of logistics transport equipment.
+edi3:cefactBieDomainClass | [cefact:Logistics_TransportEquipment.Details](#Logistics_TransportEquipment.Details)
+edi3:cefactBusinessProcess | Buy-Ship-Pay
+
 @id | cefact:Logistics_Package.Linear.Spatial_Dimension
 @type | edi3:AssociationBIE
 edi3:cefactUNId | cefact:UN01003707
 rdfs:comment | The linear spatial dimensions of this logistics package.
 edi3:cefactBieDomainClass | [cefact:Logistics_Package.Details](#Logistics_Package.Details)
+edi3:cefactBusinessProcess | Buy-Ship-Pay
+
+@id | cefact:SupplyChain_ConsignmentItem.Linear.Spatial_Dimension
+@type | edi3:AssociationBIE
+edi3:cefactUNId | cefact:UN01004136
+rdfs:comment | The linear spatial dimensions of this supply chain consignment item.
+edi3:cefactBieDomainClass | [cefact:Supply Chain_ConsignmentItem.Details](#Supply Chain_ConsignmentItem.Details)
 edi3:cefactBusinessProcess | Buy-Ship-Pay
 
 @id | cefact:Trade_Product.Linear.Spatial_Dimension
@@ -32126,25 +32140,11 @@ rdfs:comment | Linear spatial dimensions of this trade product.
 edi3:cefactBieDomainClass | [cefact:Trade_Product.Details](#Trade_Product.Details)
 edi3:cefactBusinessProcess | Buy-Ship-Pay
 
-@id | cefact:Logistics_TransportEquipment.Linear.Spatial_Dimension
-@type | edi3:AssociationBIE
-edi3:cefactUNId | cefact:UN01003796
-rdfs:comment | The linear spatial dimensions of this piece of logistics transport equipment.
-edi3:cefactBieDomainClass | [cefact:Logistics_TransportEquipment.Details](#Logistics_TransportEquipment.Details)
-edi3:cefactBusinessProcess | Buy-Ship-Pay
-
 @id | cefact:SupplyChain_Packaging.Linear.Spatial_Dimension
 @type | edi3:AssociationBIE
 edi3:cefactUNId | cefact:UN01004320
 rdfs:comment | The linear spatial dimensions of this supply chain packaging.
 edi3:cefactBieDomainClass | [cefact:Supply Chain_Packaging.Details](#Supply Chain_Packaging.Details)
-edi3:cefactBusinessProcess | Buy-Ship-Pay
-
-@id | cefact:SupplyChain_ConsignmentItem.Linear.Spatial_Dimension
-@type | edi3:AssociationBIE
-edi3:cefactUNId | cefact:UN01004136
-rdfs:comment | The linear spatial dimensions of this supply chain consignment item.
-edi3:cefactBieDomainClass | [cefact:Supply Chain_ConsignmentItem.Details](#Supply Chain_ConsignmentItem.Details)
 edi3:cefactBusinessProcess | Buy-Ship-Pay
 
 
@@ -32472,19 +32472,19 @@ Domains:
 
 Cefact Element Metadata: 
 
-@id | cefact:Logistics_TransportEquipment.LoadingSequence.Numeric
-@type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01010098
-rdfs:comment | The sequence number differentiating this piece of logistics transport equipment from others during loading.
-edi3:cefactBieDomainClass | [cefact:Logistics_TransportEquipment.Details](#Logistics_TransportEquipment.Details)
-edi3:cefactBusinessProcess | Transport
-
 @id | cefact:SupplyChain_Consignment.LoadingSequence.Numeric
 @type | edi3:BasicBIE
 edi3:cefactUNId | cefact:UN01004168
 rdfs:comment | The loading sequence number for this supply chain consignment.
 edi3:cefactBieDomainClass | [cefact:Supply Chain_Consignment.Details](#Supply Chain_Consignment.Details)
 edi3:cefactBusinessProcess | Buy-Ship-Pay
+
+@id | cefact:Logistics_TransportEquipment.LoadingSequence.Numeric
+@type | edi3:BasicBIE
+edi3:cefactUNId | cefact:UN01010098
+rdfs:comment | The sequence number differentiating this piece of logistics transport equipment from others during loading.
+edi3:cefactBieDomainClass | [cefact:Logistics_TransportEquipment.Details](#Logistics_TransportEquipment.Details)
+edi3:cefactBusinessProcess | Transport
 
 
 
@@ -32649,13 +32649,6 @@ Domains:
 
 Cefact Element Metadata: 
 
-@id | cefact:Creditor_FinancialInstitution.Location.FinancialInstitution_Address
-@type | edi3:AssociationBIE
-edi3:cefactUNId | cefact:UN01003000
-rdfs:comment | The location address for this creditor financial institution.
-edi3:cefactBieDomainClass | [cefact:Creditor_FinancialInstitution.Details](#Creditor_FinancialInstitution.Details)
-edi3:cefactBusinessProcess | Customer to bank payment initiation
-
 @id | cefact:Debtor_FinancialInstitution.Location.FinancialInstitution_Address
 @type | edi3:AssociationBIE
 edi3:cefactUNId | cefact:UN01002865
@@ -32668,6 +32661,13 @@ edi3:cefactBusinessProcess | Customer to bank payment initiation
 edi3:cefactUNId | cefact:UN01003141
 rdfs:comment | The location address for this branch of a financial institution.
 edi3:cefactBieDomainClass | [cefact:Branch_FinancialInstitution.Details](#Branch_FinancialInstitution.Details)
+edi3:cefactBusinessProcess | Customer to bank payment initiation
+
+@id | cefact:Creditor_FinancialInstitution.Location.FinancialInstitution_Address
+@type | edi3:AssociationBIE
+edi3:cefactUNId | cefact:UN01003000
+rdfs:comment | The location address for this creditor financial institution.
+edi3:cefactBieDomainClass | [cefact:Creditor_FinancialInstitution.Details](#Creditor_FinancialInstitution.Details)
 edi3:cefactBusinessProcess | Customer to bank payment initiation
 
 
@@ -32707,18 +32707,18 @@ Domains:
 
 Cefact Element Metadata: 
 
-@id | cefact:Referenced_Document.Lodgement.Logistics_Location
-@type | edi3:AssociationBIE
-edi3:cefactUNId | cefact:UN01004019
-rdfs:comment | The logistics related location where this referenced document has been lodged.
-edi3:cefactBieDomainClass | [cefact:Referenced_Document.Details](#Referenced_Document.Details)
-edi3:cefactBusinessProcess | In All Contexts
-
 @id | cefact:Exchanged_Document.Lodgement.Logistics_Location
 @type | edi3:AssociationBIE
 edi3:cefactUNId | cefact:UN01003581
 rdfs:comment | The location where this exchanged document has been lodged.
 edi3:cefactBieDomainClass | [cefact:Exchanged_Document.Details](#Exchanged_Document.Details)
+edi3:cefactBusinessProcess | In All Contexts
+
+@id | cefact:Referenced_Document.Lodgement.Logistics_Location
+@type | edi3:AssociationBIE
+edi3:cefactUNId | cefact:UN01004019
+rdfs:comment | The logistics related location where this referenced document has been lodged.
+edi3:cefactBieDomainClass | [cefact:Referenced_Document.Details](#Referenced_Document.Details)
 edi3:cefactBusinessProcess | In All Contexts
 
 
@@ -32809,18 +32809,18 @@ Domains:
 
 Cefact Element Metadata: 
 
-@id | cefact:GeographicalCoordinate.Longitude.Measure
-@type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01003619
-rdfs:comment | The measure of the longitude as an angular distance east or west from the Greenwich meridian to the meridian of a specific place (Reference ISO 6709).
-edi3:cefactBieDomainClass | [cefact:GeographicalCoordinate.Details](#GeographicalCoordinate.Details)
-edi3:cefactBusinessProcess | In All Contexts
-
 @id | cefact:Specified_GeographicalCoordinate.Longitude.Measure
 @type | edi3:BasicBIE
 edi3:cefactUNId | cefact:UN01002029
 rdfs:comment | The measure of the longitude as an angular distance east or west from the Greenwich meridian to the meridian of a specific place for this specified geographical coordinate. (Reference ISO 6709).
 edi3:cefactBieDomainClass | [cefact:Specified_GeographicalCoordinate.Details](#Specified_GeographicalCoordinate.Details)
+edi3:cefactBusinessProcess | In All Contexts
+
+@id | cefact:GeographicalCoordinate.Longitude.Measure
+@type | edi3:BasicBIE
+edi3:cefactUNId | cefact:UN01003619
+rdfs:comment | The measure of the longitude as an angular distance east or west from the Greenwich meridian to the meridian of a specific place (Reference ISO 6709).
+edi3:cefactBieDomainClass | [cefact:GeographicalCoordinate.Details](#GeographicalCoordinate.Details)
 edi3:cefactBusinessProcess | In All Contexts
 
 
@@ -33154,17 +33154,10 @@ Domains:
 [edi3:TransportEquipment](#TransportEquipment)
 [edi3:Product](#Product)
 [edi3:TransportMeans](#TransportMeans)
-[edi3:Sensor](#Sensor)
 [edi3:IOTDevice](#IOTDevice)
+[edi3:Sensor](#Sensor)
 
 Cefact Element Metadata: 
-
-@id | cefact:SupplyChain_ConsignmentItem.Manufacturer.Trade_Party
-@type | edi3:AssociationBIE
-edi3:cefactUNId | cefact:UN01004146
-rdfs:comment | The party which manufactured this supply chain consignment item.
-edi3:cefactBieDomainClass | [cefact:Supply Chain_ConsignmentItem.Details](#Supply Chain_ConsignmentItem.Details)
-edi3:cefactBusinessProcess | Buy-Ship-Pay
 
 @id | cefact:Logistics_TransportEquipment.Manufacturer.Trade_Party
 @type | edi3:AssociationBIE
@@ -33173,12 +33166,33 @@ rdfs:comment | The manufacturer party specified for this piece of logistics tran
 edi3:cefactBieDomainClass | [cefact:Logistics_TransportEquipment.Details](#Logistics_TransportEquipment.Details)
 edi3:cefactBusinessProcess | Buy-Ship-Pay
 
+@id | cefact:SupplyChain_ConsignmentItem.Manufacturer.Trade_Party
+@type | edi3:AssociationBIE
+edi3:cefactUNId | cefact:UN01004146
+rdfs:comment | The party which manufactured this supply chain consignment item.
+edi3:cefactBieDomainClass | [cefact:Supply Chain_ConsignmentItem.Details](#Supply Chain_ConsignmentItem.Details)
+edi3:cefactBusinessProcess | Buy-Ship-Pay
+
 @id | cefact:OEM_Equipment.Manufacturer.Trade_Party
 @type | edi3:AssociationBIE
 edi3:cefactUNId | cefact:UN01013559
 rdfs:comment | The manufacturer party for this OEM equipment.
 edi3:cefactBieDomainClass | [cefact:OEM_Equipment.Details](#OEM_Equipment.Details)
 edi3:cefactBusinessProcess | In All Contexts
+
+@id | cefact:Monitoring_IOTDevice.Manufacturer.Trade_Party
+@type | edi3:AssociationBIE
+edi3:cefactUNId | cefact:UN01013486
+rdfs:comment | The manufacturer party of this monitoring IOT device.
+edi3:cefactBieDomainClass | [cefact:Monitoring_IOTDevice.Details](#Monitoring_IOTDevice.Details)
+edi3:cefactBusinessProcess | Buy-Ship-Pay
+
+@id | cefact:Trade_Product.Manufacturer.Trade_Party
+@type | edi3:AssociationBIE
+edi3:cefactUNId | cefact:UN01004708
+rdfs:comment | A manufacturer party for this trade product.
+edi3:cefactBieDomainClass | [cefact:Trade_Product.Details](#Trade_Product.Details)
+edi3:cefactBusinessProcess | Buy-Ship-Pay
 
 @id | cefact:Monitoring_Sensor.Manufacturer.Trade_Party
 @type | edi3:AssociationBIE
@@ -33192,20 +33206,6 @@ edi3:cefactBusinessProcess | Buy-Ship-Pay
 edi3:cefactUNId | cefact:UN01013603
 rdfs:comment | The manufacturer party for this logistics means of transport.
 edi3:cefactBieDomainClass | [cefact:Logistics_TransportMeans.Details](#Logistics_TransportMeans.Details)
-edi3:cefactBusinessProcess | Buy-Ship-Pay
-
-@id | cefact:Trade_Product.Manufacturer.Trade_Party
-@type | edi3:AssociationBIE
-edi3:cefactUNId | cefact:UN01004708
-rdfs:comment | A manufacturer party for this trade product.
-edi3:cefactBieDomainClass | [cefact:Trade_Product.Details](#Trade_Product.Details)
-edi3:cefactBusinessProcess | Buy-Ship-Pay
-
-@id | cefact:Monitoring_IOTDevice.Manufacturer.Trade_Party
-@type | edi3:AssociationBIE
-edi3:cefactUNId | cefact:UN01013486
-rdfs:comment | The manufacturer party of this monitoring IOT device.
-edi3:cefactBieDomainClass | [cefact:Monitoring_IOTDevice.Details](#Monitoring_IOTDevice.Details)
 edi3:cefactBusinessProcess | Buy-Ship-Pay
 
 
@@ -33495,18 +33495,18 @@ Domains:
 
 Cefact Element Metadata: 
 
-@id | cefact:Header_TradeAgreement.Marketplace_Order.Referenced_Document
-@type | edi3:AssociationBIE
-edi3:cefactUNId | cefact:UN01011565
-rdfs:comment | The marketplace generated order document referenced in this header trade agreement.
-edi3:cefactBieDomainClass | [cefact:Header_TradeAgreement.Details](#Header_TradeAgreement.Details)
-edi3:cefactBusinessProcess | Trade
-
 @id | cefact:Line_TradeAgreement.Marketplace_Order.Referenced_Document
 @type | edi3:AssociationBIE
 edi3:cefactUNId | cefact:UN01011714
 rdfs:comment | The marketplace generated order document referenced in this line trade agreement.
 edi3:cefactBieDomainClass | [cefact:Line_TradeAgreement.Details](#Line_TradeAgreement.Details)
+edi3:cefactBusinessProcess | Trade
+
+@id | cefact:Header_TradeAgreement.Marketplace_Order.Referenced_Document
+@type | edi3:AssociationBIE
+edi3:cefactUNId | cefact:UN01011565
+rdfs:comment | The marketplace generated order document referenced in this header trade agreement.
+edi3:cefactBieDomainClass | [cefact:Header_TradeAgreement.Details](#Header_TradeAgreement.Details)
 edi3:cefactBusinessProcess | Trade
 
 
@@ -33547,19 +33547,19 @@ Domains:
 
 Cefact Element Metadata: 
 
-@id | cefact:Transport_DangerousGoods.Marking.Text
-@type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01004775
-rdfs:comment | Marking, expressed as text, for these transported dangerous goods.
-edi3:cefactBieDomainClass | [cefact:Transport_DangerousGoods.Details](#Transport_DangerousGoods.Details)
-edi3:cefactBusinessProcess | In All Contexts
-
 @id | cefact:Logistics_ShippingMarks.Marking.Text
 @type | edi3:BasicBIE
 edi3:cefactUNId | cefact:UN01003742
 rdfs:comment | Marking, expressed as text, for these logistics shipping marks.
 edi3:cefactBieDomainClass | [cefact:Logistics_ShippingMarks.Details](#Logistics_ShippingMarks.Details)
 edi3:cefactBusinessProcess | Buy-Ship-Pay
+
+@id | cefact:Transport_DangerousGoods.Marking.Text
+@type | edi3:BasicBIE
+edi3:cefactUNId | cefact:UN01004775
+rdfs:comment | Marking, expressed as text, for these transported dangerous goods.
+edi3:cefactBieDomainClass | [cefact:Transport_DangerousGoods.Details](#Transport_DangerousGoods.Details)
+edi3:cefactBusinessProcess | In All Contexts
 
 
 
@@ -33620,18 +33620,18 @@ Domains:
 
 Cefact Element Metadata: 
 
-@id | cefact:ReturnableAsset_Instructions.Material.Identifier
-@type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01008861
-rdfs:comment | An identifier of the material to which these returnable asset instructions apply.
-edi3:cefactBieDomainClass | [cefact:Returnable Asset_Instructions.Details](#Returnable Asset_Instructions.Details)
-edi3:cefactBusinessProcess | Supply Chain
-
 @id | cefact:Disposal_Instructions.Material.Identifier
 @type | edi3:BasicBIE
 edi3:cefactUNId | cefact:UN01008427
 rdfs:comment | The identifier of the material to which these disposal instructions apply.
 edi3:cefactBieDomainClass | [cefact:Disposal_Instructions.Details](#Disposal_Instructions.Details)
+edi3:cefactBusinessProcess | Supply Chain
+
+@id | cefact:ReturnableAsset_Instructions.Material.Identifier
+@type | edi3:BasicBIE
+edi3:cefactUNId | cefact:UN01008861
+rdfs:comment | An identifier of the material to which these returnable asset instructions apply.
+edi3:cefactBieDomainClass | [cefact:Returnable Asset_Instructions.Details](#Returnable Asset_Instructions.Details)
 edi3:cefactBusinessProcess | Supply Chain
 
 
@@ -33973,18 +33973,18 @@ Domains:
 
 Cefact Element Metadata: 
 
-@id | cefact:Specified_Temperature.Maximum_Value.Measure
-@type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01009046
-rdfs:comment | The measure of the highest value of a range for this specified temperature, such as a maximum temperature value of fourteen degrees Celsius.
-edi3:cefactBieDomainClass | [cefact:Specified_Temperature.Details](#Specified_Temperature.Details)
-edi3:cefactBusinessProcess | In All Contexts
-
 @id | cefact:TransportSetting_Temperature.Maximum_Value.Measure
 @type | edi3:BasicBIE
 edi3:cefactUNId | cefact:UN01004749
 rdfs:comment | The measure of the highest value of this transport setting temperature, such as a maximum temperature value of fourteen degrees Celsius.
 edi3:cefactBieDomainClass | [cefact:Transport Setting_Temperature.Details](#Transport Setting_Temperature.Details)
+edi3:cefactBusinessProcess | In All Contexts
+
+@id | cefact:Specified_Temperature.Maximum_Value.Measure
+@type | edi3:BasicBIE
+edi3:cefactUNId | cefact:UN01009046
+rdfs:comment | The measure of the highest value of a range for this specified temperature, such as a maximum temperature value of fourteen degrees Celsius.
+edi3:cefactBieDomainClass | [cefact:Specified_Temperature.Details](#Specified_Temperature.Details)
 edi3:cefactBusinessProcess | In All Contexts
 
 
@@ -34135,19 +34135,19 @@ Domains:
 
 Cefact Element Metadata: 
 
-@id | cefact:Communication_Pairing.Method.Code
-@type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01013499
-rdfs:comment | The code specifying the method of this communication pairing.
-edi3:cefactBieDomainClass | [cefact:Communication_Pairing.Details](#Communication_Pairing.Details)
-edi3:cefactBusinessProcess | In All Contexts
-
 @id | cefact:Cross-Border_CustomsValuation.Method.Code
 @type | edi3:BasicBIE
 edi3:cefactUNId | cefact:UN01003488
 rdfs:comment | The code specifying the method by which this cross-border customs valuation is determined.
 edi3:cefactBieDomainClass | [cefact:Cross-Border_CustomsValuation.Details](#Cross-Border_CustomsValuation.Details)
 edi3:cefactBusinessProcess | Buy-Ship-Pay
+
+@id | cefact:Communication_Pairing.Method.Code
+@type | edi3:BasicBIE
+edi3:cefactUNId | cefact:UN01013499
+rdfs:comment | The code specifying the method of this communication pairing.
+edi3:cefactBieDomainClass | [cefact:Communication_Pairing.Details](#Communication_Pairing.Details)
+edi3:cefactBusinessProcess | In All Contexts
 
 
 
@@ -34253,18 +34253,18 @@ Domains:
 
 Cefact Element Metadata: 
 
-@id | cefact:Trade_Product.Minimum_Linear.Spatial_Dimension
-@type | edi3:AssociationBIE
-edi3:cefactUNId | cefact:UN01004706
-rdfs:comment | Minimum linear spatial dimensions of this trade product.
-edi3:cefactBieDomainClass | [cefact:Trade_Product.Details](#Trade_Product.Details)
-edi3:cefactBusinessProcess | Buy-Ship-Pay
-
 @id | cefact:SupplyChain_Packaging.Minimum_Linear.Spatial_Dimension
 @type | edi3:AssociationBIE
 edi3:cefactUNId | cefact:UN01004321
 rdfs:comment | The minimum linear spatial dimensions of this supply chain packaging.
 edi3:cefactBieDomainClass | [cefact:Supply Chain_Packaging.Details](#Supply Chain_Packaging.Details)
+edi3:cefactBusinessProcess | Buy-Ship-Pay
+
+@id | cefact:Trade_Product.Minimum_Linear.Spatial_Dimension
+@type | edi3:AssociationBIE
+edi3:cefactUNId | cefact:UN01004706
+rdfs:comment | Minimum linear spatial dimensions of this trade product.
+edi3:cefactBieDomainClass | [cefact:Trade_Product.Details](#Trade_Product.Details)
 edi3:cefactBusinessProcess | Buy-Ship-Pay
 
 
@@ -34415,19 +34415,19 @@ Domains:
 
 Cefact Element Metadata: 
 
-@id | cefact:Specified_Range.MinimumValue.Measure
-@type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01013528
-rdfs:comment | The measure of the minimum value for this specified range.
-edi3:cefactBieDomainClass | [cefact:Specified_Range.Details](#Specified_Range.Details)
-edi3:cefactBusinessProcess | In All Contexts
-
 @id | cefact:Instructed_Temperature.Minimum_Value.Measure
 @type | edi3:BasicBIE
 edi3:cefactUNId | cefact:UN01008873
 rdfs:comment | The measure of the minimum value of this instructed temperature.
 edi3:cefactBieDomainClass | [cefact:Instructed_Temperature.Details](#Instructed_Temperature.Details)
 edi3:cefactBusinessProcess | Supply Chain
+
+@id | cefact:Specified_Range.MinimumValue.Measure
+@type | edi3:BasicBIE
+edi3:cefactUNId | cefact:UN01013528
+rdfs:comment | The measure of the minimum value for this specified range.
+edi3:cefactBieDomainClass | [cefact:Specified_Range.Details](#Specified_Range.Details)
+edi3:cefactBusinessProcess | In All Contexts
 
 
 
@@ -34444,18 +34444,18 @@ Domains:
 
 Cefact Element Metadata: 
 
-@id | cefact:Specified_Temperature.Minimum_Value.Measure
-@type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01009045
-rdfs:comment | The measure of the lowest value of a range for this specified temperature, such as a minimum temperature value of four degrees Celsius.
-edi3:cefactBieDomainClass | [cefact:Specified_Temperature.Details](#Specified_Temperature.Details)
-edi3:cefactBusinessProcess | In All Contexts
-
 @id | cefact:TransportSetting_Temperature.Minimum_Value.Measure
 @type | edi3:BasicBIE
 edi3:cefactUNId | cefact:UN01004748
 rdfs:comment | The measure of the lowest value of this transport setting temperature, such as a minimum temperature value of four degrees Celsius.
 edi3:cefactBieDomainClass | [cefact:Transport Setting_Temperature.Details](#Transport Setting_Temperature.Details)
+edi3:cefactBusinessProcess | In All Contexts
+
+@id | cefact:Specified_Temperature.Minimum_Value.Measure
+@type | edi3:BasicBIE
+edi3:cefactUNId | cefact:UN01009045
+rdfs:comment | The measure of the lowest value of a range for this specified temperature, such as a minimum temperature value of four degrees Celsius.
+edi3:cefactBieDomainClass | [cefact:Specified_Temperature.Details](#Specified_Temperature.Details)
 edi3:cefactBusinessProcess | In All Contexts
 
 
@@ -34704,8 +34704,8 @@ Range: xsd:string
 
 Domains: 
 
-[edi3:DirectPosition](#DirectPosition)
 [edi3:ProductGroup](#ProductGroup)
+[edi3:DirectPosition](#DirectPosition)
 [edi3:Organization](#Organization)
 [edi3:Product](#Product)
 [edi3:GeographicalFeature](#GeographicalFeature)
@@ -34714,8 +34714,8 @@ Domains:
 [edi3:BreakdownStatement](#BreakdownStatement)
 [edi3:ChemicalTreatment](#ChemicalTreatment)
 [edi3:Party](#Party)
-[edi3:Version](#Version)
 [edi3:GeographicalObjectCharacteristic](#GeographicalObjectCharacteristic)
+[edi3:Version](#Version)
 [edi3:FinancialInstitution](#FinancialInstitution)
 [edi3:TransportMovement](#TransportMovement)
 [edi3:GeopoliticalRegion](#GeopoliticalRegion)
@@ -34727,8 +34727,8 @@ Domains:
 [edi3:AccountingAccount](#AccountingAccount)
 [edi3:TransportMeans](#TransportMeans)
 [edi3:Project](#Project)
-[edi3:Marketplace](#Marketplace)
 [edi3:Qualification](#Qualification)
+[edi3:Marketplace](#Marketplace)
 [edi3:DirectPositionList](#DirectPositionList)
 [edi3:Parameter](#Parameter)
 [edi3:Country](#Country)
@@ -34737,180 +34737,12 @@ Domains:
 
 Cefact Element Metadata: 
 
-@id | cefact:Legal_Organization.Name.Text
+@id | cefact:Applied_ChemicalTreatment.Name.Text
 @type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01003640
-rdfs:comment | A name, expressed as text, of this legally set up organization.
-edi3:cefactBieDomainClass | [cefact:Legal_Organization.Details](#Legal_Organization.Details)
+edi3:cefactUNId | cefact:UN01009025
+rdfs:comment | A name, expressed as text, of this applied chemical treatment.
+edi3:cefactBieDomainClass | [cefact:Applied_ChemicalTreatment.Details](#Applied_ChemicalTreatment.Details)
 edi3:cefactBusinessProcess | In All Contexts
-
-@id | cefact:Specified_GeographicalFeature.Name.Text
-@type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01012170
-rdfs:comment | The name, expressed as text, of this specified geographical feature.
-edi3:cefactBieDomainClass | [cefact:Specified_GeographicalFeature.Details](#Specified_GeographicalFeature.Details)
-edi3:cefactBusinessProcess | Agricultural
-
-@id | cefact:Logistics_TransportMovement.Name.Text
-@type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01013604
-rdfs:comment | The name, expressed as text, for this logistics transport movement.
-edi3:cefactBieDomainClass | [cefact:Logistics_TransportMovement.Details](#Logistics_TransportMovement.Details)
-edi3:cefactBusinessProcess | Buy-Ship-Pay
-
-@id | cefact:SubordinateSubordinate_Location.Name.Text
-@type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01004089
-rdfs:comment | The name, expressed as text, of this subordinate of a subordinate location.
-edi3:cefactBieDomainClass | [cefact:Subordinate Subordinate_Location.Details](#Subordinate Subordinate_Location.Details)
-edi3:cefactBusinessProcess | In All Contexts
-
-@id | cefact:Requesting_Party.Name.Text
-@type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01002020
-rdfs:comment | The name, expressed as text, for this requesting party.
-edi3:cefactBieDomainClass | [cefact:Requesting_Party.Details](#Requesting_Party.Details)
-edi3:cefactBusinessProcess | Project Management
-
-@id | cefact:Exchanged_Document.Name.Text
-@type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01002489
-rdfs:comment | A name, expressed as text, of this exchanged document.
-edi3:cefactBieDomainClass | [cefact:Exchanged_Document.Details](#Exchanged_Document.Details)
-edi3:cefactBusinessProcess | In All Contexts
-
-@id | cefact:Trade_CountrySub-Division.Name.Text
-@type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01002563
-rdfs:comment | A name, expressed as text, of this trade country sub-division.
-edi3:cefactBieDomainClass | [cefact:Trade_CountrySubDivision.Details](#Trade_CountrySubDivision.Details)
-edi3:cefactBusinessProcess | In All Contexts
-
-@id | cefact:Trade_Party.Name.Text
-@type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01004598
-rdfs:comment | The name, expressed as text, for this trade party.
-edi3:cefactBieDomainClass | [cefact:Trade_Party.Details](#Trade_Party.Details)
-edi3:cefactBusinessProcess | Buy-Ship-Pay
-
-@id | cefact:Acknowledgement_Document.Name.Text
-@type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01002106
-rdfs:comment | The name, expressed as text, for this acknowledgement document.
-edi3:cefactBieDomainClass | [cefact:Acknowledgement_Document.Details](#Acknowledgement_Document.Details)
-edi3:cefactBusinessProcess | In All Contexts
-
-@id | cefact:Creditor_FinancialInstitution.Name.Text
-@type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01002999
-rdfs:comment | The name, expressed as text, for this creditor financial institution.
-edi3:cefactBieDomainClass | [cefact:Creditor_FinancialInstitution.Details](#Creditor_FinancialInstitution.Details)
-edi3:cefactBusinessProcess | Customer to bank payment initiation
-
-@id | cefact:Operational_Parameter.Name.Text
-@type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01013518
-rdfs:comment | The name, expressed as text, of this operational parameter.
-edi3:cefactBieDomainClass | [cefact:Operational_Parameter.Details](#Operational_Parameter.Details)
-edi3:cefactBusinessProcess | In All Contexts
-
-@id | cefact:Referenced_Product.Name.Text
-@type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01004034
-rdfs:comment | A name, expressed as text, for this referenced product.
-edi3:cefactBieDomainClass | [cefact:Referenced_Product.Details](#Referenced_Product.Details)
-edi3:cefactBusinessProcess | In All Contexts
-
-@id | cefact:Subordinate_Location.Name.Text
-@type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01004094
-rdfs:comment | The name, expressed as text, of this subordinate location.
-edi3:cefactBieDomainClass | [cefact:Subordinate_Location.Details](#Subordinate_Location.Details)
-edi3:cefactBusinessProcess | In All Contexts
-
-@id | cefact:Specified_DirectPosition.Name.Text
-@type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01010467
-rdfs:comment | The name, expressed as text, of the reference for this specified direct position.
-edi3:cefactBieDomainClass | [cefact:Specified_DirectPosition.Details](#Specified_DirectPosition.Details)
-edi3:cefactBusinessProcess | Laboratory Observation
-
-@id | cefact:Specified_Marketplace.Name.Text
-@type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01009954
-rdfs:comment | The name, expressed as text, for this specified marketplace.
-edi3:cefactBieDomainClass | [cefact:Specified_Marketplace.Details](#Specified_Marketplace.Details)
-edi3:cefactBusinessProcess | Invoicing
-
-@id | cefact:Trade_Location.Name.Text
-@type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01001662
-rdfs:comment | The name, expressed as text, of this location used or referenced in trade.
-edi3:cefactBieDomainClass | [cefact:Trade_Location.Details](#Trade_Location.Details)
-edi3:cefactBusinessProcess | Trade
-
-@id | cefact:Transport_Person.Name.Text
-@type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01004817
-rdfs:comment | The name or set of names, expressed as text, by which this transport person is known.
-edi3:cefactBieDomainClass | [cefact:Transport_Person.Details](#Transport_Person.Details)
-edi3:cefactBusinessProcess | In All Contexts
-
-@id | cefact:TransportService_Location.Name.Text
-@type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01010088
-rdfs:comment | A name, expressed as text, of this transport service location.
-edi3:cefactBieDomainClass | [cefact:Transport Service_Location.Details](#Transport Service_Location.Details)
-edi3:cefactBusinessProcess | Transport
-
-@id | cefact:Trade_GeopoliticalRegion.Name.Text
-@type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01004590
-rdfs:comment | The name, expressed as text, of this trade geopolitical region.
-edi3:cefactBieDomainClass | [cefact:Trade_GeopoliticalRegion.Details](#Trade_GeopoliticalRegion.Details)
-edi3:cefactBusinessProcess | Buy-Ship-Pay
-
-@id | cefact:Academic_Qualification.Name.Text
-@type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01002517
-rdfs:comment | A name, expressed as text, of this academic qualification.
-edi3:cefactBieDomainClass | [cefact:Academic_Qualification.Details](#Academic_Qualification.Details)
-edi3:cefactBusinessProcess | In All Contexts
-
-@id | cefact:Trade_Country.Name.Text
-@type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01002554
-rdfs:comment | A name, expressed as text, of this trade country.
-edi3:cefactBieDomainClass | [cefact:Trade_Country.Details](#Trade_Country.Details)
-edi3:cefactBusinessProcess | In All Contexts
-
-@id | cefact:ProductCharacteristic_Condition.Name.Text
-@type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01008314
-rdfs:comment | A name, expressed as text, for this product characteristic condition.
-edi3:cefactBieDomainClass | [cefact:Product Characteristic_Condition.Details](#Product Characteristic_Condition.Details)
-edi3:cefactBusinessProcess | Supply Chain
-
-@id | cefact:Referenced_TransportMeans.Name.Text
-@type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01004053
-rdfs:comment | The name, expressed as text, of this referenced transport means, such as the vessel name.
-edi3:cefactBieDomainClass | [cefact:Referenced_TransportMeans.Details](#Referenced_TransportMeans.Details)
-edi3:cefactBusinessProcess | In All Contexts
-
-@id | cefact:Logistics_TransportMeans.Name.Text
-@type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01003823
-rdfs:comment | The name, expressed as text, of this logistics means of transport.
-edi3:cefactBieDomainClass | [cefact:Logistics_TransportMeans.Details](#Logistics_TransportMeans.Details)
-edi3:cefactBusinessProcess | Buy-Ship-Pay
-
-@id | cefact:Branch_FinancialInstitution.Name.Text
-@type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01003140
-rdfs:comment | The name, expressed as text, for this branch of a financial institution.
-edi3:cefactBieDomainClass | [cefact:Branch_FinancialInstitution.Details](#Branch_FinancialInstitution.Details)
-edi3:cefactBusinessProcess | Customer to bank payment initiation
 
 @id | cefact:Valuation_BreakdownStatement.Name.Text
 @type | edi3:BasicBIE
@@ -34919,55 +34751,6 @@ rdfs:comment | The name, expressed as text, for this valuation breakdown stateme
 edi3:cefactBieDomainClass | [cefact:Valuation_BreakdownStatement.Details](#Valuation_BreakdownStatement.Details)
 edi3:cefactBusinessProcess | Invoicing
 
-@id | cefact:Document_Version.Name.Text
-@type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01003592
-rdfs:comment | The name, expressed as text, of this document version.
-edi3:cefactBieDomainClass | [cefact:Document_Version.Details](#Document_Version.Details)
-edi3:cefactBusinessProcess | In All Contexts
-
-@id | cefact:Referenced_Document.Name.Text
-@type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01003994
-rdfs:comment | A name, expressed as text, for this referenced document.
-edi3:cefactBieDomainClass | [cefact:Referenced_Document.Details](#Referenced_Document.Details)
-edi3:cefactBusinessProcess | In All Contexts
-
-@id | cefact:Transport_Service.Name.Text
-@type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01004840
-rdfs:comment | The name, expressed as text, of this transport service.
-edi3:cefactBieDomainClass | [cefact:Transport_Service.Details](#Transport_Service.Details)
-edi3:cefactBusinessProcess | In All Contexts
-
-@id | cefact:TradeProduct_Feature.Name.Text
-@type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01007473
-rdfs:comment | A name, expressed as text, for this trade product feature.
-edi3:cefactBieDomainClass | [cefact:Trade Product_Feature.Details](#Trade Product_Feature.Details)
-edi3:cefactBusinessProcess | Buy-Ship-Pay
-
-@id | cefact:Trade_AccountingAccount.Name.Text
-@type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01004528
-rdfs:comment | The name, expressed as text, of this trade accounting account.
-edi3:cefactBieDomainClass | [cefact:Trade_AccountingAccount.Details](#Trade_AccountingAccount.Details)
-edi3:cefactBusinessProcess | Buy-Ship-Pay
-
-@id | cefact:Trade_ProductGroup.Name.Text
-@type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01011924
-rdfs:comment | The name, expressed as text, for this trade product group.
-edi3:cefactBieDomainClass | [cefact:Trade_ProductGroup.Details](#Trade_ProductGroup.Details)
-edi3:cefactBusinessProcess | Trade
-
-@id | cefact:Trade_Product.Name.Text
-@type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01004687
-rdfs:comment | A name, expressed as text, for this trade product.
-edi3:cefactBieDomainClass | [cefact:Trade_Product.Details](#Trade_Product.Details)
-edi3:cefactBusinessProcess | Buy-Ship-Pay
-
 @id | cefact:Location_Party.Name.Text
 @type | edi3:BasicBIE
 edi3:cefactUNId | cefact:UN01003664
@@ -34975,18 +34758,11 @@ rdfs:comment | A name, expressed as text, for this location party.
 edi3:cefactBieDomainClass | [cefact:Location_Party.Details](#Location_Party.Details)
 edi3:cefactBusinessProcess | In All Contexts
 
-@id | cefact:Logistics_Location.Name.Text
+@id | cefact:SubordinateSubordinate_Location.Name.Text
 @type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01003681
-rdfs:comment | A name, expressed as text, of this logistics related location.
-edi3:cefactBieDomainClass | [cefact:Logistics_Location.Details](#Logistics_Location.Details)
-edi3:cefactBusinessProcess | Buy-Ship-Pay
-
-@id | cefact:Keyword.Name.Text
-@type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01007300
-rdfs:comment | A name, expressed as text, for this keyword.
-edi3:cefactBieDomainClass | [cefact:Keyword.Details](#Keyword.Details)
+edi3:cefactUNId | cefact:UN01004089
+rdfs:comment | The name, expressed as text, of this subordinate of a subordinate location.
+edi3:cefactBieDomainClass | [cefact:Subordinate Subordinate_Location.Details](#Subordinate Subordinate_Location.Details)
 edi3:cefactBusinessProcess | In All Contexts
 
 @id | cefact:Specified_GeographicalObjectCharacteristic.Name.Text
@@ -34996,32 +34772,39 @@ rdfs:comment | The name, expressed as text, for this geographical object charact
 edi3:cefactBieDomainClass | [cefact:Specified_GeographicalObjectCharacteristic.Details](#Specified_GeographicalObjectCharacteristic.Details)
 edi3:cefactBusinessProcess | Agricultural
 
-@id | cefact:AuthoritativeSignatory_Person.Name.Text
+@id | cefact:Subordinate_Location.Name.Text
 @type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01002514
-rdfs:comment | The name, expressed as text, of this authoritative signatory person.
-edi3:cefactBieDomainClass | [cefact:Authoritative Signatory_Person.Details](#Authoritative Signatory_Person.Details)
+edi3:cefactUNId | cefact:UN01004094
+rdfs:comment | The name, expressed as text, of this subordinate location.
+edi3:cefactBieDomainClass | [cefact:Subordinate_Location.Details](#Subordinate_Location.Details)
 edi3:cefactBusinessProcess | In All Contexts
 
-@id | cefact:Specified_DirectPositionList.Name.Text
+@id | cefact:Academic_Qualification.Name.Text
 @type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01012473
-rdfs:comment | The name, expressed as text, of this specified direct position list.
-edi3:cefactBieDomainClass | [cefact:Specified_DirectPositionList.Details](#Specified_DirectPositionList.Details)
+edi3:cefactUNId | cefact:UN01002517
+rdfs:comment | A name, expressed as text, of this academic qualification.
+edi3:cefactBieDomainClass | [cefact:Academic_Qualification.Details](#Academic_Qualification.Details)
+edi3:cefactBusinessProcess | In All Contexts
+
+@id | cefact:Logistics_TransportMeans.Name.Text
+@type | edi3:BasicBIE
+edi3:cefactUNId | cefact:UN01003823
+rdfs:comment | The name, expressed as text, of this logistics means of transport.
+edi3:cefactBieDomainClass | [cefact:Logistics_TransportMeans.Details](#Logistics_TransportMeans.Details)
+edi3:cefactBusinessProcess | Buy-Ship-Pay
+
+@id | cefact:Specified_GeographicalFeature.Name.Text
+@type | edi3:BasicBIE
+edi3:cefactUNId | cefact:UN01012170
+rdfs:comment | The name, expressed as text, of this specified geographical feature.
+edi3:cefactBieDomainClass | [cefact:Specified_GeographicalFeature.Details](#Specified_GeographicalFeature.Details)
 edi3:cefactBusinessProcess | Agricultural
 
-@id | cefact:Applied_ChemicalTreatment.Name.Text
+@id | cefact:Document_Version.Name.Text
 @type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01009025
-rdfs:comment | A name, expressed as text, of this applied chemical treatment.
-edi3:cefactBieDomainClass | [cefact:Applied_ChemicalTreatment.Details](#Applied_ChemicalTreatment.Details)
-edi3:cefactBusinessProcess | In All Contexts
-
-@id | cefact:Specified_Period.Name.Text
-@type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01004083
-rdfs:comment | A name, expressed as text, of this specified period.
-edi3:cefactBieDomainClass | [cefact:Specified_Period.Details](#Specified_Period.Details)
+edi3:cefactUNId | cefact:UN01003592
+rdfs:comment | The name, expressed as text, of this document version.
+edi3:cefactBieDomainClass | [cefact:Document_Version.Details](#Document_Version.Details)
 edi3:cefactBusinessProcess | In All Contexts
 
 @id | cefact:Procuring_Project.Name.Text
@@ -35031,11 +34814,123 @@ rdfs:comment | The name, expressed as text, of this procuring project.
 edi3:cefactBieDomainClass | [cefact:Procuring_Project.Details](#Procuring_Project.Details)
 edi3:cefactBusinessProcess | In All Contexts
 
+@id | cefact:Logistics_TransportMovement.Name.Text
+@type | edi3:BasicBIE
+edi3:cefactUNId | cefact:UN01013604
+rdfs:comment | The name, expressed as text, for this logistics transport movement.
+edi3:cefactBieDomainClass | [cefact:Logistics_TransportMovement.Details](#Logistics_TransportMovement.Details)
+edi3:cefactBusinessProcess | Buy-Ship-Pay
+
+@id | cefact:Specified_Marketplace.Name.Text
+@type | edi3:BasicBIE
+edi3:cefactUNId | cefact:UN01009954
+rdfs:comment | The name, expressed as text, for this specified marketplace.
+edi3:cefactBieDomainClass | [cefact:Specified_Marketplace.Details](#Specified_Marketplace.Details)
+edi3:cefactBusinessProcess | Invoicing
+
+@id | cefact:Referenced_Document.Name.Text
+@type | edi3:BasicBIE
+edi3:cefactUNId | cefact:UN01003994
+rdfs:comment | A name, expressed as text, for this referenced document.
+edi3:cefactBieDomainClass | [cefact:Referenced_Document.Details](#Referenced_Document.Details)
+edi3:cefactBusinessProcess | In All Contexts
+
+@id | cefact:Trade_ProductGroup.Name.Text
+@type | edi3:BasicBIE
+edi3:cefactUNId | cefact:UN01011924
+rdfs:comment | The name, expressed as text, for this trade product group.
+edi3:cefactBieDomainClass | [cefact:Trade_ProductGroup.Details](#Trade_ProductGroup.Details)
+edi3:cefactBusinessProcess | Trade
+
+@id | cefact:Referenced_TransportMeans.Name.Text
+@type | edi3:BasicBIE
+edi3:cefactUNId | cefact:UN01004053
+rdfs:comment | The name, expressed as text, of this referenced transport means, such as the vessel name.
+edi3:cefactBieDomainClass | [cefact:Referenced_TransportMeans.Details](#Referenced_TransportMeans.Details)
+edi3:cefactBusinessProcess | In All Contexts
+
+@id | cefact:Trade_Party.Name.Text
+@type | edi3:BasicBIE
+edi3:cefactUNId | cefact:UN01004598
+rdfs:comment | The name, expressed as text, for this trade party.
+edi3:cefactBieDomainClass | [cefact:Trade_Party.Details](#Trade_Party.Details)
+edi3:cefactBusinessProcess | Buy-Ship-Pay
+
 @id | cefact:ControlSetting_Parameter.Name.Text
 @type | edi3:BasicBIE
 edi3:cefactUNId | cefact:UN01013507
 rdfs:comment | The name, expressed as text, of this control setting parameter.
 edi3:cefactBieDomainClass | [cefact:Control Setting_Parameter.Details](#Control Setting_Parameter.Details)
+edi3:cefactBusinessProcess | In All Contexts
+
+@id | cefact:Exchanged_Document.Name.Text
+@type | edi3:BasicBIE
+edi3:cefactUNId | cefact:UN01002489
+rdfs:comment | A name, expressed as text, of this exchanged document.
+edi3:cefactBieDomainClass | [cefact:Exchanged_Document.Details](#Exchanged_Document.Details)
+edi3:cefactBusinessProcess | In All Contexts
+
+@id | cefact:Trade_Location.Name.Text
+@type | edi3:BasicBIE
+edi3:cefactUNId | cefact:UN01001662
+rdfs:comment | The name, expressed as text, of this location used or referenced in trade.
+edi3:cefactBieDomainClass | [cefact:Trade_Location.Details](#Trade_Location.Details)
+edi3:cefactBusinessProcess | Trade
+
+@id | cefact:Branch_FinancialInstitution.Name.Text
+@type | edi3:BasicBIE
+edi3:cefactUNId | cefact:UN01003140
+rdfs:comment | The name, expressed as text, for this branch of a financial institution.
+edi3:cefactBieDomainClass | [cefact:Branch_FinancialInstitution.Details](#Branch_FinancialInstitution.Details)
+edi3:cefactBusinessProcess | Customer to bank payment initiation
+
+@id | cefact:Trade_Country.Name.Text
+@type | edi3:BasicBIE
+edi3:cefactUNId | cefact:UN01002554
+rdfs:comment | A name, expressed as text, of this trade country.
+edi3:cefactBieDomainClass | [cefact:Trade_Country.Details](#Trade_Country.Details)
+edi3:cefactBusinessProcess | In All Contexts
+
+@id | cefact:Trade_GeopoliticalRegion.Name.Text
+@type | edi3:BasicBIE
+edi3:cefactUNId | cefact:UN01004590
+rdfs:comment | The name, expressed as text, of this trade geopolitical region.
+edi3:cefactBieDomainClass | [cefact:Trade_GeopoliticalRegion.Details](#Trade_GeopoliticalRegion.Details)
+edi3:cefactBusinessProcess | Buy-Ship-Pay
+
+@id | cefact:TransportService_Location.Name.Text
+@type | edi3:BasicBIE
+edi3:cefactUNId | cefact:UN01010088
+rdfs:comment | A name, expressed as text, of this transport service location.
+edi3:cefactBieDomainClass | [cefact:Transport Service_Location.Details](#Transport Service_Location.Details)
+edi3:cefactBusinessProcess | Transport
+
+@id | cefact:Logistics_Location.Name.Text
+@type | edi3:BasicBIE
+edi3:cefactUNId | cefact:UN01003681
+rdfs:comment | A name, expressed as text, of this logistics related location.
+edi3:cefactBieDomainClass | [cefact:Logistics_Location.Details](#Logistics_Location.Details)
+edi3:cefactBusinessProcess | Buy-Ship-Pay
+
+@id | cefact:Requesting_Party.Name.Text
+@type | edi3:BasicBIE
+edi3:cefactUNId | cefact:UN01002020
+rdfs:comment | The name, expressed as text, for this requesting party.
+edi3:cefactBieDomainClass | [cefact:Requesting_Party.Details](#Requesting_Party.Details)
+edi3:cefactBusinessProcess | Project Management
+
+@id | cefact:Creditor_FinancialInstitution.Name.Text
+@type | edi3:BasicBIE
+edi3:cefactUNId | cefact:UN01002999
+rdfs:comment | The name, expressed as text, for this creditor financial institution.
+edi3:cefactBieDomainClass | [cefact:Creditor_FinancialInstitution.Details](#Creditor_FinancialInstitution.Details)
+edi3:cefactBusinessProcess | Customer to bank payment initiation
+
+@id | cefact:Trade_CountrySub-Division.Name.Text
+@type | edi3:BasicBIE
+edi3:cefactUNId | cefact:UN01002563
+rdfs:comment | A name, expressed as text, of this trade country sub-division.
+edi3:cefactBieDomainClass | [cefact:Trade_CountrySubDivision.Details](#Trade_CountrySubDivision.Details)
 edi3:cefactBusinessProcess | In All Contexts
 
 @id | cefact:Debtor_FinancialInstitution.Name.Text
@@ -35044,6 +34939,111 @@ edi3:cefactUNId | cefact:UN01002864
 rdfs:comment | The name, expressed as text, for this debtor financial institution.
 edi3:cefactBieDomainClass | [cefact:Debtor_FinancialInstitution.Details](#Debtor_FinancialInstitution.Details)
 edi3:cefactBusinessProcess | Customer to bank payment initiation
+
+@id | cefact:Operational_Parameter.Name.Text
+@type | edi3:BasicBIE
+edi3:cefactUNId | cefact:UN01013518
+rdfs:comment | The name, expressed as text, of this operational parameter.
+edi3:cefactBieDomainClass | [cefact:Operational_Parameter.Details](#Operational_Parameter.Details)
+edi3:cefactBusinessProcess | In All Contexts
+
+@id | cefact:Trade_Product.Name.Text
+@type | edi3:BasicBIE
+edi3:cefactUNId | cefact:UN01004687
+rdfs:comment | A name, expressed as text, for this trade product.
+edi3:cefactBieDomainClass | [cefact:Trade_Product.Details](#Trade_Product.Details)
+edi3:cefactBusinessProcess | Buy-Ship-Pay
+
+@id | cefact:Specified_DirectPosition.Name.Text
+@type | edi3:BasicBIE
+edi3:cefactUNId | cefact:UN01010467
+rdfs:comment | The name, expressed as text, of the reference for this specified direct position.
+edi3:cefactBieDomainClass | [cefact:Specified_DirectPosition.Details](#Specified_DirectPosition.Details)
+edi3:cefactBusinessProcess | Laboratory Observation
+
+@id | cefact:Keyword.Name.Text
+@type | edi3:BasicBIE
+edi3:cefactUNId | cefact:UN01007300
+rdfs:comment | A name, expressed as text, for this keyword.
+edi3:cefactBieDomainClass | [cefact:Keyword.Details](#Keyword.Details)
+edi3:cefactBusinessProcess | In All Contexts
+
+@id | cefact:Legal_Organization.Name.Text
+@type | edi3:BasicBIE
+edi3:cefactUNId | cefact:UN01003640
+rdfs:comment | A name, expressed as text, of this legally set up organization.
+edi3:cefactBieDomainClass | [cefact:Legal_Organization.Details](#Legal_Organization.Details)
+edi3:cefactBusinessProcess | In All Contexts
+
+@id | cefact:Transport_Person.Name.Text
+@type | edi3:BasicBIE
+edi3:cefactUNId | cefact:UN01004817
+rdfs:comment | The name or set of names, expressed as text, by which this transport person is known.
+edi3:cefactBieDomainClass | [cefact:Transport_Person.Details](#Transport_Person.Details)
+edi3:cefactBusinessProcess | In All Contexts
+
+@id | cefact:TradeProduct_Feature.Name.Text
+@type | edi3:BasicBIE
+edi3:cefactUNId | cefact:UN01007473
+rdfs:comment | A name, expressed as text, for this trade product feature.
+edi3:cefactBieDomainClass | [cefact:Trade Product_Feature.Details](#Trade Product_Feature.Details)
+edi3:cefactBusinessProcess | Buy-Ship-Pay
+
+@id | cefact:Transport_Service.Name.Text
+@type | edi3:BasicBIE
+edi3:cefactUNId | cefact:UN01004840
+rdfs:comment | The name, expressed as text, of this transport service.
+edi3:cefactBieDomainClass | [cefact:Transport_Service.Details](#Transport_Service.Details)
+edi3:cefactBusinessProcess | In All Contexts
+
+@id | cefact:ProductCharacteristic_Condition.Name.Text
+@type | edi3:BasicBIE
+edi3:cefactUNId | cefact:UN01008314
+rdfs:comment | A name, expressed as text, for this product characteristic condition.
+edi3:cefactBieDomainClass | [cefact:Product Characteristic_Condition.Details](#Product Characteristic_Condition.Details)
+edi3:cefactBusinessProcess | Supply Chain
+
+@id | cefact:Specified_DirectPositionList.Name.Text
+@type | edi3:BasicBIE
+edi3:cefactUNId | cefact:UN01012473
+rdfs:comment | The name, expressed as text, of this specified direct position list.
+edi3:cefactBieDomainClass | [cefact:Specified_DirectPositionList.Details](#Specified_DirectPositionList.Details)
+edi3:cefactBusinessProcess | Agricultural
+
+@id | cefact:Referenced_Product.Name.Text
+@type | edi3:BasicBIE
+edi3:cefactUNId | cefact:UN01004034
+rdfs:comment | A name, expressed as text, for this referenced product.
+edi3:cefactBieDomainClass | [cefact:Referenced_Product.Details](#Referenced_Product.Details)
+edi3:cefactBusinessProcess | In All Contexts
+
+@id | cefact:AuthoritativeSignatory_Person.Name.Text
+@type | edi3:BasicBIE
+edi3:cefactUNId | cefact:UN01002514
+rdfs:comment | The name, expressed as text, of this authoritative signatory person.
+edi3:cefactBieDomainClass | [cefact:Authoritative Signatory_Person.Details](#Authoritative Signatory_Person.Details)
+edi3:cefactBusinessProcess | In All Contexts
+
+@id | cefact:Specified_Period.Name.Text
+@type | edi3:BasicBIE
+edi3:cefactUNId | cefact:UN01004083
+rdfs:comment | A name, expressed as text, of this specified period.
+edi3:cefactBieDomainClass | [cefact:Specified_Period.Details](#Specified_Period.Details)
+edi3:cefactBusinessProcess | In All Contexts
+
+@id | cefact:Acknowledgement_Document.Name.Text
+@type | edi3:BasicBIE
+edi3:cefactUNId | cefact:UN01002106
+rdfs:comment | The name, expressed as text, for this acknowledgement document.
+edi3:cefactBieDomainClass | [cefact:Acknowledgement_Document.Details](#Acknowledgement_Document.Details)
+edi3:cefactBusinessProcess | In All Contexts
+
+@id | cefact:Trade_AccountingAccount.Name.Text
+@type | edi3:BasicBIE
+edi3:cefactUNId | cefact:UN01004528
+rdfs:comment | The name, expressed as text, of this trade accounting account.
+edi3:cefactBieDomainClass | [cefact:Trade_AccountingAccount.Details](#Trade_AccountingAccount.Details)
+edi3:cefactBusinessProcess | Buy-Ship-Pay
 
 
 
@@ -35192,6 +35192,13 @@ Domains:
 
 Cefact Element Metadata: 
 
+@id | cefact:TradeSettlementLine_MonetarySummation.Net_LineTotal.Amount
+@type | edi3:BasicBIE
+edi3:cefactUNId | cefact:UN01011909
+rdfs:comment | A monetary value of the total of all line amounts, including line level allowances and charges and excluding line level taxes, being reported in this trade settlement line monetary summation.
+edi3:cefactBieDomainClass | [cefact:Trade Settlement Line_MonetarySummation.Details](#Trade Settlement Line_MonetarySummation.Details)
+edi3:cefactBusinessProcess | Buy-Ship-Pay
+
 @id | cefact:TradeSettlementHeader_MonetarySummation.Net_LineTotal.Amount
 @type | edi3:BasicBIE
 edi3:cefactUNId | cefact:UN01011891
@@ -35205,13 +35212,6 @@ edi3:cefactUNId | cefact:UN01013469
 rdfs:comment | A monetary value of the net total of all line amounts, including line level allowances and charges and excluding line level taxes, being reported in this trade settlement payment monetary summation.
 edi3:cefactBieDomainClass | [cefact:Trade Settlement Payment_MonetarySummation.Details](#Trade Settlement Payment_MonetarySummation.Details)
 edi3:cefactBusinessProcess | In All Contexts
-
-@id | cefact:TradeSettlementLine_MonetarySummation.Net_LineTotal.Amount
-@type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01011909
-rdfs:comment | A monetary value of the total of all line amounts, including line level allowances and charges and excluding line level taxes, being reported in this trade settlement line monetary summation.
-edi3:cefactBieDomainClass | [cefact:Trade Settlement Line_MonetarySummation.Details](#Trade Settlement Line_MonetarySummation.Details)
-edi3:cefactBusinessProcess | Buy-Ship-Pay
 
 
 
@@ -35250,18 +35250,18 @@ Domains:
 
 Cefact Element Metadata: 
 
-@id | cefact:Line_TradeAgreement.NetPrice_Product.Trade_Price
-@type | edi3:AssociationBIE
-edi3:cefactUNId | cefact:UN01011724
-rdfs:comment | A net product price in this line trade agreement.
-edi3:cefactBieDomainClass | [cefact:Line_TradeAgreement.Details](#Line_TradeAgreement.Details)
-edi3:cefactBusinessProcess | Buy-Ship-Pay
-
 @id | cefact:SubordinateLine_TradeAgreement.NetPrice_Product.Trade_Price
 @type | edi3:AssociationBIE
 edi3:cefactUNId | cefact:UN01011848
 rdfs:comment | A net product price in this subordinate line trade agreement.
 edi3:cefactBieDomainClass | [cefact:Subordinate Line_TradeAgreement.Details](#Subordinate Line_TradeAgreement.Details)
+edi3:cefactBusinessProcess | Buy-Ship-Pay
+
+@id | cefact:Line_TradeAgreement.NetPrice_Product.Trade_Price
+@type | edi3:AssociationBIE
+edi3:cefactUNId | cefact:UN01011724
+rdfs:comment | A net product price in this line trade agreement.
+edi3:cefactBieDomainClass | [cefact:Line_TradeAgreement.Details](#Line_TradeAgreement.Details)
 edi3:cefactBusinessProcess | Buy-Ship-Pay
 
 
@@ -35302,18 +35302,18 @@ Domains:
 
 Cefact Element Metadata: 
 
-@id | cefact:Line_TradeDelivery.NetVolume.Measure
-@type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01011770
-rdfs:comment | The measure, at line level, of the net volume of this line trade delivery.
-edi3:cefactBieDomainClass | [cefact:Line_TradeDelivery.Details](#Line_TradeDelivery.Details)
-edi3:cefactBusinessProcess | Buy-Ship-Pay
-
 @id | cefact:SupplyChain_Consignment.NetVolume.Measure
 @type | edi3:BasicBIE
 edi3:cefactUNId | cefact:UN01012710
 rdfs:comment | A measure of the net volume of this supply chain consignment item which excludes all packaging.
 edi3:cefactBieDomainClass | [cefact:Supply Chain_Consignment.Details](#Supply Chain_Consignment.Details)
+edi3:cefactBusinessProcess | Buy-Ship-Pay
+
+@id | cefact:Line_TradeDelivery.NetVolume.Measure
+@type | edi3:BasicBIE
+edi3:cefactUNId | cefact:UN01011770
+rdfs:comment | The measure, at line level, of the net volume of this line trade delivery.
+edi3:cefactBieDomainClass | [cefact:Line_TradeDelivery.Details](#Line_TradeDelivery.Details)
 edi3:cefactBusinessProcess | Buy-Ship-Pay
 
 
@@ -35332,18 +35332,18 @@ Domains:
 
 Cefact Element Metadata: 
 
-@id | cefact:Logistics_Package.NetWeight.Measure
-@type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01003693
-rdfs:comment | The measure of the net weight of this logistics package, i.e. the weight (mass) of the contents.
-edi3:cefactBieDomainClass | [cefact:Logistics_Package.Details](#Logistics_Package.Details)
-edi3:cefactBusinessProcess | Buy-Ship-Pay
-
 @id | cefact:Trade_Product.NetWeight.Measure
 @type | edi3:BasicBIE
 edi3:cefactUNId | cefact:UN01004691
 rdfs:comment | A measure of the net weight (mass) of this trade product.
 edi3:cefactBieDomainClass | [cefact:Trade_Product.Details](#Trade_Product.Details)
+edi3:cefactBusinessProcess | Buy-Ship-Pay
+
+@id | cefact:Logistics_Package.NetWeight.Measure
+@type | edi3:BasicBIE
+edi3:cefactUNId | cefact:UN01003693
+rdfs:comment | The measure of the net weight of this logistics package, i.e. the weight (mass) of the contents.
+edi3:cefactBieDomainClass | [cefact:Logistics_Package.Details](#Logistics_Package.Details)
 edi3:cefactBusinessProcess | Buy-Ship-Pay
 
 
@@ -35362,10 +35362,52 @@ Domains:
 [edi3:TradeDelivery](#TradeDelivery)
 [edi3:Consignment](#Consignment)
 [edi3:Package](#Package)
-[edi3:TransportMeans](#TransportMeans)
 [edi3:DangerousGoods](#DangerousGoods)
+[edi3:TransportMeans](#TransportMeans)
 
 Cefact Element Metadata: 
+
+@id | cefact:SupplyChain_ConsignmentItem.NetWeight.Measure
+@type | edi3:BasicBIE
+edi3:cefactUNId | cefact:UN01004122
+rdfs:comment | A measure of the net weight (mass) of this supply chain consignment item which excludes all packaging.
+edi3:cefactBieDomainClass | [cefact:Supply Chain_ConsignmentItem.Details](#Supply Chain_ConsignmentItem.Details)
+edi3:cefactBusinessProcess | Buy-Ship-Pay
+
+@id | cefact:SupplyChain_Consignment.NetWeight.Measure
+@type | edi3:BasicBIE
+edi3:cefactUNId | cefact:UN01004174
+rdfs:comment | A measure of the net weight (mass) of this consignment which excludes the weight of packaging of this supply chain consignment and that of any transport equipment.
+edi3:cefactBieDomainClass | [cefact:Supply Chain_Consignment.Details](#Supply Chain_Consignment.Details)
+edi3:cefactBusinessProcess | Buy-Ship-Pay
+
+@id | cefact:Line_TradeDelivery.NetWeight.Measure
+@type | edi3:BasicBIE
+edi3:cefactUNId | cefact:UN01011767
+rdfs:comment | The measure, at line level, of the net weight (mass) of this trade delivery.
+edi3:cefactBieDomainClass | [cefact:Line_TradeDelivery.Details](#Line_TradeDelivery.Details)
+edi3:cefactBusinessProcess | Buy-Ship-Pay
+
+@id | cefact:Transport_DangerousGoods.NetWeight.Measure
+@type | edi3:BasicBIE
+edi3:cefactUNId | cefact:UN01004786
+rdfs:comment | The measure of the net weight (mass) of these transported dangerous goods.
+edi3:cefactBieDomainClass | [cefact:Transport_DangerousGoods.Details](#Transport_DangerousGoods.Details)
+edi3:cefactBusinessProcess | In All Contexts
+
+@id | cefact:Referenced_Logistics_Package.NetWeight.Measure
+@type | edi3:BasicBIE
+edi3:cefactUNId | cefact:UN01013101
+rdfs:comment | The measure of the net weight (mass) of the contents of this referenced logistics package.
+edi3:cefactBieDomainClass | [cefact:Referenced_ Logistics_Package.Details](#Referenced_ Logistics_Package.Details)
+edi3:cefactBusinessProcess | Buy-Ship-Pay
+
+@id | cefact:Logistics_TransportEquipment.NetWeight.Measure
+@type | edi3:BasicBIE
+edi3:cefactUNId | cefact:UN01003760
+rdfs:comment | The measure of the net weight (mass) of this piece of logistics transport equipment.
+edi3:cefactBieDomainClass | [cefact:Logistics_TransportEquipment.Details](#Logistics_TransportEquipment.Details)
+edi3:cefactBusinessProcess | Buy-Ship-Pay
 
 @id | cefact:Referenced_SupplyChain_Consignment.NetWeight.Measure
 @type | edi3:BasicBIE
@@ -35381,53 +35423,11 @@ rdfs:comment | The measure of the net weight (mass) of this logistics means of t
 edi3:cefactBieDomainClass | [cefact:Logistics_TransportMeans.Details](#Logistics_TransportMeans.Details)
 edi3:cefactBusinessProcess | Buy-Ship-Pay
 
-@id | cefact:Logistics_TransportEquipment.NetWeight.Measure
-@type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01003760
-rdfs:comment | The measure of the net weight (mass) of this piece of logistics transport equipment.
-edi3:cefactBieDomainClass | [cefact:Logistics_TransportEquipment.Details](#Logistics_TransportEquipment.Details)
-edi3:cefactBusinessProcess | Buy-Ship-Pay
-
-@id | cefact:Transport_DangerousGoods.NetWeight.Measure
-@type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01004786
-rdfs:comment | The measure of the net weight (mass) of these transported dangerous goods.
-edi3:cefactBieDomainClass | [cefact:Transport_DangerousGoods.Details](#Transport_DangerousGoods.Details)
-edi3:cefactBusinessProcess | In All Contexts
-
-@id | cefact:SupplyChain_ConsignmentItem.NetWeight.Measure
-@type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01004122
-rdfs:comment | A measure of the net weight (mass) of this supply chain consignment item which excludes all packaging.
-edi3:cefactBieDomainClass | [cefact:Supply Chain_ConsignmentItem.Details](#Supply Chain_ConsignmentItem.Details)
-edi3:cefactBusinessProcess | Buy-Ship-Pay
-
-@id | cefact:Referenced_Logistics_Package.NetWeight.Measure
-@type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01013101
-rdfs:comment | The measure of the net weight (mass) of the contents of this referenced logistics package.
-edi3:cefactBieDomainClass | [cefact:Referenced_ Logistics_Package.Details](#Referenced_ Logistics_Package.Details)
-edi3:cefactBusinessProcess | Buy-Ship-Pay
-
-@id | cefact:Line_TradeDelivery.NetWeight.Measure
-@type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01011767
-rdfs:comment | The measure, at line level, of the net weight (mass) of this trade delivery.
-edi3:cefactBieDomainClass | [cefact:Line_TradeDelivery.Details](#Line_TradeDelivery.Details)
-edi3:cefactBusinessProcess | Buy-Ship-Pay
-
 @id | cefact:Referenced_Logistics_TransportEquipment.NetWeight.Measure
 @type | edi3:BasicBIE
 edi3:cefactUNId | cefact:UN01008994
 rdfs:comment | The measure of the net weight (mass) of this piece of referenced logistics transport equipment.
 edi3:cefactBieDomainClass | [cefact:Referenced_ Logistics_TransportEquipment.Details](#Referenced_ Logistics_TransportEquipment.Details)
-edi3:cefactBusinessProcess | Buy-Ship-Pay
-
-@id | cefact:SupplyChain_Consignment.NetWeight.Measure
-@type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01004174
-rdfs:comment | A measure of the net weight (mass) of this consignment which excludes the weight of packaging of this supply chain consignment and that of any transport equipment.
-edi3:cefactBieDomainClass | [cefact:Supply Chain_Consignment.Details](#Supply Chain_Consignment.Details)
 edi3:cefactBusinessProcess | Buy-Ship-Pay
 
 
@@ -35703,18 +35703,18 @@ rdfs:comment | A party who has been or will be notified about this referenced su
 edi3:cefactBieDomainClass | [cefact:Referenced_ Supply Chain_Consignment.Details](#Referenced_ Supply Chain_Consignment.Details)
 edi3:cefactBusinessProcess | Buy-Ship-Pay
 
-@id | cefact:SupplyChain_Consignment.Notified.Trade_Party
-@type | edi3:AssociationBIE
-edi3:cefactUNId | cefact:UN01004223
-rdfs:comment | A party who has been or will be notified about this supply chain consignment.
-edi3:cefactBieDomainClass | [cefact:Supply Chain_Consignment.Details](#Supply Chain_Consignment.Details)
-edi3:cefactBusinessProcess | Buy-Ship-Pay
-
 @id | cefact:Logistics_TransportMovement.Notified.Trade_Party
 @type | edi3:AssociationBIE
 edi3:cefactUNId | cefact:UN01003873
 rdfs:comment | A party to be notified about this logistics transport movement.
 edi3:cefactBieDomainClass | [cefact:Logistics_TransportMovement.Details](#Logistics_TransportMovement.Details)
+edi3:cefactBusinessProcess | Buy-Ship-Pay
+
+@id | cefact:SupplyChain_Consignment.Notified.Trade_Party
+@type | edi3:AssociationBIE
+edi3:cefactUNId | cefact:UN01004223
+rdfs:comment | A party who has been or will be notified about this supply chain consignment.
+edi3:cefactBieDomainClass | [cefact:Supply Chain_Consignment.Details](#Supply Chain_Consignment.Details)
 edi3:cefactBusinessProcess | Buy-Ship-Pay
 
 @id | cefact:Logistics_TransportEquipment.Notified.Trade_Party
@@ -35778,6 +35778,13 @@ rdfs:comment | The date, time, date time, or other date time value of an occurre
 edi3:cefactBieDomainClass | [cefact:Payment_BalanceOut.Details](#Payment_BalanceOut.Details)
 edi3:cefactBusinessProcess | Buy-Ship-Pay
 
+@id | cefact:SupplyChain_Event.Occurrence.DateTime
+@type | edi3:BasicBIE
+edi3:cefactUNId | cefact:UN01004293
+rdfs:comment | A date, time, date time, or other date time value of an occurrence of this supply chain event.
+edi3:cefactBieDomainClass | [cefact:Supply Chain_Event.Details](#Supply Chain_Event.Details)
+edi3:cefactBusinessProcess | Buy-Ship-Pay
+
 @id | cefact:Communication_Event.Occurrence.DateTime
 @type | edi3:BasicBIE
 edi3:cefactUNId | cefact:UN01013562
@@ -35791,13 +35798,6 @@ edi3:cefactUNId | cefact:UN01009027
 rdfs:comment | The date time of the occurrence of this applied chemical treatment.
 edi3:cefactBieDomainClass | [cefact:Applied_ChemicalTreatment.Details](#Applied_ChemicalTreatment.Details)
 edi3:cefactBusinessProcess | In All Contexts
-
-@id | cefact:SupplyChain_Event.Occurrence.DateTime
-@type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01004293
-rdfs:comment | A date, time, date time, or other date time value of an occurrence of this supply chain event.
-edi3:cefactBieDomainClass | [cefact:Supply Chain_Event.Details](#Supply Chain_Event.Details)
-edi3:cefactBusinessProcess | Buy-Ship-Pay
 
 @id | cefact:SupplyChain_Schedule.Occurrence.DateTime
 @type | edi3:BasicBIE
@@ -35821,13 +35821,6 @@ Domains:
 
 Cefact Element Metadata: 
 
-@id | cefact:SupplyChain_Event.Occurrence.Logistics_Location
-@type | edi3:AssociationBIE
-edi3:cefactUNId | cefact:UN01004299
-rdfs:comment | A logistics location where this supply chain event occurs.
-edi3:cefactBieDomainClass | [cefact:Supply Chain_Event.Details](#Supply Chain_Event.Details)
-edi3:cefactBusinessProcess | Buy-Ship-Pay
-
 @id | cefact:Communication_Event.Occurrence.Logistics_Location
 @type | edi3:AssociationBIE
 edi3:cefactUNId | cefact:UN01013569
@@ -35841,6 +35834,13 @@ edi3:cefactUNId | cefact:UN01004803
 rdfs:comment | The logistics location where this transport event occurs.
 edi3:cefactBieDomainClass | [cefact:Transport_Event.Details](#Transport_Event.Details)
 edi3:cefactBusinessProcess | In All Contexts
+
+@id | cefact:SupplyChain_Event.Occurrence.Logistics_Location
+@type | edi3:AssociationBIE
+edi3:cefactUNId | cefact:UN01004299
+rdfs:comment | A logistics location where this supply chain event occurs.
+edi3:cefactBieDomainClass | [cefact:Supply Chain_Event.Details](#Supply Chain_Event.Details)
+edi3:cefactBusinessProcess | Buy-Ship-Pay
 
 
 
@@ -35960,19 +35960,19 @@ Domains:
 
 Cefact Element Metadata: 
 
-@id | cefact:Specified_PersonalEffects.Onboard.Quantity
-@type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01013188
-rdfs:comment | An onboard number of these specified personal effects.
-edi3:cefactBieDomainClass | [cefact:Specified_PersonalEffects.Details](#Specified_PersonalEffects.Details)
-edi3:cefactBusinessProcess | In All Contexts
-
 @id | cefact:StoresItem_Inventory.Onboard.Quantity
 @type | edi3:BasicBIE
 edi3:cefactUNId | cefact:UN01013193
 rdfs:comment | An onboard quantity for this stores inventory item.
 edi3:cefactBieDomainClass | [cefact:Stores Item_Inventory.Details](#Stores Item_Inventory.Details)
 edi3:cefactBusinessProcess | Buy-Ship-Pay
+
+@id | cefact:Specified_PersonalEffects.Onboard.Quantity
+@type | edi3:BasicBIE
+edi3:cefactUNId | cefact:UN01013188
+rdfs:comment | An onboard number of these specified personal effects.
+edi3:cefactBieDomainClass | [cefact:Specified_PersonalEffects.Details](#Specified_PersonalEffects.Details)
+edi3:cefactBusinessProcess | In All Contexts
 
 
 
@@ -36211,12 +36211,12 @@ Domains:
 
 Cefact Element Metadata: 
 
-@id | cefact:ProductHandling_Process.Operator.Trade_Party
+@id | cefact:Monitoring_IOTDevice.Operator.Trade_Party
 @type | edi3:AssociationBIE
-edi3:cefactUNId | cefact:UN01003970
-rdfs:comment | A trade party who is an operator of this product handling process.
-edi3:cefactBieDomainClass | [cefact:Product Handling_Process.Details](#Product Handling_Process.Details)
-edi3:cefactBusinessProcess | In All Contexts
+edi3:cefactUNId | cefact:UN01013488
+rdfs:comment | The operator party, such as terminal operator, service provider, network operator of this monitoring IOT device.
+edi3:cefactBieDomainClass | [cefact:Monitoring_IOTDevice.Details](#Monitoring_IOTDevice.Details)
+edi3:cefactBusinessProcess | Buy-Ship-Pay
 
 @id | cefact:Logistics_TransportMeans.Operator.Trade_Party
 @type | edi3:AssociationBIE
@@ -36225,12 +36225,12 @@ rdfs:comment | The party operating this logistics means of transport.
 edi3:cefactBieDomainClass | [cefact:Logistics_TransportMeans.Details](#Logistics_TransportMeans.Details)
 edi3:cefactBusinessProcess | Buy-Ship-Pay
 
-@id | cefact:Monitoring_IOTDevice.Operator.Trade_Party
+@id | cefact:ProductHandling_Process.Operator.Trade_Party
 @type | edi3:AssociationBIE
-edi3:cefactUNId | cefact:UN01013488
-rdfs:comment | The operator party, such as terminal operator, service provider, network operator of this monitoring IOT device.
-edi3:cefactBieDomainClass | [cefact:Monitoring_IOTDevice.Details](#Monitoring_IOTDevice.Details)
-edi3:cefactBusinessProcess | Buy-Ship-Pay
+edi3:cefactUNId | cefact:UN01003970
+rdfs:comment | A trade party who is an operator of this product handling process.
+edi3:cefactBieDomainClass | [cefact:Product Handling_Process.Details](#Product Handling_Process.Details)
+edi3:cefactBusinessProcess | In All Contexts
 
 
 
@@ -36512,18 +36512,18 @@ Domains:
 
 Cefact Element Metadata: 
 
-@id | cefact:Trade_ProductInstance.Origin.Logistics_Location
-@type | edi3:AssociationBIE
-edi3:cefactUNId | cefact:UN01004665
-rdfs:comment | A location of origin for this supply chain product instance.
-edi3:cefactBieDomainClass | [cefact:Trade_ProductInstance.Details](#Trade_ProductInstance.Details)
-edi3:cefactBusinessProcess | Buy-Ship-Pay
-
 @id | cefact:Trade_Product.Origin.Logistics_Location
 @type | edi3:AssociationBIE
 edi3:cefactUNId | cefact:UN01006145
 rdfs:comment | A location of origin for this trade product.
 edi3:cefactBieDomainClass | [cefact:Trade_Product.Details](#Trade_Product.Details)
+edi3:cefactBusinessProcess | Buy-Ship-Pay
+
+@id | cefact:Trade_ProductInstance.Origin.Logistics_Location
+@type | edi3:AssociationBIE
+edi3:cefactUNId | cefact:UN01004665
+rdfs:comment | A location of origin for this supply chain product instance.
+edi3:cefactBieDomainClass | [cefact:Trade_ProductInstance.Details](#Trade_ProductInstance.Details)
 edi3:cefactBusinessProcess | Buy-Ship-Pay
 
 
@@ -36538,10 +36538,17 @@ Range: [edi3:Country](#Country)
 Domains: 
 
 [edi3:ConsignmentItem](#ConsignmentItem)
-[edi3:Product](#Product)
 [edi3:Consignment](#Consignment)
+[edi3:Product](#Product)
 
 Cefact Element Metadata: 
+
+@id | cefact:SupplyChain_Consignment.Origin.Trade_Country
+@type | edi3:AssociationBIE
+edi3:cefactUNId | cefact:UN01004268
+rdfs:comment | A country of origin for this supply chain consignment.
+edi3:cefactBieDomainClass | [cefact:Supply Chain_Consignment.Details](#Supply Chain_Consignment.Details)
+edi3:cefactBusinessProcess | Buy-Ship-Pay
 
 @id | cefact:Trade_Product.Origin.Trade_Country
 @type | edi3:AssociationBIE
@@ -36555,13 +36562,6 @@ edi3:cefactBusinessProcess | Buy-Ship-Pay
 edi3:cefactUNId | cefact:UN01004139
 rdfs:comment | The country of origin where this supply chain consignment item has been produced.
 edi3:cefactBieDomainClass | [cefact:Supply Chain_ConsignmentItem.Details](#Supply Chain_ConsignmentItem.Details)
-edi3:cefactBusinessProcess | Buy-Ship-Pay
-
-@id | cefact:SupplyChain_Consignment.Origin.Trade_Country
-@type | edi3:AssociationBIE
-edi3:cefactUNId | cefact:UN01004268
-rdfs:comment | A country of origin for this supply chain consignment.
-edi3:cefactBieDomainClass | [cefact:Supply Chain_Consignment.Details](#Supply Chain_Consignment.Details)
 edi3:cefactBusinessProcess | Buy-Ship-Pay
 
 
@@ -36580,18 +36580,18 @@ Domains:
 
 Cefact Element Metadata: 
 
-@id | cefact:SupplyChain_ConsignmentItem.Origin.Trade_GeopoliticalRegion
-@type | edi3:AssociationBIE
-edi3:cefactUNId | cefact:UN01004137
-rdfs:comment | The geopolitical region of origin for this supply chain consignment item.
-edi3:cefactBieDomainClass | [cefact:Supply Chain_ConsignmentItem.Details](#Supply Chain_ConsignmentItem.Details)
-edi3:cefactBusinessProcess | Buy-Ship-Pay
-
 @id | cefact:SupplyChain_Consignment.Origin.Trade_GeopoliticalRegion
 @type | edi3:AssociationBIE
 edi3:cefactUNId | cefact:UN01004275
 rdfs:comment | The geopolitical region of origin for this supply chain consignment.
 edi3:cefactBieDomainClass | [cefact:Supply Chain_Consignment.Details](#Supply Chain_Consignment.Details)
+edi3:cefactBusinessProcess | Buy-Ship-Pay
+
+@id | cefact:SupplyChain_ConsignmentItem.Origin.Trade_GeopoliticalRegion
+@type | edi3:AssociationBIE
+edi3:cefactUNId | cefact:UN01004137
+rdfs:comment | The geopolitical region of origin for this supply chain consignment item.
+edi3:cefactBieDomainClass | [cefact:Supply Chain_ConsignmentItem.Details](#Supply Chain_ConsignmentItem.Details)
 edi3:cefactBusinessProcess | Buy-Ship-Pay
 
 
@@ -36830,18 +36830,18 @@ rdfs:comment | The owner party of this monitoring IOT device.
 edi3:cefactBieDomainClass | [cefact:Monitoring_IOTDevice.Details](#Monitoring_IOTDevice.Details)
 edi3:cefactBusinessProcess | Buy-Ship-Pay
 
-@id | cefact:Monitoring_Sensor.Owner.Trade_Party
-@type | edi3:AssociationBIE
-edi3:cefactUNId | cefact:UN01013545
-rdfs:comment | The owner party of this monitoring sensor.
-edi3:cefactBieDomainClass | [cefact:Monitoring_Sensor.Details](#Monitoring_Sensor.Details)
-edi3:cefactBusinessProcess | Buy-Ship-Pay
-
 @id | cefact:Logistics_TransportMeans.Owner.Trade_Party
 @type | edi3:AssociationBIE
 edi3:cefactUNId | cefact:UN01003836
 rdfs:comment | The party owning this logistics means of transport.
 edi3:cefactBieDomainClass | [cefact:Logistics_TransportMeans.Details](#Logistics_TransportMeans.Details)
+edi3:cefactBusinessProcess | Buy-Ship-Pay
+
+@id | cefact:Monitoring_Sensor.Owner.Trade_Party
+@type | edi3:AssociationBIE
+edi3:cefactUNId | cefact:UN01013545
+rdfs:comment | The owner party of this monitoring sensor.
+edi3:cefactBieDomainClass | [cefact:Monitoring_Sensor.Details](#Monitoring_Sensor.Details)
 edi3:cefactBusinessProcess | Buy-Ship-Pay
 
 
@@ -36869,13 +36869,6 @@ rdfs:comment | The number of packages within this supply chain consignment.
 edi3:cefactBieDomainClass | [cefact:Supply Chain_Consignment.Details](#Supply Chain_Consignment.Details)
 edi3:cefactBusinessProcess | Buy-Ship-Pay
 
-@id | cefact:SubordinateLine_TradeDelivery.Package.Quantity
-@type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01011850
-rdfs:comment | The number of packages in this subordinate line trade delivery.
-edi3:cefactBieDomainClass | [cefact:Subordinate Line_TradeDelivery.Details](#Subordinate Line_TradeDelivery.Details)
-edi3:cefactBusinessProcess | Buy-Ship-Pay
-
 @id | cefact:Logistics_TransportMovement.Package.Quantity
 @type | edi3:BasicBIE
 edi3:cefactUNId | cefact:UN01006137
@@ -36896,6 +36889,13 @@ edi3:cefactUNId | cefact:UN01010139
 rdfs:comment | The package quantity for this supply chain consignment item.
 edi3:cefactBieDomainClass | [cefact:Supply Chain_ConsignmentItem.Details](#Supply Chain_ConsignmentItem.Details)
 edi3:cefactBusinessProcess | Transport
+
+@id | cefact:SubordinateLine_TradeDelivery.Package.Quantity
+@type | edi3:BasicBIE
+edi3:cefactUNId | cefact:UN01011850
+rdfs:comment | The number of packages in this subordinate line trade delivery.
+edi3:cefactBieDomainClass | [cefact:Subordinate Line_TradeDelivery.Details](#Subordinate Line_TradeDelivery.Details)
+edi3:cefactBusinessProcess | Buy-Ship-Pay
 
 
 
@@ -37081,19 +37081,19 @@ Domains:
 
 Cefact Element Metadata: 
 
-@id | cefact:Advance_Payment.Paid.Amount
-@type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01001296
-rdfs:comment | The monetary value of the funds or securities paid in this advance payment.
-edi3:cefactBieDomainClass | [cefact:Advance_Payment.Details](#Advance_Payment.Details)
-edi3:cefactBusinessProcess | Trade
-
 @id | cefact:Instalment_Payment.Paid.Amount
 @type | edi3:BasicBIE
 edi3:cefactUNId | cefact:UN01013274
 rdfs:comment | A monetary value paid or to be paid for this instalment payment.
 edi3:cefactBieDomainClass | [cefact:Instalment_Payment.Details](#Instalment_Payment.Details)
 edi3:cefactBusinessProcess | Buy-Ship-Pay
+
+@id | cefact:Advance_Payment.Paid.Amount
+@type | edi3:BasicBIE
+edi3:cefactUNId | cefact:UN01001296
+rdfs:comment | The monetary value of the funds or securities paid in this advance payment.
+edi3:cefactBieDomainClass | [cefact:Advance_Payment.Details](#Advance_Payment.Details)
+edi3:cefactBusinessProcess | Trade
 
 
 
@@ -37206,11 +37206,11 @@ Domains:
 
 Cefact Element Metadata: 
 
-@id | cefact:Line_TradeDelivery.PartialDeliveryAllowed.Indicator
+@id | cefact:Trade_DeliveryTerms.PartialDeliveryAllowed.Indicator
 @type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01011756
-rdfs:comment | The indication, at line level, of whether or not this trade delivery can be partially delivered.
-edi3:cefactBieDomainClass | [cefact:Line_TradeDelivery.Details](#Line_TradeDelivery.Details)
+edi3:cefactUNId | cefact:UN01012763
+rdfs:comment | The indication of whether or not these trade delivery terms allow a partial delivery.
+edi3:cefactBieDomainClass | [cefact:Trade_DeliveryTerms.Details](#Trade_DeliveryTerms.Details)
 edi3:cefactBusinessProcess | Buy-Ship-Pay
 
 @id | cefact:Header_TradeDelivery.PartialDeliveryAllowed.Indicator
@@ -37220,11 +37220,11 @@ rdfs:comment | The indication, at header level, of whether or not this trade del
 edi3:cefactBieDomainClass | [cefact:Header_TradeDelivery.Details](#Header_TradeDelivery.Details)
 edi3:cefactBusinessProcess | Buy-Ship-Pay
 
-@id | cefact:Trade_DeliveryTerms.PartialDeliveryAllowed.Indicator
+@id | cefact:Line_TradeDelivery.PartialDeliveryAllowed.Indicator
 @type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01012763
-rdfs:comment | The indication of whether or not these trade delivery terms allow a partial delivery.
-edi3:cefactBieDomainClass | [cefact:Trade_DeliveryTerms.Details](#Trade_DeliveryTerms.Details)
+edi3:cefactUNId | cefact:UN01011756
+rdfs:comment | The indication, at line level, of whether or not this trade delivery can be partially delivered.
+edi3:cefactBieDomainClass | [cefact:Line_TradeDelivery.Details](#Line_TradeDelivery.Details)
 edi3:cefactBusinessProcess | Buy-Ship-Pay
 
 
@@ -37492,12 +37492,12 @@ Domains:
 
 Cefact Element Metadata: 
 
-@id | cefact:Payment_TradeSettlement.Payee.Trade_Party
+@id | cefact:Trade_PaymentTerms.Payee.Trade_Party
 @type | edi3:AssociationBIE
-edi3:cefactUNId | cefact:UN01011837
-rdfs:comment | The payee party for this payment trade settlement.
-edi3:cefactBieDomainClass | [cefact:Payment_TradeSettlement.Details](#Payment_TradeSettlement.Details)
-edi3:cefactBusinessProcess | Trade
+edi3:cefactUNId | cefact:UN01009067
+rdfs:comment | A payee party in these trade payment terms.
+edi3:cefactBieDomainClass | [cefact:Trade_PaymentTerms.Details](#Trade_PaymentTerms.Details)
+edi3:cefactBusinessProcess | Supply Chain
 
 @id | cefact:Header_TradeSettlement.Payee.Trade_Party
 @type | edi3:AssociationBIE
@@ -37506,12 +37506,12 @@ rdfs:comment | A payee party for this header trade settlement.
 edi3:cefactBieDomainClass | [cefact:Header_TradeSettlement.Details](#Header_TradeSettlement.Details)
 edi3:cefactBusinessProcess | Buy-Ship-Pay
 
-@id | cefact:Trade_PaymentTerms.Payee.Trade_Party
+@id | cefact:Payment_TradeSettlement.Payee.Trade_Party
 @type | edi3:AssociationBIE
-edi3:cefactUNId | cefact:UN01009067
-rdfs:comment | A payee party in these trade payment terms.
-edi3:cefactBieDomainClass | [cefact:Trade_PaymentTerms.Details](#Trade_PaymentTerms.Details)
-edi3:cefactBusinessProcess | Supply Chain
+edi3:cefactUNId | cefact:UN01011837
+rdfs:comment | The payee party for this payment trade settlement.
+edi3:cefactBieDomainClass | [cefact:Payment_TradeSettlement.Details](#Payment_TradeSettlement.Details)
+edi3:cefactBusinessProcess | Trade
 
 
 
@@ -37601,13 +37601,6 @@ Domains:
 
 Cefact Element Metadata: 
 
-@id | cefact:Payment_TradeSettlement.Payer.Trade_Party
-@type | edi3:AssociationBIE
-edi3:cefactUNId | cefact:UN01011838
-rdfs:comment | The payer party for this payment trade settlement.
-edi3:cefactBieDomainClass | [cefact:Payment_TradeSettlement.Details](#Payment_TradeSettlement.Details)
-edi3:cefactBusinessProcess | Trade
-
 @id | cefact:Header_TradeSettlement.Payer.Trade_Party
 @type | edi3:AssociationBIE
 edi3:cefactUNId | cefact:UN01011665
@@ -37621,6 +37614,13 @@ edi3:cefactUNId | cefact:UN01011805
 rdfs:comment | The payer party for this line trade settlement.
 edi3:cefactBieDomainClass | [cefact:Line_TradeSettlement.Details](#Line_TradeSettlement.Details)
 edi3:cefactBusinessProcess | Buy-Ship-Pay
+
+@id | cefact:Payment_TradeSettlement.Payer.Trade_Party
+@type | edi3:AssociationBIE
+edi3:cefactUNId | cefact:UN01011838
+rdfs:comment | The payer party for this payment trade settlement.
+edi3:cefactBieDomainClass | [cefact:Payment_TradeSettlement.Details](#Payment_TradeSettlement.Details)
+edi3:cefactBusinessProcess | Trade
 
 
 
@@ -37659,18 +37659,18 @@ Domains:
 
 Cefact Element Metadata: 
 
-@id | cefact:Header_TradeSettlement.Payment.Amount
-@type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01013470
-rdfs:comment | A monetary value of a payment for this header trade settlement.
-edi3:cefactBieDomainClass | [cefact:Header_TradeSettlement.Details](#Header_TradeSettlement.Details)
-edi3:cefactBusinessProcess | Buy-Ship-Pay
-
 @id | cefact:Line_TradeSettlement.Payment.Amount
 @type | edi3:BasicBIE
 edi3:cefactUNId | cefact:UN01013471
 rdfs:comment | A monetary value of a payment for this line trade settlement.
 edi3:cefactBieDomainClass | [cefact:Line_TradeSettlement.Details](#Line_TradeSettlement.Details)
+edi3:cefactBusinessProcess | Buy-Ship-Pay
+
+@id | cefact:Header_TradeSettlement.Payment.Amount
+@type | edi3:BasicBIE
+edi3:cefactUNId | cefact:UN01013470
+rdfs:comment | A monetary value of a payment for this header trade settlement.
+edi3:cefactBieDomainClass | [cefact:Header_TradeSettlement.Details](#Header_TradeSettlement.Details)
 edi3:cefactBusinessProcess | Buy-Ship-Pay
 
 
@@ -37688,19 +37688,19 @@ Domains:
 
 Cefact Element Metadata: 
 
-@id | cefact:Payment_TradeSettlement.Payment_Applicable.Trade_CurrencyExchange
-@type | edi3:AssociationBIE
-edi3:cefactUNId | cefact:UN01011839
-rdfs:comment | The currency exchange applicable to this payment trade settlement.
-edi3:cefactBieDomainClass | [cefact:Payment_TradeSettlement.Details](#Payment_TradeSettlement.Details)
-edi3:cefactBusinessProcess | Trade
-
 @id | cefact:Header_TradeSettlement.Payment_Applicable.Trade_CurrencyExchange
 @type | edi3:AssociationBIE
 edi3:cefactUNId | cefact:UN01011670
 rdfs:comment | The currency exchange applicable to the payment in this header trade settlement.
 edi3:cefactBieDomainClass | [cefact:Header_TradeSettlement.Details](#Header_TradeSettlement.Details)
 edi3:cefactBusinessProcess | Buy-Ship-Pay
+
+@id | cefact:Payment_TradeSettlement.Payment_Applicable.Trade_CurrencyExchange
+@type | edi3:AssociationBIE
+edi3:cefactUNId | cefact:UN01011839
+rdfs:comment | The currency exchange applicable to this payment trade settlement.
+edi3:cefactBieDomainClass | [cefact:Payment_TradeSettlement.Details](#Payment_TradeSettlement.Details)
+edi3:cefactBusinessProcess | Trade
 
 
 
@@ -37714,16 +37714,16 @@ Range: xsd:token
 Domains: 
 
 [edi3:ServiceCharge](#ServiceCharge)
-[edi3:Consignment](#Consignment)
 [edi3:Service](#Service)
+[edi3:Consignment](#Consignment)
 
 Cefact Element Metadata: 
 
-@id | cefact:SupplyChain_Consignment.PaymentArrangement.Code
+@id | cefact:Logistics_ServiceCharge.PaymentArrangement.Code
 @type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01006139
-rdfs:comment | The code specifying the payment arrangements for this supply chain consignment.
-edi3:cefactBieDomainClass | [cefact:Supply Chain_Consignment.Details](#Supply Chain_Consignment.Details)
+edi3:cefactUNId | cefact:UN01003724
+rdfs:comment | The code specifying the payment arrangement for this logistics service charge [Reference United Nations Code List (UNCL) 4237].
+edi3:cefactBieDomainClass | [cefact:Logistics_ServiceCharge.Details](#Logistics_ServiceCharge.Details)
 edi3:cefactBusinessProcess | Buy-Ship-Pay
 
 @id | cefact:Transport_Service.PaymentArrangement.Code
@@ -37733,11 +37733,11 @@ rdfs:comment | The code specifying the payment arrangement for this transport se
 edi3:cefactBieDomainClass | [cefact:Transport_Service.Details](#Transport_Service.Details)
 edi3:cefactBusinessProcess | In All Contexts
 
-@id | cefact:Logistics_ServiceCharge.PaymentArrangement.Code
+@id | cefact:SupplyChain_Consignment.PaymentArrangement.Code
 @type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01003724
-rdfs:comment | The code specifying the payment arrangement for this logistics service charge [Reference United Nations Code List (UNCL) 4237].
-edi3:cefactBieDomainClass | [cefact:Logistics_ServiceCharge.Details](#Logistics_ServiceCharge.Details)
+edi3:cefactUNId | cefact:UN01006139
+rdfs:comment | The code specifying the payment arrangements for this supply chain consignment.
+edi3:cefactBieDomainClass | [cefact:Supply Chain_Consignment.Details](#Supply Chain_Consignment.Details)
 edi3:cefactBusinessProcess | Buy-Ship-Pay
 
 
@@ -37946,18 +37946,18 @@ Domains:
 
 Cefact Element Metadata: 
 
-@id | cefact:Header_TradeSettlement.PaymentReference.Text
-@type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01011649
-rdfs:comment | A payment reference, expressed as text, for this header trade settlement.
-edi3:cefactBieDomainClass | [cefact:Header_TradeSettlement.Details](#Header_TradeSettlement.Details)
-edi3:cefactBusinessProcess | Buy-Ship-Pay
-
 @id | cefact:Line_TradeSettlement.PaymentReference.Text
 @type | edi3:BasicBIE
 edi3:cefactUNId | cefact:UN01011801
 rdfs:comment | A payment reference, expressed as text, for this line trade settlement.
 edi3:cefactBieDomainClass | [cefact:Line_TradeSettlement.Details](#Line_TradeSettlement.Details)
+edi3:cefactBusinessProcess | Buy-Ship-Pay
+
+@id | cefact:Header_TradeSettlement.PaymentReference.Text
+@type | edi3:BasicBIE
+edi3:cefactUNId | cefact:UN01011649
+rdfs:comment | A payment reference, expressed as text, for this header trade settlement.
+edi3:cefactBieDomainClass | [cefact:Header_TradeSettlement.Details](#Header_TradeSettlement.Details)
 edi3:cefactBusinessProcess | Buy-Ship-Pay
 
 
@@ -37975,13 +37975,6 @@ Domains:
 
 Cefact Element Metadata: 
 
-@id | cefact:TradeSettlementPayment_MonetarySummation.PaymentTotal.Amount
-@type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01011914
-rdfs:comment | A monetary value of a payment total reported in this trade settlement payment monetary summation.
-edi3:cefactBieDomainClass | [cefact:Trade Settlement Payment_MonetarySummation.Details](#Trade Settlement Payment_MonetarySummation.Details)
-edi3:cefactBusinessProcess | Supply Chain
-
 @id | cefact:TradeSettlementLine_MonetarySummation.PaymentTotal.Amount
 @type | edi3:BasicBIE
 edi3:cefactUNId | cefact:UN01011906
@@ -37994,6 +37987,13 @@ edi3:cefactBusinessProcess | Supply Chain
 edi3:cefactUNId | cefact:UN01011884
 rdfs:comment | A monetary value of a payment total reported in this header trade settlement payment monetary summation.
 edi3:cefactBieDomainClass | [cefact:Trade Settlement Header_MonetarySummation.Details](#Trade Settlement Header_MonetarySummation.Details)
+edi3:cefactBusinessProcess | Supply Chain
+
+@id | cefact:TradeSettlementPayment_MonetarySummation.PaymentTotal.Amount
+@type | edi3:BasicBIE
+edi3:cefactUNId | cefact:UN01011914
+rdfs:comment | A monetary value of a payment total reported in this trade settlement payment monetary summation.
+edi3:cefactBieDomainClass | [cefact:Trade Settlement Payment_MonetarySummation.Details](#Trade Settlement Payment_MonetarySummation.Details)
 edi3:cefactBusinessProcess | Supply Chain
 
 
@@ -38012,6 +38012,13 @@ Domains:
 
 Cefact Element Metadata: 
 
+@id | cefact:Referenced_Logistics_Package.PerPackage_Unit.Quantity
+@type | edi3:BasicBIE
+edi3:cefactUNId | cefact:UN01013106
+rdfs:comment | A number of units per package in this referenced logistics package.
+edi3:cefactBieDomainClass | [cefact:Referenced_ Logistics_Package.Details](#Referenced_ Logistics_Package.Details)
+edi3:cefactBusinessProcess | Buy-Ship-Pay
+
 @id | cefact:Logistics_Package.PerPackage_Unit.Quantity
 @type | edi3:BasicBIE
 edi3:cefactUNId | cefact:UN01012961
@@ -38024,13 +38031,6 @@ edi3:cefactBusinessProcess | Supply Chain
 edi3:cefactUNId | cefact:UN01011852
 rdfs:comment | The number of units per package in this subordinate line trade delivery.
 edi3:cefactBieDomainClass | [cefact:Subordinate Line_TradeDelivery.Details](#Subordinate Line_TradeDelivery.Details)
-edi3:cefactBusinessProcess | Buy-Ship-Pay
-
-@id | cefact:Referenced_Logistics_Package.PerPackage_Unit.Quantity
-@type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01013106
-rdfs:comment | A number of units per package in this referenced logistics package.
-edi3:cefactBieDomainClass | [cefact:Referenced_ Logistics_Package.Details](#Referenced_ Logistics_Package.Details)
 edi3:cefactBusinessProcess | Buy-Ship-Pay
 
 @id | cefact:Line_TradeDelivery.PerPackage_Unit.Quantity
@@ -38143,19 +38143,19 @@ Domains:
 
 Cefact Element Metadata: 
 
-@id | cefact:Subordinate_Location.Physical.GeographicalCoordinate
-@type | edi3:AssociationBIE
-edi3:cefactUNId | cefact:UN01004096
-rdfs:comment | Physical geographical coordinate information for this subordinate location.
-edi3:cefactBieDomainClass | [cefact:Subordinate_Location.Details](#Subordinate_Location.Details)
-edi3:cefactBusinessProcess | In All Contexts
-
 @id | cefact:Logistics_Location.Physical.GeographicalCoordinate
 @type | edi3:AssociationBIE
 edi3:cefactUNId | cefact:UN01003685
 rdfs:comment | Geographical coordinate information for this logistics related location.
 edi3:cefactBieDomainClass | [cefact:Logistics_Location.Details](#Logistics_Location.Details)
 edi3:cefactBusinessProcess | Buy-Ship-Pay
+
+@id | cefact:Subordinate_Location.Physical.GeographicalCoordinate
+@type | edi3:AssociationBIE
+edi3:cefactUNId | cefact:UN01004096
+rdfs:comment | Physical geographical coordinate information for this subordinate location.
+edi3:cefactBieDomainClass | [cefact:Subordinate_Location.Details](#Subordinate_Location.Details)
+edi3:cefactBusinessProcess | In All Contexts
 
 @id | cefact:SubordinateSubordinate_Location.Physical.GeographicalCoordinate
 @type | edi3:AssociationBIE
@@ -38239,11 +38239,11 @@ rdfs:comment | Physical logistics shipping marks and barcode information for thi
 edi3:cefactBieDomainClass | [cefact:Referenced_ Supply Chain_ConsignmentItem.Details](#Referenced_ Supply Chain_ConsignmentItem.Details)
 edi3:cefactBusinessProcess | Buy-Ship-Pay
 
-@id | cefact:SupplyChain_ConsignmentItem.Physical.Logistics_ShippingMarks
+@id | cefact:Referenced_Logistics_Package.Physical.Logistics_ShippingMarks
 @type | edi3:AssociationBIE
-edi3:cefactUNId | cefact:UN01004135
-rdfs:comment | Physical logistics shipping marks and barcode information for this supply chain consignment item.
-edi3:cefactBieDomainClass | [cefact:Supply Chain_ConsignmentItem.Details](#Supply Chain_ConsignmentItem.Details)
+edi3:cefactUNId | cefact:UN01013107
+rdfs:comment | Physical logistics shipping marks in this referenced logistics package.
+edi3:cefactBieDomainClass | [cefact:Referenced_ Logistics_Package.Details](#Referenced_ Logistics_Package.Details)
 edi3:cefactBusinessProcess | Buy-Ship-Pay
 
 @id | cefact:SupplyChain_Consignment.Physical.Logistics_ShippingMarks
@@ -38253,11 +38253,11 @@ rdfs:comment | Physical logistics shipping marks and barcoding information relat
 edi3:cefactBieDomainClass | [cefact:Supply Chain_Consignment.Details](#Supply Chain_Consignment.Details)
 edi3:cefactBusinessProcess | Buy-Ship-Pay
 
-@id | cefact:Referenced_Logistics_Package.Physical.Logistics_ShippingMarks
+@id | cefact:SupplyChain_ConsignmentItem.Physical.Logistics_ShippingMarks
 @type | edi3:AssociationBIE
-edi3:cefactUNId | cefact:UN01013107
-rdfs:comment | Physical logistics shipping marks in this referenced logistics package.
-edi3:cefactBieDomainClass | [cefact:Referenced_ Logistics_Package.Details](#Referenced_ Logistics_Package.Details)
+edi3:cefactUNId | cefact:UN01004135
+rdfs:comment | Physical logistics shipping marks and barcode information for this supply chain consignment item.
+edi3:cefactBieDomainClass | [cefact:Supply Chain_ConsignmentItem.Details](#Supply Chain_ConsignmentItem.Details)
 edi3:cefactBusinessProcess | Buy-Ship-Pay
 
 
@@ -38722,18 +38722,18 @@ Domains:
 
 Cefact Element Metadata: 
 
-@id | cefact:Creditor_FinancialInstitution.PolishNationalClearing_Identification.Identifier
-@type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01002998
-rdfs:comment | The unique Polish National Clearing Code identifier for this creditor financial institution.
-edi3:cefactBieDomainClass | [cefact:Creditor_FinancialInstitution.Details](#Creditor_FinancialInstitution.Details)
-edi3:cefactBusinessProcess | Customer to bank payment initiation
-
 @id | cefact:Debtor_FinancialInstitution.PolishNationalClearing_Identification.Identifier
 @type | edi3:BasicBIE
 edi3:cefactUNId | cefact:UN01002863
 rdfs:comment | The unique Polish National Clearing Code identifier for this debtor financial institution.
 edi3:cefactBieDomainClass | [cefact:Debtor_FinancialInstitution.Details](#Debtor_FinancialInstitution.Details)
+edi3:cefactBusinessProcess | Customer to bank payment initiation
+
+@id | cefact:Creditor_FinancialInstitution.PolishNationalClearing_Identification.Identifier
+@type | edi3:BasicBIE
+edi3:cefactUNId | cefact:UN01002998
+rdfs:comment | The unique Polish National Clearing Code identifier for this creditor financial institution.
+edi3:cefactBieDomainClass | [cefact:Creditor_FinancialInstitution.Details](#Creditor_FinancialInstitution.Details)
 edi3:cefactBusinessProcess | Customer to bank payment initiation
 
 
@@ -38942,19 +38942,19 @@ Domains:
 
 Cefact Element Metadata: 
 
-@id | cefact:FinancialInstitution_Address.PostOfficeBox.Text
-@type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01004892
-rdfs:comment | The post office box, expressed as text, for this financial institution address.
-edi3:cefactBieDomainClass | [cefact:Financial Institution_Address.Details](#Financial Institution_Address.Details)
-edi3:cefactBusinessProcess | Customer to bank payment initiation
-
 @id | cefact:Trade_Address.PostOfficeBox.Text
 @type | edi3:BasicBIE
 edi3:cefactUNId | cefact:UN01004536
 rdfs:comment | The unique identifier, expressed as text, of a container commonly referred to as a box, in a post office or other postal service location, assigned to a person or organization, where postal items may be kept for this trade address.
 edi3:cefactBieDomainClass | [cefact:Trade_Address.Details](#Trade_Address.Details)
 edi3:cefactBusinessProcess | Buy-Ship-Pay
+
+@id | cefact:FinancialInstitution_Address.PostOfficeBox.Text
+@type | edi3:BasicBIE
+edi3:cefactUNId | cefact:UN01004892
+rdfs:comment | The post office box, expressed as text, for this financial institution address.
+edi3:cefactBieDomainClass | [cefact:Financial Institution_Address.Details](#Financial Institution_Address.Details)
+edi3:cefactBusinessProcess | Customer to bank payment initiation
 
 
 
@@ -38973,12 +38973,12 @@ Domains:
 
 Cefact Element Metadata: 
 
-@id | cefact:Location_Party.Postal.Trade_Address
+@id | cefact:Trade_Party.Postal.Trade_Address
 @type | edi3:AssociationBIE
-edi3:cefactUNId | cefact:UN01003670
-rdfs:comment | A postal address for this location party.
-edi3:cefactBieDomainClass | [cefact:Location_Party.Details](#Location_Party.Details)
-edi3:cefactBusinessProcess | In All Contexts
+edi3:cefactUNId | cefact:UN01004603
+rdfs:comment | The postal address for this trade party.
+edi3:cefactBieDomainClass | [cefact:Trade_Party.Details](#Trade_Party.Details)
+edi3:cefactBusinessProcess | Buy-Ship-Pay
 
 @id | cefact:Legal_Organization.Postal.Trade_Address
 @type | edi3:AssociationBIE
@@ -38994,12 +38994,12 @@ rdfs:comment | The postal trade address information for this logistics related l
 edi3:cefactBieDomainClass | [cefact:Logistics_Location.Details](#Logistics_Location.Details)
 edi3:cefactBusinessProcess | Buy-Ship-Pay
 
-@id | cefact:Trade_Party.Postal.Trade_Address
+@id | cefact:Location_Party.Postal.Trade_Address
 @type | edi3:AssociationBIE
-edi3:cefactUNId | cefact:UN01004603
-rdfs:comment | The postal address for this trade party.
-edi3:cefactBieDomainClass | [cefact:Trade_Party.Details](#Trade_Party.Details)
-edi3:cefactBusinessProcess | Buy-Ship-Pay
+edi3:cefactUNId | cefact:UN01003670
+rdfs:comment | A postal address for this location party.
+edi3:cefactBieDomainClass | [cefact:Location_Party.Details](#Location_Party.Details)
+edi3:cefactBusinessProcess | In All Contexts
 
 
 
@@ -39295,18 +39295,18 @@ Domains:
 
 Cefact Element Metadata: 
 
-@id | cefact:SupplyChain_ConsignmentItem.PreviousAdministrative.Referenced_Document
-@type | edi3:AssociationBIE
-edi3:cefactUNId | cefact:UN01012576
-rdfs:comment | A previous administrative referenced document for this supply chain consignment item.
-edi3:cefactBieDomainClass | [cefact:Supply Chain_ConsignmentItem.Details](#Supply Chain_ConsignmentItem.Details)
-edi3:cefactBusinessProcess | Buy-Ship-Pay
-
 @id | cefact:SupplyChain_Consignment.PreviousAdministrative.Referenced_Document
 @type | edi3:AssociationBIE
 edi3:cefactUNId | cefact:UN01012580
 rdfs:comment | A previous administrative referenced document for this supply chain consignment.
 edi3:cefactBieDomainClass | [cefact:Supply Chain_Consignment.Details](#Supply Chain_Consignment.Details)
+edi3:cefactBusinessProcess | Buy-Ship-Pay
+
+@id | cefact:SupplyChain_ConsignmentItem.PreviousAdministrative.Referenced_Document
+@type | edi3:AssociationBIE
+edi3:cefactUNId | cefact:UN01012576
+rdfs:comment | A previous administrative referenced document for this supply chain consignment item.
+edi3:cefactBieDomainClass | [cefact:Supply Chain_ConsignmentItem.Details](#Supply Chain_ConsignmentItem.Details)
 edi3:cefactBusinessProcess | Buy-Ship-Pay
 
 
@@ -39743,18 +39743,18 @@ Domains:
 
 Cefact Element Metadata: 
 
-@id | cefact:WorkItem_QuantityAnalysis.Primary_Classification.Code
-@type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01000022
-rdfs:comment | A code specifying a primary classification value for this work item quantity analysis.
-edi3:cefactBieDomainClass | [cefact:Work Item_QuantityAnalysis.Details](#Work Item_QuantityAnalysis.Details)
-edi3:cefactBusinessProcess | In All Contexts
-
 @id | cefact:Grouped_WorkItem.Primary_Classification.Code
 @type | edi3:BasicBIE
 edi3:cefactUNId | cefact:UN01000045
 rdfs:comment | A code specifying the primary classification for this work item group.
 edi3:cefactBieDomainClass | [cefact:Grouped_WorkItem.Details](#Grouped_WorkItem.Details)
+edi3:cefactBusinessProcess | In All Contexts
+
+@id | cefact:WorkItem_QuantityAnalysis.Primary_Classification.Code
+@type | edi3:BasicBIE
+edi3:cefactUNId | cefact:UN01000022
+rdfs:comment | A code specifying a primary classification value for this work item quantity analysis.
+edi3:cefactBieDomainClass | [cefact:Work Item_QuantityAnalysis.Details](#Work Item_QuantityAnalysis.Details)
 edi3:cefactBusinessProcess | In All Contexts
 
 @id | cefact:Basic_WorkItem.Primary_Classification.Code
@@ -39779,18 +39779,18 @@ Domains:
 
 Cefact Element Metadata: 
 
-@id | cefact:Line_TradeAgreement.PrimeContract_Seller.Trade_Party
-@type | edi3:AssociationBIE
-edi3:cefactUNId | cefact:UN01013415
-rdfs:comment | The seller party acting as the prime contractor for this line trade agreement.
-edi3:cefactBieDomainClass | [cefact:Line_TradeAgreement.Details](#Line_TradeAgreement.Details)
-edi3:cefactBusinessProcess | Buy-Ship-Pay
-
 @id | cefact:Header_TradeAgreement.PrimeContract_Seller.Trade_Party
 @type | edi3:AssociationBIE
 edi3:cefactUNId | cefact:UN01013411
 rdfs:comment | The seller party acting as the prime contractor for this header trade agreement.
 edi3:cefactBieDomainClass | [cefact:Header_TradeAgreement.Details](#Header_TradeAgreement.Details)
+edi3:cefactBusinessProcess | Buy-Ship-Pay
+
+@id | cefact:Line_TradeAgreement.PrimeContract_Seller.Trade_Party
+@type | edi3:AssociationBIE
+edi3:cefactUNId | cefact:UN01013415
+rdfs:comment | The seller party acting as the prime contractor for this line trade agreement.
+edi3:cefactBieDomainClass | [cefact:Line_TradeAgreement.Details](#Line_TradeAgreement.Details)
 edi3:cefactBusinessProcess | Buy-Ship-Pay
 
 
@@ -39830,18 +39830,18 @@ Domains:
 
 Cefact Element Metadata: 
 
-@id | cefact:Line_TradeAgreement.Priority.Code
-@type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01012989
-rdfs:comment | The code specifying the priority for this line trade agreement.
-edi3:cefactBieDomainClass | [cefact:Line_TradeAgreement.Details](#Line_TradeAgreement.Details)
-edi3:cefactBusinessProcess | Buy-Ship-Pay
-
 @id | cefact:Header_TradeAgreement.Priority.Code
 @type | edi3:BasicBIE
 edi3:cefactUNId | cefact:UN01013025
 rdfs:comment | The code specifying the priority for this header trade agreement.
 edi3:cefactBieDomainClass | [cefact:Header_TradeAgreement.Details](#Header_TradeAgreement.Details)
+edi3:cefactBusinessProcess | Buy-Ship-Pay
+
+@id | cefact:Line_TradeAgreement.Priority.Code
+@type | edi3:BasicBIE
+edi3:cefactUNId | cefact:UN01012989
+rdfs:comment | The code specifying the priority for this line trade agreement.
+edi3:cefactBieDomainClass | [cefact:Line_TradeAgreement.Details](#Line_TradeAgreement.Details)
 edi3:cefactBusinessProcess | Buy-Ship-Pay
 
 
@@ -39976,18 +39976,18 @@ Domains:
 
 Cefact Element Metadata: 
 
-@id | cefact:Header_TradeAgreement.Procurement.Trade_Party
-@type | edi3:AssociationBIE
-edi3:cefactUNId | cefact:UN01011583
-rdfs:comment | The procurement party for this header trade agreement.
-edi3:cefactBieDomainClass | [cefact:Header_TradeAgreement.Details](#Header_TradeAgreement.Details)
-edi3:cefactBusinessProcess | Buy-Ship-Pay
-
 @id | cefact:Line_TradeAgreement.Procurement.Trade_Party
 @type | edi3:AssociationBIE
 edi3:cefactUNId | cefact:UN01011729
 rdfs:comment | The procurement party for this line trade agreement.
 edi3:cefactBieDomainClass | [cefact:Line_TradeAgreement.Details](#Line_TradeAgreement.Details)
+edi3:cefactBusinessProcess | Buy-Ship-Pay
+
+@id | cefact:Header_TradeAgreement.Procurement.Trade_Party
+@type | edi3:AssociationBIE
+edi3:cefactUNId | cefact:UN01011583
+rdfs:comment | The procurement party for this header trade agreement.
+edi3:cefactBieDomainClass | [cefact:Header_TradeAgreement.Details](#Header_TradeAgreement.Details)
 edi3:cefactBusinessProcess | Buy-Ship-Pay
 
 
@@ -40027,18 +40027,18 @@ Domains:
 
 Cefact Element Metadata: 
 
-@id | cefact:Line_TradeAgreement.ProductEndUser.Trade_Party
-@type | edi3:AssociationBIE
-edi3:cefactUNId | cefact:UN01011710
-rdfs:comment | The party acting as the end user for the products in this line trade agreement.
-edi3:cefactBieDomainClass | [cefact:Line_TradeAgreement.Details](#Line_TradeAgreement.Details)
-edi3:cefactBusinessProcess | Buy-Ship-Pay
-
 @id | cefact:Header_TradeAgreement.ProductEndUser.Trade_Party
 @type | edi3:AssociationBIE
 edi3:cefactUNId | cefact:UN01011559
 rdfs:comment | The party acting as the end user for the products in this header trade agreement.
 edi3:cefactBieDomainClass | [cefact:Header_TradeAgreement.Details](#Header_TradeAgreement.Details)
+edi3:cefactBusinessProcess | Buy-Ship-Pay
+
+@id | cefact:Line_TradeAgreement.ProductEndUser.Trade_Party
+@type | edi3:AssociationBIE
+edi3:cefactUNId | cefact:UN01011710
+rdfs:comment | The party acting as the end user for the products in this line trade agreement.
+edi3:cefactBieDomainClass | [cefact:Line_TradeAgreement.Details](#Line_TradeAgreement.Details)
 edi3:cefactBusinessProcess | Buy-Ship-Pay
 
 
@@ -40436,19 +40436,19 @@ rdfs:comment | The unique proprietary identifier for this creditor financial acc
 edi3:cefactBieDomainClass | [cefact:Creditor_FinancialAccount.Details](#Creditor_FinancialAccount.Details)
 edi3:cefactBusinessProcess | Customer to bank payment initiation
 
-@id | cefact:Financing_FinancialAccount.Proprietary_Identification.Identifier
-@type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01013261
-rdfs:comment | The proprietary identifier for this financing financial account.
-edi3:cefactBieDomainClass | [cefact:Financing_FinancialAccount.Details](#Financing_FinancialAccount.Details)
-edi3:cefactBusinessProcess | Buy-Ship-Pay
-
 @id | cefact:Debtor_FinancialAccount.Proprietary_Identification.Identifier
 @type | edi3:BasicBIE
 edi3:cefactUNId | cefact:UN01004851
 rdfs:comment | The unique proprietary identifier for this debtor financial account.
 edi3:cefactBieDomainClass | [cefact:Debtor_FinancialAccount.Details](#Debtor_FinancialAccount.Details)
 edi3:cefactBusinessProcess | Customer to bank payment initiation
+
+@id | cefact:Financing_FinancialAccount.Proprietary_Identification.Identifier
+@type | edi3:BasicBIE
+edi3:cefactUNId | cefact:UN01013261
+rdfs:comment | The proprietary identifier for this financing financial account.
+edi3:cefactBieDomainClass | [cefact:Financing_FinancialAccount.Details](#Financing_FinancialAccount.Details)
+edi3:cefactBusinessProcess | Buy-Ship-Pay
 
 
 
@@ -40473,6 +40473,13 @@ rdfs:comment | The proprietary type, expressed as text, of this debtor financial
 edi3:cefactBieDomainClass | [cefact:Debtor_FinancialAccount.Details](#Debtor_FinancialAccount.Details)
 edi3:cefactBusinessProcess | Customer to bank payment initiation
 
+@id | cefact:Referenced_Document.Proprietary_Type.Text
+@type | edi3:BasicBIE
+edi3:cefactUNId | cefact:UN01013290
+rdfs:comment | A proprietary type, expressed as text, for this referenced document.
+edi3:cefactBieDomainClass | [cefact:Referenced_Document.Details](#Referenced_Document.Details)
+edi3:cefactBusinessProcess | Buy-Ship-Pay
+
 @id | cefact:Creditor_FinancialAccount.Proprietary_Type.Text
 @type | edi3:BasicBIE
 edi3:cefactUNId | cefact:UN01003353
@@ -40485,13 +40492,6 @@ edi3:cefactBusinessProcess | Customer to bank payment initiation
 edi3:cefactUNId | cefact:UN01013258
 rdfs:comment | The proprietary type, expressed as text, of this financing financial account, such as the nature or use.
 edi3:cefactBieDomainClass | [cefact:Financing_FinancialAccount.Details](#Financing_FinancialAccount.Details)
-edi3:cefactBusinessProcess | Buy-Ship-Pay
-
-@id | cefact:Referenced_Document.Proprietary_Type.Text
-@type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01013290
-rdfs:comment | A proprietary type, expressed as text, for this referenced document.
-edi3:cefactBieDomainClass | [cefact:Referenced_Document.Details](#Referenced_Document.Details)
 edi3:cefactBusinessProcess | Buy-Ship-Pay
 
 
@@ -40509,19 +40509,19 @@ Domains:
 
 Cefact Element Metadata: 
 
-@id | cefact:Trade_Party.Provided.Transport_Service
-@type | edi3:AssociationBIE
-edi3:cefactUNId | cefact:UN01004608
-rdfs:comment | A transport service provided by this trade party.
-edi3:cefactBieDomainClass | [cefact:Trade_Party.Details](#Trade_Party.Details)
-edi3:cefactBusinessProcess | Buy-Ship-Pay
-
 @id | cefact:Location_Party.Provided.Transport_Service
 @type | edi3:AssociationBIE
 edi3:cefactUNId | cefact:UN01003674
 rdfs:comment | A transport service provided by this location party.
 edi3:cefactBieDomainClass | [cefact:Location_Party.Details](#Location_Party.Details)
 edi3:cefactBusinessProcess | In All Contexts
+
+@id | cefact:Trade_Party.Provided.Transport_Service
+@type | edi3:AssociationBIE
+edi3:cefactUNId | cefact:UN01004608
+rdfs:comment | A transport service provided by this trade party.
+edi3:cefactBieDomainClass | [cefact:Trade_Party.Details](#Trade_Party.Details)
+edi3:cefactBusinessProcess | Buy-Ship-Pay
 
 
 
@@ -40634,18 +40634,18 @@ Domains:
 
 Cefact Element Metadata: 
 
-@id | cefact:Line_TradeSettlement.Purchase_Specified.Trade_AccountingAccount
-@type | edi3:AssociationBIE
-edi3:cefactUNId | cefact:UN01011818
-rdfs:comment | A purchase accounting account specified for this line trade settlement.
-edi3:cefactBieDomainClass | [cefact:Line_TradeSettlement.Details](#Line_TradeSettlement.Details)
-edi3:cefactBusinessProcess | Buy-Ship-Pay
-
 @id | cefact:Header_TradeSettlement.Purchase_Specified.Trade_AccountingAccount
 @type | edi3:AssociationBIE
 edi3:cefactUNId | cefact:UN01011687
 rdfs:comment | A purchase accounting account specified for this header trade settlement.
 edi3:cefactBieDomainClass | [cefact:Header_TradeSettlement.Details](#Header_TradeSettlement.Details)
+edi3:cefactBusinessProcess | Buy-Ship-Pay
+
+@id | cefact:Line_TradeSettlement.Purchase_Specified.Trade_AccountingAccount
+@type | edi3:AssociationBIE
+edi3:cefactUNId | cefact:UN01011818
+rdfs:comment | A purchase accounting account specified for this line trade settlement.
+edi3:cefactBieDomainClass | [cefact:Line_TradeSettlement.Details](#Line_TradeSettlement.Details)
 edi3:cefactBusinessProcess | Buy-Ship-Pay
 
 
@@ -40664,19 +40664,19 @@ Domains:
 
 Cefact Element Metadata: 
 
-@id | cefact:Specified_Period.Purpose.Code
-@type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01009047
-rdfs:comment | The code specifying the purpose of this specified period.
-edi3:cefactBieDomainClass | [cefact:Specified_Period.Details](#Specified_Period.Details)
-edi3:cefactBusinessProcess | In All Contexts
-
 @id | cefact:Product_Certificate.Purpose.Code
 @type | edi3:BasicBIE
 edi3:cefactUNId | cefact:UN01012494
 rdfs:comment | A code specifying the purpose of this product certificate.
 edi3:cefactBieDomainClass | [cefact:Product_Certificate.Details](#Product_Certificate.Details)
 edi3:cefactBusinessProcess | Traceability
+
+@id | cefact:Specified_Period.Purpose.Code
+@type | edi3:BasicBIE
+edi3:cefactUNId | cefact:UN01009047
+rdfs:comment | The code specifying the purpose of this specified period.
+edi3:cefactBieDomainClass | [cefact:Specified_Period.Details](#Specified_Period.Details)
+edi3:cefactBusinessProcess | In All Contexts
 
 
 
@@ -41038,18 +41038,18 @@ Domains:
 
 Cefact Element Metadata: 
 
-@id | cefact:Line_TradeAgreement.QuotationProposalResponse.Referenced_Document
-@type | edi3:AssociationBIE
-edi3:cefactUNId | cefact:UN01011748
-rdfs:comment | The quotation proposal response document referenced in this line trade agreement.
-edi3:cefactBieDomainClass | [cefact:Line_TradeAgreement.Details](#Line_TradeAgreement.Details)
-edi3:cefactBusinessProcess | Trade
-
 @id | cefact:Header_TradeAgreement.QuotationProposalResponse.Referenced_Document
 @type | edi3:AssociationBIE
 edi3:cefactUNId | cefact:UN01011600
 rdfs:comment | The quotation proposal response document referenced in this header trade agreement.
 edi3:cefactBieDomainClass | [cefact:Header_TradeAgreement.Details](#Header_TradeAgreement.Details)
+edi3:cefactBusinessProcess | Trade
+
+@id | cefact:Line_TradeAgreement.QuotationProposalResponse.Referenced_Document
+@type | edi3:AssociationBIE
+edi3:cefactUNId | cefact:UN01011748
+rdfs:comment | The quotation proposal response document referenced in this line trade agreement.
+edi3:cefactBieDomainClass | [cefact:Line_TradeAgreement.Details](#Line_TradeAgreement.Details)
 edi3:cefactBusinessProcess | Trade
 
 
@@ -41067,18 +41067,18 @@ Domains:
 
 Cefact Element Metadata: 
 
-@id | cefact:Header_TradeAgreement.Quotation.Referenced_Document
-@type | edi3:AssociationBIE
-edi3:cefactUNId | cefact:UN01011566
-rdfs:comment | The quotation document referenced in this header trade agreement.
-edi3:cefactBieDomainClass | [cefact:Header_TradeAgreement.Details](#Header_TradeAgreement.Details)
-edi3:cefactBusinessProcess | Trade
-
 @id | cefact:Line_TradeAgreement.Quotation.Referenced_Document
 @type | edi3:AssociationBIE
 edi3:cefactUNId | cefact:UN01011715
 rdfs:comment | The quotation document referenced in this line trade agreement.
 edi3:cefactBieDomainClass | [cefact:Line_TradeAgreement.Details](#Line_TradeAgreement.Details)
+edi3:cefactBusinessProcess | Trade
+
+@id | cefact:Header_TradeAgreement.Quotation.Referenced_Document
+@type | edi3:AssociationBIE
+edi3:cefactUNId | cefact:UN01011566
+rdfs:comment | The quotation document referenced in this header trade agreement.
+edi3:cefactBieDomainClass | [cefact:Header_TradeAgreement.Details](#Header_TradeAgreement.Details)
 edi3:cefactBusinessProcess | Trade
 
 
@@ -41096,18 +41096,18 @@ Domains:
 
 Cefact Element Metadata: 
 
-@id | cefact:Header_TradeAgreement.QuotationRequest.Referenced_Document
-@type | edi3:AssociationBIE
-edi3:cefactUNId | cefact:UN01011568
-rdfs:comment | The quotation request document referenced in this header trade agreement.
-edi3:cefactBieDomainClass | [cefact:Header_TradeAgreement.Details](#Header_TradeAgreement.Details)
-edi3:cefactBusinessProcess | Trade
-
 @id | cefact:Line_TradeAgreement.QuotationRequest.Referenced_Document
 @type | edi3:AssociationBIE
 edi3:cefactUNId | cefact:UN01011716
 rdfs:comment | The quotation request document referenced in this line trade agreement.
 edi3:cefactBieDomainClass | [cefact:Line_TradeAgreement.Details](#Line_TradeAgreement.Details)
+edi3:cefactBusinessProcess | Trade
+
+@id | cefact:Header_TradeAgreement.QuotationRequest.Referenced_Document
+@type | edi3:AssociationBIE
+edi3:cefactUNId | cefact:UN01011568
+rdfs:comment | The quotation request document referenced in this header trade agreement.
+edi3:cefactBieDomainClass | [cefact:Header_TradeAgreement.Details](#Header_TradeAgreement.Details)
 edi3:cefactBusinessProcess | Trade
 
 
@@ -41400,11 +41400,18 @@ Domains:
 
 Cefact Element Metadata: 
 
-@id | cefact:Cancellation_Status.Reason.Code
+@id | cefact:Validation_Status.Reason.Code
 @type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01013198
-rdfs:comment | The code specifying the reason for this cancellation status.
-edi3:cefactBieDomainClass | [cefact:Cancellation_Status.Details](#Cancellation_Status.Details)
+edi3:cefactUNId | cefact:UN01013307
+rdfs:comment | The code specifying the reason for this validation status.
+edi3:cefactBieDomainClass | [cefact:Validation_Status.Details](#Validation_Status.Details)
+edi3:cefactBusinessProcess | Buy-Ship-Pay
+
+@id | cefact:Header_BalanceOut.Reason.Code
+@type | edi3:BasicBIE
+edi3:cefactUNId | cefact:UN01011542
+rdfs:comment | The code specifying the reason for this header balance out.
+edi3:cefactBieDomainClass | [cefact:Header_BalanceOut.Details](#Header_BalanceOut.Details)
 edi3:cefactBusinessProcess | Buy-Ship-Pay
 
 @id | cefact:Payment_BalanceOut.Reason.Code
@@ -41414,26 +41421,19 @@ rdfs:comment | The code specifying the reason for this payment balance out.
 edi3:cefactBieDomainClass | [cefact:Payment_BalanceOut.Details](#Payment_BalanceOut.Details)
 edi3:cefactBusinessProcess | Buy-Ship-Pay
 
-@id | cefact:Communication_Event.Reason.Code
+@id | cefact:Applied_AllowanceCharge.Reason.Code
 @type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01013566
-rdfs:comment | The code specifying a reason for this communication event.
-edi3:cefactBieDomainClass | [cefact:Communication_Event.Details](#Communication_Event.Details)
-edi3:cefactBusinessProcess | In All Contexts
+edi3:cefactUNId | cefact:UN01000191
+rdfs:comment | The code specifying the reason for this applied allowance charge.
+edi3:cefactBieDomainClass | [cefact:Applied_AllowanceCharge.Details](#Applied_AllowanceCharge.Details)
+edi3:cefactBusinessProcess | Pricing
 
-@id | cefact:Header_BalanceOut.Reason.Code
+@id | cefact:Cancellation_Status.Reason.Code
 @type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01011542
-rdfs:comment | The code specifying the reason for this header balance out.
-edi3:cefactBieDomainClass | [cefact:Header_BalanceOut.Details](#Header_BalanceOut.Details)
+edi3:cefactUNId | cefact:UN01013198
+rdfs:comment | The code specifying the reason for this cancellation status.
+edi3:cefactBieDomainClass | [cefact:Cancellation_Status.Details](#Cancellation_Status.Details)
 edi3:cefactBusinessProcess | Buy-Ship-Pay
-
-@id | cefact:Financial_Adjustment.Reason.Code
-@type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01003595
-rdfs:comment | A code specifying a reason for this financial adjustment.
-edi3:cefactBieDomainClass | [cefact:Financial_Adjustment.Details](#Financial_Adjustment.Details)
-edi3:cefactBusinessProcess | In All Contexts
 
 @id | cefact:Document_Status.Reason.Code
 @type | edi3:BasicBIE
@@ -41442,19 +41442,19 @@ rdfs:comment | A code specifying a reason for this document status.
 edi3:cefactBieDomainClass | [cefact:Document_Status.Details](#Document_Status.Details)
 edi3:cefactBusinessProcess | In All Contexts
 
-@id | cefact:Applied_AllowanceCharge.Reason.Code
+@id | cefact:Financial_Adjustment.Reason.Code
 @type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01000191
-rdfs:comment | The code specifying the reason for this applied allowance charge.
-edi3:cefactBieDomainClass | [cefact:Applied_AllowanceCharge.Details](#Applied_AllowanceCharge.Details)
-edi3:cefactBusinessProcess | Pricing
+edi3:cefactUNId | cefact:UN01003595
+rdfs:comment | A code specifying a reason for this financial adjustment.
+edi3:cefactBieDomainClass | [cefact:Financial_Adjustment.Details](#Financial_Adjustment.Details)
+edi3:cefactBusinessProcess | In All Contexts
 
-@id | cefact:Validation_Status.Reason.Code
+@id | cefact:Communication_Event.Reason.Code
 @type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01013307
-rdfs:comment | The code specifying the reason for this validation status.
-edi3:cefactBieDomainClass | [cefact:Validation_Status.Details](#Validation_Status.Details)
-edi3:cefactBusinessProcess | Buy-Ship-Pay
+edi3:cefactUNId | cefact:UN01013566
+rdfs:comment | The code specifying a reason for this communication event.
+edi3:cefactBieDomainClass | [cefact:Communication_Event.Details](#Communication_Event.Details)
+edi3:cefactBusinessProcess | In All Contexts
 
 
 
@@ -41471,18 +41471,18 @@ Domains:
 
 Cefact Element Metadata: 
 
-@id | cefact:Payment_BalanceOut.ReasonDescription.Text
-@type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01011833
-rdfs:comment | A textual description of the reason for this payment balance out.
-edi3:cefactBieDomainClass | [cefact:Payment_BalanceOut.Details](#Payment_BalanceOut.Details)
-edi3:cefactBusinessProcess | Buy-Ship-Pay
-
 @id | cefact:Header_BalanceOut.ReasonDescription.Text
 @type | edi3:BasicBIE
 edi3:cefactUNId | cefact:UN01011543
 rdfs:comment | A textual description of the reason for this header balance out.
 edi3:cefactBieDomainClass | [cefact:Header_BalanceOut.Details](#Header_BalanceOut.Details)
+edi3:cefactBusinessProcess | Buy-Ship-Pay
+
+@id | cefact:Payment_BalanceOut.ReasonDescription.Text
+@type | edi3:BasicBIE
+edi3:cefactUNId | cefact:UN01011833
+rdfs:comment | A textual description of the reason for this payment balance out.
+edi3:cefactBieDomainClass | [cefact:Payment_BalanceOut.Details](#Payment_BalanceOut.Details)
 edi3:cefactBusinessProcess | Buy-Ship-Pay
 
 
@@ -41523,11 +41523,11 @@ Domains:
 
 Cefact Element Metadata: 
 
-@id | cefact:Cancellation_Status.Reason_Information.Text
+@id | cefact:Financing_Status.Reason_Information.Text
 @type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01013200
-rdfs:comment | Information, expressed as text, related to the reason for this cancellation status.
-edi3:cefactBieDomainClass | [cefact:Cancellation_Status.Details](#Cancellation_Status.Details)
+edi3:cefactUNId | cefact:UN01013266
+rdfs:comment | Information, expressed as text, related to the reason for this financing status.
+edi3:cefactBieDomainClass | [cefact:Financing_Status.Details](#Financing_Status.Details)
 edi3:cefactBusinessProcess | Buy-Ship-Pay
 
 @id | cefact:Acknowledgement_Document.Reason_Information.Text
@@ -41537,11 +41537,11 @@ rdfs:comment | Reason information, expressed as text, for this acknowledgement d
 edi3:cefactBieDomainClass | [cefact:Acknowledgement_Document.Details](#Acknowledgement_Document.Details)
 edi3:cefactBusinessProcess | In All Contexts
 
-@id | cefact:Financing_Status.Reason_Information.Text
+@id | cefact:Cancellation_Status.Reason_Information.Text
 @type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01013266
-rdfs:comment | Information, expressed as text, related to the reason for this financing status.
-edi3:cefactBieDomainClass | [cefact:Financing_Status.Details](#Financing_Status.Details)
+edi3:cefactUNId | cefact:UN01013200
+rdfs:comment | Information, expressed as text, related to the reason for this cancellation status.
+edi3:cefactBieDomainClass | [cefact:Cancellation_Status.Details](#Cancellation_Status.Details)
 edi3:cefactBusinessProcess | Buy-Ship-Pay
 
 
@@ -41583,39 +41583,18 @@ Domains:
 
 Cefact Element Metadata: 
 
-@id | cefact:Validation_Status.Reason.Text
-@type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01013308
-rdfs:comment | A reason, expressed as text, for this validation status.
-edi3:cefactBieDomainClass | [cefact:Validation_Status.Details](#Validation_Status.Details)
-edi3:cefactBusinessProcess | Buy-Ship-Pay
-
-@id | cefact:Document_Status.Reason.Text
-@type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01013127
-rdfs:comment | A reason, expressed as text, for this document status.
-edi3:cefactBieDomainClass | [cefact:Document_Status.Details](#Document_Status.Details)
-edi3:cefactBusinessProcess | In All Contexts
-
-@id | cefact:Delivery_Adjustment.Reason.Text
-@type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01003500
-rdfs:comment | A reason, expressed as text, for this delivery adjustment.
-edi3:cefactBieDomainClass | [cefact:Delivery_Adjustment.Details](#Delivery_Adjustment.Details)
-edi3:cefactBusinessProcess | Buy-Ship-Pay
-
-@id | cefact:Trade_AllowanceCharge.Reason.Text
-@type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01004557
-rdfs:comment | The reason, expressed as text, for this trade allowance charge.
-edi3:cefactBieDomainClass | [cefact:Trade_AllowanceCharge.Details](#Trade_AllowanceCharge.Details)
-edi3:cefactBusinessProcess | Buy-Ship-Pay
-
 @id | cefact:Logistics_Status.Reason.Text
 @type | edi3:BasicBIE
 edi3:cefactUNId | cefact:UN01003752
 rdfs:comment | A reason, expressed as text, for this logistics status.
 edi3:cefactBieDomainClass | [cefact:Logistics_Status.Details](#Logistics_Status.Details)
+edi3:cefactBusinessProcess | Buy-Ship-Pay
+
+@id | cefact:Validation_Status.Reason.Text
+@type | edi3:BasicBIE
+edi3:cefactUNId | cefact:UN01013308
+rdfs:comment | A reason, expressed as text, for this validation status.
+edi3:cefactBieDomainClass | [cefact:Validation_Status.Details](#Validation_Status.Details)
 edi3:cefactBusinessProcess | Buy-Ship-Pay
 
 @id | cefact:Cancellation_Status.Reason.Text
@@ -41632,11 +41611,32 @@ rdfs:comment | A reason, expressed as text, for this financial adjustment.
 edi3:cefactBieDomainClass | [cefact:Financial_Adjustment.Details](#Financial_Adjustment.Details)
 edi3:cefactBusinessProcess | In All Contexts
 
+@id | cefact:Document_Status.Reason.Text
+@type | edi3:BasicBIE
+edi3:cefactUNId | cefact:UN01013127
+rdfs:comment | A reason, expressed as text, for this document status.
+edi3:cefactBieDomainClass | [cefact:Document_Status.Details](#Document_Status.Details)
+edi3:cefactBusinessProcess | In All Contexts
+
 @id | cefact:Financing_Status.Reason.Text
 @type | edi3:BasicBIE
 edi3:cefactUNId | cefact:UN01013265
 rdfs:comment | A reason, expressed as text, for this financing status.
 edi3:cefactBieDomainClass | [cefact:Financing_Status.Details](#Financing_Status.Details)
+edi3:cefactBusinessProcess | Buy-Ship-Pay
+
+@id | cefact:Trade_AllowanceCharge.Reason.Text
+@type | edi3:BasicBIE
+edi3:cefactUNId | cefact:UN01004557
+rdfs:comment | The reason, expressed as text, for this trade allowance charge.
+edi3:cefactBieDomainClass | [cefact:Trade_AllowanceCharge.Details](#Trade_AllowanceCharge.Details)
+edi3:cefactBusinessProcess | Buy-Ship-Pay
+
+@id | cefact:Delivery_Adjustment.Reason.Text
+@type | edi3:BasicBIE
+edi3:cefactUNId | cefact:UN01003500
+rdfs:comment | A reason, expressed as text, for this delivery adjustment.
+edi3:cefactBieDomainClass | [cefact:Delivery_Adjustment.Details](#Delivery_Adjustment.Details)
 edi3:cefactBusinessProcess | Buy-Ship-Pay
 
 
@@ -42005,19 +42005,19 @@ Domains:
 
 Cefact Element Metadata: 
 
-@id | cefact:Logistics_Status.Reference.DateTime
-@type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01003749
-rdfs:comment | The reference date, time, date time or other date time value for this logistics status.
-edi3:cefactBieDomainClass | [cefact:Logistics_Status.Details](#Logistics_Status.Details)
-edi3:cefactBusinessProcess | Buy-Ship-Pay
-
 @id | cefact:Document_Status.Reference.DateTime
 @type | edi3:BasicBIE
 edi3:cefactUNId | cefact:UN01013124
 rdfs:comment | The reference date, time, date time or other date time value for this document status.
 edi3:cefactBieDomainClass | [cefact:Document_Status.Details](#Document_Status.Details)
 edi3:cefactBusinessProcess | In All Contexts
+
+@id | cefact:Logistics_Status.Reference.DateTime
+@type | edi3:BasicBIE
+edi3:cefactUNId | cefact:UN01003749
+rdfs:comment | The reference date, time, date time or other date time value for this logistics status.
+edi3:cefactBieDomainClass | [cefact:Logistics_Status.Details](#Logistics_Status.Details)
+edi3:cefactBusinessProcess | Buy-Ship-Pay
 
 
 
@@ -42101,18 +42101,18 @@ Domains:
 
 Cefact Element Metadata: 
 
-@id | cefact:Acknowledgement_Document.Reference.Referenced_Document
-@type | edi3:AssociationBIE
-edi3:cefactUNId | cefact:UN01002650
-rdfs:comment | A document referenced by this acknowledgement document.
-edi3:cefactBieDomainClass | [cefact:Acknowledgement_Document.Details](#Acknowledgement_Document.Details)
-edi3:cefactBusinessProcess | In All Contexts
-
 @id | cefact:Exchanged_Document.Reference.Referenced_Document
 @type | edi3:AssociationBIE
 edi3:cefactUNId | cefact:UN01002498
 rdfs:comment | Other documents referenced by this exchanged document.
 edi3:cefactBieDomainClass | [cefact:Exchanged_Document.Details](#Exchanged_Document.Details)
+edi3:cefactBusinessProcess | In All Contexts
+
+@id | cefact:Acknowledgement_Document.Reference.Referenced_Document
+@type | edi3:AssociationBIE
+edi3:cefactUNId | cefact:UN01002650
+rdfs:comment | A document referenced by this acknowledgement document.
+edi3:cefactBieDomainClass | [cefact:Acknowledgement_Document.Details](#Acknowledgement_Document.Details)
 edi3:cefactBusinessProcess | In All Contexts
 
 @id | cefact:SupplyChain_TradeLineItem.Reference.Referenced_Document
@@ -42262,19 +42262,19 @@ rdfs:comment | A specified binary file referenced by this basic work item.
 edi3:cefactBieDomainClass | [cefact:Basic_WorkItem.Details](#Basic_WorkItem.Details)
 edi3:cefactBusinessProcess | In All Contexts
 
-@id | cefact:Valuation_BreakdownStatement.Referenced.Specified_BinaryFile
-@type | edi3:AssociationBIE
-edi3:cefactUNId | cefact:UN01011936
-rdfs:comment | A specified binary file referenced by this valuation breakdown statement.
-edi3:cefactBieDomainClass | [cefact:Valuation_BreakdownStatement.Details](#Valuation_BreakdownStatement.Details)
-edi3:cefactBusinessProcess | Invoicing
-
 @id | cefact:Grouped_WorkItem.Referenced.Specified_BinaryFile
 @type | edi3:AssociationBIE
 edi3:cefactUNId | cefact:UN01011538
 rdfs:comment | A specified binary file referenced by this grouped work item.
 edi3:cefactBieDomainClass | [cefact:Grouped_WorkItem.Details](#Grouped_WorkItem.Details)
 edi3:cefactBusinessProcess | In All Contexts
+
+@id | cefact:Valuation_BreakdownStatement.Referenced.Specified_BinaryFile
+@type | edi3:AssociationBIE
+edi3:cefactUNId | cefact:UN01011936
+rdfs:comment | A specified binary file referenced by this valuation breakdown statement.
+edi3:cefactBieDomainClass | [cefact:Valuation_BreakdownStatement.Details](#Valuation_BreakdownStatement.Details)
+edi3:cefactBusinessProcess | Invoicing
 
 
 
@@ -42717,18 +42717,18 @@ Domains:
 
 Cefact Element Metadata: 
 
-@id | cefact:Header_TradeDelivery.Related.SupplyChain_Consignment
-@type | edi3:AssociationBIE
-edi3:cefactUNId | cefact:UN01011617
-rdfs:comment | A consignment, at header level, related to this trade delivery.
-edi3:cefactBieDomainClass | [cefact:Header_TradeDelivery.Details](#Header_TradeDelivery.Details)
-edi3:cefactBusinessProcess | Buy-Ship-Pay
-
 @id | cefact:Line_TradeDelivery.Related.SupplyChain_Consignment
 @type | edi3:AssociationBIE
 edi3:cefactUNId | cefact:UN01011777
 rdfs:comment | A consignment, at line level, related to this line trade delivery.
 edi3:cefactBieDomainClass | [cefact:Line_TradeDelivery.Details](#Line_TradeDelivery.Details)
+edi3:cefactBusinessProcess | Buy-Ship-Pay
+
+@id | cefact:Header_TradeDelivery.Related.SupplyChain_Consignment
+@type | edi3:AssociationBIE
+edi3:cefactUNId | cefact:UN01011617
+rdfs:comment | A consignment, at header level, related to this trade delivery.
+edi3:cefactBieDomainClass | [cefact:Header_TradeDelivery.Details](#Header_TradeDelivery.Details)
 edi3:cefactBusinessProcess | Buy-Ship-Pay
 
 
@@ -42746,18 +42746,18 @@ Domains:
 
 Cefact Element Metadata: 
 
-@id | cefact:Referenced_SupplyChain_Consignment.Related.SupplyChain_TradeTransaction
-@type | edi3:AssociationBIE
-edi3:cefactUNId | cefact:UN01011060
-rdfs:comment | A trade transaction related to this referenced supply chain consignment.
-edi3:cefactBieDomainClass | [cefact:Referenced_ Supply Chain_Consignment.Details](#Referenced_ Supply Chain_Consignment.Details)
-edi3:cefactBusinessProcess | Buy-Ship-Pay
-
 @id | cefact:SupplyChain_Consignment.Related.SupplyChain_TradeTransaction
 @type | edi3:AssociationBIE
 edi3:cefactUNId | cefact:UN01004289
 rdfs:comment | A trade transaction related to this supply chain consignment.
 edi3:cefactBieDomainClass | [cefact:Supply Chain_Consignment.Details](#Supply Chain_Consignment.Details)
+edi3:cefactBusinessProcess | Buy-Ship-Pay
+
+@id | cefact:Referenced_SupplyChain_Consignment.Related.SupplyChain_TradeTransaction
+@type | edi3:AssociationBIE
+edi3:cefactUNId | cefact:UN01011060
+rdfs:comment | A trade transaction related to this referenced supply chain consignment.
+edi3:cefactBieDomainClass | [cefact:Referenced_ Supply Chain_Consignment.Details](#Referenced_ Supply Chain_Consignment.Details)
 edi3:cefactBusinessProcess | Buy-Ship-Pay
 
 
@@ -42930,6 +42930,13 @@ Domains:
 
 Cefact Element Metadata: 
 
+@id | cefact:Header_TradeSettlement.Relevant.Trade_Party
+@type | edi3:AssociationBIE
+edi3:cefactUNId | cefact:UN01013473
+rdfs:comment | A relevant party for this header trade settlement.
+edi3:cefactBieDomainClass | [cefact:Header_TradeSettlement.Details](#Header_TradeSettlement.Details)
+edi3:cefactBusinessProcess | Buy-Ship-Pay
+
 @id | cefact:Header_TradeAgreement.Relevant.Trade_Party
 @type | edi3:AssociationBIE
 edi3:cefactUNId | cefact:UN01011945
@@ -42944,13 +42951,6 @@ rdfs:comment | A party relevant for this line trade agreement.
 edi3:cefactBieDomainClass | [cefact:Line_TradeAgreement.Details](#Line_TradeAgreement.Details)
 edi3:cefactBusinessProcess | Buy-Ship-Pay
 
-@id | cefact:Header_TradeSettlement.Relevant.Trade_Party
-@type | edi3:AssociationBIE
-edi3:cefactUNId | cefact:UN01013473
-rdfs:comment | A relevant party for this header trade settlement.
-edi3:cefactBieDomainClass | [cefact:Header_TradeSettlement.Details](#Header_TradeSettlement.Details)
-edi3:cefactBusinessProcess | Buy-Ship-Pay
-
 
 
 <h1 id="RemainingBatteryChargePercent">RemainingBatteryChargePercent</h1>   [back to top](#)
@@ -42962,23 +42962,23 @@ Range: xsd:decimal
 
 Domains: 
 
-[edi3:IOTDevice](#IOTDevice)
 [edi3:Sensor](#Sensor)
+[edi3:IOTDevice](#IOTDevice)
 
 Cefact Element Metadata: 
-
-@id | cefact:Monitoring_IOTDevice.RemainingBatteryCharge.Percent
-@type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01013482
-rdfs:comment | The percentage of the remaining battery charge of this monitoring IOT device.
-edi3:cefactBieDomainClass | [cefact:Monitoring_IOTDevice.Details](#Monitoring_IOTDevice.Details)
-edi3:cefactBusinessProcess | Buy-Ship-Pay
 
 @id | cefact:Monitoring_Sensor.RemainingBatteryCharge.Percent
 @type | edi3:BasicBIE
 edi3:cefactUNId | cefact:UN01013544
 rdfs:comment | The percentage of the remaining battery charge of this monitoring sensor.
 edi3:cefactBieDomainClass | [cefact:Monitoring_Sensor.Details](#Monitoring_Sensor.Details)
+edi3:cefactBusinessProcess | Buy-Ship-Pay
+
+@id | cefact:Monitoring_IOTDevice.RemainingBatteryCharge.Percent
+@type | edi3:BasicBIE
+edi3:cefactUNId | cefact:UN01013482
+rdfs:comment | The percentage of the remaining battery charge of this monitoring IOT device.
+edi3:cefactBieDomainClass | [cefact:Monitoring_IOTDevice.Details](#Monitoring_IOTDevice.Details)
 edi3:cefactBusinessProcess | Buy-Ship-Pay
 
 
@@ -43233,20 +43233,6 @@ Domains:
 
 Cefact Element Metadata: 
 
-@id | cefact:Cross-Border_RegulatoryProcedure.Reported.Logistics_Status
-@type | edi3:AssociationBIE
-edi3:cefactUNId | cefact:UN01006182
-rdfs:comment | A logistics status reported for this cross-border regulatory procedure.
-edi3:cefactBieDomainClass | [cefact:Cross-Border_RegulatoryProcedure.Details](#Cross-Border_RegulatoryProcedure.Details)
-edi3:cefactBusinessProcess | Buy-Ship-Pay
-
-@id | cefact:SupplyChain_Consignment.Reported.Logistics_Status
-@type | edi3:AssociationBIE
-edi3:cefactUNId | cefact:UN01004288
-rdfs:comment | A logistics status reported for this supply chain consignment.
-edi3:cefactBieDomainClass | [cefact:Supply Chain_Consignment.Details](#Supply Chain_Consignment.Details)
-edi3:cefactBusinessProcess | Buy-Ship-Pay
-
 @id | cefact:Logistics_TransportEquipment.Reported.Logistics_Status
 @type | edi3:AssociationBIE
 edi3:cefactUNId | cefact:UN01003818
@@ -43259,6 +43245,20 @@ edi3:cefactBusinessProcess | Buy-Ship-Pay
 edi3:cefactUNId | cefact:UN01004155
 rdfs:comment | A logistics status reported for this supply chain consignment item.
 edi3:cefactBieDomainClass | [cefact:Supply Chain_ConsignmentItem.Details](#Supply Chain_ConsignmentItem.Details)
+edi3:cefactBusinessProcess | Buy-Ship-Pay
+
+@id | cefact:Cross-Border_RegulatoryProcedure.Reported.Logistics_Status
+@type | edi3:AssociationBIE
+edi3:cefactUNId | cefact:UN01006182
+rdfs:comment | A logistics status reported for this cross-border regulatory procedure.
+edi3:cefactBieDomainClass | [cefact:Cross-Border_RegulatoryProcedure.Details](#Cross-Border_RegulatoryProcedure.Details)
+edi3:cefactBusinessProcess | Buy-Ship-Pay
+
+@id | cefact:SupplyChain_Consignment.Reported.Logistics_Status
+@type | edi3:AssociationBIE
+edi3:cefactUNId | cefact:UN01004288
+rdfs:comment | A logistics status reported for this supply chain consignment.
+edi3:cefactBieDomainClass | [cefact:Supply Chain_Consignment.Details](#Supply Chain_Consignment.Details)
 edi3:cefactBusinessProcess | Buy-Ship-Pay
 
 
@@ -43475,6 +43475,13 @@ Domains:
 
 Cefact Element Metadata: 
 
+@id | cefact:Grouped_WorkItem.RequestedAction.Code
+@type | edi3:BasicBIE
+edi3:cefactUNId | cefact:UN01007510
+rdfs:comment | A code specifying a requested action for this grouped work item.
+edi3:cefactBieDomainClass | [cefact:Grouped_WorkItem.Details](#Grouped_WorkItem.Details)
+edi3:cefactBusinessProcess | In All Contexts
+
 @id | cefact:Valuation_BreakdownStatement.RequestedAction.Code
 @type | edi3:BasicBIE
 edi3:cefactUNId | cefact:UN01007555
@@ -43487,13 +43494,6 @@ edi3:cefactBusinessProcess | Invoicing
 edi3:cefactUNId | cefact:UN01007489
 rdfs:comment | A code specifying a requested action for this basic work item.
 edi3:cefactBieDomainClass | [cefact:Basic_WorkItem.Details](#Basic_WorkItem.Details)
-edi3:cefactBusinessProcess | In All Contexts
-
-@id | cefact:Grouped_WorkItem.RequestedAction.Code
-@type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01007510
-rdfs:comment | A code specifying a requested action for this grouped work item.
-edi3:cefactBieDomainClass | [cefact:Grouped_WorkItem.Details](#Grouped_WorkItem.Details)
 edi3:cefactBusinessProcess | In All Contexts
 
 
@@ -43511,18 +43511,18 @@ Domains:
 
 Cefact Element Metadata: 
 
-@id | cefact:Line_TradeDelivery.Requested_Delivery.SupplyChain_Event
-@type | edi3:AssociationBIE
-edi3:cefactUNId | cefact:UN01011788
-rdfs:comment | A delivery event, at line level, requested for this trade delivery.
-edi3:cefactBieDomainClass | [cefact:Line_TradeDelivery.Details](#Line_TradeDelivery.Details)
-edi3:cefactBusinessProcess | Buy-Ship-Pay
-
 @id | cefact:Header_TradeDelivery.Requested_Delivery.SupplyChain_Event
 @type | edi3:AssociationBIE
 edi3:cefactUNId | cefact:UN01011626
 rdfs:comment | A delivery event, at header level, requested for this trade delivery.
 edi3:cefactBieDomainClass | [cefact:Header_TradeDelivery.Details](#Header_TradeDelivery.Details)
+edi3:cefactBusinessProcess | Buy-Ship-Pay
+
+@id | cefact:Line_TradeDelivery.Requested_Delivery.SupplyChain_Event
+@type | edi3:AssociationBIE
+edi3:cefactUNId | cefact:UN01011788
+rdfs:comment | A delivery event, at line level, requested for this trade delivery.
+edi3:cefactBieDomainClass | [cefact:Line_TradeDelivery.Details](#Line_TradeDelivery.Details)
 edi3:cefactBusinessProcess | Buy-Ship-Pay
 
 
@@ -43987,18 +43987,18 @@ Domains:
 
 Cefact Element Metadata: 
 
-@id | cefact:Header_TradeAgreement.Requisition.Referenced_Document
-@type | edi3:AssociationBIE
-edi3:cefactUNId | cefact:UN01011570
-rdfs:comment | A requisition document referenced in this header trade agreement.
-edi3:cefactBieDomainClass | [cefact:Header_TradeAgreement.Details](#Header_TradeAgreement.Details)
-edi3:cefactBusinessProcess | Trade
-
 @id | cefact:Line_TradeAgreement.Requisition.Referenced_Document
 @type | edi3:AssociationBIE
 edi3:cefactUNId | cefact:UN01011718
 rdfs:comment | A requisition document referenced in this line trade agreement.
 edi3:cefactBieDomainClass | [cefact:Line_TradeAgreement.Details](#Line_TradeAgreement.Details)
+edi3:cefactBusinessProcess | Trade
+
+@id | cefact:Header_TradeAgreement.Requisition.Referenced_Document
+@type | edi3:AssociationBIE
+edi3:cefactUNId | cefact:UN01011570
+rdfs:comment | A requisition document referenced in this header trade agreement.
+edi3:cefactBieDomainClass | [cefact:Header_TradeAgreement.Details](#Header_TradeAgreement.Details)
 edi3:cefactBusinessProcess | Trade
 
 
@@ -44016,18 +44016,18 @@ Domains:
 
 Cefact Element Metadata: 
 
-@id | cefact:Header_TradeAgreement.Requisitioner.Referenced_Document
-@type | edi3:AssociationBIE
-edi3:cefactUNId | cefact:UN01011576
-rdfs:comment | A requisitioner document referenced in this header trade agreement.
-edi3:cefactBieDomainClass | [cefact:Header_TradeAgreement.Details](#Header_TradeAgreement.Details)
-edi3:cefactBusinessProcess | Trade
-
 @id | cefact:Line_TradeAgreement.Requisitioner.Referenced_Document
 @type | edi3:AssociationBIE
 edi3:cefactUNId | cefact:UN01011725
 rdfs:comment | A requisitioner document referenced in this line trade agreement.
 edi3:cefactBieDomainClass | [cefact:Line_TradeAgreement.Details](#Line_TradeAgreement.Details)
+edi3:cefactBusinessProcess | Trade
+
+@id | cefact:Header_TradeAgreement.Requisitioner.Referenced_Document
+@type | edi3:AssociationBIE
+edi3:cefactUNId | cefact:UN01011576
+rdfs:comment | A requisitioner document referenced in this header trade agreement.
+edi3:cefactBieDomainClass | [cefact:Header_TradeAgreement.Details](#Header_TradeAgreement.Details)
 edi3:cefactBusinessProcess | Trade
 
 
@@ -44443,18 +44443,18 @@ Domains:
 
 Cefact Element Metadata: 
 
-@id | cefact:Logistics_Package.Returnable.Indicator
-@type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01012566
-rdfs:comment | The indication of whether or not this logistics package is returnable.
-edi3:cefactBieDomainClass | [cefact:Logistics_Package.Details](#Logistics_Package.Details)
-edi3:cefactBusinessProcess | Buy-Ship-Pay
-
 @id | cefact:SupplyChain_Packaging.Returnable.Indicator
 @type | edi3:BasicBIE
 edi3:cefactUNId | cefact:UN01006751
 rdfs:comment | The indication of whether or not this supply chain packaging is returnable.
 edi3:cefactBieDomainClass | [cefact:Supply Chain_Packaging.Details](#Supply Chain_Packaging.Details)
+edi3:cefactBusinessProcess | Buy-Ship-Pay
+
+@id | cefact:Logistics_Package.Returnable.Indicator
+@type | edi3:BasicBIE
+edi3:cefactUNId | cefact:UN01012566
+rdfs:comment | The indication of whether or not this logistics package is returnable.
+edi3:cefactBieDomainClass | [cefact:Logistics_Package.Details](#Logistics_Package.Details)
 edi3:cefactBusinessProcess | Buy-Ship-Pay
 
 @id | cefact:Logistics_TransportEquipment.Returnable.Indicator
@@ -44546,13 +44546,6 @@ Domains:
 
 Cefact Element Metadata: 
 
-@id | cefact:Exchanged_Document.Revision_Identification.Identifier
-@type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01003575
-rdfs:comment | The unique identifier of the revision of this exchanged document.
-edi3:cefactBieDomainClass | [cefact:Exchanged_Document.Details](#Exchanged_Document.Details)
-edi3:cefactBusinessProcess | In All Contexts
-
 @id | cefact:Line_TradeAgreement.Revision_Identification.Identifier
 @type | edi3:BasicBIE
 edi3:cefactUNId | cefact:UN01013413
@@ -44565,6 +44558,13 @@ edi3:cefactBusinessProcess | Buy-Ship-Pay
 edi3:cefactUNId | cefact:UN01003993
 rdfs:comment | A unique identifier for a revision of this referenced document.
 edi3:cefactBieDomainClass | [cefact:Referenced_Document.Details](#Referenced_Document.Details)
+edi3:cefactBusinessProcess | In All Contexts
+
+@id | cefact:Exchanged_Document.Revision_Identification.Identifier
+@type | edi3:BasicBIE
+edi3:cefactUNId | cefact:UN01003575
+rdfs:comment | The unique identifier of the revision of this exchanged document.
+edi3:cefactBieDomainClass | [cefact:Exchanged_Document.Details](#Exchanged_Document.Details)
 edi3:cefactBusinessProcess | In All Contexts
 
 @id | cefact:Header_TradeAgreement.Revision_Identification.Identifier
@@ -44612,18 +44612,18 @@ Domains:
 
 Cefact Element Metadata: 
 
-@id | cefact:Transport_Person.Role.Code
-@type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01013134
-rdfs:comment | A code specifying a role of this transport person.
-edi3:cefactBieDomainClass | [cefact:Transport_Person.Details](#Transport_Person.Details)
-edi3:cefactBusinessProcess | In All Contexts
-
 @id | cefact:Location_Party.Role.Code
 @type | edi3:BasicBIE
 edi3:cefactUNId | cefact:UN01003666
 rdfs:comment | A code specifying a role of this location party.
 edi3:cefactBieDomainClass | [cefact:Location_Party.Details](#Location_Party.Details)
+edi3:cefactBusinessProcess | In All Contexts
+
+@id | cefact:Transport_Person.Role.Code
+@type | edi3:BasicBIE
+edi3:cefactUNId | cefact:UN01013134
+rdfs:comment | A code specifying a role of this transport person.
+edi3:cefactBieDomainClass | [cefact:Transport_Person.Details](#Transport_Person.Details)
 edi3:cefactBusinessProcess | In All Contexts
 
 
@@ -44671,19 +44671,19 @@ rdfs:comment | A role, expressed as text, for this contact person.
 edi3:cefactBieDomainClass | [cefact:Contact_Person.Details](#Contact_Person.Details)
 edi3:cefactBusinessProcess | In All Contexts
 
-@id | cefact:Transport_Person.Role.Text
-@type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01004820
-rdfs:comment | A role, expressed as text, of this transport person.
-edi3:cefactBieDomainClass | [cefact:Transport_Person.Details](#Transport_Person.Details)
-edi3:cefactBusinessProcess | In All Contexts
-
 @id | cefact:Trade_Party.Role.Text
 @type | edi3:BasicBIE
 edi3:cefactUNId | cefact:UN01013115
 rdfs:comment | A role, expressed as text, for this trade party.
 edi3:cefactBieDomainClass | [cefact:Trade_Party.Details](#Trade_Party.Details)
 edi3:cefactBusinessProcess | Buy-Ship-Pay
+
+@id | cefact:Transport_Person.Role.Text
+@type | edi3:BasicBIE
+edi3:cefactUNId | cefact:UN01004820
+rdfs:comment | A role, expressed as text, of this transport person.
+edi3:cefactBieDomainClass | [cefact:Transport_Person.Details](#Transport_Person.Details)
+edi3:cefactBusinessProcess | In All Contexts
 
 
 
@@ -44744,18 +44744,18 @@ Domains:
 
 Cefact Element Metadata: 
 
-@id | cefact:Creditor_FinancialInstitution.RussianCentralBank_Identification.Identifier
-@type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01002986
-rdfs:comment | The unique Russian Central Bank Identification Code identifier for this creditor financial institution.
-edi3:cefactBieDomainClass | [cefact:Creditor_FinancialInstitution.Details](#Creditor_FinancialInstitution.Details)
-edi3:cefactBusinessProcess | Customer to bank payment initiation
-
 @id | cefact:Debtor_FinancialInstitution.RussianCentralBank_Identification.Identifier
 @type | edi3:BasicBIE
 edi3:cefactUNId | cefact:UN01002851
 rdfs:comment | The unique Russian Central Bank Identification Code identifier for this debtor financial institution.
 edi3:cefactBieDomainClass | [cefact:Debtor_FinancialInstitution.Details](#Debtor_FinancialInstitution.Details)
+edi3:cefactBusinessProcess | Customer to bank payment initiation
+
+@id | cefact:Creditor_FinancialInstitution.RussianCentralBank_Identification.Identifier
+@type | edi3:BasicBIE
+edi3:cefactUNId | cefact:UN01002986
+rdfs:comment | The unique Russian Central Bank Identification Code identifier for this creditor financial institution.
+edi3:cefactBieDomainClass | [cefact:Creditor_FinancialInstitution.Details](#Creditor_FinancialInstitution.Details)
 edi3:cefactBusinessProcess | Customer to bank payment initiation
 
 
@@ -44956,18 +44956,18 @@ Domains:
 
 Cefact Element Metadata: 
 
-@id | cefact:Header_TradeAgreement.Sales_Conditions.Referenced_Document
-@type | edi3:AssociationBIE
-edi3:cefactUNId | cefact:UN01011579
-rdfs:comment | A sales conditions document referenced in this header trade agreement.
-edi3:cefactBieDomainClass | [cefact:Header_TradeAgreement.Details](#Header_TradeAgreement.Details)
-edi3:cefactBusinessProcess | Trade
-
 @id | cefact:Line_TradeAgreement.Sales_Conditions.Referenced_Document
 @type | edi3:AssociationBIE
 edi3:cefactUNId | cefact:UN01011726
 rdfs:comment | A sales conditions document referenced by this line trade agreement.
 edi3:cefactBieDomainClass | [cefact:Line_TradeAgreement.Details](#Line_TradeAgreement.Details)
+edi3:cefactBusinessProcess | Trade
+
+@id | cefact:Header_TradeAgreement.Sales_Conditions.Referenced_Document
+@type | edi3:AssociationBIE
+edi3:cefactUNId | cefact:UN01011579
+rdfs:comment | A sales conditions document referenced in this header trade agreement.
+edi3:cefactBieDomainClass | [cefact:Header_TradeAgreement.Details](#Header_TradeAgreement.Details)
 edi3:cefactBusinessProcess | Trade
 
 
@@ -45007,18 +45007,18 @@ Domains:
 
 Cefact Element Metadata: 
 
-@id | cefact:Line_TradeAgreement.SalesReport.Referenced_Document
-@type | edi3:AssociationBIE
-edi3:cefactUNId | cefact:UN01011739
-rdfs:comment | The sales report document referenced in this line trade agreement.
-edi3:cefactBieDomainClass | [cefact:Line_TradeAgreement.Details](#Line_TradeAgreement.Details)
-edi3:cefactBusinessProcess | Trade
-
 @id | cefact:Header_TradeAgreement.SalesReport.Referenced_Document
 @type | edi3:AssociationBIE
 edi3:cefactUNId | cefact:UN01011589
 rdfs:comment | The sales report document referenced in this header trade agreement.
 edi3:cefactBieDomainClass | [cefact:Header_TradeAgreement.Details](#Header_TradeAgreement.Details)
+edi3:cefactBusinessProcess | Trade
+
+@id | cefact:Line_TradeAgreement.SalesReport.Referenced_Document
+@type | edi3:AssociationBIE
+edi3:cefactUNId | cefact:UN01011739
+rdfs:comment | The sales report document referenced in this line trade agreement.
+edi3:cefactBieDomainClass | [cefact:Line_TradeAgreement.Details](#Line_TradeAgreement.Details)
 edi3:cefactBusinessProcess | Trade
 
 
@@ -45036,18 +45036,18 @@ Domains:
 
 Cefact Element Metadata: 
 
-@id | cefact:Line_TradeSettlement.Sales_Specified.Trade_AccountingAccount
-@type | edi3:AssociationBIE
-edi3:cefactUNId | cefact:UN01011819
-rdfs:comment | A sales accounting account specified for this line trade settlement.
-edi3:cefactBieDomainClass | [cefact:Line_TradeSettlement.Details](#Line_TradeSettlement.Details)
-edi3:cefactBusinessProcess | Buy-Ship-Pay
-
 @id | cefact:Header_TradeSettlement.Sales_Specified.Trade_AccountingAccount
 @type | edi3:AssociationBIE
 edi3:cefactUNId | cefact:UN01011688
 rdfs:comment | A sales accounting account specified for this header trade settlement.
 edi3:cefactBieDomainClass | [cefact:Header_TradeSettlement.Details](#Header_TradeSettlement.Details)
+edi3:cefactBusinessProcess | Buy-Ship-Pay
+
+@id | cefact:Line_TradeSettlement.Sales_Specified.Trade_AccountingAccount
+@type | edi3:AssociationBIE
+edi3:cefactUNId | cefact:UN01011819
+rdfs:comment | A sales accounting account specified for this line trade settlement.
+edi3:cefactBieDomainClass | [cefact:Line_TradeSettlement.Details](#Line_TradeSettlement.Details)
 edi3:cefactBusinessProcess | Buy-Ship-Pay
 
 
@@ -45756,13 +45756,6 @@ Domains:
 
 Cefact Element Metadata: 
 
-@id | cefact:Header_TradeAgreement.Seller_Order.Referenced_Document
-@type | edi3:AssociationBIE
-edi3:cefactUNId | cefact:UN01011563
-rdfs:comment | The seller generated order document referenced in this header trade agreement.
-edi3:cefactBieDomainClass | [cefact:Header_TradeAgreement.Details](#Header_TradeAgreement.Details)
-edi3:cefactBusinessProcess | Buy-Ship-Pay
-
 @id | cefact:Line_TradeAgreement.Seller_Order.Referenced_Document
 @type | edi3:AssociationBIE
 edi3:cefactUNId | cefact:UN01011712
@@ -45776,6 +45769,13 @@ edi3:cefactUNId | cefact:UN01011844
 rdfs:comment | The seller generated order document referenced in this subordinate line trade agreement.
 edi3:cefactBieDomainClass | [cefact:Subordinate Line_TradeAgreement.Details](#Subordinate Line_TradeAgreement.Details)
 edi3:cefactBusinessProcess | Trade
+
+@id | cefact:Header_TradeAgreement.Seller_Order.Referenced_Document
+@type | edi3:AssociationBIE
+edi3:cefactUNId | cefact:UN01011563
+rdfs:comment | The seller generated order document referenced in this header trade agreement.
+edi3:cefactBieDomainClass | [cefact:Header_TradeAgreement.Details](#Header_TradeAgreement.Details)
+edi3:cefactBusinessProcess | Buy-Ship-Pay
 
 
 
@@ -45814,18 +45814,18 @@ Domains:
 
 Cefact Element Metadata: 
 
-@id | cefact:Line_TradeAgreement.Seller_Reference.Text
-@type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01012990
-rdfs:comment | A seller reference, expressed as text, for this line trade agreement.
-edi3:cefactBieDomainClass | [cefact:Line_TradeAgreement.Details](#Line_TradeAgreement.Details)
-edi3:cefactBusinessProcess | Buy-Ship-Pay
-
 @id | cefact:Header_TradeAgreement.Seller_Reference.Text
 @type | edi3:BasicBIE
 edi3:cefactUNId | cefact:UN01013026
 rdfs:comment | A seller reference, expressed as text, for this header trade agreement.
 edi3:cefactBieDomainClass | [cefact:Header_TradeAgreement.Details](#Header_TradeAgreement.Details)
+edi3:cefactBusinessProcess | Buy-Ship-Pay
+
+@id | cefact:Line_TradeAgreement.Seller_Reference.Text
+@type | edi3:BasicBIE
+edi3:cefactUNId | cefact:UN01012990
+rdfs:comment | A seller reference, expressed as text, for this line trade agreement.
+edi3:cefactBieDomainClass | [cefact:Line_TradeAgreement.Details](#Line_TradeAgreement.Details)
 edi3:cefactBusinessProcess | Buy-Ship-Pay
 
 
@@ -45887,18 +45887,18 @@ Domains:
 
 Cefact Element Metadata: 
 
-@id | cefact:Header_TradeAgreement.Seller.Trade_Party
-@type | edi3:AssociationBIE
-edi3:cefactUNId | cefact:UN01011551
-rdfs:comment | The seller party for this header trade agreement.
-edi3:cefactBieDomainClass | [cefact:Header_TradeAgreement.Details](#Header_TradeAgreement.Details)
-edi3:cefactBusinessProcess | Buy-Ship-Pay
-
 @id | cefact:Line_TradeAgreement.Seller.Trade_Party
 @type | edi3:AssociationBIE
 edi3:cefactUNId | cefact:UN01011708
 rdfs:comment | The seller party for this line trade agreement.
 edi3:cefactBieDomainClass | [cefact:Line_TradeAgreement.Details](#Line_TradeAgreement.Details)
+edi3:cefactBusinessProcess | Buy-Ship-Pay
+
+@id | cefact:Header_TradeAgreement.Seller.Trade_Party
+@type | edi3:AssociationBIE
+edi3:cefactUNId | cefact:UN01011551
+rdfs:comment | The seller party for this header trade agreement.
+edi3:cefactBieDomainClass | [cefact:Header_TradeAgreement.Details](#Header_TradeAgreement.Details)
 edi3:cefactBusinessProcess | Buy-Ship-Pay
 
 
@@ -46012,8 +46012,8 @@ Domains:
 [edi3:PersonalEffects](#PersonalEffects)
 [edi3:TransportEquipment](#TransportEquipment)
 [edi3:AllowanceCharge](#AllowanceCharge)
-[edi3:Period](#Period)
 [edi3:Consignment](#Consignment)
+[edi3:Period](#Period)
 [edi3:Package](#Package)
 [edi3:TradeLineItem](#TradeLineItem)
 [edi3:TransportMeans](#TransportMeans)
@@ -46021,18 +46021,11 @@ Domains:
 
 Cefact Element Metadata: 
 
-@id | cefact:Specified_Period.Sequence.Numeric
+@id | cefact:StoresItem_Inventory.Sequence.Numeric
 @type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01004084
-rdfs:comment | A sequence number for this specified period.
-edi3:cefactBieDomainClass | [cefact:Specified_Period.Details](#Specified_Period.Details)
-edi3:cefactBusinessProcess | In All Contexts
-
-@id | cefact:SupplyChain_ConsignmentItem.Sequence.Numeric
-@type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01004105
-rdfs:comment | The sequence number for this supply chain consignment item.
-edi3:cefactBieDomainClass | [cefact:Supply Chain_ConsignmentItem.Details](#Supply Chain_ConsignmentItem.Details)
+edi3:cefactUNId | cefact:UN01013190
+rdfs:comment | A sequence number for this stores inventory item.
+edi3:cefactBieDomainClass | [cefact:Stores Item_Inventory.Details](#Stores Item_Inventory.Details)
 edi3:cefactBusinessProcess | Buy-Ship-Pay
 
 @id | cefact:SupplyChain_Consignment.Sequence.Numeric
@@ -46042,27 +46035,6 @@ rdfs:comment | A sequence number for this supply chain consignment.
 edi3:cefactBieDomainClass | [cefact:Supply Chain_Consignment.Details](#Supply Chain_Consignment.Details)
 edi3:cefactBusinessProcess | Buy-Ship-Pay
 
-@id | cefact:Referenced_SupplyChain_Consignment.Sequence.Numeric
-@type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01004046
-rdfs:comment | The sequence number for this referenced supply chain consignment.
-edi3:cefactBieDomainClass | [cefact:Referenced_ Supply Chain_Consignment.Details](#Referenced_ Supply Chain_Consignment.Details)
-edi3:cefactBusinessProcess | Buy-Ship-Pay
-
-@id | cefact:Specified_PersonalEffects.Sequence.Numeric
-@type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01013185
-rdfs:comment | A sequence number for these specified personal effects.
-edi3:cefactBieDomainClass | [cefact:Specified_PersonalEffects.Details](#Specified_PersonalEffects.Details)
-edi3:cefactBusinessProcess | In All Contexts
-
-@id | cefact:Logistics_Package.Sequence.Numeric
-@type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01003699
-rdfs:comment | The sequence number of this logistics package.
-edi3:cefactBieDomainClass | [cefact:Logistics_Package.Details](#Logistics_Package.Details)
-edi3:cefactBusinessProcess | Buy-Ship-Pay
-
 @id | cefact:Logistics_Status.Sequence.Numeric
 @type | edi3:BasicBIE
 edi3:cefactUNId | cefact:UN01003753
@@ -46070,11 +46042,25 @@ rdfs:comment | The sequence number of this logistics status, such as within a st
 edi3:cefactBieDomainClass | [cefact:Logistics_Status.Details](#Logistics_Status.Details)
 edi3:cefactBusinessProcess | Buy-Ship-Pay
 
-@id | cefact:SupplyChain_TradeLineItem.Sequence.Numeric
+@id | cefact:SupplyChain_ConsignmentItem.Sequence.Numeric
 @type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01009005
-rdfs:comment | A sequence number for this supply chain trade line item.
-edi3:cefactBieDomainClass | [cefact:Supply Chain_TradeLineItem.Details](#Supply Chain_TradeLineItem.Details)
+edi3:cefactUNId | cefact:UN01004105
+rdfs:comment | The sequence number for this supply chain consignment item.
+edi3:cefactBieDomainClass | [cefact:Supply Chain_ConsignmentItem.Details](#Supply Chain_ConsignmentItem.Details)
+edi3:cefactBusinessProcess | Buy-Ship-Pay
+
+@id | cefact:Logistics_TransportMeans.Sequence.Numeric
+@type | edi3:BasicBIE
+edi3:cefactUNId | cefact:UN01010101
+rdfs:comment | The sequence number differentiating this logistics transport means from others.
+edi3:cefactBieDomainClass | [cefact:Logistics_TransportMeans.Details](#Logistics_TransportMeans.Details)
+edi3:cefactBusinessProcess | Transport
+
+@id | cefact:Referenced_Logistics_Package.Sequence.Numeric
+@type | edi3:BasicBIE
+edi3:cefactUNId | cefact:UN01006794
+rdfs:comment | The sequence number of this referenced logistics package.
+edi3:cefactBieDomainClass | [cefact:Referenced_ Logistics_Package.Details](#Referenced_ Logistics_Package.Details)
 edi3:cefactBusinessProcess | Buy-Ship-Pay
 
 @id | cefact:Logistics_TransportEquipment.Sequence.Numeric
@@ -46084,11 +46070,11 @@ rdfs:comment | The sequence number differentiating this piece of logistics trans
 edi3:cefactBieDomainClass | [cefact:Logistics_TransportEquipment.Details](#Logistics_TransportEquipment.Details)
 edi3:cefactBusinessProcess | Buy-Ship-Pay
 
-@id | cefact:Referenced_SupplyChain_ConsignmentItem.Sequence.Numeric
+@id | cefact:SupplyChain_TradeLineItem.Sequence.Numeric
 @type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01004036
-rdfs:comment | The sequence number for this referenced supply chain consignment item.
-edi3:cefactBieDomainClass | [cefact:Referenced_ Supply Chain_ConsignmentItem.Details](#Referenced_ Supply Chain_ConsignmentItem.Details)
+edi3:cefactUNId | cefact:UN01009005
+rdfs:comment | A sequence number for this supply chain trade line item.
+edi3:cefactBieDomainClass | [cefact:Supply Chain_TradeLineItem.Details](#Supply Chain_TradeLineItem.Details)
 edi3:cefactBusinessProcess | Buy-Ship-Pay
 
 @id | cefact:Trade_AllowanceCharge.Sequence.Numeric
@@ -46098,26 +46084,40 @@ rdfs:comment | The sequence number for applying this trade allowance charge.
 edi3:cefactBieDomainClass | [cefact:Trade_AllowanceCharge.Details](#Trade_AllowanceCharge.Details)
 edi3:cefactBusinessProcess | Trade
 
-@id | cefact:Referenced_Logistics_Package.Sequence.Numeric
+@id | cefact:Specified_Period.Sequence.Numeric
 @type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01006794
-rdfs:comment | The sequence number of this referenced logistics package.
-edi3:cefactBieDomainClass | [cefact:Referenced_ Logistics_Package.Details](#Referenced_ Logistics_Package.Details)
+edi3:cefactUNId | cefact:UN01004084
+rdfs:comment | A sequence number for this specified period.
+edi3:cefactBieDomainClass | [cefact:Specified_Period.Details](#Specified_Period.Details)
+edi3:cefactBusinessProcess | In All Contexts
+
+@id | cefact:Specified_PersonalEffects.Sequence.Numeric
+@type | edi3:BasicBIE
+edi3:cefactUNId | cefact:UN01013185
+rdfs:comment | A sequence number for these specified personal effects.
+edi3:cefactBieDomainClass | [cefact:Specified_PersonalEffects.Details](#Specified_PersonalEffects.Details)
+edi3:cefactBusinessProcess | In All Contexts
+
+@id | cefact:Referenced_SupplyChain_ConsignmentItem.Sequence.Numeric
+@type | edi3:BasicBIE
+edi3:cefactUNId | cefact:UN01004036
+rdfs:comment | The sequence number for this referenced supply chain consignment item.
+edi3:cefactBieDomainClass | [cefact:Referenced_ Supply Chain_ConsignmentItem.Details](#Referenced_ Supply Chain_ConsignmentItem.Details)
 edi3:cefactBusinessProcess | Buy-Ship-Pay
 
-@id | cefact:StoresItem_Inventory.Sequence.Numeric
+@id | cefact:Logistics_Package.Sequence.Numeric
 @type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01013190
-rdfs:comment | A sequence number for this stores inventory item.
-edi3:cefactBieDomainClass | [cefact:Stores Item_Inventory.Details](#Stores Item_Inventory.Details)
+edi3:cefactUNId | cefact:UN01003699
+rdfs:comment | The sequence number of this logistics package.
+edi3:cefactBieDomainClass | [cefact:Logistics_Package.Details](#Logistics_Package.Details)
 edi3:cefactBusinessProcess | Buy-Ship-Pay
 
-@id | cefact:Logistics_TransportMeans.Sequence.Numeric
+@id | cefact:Referenced_SupplyChain_Consignment.Sequence.Numeric
 @type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01010101
-rdfs:comment | The sequence number differentiating this logistics transport means from others.
-edi3:cefactBieDomainClass | [cefact:Logistics_TransportMeans.Details](#Logistics_TransportMeans.Details)
-edi3:cefactBusinessProcess | Transport
+edi3:cefactUNId | cefact:UN01004046
+rdfs:comment | The sequence number for this referenced supply chain consignment.
+edi3:cefactBieDomainClass | [cefact:Referenced_ Supply Chain_Consignment.Details](#Referenced_ Supply Chain_Consignment.Details)
+edi3:cefactBusinessProcess | Buy-Ship-Pay
 
 
 
@@ -46537,18 +46537,18 @@ rdfs:comment | The ship from party, at line level, for this trade delivery.
 edi3:cefactBieDomainClass | [cefact:Line_TradeDelivery.Details](#Line_TradeDelivery.Details)
 edi3:cefactBusinessProcess | Buy-Ship-Pay
 
-@id | cefact:SupplyChain_Consignment.ShipFrom.Trade_Party
-@type | edi3:AssociationBIE
-edi3:cefactUNId | cefact:UN01004221
-rdfs:comment | The ship from party for this supply chain consignment.
-edi3:cefactBieDomainClass | [cefact:Supply Chain_Consignment.Details](#Supply Chain_Consignment.Details)
-edi3:cefactBusinessProcess | Buy-Ship-Pay
-
 @id | cefact:Header_TradeDelivery.ShipFrom.Trade_Party
 @type | edi3:AssociationBIE
 edi3:cefactUNId | cefact:UN01011620
 rdfs:comment | The ship from party, at header level, for this trade delivery.
 edi3:cefactBieDomainClass | [cefact:Header_TradeDelivery.Details](#Header_TradeDelivery.Details)
+edi3:cefactBusinessProcess | Buy-Ship-Pay
+
+@id | cefact:SupplyChain_Consignment.ShipFrom.Trade_Party
+@type | edi3:AssociationBIE
+edi3:cefactUNId | cefact:UN01004221
+rdfs:comment | The ship from party for this supply chain consignment.
+edi3:cefactBieDomainClass | [cefact:Supply Chain_Consignment.Details](#Supply Chain_Consignment.Details)
 edi3:cefactBusinessProcess | Buy-Ship-Pay
 
 
@@ -46619,13 +46619,6 @@ rdfs:comment | The ship to party, at line level, for this trade delivery.
 edi3:cefactBieDomainClass | [cefact:Line_TradeDelivery.Details](#Line_TradeDelivery.Details)
 edi3:cefactBusinessProcess | Buy-Ship-Pay
 
-@id | cefact:Header_TradeDelivery.ShipTo.Trade_Party
-@type | edi3:AssociationBIE
-edi3:cefactUNId | cefact:UN01011618
-rdfs:comment | The ship to party, at header level, for this trade delivery.
-edi3:cefactBieDomainClass | [cefact:Header_TradeDelivery.Details](#Header_TradeDelivery.Details)
-edi3:cefactBusinessProcess | Buy-Ship-Pay
-
 @id | cefact:SupplyChain_Consignment.ShipTo.Trade_Party
 @type | edi3:AssociationBIE
 edi3:cefactUNId | cefact:UN01004222
@@ -46638,6 +46631,13 @@ edi3:cefactBusinessProcess | Buy-Ship-Pay
 edi3:cefactUNId | cefact:UN01006704
 rdfs:comment | The ship to trade party for this supply chain supply plan.
 edi3:cefactBieDomainClass | [cefact:Supply Chain_SupplyPlan.Details](#Supply Chain_SupplyPlan.Details)
+edi3:cefactBusinessProcess | Buy-Ship-Pay
+
+@id | cefact:Header_TradeDelivery.ShipTo.Trade_Party
+@type | edi3:AssociationBIE
+edi3:cefactUNId | cefact:UN01011618
+rdfs:comment | The ship to party, at header level, for this trade delivery.
+edi3:cefactBieDomainClass | [cefact:Header_TradeDelivery.Details](#Header_TradeDelivery.Details)
 edi3:cefactBusinessProcess | Buy-Ship-Pay
 
 
@@ -46677,19 +46677,19 @@ Domains:
 
 Cefact Element Metadata: 
 
-@id | cefact:Line_TradeDelivery.ShipmentSchedule.Referenced_Document
-@type | edi3:AssociationBIE
-edi3:cefactUNId | cefact:UN01013463
-rdfs:comment | The shipment schedule document referenced, at line level, for this trade delivery.
-edi3:cefactBieDomainClass | [cefact:Line_TradeDelivery.Details](#Line_TradeDelivery.Details)
-edi3:cefactBusinessProcess | Buy-Ship-Pay
-
 @id | cefact:Header_TradeDelivery.ShipmentSchedule.Referenced_Document
 @type | edi3:AssociationBIE
 edi3:cefactUNId | cefact:UN01011637
 rdfs:comment | The shipment schedule document, referenced at header level, for this trade delivery.
 edi3:cefactBieDomainClass | [cefact:Header_TradeDelivery.Details](#Header_TradeDelivery.Details)
 edi3:cefactBusinessProcess | Trade
+
+@id | cefact:Line_TradeDelivery.ShipmentSchedule.Referenced_Document
+@type | edi3:AssociationBIE
+edi3:cefactUNId | cefact:UN01013463
+rdfs:comment | The shipment schedule document referenced, at line level, for this trade delivery.
+edi3:cefactBieDomainClass | [cefact:Line_TradeDelivery.Details](#Line_TradeDelivery.Details)
+edi3:cefactBusinessProcess | Buy-Ship-Pay
 
 
 
@@ -47050,18 +47050,18 @@ Domains:
 
 Cefact Element Metadata: 
 
-@id | cefact:Creditor_FinancialInstitution.SpanishDomesticInterbanking_Identification.Identifier
-@type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01002992
-rdfs:comment | The unique Spanish Domestic Interbanking Code identifier as assigned by the Centro de Cooperacion Interbancaria (CCI) for this creditor financial institution.
-edi3:cefactBieDomainClass | [cefact:Creditor_FinancialInstitution.Details](#Creditor_FinancialInstitution.Details)
-edi3:cefactBusinessProcess | Customer to bank payment initiation
-
 @id | cefact:Debtor_FinancialInstitution.SpanishDomesticInterbanking_Identification.Identifier
 @type | edi3:BasicBIE
 edi3:cefactUNId | cefact:UN01002857
 rdfs:comment | The unique Spanish Domestic Interbanking Code identifier as assigned by the Centro de Cooperacion Interbancaria (CCI) for this debtor financial institution.
 edi3:cefactBieDomainClass | [cefact:Debtor_FinancialInstitution.Details](#Debtor_FinancialInstitution.Details)
+edi3:cefactBusinessProcess | Customer to bank payment initiation
+
+@id | cefact:Creditor_FinancialInstitution.SpanishDomesticInterbanking_Identification.Identifier
+@type | edi3:BasicBIE
+edi3:cefactUNId | cefact:UN01002992
+rdfs:comment | The unique Spanish Domestic Interbanking Code identifier as assigned by the Centro de Cooperacion Interbancaria (CCI) for this creditor financial institution.
+edi3:cefactBieDomainClass | [cefact:Creditor_FinancialInstitution.Details](#Creditor_FinancialInstitution.Details)
 edi3:cefactBusinessProcess | Customer to bank payment initiation
 
 
@@ -47344,19 +47344,19 @@ Domains:
 
 Cefact Element Metadata: 
 
-@id | cefact:Trade_Party.Specified.Contact_Person
-@type | edi3:AssociationBIE
-edi3:cefactUNId | cefact:UN01013301
-rdfs:comment | A contact person specified for this trade party.
-edi3:cefactBieDomainClass | [cefact:Trade_Party.Details](#Trade_Party.Details)
-edi3:cefactBusinessProcess | Buy-Ship-Pay
-
 @id | cefact:Trade_Contact.Specified.Contact_Person
 @type | edi3:AssociationBIE
 edi3:cefactUNId | cefact:UN01008317
 rdfs:comment | The contact person specified for this trade contact.
 edi3:cefactBieDomainClass | [cefact:Trade_Contact.Details](#Trade_Contact.Details)
 edi3:cefactBusinessProcess | Supply Chain
+
+@id | cefact:Trade_Party.Specified.Contact_Person
+@type | edi3:AssociationBIE
+edi3:cefactUNId | cefact:UN01013301
+rdfs:comment | A contact person specified for this trade party.
+edi3:cefactBieDomainClass | [cefact:Trade_Party.Details](#Trade_Party.Details)
+edi3:cefactBusinessProcess | Buy-Ship-Pay
 
 
 
@@ -47375,11 +47375,11 @@ Domains:
 
 Cefact Element Metadata: 
 
-@id | cefact:Requesting_Party.Specified.Creditor_FinancialAccount
+@id | cefact:TradeSettlement_PaymentMeans.Specified.Creditor_FinancialAccount
 @type | edi3:AssociationBIE
-edi3:cefactUNId | cefact:UN01013294
-rdfs:comment | The creditor financial account, used for crediting, specified for this requesting party.
-edi3:cefactBieDomainClass | [cefact:Requesting_Party.Details](#Requesting_Party.Details)
+edi3:cefactUNId | cefact:UN01013300
+rdfs:comment | A creditor financial account specified for this trade settlement payment means.
+edi3:cefactBieDomainClass | [cefact:Trade Settlement_PaymentMeans.Details](#Trade Settlement_PaymentMeans.Details)
 edi3:cefactBusinessProcess | Buy-Ship-Pay
 
 @id | cefact:FinancingSummary_Document.Specified.Creditor_FinancialAccount
@@ -47389,11 +47389,11 @@ rdfs:comment | The creditor financial account, used for crediting, specified for
 edi3:cefactBieDomainClass | [cefact:Financing Summary_Document.Details](#Financing Summary_Document.Details)
 edi3:cefactBusinessProcess | Buy-Ship-Pay
 
-@id | cefact:TradeSettlement_PaymentMeans.Specified.Creditor_FinancialAccount
+@id | cefact:Requesting_Party.Specified.Creditor_FinancialAccount
 @type | edi3:AssociationBIE
-edi3:cefactUNId | cefact:UN01013300
-rdfs:comment | A creditor financial account specified for this trade settlement payment means.
-edi3:cefactBieDomainClass | [cefact:Trade Settlement_PaymentMeans.Details](#Trade Settlement_PaymentMeans.Details)
+edi3:cefactUNId | cefact:UN01013294
+rdfs:comment | The creditor financial account, used for crediting, specified for this requesting party.
+edi3:cefactBieDomainClass | [cefact:Requesting_Party.Details](#Requesting_Party.Details)
 edi3:cefactBusinessProcess | Buy-Ship-Pay
 
 
@@ -47477,18 +47477,18 @@ Domains:
 
 Cefact Element Metadata: 
 
-@id | cefact:Header_TradeDelivery.Specified.Delivery_Instructions
-@type | edi3:AssociationBIE
-edi3:cefactUNId | cefact:UN01011621
-rdfs:comment | Delivery instructions, at header level, specified for this trade delivery.
-edi3:cefactBieDomainClass | [cefact:Header_TradeDelivery.Details](#Header_TradeDelivery.Details)
-edi3:cefactBusinessProcess | Trade
-
 @id | cefact:Line_TradeDelivery.Specified.Delivery_Instructions
 @type | edi3:AssociationBIE
 edi3:cefactUNId | cefact:UN01011782
 rdfs:comment | Delivery instructions, at line level, specified for this trade delivery.
 edi3:cefactBieDomainClass | [cefact:Line_TradeDelivery.Details](#Line_TradeDelivery.Details)
+edi3:cefactBusinessProcess | Trade
+
+@id | cefact:Header_TradeDelivery.Specified.Delivery_Instructions
+@type | edi3:AssociationBIE
+edi3:cefactUNId | cefact:UN01011621
+rdfs:comment | Delivery instructions, at header level, specified for this trade delivery.
+edi3:cefactBieDomainClass | [cefact:Header_TradeDelivery.Details](#Header_TradeDelivery.Details)
 edi3:cefactBusinessProcess | Trade
 
 
@@ -47594,18 +47594,18 @@ Domains:
 
 Cefact Element Metadata: 
 
-@id | cefact:Line_TradeSettlement.Specified.Financial_Adjustment
-@type | edi3:AssociationBIE
-edi3:cefactUNId | cefact:UN01011813
-rdfs:comment | A financial adjustment specified for this line trade settlement.
-edi3:cefactBieDomainClass | [cefact:Line_TradeSettlement.Details](#Line_TradeSettlement.Details)
-edi3:cefactBusinessProcess | Buy-Ship-Pay
-
 @id | cefact:Header_TradeSettlement.Specified.Financial_Adjustment
 @type | edi3:AssociationBIE
 edi3:cefactUNId | cefact:UN01011679
 rdfs:comment | A financial adjustment specified for this header trade settlement.
 edi3:cefactBieDomainClass | [cefact:Header_TradeSettlement.Details](#Header_TradeSettlement.Details)
+edi3:cefactBusinessProcess | Buy-Ship-Pay
+
+@id | cefact:Line_TradeSettlement.Specified.Financial_Adjustment
+@type | edi3:AssociationBIE
+edi3:cefactUNId | cefact:UN01011813
+rdfs:comment | A financial adjustment specified for this line trade settlement.
+edi3:cefactBieDomainClass | [cefact:Line_TradeSettlement.Details](#Line_TradeSettlement.Details)
 edi3:cefactBusinessProcess | Buy-Ship-Pay
 
 
@@ -47735,13 +47735,6 @@ Domains:
 
 Cefact Element Metadata: 
 
-@id | cefact:Logistics_TransportMovement.Specified.Handling_Instructions
-@type | edi3:AssociationBIE
-edi3:cefactUNId | cefact:UN01010132
-rdfs:comment | Handling instructions specified for this logistics transport movement.
-edi3:cefactBieDomainClass | [cefact:Logistics_TransportMovement.Details](#Logistics_TransportMovement.Details)
-edi3:cefactBusinessProcess | Transport
-
 @id | cefact:Header_TradeDelivery.Specified.Handling_Instructions
 @type | edi3:AssociationBIE
 edi3:cefactUNId | cefact:UN01013428
@@ -47749,19 +47742,26 @@ rdfs:comment | Handling instructions, at header level, specified for this trade 
 edi3:cefactBieDomainClass | [cefact:Header_TradeDelivery.Details](#Header_TradeDelivery.Details)
 edi3:cefactBusinessProcess | Buy-Ship-Pay
 
-@id | cefact:Line_TradeDelivery.Specified.Handling_Instructions
-@type | edi3:AssociationBIE
-edi3:cefactUNId | cefact:UN01011783
-rdfs:comment | Handling instructions, at line level, specified for this trade delivery.
-edi3:cefactBieDomainClass | [cefact:Line_TradeDelivery.Details](#Line_TradeDelivery.Details)
-edi3:cefactBusinessProcess | Trade
-
 @id | cefact:Logistics_TransportMeans.Specified.Handling_Instructions
 @type | edi3:AssociationBIE
 edi3:cefactUNId | cefact:UN01010112
 rdfs:comment | Handling instructions specified for this logistics means of transport.
 edi3:cefactBieDomainClass | [cefact:Logistics_TransportMeans.Details](#Logistics_TransportMeans.Details)
 edi3:cefactBusinessProcess | Transport
+
+@id | cefact:Logistics_TransportMovement.Specified.Handling_Instructions
+@type | edi3:AssociationBIE
+edi3:cefactUNId | cefact:UN01010132
+rdfs:comment | Handling instructions specified for this logistics transport movement.
+edi3:cefactBieDomainClass | [cefact:Logistics_TransportMovement.Details](#Logistics_TransportMovement.Details)
+edi3:cefactBusinessProcess | Transport
+
+@id | cefact:Line_TradeDelivery.Specified.Handling_Instructions
+@type | edi3:AssociationBIE
+edi3:cefactUNId | cefact:UN01011783
+rdfs:comment | Handling instructions, at line level, specified for this trade delivery.
+edi3:cefactBieDomainClass | [cefact:Line_TradeDelivery.Details](#Line_TradeDelivery.Details)
+edi3:cefactBusinessProcess | Trade
 
 
 
@@ -47913,20 +47913,6 @@ Domains:
 
 Cefact Element Metadata: 
 
-@id | cefact:Trade_Party.Specified.Logistics_Location
-@type | edi3:AssociationBIE
-edi3:cefactUNId | cefact:UN01004610
-rdfs:comment | A logistics related location or place specified for this trade party.
-edi3:cefactBieDomainClass | [cefact:Trade_Party.Details](#Trade_Party.Details)
-edi3:cefactBusinessProcess | Buy-Ship-Pay
-
-@id | cefact:Logistics_Status.Specified.Logistics_Location
-@type | edi3:AssociationBIE
-edi3:cefactUNId | cefact:UN01003755
-rdfs:comment | A location specified for this logistics status.
-edi3:cefactBieDomainClass | [cefact:Logistics_Status.Details](#Logistics_Status.Details)
-edi3:cefactBusinessProcess | Buy-Ship-Pay
-
 @id | cefact:StoresItem_Inventory.Specified.Logistics_Location
 @type | edi3:AssociationBIE
 edi3:cefactUNId | cefact:UN01013194
@@ -47939,6 +47925,20 @@ edi3:cefactBusinessProcess | Buy-Ship-Pay
 edi3:cefactUNId | cefact:UN01004331
 rdfs:comment | A location specified for this supply chain supply plan.
 edi3:cefactBieDomainClass | [cefact:Supply Chain_SupplyPlan.Details](#Supply Chain_SupplyPlan.Details)
+edi3:cefactBusinessProcess | Buy-Ship-Pay
+
+@id | cefact:Logistics_Status.Specified.Logistics_Location
+@type | edi3:AssociationBIE
+edi3:cefactUNId | cefact:UN01003755
+rdfs:comment | A location specified for this logistics status.
+edi3:cefactBieDomainClass | [cefact:Logistics_Status.Details](#Logistics_Status.Details)
+edi3:cefactBusinessProcess | Buy-Ship-Pay
+
+@id | cefact:Trade_Party.Specified.Logistics_Location
+@type | edi3:AssociationBIE
+edi3:cefactUNId | cefact:UN01004610
+rdfs:comment | A logistics related location or place specified for this trade party.
+edi3:cefactBieDomainClass | [cefact:Trade_Party.Details](#Trade_Party.Details)
 edi3:cefactBusinessProcess | Buy-Ship-Pay
 
 @id | cefact:SupplyChain_Inventory.Specified.Logistics_Location
@@ -47965,19 +47965,19 @@ Domains:
 
 Cefact Element Metadata: 
 
-@id | cefact:Transport_DangerousGoods.Specified.Logistics_Package
-@type | edi3:AssociationBIE
-edi3:cefactUNId | cefact:UN01013055
-rdfs:comment | A logistics package specified for these transported dangerous goods.
-edi3:cefactBieDomainClass | [cefact:Transport_DangerousGoods.Details](#Transport_DangerousGoods.Details)
-edi3:cefactBusinessProcess | Buy-Ship-Pay
-
 @id | cefact:Line_TradeDelivery.Specified.Logistics_Package
 @type | edi3:AssociationBIE
 edi3:cefactUNId | cefact:UN01012125
 rdfs:comment | A logistics package, at line level, specified for this trade delivery.
 edi3:cefactBieDomainClass | [cefact:Line_TradeDelivery.Details](#Line_TradeDelivery.Details)
 edi3:cefactBusinessProcess | Trade
+
+@id | cefact:Transport_DangerousGoods.Specified.Logistics_Package
+@type | edi3:AssociationBIE
+edi3:cefactUNId | cefact:UN01013055
+rdfs:comment | A logistics package specified for these transported dangerous goods.
+edi3:cefactBieDomainClass | [cefact:Transport_DangerousGoods.Details](#Transport_DangerousGoods.Details)
+edi3:cefactBusinessProcess | Buy-Ship-Pay
 
 @id | cefact:SupplyChain_TradeTransaction.Specified.Logistics_Package
 @type | edi3:AssociationBIE
@@ -48011,18 +48011,18 @@ rdfs:comment | A result of a logistics risk analysis calculation specified for t
 edi3:cefactBieDomainClass | [cefact:Logistics_TransportMovement.Details](#Logistics_TransportMovement.Details)
 edi3:cefactBusinessProcess | Buy-Ship-Pay
 
-@id | cefact:Referenced_SupplyChain_Consignment.Specified.Logistics_RiskAnalysisResult
-@type | edi3:AssociationBIE
-edi3:cefactUNId | cefact:UN01013182
-rdfs:comment | A result of a logistics risk analysis specified for this referenced supply chain consignment.
-edi3:cefactBieDomainClass | [cefact:Referenced_ Supply Chain_Consignment.Details](#Referenced_ Supply Chain_Consignment.Details)
-edi3:cefactBusinessProcess | Buy-Ship-Pay
-
 @id | cefact:Trade_Party.Specified.Logistics_RiskAnalysisResult
 @type | edi3:AssociationBIE
 edi3:cefactUNId | cefact:UN01013054
 rdfs:comment | A result of a logistics risk analysis calculation specified for this trade party.
 edi3:cefactBieDomainClass | [cefact:Trade_Party.Details](#Trade_Party.Details)
+edi3:cefactBusinessProcess | Buy-Ship-Pay
+
+@id | cefact:SupplyChain_Consignment.Specified.Logistics_RiskAnalysisResult
+@type | edi3:AssociationBIE
+edi3:cefactUNId | cefact:UN01013053
+rdfs:comment | A result of a logistics risk analysis calculation specified for this supply chain consignment.
+edi3:cefactBieDomainClass | [cefact:Supply Chain_Consignment.Details](#Supply Chain_Consignment.Details)
 edi3:cefactBusinessProcess | Buy-Ship-Pay
 
 @id | cefact:Logistics_TransportEquipment.Specified.Logistics_RiskAnalysisResult
@@ -48032,11 +48032,11 @@ rdfs:comment | A result of a logistics risk analysis calculation specified for t
 edi3:cefactBieDomainClass | [cefact:Logistics_TransportEquipment.Details](#Logistics_TransportEquipment.Details)
 edi3:cefactBusinessProcess | Buy-Ship-Pay
 
-@id | cefact:SupplyChain_Consignment.Specified.Logistics_RiskAnalysisResult
+@id | cefact:Referenced_SupplyChain_Consignment.Specified.Logistics_RiskAnalysisResult
 @type | edi3:AssociationBIE
-edi3:cefactUNId | cefact:UN01013053
-rdfs:comment | A result of a logistics risk analysis calculation specified for this supply chain consignment.
-edi3:cefactBieDomainClass | [cefact:Supply Chain_Consignment.Details](#Supply Chain_Consignment.Details)
+edi3:cefactUNId | cefact:UN01013182
+rdfs:comment | A result of a logistics risk analysis specified for this referenced supply chain consignment.
+edi3:cefactBieDomainClass | [cefact:Referenced_ Supply Chain_Consignment.Details](#Referenced_ Supply Chain_Consignment.Details)
 edi3:cefactBusinessProcess | Buy-Ship-Pay
 
 
@@ -48054,18 +48054,18 @@ Domains:
 
 Cefact Element Metadata: 
 
-@id | cefact:Header_TradeSettlement.Specified.Logistics_ServiceCharge
-@type | edi3:AssociationBIE
-edi3:cefactUNId | cefact:UN01011676
-rdfs:comment | A logistics service charge specified for this header trade settlement.
-edi3:cefactBieDomainClass | [cefact:Header_TradeSettlement.Details](#Header_TradeSettlement.Details)
-edi3:cefactBusinessProcess | Buy-Ship-Pay
-
 @id | cefact:Line_TradeSettlement.Specified.Logistics_ServiceCharge
 @type | edi3:AssociationBIE
 edi3:cefactUNId | cefact:UN01011810
 rdfs:comment | A logistics service charge specified for this line trade settlement.
 edi3:cefactBieDomainClass | [cefact:Line_TradeSettlement.Details](#Line_TradeSettlement.Details)
+edi3:cefactBusinessProcess | Buy-Ship-Pay
+
+@id | cefact:Header_TradeSettlement.Specified.Logistics_ServiceCharge
+@type | edi3:AssociationBIE
+edi3:cefactUNId | cefact:UN01011676
+rdfs:comment | A logistics service charge specified for this header trade settlement.
+edi3:cefactBieDomainClass | [cefact:Header_TradeSettlement.Details](#Header_TradeSettlement.Details)
 edi3:cefactBusinessProcess | Buy-Ship-Pay
 
 
@@ -48327,13 +48327,6 @@ Domains:
 
 Cefact Element Metadata: 
 
-@id | cefact:Person_Identity.Specified.Proprietary_Identity
-@type | edi3:AssociationBIE
-edi3:cefactUNId | cefact:UN01013285
-rdfs:comment | A proprietary Identity specified for this person.
-edi3:cefactBieDomainClass | [cefact:Person_Identity.Details](#Person_Identity.Details)
-edi3:cefactBusinessProcess | Buy-Ship-Pay
-
 @id | cefact:Requesting_Party.Specified.Proprietary_Identity
 @type | edi3:AssociationBIE
 edi3:cefactUNId | cefact:UN01013292
@@ -48341,11 +48334,11 @@ rdfs:comment | A proprietary identity specified for this requesting party.
 edi3:cefactBieDomainClass | [cefact:Requesting_Party.Details](#Requesting_Party.Details)
 edi3:cefactBusinessProcess | Buy-Ship-Pay
 
-@id | cefact:Trade_Party.Specified.Proprietary_Identity
+@id | cefact:Person_Identity.Specified.Proprietary_Identity
 @type | edi3:AssociationBIE
-edi3:cefactUNId | cefact:UN01013302
-rdfs:comment | A proprietary identity specified for this trade party.
-edi3:cefactBieDomainClass | [cefact:Trade_Party.Details](#Trade_Party.Details)
+edi3:cefactUNId | cefact:UN01013285
+rdfs:comment | A proprietary Identity specified for this person.
+edi3:cefactBieDomainClass | [cefact:Person_Identity.Details](#Person_Identity.Details)
 edi3:cefactBusinessProcess | Buy-Ship-Pay
 
 @id | cefact:Creditor_FinancialInstitution.Specified.Proprietary_Identity
@@ -48353,6 +48346,13 @@ edi3:cefactBusinessProcess | Buy-Ship-Pay
 edi3:cefactUNId | cefact:UN01013210
 rdfs:comment | A proprietary identity specified for this creditor financial institution.
 edi3:cefactBieDomainClass | [cefact:Creditor_FinancialInstitution.Details](#Creditor_FinancialInstitution.Details)
+edi3:cefactBusinessProcess | Buy-Ship-Pay
+
+@id | cefact:Trade_Party.Specified.Proprietary_Identity
+@type | edi3:AssociationBIE
+edi3:cefactUNId | cefact:UN01013302
+rdfs:comment | A proprietary identity specified for this trade party.
+edi3:cefactBieDomainClass | [cefact:Trade_Party.Details](#Trade_Party.Details)
 edi3:cefactBusinessProcess | Buy-Ship-Pay
 
 
@@ -48781,18 +48781,18 @@ rdfs:comment | The payment means specified for this payment trade settlement.
 edi3:cefactBieDomainClass | [cefact:Payment_TradeSettlement.Details](#Payment_TradeSettlement.Details)
 edi3:cefactBusinessProcess | Trade
 
-@id | cefact:Header_TradeSettlement.Specified.TradeSettlement_PaymentMeans
-@type | edi3:AssociationBIE
-edi3:cefactUNId | cefact:UN01011671
-rdfs:comment | A payment means specified for this header trade settlement.
-edi3:cefactBieDomainClass | [cefact:Header_TradeSettlement.Details](#Header_TradeSettlement.Details)
-edi3:cefactBusinessProcess | Buy-Ship-Pay
-
 @id | cefact:Logistics_ServiceCharge.Specified.TradeSettlement_PaymentMeans
 @type | edi3:AssociationBIE
 edi3:cefactUNId | cefact:UN01008980
 rdfs:comment | The trade settlement payment means specified for this logistics service charge.
 edi3:cefactBieDomainClass | [cefact:Logistics_ServiceCharge.Details](#Logistics_ServiceCharge.Details)
+edi3:cefactBusinessProcess | Buy-Ship-Pay
+
+@id | cefact:Header_TradeSettlement.Specified.TradeSettlement_PaymentMeans
+@type | edi3:AssociationBIE
+edi3:cefactUNId | cefact:UN01011671
+rdfs:comment | A payment means specified for this header trade settlement.
+edi3:cefactBieDomainClass | [cefact:Header_TradeSettlement.Details](#Header_TradeSettlement.Details)
 edi3:cefactBusinessProcess | Buy-Ship-Pay
 
 
@@ -49052,18 +49052,18 @@ Domains:
 
 Cefact Element Metadata: 
 
-@id | cefact:Specified_Period.Start.DateTime
-@type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01001274
-rdfs:comment | The date, time, date time or other date time value for the start of this specified period of time.
-edi3:cefactBieDomainClass | [cefact:Specified_Period.Details](#Specified_Period.Details)
-edi3:cefactBusinessProcess | In All Contexts
-
 @id | cefact:Available_Period.Start.DateTime
 @type | edi3:BasicBIE
 edi3:cefactUNId | cefact:UN01005109
 rdfs:comment | The date, time, date time or other date time value for the start of this available period of time.
 edi3:cefactBieDomainClass | [cefact:Available_Period.Details](#Available_Period.Details)
+edi3:cefactBusinessProcess | In All Contexts
+
+@id | cefact:Specified_Period.Start.DateTime
+@type | edi3:BasicBIE
+edi3:cefactUNId | cefact:UN01001274
+rdfs:comment | The date, time, date time or other date time value for the start of this specified period of time.
+edi3:cefactBieDomainClass | [cefact:Specified_Period.Details](#Specified_Period.Details)
 edi3:cefactBusinessProcess | In All Contexts
 
 
@@ -49211,35 +49211,14 @@ Domains:
 
 [edi3:Schedule](#Schedule)
 [edi3:TradeDelivery](#TradeDelivery)
-[edi3:Product](#Product)
 [edi3:Parameter](#Parameter)
+[edi3:Product](#Product)
 [edi3:QuantityAnalysis](#QuantityAnalysis)
 [edi3:WorkItem](#WorkItem)
 [edi3:Inventory](#Inventory)
 [edi3:WorkflowObject](#WorkflowObject)
 
 Cefact Element Metadata: 
-
-@id | cefact:Line_TradeDelivery.Status.Code
-@type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01012998
-rdfs:comment | The code specifying the status, at line level, for this trade delivery.
-edi3:cefactBieDomainClass | [cefact:Line_TradeDelivery.Details](#Line_TradeDelivery.Details)
-edi3:cefactBusinessProcess | Buy-Ship-Pay
-
-@id | cefact:Trade_Product.Status.Code
-@type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01005375
-rdfs:comment | A code specifying a status for this trade product.
-edi3:cefactBieDomainClass | [cefact:Trade_Product.Details](#Trade_Product.Details)
-edi3:cefactBusinessProcess | In All Contexts
-
-@id | cefact:WorkItem_QuantityAnalysis.Status.Code
-@type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01000020
-rdfs:comment | The code specifying the status of this work item quantity analysis, such as partial, approved, not approved.
-edi3:cefactBieDomainClass | [cefact:Work Item_QuantityAnalysis.Details](#Work Item_QuantityAnalysis.Details)
-edi3:cefactBusinessProcess | In All Contexts
 
 @id | cefact:Basic_WorkItem.Status.Code
 @type | edi3:BasicBIE
@@ -49248,32 +49227,11 @@ rdfs:comment | A code specifying the status of this basic work item.
 edi3:cefactBieDomainClass | [cefact:Basic_WorkItem.Details](#Basic_WorkItem.Details)
 edi3:cefactBusinessProcess | In All Contexts
 
-@id | cefact:SupplyChain_Schedule.Status.Code
-@type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01012983
-rdfs:comment | A code specifying the status of this supply chain schedule.
-edi3:cefactBieDomainClass | [cefact:Supply Chain_Schedule.Details](#Supply Chain_Schedule.Details)
-edi3:cefactBusinessProcess | Supply Chain
-
 @id | cefact:ControlSetting_Parameter.Status.Code
 @type | edi3:BasicBIE
 edi3:cefactUNId | cefact:UN01013505
 rdfs:comment | The code specifying the status of this control setting parameter.
 edi3:cefactBieDomainClass | [cefact:Control Setting_Parameter.Details](#Control Setting_Parameter.Details)
-edi3:cefactBusinessProcess | In All Contexts
-
-@id | cefact:SupplyChain_Inventory.Status.Code
-@type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01005301
-rdfs:comment | The code specifying a status for this supply chain inventory.
-edi3:cefactBieDomainClass | [cefact:Supply Chain_Inventory.Details](#Supply Chain_Inventory.Details)
-edi3:cefactBusinessProcess | In All Contexts
-
-@id | cefact:Operational_Parameter.Status.Code
-@type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01013516
-rdfs:comment | The code specifying the status of this operational parameter.
-edi3:cefactBieDomainClass | [cefact:Operational_Parameter.Details](#Operational_Parameter.Details)
 edi3:cefactBusinessProcess | In All Contexts
 
 @id | cefact:Header_TradeDelivery.Status.Code
@@ -49283,12 +49241,54 @@ rdfs:comment | The code specifying the status, at header level, for this trade d
 edi3:cefactBieDomainClass | [cefact:Header_TradeDelivery.Details](#Header_TradeDelivery.Details)
 edi3:cefactBusinessProcess | Buy-Ship-Pay
 
+@id | cefact:WorkItem_QuantityAnalysis.Status.Code
+@type | edi3:BasicBIE
+edi3:cefactUNId | cefact:UN01000020
+rdfs:comment | The code specifying the status of this work item quantity analysis, such as partial, approved, not approved.
+edi3:cefactBieDomainClass | [cefact:Work Item_QuantityAnalysis.Details](#Work Item_QuantityAnalysis.Details)
+edi3:cefactBusinessProcess | In All Contexts
+
+@id | cefact:Operational_Parameter.Status.Code
+@type | edi3:BasicBIE
+edi3:cefactUNId | cefact:UN01013516
+rdfs:comment | The code specifying the status of this operational parameter.
+edi3:cefactBieDomainClass | [cefact:Operational_Parameter.Details](#Operational_Parameter.Details)
+edi3:cefactBusinessProcess | In All Contexts
+
+@id | cefact:Trade_Product.Status.Code
+@type | edi3:BasicBIE
+edi3:cefactUNId | cefact:UN01005375
+rdfs:comment | A code specifying a status for this trade product.
+edi3:cefactBieDomainClass | [cefact:Trade_Product.Details](#Trade_Product.Details)
+edi3:cefactBusinessProcess | In All Contexts
+
 @id | cefact:Trade_WorkflowObject.Status.Code
 @type | edi3:BasicBIE
 edi3:cefactUNId | cefact:UN01011932
 rdfs:comment | The code specifying the status of this trade workflow object.
 edi3:cefactBieDomainClass | [cefact:Trade_WorkflowObject.Details](#Trade_WorkflowObject.Details)
 edi3:cefactBusinessProcess | Trade
+
+@id | cefact:SupplyChain_Schedule.Status.Code
+@type | edi3:BasicBIE
+edi3:cefactUNId | cefact:UN01012983
+rdfs:comment | A code specifying the status of this supply chain schedule.
+edi3:cefactBieDomainClass | [cefact:Supply Chain_Schedule.Details](#Supply Chain_Schedule.Details)
+edi3:cefactBusinessProcess | Supply Chain
+
+@id | cefact:SupplyChain_Inventory.Status.Code
+@type | edi3:BasicBIE
+edi3:cefactUNId | cefact:UN01005301
+rdfs:comment | The code specifying a status for this supply chain inventory.
+edi3:cefactBieDomainClass | [cefact:Supply Chain_Inventory.Details](#Supply Chain_Inventory.Details)
+edi3:cefactBusinessProcess | In All Contexts
+
+@id | cefact:Line_TradeDelivery.Status.Code
+@type | edi3:BasicBIE
+edi3:cefactUNId | cefact:UN01012998
+rdfs:comment | The code specifying the status, at line level, for this trade delivery.
+edi3:cefactBieDomainClass | [cefact:Line_TradeDelivery.Details](#Line_TradeDelivery.Details)
+edi3:cefactBusinessProcess | Buy-Ship-Pay
 
 
 
@@ -49336,12 +49336,12 @@ Domains:
 
 Cefact Element Metadata: 
 
-@id | cefact:Logistics_TransportMovement.Status.Code
+@id | cefact:Transport_Route.Status.Code
 @type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01011524
-rdfs:comment | The code specifying a status for the logistics transport movement, such as estimated or final.
-edi3:cefactBieDomainClass | [cefact:Logistics_TransportMovement.Details](#Logistics_TransportMovement.Details)
-edi3:cefactBusinessProcess | Buy-Ship-Pay
+edi3:cefactUNId | cefact:UN01011530
+rdfs:comment | The code specifying a status for a transport route, such as planned or actual.
+edi3:cefactBieDomainClass | [cefact:Transport_Route.Details](#Transport_Route.Details)
+edi3:cefactBusinessProcess | In All Contexts
 
 @id | cefact:Acknowledgement_Document.Status.Code
 @type | edi3:BasicBIE
@@ -49350,12 +49350,12 @@ rdfs:comment | A code specifying a status for this acknowledgement document.
 edi3:cefactBieDomainClass | [cefact:Acknowledgement_Document.Details](#Acknowledgement_Document.Details)
 edi3:cefactBusinessProcess | In All Contexts
 
-@id | cefact:Transport_Route.Status.Code
+@id | cefact:Logistics_TransportMovement.Status.Code
 @type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01011530
-rdfs:comment | The code specifying a status for a transport route, such as planned or actual.
-edi3:cefactBieDomainClass | [cefact:Transport_Route.Details](#Transport_Route.Details)
-edi3:cefactBusinessProcess | In All Contexts
+edi3:cefactUNId | cefact:UN01011524
+rdfs:comment | The code specifying a status for the logistics transport movement, such as estimated or final.
+edi3:cefactBieDomainClass | [cefact:Logistics_TransportMovement.Details](#Logistics_TransportMovement.Details)
+edi3:cefactBusinessProcess | Buy-Ship-Pay
 
 
 
@@ -49527,18 +49527,18 @@ Domains:
 
 Cefact Element Metadata: 
 
-@id | cefact:SupplyChain_Consignment.Storage.Transport_Event
-@type | edi3:AssociationBIE
-edi3:cefactUNId | cefact:UN01004255
-rdfs:comment | A storage event for this supply chain consignment.
-edi3:cefactBieDomainClass | [cefact:Supply Chain_Consignment.Details](#Supply Chain_Consignment.Details)
-edi3:cefactBusinessProcess | Buy-Ship-Pay
-
 @id | cefact:Logistics_TransportEquipment.Storage.Transport_Event
 @type | edi3:AssociationBIE
 edi3:cefactUNId | cefact:UN01003804
 rdfs:comment | A storage event specifying when and where this piece of logistics transport equipment will be, or has been, stored.
 edi3:cefactBieDomainClass | [cefact:Logistics_TransportEquipment.Details](#Logistics_TransportEquipment.Details)
+edi3:cefactBusinessProcess | Buy-Ship-Pay
+
+@id | cefact:SupplyChain_Consignment.Storage.Transport_Event
+@type | edi3:AssociationBIE
+edi3:cefactUNId | cefact:UN01004255
+rdfs:comment | A storage event for this supply chain consignment.
+edi3:cefactBieDomainClass | [cefact:Supply Chain_Consignment.Details](#Supply Chain_Consignment.Details)
 edi3:cefactBusinessProcess | Buy-Ship-Pay
 
 
@@ -49578,19 +49578,19 @@ Domains:
 
 Cefact Element Metadata: 
 
-@id | cefact:FinancialInstitution_Address.StreetName.Text
-@type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01003180
-rdfs:comment | The name, expressed as text, of the street or thoroughfare for this financial institution address.
-edi3:cefactBieDomainClass | [cefact:Financial Institution_Address.Details](#Financial Institution_Address.Details)
-edi3:cefactBusinessProcess | Customer to bank payment initiation
-
 @id | cefact:Trade_Address.StreetName.Text
 @type | edi3:BasicBIE
 edi3:cefactUNId | cefact:UN01004543
 rdfs:comment | A name, expressed as text, of a street or thoroughfare for this trade address.
 edi3:cefactBieDomainClass | [cefact:Trade_Address.Details](#Trade_Address.Details)
 edi3:cefactBusinessProcess | Buy-Ship-Pay
+
+@id | cefact:FinancialInstitution_Address.StreetName.Text
+@type | edi3:BasicBIE
+edi3:cefactUNId | cefact:UN01003180
+rdfs:comment | The name, expressed as text, of the street or thoroughfare for this financial institution address.
+edi3:cefactBieDomainClass | [cefact:Financial Institution_Address.Details](#Financial Institution_Address.Details)
+edi3:cefactBusinessProcess | Customer to bank payment initiation
 
 
 
@@ -49812,18 +49812,18 @@ Domains:
 
 Cefact Element Metadata: 
 
-@id | cefact:Header_TradeDelivery.Subordinate_Identification.Identifier
-@type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01013418
-rdfs:comment | A subordinate identifier, at header level, for this trade delivery.
-edi3:cefactBieDomainClass | [cefact:Header_TradeDelivery.Details](#Header_TradeDelivery.Details)
-edi3:cefactBusinessProcess | Buy-Ship-Pay
-
 @id | cefact:Line_TradeDelivery.Subordinate_Identification.Identifier
 @type | edi3:BasicBIE
 edi3:cefactUNId | cefact:UN01013439
 rdfs:comment | A subordinate identifier, at line level, for this trade delivery.
 edi3:cefactBieDomainClass | [cefact:Line_TradeDelivery.Details](#Line_TradeDelivery.Details)
+edi3:cefactBusinessProcess | Buy-Ship-Pay
+
+@id | cefact:Header_TradeDelivery.Subordinate_Identification.Identifier
+@type | edi3:BasicBIE
+edi3:cefactUNId | cefact:UN01013418
+rdfs:comment | A subordinate identifier, at header level, for this trade delivery.
+edi3:cefactBieDomainClass | [cefact:Header_TradeDelivery.Details](#Header_TradeDelivery.Details)
 edi3:cefactBusinessProcess | Buy-Ship-Pay
 
 
@@ -49915,18 +49915,18 @@ Domains:
 
 Cefact Element Metadata: 
 
-@id | cefact:Trade_Country.Subordinate.Trade_CountrySub-Division
-@type | edi3:AssociationBIE
-edi3:cefactUNId | cefact:UN01002555
-rdfs:comment | A trade country sub-division that is subordinate to this trade country, such as a state, a county, a canton, a province.
-edi3:cefactBieDomainClass | [cefact:Trade_Country.Details](#Trade_Country.Details)
-edi3:cefactBusinessProcess | In All Contexts
-
 @id | cefact:Trade_CountrySub-Division.Subordinate.Trade_CountrySub-Division
 @type | edi3:AssociationBIE
 edi3:cefactUNId | cefact:UN01002567
 rdfs:comment | A subordinate country sub-division within this trade country sub-division.
 edi3:cefactBieDomainClass | [cefact:Trade_CountrySubDivision.Details](#Trade_CountrySubDivision.Details)
+edi3:cefactBusinessProcess | In All Contexts
+
+@id | cefact:Trade_Country.Subordinate.Trade_CountrySub-Division
+@type | edi3:AssociationBIE
+edi3:cefactUNId | cefact:UN01002555
+rdfs:comment | A trade country sub-division that is subordinate to this trade country, such as a state, a county, a canton, a province.
+edi3:cefactBieDomainClass | [cefact:Trade_Country.Details](#Trade_Country.Details)
 edi3:cefactBusinessProcess | In All Contexts
 
 
@@ -50266,18 +50266,18 @@ Domains:
 
 Cefact Element Metadata: 
 
-@id | cefact:Creditor_FinancialInstitution.SwissBC_Identification.Identifier
-@type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01002983
-rdfs:comment | The unique Swiss Bank Code (BC) identifier for this creditor financial institution.
-edi3:cefactBieDomainClass | [cefact:Creditor_FinancialInstitution.Details](#Creditor_FinancialInstitution.Details)
-edi3:cefactBusinessProcess | Customer to bank payment initiation
-
 @id | cefact:Debtor_FinancialInstitution.SwissBC_Identification.Identifier
 @type | edi3:BasicBIE
 edi3:cefactUNId | cefact:UN01002848
 rdfs:comment | The unique Swiss Bank Code (BC) identifier for this debtor financial institution.
 edi3:cefactBieDomainClass | [cefact:Debtor_FinancialInstitution.Details](#Debtor_FinancialInstitution.Details)
+edi3:cefactBusinessProcess | Customer to bank payment initiation
+
+@id | cefact:Creditor_FinancialInstitution.SwissBC_Identification.Identifier
+@type | edi3:BasicBIE
+edi3:cefactUNId | cefact:UN01002983
+rdfs:comment | The unique Swiss Bank Code (BC) identifier for this creditor financial institution.
+edi3:cefactBieDomainClass | [cefact:Creditor_FinancialInstitution.Details](#Creditor_FinancialInstitution.Details)
 edi3:cefactBusinessProcess | Customer to bank payment initiation
 
 
@@ -50362,6 +50362,13 @@ Domains:
 
 Cefact Element Metadata: 
 
+@id | cefact:Specified_GeographicalCoordinate.System.Identifier
+@type | edi3:BasicBIE
+edi3:cefactUNId | cefact:UN01002032
+rdfs:comment | The unique identifier of the system used for measuring this specified geographical coordinate.
+edi3:cefactBieDomainClass | [cefact:Specified_GeographicalCoordinate.Details](#Specified_GeographicalCoordinate.Details)
+edi3:cefactBusinessProcess | In All Contexts
+
 @id | cefact:GeographicalCoordinate.System.Identifier
 @type | edi3:BasicBIE
 edi3:cefactUNId | cefact:UN01003622
@@ -50374,13 +50381,6 @@ edi3:cefactBusinessProcess | In All Contexts
 edi3:cefactUNId | cefact:UN01002609
 rdfs:comment | The unique identifier of the classification system for this product classification.
 edi3:cefactBieDomainClass | [cefact:Product_Classification.Details](#Product_Classification.Details)
-edi3:cefactBusinessProcess | In All Contexts
-
-@id | cefact:Specified_GeographicalCoordinate.System.Identifier
-@type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01002032
-rdfs:comment | The unique identifier of the system used for measuring this specified geographical coordinate.
-edi3:cefactBieDomainClass | [cefact:Specified_GeographicalCoordinate.Details](#Specified_GeographicalCoordinate.Details)
 edi3:cefactBusinessProcess | In All Contexts
 
 
@@ -50788,19 +50788,19 @@ Domains:
 
 Cefact Element Metadata: 
 
-@id | cefact:Applied_Tax.TaxPoint.Date
-@type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01002070
-rdfs:comment | The date of the tax point when taxes, such as VAT, are to be applied.
-edi3:cefactBieDomainClass | [cefact:Applied_Tax.Details](#Applied_Tax.Details)
-edi3:cefactBusinessProcess | Trade
-
 @id | cefact:Trade_Tax.TaxPoint.Date
 @type | edi3:BasicBIE
 edi3:cefactUNId | cefact:UN01004725
 rdfs:comment | The date of the tax point when this trade related tax, levy or duty becomes applicable.
 edi3:cefactBieDomainClass | [cefact:Trade_Tax.Details](#Trade_Tax.Details)
 edi3:cefactBusinessProcess | Buy-Ship-Pay
+
+@id | cefact:Applied_Tax.TaxPoint.Date
+@type | edi3:BasicBIE
+edi3:cefactUNId | cefact:UN01002070
+rdfs:comment | The date of the tax point when taxes, such as VAT, are to be applied.
+edi3:cefactBieDomainClass | [cefact:Applied_Tax.Details](#Applied_Tax.Details)
+edi3:cefactBusinessProcess | Trade
 
 
 
@@ -50817,6 +50817,13 @@ Domains:
 
 Cefact Element Metadata: 
 
+@id | cefact:TradeSettlementHeader_MonetarySummation.TaxTotal.Amount
+@type | edi3:BasicBIE
+edi3:cefactUNId | cefact:UN01011876
+rdfs:comment | A monetary value of the total of all tax amounts being reported in this trade settlement header monetary summation.
+edi3:cefactBieDomainClass | [cefact:Trade Settlement Header_MonetarySummation.Details](#Trade Settlement Header_MonetarySummation.Details)
+edi3:cefactBusinessProcess | Buy-Ship-Pay
+
 @id | cefact:TradeSettlementLine_MonetarySummation.TaxTotal.Amount
 @type | edi3:BasicBIE
 edi3:cefactUNId | cefact:UN01011901
@@ -50829,13 +50836,6 @@ edi3:cefactBusinessProcess | Buy-Ship-Pay
 edi3:cefactUNId | cefact:UN01013027
 rdfs:comment | A monetary value of the total of all tax amounts reported in this trade settlement payment monetary summation.
 edi3:cefactBieDomainClass | [cefact:Trade Settlement Payment_MonetarySummation.Details](#Trade Settlement Payment_MonetarySummation.Details)
-edi3:cefactBusinessProcess | Buy-Ship-Pay
-
-@id | cefact:TradeSettlementHeader_MonetarySummation.TaxTotal.Amount
-@type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01011876
-rdfs:comment | A monetary value of the total of all tax amounts being reported in this trade settlement header monetary summation.
-edi3:cefactBieDomainClass | [cefact:Trade Settlement Header_MonetarySummation.Details](#Trade Settlement Header_MonetarySummation.Details)
 edi3:cefactBusinessProcess | Buy-Ship-Pay
 
 
@@ -50898,19 +50898,19 @@ Domains:
 
 Cefact Element Metadata: 
 
-@id | cefact:Trade_Contact.Telephone.Universal_Communication
-@type | edi3:AssociationBIE
-edi3:cefactUNId | cefact:UN01004564
-rdfs:comment | Telephone communication information for this trade contact.
-edi3:cefactBieDomainClass | [cefact:Trade_Contact.Details](#Trade_Contact.Details)
-edi3:cefactBusinessProcess | Buy-Ship-Pay
-
 @id | cefact:Location_Party.Telephone.Universal_Communication
 @type | edi3:AssociationBIE
 edi3:cefactUNId | cefact:UN01003671
 rdfs:comment | Telephone communication information for this location party.
 edi3:cefactBieDomainClass | [cefact:Location_Party.Details](#Location_Party.Details)
 edi3:cefactBusinessProcess | In All Contexts
+
+@id | cefact:Trade_Contact.Telephone.Universal_Communication
+@type | edi3:AssociationBIE
+edi3:cefactUNId | cefact:UN01004564
+rdfs:comment | Telephone communication information for this trade contact.
+edi3:cefactBieDomainClass | [cefact:Trade_Contact.Details](#Trade_Contact.Details)
+edi3:cefactBusinessProcess | Buy-Ship-Pay
 
 @id | cefact:Trade_Party.Telephone.Universal_Communication
 @type | edi3:AssociationBIE
@@ -51265,18 +51265,18 @@ Domains:
 
 Cefact Element Metadata: 
 
-@id | cefact:Geographical_CoordinateSourceSystem.Tolerance.Measure
-@type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01013574
-rdfs:comment | The measure of the tolerance of this geographical coordinate source system.
-edi3:cefactBieDomainClass | [cefact:Geographical_CoordinateSourceSystem.Details](#Geographical_CoordinateSourceSystem.Details)
-edi3:cefactBusinessProcess | In All Contexts
-
 @id | cefact:Calibrated_Measurement.Tolerance.Measure
 @type | edi3:BasicBIE
 edi3:cefactUNId | cefact:UN01013537
 rdfs:comment | The measure of the tolerance of this calibrated measurement.
 edi3:cefactBieDomainClass | [cefact:Calibrated_Measurement.Details](#Calibrated_Measurement.Details)
+edi3:cefactBusinessProcess | In All Contexts
+
+@id | cefact:Geographical_CoordinateSourceSystem.Tolerance.Measure
+@type | edi3:BasicBIE
+edi3:cefactUNId | cefact:UN01013574
+rdfs:comment | The measure of the tolerance of this geographical coordinate source system.
+edi3:cefactBieDomainClass | [cefact:Geographical_CoordinateSourceSystem.Details](#Geographical_CoordinateSourceSystem.Details)
 edi3:cefactBusinessProcess | In All Contexts
 
 
@@ -51368,6 +51368,13 @@ Domains:
 
 Cefact Element Metadata: 
 
+@id | cefact:TradeSettlementLine_MonetarySummation.TotalAllowanceCharge.Amount
+@type | edi3:BasicBIE
+edi3:cefactUNId | cefact:UN01011904
+rdfs:comment | A monetary value of a total allowance and charge reported in this trade settlement line monetary summation.
+edi3:cefactBieDomainClass | [cefact:Trade Settlement Line_MonetarySummation.Details](#Trade Settlement Line_MonetarySummation.Details)
+edi3:cefactBusinessProcess | Buy-Ship-Pay
+
 @id | cefact:SupplyChain_Consignment.TotalAllowanceCharge.Amount
 @type | edi3:BasicBIE
 edi3:cefactUNId | cefact:UN01004185
@@ -51380,13 +51387,6 @@ edi3:cefactBusinessProcess | Buy-Ship-Pay
 edi3:cefactUNId | cefact:UN01011882
 rdfs:comment | A monetary value of a total allowance and charge reported in this trade settlement header monetary summation.
 edi3:cefactBieDomainClass | [cefact:Trade Settlement Header_MonetarySummation.Details](#Trade Settlement Header_MonetarySummation.Details)
-edi3:cefactBusinessProcess | Buy-Ship-Pay
-
-@id | cefact:TradeSettlementLine_MonetarySummation.TotalAllowanceCharge.Amount
-@type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01011904
-rdfs:comment | A monetary value of a total allowance and charge reported in this trade settlement line monetary summation.
-edi3:cefactBieDomainClass | [cefact:Trade Settlement Line_MonetarySummation.Details](#Trade Settlement Line_MonetarySummation.Details)
 edi3:cefactBusinessProcess | Buy-Ship-Pay
 
 
@@ -51427,13 +51427,6 @@ Domains:
 
 Cefact Element Metadata: 
 
-@id | cefact:Grouped_WorkItem.Total.Calculated_Price
-@type | edi3:AssociationBIE
-edi3:cefactUNId | cefact:UN01000055
-rdfs:comment | A total calculated price for this work item group.
-edi3:cefactBieDomainClass | [cefact:Grouped_WorkItem.Details](#Grouped_WorkItem.Details)
-edi3:cefactBusinessProcess | In All Contexts
-
 @id | cefact:Valuation_BreakdownStatement.Total.Calculated_Price
 @type | edi3:AssociationBIE
 edi3:cefactUNId | cefact:UN01007560
@@ -51446,6 +51439,13 @@ edi3:cefactBusinessProcess | Invoicing
 edi3:cefactUNId | cefact:UN01000041
 rdfs:comment | A total calculated price for this basic work item.
 edi3:cefactBieDomainClass | [cefact:Basic_WorkItem.Details](#Basic_WorkItem.Details)
+edi3:cefactBusinessProcess | In All Contexts
+
+@id | cefact:Grouped_WorkItem.Total.Calculated_Price
+@type | edi3:AssociationBIE
+edi3:cefactUNId | cefact:UN01000055
+rdfs:comment | A total calculated price for this work item group.
+edi3:cefactBieDomainClass | [cefact:Grouped_WorkItem.Details](#Grouped_WorkItem.Details)
 edi3:cefactBusinessProcess | In All Contexts
 
 
@@ -51465,13 +51465,6 @@ Domains:
 
 Cefact Element Metadata: 
 
-@id | cefact:SupplyChain_Consignment.TotalCharge.Amount
-@type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01004182
-rdfs:comment | The total monetary value of all freight and other service charges for this supply chain consignment.
-edi3:cefactBieDomainClass | [cefact:Supply Chain_Consignment.Details](#Supply Chain_Consignment.Details)
-edi3:cefactBusinessProcess | Buy-Ship-Pay
-
 @id | cefact:Cross-Border_RegulatoryProcedure.TotalCharge.Amount
 @type | edi3:BasicBIE
 edi3:cefactUNId | cefact:UN01006164
@@ -51484,6 +51477,13 @@ edi3:cefactBusinessProcess | Buy-Ship-Pay
 edi3:cefactUNId | cefact:UN01004119
 rdfs:comment | The monetary value of all freight and other service charges for this supply chain consignment item.
 edi3:cefactBieDomainClass | [cefact:Supply Chain_ConsignmentItem.Details](#Supply Chain_ConsignmentItem.Details)
+edi3:cefactBusinessProcess | Buy-Ship-Pay
+
+@id | cefact:SupplyChain_Consignment.TotalCharge.Amount
+@type | edi3:BasicBIE
+edi3:cefactUNId | cefact:UN01004182
+rdfs:comment | The total monetary value of all freight and other service charges for this supply chain consignment.
+edi3:cefactBieDomainClass | [cefact:Supply Chain_Consignment.Details](#Supply Chain_Consignment.Details)
 edi3:cefactBusinessProcess | Buy-Ship-Pay
 
 
@@ -51795,18 +51795,18 @@ Domains:
 
 Cefact Element Metadata: 
 
-@id | cefact:Grouped_WorkItem.Total.Quantity
-@type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01000052
-rdfs:comment | The total quantity of this work item group.
-edi3:cefactBieDomainClass | [cefact:Grouped_WorkItem.Details](#Grouped_WorkItem.Details)
-edi3:cefactBusinessProcess | In All Contexts
-
 @id | cefact:Basic_WorkItem.Total.Quantity
 @type | edi3:BasicBIE
 edi3:cefactUNId | cefact:UN01000033
 rdfs:comment | The total quantity for this basic work item.
 edi3:cefactBieDomainClass | [cefact:Basic_WorkItem.Details](#Basic_WorkItem.Details)
+edi3:cefactBusinessProcess | In All Contexts
+
+@id | cefact:Grouped_WorkItem.Total.Quantity
+@type | edi3:BasicBIE
+edi3:cefactUNId | cefact:UN01000052
+rdfs:comment | The total quantity of this work item group.
+edi3:cefactBieDomainClass | [cefact:Grouped_WorkItem.Details](#Grouped_WorkItem.Details)
 edi3:cefactBusinessProcess | In All Contexts
 
 
@@ -51868,18 +51868,18 @@ Domains:
 
 Cefact Element Metadata: 
 
-@id | cefact:TradeSettlementHeader_MonetarySummation.TotalRetailValue_Information.Amount
-@type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01011889
-rdfs:comment | A monetary value which constitutes the total retail value stated for information purposes in this trade settlement header monetary summation.
-edi3:cefactBieDomainClass | [cefact:Trade Settlement Header_MonetarySummation.Details](#Trade Settlement Header_MonetarySummation.Details)
-edi3:cefactBusinessProcess | Buy-Ship-Pay
-
 @id | cefact:TradeSettlementLine_MonetarySummation.TotalRetailValue_Information.Amount
 @type | edi3:BasicBIE
 edi3:cefactUNId | cefact:UN01011907
 rdfs:comment | A monetary value which constitutes the total retail value stated for information purposes in this trade settlement line monetary summation.
 edi3:cefactBieDomainClass | [cefact:Trade Settlement Line_MonetarySummation.Details](#Trade Settlement Line_MonetarySummation.Details)
+edi3:cefactBusinessProcess | Buy-Ship-Pay
+
+@id | cefact:TradeSettlementHeader_MonetarySummation.TotalRetailValue_Information.Amount
+@type | edi3:BasicBIE
+edi3:cefactUNId | cefact:UN01011889
+rdfs:comment | A monetary value which constitutes the total retail value stated for information purposes in this trade settlement header monetary summation.
+edi3:cefactBieDomainClass | [cefact:Trade Settlement Header_MonetarySummation.Details](#Trade Settlement Header_MonetarySummation.Details)
 edi3:cefactBusinessProcess | Buy-Ship-Pay
 
 
@@ -52235,18 +52235,18 @@ Domains:
 
 Cefact Element Metadata: 
 
-@id | cefact:SupplyChain_Consignment.Transit.Trade_Country
-@type | edi3:AssociationBIE
-edi3:cefactUNId | cefact:UN01004269
-rdfs:comment | A transit country for this supply chain consignment.
-edi3:cefactBieDomainClass | [cefact:Supply Chain_Consignment.Details](#Supply Chain_Consignment.Details)
-edi3:cefactBusinessProcess | Buy-Ship-Pay
-
 @id | cefact:SupplyChain_ConsignmentItem.Transit.Trade_Country
 @type | edi3:AssociationBIE
 edi3:cefactUNId | cefact:UN01004143
 rdfs:comment | A transit country for this supply chain consignment item.
 edi3:cefactBieDomainClass | [cefact:Supply Chain_ConsignmentItem.Details](#Supply Chain_ConsignmentItem.Details)
+edi3:cefactBusinessProcess | Buy-Ship-Pay
+
+@id | cefact:SupplyChain_Consignment.Transit.Trade_Country
+@type | edi3:AssociationBIE
+edi3:cefactUNId | cefact:UN01004269
+rdfs:comment | A transit country for this supply chain consignment.
+edi3:cefactBieDomainClass | [cefact:Supply Chain_Consignment.Details](#Supply Chain_Consignment.Details)
 edi3:cefactBusinessProcess | Buy-Ship-Pay
 
 
@@ -52265,13 +52265,6 @@ Domains:
 
 Cefact Element Metadata: 
 
-@id | cefact:SupplyChain_Consignment.TransportContract.Referenced_Document
-@type | edi3:AssociationBIE
-edi3:cefactUNId | cefact:UN01004243
-rdfs:comment | The referenced transport contract document for this supply chain consignment, such as an airwaybill or a seawaybill.
-edi3:cefactBieDomainClass | [cefact:Supply Chain_Consignment.Details](#Supply Chain_Consignment.Details)
-edi3:cefactBusinessProcess | Buy-Ship-Pay
-
 @id | cefact:Referenced_SupplyChain_Consignment.TransportContract.Referenced_Document
 @type | edi3:AssociationBIE
 edi3:cefactUNId | cefact:UN01011065
@@ -52284,6 +52277,13 @@ edi3:cefactBusinessProcess | Buy-Ship-Pay
 edi3:cefactUNId | cefact:UN01008997
 rdfs:comment | A transport contract document for this supply chain consignment item.
 edi3:cefactBieDomainClass | [cefact:Supply Chain_ConsignmentItem.Details](#Supply Chain_ConsignmentItem.Details)
+edi3:cefactBusinessProcess | Buy-Ship-Pay
+
+@id | cefact:SupplyChain_Consignment.TransportContract.Referenced_Document
+@type | edi3:AssociationBIE
+edi3:cefactUNId | cefact:UN01004243
+rdfs:comment | The referenced transport contract document for this supply chain consignment, such as an airwaybill or a seawaybill.
+edi3:cefactBieDomainClass | [cefact:Supply Chain_Consignment.Details](#Supply Chain_Consignment.Details)
 edi3:cefactBusinessProcess | Buy-Ship-Pay
 
 
@@ -52324,18 +52324,18 @@ Domains:
 
 Cefact Element Metadata: 
 
-@id | cefact:Logistics_TransportMovement.TransportEquipment.Quantity
-@type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01003851
-rdfs:comment | The number of pieces of transport equipment for this logistics transport movement.
-edi3:cefactBieDomainClass | [cefact:Logistics_TransportMovement.Details](#Logistics_TransportMovement.Details)
-edi3:cefactBusinessProcess | Buy-Ship-Pay
-
 @id | cefact:SupplyChain_Consignment.TransportEquipment.Quantity
 @type | edi3:BasicBIE
 edi3:cefactUNId | cefact:UN01004198
 rdfs:comment | A number of pieces of transport equipment, such as containers or similar unit load devices, in this supply chain consignment.
 edi3:cefactBieDomainClass | [cefact:Supply Chain_Consignment.Details](#Supply Chain_Consignment.Details)
+edi3:cefactBusinessProcess | Buy-Ship-Pay
+
+@id | cefact:Logistics_TransportMovement.TransportEquipment.Quantity
+@type | edi3:BasicBIE
+edi3:cefactUNId | cefact:UN01003851
+rdfs:comment | The number of pieces of transport equipment for this logistics transport movement.
+edi3:cefactBieDomainClass | [cefact:Logistics_TransportMovement.Details](#Logistics_TransportMovement.Details)
 edi3:cefactBusinessProcess | Buy-Ship-Pay
 
 
@@ -52464,11 +52464,11 @@ Domains:
 
 Cefact Element Metadata: 
 
-@id | cefact:SupplyChain_ConsignmentItem.Transport.Logistics_Package
+@id | cefact:Referenced_SupplyChain_Consignment.Transport.Logistics_Package
 @type | edi3:AssociationBIE
-edi3:cefactUNId | cefact:UN01004152
-rdfs:comment | A transport package for this supply chain consignment item.
-edi3:cefactBieDomainClass | [cefact:Supply Chain_ConsignmentItem.Details](#Supply Chain_ConsignmentItem.Details)
+edi3:cefactUNId | cefact:UN01011061
+rdfs:comment | Transport packages for this referenced supply chain consignment.
+edi3:cefactBieDomainClass | [cefact:Referenced_ Supply Chain_Consignment.Details](#Referenced_ Supply Chain_Consignment.Details)
 edi3:cefactBusinessProcess | Buy-Ship-Pay
 
 @id | cefact:SupplyChain_Consignment.Transport.Logistics_Package
@@ -52478,18 +52478,18 @@ rdfs:comment | Transport packages for this supply chain consignment.
 edi3:cefactBieDomainClass | [cefact:Supply Chain_Consignment.Details](#Supply Chain_Consignment.Details)
 edi3:cefactBusinessProcess | Buy-Ship-Pay
 
+@id | cefact:SupplyChain_ConsignmentItem.Transport.Logistics_Package
+@type | edi3:AssociationBIE
+edi3:cefactUNId | cefact:UN01004152
+rdfs:comment | A transport package for this supply chain consignment item.
+edi3:cefactBieDomainClass | [cefact:Supply Chain_ConsignmentItem.Details](#Supply Chain_ConsignmentItem.Details)
+edi3:cefactBusinessProcess | Buy-Ship-Pay
+
 @id | cefact:Referenced_SupplyChain_ConsignmentItem.Transport.Logistics_Package
 @type | edi3:AssociationBIE
 edi3:cefactUNId | cefact:UN01011043
 rdfs:comment | A transport package for this referenced supply chain consignment item.
 edi3:cefactBieDomainClass | [cefact:Referenced_ Supply Chain_ConsignmentItem.Details](#Referenced_ Supply Chain_ConsignmentItem.Details)
-edi3:cefactBusinessProcess | Buy-Ship-Pay
-
-@id | cefact:Referenced_SupplyChain_Consignment.Transport.Logistics_Package
-@type | edi3:AssociationBIE
-edi3:cefactUNId | cefact:UN01011061
-rdfs:comment | Transport packages for this referenced supply chain consignment.
-edi3:cefactBieDomainClass | [cefact:Referenced_ Supply Chain_Consignment.Details](#Referenced_ Supply Chain_Consignment.Details)
 edi3:cefactBusinessProcess | Buy-Ship-Pay
 
 
@@ -52684,18 +52684,18 @@ Domains:
 
 Cefact Element Metadata: 
 
-@id | cefact:Logistics_TransportEquipment.TransportServicesBuyer.Trade_Party
-@type | edi3:AssociationBIE
-edi3:cefactUNId | cefact:UN01003810
-rdfs:comment | The transport services buyer party for this piece of logistics transport equipment.
-edi3:cefactBieDomainClass | [cefact:Logistics_TransportEquipment.Details](#Logistics_TransportEquipment.Details)
-edi3:cefactBusinessProcess | Buy-Ship-Pay
-
 @id | cefact:SupplyChain_Consignment.TransportServicesBuyer.Trade_Party
 @type | edi3:AssociationBIE
 edi3:cefactUNId | cefact:UN01012665
 rdfs:comment | The party which is the buyer of the transport services for this supply chain consignment.
 edi3:cefactBieDomainClass | [cefact:Supply Chain_Consignment.Details](#Supply Chain_Consignment.Details)
+edi3:cefactBusinessProcess | Buy-Ship-Pay
+
+@id | cefact:Logistics_TransportEquipment.TransportServicesBuyer.Trade_Party
+@type | edi3:AssociationBIE
+edi3:cefactUNId | cefact:UN01003810
+rdfs:comment | The transport services buyer party for this piece of logistics transport equipment.
+edi3:cefactBieDomainClass | [cefact:Logistics_TransportEquipment.Details](#Logistics_TransportEquipment.Details)
 edi3:cefactBusinessProcess | Buy-Ship-Pay
 
 
@@ -53092,16 +53092,16 @@ Domains:
 
 [edi3:Measurement](#Measurement)
 [edi3:Organization](#Organization)
+[edi3:Address](#Address)
 [edi3:PersonalEffects](#PersonalEffects)
 [edi3:Query](#Query)
-[edi3:Address](#Address)
 [edi3:Emission](#Emission)
 [edi3:Product](#Product)
 [edi3:Tax](#Tax)
-[edi3:WorkItem](#WorkItem)
 [edi3:Feature](#Feature)
-[edi3:Segment](#Segment)
+[edi3:WorkItem](#WorkItem)
 [edi3:BreakdownStatement](#BreakdownStatement)
+[edi3:Segment](#Segment)
 [edi3:TradeTransaction](#TradeTransaction)
 [edi3:FinancialCard](#FinancialCard)
 [edi3:Party](#Party)
@@ -53111,12 +53111,12 @@ Domains:
 [edi3:Accreditation](#Accreditation)
 [edi3:QuantityAnalysis](#QuantityAnalysis)
 [edi3:GeopoliticalRegion](#GeopoliticalRegion)
-[edi3:Condition](#Condition)
 [edi3:GoodsCharacteristic](#GoodsCharacteristic)
 [edi3:CountrySubDivision](#CountrySubDivision)
+[edi3:Condition](#Condition)
 [edi3:CustomsValuation](#CustomsValuation)
-[edi3:Characteristic](#Characteristic)
 [edi3:RegulatoryProcedure](#RegulatoryProcedure)
+[edi3:Characteristic](#Characteristic)
 [edi3:Material](#Material)
 [edi3:TradeLineItem](#TradeLineItem)
 [edi3:Dimension](#Dimension)
@@ -53137,55 +53137,6 @@ Domains:
 
 Cefact Element Metadata: 
 
-@id | cefact:Communication_Event.Type.Code
-@type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01013563
-rdfs:comment | The code specifying the type of communication event.
-edi3:cefactBieDomainClass | [cefact:Communication_Event.Details](#Communication_Event.Details)
-edi3:cefactBusinessProcess | In All Contexts
-
-@id | cefact:ProductCharacteristic_Condition.Type.Code
-@type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01008313
-rdfs:comment | The code specifying the type of product characteristic condition.
-edi3:cefactBieDomainClass | [cefact:Product Characteristic_Condition.Details](#Product Characteristic_Condition.Details)
-edi3:cefactBusinessProcess | Supply Chain
-
-@id | cefact:SupplyChain_TradeTransaction.Type.Code
-@type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01004478
-rdfs:comment | The code specifying the type of supply chain trade transaction.
-edi3:cefactBieDomainClass | [cefact:Supply Chain_TradeTransaction.Details](#Supply Chain_TradeTransaction.Details)
-edi3:cefactBusinessProcess | Buy-Ship-Pay
-
-@id | cefact:Product_Characteristic.Type.Code
-@type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01003973
-rdfs:comment | A code specifying a type of product characteristic.
-edi3:cefactBieDomainClass | [cefact:Product_Characteristic.Details](#Product_Characteristic.Details)
-edi3:cefactBusinessProcess | In All Contexts
-
-@id | cefact:Calculated_Emission.Type.Code
-@type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01010052
-rdfs:comment | The code specifying the type of this calculated emission.
-edi3:cefactBieDomainClass | [cefact:Calculated_Emission.Details](#Calculated_Emission.Details)
-edi3:cefactBusinessProcess | Transport
-
-@id | cefact:SupplyChain_TradeLineItem.Type.Code
-@type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01004421
-rdfs:comment | The code specifying the type of supply chain trade line item.
-edi3:cefactBieDomainClass | [cefact:Supply Chain_TradeLineItem.Details](#Supply Chain_TradeLineItem.Details)
-edi3:cefactBusinessProcess | Buy-Ship-Pay
-
-@id | cefact:Specified_PersonalEffects.Type.Code
-@type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01013187
-rdfs:comment | A code specifying a type of specified personal effects.
-edi3:cefactBieDomainClass | [cefact:Specified_PersonalEffects.Details](#Specified_PersonalEffects.Details)
-edi3:cefactBusinessProcess | In All Contexts
-
 @id | cefact:Requesting_Party.Type.Code
 @type | edi3:BasicBIE
 edi3:cefactUNId | cefact:UN01002019
@@ -53193,277 +53144,11 @@ rdfs:comment | The code specifying the type of requesting party.
 edi3:cefactBieDomainClass | [cefact:Requesting_Party.Details](#Requesting_Party.Details)
 edi3:cefactBusinessProcess | Project Management
 
-@id | cefact:Product_Certificate.Type.Code
-@type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01012488
-rdfs:comment | A code specifying the type of product certificate.
-edi3:cefactBieDomainClass | [cefact:Product_Certificate.Details](#Product_Certificate.Details)
-edi3:cefactBusinessProcess | Traceability
-
-@id | cefact:Grouped_WorkItem.Type.Code
-@type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01000048
-rdfs:comment | A code specifying the type of this work item group.
-edi3:cefactBieDomainClass | [cefact:Grouped_WorkItem.Details](#Grouped_WorkItem.Details)
-edi3:cefactBusinessProcess | In All Contexts
-
-@id | cefact:Legal_Registration.Type.Code
-@type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01003649
-rdfs:comment | A code specifying the type of this legal registration.
-edi3:cefactBieDomainClass | [cefact:Legal_Registration.Details](#Legal_Registration.Details)
-edi3:cefactBusinessProcess | In All Contexts
-
-@id | cefact:Government_Registration.Type.Code
-@type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01011031
-rdfs:comment | A code specifying a type of government registration.
-edi3:cefactBieDomainClass | [cefact:Government_Registration.Details](#Government_Registration.Details)
-edi3:cefactBusinessProcess | Buy-Ship-Pay
-
-@id | cefact:Monitoring_Sensor.Type.Code
-@type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01013541
-rdfs:comment | The code specifying a type of monitoring sensor.
-edi3:cefactBieDomainClass | [cefact:Monitoring_Sensor.Details](#Monitoring_Sensor.Details)
-edi3:cefactBusinessProcess | Buy-Ship-Pay
-
-@id | cefact:SupplyChain_Event.Type.Code
-@type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01004294
-rdfs:comment | A code specifying the type of supply chain event.
-edi3:cefactBieDomainClass | [cefact:Supply Chain_Event.Details](#Supply Chain_Event.Details)
-edi3:cefactBusinessProcess | Buy-Ship-Pay
-
-@id | cefact:StoresItem_Inventory.Type.Code
-@type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01013191
-rdfs:comment | A code specifying the type of stores inventory item.
-edi3:cefactBieDomainClass | [cefact:Stores Item_Inventory.Details](#Stores Item_Inventory.Details)
-edi3:cefactBusinessProcess | Buy-Ship-Pay
-
-@id | cefact:Radioactive_Material.Type.Code
-@type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01006196
-rdfs:comment | The code specifying the type of this radioactive material.
-edi3:cefactBieDomainClass | [cefact:Radioactive_Material.Details](#Radioactive_Material.Details)
-edi3:cefactBusinessProcess | Cross-Border
-
-@id | cefact:WorkItem_Dimension.Type.Code
-@type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01000060
-rdfs:comment | The code specifying the type of this work item dimension.
-edi3:cefactBieDomainClass | [cefact:Work Item_Dimension.Details](#Work Item_Dimension.Details)
-edi3:cefactBusinessProcess | In All Contexts
-
-@id | cefact:Specified_Range.Type.Code
-@type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01013525
-rdfs:comment | The code specifying a type of this specified range.
-edi3:cefactBieDomainClass | [cefact:Specified_Range.Details](#Specified_Range.Details)
-edi3:cefactBusinessProcess | In All Contexts
-
-@id | cefact:Product_SecurityTag.Type.Code
-@type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01007302
-rdfs:comment | The code specifying the type of this product security tag.
-edi3:cefactBieDomainClass | [cefact:Product_SecurityTag.Details](#Product_SecurityTag.Details)
-edi3:cefactBusinessProcess | In All Contexts
-
-@id | cefact:Cross-Border_RegulatoryProcedure.Type.Code
-@type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01006148
-rdfs:comment | A code specifying a type of cross-border regulatory procedure.
-edi3:cefactBieDomainClass | [cefact:Cross-Border_RegulatoryProcedure.Details](#Cross-Border_RegulatoryProcedure.Details)
-edi3:cefactBusinessProcess | Buy-Ship-Pay
-
-@id | cefact:Cross-Border_CustomsValuation.Type.Code
-@type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01008956
-rdfs:comment | The code specifying the type of cross-border customs valuation.
-edi3:cefactBieDomainClass | [cefact:Cross-Border_CustomsValuation.Details](#Cross-Border_CustomsValuation.Details)
-edi3:cefactBusinessProcess | Buy-Ship-Pay
-
-@id | cefact:Certified_Accreditation.Type.Code
-@type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01010058
-rdfs:comment | The code specifying the type of this certified accreditation, such as a type of driving license.
-edi3:cefactBieDomainClass | [cefact:Certified_Accreditation.Details](#Certified_Accreditation.Details)
-edi3:cefactBusinessProcess | Transport
-
-@id | cefact:Monitoring_IOTDevice.Type.Code
-@type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01013477
-rdfs:comment | The code specifying the type of monitoring IOT device.
-edi3:cefactBieDomainClass | [cefact:Monitoring_IOTDevice.Details](#Monitoring_IOTDevice.Details)
-edi3:cefactBusinessProcess | Buy-Ship-Pay
-
 @id | cefact:Material_GoodsCharacteristic.Type.Code
 @type | edi3:BasicBIE
 edi3:cefactUNId | cefact:UN01003886
 rdfs:comment | The code specifying the type of material goods characteristic.
 edi3:cefactBieDomainClass | [cefact:Material_GoodsCharacteristic.Details](#Material_GoodsCharacteristic.Details)
-edi3:cefactBusinessProcess | In All Contexts
-
-@id | cefact:Transport_Event.Type.Code
-@type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01004793
-rdfs:comment | The code specifying the type of transport event.
-edi3:cefactBieDomainClass | [cefact:Transport_Event.Details](#Transport_Event.Details)
-edi3:cefactBusinessProcess | In All Contexts
-
-@id | cefact:Trade_Product.Type.Code
-@type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01004690
-rdfs:comment | A code specifying the type of trade product.
-edi3:cefactBieDomainClass | [cefact:Trade_Product.Details](#Trade_Product.Details)
-edi3:cefactBusinessProcess | Buy-Ship-Pay
-
-@id | cefact:Specification_Response.Type.Code
-@type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01000080
-rdfs:comment | The code specifying the type of this specification response.
-edi3:cefactBieDomainClass | [cefact:Specification_Response.Details](#Specification_Response.Details)
-edi3:cefactBusinessProcess | In All Contexts
-
-@id | cefact:Applied_Tax.Type.Code
-@type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01000185
-rdfs:comment | The code specifying the applied tax type such as VAT.
-edi3:cefactBieDomainClass | [cefact:Applied_Tax.Details](#Applied_Tax.Details)
-edi3:cefactBusinessProcess | In All Contexts
-
-@id | cefact:Debtor_FinancialAccount.Type.Code
-@type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01003289
-rdfs:comment | The code specifying the type of debtor financial account.
-edi3:cefactBieDomainClass | [cefact:Debtor_FinancialAccount.Details](#Debtor_FinancialAccount.Details)
-edi3:cefactBusinessProcess | Customer to bank payment initiation
-
-@id | cefact:Measurement.Type.Code
-@type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01003895
-rdfs:comment | A code specifying a type of measurement.
-edi3:cefactBieDomainClass | [cefact:Measurement.Details](#Measurement.Details)
-edi3:cefactBusinessProcess | In All Contexts
-
-@id | cefact:Creditor_FinancialAccount.Type.Code
-@type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01003352
-rdfs:comment | The code specifying the type of creditor financial account.
-edi3:cefactBieDomainClass | [cefact:Creditor_FinancialAccount.Details](#Creditor_FinancialAccount.Details)
-edi3:cefactBusinessProcess | Customer to bank payment initiation
-
-@id | cefact:Trade_CountrySub-Division.Type.Code
-@type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01004574
-rdfs:comment | A code specifying a type of country sub-division for trade purposes.
-edi3:cefactBieDomainClass | [cefact:Trade_CountrySubDivision.Details](#Trade_CountrySubDivision.Details)
-edi3:cefactBusinessProcess | Buy-Ship-Pay
-
-@id | cefact:TradeSettlement_FinancialCard.Type.Code
-@type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01004496
-rdfs:comment | The code specifying the type of this trade settlement financial card, such as debit or credit.
-edi3:cefactBieDomainClass | [cefact:Trade Settlement_FinancialCard.Details](#Trade Settlement_FinancialCard.Details)
-edi3:cefactBusinessProcess | Buy-Ship-Pay
-
-@id | cefact:TransportWaste_MaterialComponent.Type.Code
-@type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01013153
-rdfs:comment | A code specifying a type of transport waste material component.
-edi3:cefactBieDomainClass | [cefact:Transport Waste_MaterialComponent.Details](#Transport Waste_MaterialComponent.Details)
-edi3:cefactBusinessProcess | Transport
-
-@id | cefact:Section_Segment.Type.Code
-@type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01012737
-rdfs:comment | The code specifying the type of section segment.
-edi3:cefactBieDomainClass | [cefact:Section_Segment.Details](#Section_Segment.Details)
-edi3:cefactBusinessProcess | Cross Industry Trade
-
-@id | cefact:Trade_Party.Type.Code
-@type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01004597
-rdfs:comment | A code specifying the type of trade party that is independent of its role.
-edi3:cefactBieDomainClass | [cefact:Trade_Party.Details](#Trade_Party.Details)
-edi3:cefactBusinessProcess | Buy-Ship-Pay
-
-@id | cefact:Basic_WorkItem.Type.Code
-@type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01000031
-rdfs:comment | A code specifying the type of basic work item.
-edi3:cefactBieDomainClass | [cefact:Basic_WorkItem.Details](#Basic_WorkItem.Details)
-edi3:cefactBusinessProcess | In All Contexts
-
-@id | cefact:Procuring_Project.Type.Code
-@type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01000377
-rdfs:comment | The code specifying the type of procuring project, such as goods, works and service.
-edi3:cefactBieDomainClass | [cefact:Procuring_Project.Details](#Procuring_Project.Details)
-edi3:cefactBusinessProcess | In All Contexts
-
-@id | cefact:WorkItem_QuantityAnalysis.Type.Code
-@type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01000021
-rdfs:comment | The code specifying the type of work item quantity analysis.
-edi3:cefactBieDomainClass | [cefact:Work Item_QuantityAnalysis.Details](#Work Item_QuantityAnalysis.Details)
-edi3:cefactBusinessProcess | In All Contexts
-
-@id | cefact:Specification_Query.Type.Code
-@type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01000075
-rdfs:comment | The code specifying the type of specification query.
-edi3:cefactBieDomainClass | [cefact:Specification_Query.Details](#Specification_Query.Details)
-edi3:cefactBusinessProcess | In All Contexts
-
-@id | cefact:Registered_Tax.Type.Code
-@type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01004058
-rdfs:comment | The code specifying the type of registered tax.
-edi3:cefactBieDomainClass | [cefact:Registered_Tax.Details](#Registered_Tax.Details)
-edi3:cefactBusinessProcess | In All Contexts
-
-@id | cefact:Calculated_Price.Type.Code
-@type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01000180
-rdfs:comment | A code specifying the type of calculated price.
-edi3:cefactBieDomainClass | [cefact:Calculated_Price.Details](#Calculated_Price.Details)
-edi3:cefactBusinessProcess | In All Contexts
-
-@id | cefact:Operational_Parameter.Type.Code
-@type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01013515
-rdfs:comment | The code specifying the type of this operational parameter.
-edi3:cefactBieDomainClass | [cefact:Operational_Parameter.Details](#Operational_Parameter.Details)
-edi3:cefactBusinessProcess | In All Contexts
-
-@id | cefact:Valuation_BreakdownStatement.Type.Code
-@type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01007554
-rdfs:comment | A code specifying the type of valuation breakdown statement.
-edi3:cefactBieDomainClass | [cefact:Valuation_BreakdownStatement.Details](#Valuation_BreakdownStatement.Details)
-edi3:cefactBusinessProcess | Invoicing
-
-@id | cefact:Trade_GeopoliticalRegion.Type.Code
-@type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01004589
-rdfs:comment | The code specifying the type of trade geopolitical region.
-edi3:cefactBieDomainClass | [cefact:Trade_GeopoliticalRegion.Details](#Trade_GeopoliticalRegion.Details)
-edi3:cefactBusinessProcess | Buy-Ship-Pay
-
-@id | cefact:SupplyChain_Schedule.Type.Code
-@type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01012982
-rdfs:comment | A code specifying the type of supply chain schedule.
-edi3:cefactBieDomainClass | [cefact:Supply Chain_Schedule.Details](#Supply Chain_Schedule.Details)
-edi3:cefactBusinessProcess | Supply Chain
-
-@id | cefact:OEM_Equipment.Type.Code
-@type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01013555
-rdfs:comment | A code specifying a type of OEM equipment.
-edi3:cefactBieDomainClass | [cefact:OEM_Equipment.Details](#OEM_Equipment.Details)
 edi3:cefactBusinessProcess | In All Contexts
 
 @id | cefact:TradeProduct_Feature.Type.Code
@@ -53473,11 +53158,249 @@ rdfs:comment | The code specifying the type of trade product feature.
 edi3:cefactBieDomainClass | [cefact:Trade Product_Feature.Details](#Trade Product_Feature.Details)
 edi3:cefactBusinessProcess | Buy-Ship-Pay
 
+@id | cefact:TransportWaste_MaterialComponent.Type.Code
+@type | edi3:BasicBIE
+edi3:cefactUNId | cefact:UN01013153
+rdfs:comment | A code specifying a type of transport waste material component.
+edi3:cefactBieDomainClass | [cefact:Transport Waste_MaterialComponent.Details](#Transport Waste_MaterialComponent.Details)
+edi3:cefactBusinessProcess | Transport
+
+@id | cefact:Transport_Event.Type.Code
+@type | edi3:BasicBIE
+edi3:cefactUNId | cefact:UN01004793
+rdfs:comment | The code specifying the type of transport event.
+edi3:cefactBieDomainClass | [cefact:Transport_Event.Details](#Transport_Event.Details)
+edi3:cefactBusinessProcess | In All Contexts
+
+@id | cefact:Applied_Tax.Type.Code
+@type | edi3:BasicBIE
+edi3:cefactUNId | cefact:UN01000185
+rdfs:comment | The code specifying the applied tax type such as VAT.
+edi3:cefactBieDomainClass | [cefact:Applied_Tax.Details](#Applied_Tax.Details)
+edi3:cefactBusinessProcess | In All Contexts
+
+@id | cefact:Basic_WorkItem.Type.Code
+@type | edi3:BasicBIE
+edi3:cefactUNId | cefact:UN01000031
+rdfs:comment | A code specifying the type of basic work item.
+edi3:cefactBieDomainClass | [cefact:Basic_WorkItem.Details](#Basic_WorkItem.Details)
+edi3:cefactBusinessProcess | In All Contexts
+
+@id | cefact:Legal_Registration.Type.Code
+@type | edi3:BasicBIE
+edi3:cefactUNId | cefact:UN01003649
+rdfs:comment | A code specifying the type of this legal registration.
+edi3:cefactBieDomainClass | [cefact:Legal_Registration.Details](#Legal_Registration.Details)
+edi3:cefactBusinessProcess | In All Contexts
+
+@id | cefact:WorkItem_QuantityAnalysis.Type.Code
+@type | edi3:BasicBIE
+edi3:cefactUNId | cefact:UN01000021
+rdfs:comment | The code specifying the type of work item quantity analysis.
+edi3:cefactBieDomainClass | [cefact:Work Item_QuantityAnalysis.Details](#Work Item_QuantityAnalysis.Details)
+edi3:cefactBusinessProcess | In All Contexts
+
+@id | cefact:Cross-Border_RegulatoryProcedure.Type.Code
+@type | edi3:BasicBIE
+edi3:cefactUNId | cefact:UN01006148
+rdfs:comment | A code specifying a type of cross-border regulatory procedure.
+edi3:cefactBieDomainClass | [cefact:Cross-Border_RegulatoryProcedure.Details](#Cross-Border_RegulatoryProcedure.Details)
+edi3:cefactBusinessProcess | Buy-Ship-Pay
+
+@id | cefact:StoresItem_Inventory.Type.Code
+@type | edi3:BasicBIE
+edi3:cefactUNId | cefact:UN01013191
+rdfs:comment | A code specifying the type of stores inventory item.
+edi3:cefactBieDomainClass | [cefact:Stores Item_Inventory.Details](#Stores Item_Inventory.Details)
+edi3:cefactBusinessProcess | Buy-Ship-Pay
+
+@id | cefact:Trade_CountrySub-Division.Type.Code
+@type | edi3:BasicBIE
+edi3:cefactUNId | cefact:UN01004574
+rdfs:comment | A code specifying a type of country sub-division for trade purposes.
+edi3:cefactBieDomainClass | [cefact:Trade_CountrySubDivision.Details](#Trade_CountrySubDivision.Details)
+edi3:cefactBusinessProcess | Buy-Ship-Pay
+
+@id | cefact:SupplyChain_Schedule.Type.Code
+@type | edi3:BasicBIE
+edi3:cefactUNId | cefact:UN01012982
+rdfs:comment | A code specifying the type of supply chain schedule.
+edi3:cefactBieDomainClass | [cefact:Supply Chain_Schedule.Details](#Supply Chain_Schedule.Details)
+edi3:cefactBusinessProcess | Supply Chain
+
+@id | cefact:Product_Certificate.Type.Code
+@type | edi3:BasicBIE
+edi3:cefactUNId | cefact:UN01012488
+rdfs:comment | A code specifying the type of product certificate.
+edi3:cefactBieDomainClass | [cefact:Product_Certificate.Details](#Product_Certificate.Details)
+edi3:cefactBusinessProcess | Traceability
+
+@id | cefact:Registered_Tax.Type.Code
+@type | edi3:BasicBIE
+edi3:cefactUNId | cefact:UN01004058
+rdfs:comment | The code specifying the type of registered tax.
+edi3:cefactBieDomainClass | [cefact:Registered_Tax.Details](#Registered_Tax.Details)
+edi3:cefactBusinessProcess | In All Contexts
+
 @id | cefact:ControlSetting_Parameter.Type.Code
 @type | edi3:BasicBIE
 edi3:cefactUNId | cefact:UN01013504
 rdfs:comment | The code specifying a type of parameter for this control setting parameter.
 edi3:cefactBieDomainClass | [cefact:Control Setting_Parameter.Details](#Control Setting_Parameter.Details)
+edi3:cefactBusinessProcess | In All Contexts
+
+@id | cefact:Calculated_Price.Type.Code
+@type | edi3:BasicBIE
+edi3:cefactUNId | cefact:UN01000180
+rdfs:comment | A code specifying the type of calculated price.
+edi3:cefactBieDomainClass | [cefact:Calculated_Price.Details](#Calculated_Price.Details)
+edi3:cefactBusinessProcess | In All Contexts
+
+@id | cefact:Calculated_Emission.Type.Code
+@type | edi3:BasicBIE
+edi3:cefactUNId | cefact:UN01010052
+rdfs:comment | The code specifying the type of this calculated emission.
+edi3:cefactBieDomainClass | [cefact:Calculated_Emission.Details](#Calculated_Emission.Details)
+edi3:cefactBusinessProcess | Transport
+
+@id | cefact:OEM_Equipment.Type.Code
+@type | edi3:BasicBIE
+edi3:cefactUNId | cefact:UN01013555
+rdfs:comment | A code specifying a type of OEM equipment.
+edi3:cefactBieDomainClass | [cefact:OEM_Equipment.Details](#OEM_Equipment.Details)
+edi3:cefactBusinessProcess | In All Contexts
+
+@id | cefact:Trade_GeopoliticalRegion.Type.Code
+@type | edi3:BasicBIE
+edi3:cefactUNId | cefact:UN01004589
+rdfs:comment | The code specifying the type of trade geopolitical region.
+edi3:cefactBieDomainClass | [cefact:Trade_GeopoliticalRegion.Details](#Trade_GeopoliticalRegion.Details)
+edi3:cefactBusinessProcess | Buy-Ship-Pay
+
+@id | cefact:Certified_Accreditation.Type.Code
+@type | edi3:BasicBIE
+edi3:cefactUNId | cefact:UN01010058
+rdfs:comment | The code specifying the type of this certified accreditation, such as a type of driving license.
+edi3:cefactBieDomainClass | [cefact:Certified_Accreditation.Details](#Certified_Accreditation.Details)
+edi3:cefactBusinessProcess | Transport
+
+@id | cefact:SupplyChain_TradeTransaction.Type.Code
+@type | edi3:BasicBIE
+edi3:cefactUNId | cefact:UN01004478
+rdfs:comment | The code specifying the type of supply chain trade transaction.
+edi3:cefactBieDomainClass | [cefact:Supply Chain_TradeTransaction.Details](#Supply Chain_TradeTransaction.Details)
+edi3:cefactBusinessProcess | Buy-Ship-Pay
+
+@id | cefact:Debtor_FinancialAccount.Type.Code
+@type | edi3:BasicBIE
+edi3:cefactUNId | cefact:UN01003289
+rdfs:comment | The code specifying the type of debtor financial account.
+edi3:cefactBieDomainClass | [cefact:Debtor_FinancialAccount.Details](#Debtor_FinancialAccount.Details)
+edi3:cefactBusinessProcess | Customer to bank payment initiation
+
+@id | cefact:Trade_Party.Type.Code
+@type | edi3:BasicBIE
+edi3:cefactUNId | cefact:UN01004597
+rdfs:comment | A code specifying the type of trade party that is independent of its role.
+edi3:cefactBieDomainClass | [cefact:Trade_Party.Details](#Trade_Party.Details)
+edi3:cefactBusinessProcess | Buy-Ship-Pay
+
+@id | cefact:Product_SecurityTag.Type.Code
+@type | edi3:BasicBIE
+edi3:cefactUNId | cefact:UN01007302
+rdfs:comment | The code specifying the type of this product security tag.
+edi3:cefactBieDomainClass | [cefact:Product_SecurityTag.Details](#Product_SecurityTag.Details)
+edi3:cefactBusinessProcess | In All Contexts
+
+@id | cefact:SupplyChain_TradeLineItem.Type.Code
+@type | edi3:BasicBIE
+edi3:cefactUNId | cefact:UN01004421
+rdfs:comment | The code specifying the type of supply chain trade line item.
+edi3:cefactBieDomainClass | [cefact:Supply Chain_TradeLineItem.Details](#Supply Chain_TradeLineItem.Details)
+edi3:cefactBusinessProcess | Buy-Ship-Pay
+
+@id | cefact:Legal_Organization.Type.Code
+@type | edi3:BasicBIE
+edi3:cefactUNId | cefact:UN01003643
+rdfs:comment | A code specifying a type of legally set up organization.
+edi3:cefactBieDomainClass | [cefact:Legal_Organization.Details](#Legal_Organization.Details)
+edi3:cefactBusinessProcess | In All Contexts
+
+@id | cefact:Grouped_WorkItem.Type.Code
+@type | edi3:BasicBIE
+edi3:cefactUNId | cefact:UN01000048
+rdfs:comment | A code specifying the type of this work item group.
+edi3:cefactBieDomainClass | [cefact:Grouped_WorkItem.Details](#Grouped_WorkItem.Details)
+edi3:cefactBusinessProcess | In All Contexts
+
+@id | cefact:ProductCharacteristic_Condition.Type.Code
+@type | edi3:BasicBIE
+edi3:cefactUNId | cefact:UN01008313
+rdfs:comment | The code specifying the type of product characteristic condition.
+edi3:cefactBieDomainClass | [cefact:Product Characteristic_Condition.Details](#Product Characteristic_Condition.Details)
+edi3:cefactBusinessProcess | Supply Chain
+
+@id | cefact:Trade_Product.Type.Code
+@type | edi3:BasicBIE
+edi3:cefactUNId | cefact:UN01004690
+rdfs:comment | A code specifying the type of trade product.
+edi3:cefactBieDomainClass | [cefact:Trade_Product.Details](#Trade_Product.Details)
+edi3:cefactBusinessProcess | Buy-Ship-Pay
+
+@id | cefact:Valuation_BreakdownStatement.Type.Code
+@type | edi3:BasicBIE
+edi3:cefactUNId | cefact:UN01007554
+rdfs:comment | A code specifying the type of valuation breakdown statement.
+edi3:cefactBieDomainClass | [cefact:Valuation_BreakdownStatement.Details](#Valuation_BreakdownStatement.Details)
+edi3:cefactBusinessProcess | Invoicing
+
+@id | cefact:Procuring_Project.Type.Code
+@type | edi3:BasicBIE
+edi3:cefactUNId | cefact:UN01000377
+rdfs:comment | The code specifying the type of procuring project, such as goods, works and service.
+edi3:cefactBieDomainClass | [cefact:Procuring_Project.Details](#Procuring_Project.Details)
+edi3:cefactBusinessProcess | In All Contexts
+
+@id | cefact:FinancialInstitution_Address.Type.Code
+@type | edi3:BasicBIE
+edi3:cefactUNId | cefact:UN01003174
+rdfs:comment | The code specifying the type of financial institution address.
+edi3:cefactBieDomainClass | [cefact:Financial Institution_Address.Details](#Financial Institution_Address.Details)
+edi3:cefactBusinessProcess | Customer to bank payment initiation
+
+@id | cefact:Monitoring_Sensor.Type.Code
+@type | edi3:BasicBIE
+edi3:cefactUNId | cefact:UN01013541
+rdfs:comment | The code specifying a type of monitoring sensor.
+edi3:cefactBieDomainClass | [cefact:Monitoring_Sensor.Details](#Monitoring_Sensor.Details)
+edi3:cefactBusinessProcess | Buy-Ship-Pay
+
+@id | cefact:Government_Registration.Type.Code
+@type | edi3:BasicBIE
+edi3:cefactUNId | cefact:UN01011031
+rdfs:comment | A code specifying a type of government registration.
+edi3:cefactBieDomainClass | [cefact:Government_Registration.Details](#Government_Registration.Details)
+edi3:cefactBusinessProcess | Buy-Ship-Pay
+
+@id | cefact:Specified_PersonalEffects.Type.Code
+@type | edi3:BasicBIE
+edi3:cefactUNId | cefact:UN01013187
+rdfs:comment | A code specifying a type of specified personal effects.
+edi3:cefactBieDomainClass | [cefact:Specified_PersonalEffects.Details](#Specified_PersonalEffects.Details)
+edi3:cefactBusinessProcess | In All Contexts
+
+@id | cefact:Measurement.Type.Code
+@type | edi3:BasicBIE
+edi3:cefactUNId | cefact:UN01003895
+rdfs:comment | A code specifying a type of measurement.
+edi3:cefactBieDomainClass | [cefact:Measurement.Details](#Measurement.Details)
+edi3:cefactBusinessProcess | In All Contexts
+
+@id | cefact:Specification_Response.Type.Code
+@type | edi3:BasicBIE
+edi3:cefactUNId | cefact:UN01000080
+rdfs:comment | The code specifying the type of this specification response.
+edi3:cefactBieDomainClass | [cefact:Specification_Response.Details](#Specification_Response.Details)
 edi3:cefactBusinessProcess | In All Contexts
 
 @id | cefact:Distinct_Chemical.Type.Code
@@ -53487,19 +53410,96 @@ rdfs:comment | The code specifying the type of distinct chemical.
 edi3:cefactBieDomainClass | [cefact:Distinct_Chemical.Details](#Distinct_Chemical.Details)
 edi3:cefactBusinessProcess | MSDS Reporting
 
-@id | cefact:Legal_Organization.Type.Code
+@id | cefact:WorkItem_Dimension.Type.Code
 @type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01003643
-rdfs:comment | A code specifying a type of legally set up organization.
-edi3:cefactBieDomainClass | [cefact:Legal_Organization.Details](#Legal_Organization.Details)
+edi3:cefactUNId | cefact:UN01000060
+rdfs:comment | The code specifying the type of this work item dimension.
+edi3:cefactBieDomainClass | [cefact:Work Item_Dimension.Details](#Work Item_Dimension.Details)
 edi3:cefactBusinessProcess | In All Contexts
 
-@id | cefact:FinancialInstitution_Address.Type.Code
+@id | cefact:Creditor_FinancialAccount.Type.Code
 @type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01003174
-rdfs:comment | The code specifying the type of financial institution address.
-edi3:cefactBieDomainClass | [cefact:Financial Institution_Address.Details](#Financial Institution_Address.Details)
+edi3:cefactUNId | cefact:UN01003352
+rdfs:comment | The code specifying the type of creditor financial account.
+edi3:cefactBieDomainClass | [cefact:Creditor_FinancialAccount.Details](#Creditor_FinancialAccount.Details)
 edi3:cefactBusinessProcess | Customer to bank payment initiation
+
+@id | cefact:Specified_Range.Type.Code
+@type | edi3:BasicBIE
+edi3:cefactUNId | cefact:UN01013525
+rdfs:comment | The code specifying a type of this specified range.
+edi3:cefactBieDomainClass | [cefact:Specified_Range.Details](#Specified_Range.Details)
+edi3:cefactBusinessProcess | In All Contexts
+
+@id | cefact:Specification_Query.Type.Code
+@type | edi3:BasicBIE
+edi3:cefactUNId | cefact:UN01000075
+rdfs:comment | The code specifying the type of specification query.
+edi3:cefactBieDomainClass | [cefact:Specification_Query.Details](#Specification_Query.Details)
+edi3:cefactBusinessProcess | In All Contexts
+
+@id | cefact:Cross-Border_CustomsValuation.Type.Code
+@type | edi3:BasicBIE
+edi3:cefactUNId | cefact:UN01008956
+rdfs:comment | The code specifying the type of cross-border customs valuation.
+edi3:cefactBieDomainClass | [cefact:Cross-Border_CustomsValuation.Details](#Cross-Border_CustomsValuation.Details)
+edi3:cefactBusinessProcess | Buy-Ship-Pay
+
+@id | cefact:Monitoring_IOTDevice.Type.Code
+@type | edi3:BasicBIE
+edi3:cefactUNId | cefact:UN01013477
+rdfs:comment | The code specifying the type of monitoring IOT device.
+edi3:cefactBieDomainClass | [cefact:Monitoring_IOTDevice.Details](#Monitoring_IOTDevice.Details)
+edi3:cefactBusinessProcess | Buy-Ship-Pay
+
+@id | cefact:Radioactive_Material.Type.Code
+@type | edi3:BasicBIE
+edi3:cefactUNId | cefact:UN01006196
+rdfs:comment | The code specifying the type of this radioactive material.
+edi3:cefactBieDomainClass | [cefact:Radioactive_Material.Details](#Radioactive_Material.Details)
+edi3:cefactBusinessProcess | Cross-Border
+
+@id | cefact:Operational_Parameter.Type.Code
+@type | edi3:BasicBIE
+edi3:cefactUNId | cefact:UN01013515
+rdfs:comment | The code specifying the type of this operational parameter.
+edi3:cefactBieDomainClass | [cefact:Operational_Parameter.Details](#Operational_Parameter.Details)
+edi3:cefactBusinessProcess | In All Contexts
+
+@id | cefact:Product_Characteristic.Type.Code
+@type | edi3:BasicBIE
+edi3:cefactUNId | cefact:UN01003973
+rdfs:comment | A code specifying a type of product characteristic.
+edi3:cefactBieDomainClass | [cefact:Product_Characteristic.Details](#Product_Characteristic.Details)
+edi3:cefactBusinessProcess | In All Contexts
+
+@id | cefact:SupplyChain_Event.Type.Code
+@type | edi3:BasicBIE
+edi3:cefactUNId | cefact:UN01004294
+rdfs:comment | A code specifying the type of supply chain event.
+edi3:cefactBieDomainClass | [cefact:Supply Chain_Event.Details](#Supply Chain_Event.Details)
+edi3:cefactBusinessProcess | Buy-Ship-Pay
+
+@id | cefact:Section_Segment.Type.Code
+@type | edi3:BasicBIE
+edi3:cefactUNId | cefact:UN01012737
+rdfs:comment | The code specifying the type of section segment.
+edi3:cefactBieDomainClass | [cefact:Section_Segment.Details](#Section_Segment.Details)
+edi3:cefactBusinessProcess | Cross Industry Trade
+
+@id | cefact:TradeSettlement_FinancialCard.Type.Code
+@type | edi3:BasicBIE
+edi3:cefactUNId | cefact:UN01004496
+rdfs:comment | The code specifying the type of this trade settlement financial card, such as debit or credit.
+edi3:cefactBieDomainClass | [cefact:Trade Settlement_FinancialCard.Details](#Trade Settlement_FinancialCard.Details)
+edi3:cefactBusinessProcess | Buy-Ship-Pay
+
+@id | cefact:Communication_Event.Type.Code
+@type | edi3:BasicBIE
+edi3:cefactUNId | cefact:UN01013563
+rdfs:comment | The code specifying the type of communication event.
+edi3:cefactBieDomainClass | [cefact:Communication_Event.Details](#Communication_Event.Details)
+edi3:cefactBusinessProcess | In All Contexts
 
 
 
@@ -53561,11 +53561,11 @@ Domains:
 
 Cefact Element Metadata: 
 
-@id | cefact:Acknowledgement_Document.Type.Code
+@id | cefact:Exchanged_Document.Type.Code
 @type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01002105
-rdfs:comment | A code specifying a type of acknowledgement document.
-edi3:cefactBieDomainClass | [cefact:Acknowledgement_Document.Details](#Acknowledgement_Document.Details)
+edi3:cefactUNId | cefact:UN01002491
+rdfs:comment | The code specifying the type of exchanged document.
+edi3:cefactBieDomainClass | [cefact:Exchanged_Document.Details](#Exchanged_Document.Details)
 edi3:cefactBusinessProcess | In All Contexts
 
 @id | cefact:Referenced_Document.Type.Code
@@ -53582,11 +53582,11 @@ rdfs:comment | The code specifying the type of this exchanged declaration.
 edi3:cefactBieDomainClass | [cefact:Exchanged_Declaration.Details](#Exchanged_Declaration.Details)
 edi3:cefactBusinessProcess | Buy-Ship-Pay
 
-@id | cefact:Exchanged_Document.Type.Code
+@id | cefact:Acknowledgement_Document.Type.Code
 @type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01002491
-rdfs:comment | The code specifying the type of exchanged document.
-edi3:cefactBieDomainClass | [cefact:Exchanged_Document.Details](#Exchanged_Document.Details)
+edi3:cefactUNId | cefact:UN01002105
+rdfs:comment | A code specifying a type of acknowledgement document.
+edi3:cefactBieDomainClass | [cefact:Acknowledgement_Document.Details](#Acknowledgement_Document.Details)
 edi3:cefactBusinessProcess | In All Contexts
 
 
@@ -53655,18 +53655,18 @@ Domains:
 
 Cefact Element Metadata: 
 
-@id | cefact:Referenced_SupplyChain_ConsignmentItem.Type.Code
-@type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01004037
-rdfs:comment | The code specifying the type of referenced supply chain consignment item.
-edi3:cefactBieDomainClass | [cefact:Referenced_ Supply Chain_ConsignmentItem.Details](#Referenced_ Supply Chain_ConsignmentItem.Details)
-edi3:cefactBusinessProcess | Buy-Ship-Pay
-
 @id | cefact:SupplyChain_ConsignmentItem.Type.Code
 @type | edi3:BasicBIE
 edi3:cefactUNId | cefact:UN01004106
 rdfs:comment | The code specifying the type of supply chain consignment item.
 edi3:cefactBieDomainClass | [cefact:Supply Chain_ConsignmentItem.Details](#Supply Chain_ConsignmentItem.Details)
+edi3:cefactBusinessProcess | Buy-Ship-Pay
+
+@id | cefact:Referenced_SupplyChain_ConsignmentItem.Type.Code
+@type | edi3:BasicBIE
+edi3:cefactUNId | cefact:UN01004037
+rdfs:comment | The code specifying the type of referenced supply chain consignment item.
+edi3:cefactBieDomainClass | [cefact:Referenced_ Supply Chain_ConsignmentItem.Details](#Referenced_ Supply Chain_ConsignmentItem.Details)
 edi3:cefactBusinessProcess | Buy-Ship-Pay
 
 
@@ -53706,20 +53706,6 @@ Domains:
 
 Cefact Element Metadata: 
 
-@id | cefact:TransportService_Location.Type.Code
-@type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01010089
-rdfs:comment | A code specifying the type of transport service location.
-edi3:cefactBieDomainClass | [cefact:Transport Service_Location.Details](#Transport Service_Location.Details)
-edi3:cefactBusinessProcess | Transport
-
-@id | cefact:Subordinate_Location.Type.Code
-@type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01004095
-rdfs:comment | The code specifying the type of subordinate location.
-edi3:cefactBieDomainClass | [cefact:Subordinate_Location.Details](#Subordinate_Location.Details)
-edi3:cefactBusinessProcess | In All Contexts
-
 @id | cefact:SubordinateSubordinate_Location.Type.Code
 @type | edi3:BasicBIE
 edi3:cefactUNId | cefact:UN01004090
@@ -53733,6 +53719,20 @@ edi3:cefactUNId | cefact:UN01003682
 rdfs:comment | A code specifying the type of this logistics related location.
 edi3:cefactBieDomainClass | [cefact:Logistics_Location.Details](#Logistics_Location.Details)
 edi3:cefactBusinessProcess | Buy-Ship-Pay
+
+@id | cefact:Subordinate_Location.Type.Code
+@type | edi3:BasicBIE
+edi3:cefactUNId | cefact:UN01004095
+rdfs:comment | The code specifying the type of subordinate location.
+edi3:cefactBieDomainClass | [cefact:Subordinate_Location.Details](#Subordinate_Location.Details)
+edi3:cefactBusinessProcess | In All Contexts
+
+@id | cefact:TransportService_Location.Type.Code
+@type | edi3:BasicBIE
+edi3:cefactUNId | cefact:UN01010089
+rdfs:comment | A code specifying the type of transport service location.
+edi3:cefactBieDomainClass | [cefact:Transport Service_Location.Details](#Transport Service_Location.Details)
+edi3:cefactBusinessProcess | Transport
 
 
 
@@ -53750,13 +53750,6 @@ Domains:
 
 Cefact Element Metadata: 
 
-@id | cefact:Referenced_Logistics_Package.Type.Code
-@type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01006793
-rdfs:comment | The code specifying the type of referenced logistics package.
-edi3:cefactBieDomainClass | [cefact:Referenced_ Logistics_Package.Details](#Referenced_ Logistics_Package.Details)
-edi3:cefactBusinessProcess | Buy-Ship-Pay
-
 @id | cefact:SupplyChain_Packaging.Type.Code
 @type | edi3:BasicBIE
 edi3:cefactUNId | cefact:UN01004313
@@ -53769,6 +53762,13 @@ edi3:cefactBusinessProcess | Buy-Ship-Pay
 edi3:cefactUNId | cefact:UN01003697
 rdfs:comment | A code specifying the type of logistics package.
 edi3:cefactBieDomainClass | [cefact:Logistics_Package.Details](#Logistics_Package.Details)
+edi3:cefactBusinessProcess | Buy-Ship-Pay
+
+@id | cefact:Referenced_Logistics_Package.Type.Code
+@type | edi3:BasicBIE
+edi3:cefactUNId | cefact:UN01006793
+rdfs:comment | The code specifying the type of referenced logistics package.
+edi3:cefactBieDomainClass | [cefact:Referenced_ Logistics_Package.Details](#Referenced_ Logistics_Package.Details)
 edi3:cefactBusinessProcess | Buy-Ship-Pay
 
 
@@ -53968,18 +53968,11 @@ Domains:
 
 Cefact Element Metadata: 
 
-@id | cefact:Referenced_TransportMeans.Type.Text
+@id | cefact:Trade_Tax.Type.Text
 @type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01004051
-rdfs:comment | The type, expressed as text, of this referenced transport means.
-edi3:cefactBieDomainClass | [cefact:Referenced_TransportMeans.Details](#Referenced_TransportMeans.Details)
-edi3:cefactBusinessProcess | In All Contexts
-
-@id | cefact:Logistics_Package.Type.Text
-@type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01003698
-rdfs:comment | A type, expressed as text, of this logistics package.
-edi3:cefactBieDomainClass | [cefact:Logistics_Package.Details](#Logistics_Package.Details)
+edi3:cefactUNId | cefact:UN01004727
+rdfs:comment | The type, expressed as text, of this trade related tax, levy or duty.
+edi3:cefactBieDomainClass | [cefact:Trade_Tax.Details](#Trade_Tax.Details)
 edi3:cefactBusinessProcess | Buy-Ship-Pay
 
 @id | cefact:Trade_Price.Type.Text
@@ -53989,27 +53982,6 @@ rdfs:comment | A type, expressed as text, for this trade price.
 edi3:cefactBieDomainClass | [cefact:Trade_Price.Details](#Trade_Price.Details)
 edi3:cefactBusinessProcess | Buy-Ship-Pay
 
-@id | cefact:Referenced_Logistics_Package.Type.Text
-@type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01013098
-rdfs:comment | A type, expressed as text, of this referenced logistics package.
-edi3:cefactBieDomainClass | [cefact:Referenced_ Logistics_Package.Details](#Referenced_ Logistics_Package.Details)
-edi3:cefactBusinessProcess | Buy-Ship-Pay
-
-@id | cefact:Trade_Tax.Type.Text
-@type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01004727
-rdfs:comment | The type, expressed as text, of this trade related tax, levy or duty.
-edi3:cefactBieDomainClass | [cefact:Trade_Tax.Details](#Trade_Tax.Details)
-edi3:cefactBusinessProcess | Buy-Ship-Pay
-
-@id | cefact:Logistics_TransportMovement.Type.Text
-@type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01012753
-rdfs:comment | The type, as expressed as text, of the logistics transport movement.
-edi3:cefactBieDomainClass | [cefact:Logistics_TransportMovement.Details](#Logistics_TransportMovement.Details)
-edi3:cefactBusinessProcess | Buy-Ship-Pay
-
 @id | cefact:Logistics_TransportMeans.Type.Text
 @type | edi3:BasicBIE
 edi3:cefactUNId | cefact:UN01003821
@@ -54017,11 +53989,39 @@ rdfs:comment | The type, expressed as text, of this logistics means of transport
 edi3:cefactBieDomainClass | [cefact:Logistics_TransportMeans.Details](#Logistics_TransportMeans.Details)
 edi3:cefactBusinessProcess | Buy-Ship-Pay
 
+@id | cefact:Referenced_TransportMeans.Type.Text
+@type | edi3:BasicBIE
+edi3:cefactUNId | cefact:UN01004051
+rdfs:comment | The type, expressed as text, of this referenced transport means.
+edi3:cefactBieDomainClass | [cefact:Referenced_TransportMeans.Details](#Referenced_TransportMeans.Details)
+edi3:cefactBusinessProcess | In All Contexts
+
+@id | cefact:Referenced_Logistics_Package.Type.Text
+@type | edi3:BasicBIE
+edi3:cefactUNId | cefact:UN01013098
+rdfs:comment | A type, expressed as text, of this referenced logistics package.
+edi3:cefactBieDomainClass | [cefact:Referenced_ Logistics_Package.Details](#Referenced_ Logistics_Package.Details)
+edi3:cefactBusinessProcess | Buy-Ship-Pay
+
 @id | cefact:SupplyChain_Packaging.Type.Text
 @type | edi3:BasicBIE
 edi3:cefactUNId | cefact:UN01004314
 rdfs:comment | The type, expressed as text, of supply chain packaging.
 edi3:cefactBieDomainClass | [cefact:Supply Chain_Packaging.Details](#Supply Chain_Packaging.Details)
+edi3:cefactBusinessProcess | Buy-Ship-Pay
+
+@id | cefact:Logistics_Package.Type.Text
+@type | edi3:BasicBIE
+edi3:cefactUNId | cefact:UN01003698
+rdfs:comment | A type, expressed as text, of this logistics package.
+edi3:cefactBieDomainClass | [cefact:Logistics_Package.Details](#Logistics_Package.Details)
+edi3:cefactBusinessProcess | Buy-Ship-Pay
+
+@id | cefact:Logistics_TransportMovement.Type.Text
+@type | edi3:BasicBIE
+edi3:cefactUNId | cefact:UN01012753
+rdfs:comment | The type, as expressed as text, of the logistics transport movement.
+edi3:cefactBieDomainClass | [cefact:Logistics_TransportMovement.Details](#Logistics_TransportMovement.Details)
 edi3:cefactBusinessProcess | Buy-Ship-Pay
 
 @id | cefact:Transport_Route.Type.Text
@@ -54075,18 +54075,18 @@ Domains:
 
 Cefact Element Metadata: 
 
-@id | cefact:Debtor_FinancialInstitution.UKSortCode_Identification.Identifier
-@type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01002846
-rdfs:comment | The unique United Kingdom (UK) Sort Code identifier as assigned by the UK Payment Association (APACS) for this debtor financial institution.
-edi3:cefactBieDomainClass | [cefact:Debtor_FinancialInstitution.Details](#Debtor_FinancialInstitution.Details)
-edi3:cefactBusinessProcess | Customer to bank payment initiation
-
 @id | cefact:Creditor_FinancialInstitution.UKSortCode_Identification.Identifier
 @type | edi3:BasicBIE
 edi3:cefactUNId | cefact:UN01002981
 rdfs:comment | The unique United Kingdom (UK) Sort Code identifier as assigned by the UK Payment Association (APACS) for this creditor financial institution.
 edi3:cefactBieDomainClass | [cefact:Creditor_FinancialInstitution.Details](#Creditor_FinancialInstitution.Details)
+edi3:cefactBusinessProcess | Customer to bank payment initiation
+
+@id | cefact:Debtor_FinancialInstitution.UKSortCode_Identification.Identifier
+@type | edi3:BasicBIE
+edi3:cefactUNId | cefact:UN01002846
+rdfs:comment | The unique United Kingdom (UK) Sort Code identifier as assigned by the UK Payment Association (APACS) for this debtor financial institution.
+edi3:cefactBieDomainClass | [cefact:Debtor_FinancialInstitution.Details](#Debtor_FinancialInstitution.Details)
 edi3:cefactBusinessProcess | Customer to bank payment initiation
 
 
@@ -54127,19 +54127,19 @@ Domains:
 
 Cefact Element Metadata: 
 
-@id | cefact:Specified_DirectPosition.UOM_LabelList.Text
-@type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01010470
-rdfs:comment | An ordered list of Unit Of Measure (UOM) labels, expressed as text, for this specified direct position.
-edi3:cefactBieDomainClass | [cefact:Specified_DirectPosition.Details](#Specified_DirectPosition.Details)
-edi3:cefactBusinessProcess | Laboratory Observation
-
 @id | cefact:Specified_DirectPositionList.UOM_LabelList.Text
 @type | edi3:BasicBIE
 edi3:cefactUNId | cefact:UN01012476
 rdfs:comment | An ordered list of Unit Of Measure (UOM) labels, expressed as text, for this specified direct position list.
 edi3:cefactBieDomainClass | [cefact:Specified_DirectPositionList.Details](#Specified_DirectPositionList.Details)
 edi3:cefactBusinessProcess | Agricultural
+
+@id | cefact:Specified_DirectPosition.UOM_LabelList.Text
+@type | edi3:BasicBIE
+edi3:cefactUNId | cefact:UN01010470
+rdfs:comment | An ordered list of Unit Of Measure (UOM) labels, expressed as text, for this specified direct position.
+edi3:cefactBieDomainClass | [cefact:Specified_DirectPosition.Details](#Specified_DirectPosition.Details)
+edi3:cefactBusinessProcess | Laboratory Observation
 
 
 
@@ -54216,20 +54216,6 @@ Domains:
 
 Cefact Element Metadata: 
 
-@id | cefact:Email_Communication.URI.Identifier
-@type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01002839
-rdfs:comment | The Uniform Resource Identifier (URI) for this email communication.
-edi3:cefactBieDomainClass | [cefact:Email_Communication.Details](#Email_Communication.Details)
-edi3:cefactBusinessProcess | In All Contexts
-
-@id | cefact:Universal_Communication.URI.Identifier
-@type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01001253
-rdfs:comment | The Uniform Resource Identifier (URI), such as a web or an email address, for this universal communication.
-edi3:cefactBieDomainClass | [cefact:Universal_Communication.Details](#Universal_Communication.Details)
-edi3:cefactBusinessProcess | In All Contexts
-
 @id | cefact:Specified_BinaryFile.URI.Identifier
 @type | edi3:BasicBIE
 edi3:cefactUNId | cefact:UN01006020
@@ -54243,6 +54229,20 @@ edi3:cefactUNId | cefact:UN01008544
 rdfs:comment | The Uniform Resource Identifier (URI) for this referenced standard.
 edi3:cefactBieDomainClass | [cefact:Referenced_Standard.Details](#Referenced_Standard.Details)
 edi3:cefactBusinessProcess | Supply Chain
+
+@id | cefact:Universal_Communication.URI.Identifier
+@type | edi3:BasicBIE
+edi3:cefactUNId | cefact:UN01001253
+rdfs:comment | The Uniform Resource Identifier (URI), such as a web or an email address, for this universal communication.
+edi3:cefactBieDomainClass | [cefact:Universal_Communication.Details](#Universal_Communication.Details)
+edi3:cefactBusinessProcess | In All Contexts
+
+@id | cefact:Email_Communication.URI.Identifier
+@type | edi3:BasicBIE
+edi3:cefactUNId | cefact:UN01002839
+rdfs:comment | The Uniform Resource Identifier (URI) for this email communication.
+edi3:cefactBieDomainClass | [cefact:Email_Communication.Details](#Email_Communication.Details)
+edi3:cefactBusinessProcess | In All Contexts
 
 
 
@@ -54584,11 +54584,11 @@ Domains:
 
 Cefact Element Metadata: 
 
-@id | cefact:Referenced_Logistics_TransportEquipment.Unit.Quantity
+@id | cefact:SupplyChain_Event.Unit.Quantity
 @type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01008992
-rdfs:comment | The number of units of this type of referenced logistics transport equipment.
-edi3:cefactBieDomainClass | [cefact:Referenced_ Logistics_TransportEquipment.Details](#Referenced_ Logistics_TransportEquipment.Details)
+edi3:cefactUNId | cefact:UN01004297
+rdfs:comment | A number of units for this supply chain event.
+edi3:cefactBieDomainClass | [cefact:Supply Chain_Event.Details](#Supply Chain_Event.Details)
 edi3:cefactBusinessProcess | Buy-Ship-Pay
 
 @id | cefact:Communication_Event.Unit.Quantity
@@ -54598,25 +54598,18 @@ rdfs:comment | The number of units for this communication event.
 edi3:cefactBieDomainClass | [cefact:Communication_Event.Details](#Communication_Event.Details)
 edi3:cefactBusinessProcess | In All Contexts
 
-@id | cefact:Referenced_Product.Unit.Quantity
+@id | cefact:Attached_TransportEquipment.Unit.Quantity
 @type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01007191
-rdfs:comment | A unit quantity of this referenced product.
-edi3:cefactBieDomainClass | [cefact:Referenced_Product.Details](#Referenced_Product.Details)
-edi3:cefactBusinessProcess | In All Contexts
+edi3:cefactUNId | cefact:UN01008955
+rdfs:comment | The number of units of attached transport equipment.
+edi3:cefactBieDomainClass | [cefact:Attached_TransportEquipment.Details](#Attached_TransportEquipment.Details)
+edi3:cefactBusinessProcess | Buy-Ship-Pay
 
 @id | cefact:Transport_Event.Unit.Quantity
 @type | edi3:BasicBIE
 edi3:cefactUNId | cefact:UN01006146
 rdfs:comment | The number of units for this transport event.
 edi3:cefactBieDomainClass | [cefact:Transport_Event.Details](#Transport_Event.Details)
-edi3:cefactBusinessProcess | Buy-Ship-Pay
-
-@id | cefact:Attached_TransportEquipment.Unit.Quantity
-@type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01008955
-rdfs:comment | The number of units of attached transport equipment.
-edi3:cefactBieDomainClass | [cefact:Attached_TransportEquipment.Details](#Attached_TransportEquipment.Details)
 edi3:cefactBusinessProcess | Buy-Ship-Pay
 
 @id | cefact:Logistics_TransportEquipment.Unit.Quantity
@@ -54626,12 +54619,19 @@ rdfs:comment | The number of units of this type of logistics transport equipment
 edi3:cefactBieDomainClass | [cefact:Logistics_TransportEquipment.Details](#Logistics_TransportEquipment.Details)
 edi3:cefactBusinessProcess | Buy-Ship-Pay
 
-@id | cefact:SupplyChain_Event.Unit.Quantity
+@id | cefact:Referenced_Logistics_TransportEquipment.Unit.Quantity
 @type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01004297
-rdfs:comment | A number of units for this supply chain event.
-edi3:cefactBieDomainClass | [cefact:Supply Chain_Event.Details](#Supply Chain_Event.Details)
+edi3:cefactUNId | cefact:UN01008992
+rdfs:comment | The number of units of this type of referenced logistics transport equipment.
+edi3:cefactBieDomainClass | [cefact:Referenced_ Logistics_TransportEquipment.Details](#Referenced_ Logistics_TransportEquipment.Details)
 edi3:cefactBusinessProcess | Buy-Ship-Pay
+
+@id | cefact:Referenced_Product.Unit.Quantity
+@type | edi3:BasicBIE
+edi3:cefactUNId | cefact:UN01007191
+rdfs:comment | A unit quantity of this referenced product.
+edi3:cefactBieDomainClass | [cefact:Referenced_Product.Details](#Referenced_Product.Details)
+edi3:cefactBusinessProcess | In All Contexts
 
 
 
@@ -54811,18 +54811,18 @@ Domains:
 
 Cefact Element Metadata: 
 
-@id | cefact:Logistics_TransportEquipment.Unloading.Transport_Event
-@type | edi3:AssociationBIE
-edi3:cefactUNId | cefact:UN01003803
-rdfs:comment | The unloading event for this piece of logistics transport equipment.
-edi3:cefactBieDomainClass | [cefact:Logistics_TransportEquipment.Details](#Logistics_TransportEquipment.Details)
-edi3:cefactBusinessProcess | Buy-Ship-Pay
-
 @id | cefact:Logistics_TransportMovement.Unloading.Transport_Event
 @type | edi3:AssociationBIE
 edi3:cefactUNId | cefact:UN01003857
 rdfs:comment | The unloading event during which goods will be or have been unloaded from the means of transport used for this logistics transport movement.
 edi3:cefactBieDomainClass | [cefact:Logistics_TransportMovement.Details](#Logistics_TransportMovement.Details)
+edi3:cefactBusinessProcess | Buy-Ship-Pay
+
+@id | cefact:Logistics_TransportEquipment.Unloading.Transport_Event
+@type | edi3:AssociationBIE
+edi3:cefactUNId | cefact:UN01003803
+rdfs:comment | The unloading event for this piece of logistics transport equipment.
+edi3:cefactBieDomainClass | [cefact:Logistics_TransportEquipment.Details](#Logistics_TransportEquipment.Details)
 edi3:cefactBusinessProcess | Buy-Ship-Pay
 
 
@@ -54995,18 +54995,18 @@ Domains:
 
 Cefact Element Metadata: 
 
-@id | cefact:GeographicalCoordinate.Used.CSEngineering_CoordinateReferenceSystem
-@type | edi3:AssociationBIE
-edi3:cefactUNId | cefact:UN01013613
-rdfs:comment | The CS (Coordinate System) engineering coordinate reference system used for this geographical coordinate.
-edi3:cefactBieDomainClass | [cefact:GeographicalCoordinate.Details](#GeographicalCoordinate.Details)
-edi3:cefactBusinessProcess | In All Contexts
-
 @id | cefact:Specified_GeographicalFeature.Used.CSEngineering_CoordinateReferenceSystem
 @type | edi3:AssociationBIE
 edi3:cefactUNId | cefact:UN01013619
 rdfs:comment | The CS (Coordinate System) engineering coordinate reference system used for this specified geographical feature.
 edi3:cefactBieDomainClass | [cefact:Specified_GeographicalFeature.Details](#Specified_GeographicalFeature.Details)
+edi3:cefactBusinessProcess | In All Contexts
+
+@id | cefact:GeographicalCoordinate.Used.CSEngineering_CoordinateReferenceSystem
+@type | edi3:AssociationBIE
+edi3:cefactUNId | cefact:UN01013613
+rdfs:comment | The CS (Coordinate System) engineering coordinate reference system used for this geographical coordinate.
+edi3:cefactBieDomainClass | [cefact:GeographicalCoordinate.Details](#GeographicalCoordinate.Details)
 edi3:cefactBusinessProcess | In All Contexts
 
 
@@ -55069,18 +55069,18 @@ Domains:
 
 Cefact Element Metadata: 
 
-@id | cefact:Specified_GeographicalFeature.Used.Geographical_CoordinateSourceSystem
-@type | edi3:AssociationBIE
-edi3:cefactUNId | cefact:UN01013620
-rdfs:comment | The geographical coordinate source system used for this specified geographical feature.
-edi3:cefactBieDomainClass | [cefact:Specified_GeographicalFeature.Details](#Specified_GeographicalFeature.Details)
-edi3:cefactBusinessProcess | In All Contexts
-
 @id | cefact:GeographicalCoordinate.Used.Geographical_CoordinateSourceSystem
 @type | edi3:AssociationBIE
 edi3:cefactUNId | cefact:UN01013614
 rdfs:comment | The geographical coordinate source system used for this geographical coordinate.
 edi3:cefactBieDomainClass | [cefact:GeographicalCoordinate.Details](#GeographicalCoordinate.Details)
+edi3:cefactBusinessProcess | In All Contexts
+
+@id | cefact:Specified_GeographicalFeature.Used.Geographical_CoordinateSourceSystem
+@type | edi3:AssociationBIE
+edi3:cefactUNId | cefact:UN01013620
+rdfs:comment | The geographical coordinate source system used for this specified geographical feature.
+edi3:cefactBieDomainClass | [cefact:Specified_GeographicalFeature.Details](#Specified_GeographicalFeature.Details)
 edi3:cefactBusinessProcess | In All Contexts
 
 
@@ -55356,19 +55356,19 @@ rdfs:comment | A specified validity period for this document status.
 edi3:cefactBieDomainClass | [cefact:Document_Status.Details](#Document_Status.Details)
 edi3:cefactBusinessProcess | In All Contexts
 
-@id | cefact:Logistics_Status.Validity.Specified_Period
-@type | edi3:AssociationBIE
-edi3:cefactUNId | cefact:UN01010092
-rdfs:comment | A specific validity period for this logistics status.
-edi3:cefactBieDomainClass | [cefact:Logistics_Status.Details](#Logistics_Status.Details)
-edi3:cefactBusinessProcess | Transport
-
 @id | cefact:Government_Registration.Validity.Specified_Period
 @type | edi3:AssociationBIE
 edi3:cefactUNId | cefact:UN01011038
 rdfs:comment | The period of time during which this government registration is valid.
 edi3:cefactBieDomainClass | [cefact:Government_Registration.Details](#Government_Registration.Details)
 edi3:cefactBusinessProcess | Buy-Ship-Pay
+
+@id | cefact:Logistics_Status.Validity.Specified_Period
+@type | edi3:AssociationBIE
+edi3:cefactUNId | cefact:UN01010092
+rdfs:comment | A specific validity period for this logistics status.
+edi3:cefactBieDomainClass | [cefact:Logistics_Status.Details](#Logistics_Status.Details)
+edi3:cefactBusinessProcess | Transport
 
 @id | cefact:Trade_Price.Validity.Specified_Period
 @type | edi3:AssociationBIE
@@ -55414,18 +55414,18 @@ Domains:
 
 Cefact Element Metadata: 
 
-@id | cefact:Operational_Parameter.ValueAllowed.Indicator
-@type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01013519
-rdfs:comment | The indication of whether or not this operational parameter value is allowed.
-edi3:cefactBieDomainClass | [cefact:Operational_Parameter.Details](#Operational_Parameter.Details)
-edi3:cefactBusinessProcess | In All Contexts
-
 @id | cefact:ControlSetting_Parameter.ValueAllowed.Indicator
 @type | edi3:BasicBIE
 edi3:cefactUNId | cefact:UN01013508
 rdfs:comment | The indication of whether or not this control setting parameter value is allowed.
 edi3:cefactBieDomainClass | [cefact:Control Setting_Parameter.Details](#Control Setting_Parameter.Details)
+edi3:cefactBusinessProcess | In All Contexts
+
+@id | cefact:Operational_Parameter.ValueAllowed.Indicator
+@type | edi3:BasicBIE
+edi3:cefactUNId | cefact:UN01013519
+rdfs:comment | The indication of whether or not this operational parameter value is allowed.
+edi3:cefactBieDomainClass | [cefact:Operational_Parameter.Details](#Operational_Parameter.Details)
 edi3:cefactBusinessProcess | In All Contexts
 
 
@@ -55513,57 +55513,15 @@ Range: xsd:decimal
 
 Domains: 
 
-[edi3:Measurement](#Measurement)
 [edi3:Condition](#Condition)
+[edi3:Measurement](#Measurement)
 [edi3:Characteristic](#Characteristic)
-[edi3:Event](#Event)
 [edi3:Parameter](#Parameter)
+[edi3:Event](#Event)
 [edi3:Dimension](#Dimension)
 [edi3:Sensor](#Sensor)
 
 Cefact Element Metadata: 
-
-@id | cefact:Communication_Event.Value.Measure
-@type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01013567
-rdfs:comment | The measure of a value for this communication event.
-edi3:cefactBieDomainClass | [cefact:Communication_Event.Details](#Communication_Event.Details)
-edi3:cefactBusinessProcess | In All Contexts
-
-@id | cefact:Spatial_Dimension.Value.Measure
-@type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01004076
-rdfs:comment | The measure of the value of this spatial dimension.
-edi3:cefactBieDomainClass | [cefact:Spatial_Dimension.Details](#Spatial_Dimension.Details)
-edi3:cefactBusinessProcess | In All Contexts
-
-@id | cefact:ControlSetting_Parameter.Value.Measure
-@type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01013510
-rdfs:comment | The measure value for this control setting parameter.
-edi3:cefactBieDomainClass | [cefact:Control Setting_Parameter.Details](#Control Setting_Parameter.Details)
-edi3:cefactBusinessProcess | In All Contexts
-
-@id | cefact:WorkItem_Dimension.Value.Measure
-@type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01000058
-rdfs:comment | The measured value for this work item dimension.
-edi3:cefactBieDomainClass | [cefact:Work Item_Dimension.Details](#Work Item_Dimension.Details)
-edi3:cefactBusinessProcess | In All Contexts
-
-@id | cefact:Monitoring_Sensor.Value.Measure
-@type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01013543
-rdfs:comment | The measure of the value for this monitoring sensor.
-edi3:cefactBieDomainClass | [cefact:Monitoring_Sensor.Details](#Monitoring_Sensor.Details)
-edi3:cefactBusinessProcess | Buy-Ship-Pay
-
-@id | cefact:Calibrated_Measurement.Value.Measure
-@type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01013536
-rdfs:comment | The value of a measure for this calibrated measurement.
-edi3:cefactBieDomainClass | [cefact:Calibrated_Measurement.Details](#Calibrated_Measurement.Details)
-edi3:cefactBusinessProcess | In All Contexts
 
 @id | cefact:ProductCharacteristic_Condition.Value.Measure
 @type | edi3:BasicBIE
@@ -55579,11 +55537,53 @@ rdfs:comment | A measure of a value for this product characteristic.
 edi3:cefactBieDomainClass | [cefact:Product_Characteristic.Details](#Product_Characteristic.Details)
 edi3:cefactBusinessProcess | In All Contexts
 
+@id | cefact:ControlSetting_Parameter.Value.Measure
+@type | edi3:BasicBIE
+edi3:cefactUNId | cefact:UN01013510
+rdfs:comment | The measure value for this control setting parameter.
+edi3:cefactBieDomainClass | [cefact:Control Setting_Parameter.Details](#Control Setting_Parameter.Details)
+edi3:cefactBusinessProcess | In All Contexts
+
+@id | cefact:Communication_Event.Value.Measure
+@type | edi3:BasicBIE
+edi3:cefactUNId | cefact:UN01013567
+rdfs:comment | The measure of a value for this communication event.
+edi3:cefactBieDomainClass | [cefact:Communication_Event.Details](#Communication_Event.Details)
+edi3:cefactBusinessProcess | In All Contexts
+
+@id | cefact:WorkItem_Dimension.Value.Measure
+@type | edi3:BasicBIE
+edi3:cefactUNId | cefact:UN01000058
+rdfs:comment | The measured value for this work item dimension.
+edi3:cefactBieDomainClass | [cefact:Work Item_Dimension.Details](#Work Item_Dimension.Details)
+edi3:cefactBusinessProcess | In All Contexts
+
+@id | cefact:Spatial_Dimension.Value.Measure
+@type | edi3:BasicBIE
+edi3:cefactUNId | cefact:UN01004076
+rdfs:comment | The measure of the value of this spatial dimension.
+edi3:cefactBieDomainClass | [cefact:Spatial_Dimension.Details](#Spatial_Dimension.Details)
+edi3:cefactBusinessProcess | In All Contexts
+
+@id | cefact:Monitoring_Sensor.Value.Measure
+@type | edi3:BasicBIE
+edi3:cefactUNId | cefact:UN01013543
+rdfs:comment | The measure of the value for this monitoring sensor.
+edi3:cefactBieDomainClass | [cefact:Monitoring_Sensor.Details](#Monitoring_Sensor.Details)
+edi3:cefactBusinessProcess | Buy-Ship-Pay
+
 @id | cefact:Operational_Parameter.Value.Measure
 @type | edi3:BasicBIE
 edi3:cefactUNId | cefact:UN01013521
 rdfs:comment | The measure value for this operational parameter.
 edi3:cefactBieDomainClass | [cefact:Operational_Parameter.Details](#Operational_Parameter.Details)
+edi3:cefactBusinessProcess | In All Contexts
+
+@id | cefact:Calibrated_Measurement.Value.Measure
+@type | edi3:BasicBIE
+edi3:cefactUNId | cefact:UN01013536
+rdfs:comment | The value of a measure for this calibrated measurement.
+edi3:cefactBieDomainClass | [cefact:Calibrated_Measurement.Details](#Calibrated_Measurement.Details)
 edi3:cefactBusinessProcess | In All Contexts
 
 
@@ -55623,18 +55623,18 @@ Domains:
 
 Cefact Element Metadata: 
 
-@id | cefact:Specified_Temperature.Value.Measure
-@type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01009044
-rdfs:comment | The measure of the value of this specified temperature, such as a temperature value of ten degrees Celsius.
-edi3:cefactBieDomainClass | [cefact:Specified_Temperature.Details](#Specified_Temperature.Details)
-edi3:cefactBusinessProcess | In All Contexts
-
 @id | cefact:TransportSetting_Temperature.Value.Measure
 @type | edi3:BasicBIE
 edi3:cefactUNId | cefact:UN01004747
 rdfs:comment | The measure of the value of this transport setting temperature, such as a temperature value of ten degrees Celsius.
 edi3:cefactBieDomainClass | [cefact:Transport Setting_Temperature.Details](#Transport Setting_Temperature.Details)
+edi3:cefactBusinessProcess | In All Contexts
+
+@id | cefact:Specified_Temperature.Value.Measure
+@type | edi3:BasicBIE
+edi3:cefactUNId | cefact:UN01009044
+rdfs:comment | The measure of the value of this specified temperature, such as a temperature value of ten degrees Celsius.
+edi3:cefactBieDomainClass | [cefact:Specified_Temperature.Details](#Specified_Temperature.Details)
 edi3:cefactBusinessProcess | In All Contexts
 
 
@@ -55653,20 +55653,6 @@ Domains:
 
 Cefact Element Metadata: 
 
-@id | cefact:DocumentContext_Parameter.Value.Text
-@type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01004854
-rdfs:comment | The value, expressed as text, of this document context parameter.
-edi3:cefactBieDomainClass | [cefact:Document Context_Parameter.Details](#Document Context_Parameter.Details)
-edi3:cefactBusinessProcess | In All Contexts
-
-@id | cefact:Operational_Parameter.Value.Text
-@type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01013520
-rdfs:comment | The value, expressed as text, of this operational parameter.
-edi3:cefactBieDomainClass | [cefact:Operational_Parameter.Details](#Operational_Parameter.Details)
-edi3:cefactBusinessProcess | In All Contexts
-
 @id | cefact:ControlSetting_Parameter.Value.Text
 @type | edi3:BasicBIE
 edi3:cefactUNId | cefact:UN01013509
@@ -55680,6 +55666,20 @@ edi3:cefactUNId | cefact:UN01004900
 rdfs:comment | A value, expressed as text, for this product characteristic.
 edi3:cefactBieDomainClass | [cefact:Product_Characteristic.Details](#Product_Characteristic.Details)
 edi3:cefactBusinessProcess | Cross-Border
+
+@id | cefact:DocumentContext_Parameter.Value.Text
+@type | edi3:BasicBIE
+edi3:cefactUNId | cefact:UN01004854
+rdfs:comment | The value, expressed as text, of this document context parameter.
+edi3:cefactBieDomainClass | [cefact:Document Context_Parameter.Details](#Document Context_Parameter.Details)
+edi3:cefactBusinessProcess | In All Contexts
+
+@id | cefact:Operational_Parameter.Value.Text
+@type | edi3:BasicBIE
+edi3:cefactUNId | cefact:UN01013520
+rdfs:comment | The value, expressed as text, of this operational parameter.
+edi3:cefactBieDomainClass | [cefact:Operational_Parameter.Details](#Operational_Parameter.Details)
+edi3:cefactBusinessProcess | In All Contexts
 
 
 
@@ -55719,13 +55719,6 @@ Domains:
 
 Cefact Element Metadata: 
 
-@id | cefact:SupplyChain_ConsignmentItem.Vanning.Transport_Event
-@type | edi3:AssociationBIE
-edi3:cefactUNId | cefact:UN01004158
-rdfs:comment | The vanning event for this supply chain consignment item, i.e. the loading of this consignment item at the place of original despatch.
-edi3:cefactBieDomainClass | [cefact:Supply Chain_ConsignmentItem.Details](#Supply Chain_ConsignmentItem.Details)
-edi3:cefactBusinessProcess | Buy-Ship-Pay
-
 @id | cefact:Referenced_SupplyChain_Consignment.Vanning.Transport_Event
 @type | edi3:AssociationBIE
 edi3:cefactUNId | cefact:UN01011062
@@ -55738,6 +55731,13 @@ edi3:cefactBusinessProcess | Buy-Ship-Pay
 edi3:cefactUNId | cefact:UN01004257
 rdfs:comment | The vanning event for this supply chain consignment, i.e. the loading of this consignment at the place of original despatch.
 edi3:cefactBieDomainClass | [cefact:Supply Chain_Consignment.Details](#Supply Chain_Consignment.Details)
+edi3:cefactBusinessProcess | Buy-Ship-Pay
+
+@id | cefact:SupplyChain_ConsignmentItem.Vanning.Transport_Event
+@type | edi3:AssociationBIE
+edi3:cefactUNId | cefact:UN01004158
+rdfs:comment | The vanning event for this supply chain consignment item, i.e. the loading of this consignment item at the place of original despatch.
+edi3:cefactBieDomainClass | [cefact:Supply Chain_ConsignmentItem.Details](#Supply Chain_ConsignmentItem.Details)
 edi3:cefactBusinessProcess | Buy-Ship-Pay
 
 
@@ -55847,11 +55847,18 @@ Domains:
 
 Cefact Element Metadata: 
 
-@id | cefact:Government_Registration.Version.Identifier
+@id | cefact:Referenced_Standard.Version.Identifier
 @type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01011030
-rdfs:comment | The identifier of the version of this government registration.
-edi3:cefactBieDomainClass | [cefact:Government_Registration.Details](#Government_Registration.Details)
+edi3:cefactUNId | cefact:UN01008542
+rdfs:comment | The identifier of the version of this referenced standard.
+edi3:cefactBieDomainClass | [cefact:Referenced_Standard.Details](#Referenced_Standard.Details)
+edi3:cefactBusinessProcess | Supply Chain
+
+@id | cefact:Exchanged_Declaration.Version.Identifier
+@type | edi3:BasicBIE
+edi3:cefactUNId | cefact:UN01011012
+rdfs:comment | The identifier for the version of this exchanged declaration.
+edi3:cefactBieDomainClass | [cefact:Exchanged_Declaration.Details](#Exchanged_Declaration.Details)
 edi3:cefactBusinessProcess | Buy-Ship-Pay
 
 @id | cefact:Calibrated_Measurement.Version.Identifier
@@ -55868,18 +55875,11 @@ rdfs:comment | The unique version identifier for this specified binary file.
 edi3:cefactBieDomainClass | [cefact:Specified_BinaryFile.Details](#Specified_BinaryFile.Details)
 edi3:cefactBusinessProcess | In All Contexts
 
-@id | cefact:Referenced_Standard.Version.Identifier
+@id | cefact:Government_Registration.Version.Identifier
 @type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01008542
-rdfs:comment | The identifier of the version of this referenced standard.
-edi3:cefactBieDomainClass | [cefact:Referenced_Standard.Details](#Referenced_Standard.Details)
-edi3:cefactBusinessProcess | Supply Chain
-
-@id | cefact:Exchanged_Declaration.Version.Identifier
-@type | edi3:BasicBIE
-edi3:cefactUNId | cefact:UN01011012
-rdfs:comment | The identifier for the version of this exchanged declaration.
-edi3:cefactBieDomainClass | [cefact:Exchanged_Declaration.Details](#Exchanged_Declaration.Details)
+edi3:cefactUNId | cefact:UN01011030
+rdfs:comment | The identifier of the version of this government registration.
+edi3:cefactBieDomainClass | [cefact:Government_Registration.Details](#Government_Registration.Details)
 edi3:cefactBusinessProcess | Buy-Ship-Pay
 
 
