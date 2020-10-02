@@ -1,0 +1,2581 @@
+{
+    "@context": {
+        "schema": "http://schema.org/",
+        "unece": "https://unece.org/vocab#",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "cefact": "https://edi3.org/cefact#",
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "dc": "http://purl.org/dc/elements/1.1/"
+    },
+    "@graph": [
+        {
+            "@id": "unece:Address",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "The location at which a particular trade related organization or person may be found or reached.",
+            "unece:cefactElementMetadata": [
+                {
+                    "@id": "cefact:Trade_Address.Details",
+                    "@type": "unece:AggregateBIE",
+                    "unece:cefactUNId": "cefact:",
+                    "rdfs:comment": "The location at which a particular trade related organization or person may be found or reached.",
+                    "unece:cefactBusinessProcess": ""
+                }
+            ]
+        },
+        {
+            "@id": "unece:Cargo",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "Information about goods being transported identifying their nature for customs, statistical or transport purposes.",
+            "unece:cefactElementMetadata": [
+                {
+                    "@id": "cefact:Transport_Cargo.Details",
+                    "@type": "unece:AggregateBIE",
+                    "unece:cefactUNId": "cefact:",
+                    "rdfs:comment": "Information about goods being transported identifying their nature for customs, statistical or transport purposes.",
+                    "unece:cefactBusinessProcess": ""
+                }
+            ]
+        },
+        {
+            "@id": "unece:Clause",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "A distinct article or provision in a document, which requires compliance.",
+            "unece:cefactElementMetadata": [
+                {
+                    "@id": "cefact:Document_Clause.Details",
+                    "@type": "unece:AggregateBIE",
+                    "unece:cefactUNId": "cefact:",
+                    "rdfs:comment": "A distinct article or provision in a document, which requires compliance.",
+                    "unece:cefactBusinessProcess": ""
+                }
+            ]
+        },
+        {
+            "@id": "unece:Communication",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "The exchange of thoughts, messages, or information, as universally exchanged by speech, signals, writing, or behaviour between persons and/or organizations.",
+            "unece:cefactElementMetadata": [
+                {
+                    "@id": "cefact:Universal_Communication.Details",
+                    "@type": "unece:AggregateBIE",
+                    "unece:cefactUNId": "cefact:",
+                    "rdfs:comment": "The exchange of thoughts, messages, or information, as universally exchanged by speech, signals, writing, or behaviour between persons and/or organizations.",
+                    "unece:cefactBusinessProcess": ""
+                }
+            ]
+        },
+        {
+            "@id": "unece:Consignment",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "A separately identifiable collection of goods items to be transported or available to be transported from one consignor to one consignee in a supply chain via one or more modes of transport where each consignment is the subject of one single transport contract.",
+            "unece:cefactElementMetadata": [
+                {
+                    "@id": "cefact:SupplyChain_Consignment.Details",
+                    "@type": "unece:AggregateBIE",
+                    "unece:cefactUNId": "cefact:",
+                    "rdfs:comment": "A separately identifiable collection of goods items to be transported or available to be transported from one consignor to one consignee in a supply chain via one or more modes of transport where each consignment is the subject of one single transport contract.",
+                    "unece:cefactBusinessProcess": ""
+                }
+            ]
+        },
+        {
+            "@id": "unece:ConsignmentItem",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "An item within a supply chain consignment of goods separately identified for transport and customs purposes.",
+            "unece:cefactElementMetadata": [
+                {
+                    "@id": "cefact:SupplyChain_ConsignmentItem.Details",
+                    "@type": "unece:AggregateBIE",
+                    "unece:cefactUNId": "cefact:",
+                    "rdfs:comment": "An item within a supply chain consignment of goods separately identified for transport and customs purposes.",
+                    "unece:cefactBusinessProcess": ""
+                }
+            ]
+        },
+        {
+            "@id": "unece:Contact",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "A person or a department that acts as a point of contact with another person or department in a trading relationship.",
+            "unece:cefactElementMetadata": [
+                {
+                    "@id": "cefact:Trade_Contact.Details",
+                    "@type": "unece:AggregateBIE",
+                    "unece:cefactUNId": "cefact:",
+                    "rdfs:comment": "A person or a department that acts as a point of contact with another person or department in a trading relationship.",
+                    "unece:cefactBusinessProcess": ""
+                }
+            ]
+        },
+        {
+            "@id": "unece:Country",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "The area of land that belongs to a nation together with its properties, such as population, political organization, etc., used or referenced for trade purposes.",
+            "unece:cefactElementMetadata": [
+                {
+                    "@id": "cefact:Trade_Country.Details",
+                    "@type": "unece:AggregateBIE",
+                    "unece:cefactUNId": "cefact:",
+                    "rdfs:comment": "The area of land that belongs to a nation together with its properties, such as population, political organization, etc., used or referenced for trade purposes.",
+                    "unece:cefactBusinessProcess": ""
+                }
+            ]
+        },
+        {
+            "@id": "unece:DangerousGoods",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "Goods which may contain a substance which poses risks to people and/or the environment during transportation which is regulated by dangerous goods regulations.",
+            "unece:cefactElementMetadata": [
+                {
+                    "@id": "cefact:Transport_DangerousGoods.Details",
+                    "@type": "unece:AggregateBIE",
+                    "unece:cefactUNId": "cefact:",
+                    "rdfs:comment": "Goods which may contain a substance which poses risks to people and/or the environment during transportation which is regulated by dangerous goods regulations.",
+                    "unece:cefactBusinessProcess": ""
+                }
+            ]
+        },
+        {
+            "@id": "unece:Document",
+            "@type": "rdfs:Class",
+            "rdfs:comment": [
+                "A collection of data for a piece of written, printed or electronic matter that is exchanged between two or more parties.",
+                "Written, printed or electronic matter that is referenced."
+            ],
+            "unece:cefactElementMetadata": [
+                {
+                    "@id": "cefact:Referenced_Document.Details",
+                    "@type": "unece:AggregateBIE",
+                    "unece:cefactUNId": "cefact:",
+                    "rdfs:comment": "Written, printed or electronic matter that is referenced.",
+                    "unece:cefactBusinessProcess": ""
+                },
+                {
+                    "@id": "cefact:Exchanged_Document.Details",
+                    "@type": "unece:AggregateBIE",
+                    "unece:cefactUNId": "cefact:",
+                    "rdfs:comment": "A collection of data for a piece of written, printed or electronic matter that is exchanged between two or more parties.",
+                    "unece:cefactBusinessProcess": ""
+                }
+            ]
+        },
+        {
+            "@id": "unece:Event",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "A significant occurrence or happening during transport.",
+            "unece:cefactElementMetadata": [
+                {
+                    "@id": "cefact:Transport_Event.Details",
+                    "@type": "unece:AggregateBIE",
+                    "unece:cefactUNId": "cefact:",
+                    "rdfs:comment": "A significant occurrence or happening during transport.",
+                    "unece:cefactBusinessProcess": ""
+                }
+            ]
+        },
+        {
+            "@id": "unece:GeographicalCoordinate",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "A set of geographical coordinates of a specific point such as the longitude, latitude and altitude.",
+            "unece:cefactElementMetadata": [
+                {
+                    "@id": "cefact:GeographicalCoordinate.Details",
+                    "@type": "unece:AggregateBIE",
+                    "unece:cefactUNId": "cefact:",
+                    "rdfs:comment": "A set of geographical coordinates of a specific point such as the longitude, latitude and altitude.",
+                    "unece:cefactBusinessProcess": ""
+                }
+            ]
+        },
+        {
+            "@id": "unece:Instructions",
+            "@type": "rdfs:Class",
+            "rdfs:comment": [
+                "Temperature setting related information of an instructive nature.",
+                "Transport information of an instructive nature.",
+                "Handling information of an instructive nature.",
+                "Instructions related to the action or process of conveyance."
+            ],
+            "unece:cefactElementMetadata": [
+                {
+                    "@id": "cefact:Handling_Instructions.Details",
+                    "@type": "unece:AggregateBIE",
+                    "unece:cefactUNId": "cefact:",
+                    "rdfs:comment": "Handling information of an instructive nature.",
+                    "unece:cefactBusinessProcess": ""
+                },
+                {
+                    "@id": "cefact:Haulage_Instructions.Details",
+                    "@type": "unece:AggregateBIE",
+                    "unece:cefactUNId": "cefact:",
+                    "rdfs:comment": "Instructions related to the action or process of conveyance.",
+                    "unece:cefactBusinessProcess": ""
+                },
+                {
+                    "@id": "cefact:TemperatureSetting_Instructions.Details",
+                    "@type": "unece:AggregateBIE",
+                    "unece:cefactUNId": "cefact:",
+                    "rdfs:comment": "Temperature setting related information of an instructive nature.",
+                    "unece:cefactBusinessProcess": ""
+                },
+                {
+                    "@id": "cefact:Transport_Instructions.Details",
+                    "@type": "unece:AggregateBIE",
+                    "unece:cefactUNId": "cefact:",
+                    "rdfs:comment": "Transport information of an instructive nature.",
+                    "unece:cefactBusinessProcess": ""
+                }
+            ]
+        },
+        {
+            "@id": "unece:Location",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "A logistics related physical location or place.",
+            "unece:cefactElementMetadata": [
+                {
+                    "@id": "cefact:Logistics_Location.Details",
+                    "@type": "unece:AggregateBIE",
+                    "unece:cefactUNId": "cefact:",
+                    "rdfs:comment": "A logistics related physical location or place.",
+                    "unece:cefactBusinessProcess": ""
+                }
+            ]
+        },
+        {
+            "@id": "unece:Measurement",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "An amount, size, or extent as established by measuring.",
+            "unece:cefactElementMetadata": [
+                {
+                    "@id": "cefact:Measurement.Details",
+                    "@type": "unece:AggregateBIE",
+                    "unece:cefactUNId": "cefact:",
+                    "rdfs:comment": "An amount, size, or extent as established by measuring.",
+                    "unece:cefactBusinessProcess": ""
+                }
+            ]
+        },
+        {
+            "@id": "unece:Package",
+            "@type": "rdfs:Class",
+            "rdfs:comment": [
+                "A self-contained wrapping or container within which goods can be contained for logistics purposes, such as a box or a barrel which can be filled, partially filled or empty.",
+                "A referenced self-contained wrapping or container within which goods can be contained for logistics purposes."
+            ],
+            "unece:cefactElementMetadata": [
+                {
+                    "@id": "cefact:Referenced_Logistics_Package.Details",
+                    "@type": "unece:AggregateBIE",
+                    "unece:cefactUNId": "cefact:",
+                    "rdfs:comment": "A referenced self-contained wrapping or container within which goods can be contained for logistics purposes.",
+                    "unece:cefactBusinessProcess": ""
+                },
+                {
+                    "@id": "cefact:Logistics_Package.Details",
+                    "@type": "unece:AggregateBIE",
+                    "unece:cefactUNId": "cefact:",
+                    "rdfs:comment": "A self-contained wrapping or container within which goods can be contained for logistics purposes, such as a box or a barrel which can be filled, partially filled or empty.",
+                    "unece:cefactBusinessProcess": ""
+                }
+            ]
+        },
+        {
+            "@id": "unece:Party",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "An individual, a group, or a body having a role in a trade business function.",
+            "unece:cefactElementMetadata": [
+                {
+                    "@id": "cefact:Trade_Party.Details",
+                    "@type": "unece:AggregateBIE",
+                    "unece:cefactUNId": "cefact:",
+                    "rdfs:comment": "An individual, a group, or a body having a role in a trade business function.",
+                    "unece:cefactBusinessProcess": ""
+                }
+            ]
+        },
+        {
+            "@id": "unece:Route",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "A way or course taken from one location to another for the purpose of transporting cargo and or passengers.",
+            "unece:cefactElementMetadata": [
+                {
+                    "@id": "cefact:Transport_Route.Details",
+                    "@type": "unece:AggregateBIE",
+                    "unece:cefactUNId": "cefact:",
+                    "rdfs:comment": "A way or course taken from one location to another for the purpose of transporting cargo and or passengers.",
+                    "unece:cefactBusinessProcess": ""
+                }
+            ]
+        },
+        {
+            "@id": "unece:Seal",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "A device used to secure an object and protect it from unauthorized entry or tampering during transport or other logistics operations.",
+            "unece:cefactElementMetadata": [
+                {
+                    "@id": "cefact:Logistics_Seal.Details",
+                    "@type": "unece:AggregateBIE",
+                    "unece:cefactUNId": "cefact:",
+                    "rdfs:comment": "A device used to secure an object and protect it from unauthorized entry or tampering during transport or other logistics operations.",
+                    "unece:cefactBusinessProcess": ""
+                }
+            ]
+        },
+        {
+            "@id": "unece:Service",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "A service associated with a transport movement.",
+            "unece:cefactElementMetadata": [
+                {
+                    "@id": "cefact:Transport_Service.Details",
+                    "@type": "unece:AggregateBIE",
+                    "unece:cefactUNId": "cefact:",
+                    "rdfs:comment": "A service associated with a transport movement.",
+                    "unece:cefactBusinessProcess": ""
+                }
+            ]
+        },
+        {
+            "@id": "unece:ServiceCharge",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "A charge made for a logistics related service.",
+            "unece:cefactElementMetadata": [
+                {
+                    "@id": "cefact:Logistics_ServiceCharge.Details",
+                    "@type": "unece:AggregateBIE",
+                    "unece:cefactUNId": "cefact:",
+                    "rdfs:comment": "A charge made for a logistics related service.",
+                    "unece:cefactBusinessProcess": ""
+                }
+            ]
+        },
+        {
+            "@id": "unece:ShippingMarks",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "Physical markings or labels on individual packages or transport units for logistics purposes.",
+            "unece:cefactElementMetadata": [
+                {
+                    "@id": "cefact:Logistics_ShippingMarks.Details",
+                    "@type": "unece:AggregateBIE",
+                    "unece:cefactUNId": "cefact:",
+                    "rdfs:comment": "Physical markings or labels on individual packages or transport units for logistics purposes.",
+                    "unece:cefactBusinessProcess": ""
+                }
+            ]
+        },
+        {
+            "@id": "unece:Temperature",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "Temperature settings for a transport movement, such as a required storage temperature range.",
+            "unece:cefactElementMetadata": [
+                {
+                    "@id": "cefact:TransportSetting_Temperature.Details",
+                    "@type": "unece:AggregateBIE",
+                    "unece:cefactUNId": "cefact:",
+                    "rdfs:comment": "Temperature settings for a transport movement, such as a required storage temperature range.",
+                    "unece:cefactBusinessProcess": ""
+                }
+            ]
+        },
+        {
+            "@id": "unece:TransportEquipment",
+            "@type": "rdfs:Class",
+            "rdfs:comment": [
+                "A piece of equipment used to hold, protect or secure cargo for logistics purposes.",
+                "A referenced piece of equipment used to hold, protect or secure cargo for logistics purposes."
+            ],
+            "unece:cefactElementMetadata": [
+                {
+                    "@id": "cefact:Referenced_Logistics_TransportEquipment.Details",
+                    "@type": "unece:AggregateBIE",
+                    "unece:cefactUNId": "cefact:",
+                    "rdfs:comment": "A referenced piece of equipment used to hold, protect or secure cargo for logistics purposes.",
+                    "unece:cefactBusinessProcess": ""
+                },
+                {
+                    "@id": "cefact:Logistics_TransportEquipment.Details",
+                    "@type": "unece:AggregateBIE",
+                    "unece:cefactUNId": "cefact:",
+                    "rdfs:comment": "A piece of equipment used to hold, protect or secure cargo for logistics purposes.",
+                    "unece:cefactBusinessProcess": ""
+                }
+            ]
+        },
+        {
+            "@id": "unece:TransportMeans",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "The devices used to convey goods or other objects from place to place during logistics cargo movements.",
+            "unece:cefactElementMetadata": [
+                {
+                    "@id": "cefact:Logistics_TransportMeans.Details",
+                    "@type": "unece:AggregateBIE",
+                    "unece:cefactUNId": "cefact:",
+                    "rdfs:comment": "The devices used to convey goods or other objects from place to place during logistics cargo movements.",
+                    "unece:cefactBusinessProcess": ""
+                }
+            ]
+        },
+        {
+            "@id": "unece:TransportMovement",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "The conveyance (physical carriage) of goods or other objects used for logistics transport purposes.",
+            "unece:cefactElementMetadata": [
+                {
+                    "@id": "cefact:Logistics_TransportMovement.Details",
+                    "@type": "unece:AggregateBIE",
+                    "unece:cefactUNId": "cefact:",
+                    "rdfs:comment": "The conveyance (physical carriage) of goods or other objects used for logistics transport purposes.",
+                    "unece:cefactBusinessProcess": ""
+                }
+            ]
+        },
+        {
+            "@id": "unece:actualMeasure",
+            "@type": "rdfs:Property",
+            "schema:rangeIncludes": "xsd:decimal",
+            "schema:domainIncludes": "unece:Measurement",
+            "rdfs:comment": "An actual measure for this measurement.",
+            "unece:cefactElementMetadata": [
+                {
+                    "@id": "cefact:Measurement.Actual.Measure",
+                    "@type": "unece:BasicBIE",
+                    "unece:cefactUNId": "cefact:",
+                    "unece:cefactBieDomainClass": "cefact:Measurement.Details",
+                    "unece:cefactBusinessProcess": "",
+                    "rdfs:comment": "An actual measure for this measurement."
+                }
+            ]
+        },
+        {
+            "@id": "unece:actualOccurrenceDateTime",
+            "@type": "rdfs:Property",
+            "schema:rangeIncludes": "xsd:dateTime",
+            "schema:domainIncludes": "unece:Event",
+            "rdfs:comment": "The actual date, time, date time, or other date time value of the occurrence of this transport event.",
+            "unece:cefactElementMetadata": [
+                {
+                    "@id": "cefact:Transport_Event.Actual_Occurrence.DateTime",
+                    "@type": "unece:BasicBIE",
+                    "unece:cefactUNId": "cefact:",
+                    "unece:cefactBieDomainClass": "cefact:Transport_Event.Details",
+                    "unece:cefactBusinessProcess": "",
+                    "rdfs:comment": "The actual date, time, date time, or other date time value of the occurrence of this transport event."
+                }
+            ]
+        },
+        {
+            "@id": "unece:affixedLogisticsSeal",
+            "@type": "rdfs:Property",
+            "schema:rangeIncludes": "unece:Seal",
+            "schema:domainIncludes": "unece:TransportEquipment",
+            "rdfs:comment": "A seal affixed to this piece of logistics transport equipment.",
+            "unece:cefactElementMetadata": [
+                {
+                    "@id": "cefact:Logistics_TransportEquipment.Affixed.Logistics_Seal",
+                    "@type": "unece:AssociationBIE",
+                    "unece:cefactUNId": "cefact:",
+                    "unece:cefactBieDomainClass": "cefact:Logistics_TransportEquipment.Details",
+                    "unece:cefactBusinessProcess": "",
+                    "rdfs:comment": "A seal affixed to this piece of logistics transport equipment."
+                }
+            ]
+        },
+        {
+            "@id": "unece:applicableLogisticsServiceCharge",
+            "@type": "rdfs:Property",
+            "schema:rangeIncludes": "unece:ServiceCharge",
+            "schema:domainIncludes": "unece:Consignment",
+            "rdfs:comment": "A logistics service charge applicable to this supply chain consignment, such as freight or insurance charges.",
+            "unece:cefactElementMetadata": [
+                {
+                    "@id": "cefact:SupplyChain_Consignment.Applicable.Logistics_ServiceCharge",
+                    "@type": "unece:AssociationBIE",
+                    "unece:cefactUNId": "cefact:",
+                    "unece:cefactBieDomainClass": "cefact:SupplyChain_Consignment.Details",
+                    "unece:cefactBusinessProcess": "",
+                    "rdfs:comment": "A logistics service charge applicable to this supply chain consignment, such as freight or insurance charges."
+                }
+            ]
+        },
+        {
+            "@id": "unece:applicableTransportDangerousGoods",
+            "@type": "rdfs:Property",
+            "schema:rangeIncludes": "unece:DangerousGoods",
+            "schema:domainIncludes": "unece:ConsignmentItem",
+            "rdfs:comment": "Dangerous goods transport details applicable to this supply chain consignment item.",
+            "unece:cefactElementMetadata": [
+                {
+                    "@id": "cefact:SupplyChain_ConsignmentItem.Applicable.Transport_DangerousGoods",
+                    "@type": "unece:AssociationBIE",
+                    "unece:cefactUNId": "cefact:",
+                    "unece:cefactBieDomainClass": "cefact:SupplyChain_ConsignmentItem.Details",
+                    "unece:cefactBusinessProcess": "",
+                    "rdfs:comment": "Dangerous goods transport details applicable to this supply chain consignment item."
+                }
+            ]
+        },
+        {
+            "@id": "unece:appliedAmount",
+            "@type": "rdfs:Property",
+            "schema:rangeIncludes": "xsd:decimal",
+            "schema:domainIncludes": "unece:ServiceCharge",
+            "rdfs:comment": "A monetary value applied to this logistics service charge.",
+            "unece:cefactElementMetadata": [
+                {
+                    "@id": "cefact:Logistics_ServiceCharge.Applied.Amount",
+                    "@type": "unece:BasicBIE",
+                    "unece:cefactUNId": "cefact:",
+                    "unece:cefactBieDomainClass": "cefact:Logistics_ServiceCharge.Details",
+                    "unece:cefactBusinessProcess": "",
+                    "rdfs:comment": "A monetary value applied to this logistics service charge."
+                }
+            ]
+        },
+        {
+            "@id": "unece:associatedReferencedLogisticsTransportEquipment",
+            "@type": "rdfs:Property",
+            "schema:rangeIncludes": "unece:TransportEquipment",
+            "schema:domainIncludes": "unece:ConsignmentItem",
+            "rdfs:comment": "A referenced piece of transport equipment associated with this supply chain consignment item.",
+            "unece:cefactElementMetadata": [
+                {
+                    "@id": "cefact:SupplyChain_ConsignmentItem.Associated.Referenced_Logistics_TransportEquipment",
+                    "@type": "unece:AssociationBIE",
+                    "unece:cefactUNId": "cefact:",
+                    "unece:cefactBieDomainClass": "cefact:SupplyChain_ConsignmentItem.Details",
+                    "unece:cefactBusinessProcess": "",
+                    "rdfs:comment": "A referenced piece of transport equipment associated with this supply chain consignment item."
+                }
+            ]
+        },
+        {
+            "@id": "unece:attachedSpecifiedBinaryFile",
+            "@type": "rdfs:Property",
+            "schema:rangeIncludes": "unece:BinaryFile",
+            "schema:domainIncludes": "unece:Document",
+            "rdfs:comment": "A binary file attached to this exchanged document.",
+            "unece:cefactElementMetadata": [
+                {
+                    "@id": "cefact:Exchanged_Document.Attached.Specified_BinaryFile",
+                    "@type": "unece:AssociationBIE",
+                    "unece:cefactUNId": "cefact:",
+                    "unece:cefactBieDomainClass": "cefact:Exchanged_Document.Details",
+                    "unece:cefactBusinessProcess": "",
+                    "rdfs:comment": "A binary file attached to this exchanged document."
+                }
+            ]
+        },
+        {
+            "@id": "unece:carrierAcceptanceLogisticsLocation",
+            "@type": "rdfs:Property",
+            "schema:rangeIncludes": "unece:Location",
+            "schema:domainIncludes": "unece:Consignment",
+            "rdfs:comment": "The location where this supply chain consignment will be, or has been, accepted by the carrier.",
+            "unece:cefactElementMetadata": [
+                {
+                    "@id": "cefact:SupplyChain_Consignment.CarrierAcceptance.Logistics_Location",
+                    "@type": "unece:AssociationBIE",
+                    "unece:cefactUNId": "cefact:",
+                    "unece:cefactBieDomainClass": "cefact:SupplyChain_Consignment.Details",
+                    "unece:cefactBusinessProcess": "",
+                    "rdfs:comment": "The location where this supply chain consignment will be, or has been, accepted by the carrier."
+                }
+            ]
+        },
+        {
+            "@id": "unece:carrierAssignedIdentifier",
+            "@type": "rdfs:Property",
+            "schema:rangeIncludes": "xsd:token",
+            "schema:domainIncludes": "unece:Consignment",
+            "rdfs:comment": "The unique identifier assigned by the carrier to this supply chain consignment, such as a booking reference number when cargo space is reserved prior to loading.",
+            "unece:cefactElementMetadata": [
+                {
+                    "@id": "cefact:SupplyChain_Consignment.CarrierAssigned.Identifier",
+                    "@type": "unece:BasicBIE",
+                    "unece:cefactUNId": "cefact:",
+                    "unece:cefactBieDomainClass": "cefact:SupplyChain_Consignment.Details",
+                    "unece:cefactBusinessProcess": "",
+                    "rdfs:comment": "The unique identifier assigned by the carrier to this supply chain consignment, such as a booking reference number when cargo space is reserved prior to loading."
+                }
+            ]
+        },
+        {
+            "@id": "unece:carrierTradeParty",
+            "@type": "rdfs:Property",
+            "schema:rangeIncludes": "unece:Party",
+            "schema:domainIncludes": "unece:Consignment",
+            "rdfs:comment": "The carrier party for this supply chain consignment.",
+            "unece:cefactElementMetadata": [
+                {
+                    "@id": "cefact:SupplyChain_Consignment.Carrier.Trade_Party",
+                    "@type": "unece:AssociationBIE",
+                    "unece:cefactUNId": "cefact:",
+                    "unece:cefactBieDomainClass": "cefact:SupplyChain_Consignment.Details",
+                    "unece:cefactBusinessProcess": "",
+                    "rdfs:comment": "The carrier party for this supply chain consignment."
+                }
+            ]
+        },
+        {
+            "@id": "unece:categoryTransportEquipmentCategoryCode",
+            "@type": "rdfs:Property",
+            "schema:rangeIncludes": "xsd:token",
+            "schema:domainIncludes": "unece:TransportEquipment",
+            "rdfs:comment": [
+                "The code specifying the category of this referenced piece of logistics transport equipment.",
+                "The code specifying the category for this piece of logistics transport equipment, such as container or trailer."
+            ],
+            "unece:cefactElementMetadata": [
+                {
+                    "@id": "cefact:Referenced_Logistics_TransportEquipment.Category.Code",
+                    "@type": "unece:BasicBIE",
+                    "unece:cefactUNId": "cefact:",
+                    "unece:cefactBieDomainClass": "cefact:Referenced_Logistics_TransportEquipment.Details",
+                    "unece:cefactBusinessProcess": "",
+                    "rdfs:comment": "The code specifying the category of this referenced piece of logistics transport equipment."
+                },
+                {
+                    "@id": "cefact:Logistics_TransportEquipment.Category.Code",
+                    "@type": "unece:BasicBIE",
+                    "unece:cefactUNId": "cefact:",
+                    "unece:cefactBieDomainClass": "cefact:Logistics_TransportEquipment.Details",
+                    "unece:cefactBusinessProcess": "",
+                    "rdfs:comment": "The code specifying the category for this piece of logistics transport equipment, such as container or trailer."
+                }
+            ]
+        },
+        {
+            "@id": "unece:categoryTransportServiceCategoryCode",
+            "@type": "rdfs:Property",
+            "schema:rangeIncludes": "xsd:token",
+            "schema:domainIncludes": "unece:ServiceCharge",
+            "rdfs:comment": "The code specifying the category of this logistics service charge [Reference United Nations Code List (UNCL) 5237].",
+            "unece:cefactElementMetadata": [
+                {
+                    "@id": "cefact:Logistics_ServiceCharge.Category.Code",
+                    "@type": "unece:BasicBIE",
+                    "unece:cefactUNId": "cefact:",
+                    "unece:cefactBieDomainClass": "cefact:Logistics_ServiceCharge.Details",
+                    "unece:cefactBusinessProcess": "",
+                    "rdfs:comment": "The code specifying the category of this logistics service charge [Reference United Nations Code List (UNCL) 5237]."
+                }
+            ]
+        },
+        {
+            "@id": "unece:characteristicText",
+            "@type": "rdfs:Property",
+            "schema:rangeIncludes": "xsd:string",
+            "schema:domainIncludes": "unece:TransportEquipment",
+            "rdfs:comment": "The characteristic or characteristics, expressed as text, of a piece of logistics transport equipment, such as its size and type.",
+            "unece:cefactElementMetadata": [
+                {
+                    "@id": "cefact:Logistics_TransportEquipment.Characteristic.Text",
+                    "@type": "unece:BasicBIE",
+                    "unece:cefactUNId": "cefact:",
+                    "unece:cefactBieDomainClass": "cefact:Logistics_TransportEquipment.Details",
+                    "unece:cefactBusinessProcess": "",
+                    "rdfs:comment": "The characteristic or characteristics, expressed as text, of a piece of logistics transport equipment, such as its size and type."
+                }
+            ]
+        },
+        {
+            "@id": "unece:characteristicTransportEquipmentSizeTypeCode",
+            "@type": "rdfs:Property",
+            "schema:rangeIncludes": "xsd:token",
+            "schema:domainIncludes": "unece:TransportEquipment",
+            "rdfs:comment": [
+                "The code specifying the characteristics, such as size and type, of this referenced piece of logistics transport equipment.",
+                "The code specifying the characteristic or characteristics of this piece of logistics transport equipment, such as the ISO 6346 transport equipment size and type code."
+            ],
+            "unece:cefactElementMetadata": [
+                {
+                    "@id": "cefact:Referenced_Logistics_TransportEquipment.Characteristic.Code",
+                    "@type": "unece:BasicBIE",
+                    "unece:cefactUNId": "cefact:",
+                    "unece:cefactBieDomainClass": "cefact:Referenced_Logistics_TransportEquipment.Details",
+                    "unece:cefactBusinessProcess": "",
+                    "rdfs:comment": "The code specifying the characteristics, such as size and type, of this referenced piece of logistics transport equipment."
+                },
+                {
+                    "@id": "cefact:Logistics_TransportEquipment.Characteristic.Code",
+                    "@type": "unece:BasicBIE",
+                    "unece:cefactUNId": "cefact:",
+                    "unece:cefactBieDomainClass": "cefact:Logistics_TransportEquipment.Details",
+                    "unece:cefactBusinessProcess": "",
+                    "rdfs:comment": "The code specifying the characteristic or characteristics of this piece of logistics transport equipment, such as the ISO 6346 transport equipment size and type code."
+                }
+            ]
+        },
+        {
+            "@id": "unece:chargeableWeightWeightUnitMeasure",
+            "@type": "rdfs:Property",
+            "schema:rangeIncludes": "xsd:decimal",
+            "schema:domainIncludes": "unece:ConsignmentItem",
+            "rdfs:comment": "A measure of the supply chain consignment item weight on which charges are to be based.",
+            "unece:cefactElementMetadata": [
+                {
+                    "@id": "cefact:SupplyChain_ConsignmentItem.ChargeableWeight.Measure",
+                    "@type": "unece:BasicBIE",
+                    "unece:cefactUNId": "cefact:",
+                    "unece:cefactBieDomainClass": "cefact:SupplyChain_ConsignmentItem.Details",
+                    "unece:cefactBusinessProcess": "",
+                    "rdfs:comment": "A measure of the supply chain consignment item weight on which charges are to be based."
+                }
+            ]
+        },
+        {
+            "@id": "unece:cityNameText",
+            "@type": "rdfs:Property",
+            "schema:rangeIncludes": "xsd:string",
+            "schema:domainIncludes": "unece:Address",
+            "rdfs:comment": "The name, expressed as text, of the city, town or village of this trade address.",
+            "unece:cefactElementMetadata": [
+                {
+                    "@id": "cefact:Trade_Address.CityName.Text",
+                    "@type": "unece:BasicBIE",
+                    "unece:cefactUNId": "cefact:",
+                    "unece:cefactBieDomainClass": "cefact:Trade_Address.Details",
+                    "unece:cefactBusinessProcess": "",
+                    "rdfs:comment": "The name, expressed as text, of the city, town or village of this trade address."
+                }
+            ]
+        },
+        {
+            "@id": "unece:completeNumberText",
+            "@type": "rdfs:Property",
+            "schema:rangeIncludes": "xsd:string",
+            "schema:domainIncludes": "unece:Communication",
+            "rdfs:comment": "The text string of characters that make up the complete number for this universal communication.",
+            "unece:cefactElementMetadata": [
+                {
+                    "@id": "cefact:Universal_Communication.CompleteNumber.Text",
+                    "@type": "unece:BasicBIE",
+                    "unece:cefactUNId": "cefact:",
+                    "unece:cefactBieDomainClass": "cefact:Universal_Communication.Details",
+                    "unece:cefactBusinessProcess": "",
+                    "rdfs:comment": "The text string of characters that make up the complete number for this universal communication."
+                }
+            ]
+        },
+        {
+            "@id": "unece:conditionMeasure",
+            "@type": "rdfs:Property",
+            "schema:rangeIncludes": "xsd:decimal",
+            "schema:domainIncludes": "unece:Measurement",
+            "rdfs:comment": "A measure of a condition for this measurement.",
+            "unece:cefactElementMetadata": [
+                {
+                    "@id": "cefact:Measurement.Condition.Measure",
+                    "@type": "unece:BasicBIE",
+                    "unece:cefactUNId": "cefact:",
+                    "unece:cefactBieDomainClass": "cefact:Measurement.Details",
+                    "unece:cefactBusinessProcess": "",
+                    "rdfs:comment": "A measure of a condition for this measurement."
+                }
+            ]
+        },
+        {
+            "@id": "unece:conditionTypeTransportServiceConditionCode",
+            "@type": "rdfs:Property",
+            "schema:rangeIncludes": "xsd:token",
+            "schema:domainIncludes": "unece:Service",
+            "rdfs:comment": "A code specifying a type of condition for this transport service, such as a contract or carriage condition.",
+            "unece:cefactElementMetadata": [
+                {
+                    "@id": "cefact:Transport_Service.Condition_Type.Code",
+                    "@type": "unece:BasicBIE",
+                    "unece:cefactUNId": "cefact:",
+                    "unece:cefactBieDomainClass": "cefact:Transport_Service.Details",
+                    "unece:cefactBusinessProcess": "",
+                    "rdfs:comment": "A code specifying a type of condition for this transport service, such as a contract or carriage condition."
+                }
+            ]
+        },
+        {
+            "@id": "unece:consigneeReceiptLogisticsLocation",
+            "@type": "rdfs:Property",
+            "schema:rangeIncludes": "unece:Location",
+            "schema:domainIncludes": "unece:Consignment",
+            "rdfs:comment": "The location at which this supply chain consignment will be or has been received by the consignee.",
+            "unece:cefactElementMetadata": [
+                {
+                    "@id": "cefact:SupplyChain_Consignment.ConsigneeReceipt.Logistics_Location",
+                    "@type": "unece:AssociationBIE",
+                    "unece:cefactUNId": "cefact:",
+                    "unece:cefactBieDomainClass": "cefact:SupplyChain_Consignment.Details",
+                    "unece:cefactBusinessProcess": "",
+                    "rdfs:comment": "The location at which this supply chain consignment will be or has been received by the consignee."
+                }
+            ]
+        },
+        {
+            "@id": "unece:consigneeTradeParty",
+            "@type": "rdfs:Property",
+            "schema:rangeIncludes": "unece:Party",
+            "schema:domainIncludes": "unece:Consignment",
+            "rdfs:comment": "The consignee party for this supply chain consignment.",
+            "unece:cefactElementMetadata": [
+                {
+                    "@id": "cefact:SupplyChain_Consignment.Consignee.Trade_Party",
+                    "@type": "unece:AssociationBIE",
+                    "unece:cefactUNId": "cefact:",
+                    "unece:cefactBieDomainClass": "cefact:SupplyChain_Consignment.Details",
+                    "unece:cefactBusinessProcess": "",
+                    "rdfs:comment": "The consignee party for this supply chain consignment."
+                }
+            ]
+        },
+        {
+            "@id": "unece:consignorAssignedIdentifier",
+            "@type": "rdfs:Property",
+            "schema:rangeIncludes": "xsd:token",
+            "schema:domainIncludes": "unece:Consignment",
+            "rdfs:comment": "The unique identifier assigned by the consignor to this supply chain consignment.",
+            "unece:cefactElementMetadata": [
+                {
+                    "@id": "cefact:SupplyChain_Consignment.ConsignorAssigned.Identifier",
+                    "@type": "unece:BasicBIE",
+                    "unece:cefactUNId": "cefact:",
+                    "unece:cefactBieDomainClass": "cefact:SupplyChain_Consignment.Details",
+                    "unece:cefactBusinessProcess": "",
+                    "rdfs:comment": "The unique identifier assigned by the consignor to this supply chain consignment."
+                }
+            ]
+        },
+        {
+            "@id": "unece:consignorTradeParty",
+            "@type": "rdfs:Property",
+            "schema:rangeIncludes": "unece:Party",
+            "schema:domainIncludes": "unece:Consignment",
+            "rdfs:comment": "The consignor party for this supply chain consignment.",
+            "unece:cefactElementMetadata": [
+                {
+                    "@id": "cefact:SupplyChain_Consignment.Consignor.Trade_Party",
+                    "@type": "unece:AssociationBIE",
+                    "unece:cefactUNId": "cefact:",
+                    "unece:cefactBieDomainClass": "cefact:SupplyChain_Consignment.Details",
+                    "unece:cefactBusinessProcess": "",
+                    "rdfs:comment": "The consignor party for this supply chain consignment."
+                }
+            ]
+        },
+        {
+            "@id": "unece:contentText",
+            "@type": "rdfs:Property",
+            "schema:rangeIncludes": "xsd:string",
+            "schema:domainIncludes": "unece:Clause",
+            "rdfs:comment": "Content, expressed as text, of this document clause.",
+            "unece:cefactElementMetadata": [
+                {
+                    "@id": "cefact:Document_Clause.Content.Text",
+                    "@type": "unece:BasicBIE",
+                    "unece:cefactUNId": "cefact:",
+                    "unece:cefactBieDomainClass": "cefact:Document_Clause.Details",
+                    "unece:cefactBusinessProcess": "",
+                    "rdfs:comment": "Content, expressed as text, of this document clause."
+                }
+            ]
+        },
+        {
+            "@id": "unece:copyIssuedQuantity",
+            "@type": "rdfs:Property",
+            "schema:rangeIncludes": "xsd:decimal",
+            "schema:domainIncludes": "unece:Document",
+            "rdfs:comment": "The number of copies issued of this exchanged document.",
+            "unece:cefactElementMetadata": [
+                {
+                    "@id": "cefact:Exchanged_Document.CopyIssued.Quantity",
+                    "@type": "unece:BasicBIE",
+                    "unece:cefactUNId": "cefact:",
+                    "unece:cefactBieDomainClass": "cefact:Exchanged_Document.Details",
+                    "unece:cefactBusinessProcess": "",
+                    "rdfs:comment": "The number of copies issued of this exchanged document."
+                }
+            ]
+        },
+        {
+            "@id": "unece:copyRequiredQuantity",
+            "@type": "rdfs:Property",
+            "schema:rangeIncludes": "xsd:decimal",
+            "schema:domainIncludes": "unece:Document",
+            "rdfs:comment": "The number of copies required of this exchanged document.",
+            "unece:cefactElementMetadata": [
+                {
+                    "@id": "cefact:Exchanged_Document.CopyRequired.Quantity",
+                    "@type": "unece:BasicBIE",
+                    "unece:cefactUNId": "cefact:",
+                    "unece:cefactBieDomainClass": "cefact:Exchanged_Document.Details",
+                    "unece:cefactBusinessProcess": "",
+                    "rdfs:comment": "The number of copies required of this exchanged document."
+                }
+            ]
+        },
+        {
+            "@id": "unece:countryNameText",
+            "@type": "rdfs:Property",
+            "schema:rangeIncludes": "xsd:string",
+            "schema:domainIncludes": "unece:Address",
+            "rdfs:comment": "A name, expressed as text, of the country for this trade address.",
+            "unece:cefactElementMetadata": [
+                {
+                    "@id": "cefact:Trade_Address.CountryName.Text",
+                    "@type": "unece:BasicBIE",
+                    "unece:cefactUNId": "cefact:",
+                    "unece:cefactBieDomainClass": "cefact:Trade_Address.Details",
+                    "unece:cefactBusinessProcess": "",
+                    "rdfs:comment": "A name, expressed as text, of the country for this trade address."
+                }
+            ]
+        },
+        {
+            "@id": "unece:definedTradeContact",
+            "@type": "rdfs:Property",
+            "schema:rangeIncludes": "unece:Contact",
+            "schema:domainIncludes": "unece:Party",
+            "rdfs:comment": "A trade contact defined for this trade party.",
+            "unece:cefactElementMetadata": [
+                {
+                    "@id": "cefact:Trade_Party.Defined.Trade_Contact",
+                    "@type": "unece:AssociationBIE",
+                    "unece:cefactUNId": "cefact:",
+                    "unece:cefactBieDomainClass": "cefact:Trade_Party.Details",
+                    "unece:cefactBusinessProcess": "",
+                    "rdfs:comment": "A trade contact defined for this trade party."
+                }
+            ]
+        },
+        {
+            "@id": "unece:descriptionCode",
+            "@type": "rdfs:Property",
+            "schema:rangeIncludes": "xsd:token",
+            "schema:domainIncludes": "unece:Instructions",
+            "rdfs:comment": [
+                "The code specifying the description of these haulage instructions.",
+                "The code specifying a description of these transport instructions.",
+                "A code specifying a description of these handling instructions.",
+                "The code specifying a description of these temperature setting instructions."
+            ],
+            "unece:cefactElementMetadata": [
+                {
+                    "@id": "cefact:TemperatureSetting_Instructions.Description.Code",
+                    "@type": "unece:BasicBIE",
+                    "unece:cefactUNId": "cefact:",
+                    "unece:cefactBieDomainClass": "cefact:TemperatureSetting_Instructions.Details",
+                    "unece:cefactBusinessProcess": "",
+                    "rdfs:comment": "The code specifying a description of these temperature setting instructions."
+                },
+                {
+                    "@id": "cefact:Transport_Instructions.Description.Code",
+                    "@type": "unece:BasicBIE",
+                    "unece:cefactUNId": "cefact:",
+                    "unece:cefactBieDomainClass": "cefact:Transport_Instructions.Details",
+                    "unece:cefactBusinessProcess": "",
+                    "rdfs:comment": "The code specifying a description of these transport instructions."
+                },
+                {
+                    "@id": "cefact:Haulage_Instructions.Description.Code",
+                    "@type": "unece:BasicBIE",
+                    "unece:cefactUNId": "cefact:",
+                    "unece:cefactBieDomainClass": "cefact:Haulage_Instructions.Details",
+                    "unece:cefactBusinessProcess": "",
+                    "rdfs:comment": "The code specifying the description of these haulage instructions."
+                },
+                {
+                    "@id": "cefact:Handling_Instructions.Description.Code",
+                    "@type": "unece:BasicBIE",
+                    "unece:cefactUNId": "cefact:",
+                    "unece:cefactBieDomainClass": "cefact:Handling_Instructions.Details",
+                    "unece:cefactBusinessProcess": "",
+                    "rdfs:comment": "A code specifying a description of these handling instructions."
+                }
+            ]
+        },
+        {
+            "@id": "unece:descriptionText",
+            "@type": "rdfs:Property",
+            "schema:rangeIncludes": "xsd:string",
+            "schema:domainIncludes": "unece:Instructions",
+            "rdfs:comment": [
+                "A textual description of these handling instructions.",
+                "A textual description of these transport instructions.",
+                "A textual description of these temperature setting instructions.",
+                "The textual description of these haulage instructions."
+            ],
+            "unece:cefactElementMetadata": [
+                {
+                    "@id": "cefact:Handling_Instructions.Description.Text",
+                    "@type": "unece:BasicBIE",
+                    "unece:cefactUNId": "cefact:",
+                    "unece:cefactBieDomainClass": "cefact:Handling_Instructions.Details",
+                    "unece:cefactBusinessProcess": "",
+                    "rdfs:comment": "A textual description of these handling instructions."
+                },
+                {
+                    "@id": "cefact:Haulage_Instructions.Description.Text",
+                    "@type": "unece:BasicBIE",
+                    "unece:cefactUNId": "cefact:",
+                    "unece:cefactBieDomainClass": "cefact:Haulage_Instructions.Details",
+                    "unece:cefactBusinessProcess": "",
+                    "rdfs:comment": "The textual description of these haulage instructions."
+                },
+                {
+                    "@id": "cefact:TemperatureSetting_Instructions.Description.Text",
+                    "@type": "unece:BasicBIE",
+                    "unece:cefactUNId": "cefact:",
+                    "unece:cefactBieDomainClass": "cefact:TemperatureSetting_Instructions.Details",
+                    "unece:cefactBusinessProcess": "",
+                    "rdfs:comment": "A textual description of these temperature setting instructions."
+                },
+                {
+                    "@id": "cefact:Transport_Instructions.Description.Text",
+                    "@type": "unece:BasicBIE",
+                    "unece:cefactUNId": "cefact:",
+                    "unece:cefactBieDomainClass": "cefact:Transport_Instructions.Details",
+                    "unece:cefactBusinessProcess": "",
+                    "rdfs:comment": "A textual description of these transport instructions."
+                }
+            ]
+        },
+        {
+            "@id": "unece:eMSIdentifier",
+            "@type": "rdfs:Property",
+            "schema:rangeIncludes": "xsd:token",
+            "schema:domainIncludes": "unece:DangerousGoods",
+            "rdfs:comment": "The unique transport emergency procedure (EMS) identifier applicable for these transported dangerous goods.",
+            "unece:cefactElementMetadata": [
+                {
+                    "@id": "cefact:Transport_DangerousGoods.EMS.Identifier",
+                    "@type": "unece:BasicBIE",
+                    "unece:cefactUNId": "cefact:",
+                    "unece:cefactBieDomainClass": "cefact:Transport_DangerousGoods.Details",
+                    "unece:cefactBusinessProcess": "",
+                    "rdfs:comment": "The unique transport emergency procedure (EMS) identifier applicable for these transported dangerous goods."
+                }
+            ]
+        },
+        {
+            "@id": "unece:emailURIUniversalCommunication",
+            "@type": "rdfs:Property",
+            "schema:rangeIncludes": "unece:Communication",
+            "schema:domainIncludes": "unece:Contact",
+            "rdfs:comment": "The email URI communication information for this trade contact.",
+            "unece:cefactElementMetadata": [
+                {
+                    "@id": "cefact:Trade_Contact.Email_URI.Universal_Communication",
+                    "@type": "unece:AssociationBIE",
+                    "unece:cefactUNId": "cefact:",
+                    "unece:cefactBieDomainClass": "cefact:Trade_Contact.Details",
+                    "unece:cefactBusinessProcess": "",
+                    "rdfs:comment": "The email URI communication information for this trade contact."
+                }
+            ]
+        },
+        {
+            "@id": "unece:estimatedOccurrenceDateTime",
+            "@type": "rdfs:Property",
+            "schema:rangeIncludes": "xsd:dateTime",
+            "schema:domainIncludes": "unece:Event",
+            "rdfs:comment": "The estimated date, time, date time, or other date time value of the occurrence of this transport event.",
+            "unece:cefactElementMetadata": [
+                {
+                    "@id": "cefact:Transport_Event.Estimated_Occurrence.DateTime",
+                    "@type": "unece:BasicBIE",
+                    "unece:cefactUNId": "cefact:",
+                    "unece:cefactBieDomainClass": "cefact:Transport_Event.Details",
+                    "unece:cefactBusinessProcess": "",
+                    "rdfs:comment": "The estimated date, time, date time, or other date time value of the occurrence of this transport event."
+                }
+            ]
+        },
+        {
+            "@id": "unece:finalDestinationLogisticsLocation",
+            "@type": "rdfs:Property",
+            "schema:rangeIncludes": "unece:Location",
+            "schema:domainIncludes": "unece:Consignment",
+            "rdfs:comment": "The final destination location for this supply chain consignment.",
+            "unece:cefactElementMetadata": [
+                {
+                    "@id": "cefact:SupplyChain_Consignment.FinalDestination.Logistics_Location",
+                    "@type": "unece:AssociationBIE",
+                    "unece:cefactUNId": "cefact:",
+                    "unece:cefactBieDomainClass": "cefact:SupplyChain_Consignment.Details",
+                    "unece:cefactBusinessProcess": "",
+                    "rdfs:comment": "The final destination location for this supply chain consignment."
+                }
+            ]
+        },
+        {
+            "@id": "unece:flashpointTemperatureMeasurement",
+            "@type": "rdfs:Property",
+            "schema:rangeIncludes": "unece:Measurement",
+            "schema:domainIncludes": "unece:DangerousGoods",
+            "rdfs:comment": "A measurement of the flashpoint temperature of these transported dangerous goods.",
+            "unece:cefactElementMetadata": [
+                {
+                    "@id": "cefact:Transport_DangerousGoods.FlashpointTemperature.Measurement",
+                    "@type": "unece:AssociationBIE",
+                    "unece:cefactUNId": "cefact:",
+                    "unece:cefactBieDomainClass": "cefact:Transport_DangerousGoods.Details",
+                    "unece:cefactBusinessProcess": "",
+                    "rdfs:comment": "A measurement of the flashpoint temperature of these transported dangerous goods."
+                }
+            ]
+        },
+        {
+            "@id": "unece:formattedIssueFormattedDateTime",
+            "@type": "rdfs:Property",
+            "schema:rangeIncludes": "xsd:dateTime",
+            "schema:domainIncludes": "unece:Document",
+            "rdfs:comment": "The formatted date or date time for the issuance of this referenced document.",
+            "unece:cefactElementMetadata": [
+                {
+                    "@id": "cefact:Referenced_Document.Formatted_Issue.DateTime",
+                    "@type": "unece:BasicBIE",
+                    "unece:cefactUNId": "cefact:",
+                    "unece:cefactBieDomainClass": "cefact:Referenced_Document.Details",
+                    "unece:cefactBusinessProcess": "",
+                    "rdfs:comment": "The formatted date or date time for the issuance of this referenced document."
+                }
+            ]
+        },
+        {
+            "@id": "unece:freightForwarderTradeParty",
+            "@type": "rdfs:Property",
+            "schema:rangeIncludes": "unece:Party",
+            "schema:domainIncludes": "unece:Consignment",
+            "rdfs:comment": "The freight forwarder party for this supply chain consignment.",
+            "unece:cefactElementMetadata": [
+                {
+                    "@id": "cefact:SupplyChain_Consignment.FreightForwarder.Trade_Party",
+                    "@type": "unece:AssociationBIE",
+                    "unece:cefactUNId": "cefact:",
+                    "unece:cefactBieDomainClass": "cefact:SupplyChain_Consignment.Details",
+                    "unece:cefactBusinessProcess": "",
+                    "rdfs:comment": "The freight forwarder party for this supply chain consignment."
+                }
+            ]
+        },
+        {
+            "@id": "unece:geoCoordinateIdentificationGeographicalCoordinate",
+            "@type": "rdfs:Property",
+            "schema:rangeIncludes": "unece:GeographicalCoordinate",
+            "schema:domainIncludes": "unece:Address",
+            "rdfs:comment": "An identification of a set of geographical coordinates for this trade address.",
+            "unece:cefactElementMetadata": [
+                {
+                    "@id": "cefact:Trade_Address.Geo-CoordinateIdentification.GeographicalCoordinate",
+                    "@type": "unece:AssociationBIE",
+                    "unece:cefactUNId": "cefact:",
+                    "unece:cefactBieDomainClass": "cefact:Trade_Address.Details",
+                    "unece:cefactBusinessProcess": "",
+                    "rdfs:comment": "An identification of a set of geographical coordinates for this trade address."
+                }
+            ]
+        },
+        {
+            "@id": "unece:grossVolumeVolumeUnitMeasure",
+            "@type": "rdfs:Property",
+            "schema:rangeIncludes": "xsd:decimal",
+            "schema:domainIncludes": "unece:ConsignmentItem",
+            "rdfs:comment": "A measure of the gross volume, normally calculated by multiplying the maximum length, width and height of this supply chain consignment item.",
+            "unece:cefactElementMetadata": [
+                {
+                    "@id": "cefact:SupplyChain_ConsignmentItem.GrossVolume.Measure",
+                    "@type": "unece:BasicBIE",
+                    "unece:cefactUNId": "cefact:",
+                    "unece:cefactBieDomainClass": "cefact:SupplyChain_ConsignmentItem.Details",
+                    "unece:cefactBusinessProcess": "",
+                    "rdfs:comment": "A measure of the gross volume, normally calculated by multiplying the maximum length, width and height of this supply chain consignment item."
+                }
+            ]
+        },
+        {
+            "@id": "unece:grossWeightWeightUnitMeasure",
+            "@type": "rdfs:Property",
+            "schema:rangeIncludes": "xsd:decimal",
+            "schema:domainIncludes": [
+                "unece:ConsignmentItem",
+                "unece:TransportEquipment"
+            ],
+            "rdfs:comment": [
+                "A measure of the gross weight (mass) of this supply chain consignment item which includes packaging but excludes any transport equipment.",
+                "The measure of the gross weight (mass) of this piece of logistics transport equipment which is the weight (mass) including loaded goods, packing and transport equipment."
+            ],
+            "unece:cefactElementMetadata": [
+                {
+                    "@id": "cefact:SupplyChain_ConsignmentItem.GrossWeight.Measure",
+                    "@type": "unece:BasicBIE",
+                    "unece:cefactUNId": "cefact:",
+                    "unece:cefactBieDomainClass": "cefact:SupplyChain_ConsignmentItem.Details",
+                    "unece:cefactBusinessProcess": "",
+                    "rdfs:comment": "A measure of the gross weight (mass) of this supply chain consignment item which includes packaging but excludes any transport equipment."
+                },
+                {
+                    "@id": "cefact:Logistics_TransportEquipment.GrossWeight.Measure",
+                    "@type": "unece:BasicBIE",
+                    "unece:cefactUNId": "cefact:",
+                    "unece:cefactBieDomainClass": "cefact:Logistics_TransportEquipment.Details",
+                    "unece:cefactBusinessProcess": "",
+                    "rdfs:comment": "The measure of the gross weight (mass) of this piece of logistics transport equipment which is the weight (mass) including loaded goods, packing and transport equipment."
+                }
+            ]
+        },
+        {
+            "@id": "unece:handlingHandlingInstructions",
+            "@type": "rdfs:Property",
+            "schema:rangeIncludes": "unece:Instructions",
+            "schema:domainIncludes": "unece:ConsignmentItem",
+            "rdfs:comment": "Handling instructions for this supply chain consignment item.",
+            "unece:cefactElementMetadata": [
+                {
+                    "@id": "cefact:SupplyChain_ConsignmentItem.Handling.Handling_Instructions",
+                    "@type": "unece:AssociationBIE",
+                    "unece:cefactUNId": "cefact:",
+                    "unece:cefactBieDomainClass": "cefact:SupplyChain_ConsignmentItem.Details",
+                    "unece:cefactBusinessProcess": "",
+                    "rdfs:comment": "Handling instructions for this supply chain consignment item."
+                }
+            ]
+        },
+        {
+            "@id": "unece:hazardClassVersionIdentifier",
+            "@type": "rdfs:Property",
+            "schema:rangeIncludes": "xsd:token",
+            "schema:domainIncludes": "unece:DangerousGoods",
+            "rdfs:comment": "The unique identifier of the version of a hazard class for these transported dangerous goods.",
+            "unece:cefactElementMetadata": [
+                {
+                    "@id": "cefact:Transport_DangerousGoods.HazardClassVersion.Identifier",
+                    "@type": "unece:BasicBIE",
+                    "unece:cefactUNId": "cefact:",
+                    "unece:cefactBieDomainClass": "cefact:Transport_DangerousGoods.Details",
+                    "unece:cefactBusinessProcess": "",
+                    "rdfs:comment": "The unique identifier of the version of a hazard class for these transported dangerous goods."
+                }
+            ]
+        },
+        {
+            "@id": "unece:hazardClassificationIdentifier",
+            "@type": "rdfs:Property",
+            "schema:rangeIncludes": "xsd:token",
+            "schema:domainIncludes": "unece:DangerousGoods",
+            "rdfs:comment": "The unique identifier of a hazard class applicable to these transported dangerous goods as defined by the relevant governing regulation authority.",
+            "unece:cefactElementMetadata": [
+                {
+                    "@id": "cefact:Transport_DangerousGoods.HazardClassification.Identifier",
+                    "@type": "unece:BasicBIE",
+                    "unece:cefactUNId": "cefact:",
+                    "unece:cefactBieDomainClass": "cefact:Transport_DangerousGoods.Details",
+                    "unece:cefactBusinessProcess": "",
+                    "rdfs:comment": "The unique identifier of a hazard class applicable to these transported dangerous goods as defined by the relevant governing regulation authority."
+                }
+            ]
+        },
+        {
+            "@id": "unece:identificationCountryIdentifier",
+            "@type": "rdfs:Property",
+            "schema:rangeIncludes": "xsd:token",
+            "schema:domainIncludes": "unece:Country",
+            "rdfs:comment": "A unique identifier for this trade country.",
+            "unece:cefactElementMetadata": [
+                {
+                    "@id": "cefact:Trade_Country.Identification.Identifier",
+                    "@type": "unece:BasicBIE",
+                    "unece:cefactUNId": "cefact:",
+                    "unece:cefactBieDomainClass": "cefact:Trade_Country.Details",
+                    "unece:cefactBusinessProcess": "",
+                    "rdfs:comment": "A unique identifier for this trade country."
+                }
+            ]
+        },
+        {
+            "@id": "unece:identificationIdentifier",
+            "@type": "rdfs:Property",
+            "schema:rangeIncludes": "xsd:token",
+            "schema:domainIncludes": [
+                "unece:Party",
+                "unece:TransportEquipment",
+                "unece:TransportMovement",
+                "unece:Seal",
+                "unece:Clause",
+                "unece:Document",
+                "unece:TransportMeans",
+                "unece:Location"
+            ],
+            "rdfs:comment": [
+                "The unique identifier of this exchanged document.",
+                "An identifier of this logistics means of transport, such as the International Maritime Organization number of a vessel.",
+                "The unique identifier for this logistics transport movement, such as a voyage number, flight number, or trip number.",
+                "The unique identifier of this document clause.",
+                "A unique identifier of this trade party.",
+                "The unique identifier for this referenced piece of logistics transport equipment, such as a number, mark or name.",
+                "A unique identifier for this logistics related location, such as a United Nations Location Code (UNLOCODE) or GS1 Global Location Number (GLN).",
+                "The unique identifier of this piece of logistics transport equipment.",
+                "A unique identifier for this logistics seal.",
+                "A unique identifier for this referenced document."
+            ],
+            "unece:cefactElementMetadata": [
+                {
+                    "@id": "cefact:Referenced_Document.Identification.Identifier",
+                    "@type": "unece:BasicBIE",
+                    "unece:cefactUNId": "cefact:",
+                    "unece:cefactBieDomainClass": "cefact:Referenced_Document.Details",
+                    "unece:cefactBusinessProcess": "",
+                    "rdfs:comment": "A unique identifier for this referenced document."
+                },
+                {
+                    "@id": "cefact:Exchanged_Document.Identification.Identifier",
+                    "@type": "unece:BasicBIE",
+                    "unece:cefactUNId": "cefact:",
+                    "unece:cefactBieDomainClass": "cefact:Exchanged_Document.Details",
+                    "unece:cefactBusinessProcess": "",
+                    "rdfs:comment": "The unique identifier of this exchanged document."
+                },
+                {
+                    "@id": "cefact:Referenced_Logistics_TransportEquipment.Identification.Identifier",
+                    "@type": "unece:BasicBIE",
+                    "unece:cefactUNId": "cefact:",
+                    "unece:cefactBieDomainClass": "cefact:Referenced_Logistics_TransportEquipment.Details",
+                    "unece:cefactBusinessProcess": "",
+                    "rdfs:comment": "The unique identifier for this referenced piece of logistics transport equipment, such as a number, mark or name."
+                },
+                {
+                    "@id": "cefact:Trade_Party.Identification.Identifier",
+                    "@type": "unece:BasicBIE",
+                    "unece:cefactUNId": "cefact:",
+                    "unece:cefactBieDomainClass": "cefact:Trade_Party.Details",
+                    "unece:cefactBusinessProcess": "",
+                    "rdfs:comment": "A unique identifier of this trade party."
+                },
+                {
+                    "@id": "cefact:Logistics_TransportMeans.Identification.Identifier",
+                    "@type": "unece:BasicBIE",
+                    "unece:cefactUNId": "cefact:",
+                    "unece:cefactBieDomainClass": "cefact:Logistics_TransportMeans.Details",
+                    "unece:cefactBusinessProcess": "",
+                    "rdfs:comment": "An identifier of this logistics means of transport, such as the International Maritime Organization number of a vessel."
+                },
+                {
+                    "@id": "cefact:Logistics_Location.Identification.Identifier",
+                    "@type": "unece:BasicBIE",
+                    "unece:cefactUNId": "cefact:",
+                    "unece:cefactBieDomainClass": "cefact:Logistics_Location.Details",
+                    "unece:cefactBusinessProcess": "",
+                    "rdfs:comment": "A unique identifier for this logistics related location, such as a United Nations Location Code (UNLOCODE) or GS1 Global Location Number (GLN)."
+                },
+                {
+                    "@id": "cefact:Document_Clause.Identification.Identifier",
+                    "@type": "unece:BasicBIE",
+                    "unece:cefactUNId": "cefact:",
+                    "unece:cefactBieDomainClass": "cefact:Document_Clause.Details",
+                    "unece:cefactBusinessProcess": "",
+                    "rdfs:comment": "The unique identifier of this document clause."
+                },
+                {
+                    "@id": "cefact:Logistics_TransportMovement.Identification.Identifier",
+                    "@type": "unece:BasicBIE",
+                    "unece:cefactUNId": "cefact:",
+                    "unece:cefactBieDomainClass": "cefact:Logistics_TransportMovement.Details",
+                    "unece:cefactBusinessProcess": "",
+                    "rdfs:comment": "The unique identifier for this logistics transport movement, such as a voyage number, flight number, or trip number."
+                },
+                {
+                    "@id": "cefact:Logistics_TransportEquipment.Identification.Identifier",
+                    "@type": "unece:BasicBIE",
+                    "unece:cefactUNId": "cefact:",
+                    "unece:cefactBieDomainClass": "cefact:Logistics_TransportEquipment.Details",
+                    "unece:cefactBusinessProcess": "",
+                    "rdfs:comment": "The unique identifier of this piece of logistics transport equipment."
+                },
+                {
+                    "@id": "cefact:Logistics_Seal.Identification.Identifier",
+                    "@type": "unece:BasicBIE",
+                    "unece:cefactUNId": "cefact:",
+                    "unece:cefactBieDomainClass": "cefact:Logistics_Seal.Details",
+                    "unece:cefactBusinessProcess": "",
+                    "rdfs:comment": "A unique identifier for this logistics seal."
+                }
+            ]
+        },
+        {
+            "@id": "unece:identificationText",
+            "@type": "rdfs:Property",
+            "schema:rangeIncludes": "xsd:string",
+            "schema:domainIncludes": "unece:Cargo",
+            "rdfs:comment": "Identification, expressed as text, of this transport cargo that is sufficient to identify it for customs, statistical or transport purposes.",
+            "unece:cefactElementMetadata": [
+                {
+                    "@id": "cefact:Transport_Cargo.Identification.Text",
+                    "@type": "unece:BasicBIE",
+                    "unece:cefactUNId": "cefact:",
+                    "unece:cefactBieDomainClass": "cefact:Transport_Cargo.Details",
+                    "unece:cefactBusinessProcess": "",
+                    "rdfs:comment": "Identification, expressed as text, of this transport cargo that is sufficient to identify it for customs, statistical or transport purposes."
+                }
+            ]
+        },
+        {
+            "@id": "unece:includedReferencedSupplyChainConsignment",
+            "@type": "rdfs:Property",
+            "schema:rangeIncludes": "unece:Consignment",
+            "schema:domainIncludes": "unece:Consignment",
+            "rdfs:comment": "A referenced consignment included in this supply chain consignment.",
+            "unece:cefactElementMetadata": [
+                {
+                    "@id": "cefact:SupplyChain_Consignment.Included.Referenced_SupplyChain_Consignment",
+                    "@type": "unece:AssociationBIE",
+                    "unece:cefactUNId": "cefact:",
+                    "unece:cefactBieDomainClass": "cefact:SupplyChain_Consignment.Details",
+                    "unece:cefactBusinessProcess": "",
+                    "rdfs:comment": "A referenced consignment included in this supply chain consignment."
+                }
+            ]
+        },
+        {
+            "@id": "unece:includedSupplyChainConsignmentItem",
+            "@type": "rdfs:Property",
+            "schema:rangeIncludes": "unece:ConsignmentItem",
+            "schema:domainIncludes": "unece:Consignment",
+            "rdfs:comment": "A consignment item included in this supply chain consignment.",
+            "unece:cefactElementMetadata": [
+                {
+                    "@id": "cefact:SupplyChain_Consignment.Included.SupplyChain_ConsignmentItem",
+                    "@type": "unece:AssociationBIE",
+                    "unece:cefactUNId": "cefact:",
+                    "unece:cefactBieDomainClass": "cefact:SupplyChain_Consignment.Details",
+                    "unece:cefactBusinessProcess": "",
+                    "rdfs:comment": "A consignment item included in this supply chain consignment."
+                }
+            ]
+        },
+        {
+            "@id": "unece:informationTemperatureSettingInstructions",
+            "@type": "rdfs:Property",
+            "schema:rangeIncludes": "unece:Instructions",
+            "schema:domainIncludes": "unece:Temperature",
+            "rdfs:comment": "Informational instructions for achieving, maintaining, using or responding to this transport setting temperature.",
+            "unece:cefactElementMetadata": [
+                {
+                    "@id": "cefact:TransportSetting_Temperature.Information.TemperatureSetting_Instructions",
+                    "@type": "unece:AssociationBIE",
+                    "unece:cefactUNId": "cefact:",
+                    "unece:cefactBieDomainClass": "cefact:TransportSetting_Temperature.Details",
+                    "unece:cefactBusinessProcess": "",
+                    "rdfs:comment": "Informational instructions for achieving, maintaining, using or responding to this transport setting temperature."
+                }
+            ]
+        },
+        {
+            "@id": "unece:informationText",
+            "@type": "rdfs:Property",
+            "schema:rangeIncludes": "xsd:string",
+            "schema:domainIncludes": [
+                "unece:ConsignmentItem",
+                "unece:DangerousGoods"
+            ],
+            "rdfs:comment": [
+                "Information, expressed as text, concerning the transport of these dangerous goods.",
+                "Information, expressed as text, for this supply chain consignment item."
+            ],
+            "unece:cefactElementMetadata": [
+                {
+                    "@id": "cefact:SupplyChain_ConsignmentItem.Information.Text",
+                    "@type": "unece:BasicBIE",
+                    "unece:cefactUNId": "cefact:",
+                    "unece:cefactBieDomainClass": "cefact:SupplyChain_ConsignmentItem.Details",
+                    "unece:cefactBusinessProcess": "",
+                    "rdfs:comment": "Information, expressed as text, for this supply chain consignment item."
+                },
+                {
+                    "@id": "cefact:Transport_DangerousGoods.Information.Text",
+                    "@type": "unece:BasicBIE",
+                    "unece:cefactUNId": "cefact:",
+                    "unece:cefactBieDomainClass": "cefact:Transport_DangerousGoods.Details",
+                    "unece:cefactBusinessProcess": "",
+                    "rdfs:comment": "Information, expressed as text, concerning the transport of these dangerous goods."
+                }
+            ]
+        },
+        {
+            "@id": "unece:issueDateTime",
+            "@type": "rdfs:Property",
+            "schema:rangeIncludes": "xsd:dateTime",
+            "schema:domainIncludes": "unece:Document",
+            "rdfs:comment": "The date, time, date time or other date time value for the issuance of this exchanged document.",
+            "unece:cefactElementMetadata": [
+                {
+                    "@id": "cefact:Exchanged_Document.Issue.DateTime",
+                    "@type": "unece:BasicBIE",
+                    "unece:cefactUNId": "cefact:",
+                    "unece:cefactBieDomainClass": "cefact:Exchanged_Document.Details",
+                    "unece:cefactBusinessProcess": "",
+                    "rdfs:comment": "The date, time, date time or other date time value for the issuance of this exchanged document."
+                }
+            ]
+        },
+        {
+            "@id": "unece:issueLogisticsLocation",
+            "@type": "rdfs:Property",
+            "schema:rangeIncludes": "unece:Location",
+            "schema:domainIncludes": "unece:Document",
+            "rdfs:comment": "The location where this exchanged document has been issued.",
+            "unece:cefactElementMetadata": [
+                {
+                    "@id": "cefact:Exchanged_Document.Issue.Logistics_Location",
+                    "@type": "unece:AssociationBIE",
+                    "unece:cefactUNId": "cefact:",
+                    "unece:cefactBieDomainClass": "cefact:Exchanged_Document.Details",
+                    "unece:cefactBusinessProcess": "",
+                    "rdfs:comment": "The location where this exchanged document has been issued."
+                }
+            ]
+        },
+        {
+            "@id": "unece:issuerTradeParty",
+            "@type": "rdfs:Property",
+            "schema:rangeIncludes": "unece:Party",
+            "schema:domainIncludes": "unece:Document",
+            "rdfs:comment": "The party that issues this exchanged document.",
+            "unece:cefactElementMetadata": [
+                {
+                    "@id": "cefact:Exchanged_Document.Issuer.Trade_Party",
+                    "@type": "unece:AssociationBIE",
+                    "unece:cefactUNId": "cefact:",
+                    "unece:cefactBieDomainClass": "cefact:Exchanged_Document.Details",
+                    "unece:cefactBusinessProcess": "",
+                    "rdfs:comment": "The party that issues this exchanged document."
+                }
+            ]
+        },
+        {
+            "@id": "unece:itemQuantity",
+            "@type": "rdfs:Property",
+            "schema:rangeIncludes": "xsd:decimal",
+            "schema:domainIncludes": "unece:Package",
+            "rdfs:comment": [
+                "The number of referenced logistics packages at this level.",
+                "The number of logistics packages at this level."
+            ],
+            "unece:cefactElementMetadata": [
+                {
+                    "@id": "cefact:Referenced_Logistics_Package.Item.Quantity",
+                    "@type": "unece:BasicBIE",
+                    "unece:cefactUNId": "cefact:",
+                    "unece:cefactBieDomainClass": "cefact:Referenced_Logistics_Package.Details",
+                    "unece:cefactBusinessProcess": "",
+                    "rdfs:comment": "The number of referenced logistics packages at this level."
+                },
+                {
+                    "@id": "cefact:Logistics_Package.Item.Quantity",
+                    "@type": "unece:BasicBIE",
+                    "unece:cefactUNId": "cefact:",
+                    "unece:cefactBieDomainClass": "cefact:Logistics_Package.Details",
+                    "unece:cefactBusinessProcess": "",
+                    "rdfs:comment": "The number of logistics packages at this level."
+                }
+            ]
+        },
+        {
+            "@id": "unece:itineraryStopTransportEvent",
+            "@type": "rdfs:Property",
+            "schema:rangeIncludes": "unece:Event",
+            "schema:domainIncludes": "unece:Route",
+            "rdfs:comment": "An itinerary stop event for this transport route, such as a port call in a vessel schedule.",
+            "unece:cefactElementMetadata": [
+                {
+                    "@id": "cefact:Transport_Route.ItineraryStop.Transport_Event",
+                    "@type": "unece:AssociationBIE",
+                    "unece:cefactUNId": "cefact:",
+                    "unece:cefactBieDomainClass": "cefact:Transport_Route.Details",
+                    "unece:cefactBusinessProcess": "",
+                    "rdfs:comment": "An itinerary stop event for this transport route, such as a port call in a vessel schedule."
+                }
+            ]
+        },
+        {
+            "@id": "unece:latitudeDirectionIndicator",
+            "@type": "rdfs:Property",
+            "schema:rangeIncludes": "xsd:boolean",
+            "schema:domainIncludes": "unece:GeographicalCoordinate",
+            "rdfs:comment": "The indication of whether the latitude compass direction from the Equator meridian to the meridian of a specific place is North (+) or South (-)  (Reference ISO 6709).",
+            "unece:cefactElementMetadata": [
+                {
+                    "@id": "cefact:GeographicalCoordinate.LatitudeDirection.Indicator",
+                    "@type": "unece:BasicBIE",
+                    "unece:cefactUNId": "cefact:",
+                    "unece:cefactBieDomainClass": "cefact:GeographicalCoordinate.Details",
+                    "unece:cefactBusinessProcess": "",
+                    "rdfs:comment": "The indication of whether the latitude compass direction from the Equator meridian to the meridian of a specific place is North (+) or South (-)  (Reference ISO 6709)."
+                }
+            ]
+        },
+        {
+            "@id": "unece:latitudeMeasure",
+            "@type": "rdfs:Property",
+            "schema:rangeIncludes": "xsd:decimal",
+            "schema:domainIncludes": "unece:GeographicalCoordinate",
+            "rdfs:comment": "The measure of the latitude as an angular distance north or south from the Equator meridian to the meridian of a specific place for this geographical coordinate (Reference ISO 6709).",
+            "unece:cefactElementMetadata": [
+                {
+                    "@id": "cefact:GeographicalCoordinate.Latitude.Measure",
+                    "@type": "unece:BasicBIE",
+                    "unece:cefactUNId": "cefact:",
+                    "unece:cefactBieDomainClass": "cefact:GeographicalCoordinate.Details",
+                    "unece:cefactBusinessProcess": "",
+                    "rdfs:comment": "The measure of the latitude as an angular distance north or south from the Equator meridian to the meridian of a specific place for this geographical coordinate (Reference ISO 6709)."
+                }
+            ]
+        },
+        {
+            "@id": "unece:loadingTransportEvent",
+            "@type": "rdfs:Property",
+            "schema:rangeIncludes": "unece:Event",
+            "schema:domainIncludes": "unece:TransportMovement",
+            "rdfs:comment": "The loading event during which goods will be or have been loaded into or onto the means of transport used for this logistics transport movement.",
+            "unece:cefactElementMetadata": [
+                {
+                    "@id": "cefact:Logistics_TransportMovement.Loading.Transport_Event",
+                    "@type": "unece:AssociationBIE",
+                    "unece:cefactUNId": "cefact:",
+                    "unece:cefactBieDomainClass": "cefact:Logistics_TransportMovement.Details",
+                    "unece:cefactBusinessProcess": "",
+                    "rdfs:comment": "The loading event during which goods will be or have been loaded into or onto the means of transport used for this logistics transport movement."
+                }
+            ]
+        },
+        {
+            "@id": "unece:longitudeDirectionIndicator",
+            "@type": "rdfs:Property",
+            "schema:rangeIncludes": "xsd:boolean",
+            "schema:domainIncludes": "unece:GeographicalCoordinate",
+            "rdfs:comment": "The indication of whether the longitude as a compass direction from the Greenwich meridian to the meridian of a specific place is East (+) or West (-) for this geographical coordinate (Reference ISO 6709).",
+            "unece:cefactElementMetadata": [
+                {
+                    "@id": "cefact:GeographicalCoordinate.LongitudeDirection.Indicator",
+                    "@type": "unece:BasicBIE",
+                    "unece:cefactUNId": "cefact:",
+                    "unece:cefactBieDomainClass": "cefact:GeographicalCoordinate.Details",
+                    "unece:cefactBusinessProcess": "",
+                    "rdfs:comment": "The indication of whether the longitude as a compass direction from the Greenwich meridian to the meridian of a specific place is East (+) or West (-) for this geographical coordinate (Reference ISO 6709)."
+                }
+            ]
+        },
+        {
+            "@id": "unece:longitudeMeasure",
+            "@type": "rdfs:Property",
+            "schema:rangeIncludes": "xsd:decimal",
+            "schema:domainIncludes": "unece:GeographicalCoordinate",
+            "rdfs:comment": "The measure of the longitude as an angular distance east or west from the Greenwich meridian to the meridian of a specific place (Reference ISO 6709).",
+            "unece:cefactElementMetadata": [
+                {
+                    "@id": "cefact:GeographicalCoordinate.Longitude.Measure",
+                    "@type": "unece:BasicBIE",
+                    "unece:cefactUNId": "cefact:",
+                    "unece:cefactBieDomainClass": "cefact:GeographicalCoordinate.Details",
+                    "unece:cefactBusinessProcess": "",
+                    "rdfs:comment": "The measure of the longitude as an angular distance east or west from the Greenwich meridian to the meridian of a specific place (Reference ISO 6709)."
+                }
+            ]
+        },
+        {
+            "@id": "unece:mainCarriageLogisticsTransportMovement",
+            "@type": "rdfs:Property",
+            "schema:rangeIncludes": "unece:TransportMovement",
+            "schema:domainIncludes": "unece:Consignment",
+            "rdfs:comment": "A main carriage logistics transport movement for this supply chain consignment.",
+            "unece:cefactElementMetadata": [
+                {
+                    "@id": "cefact:SupplyChain_Consignment.MainCarriage.Logistics_TransportMovement",
+                    "@type": "unece:AssociationBIE",
+                    "unece:cefactUNId": "cefact:",
+                    "unece:cefactBieDomainClass": "cefact:SupplyChain_Consignment.Details",
+                    "unece:cefactBusinessProcess": "",
+                    "rdfs:comment": "A main carriage logistics transport movement for this supply chain consignment."
+                }
+            ]
+        },
+        {
+            "@id": "unece:markingText",
+            "@type": "rdfs:Property",
+            "schema:rangeIncludes": "xsd:string",
+            "schema:domainIncludes": [
+                "unece:ShippingMarks",
+                "unece:DangerousGoods"
+            ],
+            "rdfs:comment": [
+                "Marking, expressed as text, for these logistics shipping marks.",
+                "Marking, expressed as text, for these transported dangerous goods."
+            ],
+            "unece:cefactElementMetadata": [
+                {
+                    "@id": "cefact:Logistics_ShippingMarks.Marking.Text",
+                    "@type": "unece:BasicBIE",
+                    "unece:cefactUNId": "cefact:",
+                    "unece:cefactBieDomainClass": "cefact:Logistics_ShippingMarks.Details",
+                    "unece:cefactBusinessProcess": "",
+                    "rdfs:comment": "Marking, expressed as text, for these logistics shipping marks."
+                },
+                {
+                    "@id": "cefact:Transport_DangerousGoods.Marking.Text",
+                    "@type": "unece:BasicBIE",
+                    "unece:cefactUNId": "cefact:",
+                    "unece:cefactBieDomainClass": "cefact:Transport_DangerousGoods.Details",
+                    "unece:cefactBusinessProcess": "",
+                    "rdfs:comment": "Marking, expressed as text, for these transported dangerous goods."
+                }
+            ]
+        },
+        {
+            "@id": "unece:methodText",
+            "@type": "rdfs:Property",
+            "schema:rangeIncludes": "xsd:string",
+            "schema:domainIncludes": "unece:Measurement",
+            "rdfs:comment": "A measurement method expressed as text.",
+            "unece:cefactElementMetadata": [
+                {
+                    "@id": "cefact:Measurement.Method.Text",
+                    "@type": "unece:BasicBIE",
+                    "unece:cefactUNId": "cefact:",
+                    "unece:cefactBieDomainClass": "cefact:Measurement.Details",
+                    "unece:cefactBusinessProcess": "",
+                    "rdfs:comment": "A measurement method expressed as text."
+                }
+            ]
+        },
+        {
+            "@id": "unece:nameText",
+            "@type": "rdfs:Property",
+            "schema:rangeIncludes": "xsd:string",
+            "schema:domainIncludes": [
+                "unece:Party",
+                "unece:Country",
+                "unece:TransportMeans",
+                "unece:Location"
+            ],
+            "rdfs:comment": [
+                "A name, expressed as text, of this logistics related location.",
+                "The name, expressed as text, of this logistics means of transport.",
+                "The name, expressed as text, for this trade party.",
+                "A name, expressed as text, of this trade country."
+            ],
+            "unece:cefactElementMetadata": [
+                {
+                    "@id": "cefact:Trade_Country.Name.Text",
+                    "@type": "unece:BasicBIE",
+                    "unece:cefactUNId": "cefact:",
+                    "unece:cefactBieDomainClass": "cefact:Trade_Country.Details",
+                    "unece:cefactBusinessProcess": "",
+                    "rdfs:comment": "A name, expressed as text, of this trade country."
+                },
+                {
+                    "@id": "cefact:Trade_Party.Name.Text",
+                    "@type": "unece:BasicBIE",
+                    "unece:cefactUNId": "cefact:",
+                    "unece:cefactBieDomainClass": "cefact:Trade_Party.Details",
+                    "unece:cefactBusinessProcess": "",
+                    "rdfs:comment": "The name, expressed as text, for this trade party."
+                },
+                {
+                    "@id": "cefact:Logistics_Location.Name.Text",
+                    "@type": "unece:BasicBIE",
+                    "unece:cefactUNId": "cefact:",
+                    "unece:cefactBieDomainClass": "cefact:Logistics_Location.Details",
+                    "unece:cefactBusinessProcess": "",
+                    "rdfs:comment": "A name, expressed as text, of this logistics related location."
+                },
+                {
+                    "@id": "cefact:Logistics_TransportMeans.Name.Text",
+                    "@type": "unece:BasicBIE",
+                    "unece:cefactUNId": "cefact:",
+                    "unece:cefactBieDomainClass": "cefact:Logistics_TransportMeans.Details",
+                    "unece:cefactBusinessProcess": "",
+                    "rdfs:comment": "The name, expressed as text, of this logistics means of transport."
+                }
+            ]
+        },
+        {
+            "@id": "unece:natureIdentificationTransportCargo",
+            "@type": "rdfs:Property",
+            "schema:rangeIncludes": "unece:Cargo",
+            "schema:domainIncludes": "unece:ConsignmentItem",
+            "rdfs:comment": "Transport cargo details of this supply chain consignment item sufficient to identify its nature for customs, statistical or transport purposes.",
+            "unece:cefactElementMetadata": [
+                {
+                    "@id": "cefact:SupplyChain_ConsignmentItem.NatureIdentification.Transport_Cargo",
+                    "@type": "unece:AssociationBIE",
+                    "unece:cefactUNId": "cefact:",
+                    "unece:cefactBieDomainClass": "cefact:SupplyChain_ConsignmentItem.Details",
+                    "unece:cefactBusinessProcess": "",
+                    "rdfs:comment": "Transport cargo details of this supply chain consignment item sufficient to identify its nature for customs, statistical or transport purposes."
+                }
+            ]
+        },
+        {
+            "@id": "unece:netWeightWeightUnitMeasure",
+            "@type": "rdfs:Property",
+            "schema:rangeIncludes": "xsd:decimal",
+            "schema:domainIncludes": "unece:ConsignmentItem",
+            "rdfs:comment": "A measure of the net weight (mass) of this supply chain consignment item which excludes all packaging.",
+            "unece:cefactElementMetadata": [
+                {
+                    "@id": "cefact:SupplyChain_ConsignmentItem.NetWeight.Measure",
+                    "@type": "unece:BasicBIE",
+                    "unece:cefactUNId": "cefact:",
+                    "unece:cefactBieDomainClass": "cefact:SupplyChain_ConsignmentItem.Details",
+                    "unece:cefactBusinessProcess": "",
+                    "rdfs:comment": "A measure of the net weight (mass) of this supply chain consignment item which excludes all packaging."
+                }
+            ]
+        },
+        {
+            "@id": "unece:notifiedTradeParty",
+            "@type": "rdfs:Property",
+            "schema:rangeIncludes": "unece:Party",
+            "schema:domainIncludes": "unece:Consignment",
+            "rdfs:comment": "A party who has been or will be notified about this supply chain consignment.",
+            "unece:cefactElementMetadata": [
+                {
+                    "@id": "cefact:SupplyChain_Consignment.Notified.Trade_Party",
+                    "@type": "unece:AssociationBIE",
+                    "unece:cefactUNId": "cefact:",
+                    "unece:cefactBieDomainClass": "cefact:SupplyChain_Consignment.Details",
+                    "unece:cefactBusinessProcess": "",
+                    "rdfs:comment": "A party who has been or will be notified about this supply chain consignment."
+                }
+            ]
+        },
+        {
+            "@id": "unece:occurrenceLogisticsLocation",
+            "@type": "rdfs:Property",
+            "schema:rangeIncludes": "unece:Location",
+            "schema:domainIncludes": "unece:Event",
+            "rdfs:comment": "The logistics location where this transport event occurs.",
+            "unece:cefactElementMetadata": [
+                {
+                    "@id": "cefact:Transport_Event.Occurrence.Logistics_Location",
+                    "@type": "unece:AssociationBIE",
+                    "unece:cefactUNId": "cefact:",
+                    "unece:cefactBieDomainClass": "cefact:Transport_Event.Details",
+                    "unece:cefactBusinessProcess": "",
+                    "rdfs:comment": "The logistics location where this transport event occurs."
+                }
+            ]
+        },
+        {
+            "@id": "unece:originalIssuedQuantity",
+            "@type": "rdfs:Property",
+            "schema:rangeIncludes": "xsd:decimal",
+            "schema:domainIncludes": "unece:Document",
+            "rdfs:comment": "The number of originals issued of this exchanged document.",
+            "unece:cefactElementMetadata": [
+                {
+                    "@id": "cefact:Exchanged_Document.OriginalIssued.Quantity",
+                    "@type": "unece:BasicBIE",
+                    "unece:cefactUNId": "cefact:",
+                    "unece:cefactBieDomainClass": "cefact:Exchanged_Document.Details",
+                    "unece:cefactBusinessProcess": "",
+                    "rdfs:comment": "The number of originals issued of this exchanged document."
+                }
+            ]
+        },
+        {
+            "@id": "unece:originalRequiredQuantity",
+            "@type": "rdfs:Property",
+            "schema:rangeIncludes": "xsd:decimal",
+            "schema:domainIncludes": "unece:Document",
+            "rdfs:comment": "The number of originals required of this exchanged document.",
+            "unece:cefactElementMetadata": [
+                {
+                    "@id": "cefact:Exchanged_Document.OriginalRequired.Quantity",
+                    "@type": "unece:BasicBIE",
+                    "unece:cefactUNId": "cefact:",
+                    "unece:cefactBieDomainClass": "cefact:Exchanged_Document.Details",
+                    "unece:cefactBusinessProcess": "",
+                    "rdfs:comment": "The number of originals required of this exchanged document."
+                }
+            ]
+        },
+        {
+            "@id": "unece:packagingDangerLevelDangerousGoodsPackagingLevelCode",
+            "@type": "rdfs:Property",
+            "schema:rangeIncludes": "xsd:token",
+            "schema:domainIncludes": "unece:DangerousGoods",
+            "rdfs:comment": "The code specifying the level of danger that the packaging of these dangerous goods must cover for transport purposes.",
+            "unece:cefactElementMetadata": [
+                {
+                    "@id": "cefact:Transport_DangerousGoods.PackagingDangerLevel.Code",
+                    "@type": "unece:BasicBIE",
+                    "unece:cefactUNId": "cefact:",
+                    "unece:cefactBieDomainClass": "cefact:Transport_DangerousGoods.Details",
+                    "unece:cefactBusinessProcess": "",
+                    "rdfs:comment": "The code specifying the level of danger that the packaging of these dangerous goods must cover for transport purposes."
+                }
+            ]
+        },
+        {
+            "@id": "unece:packingInstructionTypeCode",
+            "@type": "rdfs:Property",
+            "schema:rangeIncludes": "xsd:token",
+            "schema:domainIncludes": "unece:DangerousGoods",
+            "rdfs:comment": "The code specifying a type of packing instruction for these transported dangerous goods.",
+            "unece:cefactElementMetadata": [
+                {
+                    "@id": "cefact:Transport_DangerousGoods.PackingInstructionType.Code",
+                    "@type": "unece:BasicBIE",
+                    "unece:cefactUNId": "cefact:",
+                    "unece:cefactBieDomainClass": "cefact:Transport_DangerousGoods.Details",
+                    "unece:cefactBusinessProcess": "",
+                    "rdfs:comment": "The code specifying a type of packing instruction for these transported dangerous goods."
+                }
+            ]
+        },
+        {
+            "@id": "unece:paymentArrangementTransportServicePaymentArrangementCode",
+            "@type": "rdfs:Property",
+            "schema:rangeIncludes": "xsd:token",
+            "schema:domainIncludes": [
+                "unece:ServiceCharge",
+                "unece:Service"
+            ],
+            "rdfs:comment": [
+                "The code specifying the payment arrangement for this logistics service charge [Reference United Nations Code List (UNCL) 4237].",
+                "The code specifying the payment arrangement for this transport service."
+            ],
+            "unece:cefactElementMetadata": [
+                {
+                    "@id": "cefact:Transport_Service.PaymentArrangement.Code",
+                    "@type": "unece:BasicBIE",
+                    "unece:cefactUNId": "cefact:",
+                    "unece:cefactBieDomainClass": "cefact:Transport_Service.Details",
+                    "unece:cefactBusinessProcess": "",
+                    "rdfs:comment": "The code specifying the payment arrangement for this transport service."
+                },
+                {
+                    "@id": "cefact:Logistics_ServiceCharge.PaymentArrangement.Code",
+                    "@type": "unece:BasicBIE",
+                    "unece:cefactUNId": "cefact:",
+                    "unece:cefactBieDomainClass": "cefact:Logistics_ServiceCharge.Details",
+                    "unece:cefactBusinessProcess": "",
+                    "rdfs:comment": "The code specifying the payment arrangement for this logistics service charge [Reference United Nations Code List (UNCL) 4237]."
+                }
+            ]
+        },
+        {
+            "@id": "unece:paymentPlaceLogisticsLocation",
+            "@type": "rdfs:Property",
+            "schema:rangeIncludes": "unece:Location",
+            "schema:domainIncludes": "unece:ServiceCharge",
+            "rdfs:comment": "The location of the place of payment of this logistics service charge.",
+            "unece:cefactElementMetadata": [
+                {
+                    "@id": "cefact:Logistics_ServiceCharge.PaymentPlace.Logistics_Location",
+                    "@type": "unece:AssociationBIE",
+                    "unece:cefactUNId": "cefact:",
+                    "unece:cefactBieDomainClass": "cefact:Logistics_ServiceCharge.Details",
+                    "unece:cefactBusinessProcess": "",
+                    "rdfs:comment": "The location of the place of payment of this logistics service charge."
+                }
+            ]
+        },
+        {
+            "@id": "unece:personNameText",
+            "@type": "rdfs:Property",
+            "schema:rangeIncludes": "xsd:string",
+            "schema:domainIncludes": "unece:Contact",
+            "rdfs:comment": "The name, expressed as text, of this trade contact person.",
+            "unece:cefactElementMetadata": [
+                {
+                    "@id": "cefact:Trade_Contact.PersonName.Text",
+                    "@type": "unece:BasicBIE",
+                    "unece:cefactUNId": "cefact:",
+                    "unece:cefactBieDomainClass": "cefact:Trade_Contact.Details",
+                    "unece:cefactBusinessProcess": "",
+                    "rdfs:comment": "The name, expressed as text, of this trade contact person."
+                }
+            ]
+        },
+        {
+            "@id": "unece:physicalLogisticsShippingMarks",
+            "@type": "rdfs:Property",
+            "schema:rangeIncludes": "unece:ShippingMarks",
+            "schema:domainIncludes": "unece:Package",
+            "rdfs:comment": [
+                "Physical shipping marks and barcode information for this logistics package.",
+                "Physical logistics shipping marks in this referenced logistics package."
+            ],
+            "unece:cefactElementMetadata": [
+                {
+                    "@id": "cefact:Logistics_Package.Physical.Logistics_ShippingMarks",
+                    "@type": "unece:AssociationBIE",
+                    "unece:cefactUNId": "cefact:",
+                    "unece:cefactBieDomainClass": "cefact:Logistics_Package.Details",
+                    "unece:cefactBusinessProcess": "",
+                    "rdfs:comment": "Physical shipping marks and barcode information for this logistics package."
+                },
+                {
+                    "@id": "cefact:Referenced_Logistics_Package.Physical.Logistics_ShippingMarks",
+                    "@type": "unece:AssociationBIE",
+                    "unece:cefactUNId": "cefact:",
+                    "unece:cefactBieDomainClass": "cefact:Referenced_Logistics_Package.Details",
+                    "unece:cefactBusinessProcess": "",
+                    "rdfs:comment": "Physical logistics shipping marks in this referenced logistics package."
+                }
+            ]
+        },
+        {
+            "@id": "unece:postalTradeAddress",
+            "@type": "rdfs:Property",
+            "schema:rangeIncludes": "unece:Address",
+            "schema:domainIncludes": "unece:Party",
+            "rdfs:comment": "The postal address for this trade party.",
+            "unece:cefactElementMetadata": [
+                {
+                    "@id": "cefact:Trade_Party.Postal.Trade_Address",
+                    "@type": "unece:AssociationBIE",
+                    "unece:cefactUNId": "cefact:",
+                    "unece:cefactBieDomainClass": "cefact:Trade_Party.Details",
+                    "unece:cefactBusinessProcess": "",
+                    "rdfs:comment": "The postal address for this trade party."
+                }
+            ]
+        },
+        {
+            "@id": "unece:postcodeCode",
+            "@type": "rdfs:Property",
+            "schema:rangeIncludes": "xsd:token",
+            "schema:domainIncludes": "unece:Address",
+            "rdfs:comment": "A code specifying the postcode of this trade address.",
+            "unece:cefactElementMetadata": [
+                {
+                    "@id": "cefact:Trade_Address.Postcode.Code",
+                    "@type": "unece:BasicBIE",
+                    "unece:cefactUNId": "cefact:",
+                    "unece:cefactBieDomainClass": "cefact:Trade_Address.Details",
+                    "unece:cefactBusinessProcess": "",
+                    "rdfs:comment": "A code specifying the postcode of this trade address."
+                }
+            ]
+        },
+        {
+            "@id": "unece:procedureText",
+            "@type": "rdfs:Property",
+            "schema:rangeIncludes": "xsd:string",
+            "schema:domainIncludes": "unece:Instructions",
+            "rdfs:comment": "A procedure, expressed as text, for these temperature setting instructions.",
+            "unece:cefactElementMetadata": [
+                {
+                    "@id": "cefact:TemperatureSetting_Instructions.Procedure.Text",
+                    "@type": "unece:BasicBIE",
+                    "unece:cefactUNId": "cefact:",
+                    "unece:cefactBieDomainClass": "cefact:TemperatureSetting_Instructions.Details",
+                    "unece:cefactBusinessProcess": "",
+                    "rdfs:comment": "A procedure, expressed as text, for these temperature setting instructions."
+                }
+            ]
+        },
+        {
+            "@id": "unece:recipientTradeParty",
+            "@type": "rdfs:Property",
+            "schema:rangeIncludes": "unece:Party",
+            "schema:domainIncludes": "unece:Document",
+            "rdfs:comment": "A trade party that receives this exchanged document.",
+            "unece:cefactElementMetadata": [
+                {
+                    "@id": "cefact:Exchanged_Document.Recipient.Trade_Party",
+                    "@type": "unece:AssociationBIE",
+                    "unece:cefactUNId": "cefact:",
+                    "unece:cefactBieDomainClass": "cefact:Exchanged_Document.Details",
+                    "unece:cefactBusinessProcess": "",
+                    "rdfs:comment": "A trade party that receives this exchanged document."
+                }
+            ]
+        },
+        {
+            "@id": "unece:regulationDangerousGoodsRegulationCode",
+            "@type": "rdfs:Property",
+            "schema:rangeIncludes": "xsd:token",
+            "schema:domainIncludes": "unece:DangerousGoods",
+            "rdfs:comment": "The code specifying a regulation applicable to these transported dangerous goods.",
+            "unece:cefactElementMetadata": [
+                {
+                    "@id": "cefact:Transport_DangerousGoods.Regulation.Code",
+                    "@type": "unece:BasicBIE",
+                    "unece:cefactUNId": "cefact:",
+                    "unece:cefactBieDomainClass": "cefact:Transport_DangerousGoods.Details",
+                    "unece:cefactBusinessProcess": "",
+                    "rdfs:comment": "The code specifying a regulation applicable to these transported dangerous goods."
+                }
+            ]
+        },
+        {
+            "@id": "unece:scheduledIdentificationIdentifier",
+            "@type": "rdfs:Property",
+            "schema:rangeIncludes": "xsd:token",
+            "schema:domainIncludes": "unece:TransportMovement",
+            "rdfs:comment": "A unique identifier for this logistics transport movement, such as a voyage number, flight number, or trip number, as stated in a schedule.",
+            "unece:cefactElementMetadata": [
+                {
+                    "@id": "cefact:Logistics_TransportMovement.Scheduled_Identification.Identifier",
+                    "@type": "unece:BasicBIE",
+                    "unece:cefactUNId": "cefact:",
+                    "unece:cefactBieDomainClass": "cefact:Logistics_TransportMovement.Details",
+                    "unece:cefactBusinessProcess": "",
+                    "rdfs:comment": "A unique identifier for this logistics transport movement, such as a voyage number, flight number, or trip number, as stated in a schedule."
+                }
+            ]
+        },
+        {
+            "@id": "unece:scheduledOccurrenceDateTime",
+            "@type": "rdfs:Property",
+            "schema:rangeIncludes": "xsd:dateTime",
+            "schema:domainIncludes": "unece:Event",
+            "rdfs:comment": "The scheduled date, time, date time, or other date time value of the occurrence of this transport event.",
+            "unece:cefactElementMetadata": [
+                {
+                    "@id": "cefact:Transport_Event.Scheduled_Occurrence.DateTime",
+                    "@type": "unece:BasicBIE",
+                    "unece:cefactUNId": "cefact:",
+                    "unece:cefactBieDomainClass": "cefact:Transport_Event.Details",
+                    "unece:cefactBusinessProcess": "",
+                    "rdfs:comment": "The scheduled date, time, date time, or other date time value of the occurrence of this transport event."
+                }
+            ]
+        },
+        {
+            "@id": "unece:sequenceNumeric",
+            "@type": "rdfs:Property",
+            "schema:rangeIncludes": "xsd:decimal",
+            "schema:domainIncludes": "unece:ConsignmentItem",
+            "rdfs:comment": "The sequence number for this supply chain consignment item.",
+            "unece:cefactElementMetadata": [
+                {
+                    "@id": "cefact:SupplyChain_ConsignmentItem.Sequence.Numeric",
+                    "@type": "unece:BasicBIE",
+                    "unece:cefactUNId": "cefact:",
+                    "unece:cefactBieDomainClass": "cefact:SupplyChain_ConsignmentItem.Details",
+                    "unece:cefactBusinessProcess": "",
+                    "rdfs:comment": "The sequence number for this supply chain consignment item."
+                }
+            ]
+        },
+        {
+            "@id": "unece:serviceRequirementTransportServiceRequirementCode",
+            "@type": "rdfs:Property",
+            "schema:rangeIncludes": "xsd:token",
+            "schema:domainIncludes": "unece:Service",
+            "rdfs:comment": "A code specifying a service requirement for this transport service.",
+            "unece:cefactElementMetadata": [
+                {
+                    "@id": "cefact:Transport_Service.ServiceRequirement.Code",
+                    "@type": "unece:BasicBIE",
+                    "unece:cefactUNId": "cefact:",
+                    "unece:cefactBieDomainClass": "cefact:Transport_Service.Details",
+                    "unece:cefactBusinessProcess": "",
+                    "rdfs:comment": "A code specifying a service requirement for this transport service."
+                }
+            ]
+        },
+        {
+            "@id": "unece:settingTransportSettingTemperature",
+            "@type": "rdfs:Property",
+            "schema:rangeIncludes": "unece:Temperature",
+            "schema:domainIncludes": "unece:TransportEquipment",
+            "rdfs:comment": "A temperature setting for this piece of logistics transport equipment, such as storage temperature or operational temperature.",
+            "unece:cefactElementMetadata": [
+                {
+                    "@id": "cefact:Logistics_TransportEquipment.Setting.TransportSetting_Temperature",
+                    "@type": "unece:AssociationBIE",
+                    "unece:cefactUNId": "cefact:",
+                    "unece:cefactBieDomainClass": "cefact:Logistics_TransportEquipment.Details",
+                    "unece:cefactBusinessProcess": "",
+                    "rdfs:comment": "A temperature setting for this piece of logistics transport equipment, such as storage temperature or operational temperature."
+                }
+            ]
+        },
+        {
+            "@id": "unece:specifiedTransportEvent",
+            "@type": "rdfs:Property",
+            "schema:rangeIncludes": "unece:Event",
+            "schema:domainIncludes": "unece:TransportMovement",
+            "rdfs:comment": "A transport event specified for this logistics transport movement.",
+            "unece:cefactElementMetadata": [
+                {
+                    "@id": "cefact:Logistics_TransportMovement.Specified.Transport_Event",
+                    "@type": "unece:AssociationBIE",
+                    "unece:cefactUNId": "cefact:",
+                    "unece:cefactBieDomainClass": "cefact:Logistics_TransportMovement.Details",
+                    "unece:cefactBusinessProcess": "",
+                    "rdfs:comment": "A transport event specified for this logistics transport movement."
+                }
+            ]
+        },
+        {
+            "@id": "unece:streetNameText",
+            "@type": "rdfs:Property",
+            "schema:rangeIncludes": "xsd:string",
+            "schema:domainIncludes": "unece:Address",
+            "rdfs:comment": "A name, expressed as text, of a street or thoroughfare for this trade address.",
+            "unece:cefactElementMetadata": [
+                {
+                    "@id": "cefact:Trade_Address.StreetName.Text",
+                    "@type": "unece:BasicBIE",
+                    "unece:cefactUNId": "cefact:",
+                    "unece:cefactBieDomainClass": "cefact:Trade_Address.Details",
+                    "unece:cefactBusinessProcess": "",
+                    "rdfs:comment": "A name, expressed as text, of a street or thoroughfare for this trade address."
+                }
+            ]
+        },
+        {
+            "@id": "unece:systemIdentifier",
+            "@type": "rdfs:Property",
+            "schema:rangeIncludes": "xsd:token",
+            "schema:domainIncludes": "unece:GeographicalCoordinate",
+            "rdfs:comment": "The unique identifier of the reference system used for measuring a geographical coordinate.",
+            "unece:cefactElementMetadata": [
+                {
+                    "@id": "cefact:GeographicalCoordinate.System.Identifier",
+                    "@type": "unece:BasicBIE",
+                    "unece:cefactUNId": "cefact:",
+                    "unece:cefactBieDomainClass": "cefact:GeographicalCoordinate.Details",
+                    "unece:cefactBusinessProcess": "",
+                    "rdfs:comment": "The unique identifier of the reference system used for measuring a geographical coordinate."
+                }
+            ]
+        },
+        {
+            "@id": "unece:technicalNameText",
+            "@type": "rdfs:Property",
+            "schema:rangeIncludes": "xsd:string",
+            "schema:domainIncludes": "unece:DangerousGoods",
+            "rdfs:comment": "A technical name, expressed as text, for these transported dangerous goods.",
+            "unece:cefactElementMetadata": [
+                {
+                    "@id": "cefact:Transport_DangerousGoods.TechnicalName.Text",
+                    "@type": "unece:BasicBIE",
+                    "unece:cefactUNId": "cefact:",
+                    "unece:cefactBieDomainClass": "cefact:Transport_DangerousGoods.Details",
+                    "unece:cefactBusinessProcess": "",
+                    "rdfs:comment": "A technical name, expressed as text, for these transported dangerous goods."
+                }
+            ]
+        },
+        {
+            "@id": "unece:telephoneUniversalCommunication",
+            "@type": "rdfs:Property",
+            "schema:rangeIncludes": "unece:Communication",
+            "schema:domainIncludes": "unece:Contact",
+            "rdfs:comment": "Telephone communication information for this trade contact.",
+            "unece:cefactElementMetadata": [
+                {
+                    "@id": "cefact:Trade_Contact.Telephone.Universal_Communication",
+                    "@type": "unece:AssociationBIE",
+                    "unece:cefactUNId": "cefact:",
+                    "unece:cefactBieDomainClass": "cefact:Trade_Contact.Details",
+                    "unece:cefactBusinessProcess": "",
+                    "rdfs:comment": "Telephone communication information for this trade contact."
+                }
+            ]
+        },
+        {
+            "@id": "unece:transportContractReferencedDocument",
+            "@type": "rdfs:Property",
+            "schema:rangeIncludes": "unece:Document",
+            "schema:domainIncludes": "unece:Consignment",
+            "rdfs:comment": "The referenced transport contract document for this supply chain consignment, such as an airwaybill or a seawaybill.",
+            "unece:cefactElementMetadata": [
+                {
+                    "@id": "cefact:SupplyChain_Consignment.TransportContract.Referenced_Document",
+                    "@type": "unece:AssociationBIE",
+                    "unece:cefactUNId": "cefact:",
+                    "unece:cefactBieDomainClass": "cefact:SupplyChain_Consignment.Details",
+                    "unece:cefactBusinessProcess": "",
+                    "rdfs:comment": "The referenced transport contract document for this supply chain consignment, such as an airwaybill or a seawaybill."
+                }
+            ]
+        },
+        {
+            "@id": "unece:transportEquipmentQuantity",
+            "@type": "rdfs:Property",
+            "schema:rangeIncludes": "xsd:decimal",
+            "schema:domainIncludes": "unece:Consignment",
+            "rdfs:comment": "A number of pieces of transport equipment, such as containers or similar unit load devices, in this supply chain consignment.",
+            "unece:cefactElementMetadata": [
+                {
+                    "@id": "cefact:SupplyChain_Consignment.TransportEquipment.Quantity",
+                    "@type": "unece:BasicBIE",
+                    "unece:cefactUNId": "cefact:",
+                    "unece:cefactBieDomainClass": "cefact:SupplyChain_Consignment.Details",
+                    "unece:cefactBusinessProcess": "",
+                    "rdfs:comment": "A number of pieces of transport equipment, such as containers or similar unit load devices, in this supply chain consignment."
+                }
+            ]
+        },
+        {
+            "@id": "unece:transportLogisticsPackage",
+            "@type": "rdfs:Property",
+            "schema:rangeIncludes": "unece:Package",
+            "schema:domainIncludes": "unece:ConsignmentItem",
+            "rdfs:comment": "A transport package for this supply chain consignment item.",
+            "unece:cefactElementMetadata": [
+                {
+                    "@id": "cefact:SupplyChain_ConsignmentItem.Transport.Logistics_Package",
+                    "@type": "unece:AssociationBIE",
+                    "unece:cefactUNId": "cefact:",
+                    "unece:cefactBieDomainClass": "cefact:SupplyChain_ConsignmentItem.Details",
+                    "unece:cefactBusinessProcess": "",
+                    "rdfs:comment": "A transport package for this supply chain consignment item."
+                }
+            ]
+        },
+        {
+            "@id": "unece:transportTransportService",
+            "@type": "rdfs:Property",
+            "schema:rangeIncludes": "unece:Service",
+            "schema:domainIncludes": "unece:Consignment",
+            "rdfs:comment": "A transport service for this supply chain consignment.",
+            "unece:cefactElementMetadata": [
+                {
+                    "@id": "cefact:SupplyChain_Consignment.Transport.Transport_Service",
+                    "@type": "unece:AssociationBIE",
+                    "unece:cefactUNId": "cefact:",
+                    "unece:cefactBieDomainClass": "cefact:SupplyChain_Consignment.Details",
+                    "unece:cefactBusinessProcess": "",
+                    "rdfs:comment": "A transport service for this supply chain consignment."
+                }
+            ]
+        },
+        {
+            "@id": "unece:typeCargoCategoryCode",
+            "@type": "rdfs:Property",
+            "schema:rangeIncludes": "xsd:token",
+            "schema:domainIncludes": "unece:Cargo",
+            "rdfs:comment": "The code, such as UNECE Recommendation 21 single digit codes, specifying the type of transported cargo.",
+            "unece:cefactElementMetadata": [
+                {
+                    "@id": "cefact:Transport_Cargo.Type.Code",
+                    "@type": "unece:BasicBIE",
+                    "unece:cefactUNId": "cefact:",
+                    "unece:cefactBieDomainClass": "cefact:Transport_Cargo.Details",
+                    "unece:cefactBusinessProcess": "",
+                    "rdfs:comment": "The code, such as UNECE Recommendation 21 single digit codes, specifying the type of transported cargo."
+                }
+            ]
+        },
+        {
+            "@id": "unece:typeCode",
+            "@type": "rdfs:Property",
+            "schema:rangeIncludes": "xsd:token",
+            "schema:domainIncludes": "unece:Measurement",
+            "rdfs:comment": "A code specifying a type of measurement.",
+            "unece:cefactElementMetadata": [
+                {
+                    "@id": "cefact:Measurement.Type.Code",
+                    "@type": "unece:BasicBIE",
+                    "unece:cefactUNId": "cefact:",
+                    "unece:cefactBieDomainClass": "cefact:Measurement.Details",
+                    "unece:cefactBusinessProcess": "",
+                    "rdfs:comment": "A code specifying a type of measurement."
+                }
+            ]
+        },
+        {
+            "@id": "unece:typeDocumentCode",
+            "@type": "rdfs:Property",
+            "schema:rangeIncludes": "xsd:token",
+            "schema:domainIncludes": "unece:Document",
+            "rdfs:comment": "The code specifying the type of exchanged document.",
+            "unece:cefactElementMetadata": [
+                {
+                    "@id": "cefact:Exchanged_Document.Type.Code",
+                    "@type": "unece:BasicBIE",
+                    "unece:cefactUNId": "cefact:",
+                    "unece:cefactBieDomainClass": "cefact:Exchanged_Document.Details",
+                    "unece:cefactBusinessProcess": "",
+                    "rdfs:comment": "The code specifying the type of exchanged document."
+                }
+            ]
+        },
+        {
+            "@id": "unece:typeGoodsTypeCode",
+            "@type": "rdfs:Property",
+            "schema:rangeIncludes": "xsd:token",
+            "schema:domainIncludes": "unece:ConsignmentItem",
+            "rdfs:comment": "The code specifying the type of supply chain consignment item.",
+            "unece:cefactElementMetadata": [
+                {
+                    "@id": "cefact:SupplyChain_ConsignmentItem.Type.Code",
+                    "@type": "unece:BasicBIE",
+                    "unece:cefactUNId": "cefact:",
+                    "unece:cefactBieDomainClass": "cefact:SupplyChain_ConsignmentItem.Details",
+                    "unece:cefactBusinessProcess": "",
+                    "rdfs:comment": "The code specifying the type of supply chain consignment item."
+                }
+            ]
+        },
+        {
+            "@id": "unece:typePackageTypeCode",
+            "@type": "rdfs:Property",
+            "schema:rangeIncludes": "xsd:token",
+            "schema:domainIncludes": "unece:Package",
+            "rdfs:comment": [
+                "A code specifying the type of logistics package.",
+                "The code specifying the type of referenced logistics package."
+            ],
+            "unece:cefactElementMetadata": [
+                {
+                    "@id": "cefact:Referenced_Logistics_Package.Type.Code",
+                    "@type": "unece:BasicBIE",
+                    "unece:cefactUNId": "cefact:",
+                    "unece:cefactBieDomainClass": "cefact:Referenced_Logistics_Package.Details",
+                    "unece:cefactBusinessProcess": "",
+                    "rdfs:comment": "The code specifying the type of referenced logistics package."
+                },
+                {
+                    "@id": "cefact:Logistics_Package.Type.Code",
+                    "@type": "unece:BasicBIE",
+                    "unece:cefactUNId": "cefact:",
+                    "unece:cefactBieDomainClass": "cefact:Logistics_Package.Details",
+                    "unece:cefactBusinessProcess": "",
+                    "rdfs:comment": "A code specifying the type of logistics package."
+                }
+            ]
+        },
+        {
+            "@id": "unece:typeTemperatureTypeCode",
+            "@type": "rdfs:Property",
+            "schema:rangeIncludes": "xsd:token",
+            "schema:domainIncludes": "unece:Temperature",
+            "rdfs:comment": "The code specifying the type of transport setting temperature [Reference United Nations Code List (UNCL) 6245].",
+            "unece:cefactElementMetadata": [
+                {
+                    "@id": "cefact:TransportSetting_Temperature.Type.Code",
+                    "@type": "unece:BasicBIE",
+                    "unece:cefactUNId": "cefact:",
+                    "unece:cefactBieDomainClass": "cefact:TransportSetting_Temperature.Details",
+                    "unece:cefactBusinessProcess": "",
+                    "rdfs:comment": "The code specifying the type of transport setting temperature [Reference United Nations Code List (UNCL) 6245]."
+                }
+            ]
+        },
+        {
+            "@id": "unece:uNDGIdentificationCode",
+            "@type": "rdfs:Property",
+            "schema:rangeIncludes": "xsd:token",
+            "schema:domainIncludes": "unece:DangerousGoods",
+            "rdfs:comment": "The code specifying the unique United Nations Dangerous Goods (UNDG) number assigned to these transported dangerous goods.",
+            "unece:cefactElementMetadata": [
+                {
+                    "@id": "cefact:Transport_DangerousGoods.UNDGIdentification.Code",
+                    "@type": "unece:BasicBIE",
+                    "unece:cefactUNId": "cefact:",
+                    "unece:cefactBieDomainClass": "cefact:Transport_DangerousGoods.Details",
+                    "unece:cefactBusinessProcess": "",
+                    "rdfs:comment": "The code specifying the unique United Nations Dangerous Goods (UNDG) number assigned to these transported dangerous goods."
+                }
+            ]
+        },
+        {
+            "@id": "unece:uRIIdentifier",
+            "@type": "rdfs:Property",
+            "schema:rangeIncludes": "xsd:token",
+            "schema:domainIncludes": "unece:Communication",
+            "rdfs:comment": "The Uniform Resource Identifier (URI), such as a web or an email address, for this universal communication.",
+            "unece:cefactElementMetadata": [
+                {
+                    "@id": "cefact:Universal_Communication.URI.Identifier",
+                    "@type": "unece:BasicBIE",
+                    "unece:cefactUNId": "cefact:",
+                    "unece:cefactBieDomainClass": "cefact:Universal_Communication.Details",
+                    "unece:cefactBusinessProcess": "",
+                    "rdfs:comment": "The Uniform Resource Identifier (URI), such as a web or an email address, for this universal communication."
+                }
+            ]
+        },
+        {
+            "@id": "unece:uRLIdentifier",
+            "@type": "rdfs:Property",
+            "schema:rangeIncludes": "xsd:token",
+            "schema:domainIncludes": "unece:Clause",
+            "rdfs:comment": "The Uniform Resource Locator (URL) for this document clause.",
+            "unece:cefactElementMetadata": [
+                {
+                    "@id": "cefact:Document_Clause.URL.Identifier",
+                    "@type": "unece:BasicBIE",
+                    "unece:cefactUNId": "cefact:",
+                    "unece:cefactBieDomainClass": "cefact:Document_Clause.Details",
+                    "unece:cefactBusinessProcess": "",
+                    "rdfs:comment": "The Uniform Resource Locator (URL) for this document clause."
+                }
+            ]
+        },
+        {
+            "@id": "unece:unloadingTransportEvent",
+            "@type": "rdfs:Property",
+            "schema:rangeIncludes": "unece:Event",
+            "schema:domainIncludes": "unece:TransportMovement",
+            "rdfs:comment": "The unloading event during which goods will be or have been unloaded from the means of transport used for this logistics transport movement.",
+            "unece:cefactElementMetadata": [
+                {
+                    "@id": "cefact:Logistics_TransportMovement.Unloading.Transport_Event",
+                    "@type": "unece:AssociationBIE",
+                    "unece:cefactUNId": "cefact:",
+                    "unece:cefactBieDomainClass": "cefact:Logistics_TransportMovement.Details",
+                    "unece:cefactBusinessProcess": "",
+                    "rdfs:comment": "The unloading event during which goods will be or have been unloaded from the means of transport used for this logistics transport movement."
+                }
+            ]
+        },
+        {
+            "@id": "unece:usedLogisticsTransportMeans",
+            "@type": "rdfs:Property",
+            "schema:rangeIncludes": "unece:TransportMeans",
+            "schema:domainIncludes": "unece:TransportMovement",
+            "rdfs:comment": "The means of transport used for this logistics transport movement.",
+            "unece:cefactElementMetadata": [
+                {
+                    "@id": "cefact:Logistics_TransportMovement.Used.Logistics_TransportMeans",
+                    "@type": "unece:AssociationBIE",
+                    "unece:cefactUNId": "cefact:",
+                    "unece:cefactBieDomainClass": "cefact:Logistics_TransportMovement.Details",
+                    "unece:cefactBusinessProcess": "",
+                    "rdfs:comment": "The means of transport used for this logistics transport movement."
+                }
+            ]
+        },
+        {
+            "@id": "unece:utilizedLogisticsTransportEquipment",
+            "@type": "rdfs:Property",
+            "schema:rangeIncludes": "unece:TransportEquipment",
+            "schema:domainIncludes": "unece:Consignment",
+            "rdfs:comment": "Logistics transport equipment utilized for this supply chain consignment.",
+            "unece:cefactElementMetadata": [
+                {
+                    "@id": "cefact:SupplyChain_Consignment.Utilized.Logistics_TransportEquipment",
+                    "@type": "unece:AssociationBIE",
+                    "unece:cefactUNId": "cefact:",
+                    "unece:cefactBieDomainClass": "cefact:SupplyChain_Consignment.Details",
+                    "unece:cefactBusinessProcess": "",
+                    "rdfs:comment": "Logistics transport equipment utilized for this supply chain consignment."
+                }
+            ]
+        },
+        {
+            "@id": "unece:valueTemperatureUnitMeasure",
+            "@type": "rdfs:Property",
+            "schema:rangeIncludes": "xsd:decimal",
+            "schema:domainIncludes": "unece:Temperature",
+            "rdfs:comment": "The measure of the value of this transport setting temperature, such as a temperature value of ten degrees Celsius.",
+            "unece:cefactElementMetadata": [
+                {
+                    "@id": "cefact:TransportSetting_Temperature.Value.Measure",
+                    "@type": "unece:BasicBIE",
+                    "unece:cefactUNId": "cefact:",
+                    "unece:cefactBieDomainClass": "cefact:TransportSetting_Temperature.Details",
+                    "unece:cefactBusinessProcess": "",
+                    "rdfs:comment": "The measure of the value of this transport setting temperature, such as a temperature value of ten degrees Celsius."
+                }
+            ]
+        }
+    ]
+}
