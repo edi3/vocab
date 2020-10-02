@@ -2,7 +2,7 @@
     "@context": {
         "id": "@id",
         "type": "@type",
-        "@vocab": "https://unece.org/vocab#",
+        "@vocab": "https://edi3.org/vocabulary/unece/#",
         "Address": {
             "@id": "unece:Address"
         },
