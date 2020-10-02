@@ -1,0 +1,412 @@
+{
+    "@context": {
+        "id": "@id",
+        "type": "@type",
+        "@vocab": "https://unece.org/vocab#",
+        "Address": {
+            "@id": "unece:Address"
+        },
+        "Cargo": {
+            "@id": "unece:Cargo"
+        },
+        "Clause": {
+            "@id": "unece:Clause"
+        },
+        "Communication": {
+            "@id": "unece:Communication"
+        },
+        "Consignment": {
+            "@id": "unece:Consignment"
+        },
+        "ConsignmentItem": {
+            "@id": "unece:ConsignmentItem"
+        },
+        "Contact": {
+            "@id": "unece:Contact"
+        },
+        "Country": {
+            "@id": "unece:Country"
+        },
+        "DangerousGoods": {
+            "@id": "unece:DangerousGoods"
+        },
+        "Document": {
+            "@id": "unece:Document"
+        },
+        "Event": {
+            "@id": "unece:Event"
+        },
+        "GeographicalCoordinate": {
+            "@id": "unece:GeographicalCoordinate"
+        },
+        "Instructions": {
+            "@id": "unece:Instructions"
+        },
+        "Location": {
+            "@id": "unece:Location"
+        },
+        "Measurement": {
+            "@id": "unece:Measurement"
+        },
+        "Package": {
+            "@id": "unece:Package"
+        },
+        "Party": {
+            "@id": "unece:Party"
+        },
+        "Route": {
+            "@id": "unece:Route"
+        },
+        "Seal": {
+            "@id": "unece:Seal"
+        },
+        "Service": {
+            "@id": "unece:Service"
+        },
+        "ServiceCharge": {
+            "@id": "unece:ServiceCharge"
+        },
+        "ShippingMarks": {
+            "@id": "unece:ShippingMarks"
+        },
+        "Temperature": {
+            "@id": "unece:Temperature"
+        },
+        "TransportEquipment": {
+            "@id": "unece:TransportEquipment"
+        },
+        "TransportMeans": {
+            "@id": "unece:TransportMeans"
+        },
+        "TransportMovement": {
+            "@id": "unece:TransportMovement"
+        },
+        "actualMeasure": {
+            "@id": "unece:actualMeasure"
+        },
+        "actualOccurrenceDateTime": {
+            "@id": "unece:actualOccurrenceDateTime"
+        },
+        "affixedLogisticsSeal": {
+            "@id": "unece:affixedLogisticsSeal"
+        },
+        "applicableLogisticsServiceCharge": {
+            "@id": "unece:applicableLogisticsServiceCharge"
+        },
+        "applicableTransportDangerousGoods": {
+            "@id": "unece:applicableTransportDangerousGoods"
+        },
+        "appliedAmount": {
+            "@id": "unece:appliedAmount"
+        },
+        "associatedReferencedLogisticsTransportEquipment": {
+            "@id": "unece:associatedReferencedLogisticsTransportEquipment"
+        },
+        "attachedSpecifiedBinaryFile": {
+            "@id": "unece:attachedSpecifiedBinaryFile"
+        },
+        "carrierAcceptanceLogisticsLocation": {
+            "@id": "unece:carrierAcceptanceLogisticsLocation"
+        },
+        "carrierAssignedIdentifier": {
+            "@id": "unece:carrierAssignedIdentifier"
+        },
+        "carrierTradeParty": {
+            "@id": "unece:carrierTradeParty"
+        },
+        "categoryTransportEquipmentCategoryCode": {
+            "@id": "unece:categoryTransportEquipmentCategoryCode"
+        },
+        "categoryTransportServiceCategoryCode": {
+            "@id": "unece:categoryTransportServiceCategoryCode"
+        },
+        "characteristicText": {
+            "@id": "unece:characteristicText"
+        },
+        "characteristicTransportEquipmentSizeTypeCode": {
+            "@id": "unece:characteristicTransportEquipmentSizeTypeCode"
+        },
+        "chargeableWeightWeightUnitMeasure": {
+            "@id": "unece:chargeableWeightWeightUnitMeasure"
+        },
+        "cityNameText": {
+            "@id": "unece:cityNameText"
+        },
+        "completeNumberText": {
+            "@id": "unece:completeNumberText"
+        },
+        "conditionMeasure": {
+            "@id": "unece:conditionMeasure"
+        },
+        "conditionTypeTransportServiceConditionCode": {
+            "@id": "unece:conditionTypeTransportServiceConditionCode"
+        },
+        "consigneeReceiptLogisticsLocation": {
+            "@id": "unece:consigneeReceiptLogisticsLocation"
+        },
+        "consigneeTradeParty": {
+            "@id": "unece:consigneeTradeParty"
+        },
+        "consignorAssignedIdentifier": {
+            "@id": "unece:consignorAssignedIdentifier"
+        },
+        "consignorTradeParty": {
+            "@id": "unece:consignorTradeParty"
+        },
+        "contentText": {
+            "@id": "unece:contentText"
+        },
+        "copyIssuedQuantity": {
+            "@id": "unece:copyIssuedQuantity"
+        },
+        "copyRequiredQuantity": {
+            "@id": "unece:copyRequiredQuantity"
+        },
+        "countryNameText": {
+            "@id": "unece:countryNameText"
+        },
+        "definedTradeContact": {
+            "@id": "unece:definedTradeContact"
+        },
+        "descriptionCode": {
+            "@id": "unece:descriptionCode"
+        },
+        "descriptionText": {
+            "@id": "unece:descriptionText"
+        },
+        "eMSIdentifier": {
+            "@id": "unece:eMSIdentifier"
+        },
+        "emailURIUniversalCommunication": {
+            "@id": "unece:emailURIUniversalCommunication"
+        },
+        "estimatedOccurrenceDateTime": {
+            "@id": "unece:estimatedOccurrenceDateTime"
+        },
+        "finalDestinationLogisticsLocation": {
+            "@id": "unece:finalDestinationLogisticsLocation"
+        },
+        "flashpointTemperatureMeasurement": {
+            "@id": "unece:flashpointTemperatureMeasurement"
+        },
+        "formattedIssueFormattedDateTime": {
+            "@id": "unece:formattedIssueFormattedDateTime"
+        },
+        "freightForwarderTradeParty": {
+            "@id": "unece:freightForwarderTradeParty"
+        },
+        "geoCoordinateIdentificationGeographicalCoordinate": {
+            "@id": "unece:geoCoordinateIdentificationGeographicalCoordinate"
+        },
+        "grossVolumeVolumeUnitMeasure": {
+            "@id": "unece:grossVolumeVolumeUnitMeasure"
+        },
+        "grossWeightWeightUnitMeasure": {
+            "@id": "unece:grossWeightWeightUnitMeasure"
+        },
+        "handlingHandlingInstructions": {
+            "@id": "unece:handlingHandlingInstructions"
+        },
+        "hazardClassVersionIdentifier": {
+            "@id": "unece:hazardClassVersionIdentifier"
+        },
+        "hazardClassificationIdentifier": {
+            "@id": "unece:hazardClassificationIdentifier"
+        },
+        "identificationCountryIdentifier": {
+            "@id": "unece:identificationCountryIdentifier"
+        },
+        "identificationIdentifier": {
+            "@id": "unece:identificationIdentifier"
+        },
+        "identificationText": {
+            "@id": "unece:identificationText"
+        },
+        "includedReferencedSupplyChainConsignment": {
+            "@id": "unece:includedReferencedSupplyChainConsignment"
+        },
+        "includedSupplyChainConsignmentItem": {
+            "@id": "unece:includedSupplyChainConsignmentItem"
+        },
+        "informationTemperatureSettingInstructions": {
+            "@id": "unece:informationTemperatureSettingInstructions"
+        },
+        "informationText": {
+            "@id": "unece:informationText"
+        },
+        "issueDateTime": {
+            "@id": "unece:issueDateTime"
+        },
+        "issueLogisticsLocation": {
+            "@id": "unece:issueLogisticsLocation"
+        },
+        "issuerTradeParty": {
+            "@id": "unece:issuerTradeParty"
+        },
+        "itemQuantity": {
+            "@id": "unece:itemQuantity"
+        },
+        "itineraryStopTransportEvent": {
+            "@id": "unece:itineraryStopTransportEvent"
+        },
+        "latitudeDirectionIndicator": {
+            "@id": "unece:latitudeDirectionIndicator"
+        },
+        "latitudeMeasure": {
+            "@id": "unece:latitudeMeasure"
+        },
+        "loadingTransportEvent": {
+            "@id": "unece:loadingTransportEvent"
+        },
+        "longitudeDirectionIndicator": {
+            "@id": "unece:longitudeDirectionIndicator"
+        },
+        "longitudeMeasure": {
+            "@id": "unece:longitudeMeasure"
+        },
+        "mainCarriageLogisticsTransportMovement": {
+            "@id": "unece:mainCarriageLogisticsTransportMovement"
+        },
+        "markingText": {
+            "@id": "unece:markingText"
+        },
+        "methodText": {
+            "@id": "unece:methodText"
+        },
+        "nameText": {
+            "@id": "unece:nameText"
+        },
+        "natureIdentificationTransportCargo": {
+            "@id": "unece:natureIdentificationTransportCargo"
+        },
+        "netWeightWeightUnitMeasure": {
+            "@id": "unece:netWeightWeightUnitMeasure"
+        },
+        "notifiedTradeParty": {
+            "@id": "unece:notifiedTradeParty"
+        },
+        "occurrenceLogisticsLocation": {
+            "@id": "unece:occurrenceLogisticsLocation"
+        },
+        "originalIssuedQuantity": {
+            "@id": "unece:originalIssuedQuantity"
+        },
+        "originalRequiredQuantity": {
+            "@id": "unece:originalRequiredQuantity"
+        },
+        "packagingDangerLevelDangerousGoodsPackagingLevelCode": {
+            "@id": "unece:packagingDangerLevelDangerousGoodsPackagingLevelCode"
+        },
+        "packingInstructionTypeCode": {
+            "@id": "unece:packingInstructionTypeCode"
+        },
+        "paymentArrangementTransportServicePaymentArrangementCode": {
+            "@id": "unece:paymentArrangementTransportServicePaymentArrangementCode"
+        },
+        "paymentPlaceLogisticsLocation": {
+            "@id": "unece:paymentPlaceLogisticsLocation"
+        },
+        "personNameText": {
+            "@id": "unece:personNameText"
+        },
+        "physicalLogisticsShippingMarks": {
+            "@id": "unece:physicalLogisticsShippingMarks"
+        },
+        "postalTradeAddress": {
+            "@id": "unece:postalTradeAddress"
+        },
+        "postcodeCode": {
+            "@id": "unece:postcodeCode"
+        },
+        "procedureText": {
+            "@id": "unece:procedureText"
+        },
+        "recipientTradeParty": {
+            "@id": "unece:recipientTradeParty"
+        },
+        "regulationDangerousGoodsRegulationCode": {
+            "@id": "unece:regulationDangerousGoodsRegulationCode"
+        },
+        "scheduledIdentificationIdentifier": {
+            "@id": "unece:scheduledIdentificationIdentifier"
+        },
+        "scheduledOccurrenceDateTime": {
+            "@id": "unece:scheduledOccurrenceDateTime"
+        },
+        "sequenceNumeric": {
+            "@id": "unece:sequenceNumeric"
+        },
+        "serviceRequirementTransportServiceRequirementCode": {
+            "@id": "unece:serviceRequirementTransportServiceRequirementCode"
+        },
+        "settingTransportSettingTemperature": {
+            "@id": "unece:settingTransportSettingTemperature"
+        },
+        "specifiedTransportEvent": {
+            "@id": "unece:specifiedTransportEvent"
+        },
+        "streetNameText": {
+            "@id": "unece:streetNameText"
+        },
+        "systemIdentifier": {
+            "@id": "unece:systemIdentifier"
+        },
+        "technicalNameText": {
+            "@id": "unece:technicalNameText"
+        },
+        "telephoneUniversalCommunication": {
+            "@id": "unece:telephoneUniversalCommunication"
+        },
+        "transportContractReferencedDocument": {
+            "@id": "unece:transportContractReferencedDocument"
+        },
+        "transportEquipmentQuantity": {
+            "@id": "unece:transportEquipmentQuantity"
+        },
+        "transportLogisticsPackage": {
+            "@id": "unece:transportLogisticsPackage"
+        },
+        "transportTransportService": {
+            "@id": "unece:transportTransportService"
+        },
+        "typeCargoCategoryCode": {
+            "@id": "unece:typeCargoCategoryCode"
+        },
+        "typeCode": {
+            "@id": "unece:typeCode"
+        },
+        "typeDocumentCode": {
+            "@id": "unece:typeDocumentCode"
+        },
+        "typeGoodsTypeCode": {
+            "@id": "unece:typeGoodsTypeCode"
+        },
+        "typePackageTypeCode": {
+            "@id": "unece:typePackageTypeCode"
+        },
+        "typeTemperatureTypeCode": {
+            "@id": "unece:typeTemperatureTypeCode"
+        },
+        "uNDGIdentificationCode": {
+            "@id": "unece:uNDGIdentificationCode"
+        },
+        "uRIIdentifier": {
+            "@id": "unece:uRIIdentifier"
+        },
+        "uRLIdentifier": {
+            "@id": "unece:uRLIdentifier"
+        },
+        "unloadingTransportEvent": {
+            "@id": "unece:unloadingTransportEvent"
+        },
+        "usedLogisticsTransportMeans": {
+            "@id": "unece:usedLogisticsTransportMeans"
+        },
+        "utilizedLogisticsTransportEquipment": {
+            "@id": "unece:utilizedLogisticsTransportEquipment"
+        },
+        "valueTemperatureUnitMeasure": {
+            "@id": "unece:valueTemperatureUnitMeasure"
+        }
+    }
+}
